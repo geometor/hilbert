@@ -1,4 +1,6 @@
 docs/
+docsrc/modules/api/
+.doctrees
 .venv/
 __pycache__/
 *.py[cod]

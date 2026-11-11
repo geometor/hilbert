@@ -1,0 +1,206 @@
+{
+  "anordnung": {
+    "headword": "Anordnung (Axiome der Anordnung)",
+    "language": "German",
+    "translation": "Order / Arrangement (Axioms of Order)",
+    "definition": "Hilbert's Group II axioms (II 1–5 in § 3), governing the ternary relation 'between' (zwischen) for collinear points together with Pasch's planar separation axiom (II 5). Entirely implicit in Euclid, these axioms secure segment interiors, rays, half-planes, and polygonal separation."
+  },
+  "anschauung": {
+    "headword": "Anschauung",
+    "language": "German",
+    "translation": "Intuition (spatial intuition)",
+    "definition": "In Kant's epigraph and Hilbert's Introduction, the pre-axiomatic perceptual and imaginative grasp of spatial figures. While Hilbert motivates his five axiom groups as independent basic facts of spatial intuition, formal deduction within the system is barred from appealing to intuition."
+  },
+  "archimedisches-axiom": {
+    "headword": "Archimedisches Axiom",
+    "language": "German",
+    "translation": "Axiom of Archimedes (Group V / V 1)",
+    "definition": "Hilbert's continuity axiom (§ 8) asserting that for any two segments AB and CD, laying off CD a finite number n of times from A along ray AB eventually surpasses B. Equivalent to excluding nonzero infinitesimal and infinite segments in the coordinate field."
+  },
+  "congruenz": {
+    "headword": "Congruenz / Kongruenz (Axiome der Congruenz)",
+    "language": "German",
+    "translation": "Congruence (Axioms of Congruence)",
+    "definition": "Hilbert's Group IV axioms in 1899/1902 (IV 1–6 in § 6; renumbered Group III in later editions), axiomatizing equality of segments and angles without appealing to Euclidean superposition or rigid motion, culminating in the triangle bridge axiom IV 6."
+  },
+  "desarguesscher-satz": {
+    "headword": "Desarguesscher Satz",
+    "language": "German",
+    "translation": "Desargues's Theorem",
+    "definition": "In Hilbert's affine formulation (§ 22, Theorem 32): if two triangles lie in the same plane with corresponding sides parallel and two pairs of corresponding vertices joined by lines concurrent at O (or parallel), then the line joining the third pair of vertices passes through O (or is parallel to them). Characterizes planes coordinatizable over an associative division ring."
+  },
+  "desarguessches-zahlensystem": {
+    "headword": "Desarguessches Zahlensystem",
+    "language": "German",
+    "translation": "Desarguesian Number System (Ordered Associative Skew-Field)",
+    "definition": "The algebraic system constructed in §§ 24–27 (Theorem 34) from planar Incidence, Order, Parallels, and Desargues's Theorem without Congruence. Satisfies all field axioms except commutativity of multiplication (ab = ba)."
+  },
+  "eichmass": {
+    "headword": "Eichmass",
+    "language": "German",
+    "translation": "Fixed-Unit Segment Gauge",
+    "definition": "Later-edition specialization (7th ed., Ch. VII) of Hilbert's 1899 Streckenübertrager ('transferer of segments'): an instrument capable only of laying off a single fixed unit segment 1 along any straight line, yet equivalent in constructive power to transferring arbitrary segments once parallel lines are available."
+  },
+  "einerseits-andererseits": {
+    "headword": "einerseits / andererseits",
+    "language": "German",
+    "translation": "On the one side / On the other side",
+    "definition": "Relational phrases used by Hilbert in §§ 3–4 to partition collinear rays around a point O or planar regions around a straight line a. Analyzed by Peter Hoenen (Caput V § 3.2.B) as tacitly appealing to intuitive spatial orientation."
+  },
+  "epharmozein": {
+    "headword": "ἐφαρμόζειν (epharmozein)",
+    "language": "Greek",
+    "translation": "To apply / superpose / coincide",
+    "definition": "Euclid's method of superposition in Common Notion 4 and Propositions I.4 and I.8 ('the triangle being applied to the triangle...'). Replaced in Hilbert's § 6–7 by static relational congruence axioms (IV 1–6), as detailed by T. L. Heath (Vol. I, pp. 228–230, 249–250)."
+  },
+  "erweiterungsfaehig": {
+    "headword": "keiner Erweiterung mehr fähig",
+    "language": "German",
+    "translation": "Incapable of any further extension",
+    "definition": "Key phrase of Hilbert's 1900/1902 Axiom of Completeness (Vollständigkeit, § 8 Remark), characterizing the Euclidean space R³ as maximal among models satisfying Axioms I–IV and Archimedes's Axiom."
+  },
+  "erklaerung": {
+    "headword": "Erklärung (pl. Erklärungen)",
+    "language": "German",
+    "translation": "Explanation / Definition",
+    "definition": "Hilbert's heading in §§ 1, 3, 4, 6, 7, 18 for introducing primitive systems or defined geometric configurations (segment, ray, angle, triangle, polygon). Scrutinized by Peter Hoenen (Caput IV, Prelim. fn. 1) for introducing existential geometric structures prior to formal proof."
+  },
+  "flaechengleich": {
+    "headword": "flächengleich (later: zerlegungsgleich)",
+    "language": "German",
+    "translation": "Equal in area by decomposition / Equidecomposable (Townsend: 'equal by addition')",
+    "definition": "In Hilbert's 1899 First Edition (§ 18), two polygons are flächengleich if they can be dissected into a finite number of pairwise congruent triangles. In later German editions Hilbert renamed this relation zerlegungsgleich (cited by Heath on Euclid I.35, Vol. I p. 328)."
+  },
+  "flaechenmass": {
+    "headword": "Flächenmass (Inhaltsmass)",
+    "language": "German",
+    "translation": "Measure of Area",
+    "definition": "Signed segment-product value assigned to oriented triangles and polygons in § 20 (half the product of base and altitude in Hilbert's Streckenrechnung), enabling Hilbert to prove De Zolt's postulate (Euclid C.N. 5, Theorem 30) without Archimedes's Axiom."
+  },
+  "halbstrahl": {
+    "headword": "Halbstrahl",
+    "language": "German",
+    "translation": "Half-ray / Ray",
+    "definition": "One of the two equivalence classes of points on a straight line separated by an origin point O (§ 4); the carriers h, k of an angle ∠(h, k) in § 6."
+  },
+  "inhaltsgleich": {
+    "headword": "inhaltsgleich (later also: ergänzungsgleich)",
+    "language": "German",
+    "translation": "Of equal content / Equicomplementable",
+    "definition": "In § 18, two polygons are inhaltsgleich if it is possible to adjoin flächengleich (equidecomposable) polygons to them so that the resulting composite polygons are themselves flächengleich. Without Archimedes's Axiom, inhaltsgleich is strictly weaker than flächengleich (§ 21, Theorem 31)."
+  },
+  "materia-intelligibilis": {
+    "headword": "materia intelligibilis (ὕλη νοητή)",
+    "language": "Latin (Scholastic) / Greek",
+    "translation": "Intelligible matter (pure spatial extension)",
+    "definition": "Central Aristotelian-Thomistic concept in Peter Hoenen's De Noetica Geometriae (Caput VI–VII): continuous three-dimensional extension abstracted from sensible qualities, which Hoenen argues supplies the indispensable intuitive ground covertly presupposed by Hilbert's axioms."
+  },
+  "nicht-archimedische-geometrie": {
+    "headword": "Nicht-Archimedische Geometrie",
+    "language": "German",
+    "translation": "Non-Archimedean Geometry",
+    "definition": "A geometry satisfying Axioms I–IV (or subsets thereof) in which Archimedes's Axiom V fails, such as Hilbert's § 12 geometry over the ordered algebraic function field Ω(t) containing elements infinitesimally small or infinitely large relative to 1."
+  },
+  "nicht-desarguessche-geometrie": {
+    "headword": "Nicht-Desarguessche Geometrie",
+    "language": "German",
+    "translation": "Non-Desarguesian Geometry",
+    "definition": "A planar geometry satisfying planar Incidence (I 1–2), Order (II), Parallels (III), and Continuity (V), in which Desargues's Theorem fails—exemplified by Hilbert's 1899 ellipse-refraction plane (§ 23, Theorem 33), which cannot be embedded in any 3D incidence space."
+  },
+  "nicht-pascalsche-geometrie": {
+    "headword": "Nicht-Pascalsche Geometrie",
+    "language": "German",
+    "translation": "Non-Pascalian (Non-Pappian) Geometry",
+    "definition": "A 3D Desarguesian geometry satisfying Axioms I, II, III (without Congruence IV or Archimedes V) in which Pappus's/Pascal's Hexagon Theorem fails—constructed by Hilbert in §§ 32–33 (Theorem 38) over the non-commutative skew-field Ω(s, t) with ts = 2st."
+  },
+  "parallelenaxiom": {
+    "headword": "Parallelenaxiom (Euklidisches Axiom)",
+    "language": "German",
+    "translation": "Axiom of Parallels (Euclidean Axiom)",
+    "definition": "Group III in Hilbert's 1899/1902 edition (§ 5; Group IV in later editions): in a plane α, through a point A outside a line a there can be drawn at most one straight line that does not intersect a."
+  },
+  "pascalscher-satz": {
+    "headword": "Pascalscher Satz (Pappus's Hexagon Theorem)",
+    "language": "German",
+    "translation": "Pascal's Theorem (Affine Pappus's Hexagon Theorem)",
+    "definition": "Hilbert's name (§ 14, Theorem 21; §§ 31–35) for the degenerate two-line case of Pascal's conic hexagram—historically discovered by Pappus of Alexandria (Synagoge VII.138–139). If A, B, C and A', B', C' lie on two intersecting lines and CB' ∥ BC' and CA' ∥ AC', then BA' ∥ AB'. Equivalent to commutativity of segment multiplication ab = ba."
+  },
+  "pasch-axiom": {
+    "headword": "Axiom von Pasch (II 5)",
+    "language": "German",
+    "translation": "Pasch's Axiom",
+    "definition": "Planar order axiom (§ 3, II 5): if a straight line in the plane of triangle ABC does not pass through any vertex and intersects segment AB, it must also intersect either segment BC or segment AC."
+  },
+  "phantasma": {
+    "headword": "phantasma (φάντασμα)",
+    "language": "Latin / Greek",
+    "translation": "Imaginative diagram / sensory-spatial image",
+    "definition": "In Aristotle and Hoenen (Caput I–V), the concrete imaginative figure in which the intellect reads universal geometric relations by formal abstraction—contrasted with Hilbert's rule forbidding appeals to the diagram during deduction."
+  },
+  "reinheit-der-methode": {
+    "headword": "Reinheit der Methode",
+    "language": "German",
+    "translation": "Purity of Method",
+    "definition": "Hilbert's guiding epistemological maxim in the Conclusion (Schlusswort): in proving any geometric theorem, one ought to employ only those axiom groups intrinsically required by the content of the proposition (e.g., proving planar proportion and area without Continuity, or projective theorems without Congruence)."
+  },
+  "strecke": {
+    "headword": "Strecke",
+    "language": "German",
+    "translation": "Segment (Line Segment)",
+    "definition": "Defined in § 3 as the unordered pair of distinct points A, B on a straight line; points lying between A and B are the interior points of segment AB."
+  },
+  "streckenrechnung": {
+    "headword": "Streckenrechnung",
+    "language": "German",
+    "translation": "Calculus / Arithmetic of Segments",
+    "definition": "Hilbert's purely synthetic construction of addition (a + b) and multiplication (ab) on geometric segments—carried out first via planar Congruence and Pappus/Pascal in § 15 (yielding a commutative ordered field) and again without Congruence via Desargues's Theorem in §§ 24–26 (yielding an ordered skew-field)."
+  },
+  "streckenuebertrager": {
+    "headword": "Streckenübertrager",
+    "language": "German",
+    "translation": "Transferer of Segments",
+    "definition": "The restricted compass-substitute introduced in § 36 of the 1899/1902 edition for laying off a given segment along a straight line without drawing full circles or circle-circle intersections; specialized in later editions to the fixed-unit gauge Eichmass."
+  },
+  "total-positiv": {
+    "headword": "total positiv",
+    "language": "German",
+    "translation": "Totally positive",
+    "definition": "In §§ 37–39, an algebraic number or rational function in a real quadratic tower whose value remains strictly positive under every combination of signs (±) of all square roots appearing in its radical expression—shown by Hilbert (Theorem 43) to be expressible as a sum of squares."
+  },
+  "unabhaengigkeit": {
+    "headword": "gegenseitige Unabhängigkeit",
+    "language": "German",
+    "translation": "Mutual Independence (of Axioms)",
+    "definition": "Metamathematical property demonstrated in Chapter II (§§ 10–12) and Chapters V–VI: an axiom is independent of a collection of other axioms if there exists an analytic or geometric interpretation satisfying all the other axioms while falsifying the target axiom."
+  },
+  "verknuepfung": {
+    "headword": "Verknüpfung (Axiome der Verknüpfung)",
+    "language": "German",
+    "translation": "Connection / Incidence (Axioms of Connection)",
+    "definition": "Hilbert's Group I axioms (I 1–7 in § 2), specifying the incidence relations ('lies upon', 'passes through', 'contains') among points, straight lines, and planes."
+  },
+  "vollstaendigkeit": {
+    "headword": "Axiom der Vollständigkeit",
+    "language": "German",
+    "translation": "Axiom of Completeness",
+    "definition": "Introduced by Hilbert in 1900 (and included in Townsend's 1902 § 8 Remark; numbered V 2 in later German editions): asserts that the points, lines, and planes cannot be extended to a larger system preserving all preceding axioms, uniquely fixing isomorphic correspondence with real Cartesian space R³."
+  },
+  "widerspruchslosigkeit": {
+    "headword": "Widerspruchslosigkeit",
+    "language": "German",
+    "translation": "Compatibility / Non-Contradiction / Consistency",
+    "definition": "Metamathematical property proved in § 9 by mapping points, lines, and planes onto coordinates over the countable algebraic field Ω, reducing the consistency of Euclidean geometry to the arithmetic consistency of algebraic numbers."
+  },
+  "zerlegungsgleich": {
+    "headword": "zerlegungsgleich",
+    "language": "German",
+    "translation": "Equidecomposable (equal by dissection)",
+    "definition": "Hilbert's later-edition term (replacing 1899 flächengleich in § 18, cited by Heath on Euclid I.35) for two polygons or polyhedra that can be partitioned into finitely many pairwise congruent simplices."
+  },
+  "zwischen": {
+    "headword": "zwischen",
+    "language": "German",
+    "translation": "Between (Ternary Betweenness Relation)",
+    "definition": "The primitive order relation among three collinear points governed by Axioms II 1–4 (§ 3), formalizing linear interiority without metric distance."
+  }
+}
