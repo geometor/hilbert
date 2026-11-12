@@ -1,0 +1,648 @@
+
+
+<!DOCTYPE html>
+<html lang="en" data-content_root="../../">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Chapter V: Desargues’s Theorem &mdash; GRUNDLAGEN DER GEOMETRIE</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..700;1,400..700&family=Fira+Sans+Condensed:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600;1,700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" type="text/css" href="../../_static/pygments.css?v=ea5fcf70" />
+  <link rel="stylesheet" type="text/css" href="../../_static/css/styles.css?v=66998e95" />
+  <link rel="stylesheet" type="text/css" href="../../_static/graphviz.css?v=4ae1632d" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css" />
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js"></script>
+  <link rel="stylesheet" href="../../_static/css/print.css" type="text/css" media="print" />
+  <link rel="icon" href="../../_static/favicon.ico" />
+</head>
+
+<body class="is-book-page book-theme-classical-serif">
+  <header>
+    <div class="logo">
+      <a href="../../index.html">
+        <h1>GEOMETOR • hilbert</h1>
+      </a>
+      <div class="org-repo">
+        <span class="org">GEOMETOR</span>
+        •
+        <span class="repo">hilbert</span>
+      </div>
+    </div>
+    <nav aria-label="Header">
+      <input type="checkbox" id="nav-Header-toggle" >
+      <label for="nav-Header-toggle" >Header</label>
+      <ul>
+        <li>
+          <a href="../../mission/index.html"  >mission</a>
+        </li>
+        <li>
+          <a href="../../log/index.html"  >log</a>
+        </li>
+        <li>
+          <a href="../../modules/index.html"  >modules</a>
+        </li>
+      </ul>
+    </nav>
+    <div class="motto"></div>
+  </header>
+  <main class="book-main">
+    <article class="book-layout book-reading-pane">
+      <header class="book-header">
+        <div class="book-header-bar">
+          <div class="book-header-identity">
+            <a class="book-portal-link" href="../../index.html" title="Return to Project Portal">&larr; hilbert</a>
+            <span class="book-header-sep">/</span>
+            <a class="book-title-link" href="../index.html">GRUNDLAGEN DER GEOMETRIE</a>
+          </div>
+        </div>
+        <div class="book-header-nav">
+          <div class="book-nav-prev">
+            <a class="book-nav-btn" href="../chapter-4/chapter-4-en.html" title="Chapter IV: The Theory of Plane Areas">&larr; <span class="nav-label">Prev</span></a>
+          </div>
+          <div class="book-nav-center">
+            <nav class="book-tracks-nav" aria-label="Document Tracks">
+              <strong class="book-track-item is-active" aria-current="page">English</strong>
+              <span class="book-track-sep">&middot;</span>
+              <a class="book-track-item" href="chapter-5-de.html">Deutsch</a>
+              <span class="book-track-sep">&middot;</span>
+              <a class="book-track-item" href="chapter-5-summary.html">Summary</a>
+              <span class="book-track-sep">&middot;</span>
+              <a class="book-track-item" href="chapter-5-notes.html">Notes</a>
+            </nav>
+          </div>
+          <div class="book-nav-next">
+            <a class="book-nav-btn" href="../chapter-6/chapter-6-en.html" title="Chapter VI: Pascal’s Theorem"><span class="nav-label">Next</span> &rarr;</a>
+          </div>
+        </div>
+      </header>
+      <div class="content body book-content folio-book-page" role="main">
+        <section class="level-1" id="chapter-v-desargues-s-theorem">
+        <span id="grundlagen-chapter-5-en"></span><h1>Chapter V: Desargues’s Theorem<a class="headerlink" href="#chapter-v-desargues-s-theorem" title="Link to this heading">¶</a></h1>
+        <p class="rubric">David Hilbert — <em>The Foundations of Geometry</em> (Authorized Translation by E. J. Townsend, 1902)</p>
+        <nav class="contents local" id="in-this-unit">
+        <p class="topic-title">In This Unit</p>
+        <ul class="simple">
+        <li><p><a class="reference internal" href="#desargues-s-theorem-and-its-demonstration-for-plane-geometry-by-aid-of-the-axioms-of-congruence" id="id2">§ 22. Desargues’s Theorem and Its Demonstration for Plane Geometry by Aid of the Axioms of Congruence</a></p></li>
+        <li><p><a class="reference internal" href="#the-impossibility-of-demonstrating-desargues-s-theorem-for-the-plane-without-the-help-of-the-axioms-of-congruence" id="id3">§ 23. The Impossibility of Demonstrating Desargues’s Theorem for the Plane Without the Help of the Axioms of Congruence</a></p></li>
+        <li><p><a class="reference internal" href="#introduction-of-an-algebra-of-segments-based-upon-desargues-s-theorem-and-independent-of-the-axioms-of-congruence" id="id4">§ 24. Introduction of an Algebra of Segments Based Upon Desargues’s Theorem and Independent of the Axioms of Congruence</a></p></li>
+        <li><p><a class="reference internal" href="#the-commutative-and-the-associative-law-of-addition-for-our-new-algebra-of-segments" id="id5">§ 25. The Commutative and the Associative Law of Addition for Our New Algebra of Segments</a></p></li>
+        <li><p><a class="reference internal" href="#the-associative-law-of-multiplication-and-the-two-distributive-laws-for-the-new-algebra-of-segments" id="id6">§ 26. The Associative Law of Multiplication and the Two Distributive Laws for the New Algebra of Segments</a></p></li>
+        <li><p><a class="reference internal" href="#equation-of-the-straight-line-based-upon-the-new-algebra-of-segments" id="id7">§ 27. Equation of the Straight Line, Based Upon the New Algebra of Segments</a></p></li>
+        <li><p><a class="reference internal" href="#the-totality-of-segments-regarded-as-a-complex-number-system" id="id8">§ 28. The Totality of Segments Regarded as a Complex Number System</a></p></li>
+        <li><p><a class="reference internal" href="#construction-of-a-geometry-of-space-by-aid-of-a-desarguesian-number-system" id="id9">§ 29. Construction of a Geometry of Space by Aid of a Desarguesian Number System</a></p></li>
+        <li><p><a class="reference internal" href="#significance-of-desargues-s-theorem" id="id10">§ 30. Significance of Desargues’s Theorem</a></p></li>
+        </ul>
+        </nav>
+        <div class="folio-milestone" id="folio-§ 22" data-folio="§ 22" data-page="71">[Folio § 22 | p. 71]</div>
+        <section class="level-2" id="desargues-s-theorem-and-its-demonstration-for-plane-geometry-by-aid-of-the-axioms-of-congruence">
+        <h2>§ 22. Desargues’s Theorem and Its Demonstration for Plane Geometry by Aid of the Axioms of Congruence<a class="headerlink" href="#desargues-s-theorem-and-its-demonstration-for-plane-geometry-by-aid-of-the-axioms-of-congruence" title="Link to this heading">¶</a></h2>
+        <p>Of the axioms given in §§ 1–8, pp. 1–26, those of groups II–V are in part linear and in part plane axioms. Axioms 3–7 of group I are the only space axioms. In order to show clearly the significance of these axioms of space, let us assume a plane geometry and investigate, in general, the conditions for which this plane geometry may be regarded as a part of a geometry of space in which at least the axioms of groups I–III are all fulfilled.</p>
+        <p>Upon the basis of the axioms of groups I–III, it is well known that the so-called theorem of Desargues may be easily demonstrated. This theorem relates to points of intersection in a plane. Let us assume in particular that the straight line, upon which are situated the points of intersection of the homologous sides of the two triangles, is the straight line which we call the straight line at infinity. We will designate the theorem which arises in this case, together with its converse, as the theorem of Desargues. This theorem is as follows:</p>
+        <p id="grundlagen-en-thm-32"><strong>Theorem 32.</strong> (Desargues’s theorem.) When two triangles are so situated in a plane that their homologous sides are respectively parallel, then the lines joining the homologous vertices pass through one and the same point, or are parallel to one another.</p>
+        <p>Conversely, if two triangles are so situated in a plane that the straight lines joining the homologous vertices intersect in a common point, or are parallel to one another, and, furthermore, if two pairs of homologous sides are parallel to each other, then the third sides of the two triangles are also parallel to each other.</p>
+        <p>As we have already mentioned, theorem 32 is a consequence of the axioms I–III. Because of this fact, the validity of Desargues’s theorem in the plane is, in any case, a necessary condition that the geometry of this plane may be regarded as a part of a geometry of space in which the axioms of groups I–III are all fulfilled.</p>
+        <p>Let us assume, as in §§ 13–21, pp. 37–70, that we have a plane geometry in which the axioms I, 1–2 and II–IV all hold and, also, that we have introduced in this geometry an algebra of segments conforming to § 15.</p>
+        <p>Now, as has already been established in § 17, there may be made to correspond to each point in the plane a pair of segments $(x, y)$ and to each straight line a ratio of three segments $(u:v:w)$, so that the linear equation</p>
+        <p>$$
+        ux+vy+w=0
+        $$</p>
+        <p>expresses the condition that the point is situated upon the straight line. The system composed of all the segments in our geometry forms, according to § 17, a domain of numbers for which the properties (1–16), enumerated in § 13, are valid. We can, therefore, by means of this domain of numbers, construct a geometry of space in a manner similar to that already employed in § 9 or in § 12, where we made use of the systems of numbers $\Omega$ and $\Omega(t)$, respectively. For this purpose, we assume that a system of three segments $(x, y, z)$ shall represent a point, and that the ratio of four segments $(u:v:w:r)$ shall represent a plane, while a straight line is defined as the intersection of two planes. Hence, the linear equation</p>
+        <p>$$
+        ux+vy+wz+r = 0
+        $$</p>
+        <p>expresses the fact that the point $(x, y, z)$ lies in the plane $(u: v: w: r)$. Finally, we determine the arrangement of the points upon a straight line, or the points of a plane with respect to a straight line situated in this plane, or the arrangement of the points in space with respect to a plane, by means of inequalities in a manner similar to the method employed for the plane in § 9.</p>
+        <p>Since we obtain again the original plane geometry by putting $z=0$, we know that our plane geometry can be regarded as a part of geometry of space. Now, the validity of Desargues’s theorem is, according to the above considerations, a necessary condition for this result.  Hence, in the assumed plane geometry, it follows that Desargues’s theorem must also hold.</p>
+        <p>It will be seen that the result just stated may also be deduced without difficulty from theorem 23 in the theory of proportion.</p>
+        <figure class="photon-picture photon-svg">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 485 220" width="485" height="220" class="euclid-graphic" data-graphic-id="fig_desargues_configuration" data-proposition="S.22">
+          <line x1="42.00" y1="112.00" x2="433.21" y2="-54.06" class="geom-line" />
+          <line x1="42.00" y1="112.00" x2="466.42" y2="134.24" class="geom-line" />
+          <line x1="42.00" y1="112.00" x2="430.26" y2="284.86" class="geom-line" />
+          <polygon points="175.47,55.34 236.73,122.21 188.17,177.08" class="geom-polygon" />
+          <polygon points="306.28,-0.18 427.57,132.21 331.41,240.85" class="geom-polygon-gnomon" />
+          <line x1="175.47" y1="55.34" x2="236.73" y2="122.21" class="geom-bold" />
+          <line x1="236.73" y1="122.21" x2="188.17" y2="177.08" class="geom-bold" />
+          <line x1="306.28" y1="-0.18" x2="427.57" y2="132.21" class="geom-bold" />
+          <line x1="427.57" y1="132.21" x2="331.41" y2="240.85" class="geom-bold" />
+          <line x1="175.47" y1="55.34" x2="188.17" y2="177.08" class="geom-assert-line" />
+          <line x1="306.28" y1="-0.18" x2="331.41" y2="240.85" class="geom-assert-line" />
+          <circle cx="42.00" cy="112.00" r="3.30" class="geom-point" />
+          <text x="28.00" y="117.00" text-anchor="middle" class="geom-label">O</text>
+          <circle cx="175.47" cy="55.34" r="3.30" class="geom-point" />
+          <text x="171.47" y="45.34" text-anchor="middle" class="geom-label">A</text>
+          <circle cx="236.73" cy="122.21" r="3.30" class="geom-point" />
+          <text x="242.73" y="113.21" text-anchor="middle" class="geom-label">B</text>
+          <circle cx="188.17" cy="177.08" r="3.30" class="geom-point" />
+          <text x="184.17" y="194.08" text-anchor="middle" class="geom-label">C</text>
+          <circle cx="306.28" cy="-0.18" r="3.30" class="geom-point" />
+          <text x="306.28" y="-10.18" text-anchor="middle" class="geom-label">A'</text>
+          <circle cx="427.57" cy="132.21" r="3.30" class="geom-point" />
+          <text x="437.57" y="124.21" text-anchor="middle" class="geom-label">B'</text>
+          <circle cx="331.41" cy="240.85" r="3.30" class="geom-point" />
+          <text x="333.41" y="258.85" text-anchor="middle" class="geom-label">C'</text>
+        </svg>
+        <figcaption>**Affine Desargues Configuration of Perspective Triangles (Theorem 32).** Theorem 32: triangles ABC and A'B'C' perspective from O with AB ∥ A'B' and BC ∥ B'C' satisfy AC ∥ A'C'.</figcaption>
+        </figure>
+        <div class="folio-milestone" id="folio-§ 23" data-folio="§ 23" data-page="74">[Folio § 23 | p. 74]</div>
+        </section>
+        <section class="level-2" id="the-impossibility-of-demonstrating-desargues-s-theorem-for-the-plane-without-the-help-of-the-axioms-of-congruence">
+        <h2>§ 23. The Impossibility of Demonstrating Desargues’s Theorem for the Plane Without the Help of the Axioms of Congruence<a class="headerlink" href="#the-impossibility-of-demonstrating-desargues-s-theorem-for-the-plane-without-the-help-of-the-axioms-of-congruence" title="Link to this heading">¶</a></h2>
+        <p>We shall now investigate the question whether or no in plane geometry Desargues’s theorem may be deduced without the assistance of the axioms of congruence. This leads us to the following result:</p>
+        <p id="grundlagen-en-thm-33"><strong>Theorem 33.</strong> A plane geometry exists in which the axioms I 1–2, II–III, IV 1–5, V, that is to say, all linear and all plane axioms with the exception of axiom IV, 6 of congruence, are fulfilled, but in which the theorem of Desargues (theorem 32) is not valid. Desargues’s theorem is not, therefore, a consequence solely of the axioms mentioned; for, its demonstration necessitates either the space axioms or all of the axioms of congruence.</p>
+        <p><strong>Proof.</strong> Select in the ordinary plane geometry (the possibility of which has already been demonstrated in § 9, pp. 27–30) any two straight lines perpendicular to each other as the axes of $x$ and $y$. Construct about the origin $O$ of this system of co-ordinates an ellipse having the major and minor axes equal to 1 and $\frac{1}{2}$, respectively. Finally, let $F$ denote the point situated upon the positive $x$-axis at the distance $\frac{3}{2}$ from $O$. Consider all of the circles which cut the ellipse in four real points. These points may be either distinct or in any way coincident. Of all the points situated upon these circles, we shall attempt to determine the one which lies upon the $x$-axis farthest from the origin. For this purpose, let us begin with an arbitrary circle cutting the ellipse in four distinct points and intersecting the positive $x$-axis in the point $C$. Suppose this circle then turned about the point $C$ in such a manner that two or more of the four points of intersection with the ellipse finally coincide in a single point $A$, while the rest of them remain real. Increase now the resulting tangent circle in such a way that $A$ always remains a point of tangency with the ellipse. In this way we obtain a circle which is either tangent to the ellipse in also a second point $B$, or which has with the ellipse a four-point contact in $A$. Moreover, this circle cuts the positive $x$-axis in a point more remote than $C$. The desired farthest point will accordingly be found among those points of intersection of the positive $x$-axis by circles lying exterior to the ellipse and being doubly tangent to it. All such circles must lie, as we can easily see, symmetrically with respect to the $y$-axis. Let $a$, $b$ be the co-ordinates of any point on the ellipse. Then an easy calculation shows that the circle, which is symmetrical with respect to $y$-axis and tangent to the ellipse at this point, cuts off from the positive $x$-axis the segment</p>
+        <p>$$
+        x = \mid \sqrt{1 + 3b^2} \mid.
+        $$</p>
+        <p>The greatest possible value of this expression occurs for $b = \frac{1}{2}$ and, hence, is equal to $\frac{1}{2}\mid\sqrt{7}\mid$. Since the point on the $x$-axis which we have denoted by $F$ has for its abscissa the value $\frac{3}{2} &gt; \frac{1}{2} \mid\sqrt{7}\mid$, it follows that <em>among the circles cutting the ellipse four times there is certainly none which passes through the point $F$.</em></p>
+        <p>We will now construct a new plane geometry in the following manner. As points in this new geometry, let us take the points of the $(xy)$-plane. We will define a straight line of our new geometry in the following manner. Every straight line of the $(xy)$-plane which is either tangent to the fixed ellipse, or does not cut it at all, is taken unchanged as a straight line of the new geometry. However, when any straight line $g$ of the $(xy)$-plane cuts the ellipse, say in the points $P$ and $Q$, we will then define the corresponding</p>
+        <p>straight line of the new geometry as follows. Construct a circle passing through the points $P$ and $Q$ and the fixed point $F$. From what has just been said, this circle will have no other point in common with the ellipse. We will now take the broken line, consisting of the arc $PQ$ just mentioned and the two parts of the straight line $g$ extending outward indefinitely from the points $P$ and $Q$, as the required straight line in our new geometry. Let us suppose all of the broken lines constructed which correspond to straight lines of the $(xy)$-plane. We have then a system of broken lines which, considered as straight lines of our new geometry, evidently satisfy the axioms I, 1–2 and III. By a convention as to the actual arrangement of the points and the straight lines in our new geometry, we have also the axioms II fulfilled.</p>
+        <p>Moreover, we will call two segments $AB$ and $A'B'$ congruent in this new geometry, if the broken line extending between $A$ and $B$ has equal length, in the ordinary sense of the word, with the broken line extending from $A'$ to $B'$.</p>
+        <p>Finally, we need a convention concerning the congruence of angles. So long as neither of the vertices of the angles to be compared lies upon the ellipse, we call the two angles congruent to each other, if they are equal in the ordinary sense. In all other cases we make the following convention. Let $A, B, C$ be points which follow one another in this order upon a straight line of our new geometry, and let $A', B', C'$ be also points which lie in this order upon another straight line of our new geometry. Let $D$ be a point lying outside of the straight line $ABC$ and $D'$ be a point outside of the straight $A'B'C'$. We will now say that, in our new geometry, the angles between these straight lines fulfill the congruences</p>
+        <p>$$
+        \angle ABD \equiv \angle A'B'D'  \text{and}  \angle CBD \equiv \angle C'B'D'
+        $$</p>
+        <p>whenever the natural angles between the corresponding broken lines of the ordinary geometry fulfill the proportion</p>
+        <p>$$
+        \angle ABD: \angle CBD = \angle A'B'D' : \angle C'B'D'.
+        $$</p>
+        <p>These conventions render the axioms IV, 1–5 and V valid.</p>
+        <p>In order to see that Desargues’s theorem does not hold for our new geometry, let us consider the following three ordinary straight lines of the $(xy)$-plane; viz., the axis of $x$, the axis of $y$, and the straight line joining the two points of the ellipse $(\frac{3}{5},\frac{2}{5})$ and $(-\frac{3}{5},-\frac{2}{5})$. Since these three ordinary straight lines pass through the origin, we can easily construct two triangles so that their vertices shall lie respectively upon these three straight lines and their homologous sides shall be parallel and all three sides shall lie exterior to the ellipse. As we may see from figure 40, or show</p>
+        <p>by an easy calculation, the broken lines arising from the three straight lines in question do not intersect in a common point. Hence, it follows that Desargues’s theorem certainly does not hold for this particular plane geometry in which we have constructed the two triangles just considered.</p>
+        <p>This new geometry serves at the same time as an example of a plane geometry in which the axioms I, 1–2, II–III, IV, 1–5, V all hold, but which cannot be considered as a part of a geometry of space.</p>
+        <figure class="photon-picture photon-svg">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 475 218" width="475" height="218" class="euclid-graphic" data-graphic-id="fig_non_desarguesian_plane" data-proposition="S.23">
+          <line x1="30.00" y1="112.00" x2="450.00" y2="112.00" class="geom-dashed" />
+          <line x1="225.00" y1="16.00" x2="225.00" y2="206.00" class="geom-dashed" />
+          <ellipse cx="225.00" cy="112.00" rx="135.00" ry="76.00" class="geom-circle" />
+          <line x1="25.62" y1="69.22" x2="110.51" y2="71.73" class="geom-bold" />
+          <line x1="346.34" y1="78.68" x2="431.23" y2="81.19" class="geom-bold" />
+          <line x1="110.51" y1="71.73" x2="346.34" y2="78.68" class="geom-dashed" />
+          <path d="M 110.51 71.73 A 175 175 0 0 0 346.34 78.68" class="geom-accent-line" />
+          <circle cx="322.20" cy="112.00" r="3.30" class="geom-point-accent" />
+          <text x="322.20" y="129.00" text-anchor="middle" class="geom-label">F</text>
+          <circle cx="110.51" cy="71.73" r="3.30" class="geom-point" />
+          <circle cx="346.34" cy="78.68" r="3.30" class="geom-point" />
+          <text x="98.51" y="63.73" text-anchor="middle" class="geom-label">P</text>
+          <text x="358.34" y="70.68" text-anchor="middle" class="geom-label">Q</text>
+          <text x="140.00" y="168.00" text-anchor="middle" class="geom-label-sm">Ellipse Boundary</text>
+          <text x="235.00" y="144.00" text-anchor="middle" class="geom-label-sm">Hilbert Arc</text>
+        </svg>
+        <figcaption>**Hilbert's 1899 Non-Desarguesian Plane via Ellipse Arc Refraction (§ 23).** Theorem 33: Euclidean lines cutting the ellipse are replaced inside the boundary by circular arcs through F, satisfying planar I 1–2, II, III, IV 1–5, V while violating Desargues.</figcaption>
+        </figure>
+        <div class="folio-milestone" id="folio-§ 24" data-folio="§ 24" data-page="79">[Folio § 24 | p. 79]</div>
+        </section>
+        <section class="level-2" id="introduction-of-an-algebra-of-segments-based-upon-desargues-s-theorem-and-independent-of-the-axioms-of-congruence">
+        <h2>§ 24. Introduction of an Algebra of Segments Based Upon Desargues’s Theorem and Independent of the Axioms of Congruence<a class="headerlink" href="#introduction-of-an-algebra-of-segments-based-upon-desargues-s-theorem-and-independent-of-the-axioms-of-congruence" title="Link to this heading">¶</a></h2>
+        <p>In order to see fully the significance of Desargues’s theorem (theorem 32), let us take as the basis of our consideration a plane geometry where all of the axioms I 1–2, II–III are valid, that is to say, where all of the plane axioms of the first three groups hold, and then introduce into this geometry, in the following manner, a new algebra of segments independent of the axioms of congruence.</p>
+        <p>Take in the plane two fixed straight lines intersecting in $O$, and consider only such segments as have $O$ for their origin and their other extremity in one of the fixed lines. We will regard the point $O$ itself as a segment and call it the segment $O$. We will indicate this fact by writing</p>
+        <p>$$
+        OO = 0,  \text{or}  0 = OO.
+        $$</p>
+        <p>Let $E$ and $E'$ be two definite points situated respectively upon the two fixed straight lines through $O$. Then, define the two segments $OE$ and $OE'$ as the segment 1 and write accordingly</p>
+        <p>$$
+        OE = OE' = 1  \text{or}  1 = OE = OE'.
+        $$</p>
+        <p>We will call the straight line $EE'$, for brevity, the unit-line. If, furthermore, $A$ and $A'$ are points upon</p>
+        <p>the straight lines $OE$ and $OE'$, respectively, and, if the straight line $AA'$ joining them is parallel to $EE'$, then we will say that the segments OA and OA’ are equal to one another, and write</p>
+        <p>$$
+        OA=OA'  \text{or}  OA'=OA.
+        $$</p>
+        <p>In order now to define the sum of the segments $a=OA$ and $b= OB$, we construct $AA'$ parallel to the unit-line $EE'$ and draw through $A'$ a parallel to $OE$ and through $B$ a parallel to $OE'$. Let these two parallels intersect in $A''$. Finally, draw through $A''$ a straight line parallel to the unit-line $EE'$. Let this parallel cut the two fixed lines $OE$ and $OE'$ in $C$ and $C'$ respectively. Then $c=OC= OC'$ is called the <em>sum</em> of the segments $a=OA$ and $b=OB$. We indicate this by writing</p>
+        <p>$$
+        c=a+b,  \text{or}  a+b=c.
+        $$</p>
+        <p>In order to define the product of a segment $a=OA$ by a segment $b=OB$, we make use of exactly the same construction as employed in § 15, except that, in place of the sides of a right angle, we make use here of the straight lines $OE$ and $OE'$.</p>
+        <p>The construction is consequently as follows. Determine upon $OE'$ a point $A'$ so that $AA'$ is parallel to the unit-line $EE'$, and join $E$ with $A'$. Then draw through $B$ a straight line parallel to $EA'$. This parallel will intersect the fixed straight line $OE'$ in the point $C'$, and we call $c=OC'$ the product of the segment $a = OA$ by the segment $b = OB$. We indicate this relation by writing</p>
+        <p>$$
+        c = ab,  \text{or}  ab = c.
+        $$</p>
+        <div class="folio-milestone" id="folio-§ 25" data-folio="§ 25" data-page="82">[Folio § 25 | p. 82]</div>
+        </section>
+        <section class="level-2" id="the-commutative-and-the-associative-law-of-addition-for-our-new-algebra-of-segments">
+        <h2>§ 25. The Commutative and the Associative Law of Addition for Our New Algebra of Segments<a class="headerlink" href="#the-commutative-and-the-associative-law-of-addition-for-our-new-algebra-of-segments" title="Link to this heading">¶</a></h2>
+        <p>In this section, we shall investigate the laws of operation, as enumerated in § 13, in order to see which of these hold for our new algebra of segments, when we base our considerations upon a plane geometry in which axioms I 1–2, II–III are all fulfilled, and, moreover, in which Desargues’s theorem also holds.</p>
+        <p>First of all, we shall show that, for the addition of segments as defined in § 24, the commutative law</p>
+        <p>$$
+        a+ b = b+a
+        $$</p>
+        <p>holds. Let</p>
+        <p>$$
+        \begin{aligned}
+         &amp;\; a = OA = OA' \;  \\
+         &amp;\; b = OB = OB' \; 
+        \end{aligned}
+        $$</p>
+        <p>Hence, $AA'$ and $BB'$ are, according to our convention, parallel to the unit-line. Construct the points $A''$ and $B''$ by drawing $A'A''$ and $B'B''$ parallel to $OA$ and also $AB''$ and $BA'$ parallel to $OA$. We see at once that the line $A''B''$ is parallel to $AA'$ as the commutative law requires. We shall show the validity of this statement by the aid of Desargues’s theorem in the following manner. Denote the point of intersection of $AB''$ and $A'A''$ by $F$ and that of $BA''$ and $B'B''$ by $D$. Then, in the triangles $AA'F$ and $BB'D$, the homologous sides are parallel to each other. By Desargues’s theorem, it follows that the three points $O$, $F$, $D$ lie in a straight line. In consequence of this condition, the two triangles $OAA'$ and $DB''A''$ lie in such a way that the lines joining the corresponding vertices pass through the same point $F$, and since the homologous sides $OA$ and $DB''$, as also $OA'$ and $DA''$, are parallel to each other, then, according to the second part of Desargues’s theorem (theorem 32), the third sides $AA'$ and $B''A''$ are parallel to each other.</p>
+        <p>To prove the associative law of addition</p>
+        <p>$$
+        a+(b+c)=(a+b)+c,
+        $$</p>
+        <p>we shall make use of figure 44. In consequence of the commutative law of addition just demonstrated, the above formula states that the straight line $A''B''$ must be parallel to the unit-line.</p>
+        <p>The validity of this statement is evident, since the shaded part of figure 44 corresponds exactly with figure 43.</p>
+        <figure class="photon-picture photon-svg">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 490 212" width="490" height="212" class="euclid-graphic" data-graphic-id="fig_desargues_segment_algebra" data-proposition="S.24-26">
+          <text x="130.00" y="20.00" text-anchor="middle" class="geom-label-sm">§ 25: Addition c = a + b</text>
+          <line x1="38.00" y1="185.00" x2="225.00" y2="185.00" class="geom-line" />
+          <line x1="38.00" y1="185.00" x2="95.00" y2="32.00" class="geom-line" />
+          <line x1="105.32" y1="185.00" x2="61.94" y2="120.74" class="geom-dashed" />
+          <line x1="61.94" y1="120.74" x2="144.22" y2="120.74" class="geom-dashed" />
+          <line x1="120.28" y1="185.00" x2="144.22" y2="120.74" class="geom-dashed" />
+          <line x1="144.22" y1="120.74" x2="187.60" y2="185.00" class="geom-accent-line" />
+          <circle cx="38.00" cy="185.00" r="3.30" class="geom-point" />
+          <text x="28.00" y="199.00" text-anchor="middle" class="geom-label">O</text>
+          <circle cx="105.32" cy="185.00" r="3.30" class="geom-point" />
+          <text x="105.32" y="201.00" text-anchor="middle" class="geom-label">a</text>
+          <circle cx="120.28" cy="185.00" r="3.30" class="geom-point" />
+          <text x="120.28" y="201.00" text-anchor="middle" class="geom-label">b</text>
+          <circle cx="187.60" cy="185.00" r="3.30" class="geom-point" />
+          <text x="193.60" y="201.00" text-anchor="middle" class="geom-label">a+b</text>
+          <circle cx="61.94" cy="120.74" r="3.30" class="geom-point" />
+          <text x="47.94" y="122.74" text-anchor="middle" class="geom-label">A'</text>
+          <circle cx="144.22" cy="120.74" r="3.30" class="geom-point" />
+          <text x="154.22" y="116.74" text-anchor="middle" class="geom-label">P</text>
+          <text x="368.00" y="20.00" text-anchor="middle" class="geom-label-sm">§ 26: Product c = ab</text>
+          <line x1="268.00" y1="185.00" x2="468.00" y2="185.00" class="geom-line" />
+          <line x1="268.00" y1="185.00" x2="325.00" y2="32.00" class="geom-line" />
+          <line x1="340.00" y1="185.00" x2="288.52" y2="129.92" class="geom-dashed" />
+          <line x1="392.00" y1="185.00" x2="303.34" y2="90.14" class="geom-dashed" />
+          <line x1="288.52" y1="129.92" x2="372.00" y2="185.00" class="geom-bold" />
+          <line x1="303.34" y1="90.14" x2="447.11" y2="185.00" class="geom-accent-line" />
+          <circle cx="268.00" cy="185.00" r="3.30" class="geom-point" />
+          <text x="258.00" y="199.00" text-anchor="middle" class="geom-label">O</text>
+          <circle cx="340.00" cy="185.00" r="3.30" class="geom-point" />
+          <text x="340.00" y="201.00" text-anchor="middle" class="geom-label">1</text>
+          <circle cx="372.00" cy="185.00" r="3.30" class="geom-point" />
+          <text x="372.00" y="201.00" text-anchor="middle" class="geom-label">a</text>
+          <circle cx="392.00" cy="185.00" r="3.30" class="geom-point" />
+          <text x="392.00" y="201.00" text-anchor="middle" class="geom-label">b</text>
+          <circle cx="447.11" cy="185.00" r="3.30" class="geom-point" />
+          <text x="451.11" y="201.00" text-anchor="middle" class="geom-label">ab</text>
+          <circle cx="288.52" cy="129.92" r="3.30" class="geom-point" />
+          <text x="274.52" y="133.92" text-anchor="middle" class="geom-label">1'</text>
+          <circle cx="303.34" cy="90.14" r="3.30" class="geom-point" />
+          <text x="289.34" y="94.14" text-anchor="middle" class="geom-label">b'</text>
+        </svg>
+        <figcaption>**Projective-Affine Segment Addition and Skew-Field Multiplication (§§ 24–26).** Constructing c = a + b and c = ab on fixed axes OX, OY with unit line EE' purely from incidence, parallels, and Desargues's Theorem without Congruence.</figcaption>
+        </figure>
+        <div class="folio-milestone" id="folio-§ 26" data-folio="§ 26" data-page="84">[Folio § 26 | p. 84]</div>
+        </section>
+        <section class="level-2" id="the-associative-law-of-multiplication-and-the-two-distributive-laws-for-the-new-algebra-of-segments">
+        <h2>§ 26. The Associative Law of Multiplication and the Two Distributive Laws for the New Algebra of Segments<a class="headerlink" href="#the-associative-law-of-multiplication-and-the-two-distributive-laws-for-the-new-algebra-of-segments" title="Link to this heading">¶</a></h2>
+        <p>The associative law of multiplication</p>
+        <p>$$
+        a(bc)=(ab)c
+        $$</p>
+        <p>has also a place in our new algebra of segments.</p>
+        <p>Let there be given upon the first of the two fixed straight lines through $O$ the segments</p>
+        <p>$$
+        1 = OA, \quad b = OC, \quad c=OA'
+        $$</p>
+        <p>and upon the second of these straight lines, the segments</p>
+        <p>$$
+        a=OG,\quad  b=OB.
+        $$</p>
+        <p>In order to construct the segments</p>
+        <p>$$
+        \begin{aligned}
+        bc &amp;= OB',\  \text{and} \ bc=OC', \\
+        ab &amp;= OD, \\
+        (ab) c &amp;= OD',
+        \end{aligned}
+        $$</p>
+        <p>in accordance with § 24, draw $A'B'$ parallel to $AB$, $B'C'$ parallel to $BC$, $CD$ parallel to $AG$, and $A'D'$ parallel to $AD$. We see at once that the given law amounts to the same as saying that $CD$ must also be parallel to $C'D'$. Denote the point of intersection of the straight lines $A'D'$ and $B'C'$ by $F'$ and that of the straight lines $AD$ and $BC$ by $F$. Then the triangles $ABF$ and $A'B' F'$ have their homologous sides parallel to each other, and, according to Desargues’s theorem, the three points $O$, $F$, $F'$ must lie in a straight line. Because of these conditions, we can apply the second part of Desargues’s theorem to the two triangle $CDF$ and $C' D'F'$, and hence show that, in fact, $CD$ is parallel to $C'D'$.</p>
+        <p>Finally, upon the basis of Desargues’s theorem, we shall show that the two distributive laws</p>
+        <p>$$
+        a (b+c) = ab+ac
+        $$</p>
+        <p>and</p>
+        <p>$$
+        (a+b)c = ac+bc
+        $$</p>
+        <p>hold for our algebra of segments.</p>
+        <p>In the proof of the first one of these laws, we shall make use of figure 46. <a class="footnote-reference brackets" href="#fn1" id="id1" role="doc-noteref"><span class="fn-bracket">[</span>1<span class="fn-bracket">]</span></a> In this figure, we have</p>
+        <p>$$
+        \begin{array}{c}
+        b = OA', c=OC', \\
+        ab=OB', ab=OA'', ac=OC'', etc.
+        \end{array}
+        $$</p>
+        <p>In the same figure, $B'' D_2$ is parallel to $C''D_1$ which is parallel to the fixed straight line $OA'$, and $B'D_1$ is parallel to $C'D_2$, which is parallel to the fixed straight line $OA''$. Moreover, we have $A' A''$ parallel to $C'C''$, and $A'B''$ parallel to $B' A''$, parallel to $F'D_2$, parallel to $F''D_1$.</p>
+        <p>Our proposition amounts to asserting that we must necessarily have also</p>
+        <p>$F'F''$ parallel to $A'A''$ and to $C'C''$.</p>
+        <p>We construct the following auxiliary lines:</p>
+        <div class="line-block">
+        <div class="line">$F''J$ parallel to the fixed straight line $OA'$,</div>
+        <div class="line">$F'J$ parallel to the fixed straight line $OA''$.</div>
+        </div>
+        <p>Let us denote the points of intersection of the straight lines $C''D_1$ and $C'D_2$, $C''D_1$ and $F'J$, $C'D_2$ and $F''J$ by $G$, $H_1$, $H_2$, respectively. Finally, we obtain the other auxiliary lines indicated in the figure by joining the points already constructed.</p>
+        <p>In the two triangles $A' B'' C''$ and $F'D_2G$, the straight lines joining homologous vertices are parallel to each other. According to the second part of Desargues’s theorem, it follows, therefore, that</p>
+        <p>$A'C''$ is parallel to $F' G$.</p>
+        <p>In the two triangles $A'C''F''$ and $F'GH_2$, the straight lines joining the homologous vertices are also parallel to each other. From the properties already demonstrated, it follows by virtue of the second part of Desargues’s theorem that we must have</p>
+        <p>$A'F''$ parallel to $F'H_2$.</p>
+        <p>Since in the two horizontally shaded triangles $OA'F'$ and $JH_2F'$ the homologous sides are parallel, Desargues’s theorem shows that the three straight lines joining the homologous vertices, viz.:</p>
+        <p>$$
+        OJ,\ A'H_2,\ F''F'
+        $$</p>
+        <p>all intersect in one and the same point, say in $P$.</p>
+        <p>In the same way, we have necessarily</p>
+        <p>$$
+        A''F'  \text{parallel to}  F''H_1
+        $$</p>
+        <p>and since, in the two obliquely shaded triangles $OA''F'$ and $JH_1F''$, the homologous sides are parallel, then, in consequence of Desargues’s theorem, the three straight lines joining the homologous vertices, viz.:</p>
+        <p>$$
+        OJ, A''H_1, F'F''
+        $$</p>
+        <p>all intersect likewise in the same point, namely, in point $P$.</p>
+        <p>Moreover, in the triangles $OA'A''$ and $JH_2H_1$, the straight lines joining the homologous vertices all pass through this same point $P$, and, consequently, it follows that we have</p>
+        <p>$$
+        H_1H_2  \text{parallel to}  A'A'',
+        $$</p>
+        <p>and, therefore,</p>
+        <p>$$
+        H_1H_2  \text{parallel to}  C'C'',
+        $$</p>
+        <p>Finally, let us consider the figure $F''H_2C'C''H_1F'F''$. Since, in this figure, we have</p>
+        <p>$$
+        \begin{aligned}
+        F''H_2  \text{parallel to} &amp;\; C'F', \; \text{parallel to}  C''H_1, \\
+        GH_2C' \quad \text{&quot; &quot;}\quad &amp;\; F''C'', \; \text{&quot; &quot;}\quad H_1F', \\
+        C'C''  \quad \text{&quot; &quot;}\quad &amp;\; H_1H_2, \; 
+        \end{aligned}
+        $$</p>
+        <p>we recognize here again figure 43, which we have already made use of in § 25 to prove the commutative law of addition. The conclusions, analogous to those which we reached there, show that we must have</p>
+        <p>$$
+        F'F''  \text{parallel to}  H_1H_2
+        $$</p>
+        <p>and, consequently, we must have also</p>
+        <p>$$
+        F'F''  \text{parallel to}  A'A'',
+        $$</p>
+        <p>which result concludes our demonstration.</p>
+        <p>To prove the second formula of the distributive law, we make use of an entirely different figure,–figure 47. In this figure, we have</p>
+        <p>$$
+        1 = OD,\ a = OA,\ a = OB,\ b = OG,\ c = OD',
+        $$</p>
+        <p>$$
+        ac = OA',\ ac = OB',\ BC = OG', \text{etc.} ,
+        $$</p>
+        <p>and, furthermore, we have</p>
+        <div class="line-block">
+        <div class="line">$GH$ parallel to $G'H'$, parallel to the fixed line $OA$,</div>
+        <div class="line">$GH$ parallel to $A'H'$, parallel to the fixed line $OB$,</div>
+        </div>
+        <p>We have also</p>
+        <p>$$
+        \begin{aligned}
+        AB &amp;\; \text{parallel to} \; A'B' \\
+        BD &amp;\; \text{&quot; &quot;} \; B'D' \\
+        DG &amp;\; \text{&quot; &quot;} \; D'G' \\
+        HJ &amp;\; \text{&quot; &quot;} \; H'J'.
+        \end{aligned}
+        $$</p>
+        <p>That which we are to prove amounts, then, to demonstrating that</p>
+        <p>$$
+        DJ  \text{must be parallel to}  D'J'.
+        $$</p>
+        <p>Denote the points in which $BD$ and $GD$ intersect the straight line $AH$ by $C$ and $F$, respectively, and the points in which $B'D'$ and $G'D'$ intersect the straight line $A'H'$ by $C'$ and $F'$, respectively. Finally, draw the auxiliary lines $FJ$ and $F'J'$, indicated in the figure by dotted lines.</p>
+        <p>In the triangles $ABC$ and $A'B'C'$, the homologous sides are parallel and, consequently, by Desargues’s theorem the three points $O$, $C$, $C'$ lie on a straight line. Then, by considering in the same way the triangles $CDF$ and $CD'F'$, it follows that the points $O$, $F$, $F'$ lie upon the same straight line and likewise, from a consideration of the triangles $FGH$ and $F'G'H'$, we find the points $O$, $H$, $H'$ to be situated on a straight line. Now, in the triangles $FHJ$ and $F'H'J'$, the straight lines joining the homologous vertices all pass through the same point $O$, and, hence, as a consequence of the second part of Desargues’s theorem, the straight lines $FJ$ and $F'J'$ must also be parallel to each other. Finally, a consideration of the triangles $DFJ$ and $D'F'J'$ shows that the straight lines $DJ$ and $D'J'$ are parallel to each other and with this our proof is completed.</p>
+        <div class="folio-milestone" id="folio-§ 27" data-folio="§ 27" data-page="90">[Folio § 27 | p. 90]</div>
+        </section>
+        <section class="level-2" id="equation-of-the-straight-line-based-upon-the-new-algebra-of-segments">
+        <h2>§ 27. Equation of the Straight Line, Based Upon the New Algebra of Segments<a class="headerlink" href="#equation-of-the-straight-line-based-upon-the-new-algebra-of-segments" title="Link to this heading">¶</a></h2>
+        <p>In §§ 24–26, we have introduced into the plane geometry an algebra of segments in which the commutative law of addition and that of multiplication, as well as the two distributive laws, hold. This was done upon the assumption that the axioms cited in § 24, as also the theorem of Desargues, were valid. In this section, we shall show how an analytical representation of the point and straight line in the plane is possible upon the basis of this algebra of segments.</p>
+        <p><strong>Definition.</strong> Take the two given fixed straight lines lying in the plane and intersecting in $O$ as the axis of $x$ and of $y$, respectively. Let us suppose any point $P$ of the plane determined by the two segments $x$, $y$ which we obtain upon the $x$-axis and $y$-axis, respectively, by drawing through $P$ parallels to these axes. These segments are called the <em>co-ordinates</em> of the point $P$. Upon the basis of this new algebra of segments and by aid of Desargues’s theorem, we shall deduce the following proposition.</p>
+        <p id="grundlagen-en-thm-34"><strong>Theorem 34.</strong> The co-ordinates $x$, $y$ of a point on an arbitrary straight line always satisfy an equation in these segments of the form</p>
+        <p>$$
+        ax+by+c = 0.
+        $$</p>
+        <p>In this equation, the segments $a$ and $b$ stand necessarily to the left of the co-ordinates $x$ and $y$. The segments $a$ and $b$ are never both zero and $c$ is an arbitrary segment.</p>
+        <p>Conversely, every equation in these segments and of this form represents always a straight line in the plane geometry under consideration.</p>
+        <p><strong>Proof.</strong> Suppose that the straight line $l$ passes through the origin $O$. Furthermore, let $C$ be a definite point upon $l$ different from $O$, and $P$ any arbitrary point of $l$. Let $OA$ and $OB$ be the co-ordinates of $C$ and $x$, $y$ be the co-ordinates of $P$. We will denote the straight line joining the extremities of the segments $x$, $y$ by $g$. Finally, through the extremity of the segment $1$, laid off on the $x$-axis, draw a straight line $h$ parallel to $AB$. This parallel cuts off upon the $y$-axis the segment $e$. From the second part of</p>
+        <p>Desargues’s theorem, it follows that the straight line $g$ is also always parallel to $AB$. Since $g$ is always parallel to $h$, it follows that the co-ordinates $x$, $y$ of the point $P$ must satisfy the equation</p>
+        <p>$$
+        ex=g.
+        $$</p>
+        <p>Moreover, in figure 49 let $l'$ be any arbitrary straight line in our plane. This straight line will cut off on the $x$-axis the segment $c=OO'$. Now, in the same figure, draw through $O$ the straight line $l$ parallel to $l'$. Let $P'$ be an arbitrary point on the line $l'$. The straight line through $P'$, parallel to the $x$-axis, intersects the straight line $l$ in $P$ and cuts off upon the $y$-axis the segment $y = OB$. Finally, through $P$ and $P'$ let parallels to the $y$-axis cut off on the $x$-axis the segments $x=OA$ and $x'= OA'$.</p>
+        <p>We shall now undertake to show that the equation</p>
+        <p>$$
+        x'=x+c
+        $$</p>
+        <p>is fulfilled by the segments in question. For this purpose, draw $O'C$ parallel to the unit-line and likewise $CD$ parallel to the $x$-axis and $AD$ parallel to the $y$-axis.</p>
+        <p>Then, to prove our proposition amounts to showing that we must have necessarily</p>
+        <p>$$
+        A'D  \text{parallel to}  O'C.
+        $$</p>
+        <p>Let $D'$ be the point of intersection of the straight lines $CD$ and $A'P'$ and draw $O'C'$ parallel to the $y$-axis.</p>
+        <p>Since, in the triangles $OCP$ and $O'C'P'$, the straight lines joining the homologous vertices are parallel, it follows, by virtue of the second part of Desargues’s theorem, that we must have</p>
+        <p>$$
+        CP  \text{parallel to}  C'P'.
+        $$</p>
+        <p>In a similar way, a consideration of the triangles $ACP$ and $A'C'P'$ shows that we must have</p>
+        <p>$$
+        AC  \text{parallel to}  A'C'.
+        $$</p>
+        <p>Since, in the triangles $ACD$ and $C'A'O'$, the homologous sides are parallel to each other, it follows that the straight lines $AC'$, $CA'$ and $DO'$ intersect in a common point. A consideration of the triangles $C'A'D$ and $ACO'$ then shows that $A'D$ and $CO'$ are parallel to each other. From the two equations already obtained, viz.:</p>
+        <p>$$
+        ex = y   \text{and}  x' = x + c,
+        $$</p>
+        <p>follows at once the equation</p>
+        <p>$$
+        ex' = y + ec.
+        $$</p>
+        <p>If we denote, finally, by $n$ the segment which added to the segment 1 gives the segment 0, then, from this last equation, we may easily deduce the following</p>
+        <p>$$
+        ex' + ny + nec = 0,
+        $$</p>
+        <p>and this equation is of the form required by theorem 34.</p>
+        <p>We can now show that the second part of the theorem is equally true; for, every linear equation</p>
+        <p>$$
+        ax + by + c = 0
+        $$</p>
+        <p>may evidently be brought into the required form</p>
+        <p>$$
+        ex + ny + nec = 0
+        $$</p>
+        <p>by a left-sided multiplication by a properly chosen segment.</p>
+        <p>It must be expressly stated, however, that, by our hypothesis, an equation of segments of the form</p>
+        <p>$$
+        xa + yb + c = 0,
+        $$</p>
+        <p>where the segments $a$, $b$ stand to the right of the co-ordinates $x$, $y$ does not, in general, represent a straight line.</p>
+        <p>In Section 30, we shall make an important application of theorem 34.</p>
+        <div class="folio-milestone" id="folio-§ 28" data-folio="§ 28" data-page="95">[Folio § 28 | p. 95]</div>
+        </section>
+        <section class="level-2" id="the-totality-of-segments-regarded-as-a-complex-number-system">
+        <h2>§ 28. The Totality of Segments Regarded as a Complex Number System<a class="headerlink" href="#the-totality-of-segments-regarded-as-a-complex-number-system" title="Link to this heading">¶</a></h2>
+        <p>We see immediately that, for the new algebra of segments established in Section 24, theorems 1–6 of Section 13 are fulfilled. Moreover, by aid of Desargues’s theorem, we have already shown in Sections 25 and 26 that the laws 7–11 of operation, as given in Section 13, are all valid in this algebra of segments. With the single exception of the commutative law of multiplication, therefore, all of the theorems of connection hold.</p>
+        <p>Finally, in order to make possible an order of magnitude of these segments, we make the following convention. Let $A$ and $B$ be any two distinct points of the straight line $OE$. Suppose then that the four points $O$, $E$, $A$, $B$ stand, in conformity with axiom II, 4, in a certain sequence. If this sequence is one of the following six possible ones, viz.:</p>
+        <p>$$
+        ABOE, AOBE, AOEB, OABE, OAEB, OEAB,
+        $$</p>
+        <p>then we will call the segment $a = OA$ <em>smaller</em> than the segment $b = OB$ and indicate the same by writing</p>
+        <p>$$
+        a &lt; b.
+        $$</p>
+        <p>On the other hand, if the sequence is one of the six following ones, viz.:</p>
+        <p>$$
+        BAOE, BOAE, BOEA, OBAE, OBEA, OEBA,
+        $$</p>
+        <p>then we will call the segment $a = OA$ greater than the segment $b = OB$, and we write accordingly</p>
+        <p>$$
+        a &gt; b.
+        $$</p>
+        <p>This convention remains in force whenever $A$ or $B$ coincides with $O$ or $E$, only then the coinciding points are to be regarded as a single point, and, consequently, we have only to consider the order of three points.</p>
+        <p>Upon the basis of the axioms of group II, we can easily show also that, in our algebra of segments, the laws 13–16 of operation given in Section 13 are fulfilled. Consequently, the totality of all the different segments forms a complex number system for which the laws 1–11, 13–16 of Section 13 hold; that is to say, all of the usual laws of operation except the commutative law of multiplication and the theorem of Archimedes. We will call such a system, briefly, a <em>desarguesian number system.</em></p>
+        <div class="folio-milestone" id="folio-§ 29" data-folio="§ 29" data-page="97">[Folio § 29 | p. 97]</div>
+        </section>
+        <section class="level-2" id="construction-of-a-geometry-of-space-by-aid-of-a-desarguesian-number-system">
+        <h2>§ 29. Construction of a Geometry of Space by Aid of a Desarguesian Number System<a class="headerlink" href="#construction-of-a-geometry-of-space-by-aid-of-a-desarguesian-number-system" title="Link to this heading">¶</a></h2>
+        <p>Suppose we have given a desarguesian number system $D$. Such a system makes possible the construction of a geometry of space in which axioms I, II, III are all fulfilled.</p>
+        <p>In order to show this, let us consider any system of three numbers $(x, y, z)$ of the desarguesian number system $D$ as a point, and the ratio of four such numbers $(u:v:w:r)$, of which the first three are not 0, as a plane. However, the systems $(u:v:w:r)$ and $(au:av:aw:ar)$, where $a$ is any number of $D$ different from 0, represent the same plane. The existence of the equation</p>
+        <p>$$
+        ux + vy + wz + r = 0
+        $$</p>
+        <p>expresses the condition that the point $(x, y, z)$ shall lie in the plane $(u:v:w:r)$. Finally, we define a straight line by the aid of a system of two planes $(u':v':w':r')$ and $(u'':v'':w'':r'')$, where we impose the condition that it is impossible to find in $D$ two numbers $a'$, $a''$ different from zero, such that we have simultaneously the relations</p>
+        <p>$$
+        a'u' = a''u'', a'v' = a''v'', a'w' = a''w'',
+        $$</p>
+        <p>A point $(x, y, z)$ is said to be situated upon this straight line $[(u':v':w':r'), (u'':v'':w'':r'')]$, if it is common to the two planes $(u':v':w':r')$ and $(u'':v'':w'':r'')$. Two straight lines which contain the same points are not regarded as being distinct.</p>
+        <p>By application of the laws 1–11 of § ! 13, which by hypothesis hold for the numbers of $D$, we obtain without difficulty the result that the geometry of space which we have just constructed satisfies all of the axioms of groups I and III.</p>
+        <p>In order that the axioms (II) of order may also be valid, we adopt the following conventions. Let</p>
+        <p>$$
+        (x_1, y_1, z_1), (x_2, y_2, z_2), (x_3, y_3, z_3)
+        $$</p>
+        <p>be any three points of a straight line</p>
+        <p>$$
+        [(u':v':w':r'), (u'':v'':w'':r'')].
+        $$</p>
+        <p>Then, the point $(x_2, y_2, z_2)$ is said to lie between the other two, if we have fulfilled at least one of the six following double inequalities:</p>
+        <p>$$
+        \begin{aligned}
+         &amp;\; x_1 &lt; x_2 &lt; x_3, \; x_1 &gt; x_2 &gt; x_3, \\
+        % \tag{1} &amp;\; y_1 &lt; y_2 &lt; y_3, \; y_1 &gt; y_2 &gt; y_3, \\
+        % \tag{2} &amp;\; z_1 &lt; z_2 &lt; z_3, \; z_1 &gt; z_2 &gt; z_3,
+        \end{aligned}
+        $$</p>
+        <p>If one of the two double inequalities (1) exists, then we can easily conclude that either $y_1 = y_2 = y_3$ or one of the two double inequalities (2) exists, and, consequently, either $z_1 = z_2 = z_3$ or one of the double inequalities (3) must exist. In fact, from the equations</p>
+        <p>$$
+        \begin{aligned}
+        u'x_i +  v'y_i +  w'z_i +  r' &amp; =  0,\\
+        u''x_i +  v''y_i +  w''z_i +  r'' &amp; =  0,\\
+        (i = 1,2,3)
+        \end{aligned}
+        $$</p>
+        <p>we may obtain, by a left-sided multiplication of these equations by numbers suitably chosen from $D$ and then adding the resulting equations, a system of equations of the form</p>
+        <p>$$
+        u'''x_i + v'''y_i + r''' = 0, (i = 1, 2, 3).
+        $$</p>
+        <p>In this system, the coefficient $v'''$ is certainly different from zero, since otherwise the three numbers $x_1$, $x_2$, $x_3$ would be mutually equal.</p>
+        <p>From</p>
+        <p>$$
+        x_1 \lessgtr x_2 \lessgtr x_3,
+        $$</p>
+        <p>it follows that</p>
+        <p>$$
+        u'''x_1 \lesseqgtr x'''u_2 \lesseqgtr x'''u_3,
+        $$</p>
+        <p>and, hence, as a consequence of (4), we have</p>
+        <p>$$
+        v'''y_1 + r''' \lesseqgtr v'''y_2 + r''' \lesseqgtr
+        v'''y_3 + r'''
+        $$</p>
+        <p>and, therefore,</p>
+        <p>$$
+        v'''y_1 \lesseqgtr v'''y_2 \lesseqgtr v'''y_3.
+        $$</p>
+        <p>Since $v'''$ is different from zero, we have</p>
+        <p>$$
+        y_1 \lesseqgtr y_2 \lesseqgtr y_3.
+        $$</p>
+        <p>In each of these double inequalities, we must take either the upper sign throughout, or the middle sign throughout, or the lower sign throughout.</p>
+        <p>The preceding considerations show, that, in our geometry, the linear axioms II, 1–4 of order are all valid. However, it remains yet to show that, in this geometry, the plane axiom II, 5 is also valid.</p>
+        <p>For this purpose let a plane $(u:v:w:r)$ and a straight line $[(u:v:w:r), (u':v':w':r')]$ in this plane be given. Let us assume that all the points $(x, y, z)$ of the plane $(u:v:w:r)$, for which we have the expression $u'x + v'y + w'z + r'$ greater than or less than zero, lie respectively upon the one side or upon the other side of the given straight line. We have then only to show that this convention is in accordance with the preceding statements. This, however, is easily done. We have thus shown that all of the axioms of groups I, II, III are fulfilled in the geometry of space which we have obtained in the above indicated manner from the desarguesian number system <em>D</em>. Remembering now that the theorem of Desargues is a consequence of the axioms I, II, III, we see that the proposition just stated is exactly the converse of the result reached in Section 28.</p>
+        <div class="folio-milestone" id="folio-§ 30" data-folio="§ 30" data-page="101">[Folio § 30 | p. 101]</div>
+        </section>
+        <section class="level-2" id="significance-of-desargues-s-theorem">
+        <h2>§ 30. Significance of Desargues’s Theorem<a class="headerlink" href="#significance-of-desargues-s-theorem" title="Link to this heading">¶</a></h2>
+        <p>If, in a plane geometry, axioms I, 1–2, II, III are all fulfilled and, moreover, if the theorem of Desargues holds, then, according to §§ 24–28, it is always possible to introduce into this geometry an algebra of segments to which the laws 1–11, 13–16 of § ! 13 are applicable. We will now consider the totality of these segments as a complex number system and construct, upon the basis of this system, a geometry of space, in accordance with § ! 29, in which all of the axioms I, II, III hold.</p>
+        <p>In this geometry of space, we shall consider only the points $(x, y, 0)$ and those straight lines upon which only such points lie. We have then a plane geometry which must, if we take into account the proposition established in § ! 27, coincide exactly with the plane geometry proposed at the beginning. Hence, we are led to the following proposition, which may be regarded as the objective point of the entire discussion of the present chapter.</p>
+        <p id="grundlagen-en-thm-35"><strong>Theorem 35.</strong> If, in a plane geometry, axioms I, 1–2, II, III are all fulfilled, then the existence of Desargues’s theorem is the necessary and sufficient condition that this plane geometry may be regarded as a part of a geometry of space in which all of the axioms I, II, III are fulfilled.</p>
+        <p>The theorem of Desargues may be characterized for plane geometry as being, so to speak, the result of the elimination of the space axioms.</p>
+        <p>The results obtained so far put us now in the position to show that every geometry of space in which axioms I, II, III are all fulfilled may be always regarded as a part of a “geometry of any number of dimensions whatever.” By a geometry of an arbitrary number of dimensions is to be understood the totality of all points, straight lines, planes, and other linear elements, for which the corresponding axioms of connection and of order, as well as the axiom of parallels, are all valid.</p>
+        <hr class="docutils" />
+        <p class="rubric">Footnotes</p>
+        <aside class="footnote-list brackets">
+        <aside class="footnote brackets" id="fn1" role="doc-footnote">
+        <span class="label"><span class="fn-bracket">[</span><a role="doc-backlink" href="#id1">1</a><span class="fn-bracket">]</span></span>
+        <p>Figures 46, 47, and 48 were designed by Dr. Von Schaper, as have also the details of the demonstrations relating to these figures.</p>
+        </aside>
+        </aside>
+        </section>
+        </section>
+
+      </div>
+      <footer class="book-footer">
+        <div class="book-footer-ornament">&#10086;</div>
+        <div class="book-footer-nav">
+          <div class="book-nav-prev">
+            <a class="book-nav-btn" href="../chapter-4/chapter-4-en.html" title="Chapter IV: The Theory of Plane Areas">&larr; <span class="nav-label">Chapter IV: The Theory of Plane Areas</span></a>
+          </div>
+          <div class="book-nav-center">
+            <a class="book-toc-link" href="../index.html">GRUNDLAGEN DER GEOMETRIE</a>
+          </div>
+          <div class="book-nav-next">
+            <a class="book-nav-btn" href="../chapter-6/chapter-6-en.html" title="Chapter VI: Pascal’s Theorem"><span class="nav-label">Chapter VI: Pascal’s Theorem</span> &rarr;</a>
+          </div>
+        </div>
+      </footer>
+    </article>
+  </main>
+  <div class="asides">
+    <aside class="aside-search">
+      <h3>Search</h3>
+      <div id="searchbox" role="search">
+        <form id="rtd-search-form" class="wy-form search-form" action="../../search.html" method="get">
+          <div class="search-field">
+            <input type="search" name="q" placeholder="Search docs..." aria-label="Search docs" autocomplete="off" />
+            <button type="submit" class="search-submit" aria-label="Search" title="Search">
+              <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <circle cx="11" cy="11" r="8"></circle>
+                <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+              </svg>
+            </button>
+          </div>
+          <input type="hidden" name="check_keywords" value="yes" />
+          <input type="hidden" name="area" value="default" />
+        </form>
+      </div>
+    </aside>
+  </div>
+  <footer>
+    <div class="footer-nav">
+      <ul>
+        <li><a href="../../about/index.html"  >about</a></li>
+      </ul>
+    </div>
+    <hr />
+    <div role="contentinfo">
+      <p>
+        &copy; Copyright 1899 B. G. Teubner · 1902 Open Court · Digital Codex GEOMETOR.
+      </p>
+    </div>
+  </footer>
+
+  <script src="../../_static/jquery.js?v=5d32c60e"></script>
+  <script src="../../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+  <script src="../../_static/documentation_options.js?v=01f34227"></script>
+  <script src="../../_static/doctools.js?v=fd6eb6e6"></script>
+  <script src="../../_static/sphinx_highlight.js?v=6ffebe34"></script>
+  <script src="../../_static/js/collection_controls.js?v=b6b5297a"></script>
+  <script src="../../_static/js/geometor_interactive.js?v=b2892320"></script>
+  <script src="../../_static/js/search_highlight.js"></script>
+
+</body>
+</html>

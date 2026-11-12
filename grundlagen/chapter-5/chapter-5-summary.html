@@ -1,0 +1,180 @@
+
+
+<!DOCTYPE html>
+<html lang="en" data-content_root="../../">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Chapter V: Desargues’s Theorem — Summary &mdash; GRUNDLAGEN DER GEOMETRIE</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..700;1,400..700&family=Fira+Sans+Condensed:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600;1,700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" type="text/css" href="../../_static/pygments.css?v=ea5fcf70" />
+  <link rel="stylesheet" type="text/css" href="../../_static/css/styles.css?v=66998e95" />
+  <link rel="stylesheet" type="text/css" href="../../_static/graphviz.css?v=4ae1632d" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css" />
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js"></script>
+  <link rel="stylesheet" href="../../_static/css/print.css" type="text/css" media="print" />
+  <link rel="icon" href="../../_static/favicon.ico" />
+</head>
+
+<body class="is-book-page book-theme-classical-serif">
+  <header>
+    <div class="logo">
+      <a href="../../index.html">
+        <h1>GEOMETOR • hilbert</h1>
+      </a>
+      <div class="org-repo">
+        <span class="org">GEOMETOR</span>
+        •
+        <span class="repo">hilbert</span>
+      </div>
+    </div>
+    <nav aria-label="Header">
+      <input type="checkbox" id="nav-Header-toggle" >
+      <label for="nav-Header-toggle" >Header</label>
+      <ul>
+        <li>
+          <a href="../../mission/index.html"  >mission</a>
+        </li>
+        <li>
+          <a href="../../log/index.html"  >log</a>
+        </li>
+        <li>
+          <a href="../../modules/index.html"  >modules</a>
+        </li>
+      </ul>
+    </nav>
+    <div class="motto"></div>
+  </header>
+  <main class="book-main">
+    <article class="book-layout book-reading-pane">
+      <header class="book-header">
+        <div class="book-header-bar">
+          <div class="book-header-identity">
+            <a class="book-portal-link" href="../../index.html" title="Return to Project Portal">&larr; hilbert</a>
+            <span class="book-header-sep">/</span>
+            <a class="book-title-link" href="../index.html">GRUNDLAGEN DER GEOMETRIE</a>
+          </div>
+        </div>
+        <div class="book-header-nav">
+          <div class="book-nav-prev">
+            <a class="book-nav-btn" href="../chapter-4/chapter-4-summary.html" title="Chapter IV: The Theory of Plane Areas">&larr; <span class="nav-label">Prev</span></a>
+          </div>
+          <div class="book-nav-center">
+            <nav class="book-tracks-nav" aria-label="Document Tracks">
+              <a class="book-track-item" href="chapter-5-en.html">English</a>
+              <span class="book-track-sep">&middot;</span>
+              <a class="book-track-item" href="chapter-5-de.html">Deutsch</a>
+              <span class="book-track-sep">&middot;</span>
+              <strong class="book-track-item is-active" aria-current="page">Summary</strong>
+              <span class="book-track-sep">&middot;</span>
+              <a class="book-track-item" href="chapter-5-notes.html">Notes</a>
+            </nav>
+          </div>
+          <div class="book-nav-next">
+            <a class="book-nav-btn" href="../chapter-6/chapter-6-summary.html" title="Chapter VI: Pascal’s Theorem"><span class="nav-label">Next</span> &rarr;</a>
+          </div>
+        </div>
+      </header>
+      <div class="content body book-content folio-book-page" role="main">
+        <section class="level-1" id="chapter-v-desargues-s-theorem-summary">
+        <span id="grundlagen-chapter-5-summary"></span><h1>Chapter V: Desargues’s Theorem — Summary<a class="headerlink" href="#chapter-v-desargues-s-theorem-summary" title="Link to this heading">¶</a></h1>
+        <p class="rubric">Structural &amp; Mathematical Overview — <em>Kapitel V: Der Desarguessche Satz</em></p>
+        <nav class="contents local" id="in-this-summary">
+        <p class="topic-title">In This Summary</p>
+        <ul class="simple">
+        <li><p><a class="reference internal" href="#architectural-summary-of-chapter-v-2230" id="id1">Architectural Summary of Chapter V (§§ 22–30)</a></p></li>
+        <li><p><a class="reference internal" href="#parallel-section-navigator" id="id2">Parallel Section Navigator</a></p></li>
+        </ul>
+        </nav>
+        <section class="level-2" id="architectural-summary-of-chapter-v-2230">
+        <h2>Architectural Summary of Chapter V (§§ 22–30)<a class="headerlink" href="#architectural-summary-of-chapter-v-2230" title="Link to this heading">¶</a></h2>
+        <p>Chapters V and VI pivot from metric Euclidean geometry to projective-affine foundations, investigating what happens when <strong>Congruence (`IV`) is dropped altogether</strong>:</p>
+        <ul class="simple">
+        <li><p><strong>§ 22 — Desargues’s Theorem (Theorem 32)</strong>: Formulates the affine <a class="term-ref glossary-term" id="occ-term-desarguesscher-satz-1" href="../glossary.html#term-desarguesscher-satz" data-term="desarguesscher-satz" title="Desarguesscher Satz (Desargues&#x27;s Theorem): In Hilbert&#x27;s affine formulation (§ 22, Theorem 32): if two triangles lie in the same plane with corresponding sides parallel and two pairs of corresponding vertices joined by lines concurrent at O (or parallel), then the line joining the third pair of vertices passes through O (or is parallel to them). Characterizes planes coordinatizable over an associative division ring.">Desargues's Theorem</a> (<cite>Theorem 32</cite>) for perspective triangles with parallel sides, observing that it follows effortlessly either from 3D spatial incidence (<cite>I 1–7, II, III</cite>) or from 2D planar congruence (<cite>I 1–2, II–IV</cite> via Chapter III coordinates).</p></li>
+        <li><p><strong>§ 23 — Hilbert’s Non-Desarguesian Plane (Theorem 33)</strong>: Constructs a celebrated planar countermodel inside the Euclidean $XY$-plane: straight lines cutting the ellipse $x^2 + 4y^2 = 1$ have their interior chord replaced by the circular arc passing through the two boundary intersections $P, Q$ and the exterior point $F(\tfrac{3}{2}, 0)$ (since $\tfrac{3}{2} &gt; \tfrac{\sqrt{7}}{2}$, no circle meeting the ellipse four times can pass through $F$). This deformed plane satisfies <strong>all planar axioms `I 1–2, II, III, IV 1–5, V`</strong> while violating Desargues’s Theorem—proving planar Desargues unprovable without either 3D spatial incidence (<cite>I 3–7</cite>) or triangle congruence (<cite>IV 6</cite>)!</p></li>
+        <li><p><strong>§§ 24–26 — Congruence-Free Segment Calculus</strong>: Fixes two intersecting axes $OE, OE'$ and a unit line $EE'$ in any plane satisfying <cite>I 1–2, II, III</cite> + Desargues (<cite>Theorem 32</cite>), defining addition $c = a + b$ and multiplication $c = ab$ purely by parallel projections. Using intricate multi-triangle Desargues configurations (Figures 41–45, drafted with <a class="person-ref" id="occ-person-schaper-1" href="../persons.html#person-schaper" data-person="schaper" title="Hans von Schaper (1874 – c. 1940) — German Mathematician &amp; Göttingen Student of Hilbert">Hans von Schaper</a>), <a class="person-ref" id="occ-person-hilbert-1" href="../persons.html#person-hilbert" data-person="hilbert" title="David Hilbert (1862 – 1943) — German Mathematician &amp; Professor at Göttingen">Hilbert</a> proves commutative and associative addition (<cite>§ 25</cite>), associative multiplication $a(bc) = (ab)c$, and both left and right distributive laws (<cite>§ 26</cite>)—<strong>all without Congruence</strong>!</p></li>
+        <li><p><strong>§§ 27–30 — Skew-Field Coordinatization and 3D Embeddability (Theorems 34–35)</strong>: Proves every line has a <em>left</em>-linear equation $ax + by + c = 0$ (<cite>Theorem 34</cite>, whereas $xa + yb + c = 0$ need not be a line when multiplication is non-commutative!), shows the segments form an ordered associative division ring (<a class="term-ref glossary-term" id="occ-term-desarguessches-zahlensystem-1" href="../glossary.html#term-desarguessches-zahlensystem" data-term="desarguessches-zahlensystem" title="Desarguessches Zahlensystem (Desarguesian Number System (Ordered Associative Skew-Field)): The algebraic system constructed in §§ 24–27 (Theorem 34) from planar Incidence, Order, Parallels, and Desargues&#x27;s Theorem without Congruence. Satisfies all field axioms except commutativity of multiplication (ab = ba).">Desarguessches Zahlensystem</a>, rules <cite>1–11, 13–16</cite> of § 13), reconstructs 3D space over any Desarguesian division ring (<cite>§ 29</cite>), and crowns the chapter with <cite>Theorem 35</cite>: Desargues’s Theorem is the <strong>necessary and sufficient condition</strong> for a planar geometry (<cite>I 1–2, II, III</cite>) to be embeddable as a plane inside a 3D space (<cite>I, II, III</cite>).</p></li>
+        </ul>
+        </section>
+        <section class="level-2" id="parallel-section-navigator">
+        <h2>Parallel Section Navigator<a class="headerlink" href="#parallel-section-navigator" title="Link to this heading">¶</a></h2>
+        <ul class="simple">
+        <li><p><strong>§ 22. Desargues’s Theorem and Its Demonstration for Plane Geometry by Aid of the Axioms of Congruence</strong> — <a class="reference internal" href="chapter-5-en.html#grundlagen-en-s22"><span class="std std-ref">English (p. 71)</span></a> · <a class="reference internal" href="chapter-5-de.html#grundlagen-de-s22"><span class="std std-ref">Deutsch 1899 (S. 49)</span></a></p></li>
+        <li><p><strong>§ 23. The Impossibility of Demonstrating Desargues’s Theorem for the Plane Without the Help of the Axioms of Congruence</strong> — <a class="reference internal" href="chapter-5-en.html#grundlagen-en-s23"><span class="std std-ref">English (p. 74)</span></a> · <a class="reference internal" href="chapter-5-de.html#grundlagen-de-s23"><span class="std std-ref">Deutsch 1899 (S. 51)</span></a></p></li>
+        <li><p><strong>§ 24. Introduction of an Algebra of Segments Based Upon Desargues’s Theorem and Independent of the Axioms of Congruence</strong> — <a class="reference internal" href="chapter-5-en.html#grundlagen-en-s24"><span class="std std-ref">English (p. 79)</span></a> · <a class="reference internal" href="chapter-5-de.html#grundlagen-de-s24"><span class="std std-ref">Deutsch 1899 (S. 55)</span></a></p></li>
+        <li><p><strong>§ 25. The Commutative and the Associative Law of Addition for Our New Algebra of Segments</strong> — <a class="reference internal" href="chapter-5-en.html#grundlagen-en-s25"><span class="std std-ref">English (p. 82)</span></a> · <a class="reference internal" href="chapter-5-de.html#grundlagen-de-s25"><span class="std std-ref">Deutsch 1899 (S. 57)</span></a></p></li>
+        <li><p><strong>§ 26. The Associative Law of Multiplication and the Two Distributive Laws for the New Algebra of Segments</strong> — <a class="reference internal" href="chapter-5-en.html#grundlagen-en-s26"><span class="std std-ref">English (p. 84)</span></a> · <a class="reference internal" href="chapter-5-de.html#grundlagen-de-s26"><span class="std std-ref">Deutsch 1899 (S. 59)</span></a></p></li>
+        <li><p><strong>§ 27. Equation of the Straight Line, Based Upon the New Algebra of Segments</strong> — <a class="reference internal" href="chapter-5-en.html#grundlagen-en-s27"><span class="std std-ref">English (p. 90)</span></a> · <a class="reference internal" href="chapter-5-de.html#grundlagen-de-s27"><span class="std std-ref">Deutsch 1899 (S. 63)</span></a></p></li>
+        <li><p><strong>§ 28. The Totality of Segments Regarded as a Complex Number System</strong> — <a class="reference internal" href="chapter-5-en.html#grundlagen-en-s28"><span class="std std-ref">English (p. 95)</span></a> · <a class="reference internal" href="chapter-5-de.html#grundlagen-de-s28"><span class="std std-ref">Deutsch 1899 (S. 66)</span></a></p></li>
+        <li><p><strong>§ 29. Construction of a Geometry of Space by Aid of a Desarguesian Number System</strong> — <a class="reference internal" href="chapter-5-en.html#grundlagen-en-s29"><span class="std std-ref">English (p. 97)</span></a> · <a class="reference internal" href="chapter-5-de.html#grundlagen-de-s29"><span class="std std-ref">Deutsch 1899 (S. 67)</span></a></p></li>
+        <li><p><strong>§ 30. Significance of Desargues’s Theorem</strong> — <a class="reference internal" href="chapter-5-en.html#grundlagen-en-s30"><span class="std std-ref">English (p. 101)</span></a> · <a class="reference internal" href="chapter-5-de.html#grundlagen-de-s30"><span class="std std-ref">Deutsch 1899 (S. 70)</span></a></p></li>
+        </ul>
+        </section>
+        </section>
+
+      </div>
+      <footer class="book-footer">
+        <div class="book-footer-ornament">&#10086;</div>
+        <div class="book-footer-nav">
+          <div class="book-nav-prev">
+            <a class="book-nav-btn" href="../chapter-4/chapter-4-summary.html" title="Chapter IV: The Theory of Plane Areas">&larr; <span class="nav-label">Chapter IV: The Theory of Plane Areas</span></a>
+          </div>
+          <div class="book-nav-center">
+            <a class="book-toc-link" href="../index.html">GRUNDLAGEN DER GEOMETRIE</a>
+          </div>
+          <div class="book-nav-next">
+            <a class="book-nav-btn" href="../chapter-6/chapter-6-summary.html" title="Chapter VI: Pascal’s Theorem"><span class="nav-label">Chapter VI: Pascal’s Theorem</span> &rarr;</a>
+          </div>
+        </div>
+      </footer>
+    </article>
+  </main>
+  <div class="asides">
+    <aside class="aside-search">
+      <h3>Search</h3>
+      <div id="searchbox" role="search">
+        <form id="rtd-search-form" class="wy-form search-form" action="../../search.html" method="get">
+          <div class="search-field">
+            <input type="search" name="q" placeholder="Search docs..." aria-label="Search docs" autocomplete="off" />
+            <button type="submit" class="search-submit" aria-label="Search" title="Search">
+              <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <circle cx="11" cy="11" r="8"></circle>
+                <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+              </svg>
+            </button>
+          </div>
+          <input type="hidden" name="check_keywords" value="yes" />
+          <input type="hidden" name="area" value="default" />
+        </form>
+      </div>
+    </aside>
+  </div>
+  <footer>
+    <div class="footer-nav">
+      <ul>
+        <li><a href="../../about/index.html"  >about</a></li>
+      </ul>
+    </div>
+    <hr />
+    <div role="contentinfo">
+      <p>
+        &copy; Copyright 1899 B. G. Teubner · 1902 Open Court · Digital Codex GEOMETOR.
+      </p>
+    </div>
+  </footer>
+
+  <script src="../../_static/jquery.js?v=5d32c60e"></script>
+  <script src="../../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+  <script src="../../_static/documentation_options.js?v=01f34227"></script>
+  <script src="../../_static/doctools.js?v=fd6eb6e6"></script>
+  <script src="../../_static/sphinx_highlight.js?v=6ffebe34"></script>
+  <script src="../../_static/js/collection_controls.js?v=b6b5297a"></script>
+  <script src="../../_static/js/geometor_interactive.js?v=b2892320"></script>
+  <script src="../../_static/js/search_highlight.js"></script>
+
+</body>
+</html>

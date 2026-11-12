@@ -1,0 +1,137 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 202" width="420" height="202" class="euclid-graphic" data-graphic-id="fig_non_congruence_model" data-proposition="S.11">
+  <style>
+    :root {
+      --geom-fg: #18181b;
+      --geom-bg: #ffffff;
+      --geom-point-stroke: #ffffff;
+      --geom-poly-fill: #000000;
+      --geom-accent: #c88a1e;
+      --geom-assert: #16a34a;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --geom-fg: #d6cfc5;
+        --geom-bg: #1e1e20;
+        --geom-point-stroke: #1e1e20;
+        --geom-poly-fill: #d6cfc5;
+        --geom-accent: #e8b85a;
+        --geom-assert: #5ec27e;
+      }
+    }
+    .euclid-graphic {
+      font-family: 'Fira Sans Condensed', 'Fira Sans', sans-serif;
+      font-style: normal;
+      font-weight: 700;
+      background-color: var(--geom-bg);
+    }
+    .geom-line {
+      stroke: var(--geom-fg);
+      stroke-width: 1.8;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+      fill: none;
+    }
+    .geom-bold {
+      stroke: var(--geom-fg);
+      stroke-width: 2.3;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+      fill: none;
+    }
+    .geom-dashed {
+      stroke: var(--geom-fg);
+      stroke-width: 1.4;
+      stroke-dasharray: 5, 3.5;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+      fill: none;
+    }
+    .geom-accent-line {
+      stroke: var(--geom-accent);
+      stroke-width: 2.1;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+      fill: none;
+    }
+    .geom-assert-line {
+      stroke: var(--geom-assert);
+      stroke-width: 2.2;
+      stroke-dasharray: 6, 3;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+      fill: none;
+    }
+    .geom-circle {
+      stroke: var(--geom-fg);
+      stroke-width: 1.6;
+      fill: none;
+    }
+    .geom-arc {
+      stroke: var(--geom-accent);
+      stroke-width: 1.9;
+      stroke-linecap: round;
+      fill: none;
+    }
+    .geom-ang-arc {
+      stroke: var(--geom-assert);
+      stroke-width: 2.0;
+      stroke-linecap: round;
+      fill: none;
+    }
+    .geom-polygon {
+      fill: var(--geom-poly-fill);
+      fill-opacity: 0.05;
+      stroke: none;
+    }
+    .geom-polygon-gnomon {
+      fill: var(--geom-accent);
+      fill-opacity: 0.14;
+      stroke: none;
+    }
+    .geom-point {
+      fill: var(--geom-fg);
+      stroke: var(--geom-point-stroke);
+      stroke-width: 1.1;
+    }
+    .geom-point-accent {
+      fill: var(--geom-accent);
+      stroke: var(--geom-point-stroke);
+      stroke-width: 1.1;
+    }
+    .geom-label {
+      font-family: 'Fira Sans Condensed', 'Fira Sans', sans-serif;
+      font-size: 14px;
+      font-weight: 700;
+      fill: var(--geom-fg);
+      user-select: none;
+    }
+    .geom-label-sm {
+      font-family: 'Fira Sans Condensed', 'Fira Sans', sans-serif;
+      font-size: 11.5px;
+      font-weight: 700;
+      fill: var(--geom-fg);
+      opacity: 0.85;
+      user-select: none;
+    }
+  </style>
+  <line x1="40.00" y1="115.00" x2="390.00" y2="115.00" class="geom-line" />
+  <line x1="210.00" y1="20.00" x2="210.00" y2="195.00" class="geom-line" />
+  <path d="M 271.20 115.00 L 267.91 111.80 L 264.47 108.60 L 260.87 105.43 L 257.14 102.28 L 253.27 99.16 L 249.29 96.09 L 245.20 93.07 L 241.02 90.11 L 236.75 87.22 L 232.40 84.40 L 227.99 81.67 L 223.54 79.03 L 219.05 76.49 L 214.53 74.05 L 210.00 71.73 L 205.47 69.52 L 200.95 67.44 L 196.46 65.49 L 192.01 63.67 L 187.60 62.00 L 183.25 60.47 L 178.98 59.09 L 174.80 57.86 L 170.71 56.80 L 166.73 55.89 L 162.86 55.14 L 159.13 54.55 L 155.53 54.14 L 152.09 53.88 L 148.80 53.80 L 145.68 53.88 L 142.74 54.14 L 139.98 54.55 L 137.41 55.14 L 135.05 55.89 L 132.88 56.80 L 130.93 57.86 L 129.20 59.09 L 127.69 60.47 L 126.40 62.00 L 125.34 63.67 L 124.52 65.49 L 123.92 67.44 L 123.57 69.52 L 123.45 71.73 L 123.57 74.05 L 123.92 76.49 L 124.52 79.03 L 125.34 81.67 L 126.40 84.40 L 127.69 87.22 L 129.20 90.11 L 130.93 93.07 L 132.88 96.09 L 135.05 99.16 L 137.41 102.28 L 139.98 105.43 L 142.74 108.60 L 145.68 111.80 L 148.80 115.00 L 152.09 118.20 L 155.53 121.40 L 159.13 124.57 L 162.86 127.72 L 166.73 130.84 L 170.71 133.91 L 174.80 136.93 L 178.98 139.89 L 183.25 142.78 L 187.60 145.60 L 192.01 148.33 L 196.46 150.97 L 200.95 153.51 L 205.47 155.95 L 210.00 158.27 L 214.53 160.48 L 219.05 162.56 L 223.54 164.51 L 227.99 166.33 L 232.40 168.00 L 236.75 169.53 L 241.02 170.91 L 245.20 172.14 L 249.29 173.20 L 253.27 174.11 L 257.14 174.86 L 260.87 175.45 L 264.47 175.86 L 267.91 176.12 L 271.20 176.20 L 274.32 176.12 L 277.26 175.86 L 280.02 175.45 L 282.59 174.86 L 284.95 174.11 L 287.12 173.20 L 289.07 172.14 L 290.80 170.91 L 292.31 169.53 L 293.60 168.00 L 294.66 166.33 L 295.48 164.51 L 296.08 162.56 L 296.43 160.48 L 296.55 158.27 L 296.43 155.95 L 296.08 153.51 L 295.48 150.97 L 294.66 148.33 L 293.60 145.60 L 292.31 142.78 L 290.80 139.89 L 289.07 136.93 L 287.12 133.91 L 284.95 130.84 L 282.59 127.72 L 280.02 124.57 L 277.26 121.40 L 274.32 118.20 L 271.20 115.00 Z" class="geom-dashed" />
+  <polygon points="210.00,115.00 271.20,115.00 210.00,71.73" class="geom-polygon" />
+  <polygon points="210.00,115.00 148.80,115.00 210.00,71.73" class="geom-polygon-gnomon" />
+  <line x1="271.20" y1="115.00" x2="210.00" y2="71.73" class="geom-bold" />
+  <line x1="148.80" y1="115.00" x2="210.00" y2="71.73" class="geom-accent-line" />
+  <path d="M 228.00 115.00 A 18.00 18.00 0 0 0 210.00 97.00" class="geom-ang-arc" />
+  <path d="M 210.00 93.00 A 22.00 22.00 0 0 0 188.00 115.00" class="geom-ang-arc" />
+  <circle cx="210.00" cy="115.00" r="3.30" class="geom-point" />
+  <text x="200.00" y="131.00" text-anchor="middle" class="geom-label">O</text>
+  <circle cx="271.20" cy="115.00" r="3.30" class="geom-point" />
+  <text x="281.20" y="131.00" text-anchor="middle" class="geom-label">A</text>
+  <circle cx="148.80" cy="115.00" r="3.30" class="geom-point" />
+  <text x="136.80" y="131.00" text-anchor="middle" class="geom-label">A'</text>
+  <circle cx="210.00" cy="71.73" r="3.30" class="geom-point" />
+  <text x="222.00" y="65.73" text-anchor="middle" class="geom-label">B</text>
+  <text x="382.00" y="105.00" text-anchor="middle" class="geom-label-sm">X</text>
+  <text x="223.00" y="28.00" text-anchor="middle" class="geom-label-sm">Y</text>
+  <text x="215.00" y="186.00" text-anchor="middle" class="geom-label-sm">OA = OA', ∠AOB = ∠A'OB, yet AB ≠ A'B</text>
+</svg>

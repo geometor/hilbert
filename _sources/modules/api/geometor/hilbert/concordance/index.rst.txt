@@ -1,0 +1,158 @@
+geometor.hilbert.concordance
+============================
+
+.. py:module:: geometor.hilbert.concordance
+
+.. autoapi-nested-parse::
+
+   Structured loader, query engine, and integrity validator for the Hilbert Codex apparatus.
+
+
+
+Classes
+-------
+
+.. autoapisummary::
+
+   geometor.hilbert.concordance.ConcordanceEntry
+   geometor.hilbert.concordance.HilbertApparatus
+
+
+Functions
+---------
+
+.. autoapisummary::
+
+   geometor.hilbert.concordance.apparatus_slug
+   geometor.hilbert.concordance.default_repo_root
+   geometor.hilbert.concordance.load_apparatus
+   geometor.hilbert.concordance.verify_sources_manifest
+
+
+Module Contents
+---------------
+
+.. py:function:: apparatus_slug(key: str) -> str
+
+   Compute the deterministic anchor slug matching `photon_platform.publish.roles.geometry`.
+
+
+.. py:class:: ConcordanceEntry
+
+   Single cross-repository entry in the Euclid–Hoenen–Hilbert–Pappus concordance.
+
+
+   .. py:attribute:: id
+      :type:  str
+
+
+   .. py:attribute:: chapter
+      :type:  str
+
+
+   .. py:attribute:: hilbert_sections
+      :type:  tuple[str, ...]
+
+
+   .. py:attribute:: hilbert_axioms_theorems
+      :type:  tuple[str, ...]
+
+
+   .. py:attribute:: euclid_refs
+      :type:  tuple[dict[str, str], ...]
+
+
+   .. py:attribute:: hoenen_refs
+      :type:  tuple[dict[str, str], ...]
+
+
+   .. py:attribute:: pappus_refs
+      :type:  tuple[dict[str, str], ...]
+
+
+   .. py:attribute:: summary
+      :type:  str
+
+
+   .. py:method:: from_dict(raw: dict[str, Any]) -> ConcordanceEntry
+      :classmethod:
+
+
+      Construct a `ConcordanceEntry` from a parsed JSON dictionary.
+
+
+
+.. py:class:: HilbertApparatus
+
+   Complete loaded scholarly apparatus for `geometor-hilbert`.
+
+
+   .. py:attribute:: concordance_meta
+      :type:  dict[str, Any]
+
+
+   .. py:attribute:: entries
+      :type:  tuple[ConcordanceEntry, ...]
+
+
+   .. py:attribute:: persons
+      :type:  dict[str, dict[str, Any]]
+
+
+   .. py:attribute:: glossary
+      :type:  dict[str, dict[str, Any]]
+
+
+   .. py:attribute:: citations
+      :type:  dict[str, dict[str, Any]]
+
+
+   .. py:attribute:: sources_manifest
+      :type:  dict[str, Any]
+
+
+   .. py:method:: by_chapter(chapter_slug: str) -> list[ConcordanceEntry]
+
+      Return all concordance entries belonging to `chapter_slug` (e.g. `'chapter-1'`).
+
+
+
+   .. py:method:: by_section(section_label: str) -> list[ConcordanceEntry]
+
+      Return concordance entries covering `section_label` (e.g. `'§ 14'` or `'14'`).
+
+
+
+   .. py:method:: search_euclid(query: str) -> list[ConcordanceEntry]
+
+      Search concordance entries whose Euclid references match `query` case-insensitively.
+
+
+
+   .. py:method:: search_hoenen(query: str) -> list[ConcordanceEntry]
+
+      Search concordance entries whose Hoenen references match `query` case-insensitively.
+
+
+
+   .. py:method:: search_pappus(query: str = '') -> list[ConcordanceEntry]
+
+      Return concordance entries linked to Pappus (optionally filtered by `query`).
+
+
+
+.. py:function:: default_repo_root() -> pathlib.Path
+
+   Resolve the repository root `/home/phi/PROJECTS/geometor/hilbert`.
+
+
+.. py:function:: load_apparatus(repo_root: pathlib.Path | None = None) -> HilbertApparatus
+
+   Load `concordance.json`, `persons.json`, `glossary.json`, `citations.json`, and manifest.
+
+
+.. py:function:: verify_sources_manifest(repo_root: pathlib.Path | None = None) -> list[dict[str, Any]]
+
+   Verify SHA-256 digests and byte sizes of all archival primary sources on disk.
+
+

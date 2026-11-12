@@ -1,0 +1,328 @@
+
+
+<!DOCTYPE html>
+<html lang="en" data-content_root="../../">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Chapter VI: Pascal’s Theorem &mdash; GRUNDLAGEN DER GEOMETRIE</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..700;1,400..700&family=Fira+Sans+Condensed:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600;1,700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" type="text/css" href="../../_static/pygments.css?v=ea5fcf70" />
+  <link rel="stylesheet" type="text/css" href="../../_static/css/styles.css?v=66998e95" />
+  <link rel="stylesheet" type="text/css" href="../../_static/graphviz.css?v=4ae1632d" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css" />
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js"></script>
+  <link rel="stylesheet" href="../../_static/css/print.css" type="text/css" media="print" />
+  <link rel="icon" href="../../_static/favicon.ico" />
+</head>
+
+<body class="is-book-page book-theme-classical-serif">
+  <header>
+    <div class="logo">
+      <a href="../../index.html">
+        <h1>GEOMETOR • hilbert</h1>
+      </a>
+      <div class="org-repo">
+        <span class="org">GEOMETOR</span>
+        •
+        <span class="repo">hilbert</span>
+      </div>
+    </div>
+    <nav aria-label="Header">
+      <input type="checkbox" id="nav-Header-toggle" >
+      <label for="nav-Header-toggle" >Header</label>
+      <ul>
+        <li>
+          <a href="../../mission/index.html"  >mission</a>
+        </li>
+        <li>
+          <a href="../../log/index.html"  >log</a>
+        </li>
+        <li>
+          <a href="../../modules/index.html"  >modules</a>
+        </li>
+      </ul>
+    </nav>
+    <div class="motto"></div>
+  </header>
+  <main class="book-main">
+    <article class="book-layout book-reading-pane">
+      <header class="book-header">
+        <div class="book-header-bar">
+          <div class="book-header-identity">
+            <a class="book-portal-link" href="../../index.html" title="Return to Project Portal">&larr; hilbert</a>
+            <span class="book-header-sep">/</span>
+            <a class="book-title-link" href="../index.html">GRUNDLAGEN DER GEOMETRIE</a>
+          </div>
+        </div>
+        <div class="book-header-nav">
+          <div class="book-nav-prev">
+            <a class="book-nav-btn" href="../chapter-5/chapter-5-en.html" title="Chapter V: Desargues’s Theorem">&larr; <span class="nav-label">Prev</span></a>
+          </div>
+          <div class="book-nav-center">
+            <nav class="book-tracks-nav" aria-label="Document Tracks">
+              <strong class="book-track-item is-active" aria-current="page">English</strong>
+              <span class="book-track-sep">&middot;</span>
+              <a class="book-track-item" href="chapter-6-de.html">Deutsch</a>
+              <span class="book-track-sep">&middot;</span>
+              <a class="book-track-item" href="chapter-6-summary.html">Summary</a>
+              <span class="book-track-sep">&middot;</span>
+              <a class="book-track-item" href="chapter-6-notes.html">Notes</a>
+            </nav>
+          </div>
+          <div class="book-nav-next">
+            <a class="book-nav-btn" href="../chapter-7/chapter-7-en.html" title="Chapter VII: Geometrical Constructions Based Upon Axioms I–V"><span class="nav-label">Next</span> &rarr;</a>
+          </div>
+        </div>
+      </header>
+      <div class="content body book-content folio-book-page" role="main">
+        <section class="level-1" id="chapter-vi-pascal-s-theorem">
+        <span id="grundlagen-chapter-6-en"></span><h1>Chapter VI: Pascal’s Theorem<a class="headerlink" href="#chapter-vi-pascal-s-theorem" title="Link to this heading">¶</a></h1>
+        <p class="rubric">David Hilbert — <em>The Foundations of Geometry</em> (Authorized Translation by E. J. Townsend, 1902)</p>
+        <nav class="contents local" id="in-this-unit">
+        <p class="topic-title">In This Unit</p>
+        <ul class="simple">
+        <li><p><a class="reference internal" href="#two-theorems-concerning-the-possibility-of-proving-pascal-s-theorem" id="id1">§ 31. Two Theorems Concerning the Possibility of Proving Pascal’s Theorem</a></p></li>
+        <li><p><a class="reference internal" href="#the-commutative-law-of-multiplication-for-an-archimedean-number-system" id="id2">§ 32. The Commutative Law of Multiplication for an Archimedean Number System</a></p></li>
+        <li><p><a class="reference internal" href="#the-commutative-law-of-multiplication-for-a-non-archimedean-number-system" id="id3">§ 33. The Commutative Law of Multiplication for a Non-Archimedean Number System</a></p></li>
+        <li><p><a class="reference internal" href="#proof-of-the-two-propositions-concerning-pascal-s-theorem-non-pascalian-geometry" id="id4">§ 34. Proof of the Two Propositions Concerning Pascal’s Theorem (Non-Pascalian Geometry)</a></p></li>
+        <li><p><a class="reference internal" href="#the-demonstration-by-means-of-the-theorems-of-pascal-and-desargues-of-any-theorem-relating-to-points-of-intersection" id="id5">§ 35. The Demonstration, by Means of the Theorems of Pascal and Desargues, of Any Theorem Relating to Points of Intersection</a></p></li>
+        </ul>
+        </nav>
+        <div class="folio-milestone" id="folio-§ 31" data-folio="§ 31" data-page="103">[Folio § 31 | p. 103]</div>
+        <section class="level-2" id="two-theorems-concerning-the-possibility-of-proving-pascal-s-theorem">
+        <h2>§ 31. Two Theorems Concerning the Possibility of Proving Pascal’s Theorem<a class="headerlink" href="#two-theorems-concerning-the-possibility-of-proving-pascal-s-theorem" title="Link to this heading">¶</a></h2>
+        <p>As is well known, Desargues’s theorem (theorem 32) may be demonstrated by the aid of axioms I, II, III; that is to say, by the use, essentially, of the axioms of space. In § ! 23, we have shown that the demonstration of this theorem without the aid of the space axioms of group I and without the axioms of congruence (group IV) is impossible, even if we make use of the axiom of Archimedes.</p>
+        <p>Upon the basis of axioms I, 1–2, II, III, IV and, hence, by the exclusion of the axioms of space but with the assistance, essentially, of the axioms of congruence, we have, in § ! 14, deduced Pascal’s theorem and, consequently, according to § ! 22, also Desargues’s theorem. The question arises as to whether Pascal’s theorem can be demonstrated without the assistance of the axioms of congruence. Our investigation will show that in this respect Pascal’s theorem is very different from Desargues’s theorem; for, in the demonstration of Pascal’s theorem, the admission or exclusion of the axiom of Archimedes is of decided influence. We may combine the essential results of our investigation in the two following theorems.</p>
+        <p id="grundlagen-en-thm-36"><strong>Theorem 36.</strong> Pascal’s theorem (theorem 21) may be demonstrated by means of the axioms I, II,</p>
+        <p>III, V; that is to say, without the assistance of the axioms of congruence and with the aid of the axiom of Archimedes.</p>
+        <p id="grundlagen-en-thm-37"><strong>Theorem 37.</strong> Pascal’s theorem (theorem 21) cannot be demonstrated by means of the axioms I, II, III alone; that is to say, by exclusion of the axioms of congruence and also the axiom of Archimedes.</p>
+        <p>In the statement of these two theorems, we may, by virtue of the general theorem 35, replace the space axioms I, 3–7 by the plane condition that Desargues’s theorem (theorem 32) shall be valid.</p>
+        <div class="folio-milestone" id="folio-§ 32" data-folio="§ 32" data-page="105">[Folio § 32 | p. 105]</div>
+        </section>
+        <section class="level-2" id="the-commutative-law-of-multiplication-for-an-archimedean-number-system">
+        <h2>§ 32. The Commutative Law of Multiplication for an Archimedean Number System<a class="headerlink" href="#the-commutative-law-of-multiplication-for-an-archimedean-number-system" title="Link to this heading">¶</a></h2>
+        <p>The demonstration of theorems 36 and 37 rests essentially upon certain mutual relations concerning the laws of operation and the fundamental propositions of arithmetic, a knowledge of which is of itself of interest. We will state the two following theorems.</p>
+        <p id="grundlagen-en-thm-38"><strong>Theorem 38.</strong> For an archimedean number system, the commutative law of multiplication is a necessary consequence of the remaining laws of operation; that is to say, if a number system possesses the properties 1–11, 13–17 given in § ! 13, it follows necessarily that this system satisfies also formula 12.</p>
+        <p><strong>Proof</strong>. Let us observe first of all that, if $a$ is an arbitrary number of the system, and, if</p>
+        <p>$$
+        n = 1+1+\cdots+1
+        $$</p>
+        <p>is a positive integral rational number, then for $n$ and $a$ the commutative law of multiplication always holds. In fact, we have</p>
+        <p>$$
+        \begin{aligned}
+        an &amp;= a(1+ 1 + \cdots +1) \\
+            &amp;= a \cdot 1 + a\cdot 1 +\cdots +a\cdot 1\\
+            &amp;= a + a +\cdots +a
+        \end{aligned}
+        $$</p>
+        <p>and likewise</p>
+        <p>$$
+        \begin{aligned}
+        na &amp;= (1+ 1 + \cdots +1)a \\
+            &amp;= 1 \cdot a + 1\cdot a + \cdots + 1\cdot a\\
+            &amp;= a + a +\cdots +a.
+        \end{aligned}
+        $$</p>
+        <p>Suppose now, in contradiction to our hypothesis, $a, b$ to be numbers of this system, for which the commutative law of multiplication does not hold. It is then at once evident that we may make the assumption that we have</p>
+        <p>$$
+        a&gt; 0 \text{, }  b &gt; 0 \text{, }  ab-ba &gt; 0.
+        $$</p>
+        <p>By virtue of condition 6 of § ! 13, there exists a number $c(&gt; 0)$, such that</p>
+        <p>$$
+        (a+b+1) c = ab-ba.
+        $$</p>
+        <p>Finally, if we select a number $d$, satisfying simultaneously the inequalities</p>
+        <p>$$
+        d&gt; 0 \text{, } d &lt; 1 \text{, }  d&lt;c,
+        $$</p>
+        <p>and denote by $m$ and $n$ two such integral rational numbers $\ge 0$ that we have respectively</p>
+        <p>$$
+        md &lt; a \le (m+1) d
+        $$</p>
+        <p>and</p>
+        <p>$$
+        nd &lt; b \le (n+1) d
+        $$</p>
+        <p>then the existence of the numbers $m$ and $n$ is an immediate consequence of the theorem of Archimedes (theorem 17, § ! 13). Recalling now the remark made at the beginning of this proof, we have by the multiplication of the last inequalities</p>
+        <p>$$
+        \begin{aligned}
+        ab &amp;\le mnd^2 + (m+n+1)d^2\\
+         ba &amp;&gt; mnd^2,
+        \end{aligned}
+        $$</p>
+        <p>and, hence, by subtraction</p>
+        <p>$$
+        ab-ba \le (m+n+1)d^2.
+        $$</p>
+        <p>We have, however,</p>
+        <p>$$
+        md&lt;a \text{, } nd&lt;b, \text{, } d&lt;1
+        $$</p>
+        <p>and, consequently,</p>
+        <p>$$
+        (m+n+1)d&lt;a+b+1;
+        $$</p>
+        <p>i.e.,</p>
+        <p>$$
+        ab-ba&lt;(a+b+1)d,
+        $$</p>
+        <p>or, since $d&lt;c$, we have</p>
+        <p>$$
+        ab-ba&lt;(a+b+1)c.
+        $$</p>
+        <p>This inequality stands in contradiction to the definition of the number $c$, and, hence, the validity of the theorem 38 follows.</p>
+        <div class="folio-milestone" id="folio-§ 33" data-folio="§ 33" data-page="107">[Folio § 33 | p. 107]</div>
+        </section>
+        <section class="level-2" id="the-commutative-law-of-multiplication-for-a-non-archimedean-number-system">
+        <h2>§ 33. The Commutative Law of Multiplication for a Non-Archimedean Number System<a class="headerlink" href="#the-commutative-law-of-multiplication-for-a-non-archimedean-number-system" title="Link to this heading">¶</a></h2>
+        <p id="grundlagen-en-thm-39"><strong>Theorem 39.</strong> For a non-archimedean number system, the commutative law of multiplication is not a necessary consequence of the remaining laws of operation; that is to say, there exists a system of numbers possessing the properties 1–11, 13–16 mentioned in § ! 13, but for which the commutative law (12) of multiplication is not valid. A desarguesian number system, in the sense of § ! 28, is such a system.</p>
+        <p><strong>Proof</strong>. Let $t$ be a parameter and $T$ any expression containing a finite or infinite number of terms, say of the form</p>
+        <p>$$
+        T=r_0t^n + r_1t^{n+1} + r_2t^{n+2} + r_3t^{n+3} + \ldots,
+        $$</p>
+        <p>where $r_0(\neq 0), r_1, r_2 \ldots$ are arbitrary rational numbers and $n$ is an arbitrary integral rational number $\gtreqless 0$. Moreover, let $s$ be another parameter and $S$ any expression having a finite or infinite number of terms, say of the form</p>
+        <p>$$
+        S = s^mT_0 + s^{m+1}T_1 + s^{m+2}T_2 + \ldots ,
+        $$</p>
+        <p>where $T_0 (\ne 0), T_1, T_2, \ldots$ denote arbitrary expressions of the form $T$ and $m$ is again an arbitrary integral rational number $\lesseqgtr 0$. We will regard the totality of all the expressions of the form $S$ as a complex number system $\Omega(s,\!t)$, for which we will assume the following laws of operation; namely, we will operate with $s$ and $t$ according to the laws 7–11 of § ! 13, as with parameters, while in place of rule 12 we will apply the formula</p>
+        <p>$$
+        ts = 2st.
+        $$</p>
+        <p>If, now, $S'$, $S''$ are any two expressions of the form $S$, say</p>
+        <p>$$
+        \begin{aligned}
+        S' &amp;= s^{m'}T'_0 + s^{m'+1}T'_1 + s^{m'+2}T'_2 + \ldots,\\
+         S'' &amp;= s^{m''}T''_0 + s^{m''+1}T''_1 + s^{m''+2}T''_2 + \ldots,
+        \end{aligned}
+        $$</p>
+        <p>then, by combination, we can evidently form a new expression $S'+S''$ which is of the form $S$, and is, moreover, uniquely determined. This expression $S' + S''$ is called the sum of the numbers represented by $S'$ and $S''$.</p>
+        <p>By the multiplication of the two expressions $S'$ and $S''$ term by term, we obtain another expression of the form</p>
+        <p>$$
+        \begin{aligned}
+         &amp;S'S'' = s^{m'}T'_0 s^{m''} T''_0
+         + (s^{m'} T'_0 s^{m''+1} T''_1
+         + s^{m'+1} T'_1 s^{m''} T_0'')\\
+         &amp;+ (s^{m'} T'_0 s^{m''+2} T''_2
+         + s^{m'+1} T'_1 s^{m''+1}T''_1
+         + s^{m'+2} T'_2 s^{m''} T''_0) + \ldots
+        \end{aligned}
+        $$</p>
+        <p>This expression, by the aid of formula (1), is evidently a definite single-valued expression of the form $S$ and we will call it the product of the numbers represented by $S'$ and $S''$.</p>
+        <p>This method of calculation shows at once the validity of the laws 1–5 given in Section 13 for calculating with numbers. The validity of law 6 of that section is also not difficult to establish. To this end, let us assume that</p>
+        <p>$$
+        S'=s^{m'}T'_0+s^{m'+1}T'_1+s^{m'+2}T'_2+ \cdots
+        $$</p>
+        <p>and</p>
+        <p>$$
+        S'''=s^{m'''}T'''_0+s^{m'''+1}T'''_1+s^{m'''+2}T'''_2 \cdots
+        $$</p>
+        <p>are two expressions of the form $S$, and let us suppose, further, that the coefficient $r'_0$ of $T'_0$ is different from zero. By equating the like powers of $s$ in the two members of the equation</p>
+        <p>$$
+        S'S''=S''',
+        $$</p>
+        <p>we find, first of all, in a definite manner an integral number $m''$ as exponent, and then such a succession of expressions</p>
+        <p>$$
+        T''_0 \text{, } T''_1 \text{, } T''_2 \ldots
+        $$</p>
+        <p>that, by aid of formula (1), the expression</p>
+        <p>$$
+        S''=s^{m''}T''_0+s^{m''+1}T''_1+s^{m''+2}T''_2 \dots
+        $$</p>
+        <p>satisfies equation (2). With this our theorem is established.</p>
+        <p>In order, finally, to render possible an order of sequence of the numbers of our system $\Omega(s, t)$, we make the following conventions. Let a number of this system be called greater or less than 0 according as in the expression $S$, which represents it, the first coefficient $r_0$ of $T_0$ is greater or less than zero. Given any two numbers $a$, $b$ of the complex number system under consideration, we say that $a&lt;b$ or $a&gt;b$ according as</p>
+        <p>we have $a-b &lt; 0$ or $&gt; 0$. It is seen immediately that, with these conventions, the laws 13–16 of § ! 13 are valid; that is to say, $\Omega (s, t)$ is a desarguesian number system (see § ! 28).</p>
+        <p>As equation (1) shows, law 12 of § ! 13 is not fulfilled by our complex number system and, consequently, the validity of theorem 39 is fully established.</p>
+        <p>In conformity with theorem 38, Archimedes’s theorem (theorem 17, § ! 13) does not hold for the number system $\Omega (s, t)$ which we have just constructed.</p>
+        <p>We wish also to call attention to the fact that the number system $\Omega (s, t)$, as well as the systems $\Omega$ and $\Omega (t)$ made use of in § ! 9 and § ! 12, respectively, contains only an enumerable set of numbers.</p>
+        <div class="folio-milestone" id="folio-§ 34" data-folio="§ 34" data-page="110">[Folio § 34 | p. 110]</div>
+        </section>
+        <section class="level-2" id="proof-of-the-two-propositions-concerning-pascal-s-theorem-non-pascalian-geometry">
+        <h2>§ 34. Proof of the Two Propositions Concerning Pascal’s Theorem (Non-Pascalian Geometry)<a class="headerlink" href="#proof-of-the-two-propositions-concerning-pascal-s-theorem-non-pascalian-geometry" title="Link to this heading">¶</a></h2>
+        <p>If, in a geometry of space, all of the axioms I, II, III are fulfilled, then Desargues’s theorem (theorem 32) is also valid, and, consequently, according to §§ 24–26, pp. 79–89, it is possible to introduce into this geometry an algebra of segments for which the rules 1–11, 13–16 of § ! 13 are all valid. If we assume now that the axiom (V) of Archimedes is valid for our geometry, then evidently Archimedes’s theorem (theorem 17 of § ! 13) also holds for our algebra of segments, and, consequently, by virtue of theorem 38, the commutative law of multiplication is valid. Since, however, the definition of the product of two segments, as introduced in § ! 24 (figure 42) and which is the definition here also under discussion, agrees with the definition in § ! 15 (figure 22), it follows from the construction made in § ! 15 that the commutative law of multiplication is here nothing else than Pascal’s theorem. Consequently, the validity of theorem 36 is established.</p>
+        <p>In order to demonstrate theorem 37, let us consider again the desarguesian number system $\Omega(s, t)$ introduced in $\S$ 33, and construct, in the manner described in $\S$ 29, a geometry of space for which all of the axioms I, II, III are fulfilled. However, Pascal’s theorem will not hold for this geometry; for, the commutative law of multiplication is not valid in the desarguesian number system $\Omega(s, t)$. According to theorem 36, the non-pascalian geometry is then necessarily also a non-archimedean geometry.</p>
+        <p>By adopting the hypothesis we have, it is evident that we cannot demonstrate Pascal’s theorem, providing we regard our geometry of space as a part of a geometry of an arbitrary number of dimensions in which, besides the points, straight lines, and planes, still other linear elements are present, and providing there exists for these elements a corresponding system of axioms of connection and of order, as well as the axiom of parallels.</p>
+        <div class="folio-milestone" id="folio-§ 35" data-folio="§ 35" data-page="112">[Folio § 35 | p. 112]</div>
+        </section>
+        <section class="level-2" id="the-demonstration-by-means-of-the-theorems-of-pascal-and-desargues-of-any-theorem-relating-to-points-of-intersection">
+        <h2>§ 35. The Demonstration, by Means of the Theorems of Pascal and Desargues, of Any Theorem Relating to Points of Intersection<a class="headerlink" href="#the-demonstration-by-means-of-the-theorems-of-pascal-and-desargues-of-any-theorem-relating-to-points-of-intersection" title="Link to this heading">¶</a></h2>
+        <p>Every proposition relating to points of intersection in a plane has necessarily The form: Select, first of all, an arbitrary system of points and straight lines satisfying respectively the condition that certain ones of these points are situated on certain ones of the straight lines. If, in some known manner, we construct the straight lines joining the given points and determine the points of intersection of the given lines, we shall obtain finally a definite system of three straight lines, of which our proposition asserts that they all pass through the same point.</p>
+        <p>Suppose we now have a plane geometry in which all of the axioms I 1–2, II …, V are valid. According to $\S$ 17, pp. 53–56, we may now find, by making use of a rectangular pair of axes, for each point a corresponding pair of numbers $(x,y)$ and for each straight line a ratio of three definite numbers $(u:v:w)$. Here, the numbers $x,\ y,\ u,\ v,\ w$ are all <em>real</em> numbers, of which $u,\ v$ cannot both be zero. The condition showing that the given point is situated upon the given straight line, viz.:</p>
+        <p>$$
+        ux+vy+w=0
+        $$</p>
+        <p>is an equation in the ordinary sense of the word. Conversely, in case $x,\ y,\ u,\ v,\ w$ are numbers of the algebraic domain $\Omega$ of $\S$ 9, and $u,\ v$ are not both zero, we may certainly assume that each pair of numbers $(x,y)$ gives a point and that each ratio of three numbers $(u:v:w)$ gives a straight line in the geometry in question.</p>
+        <p>If, for all the points and straight lines which occur in connection with any theorem relating to intersections in a plane, we introduce the corresponding pairs and triples of numbers, then such a theorem asserts that a definite expression $A(p_1,p_2,\ldots,p_r)$ with real coefficients and depending rationally upon certain parameters $p_1,p_2,\ldots,p_r$ always vanishes as soon as we put for each of these parameters a number of the main $\Omega$ considered in $\S$ 9. We conclude from this that the expression $A(p_1,p_2,\dots,p_r)$ must also vanish identically in accordance with the laws 7–12 of $\S$ 13.</p>
+        <p>Since, according to $\S$ 32, Desargues’s theorem holds for the geometry in question, it follows that we certainly can make use of the algebra of segments introduced in $\S$ 24, and because Pascal’s theorem is equally valid in this case, the commutative law of multiplication is also. Hence, for this algebra of segments, all of the laws 7–12 of $\S$ 13 are valid.</p>
+        <p>If we take as our axes in this new algebra of segments the co-ordinate axes already used and consider the unit points $E$, $E'$ as suitably established, we see that the new algebra of segments is nothing else than the system of co-ordinates previously employed.</p>
+        <p>In order to show that, for the new algebra of segments, the expression $A(p_1,\ p_2,\ \ldots,\ p_r)$ vanishes identically, it is sufficient to apply the theorems of Pascal and Desargues. Consequently we see that:</p>
+        <p><em>Every proposition relative to points of intersection in the geometry in question must always, by the aid of suitably constructed auxiliary points and straight lines, turn out to be a combination of the theorems of Pascal and Desargues. Hence for the proof of the validity of a theorem relating to points of intersection, we need not have resource to the theorems of congruence.</em></p>
+        </section>
+        </section>
+
+      </div>
+      <footer class="book-footer">
+        <div class="book-footer-ornament">&#10086;</div>
+        <div class="book-footer-nav">
+          <div class="book-nav-prev">
+            <a class="book-nav-btn" href="../chapter-5/chapter-5-en.html" title="Chapter V: Desargues’s Theorem">&larr; <span class="nav-label">Chapter V: Desargues’s Theorem</span></a>
+          </div>
+          <div class="book-nav-center">
+            <a class="book-toc-link" href="../index.html">GRUNDLAGEN DER GEOMETRIE</a>
+          </div>
+          <div class="book-nav-next">
+            <a class="book-nav-btn" href="../chapter-7/chapter-7-en.html" title="Chapter VII: Geometrical Constructions Based Upon Axioms I–V"><span class="nav-label">Chapter VII: Geometrical Constructions Based Upon Axioms I–V</span> &rarr;</a>
+          </div>
+        </div>
+      </footer>
+    </article>
+  </main>
+  <div class="asides">
+    <aside class="aside-search">
+      <h3>Search</h3>
+      <div id="searchbox" role="search">
+        <form id="rtd-search-form" class="wy-form search-form" action="../../search.html" method="get">
+          <div class="search-field">
+            <input type="search" name="q" placeholder="Search docs..." aria-label="Search docs" autocomplete="off" />
+            <button type="submit" class="search-submit" aria-label="Search" title="Search">
+              <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <circle cx="11" cy="11" r="8"></circle>
+                <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+              </svg>
+            </button>
+          </div>
+          <input type="hidden" name="check_keywords" value="yes" />
+          <input type="hidden" name="area" value="default" />
+        </form>
+      </div>
+    </aside>
+  </div>
+  <footer>
+    <div class="footer-nav">
+      <ul>
+        <li><a href="../../about/index.html"  >about</a></li>
+      </ul>
+    </div>
+    <hr />
+    <div role="contentinfo">
+      <p>
+        &copy; Copyright 1899 B. G. Teubner · 1902 Open Court · Digital Codex GEOMETOR.
+      </p>
+    </div>
+  </footer>
+
+  <script src="../../_static/jquery.js?v=5d32c60e"></script>
+  <script src="../../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+  <script src="../../_static/documentation_options.js?v=01f34227"></script>
+  <script src="../../_static/doctools.js?v=fd6eb6e6"></script>
+  <script src="../../_static/sphinx_highlight.js?v=6ffebe34"></script>
+  <script src="../../_static/js/collection_controls.js?v=b6b5297a"></script>
+  <script src="../../_static/js/geometor_interactive.js?v=b2892320"></script>
+  <script src="../../_static/js/search_highlight.js"></script>
+
+</body>
+</html>

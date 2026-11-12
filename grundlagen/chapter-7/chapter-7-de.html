@@ -1,0 +1,324 @@
+
+
+<!DOCTYPE html>
+<html lang="en" data-content_root="../../">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Kapitel VII: Die geometrischen Konstruktionen auf Grund der Axiome I–V &mdash; GRUNDLAGEN DER GEOMETRIE</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..700;1,400..700&family=Fira+Sans+Condensed:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600;1,700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" type="text/css" href="../../_static/pygments.css?v=ea5fcf70" />
+  <link rel="stylesheet" type="text/css" href="../../_static/css/styles.css?v=66998e95" />
+  <link rel="stylesheet" type="text/css" href="../../_static/graphviz.css?v=4ae1632d" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css" />
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js"></script>
+  <link rel="stylesheet" href="../../_static/css/print.css" type="text/css" media="print" />
+  <link rel="icon" href="../../_static/favicon.ico" />
+</head>
+
+<body class="is-book-page book-theme-classical-serif">
+  <header>
+    <div class="logo">
+      <a href="../../index.html">
+        <h1>GEOMETOR • hilbert</h1>
+      </a>
+      <div class="org-repo">
+        <span class="org">GEOMETOR</span>
+        •
+        <span class="repo">hilbert</span>
+      </div>
+    </div>
+    <nav aria-label="Header">
+      <input type="checkbox" id="nav-Header-toggle" >
+      <label for="nav-Header-toggle" >Header</label>
+      <ul>
+        <li>
+          <a href="../../mission/index.html"  >mission</a>
+        </li>
+        <li>
+          <a href="../../log/index.html"  >log</a>
+        </li>
+        <li>
+          <a href="../../modules/index.html"  >modules</a>
+        </li>
+      </ul>
+    </nav>
+    <div class="motto"></div>
+  </header>
+  <main class="book-main">
+    <article class="book-layout book-reading-pane">
+      <header class="book-header">
+        <div class="book-header-bar">
+          <div class="book-header-identity">
+            <a class="book-portal-link" href="../../index.html" title="Return to Project Portal">&larr; hilbert</a>
+            <span class="book-header-sep">/</span>
+            <a class="book-title-link" href="../index.html">GRUNDLAGEN DER GEOMETRIE</a>
+          </div>
+        </div>
+        <div class="book-header-nav">
+          <div class="book-nav-prev">
+            <a class="book-nav-btn" href="../chapter-6/chapter-6-de.html" title="Chapter VI: Pascal’s Theorem">&larr; <span class="nav-label">Prev</span></a>
+          </div>
+          <div class="book-nav-center">
+            <nav class="book-tracks-nav" aria-label="Document Tracks">
+              <a class="book-track-item" href="chapter-7-en.html">English</a>
+              <span class="book-track-sep">&middot;</span>
+              <strong class="book-track-item is-active" aria-current="page">Deutsch</strong>
+              <span class="book-track-sep">&middot;</span>
+              <a class="book-track-item" href="chapter-7-summary.html">Summary</a>
+              <span class="book-track-sep">&middot;</span>
+              <a class="book-track-item" href="chapter-7-notes.html">Notes</a>
+            </nav>
+          </div>
+          <div class="book-nav-next">
+            <a class="book-nav-btn" href="../conclusion/conclusion-de.html" title="Conclusion &amp; Appendix on Transformation Groups"><span class="nav-label">Next</span> &rarr;</a>
+          </div>
+        </div>
+      </header>
+      <div class="content body book-content folio-book-page" role="main">
+        <section class="level-1" id="kapitel-vii-die-geometrischen-konstruktionen-auf-grund-der-axiome-iv">
+        <span id="grundlagen-chapter-7-de"></span><h1>Kapitel VII: Die geometrischen Konstruktionen auf Grund der Axiome I–V<a class="headerlink" href="#kapitel-vii-die-geometrischen-konstruktionen-auf-grund-der-axiome-iv" title="Link to this heading">¶</a></h1>
+        <p class="rubric">David Hilbert — <em>Grundlagen der Geometrie</em> (Festschrift, B. G. Teubner, Leipzig 1899)</p>
+        <nav class="contents local" id="gliederung">
+        <p class="topic-title">Gliederung</p>
+        <ul class="simple">
+        <li><p><a class="reference internal" href="#die-geometrischen-konstruktionen-mittelst-lineals-und-streckenubertragers" id="id3">§ 36. Die geometrischen Konstruktionen mittelst Lineals und Streckenübertragers</a></p></li>
+        <li><p><a class="reference internal" href="#analytische-darstellung-der-coordinaten-konstruirbarer-punkte" id="id4">§ 37. Analytische Darstellung der Coordinaten konstruirbarer Punkte</a></p></li>
+        <li><p><a class="reference internal" href="#die-darstellung-algebraischer-zahlen-und-ganzer-rationaler-funktionen-als-summe-von-quadraten" id="id5">§ 38. Die Darstellung algebraischer Zahlen und ganzer rationaler Funktionen als Summe von Quadraten</a></p></li>
+        <li><p><a class="reference internal" href="#kriterium-fur-die-ausfuhrbarkeit-geometrischer-konstruktionen-mittelst-lineals-und-streckenubertragers" id="id6">§ 39. Kriterium für die Ausführbarkeit geometrischer Konstruktionen mittelst Lineals und Streckenübertragers</a></p></li>
+        </ul>
+        </nav>
+        <div class="folio-milestone" id="folio-§ 36" data-folio="§ 36" data-page="78">[Folio § 36 | p. 78]</div>
+        <section class="level-2" id="die-geometrischen-konstruktionen-mittelst-lineals-und-streckenubertragers">
+        <h2>§ 36. Die geometrischen Konstruktionen mittelst Lineals und Streckenübertragers<a class="headerlink" href="#die-geometrischen-konstruktionen-mittelst-lineals-und-streckenubertragers" title="Link to this heading">¶</a></h2>
+        <p>Es sei eine räumliche Geometrie vorgelegt , in der die sämtlichen Axiome I— V gelten; wir fassen der Einfachheit wegen in diesem Kapitel eine ebene Geometrie ins Auge, die in dieser räumlichen Geometrie enthalten ist , und untersuchen dann die Frage, welche elementaren Konstruktionsaufgaben in einer solchen Geometrie notwendig ausführbar sind.</p>
+        <p>Auf Grund der Axiome I ist die Ausführung der folgenden Aufgabe stets möglich :</p>
+        <p><strong>Aufgabe 1.</strong> Zwei Punkte durch eine Gerade zu verbinden und den Schnittpunkt zweier Geraden zu finden , falls die Geraden nicht parallel sind.</p>
+        <p>Das Axiom III ermöglicht die Ausführung der folgenden Aufgabe :</p>
+        <p><strong>Aufgabe 2.</strong> Durch einen gegebenen Punkt zu einer Geraden eine Parallele zu ziehen.</p>
+        <p>Auf Grund der Congruenzaxiome IV ist das Abtragen von Strecken und Winkeln möglich, d. h. es lassen sich in der vorgelegten Geometrie folgende Aufgaben lösen:</p>
+        <p><strong>Aufgabe 3.</strong> Eine gegebene Strecke auf einer gegebenen Geraden von einem Punkte aus abzutragen.</p>
+        <p><strong>Aufgabe 4.</strong> Einen gegebenen Winkel an eine gegebene Gerade anzutragen oder eine Gerade zu konstruiren, die eine gegebene Gerade unter einem gegebenen Winkel schneidet.</p>
+        <p>Auf Grund der Axiome der Gruppen II und V werden keine neuen Aufgaben lösbar; wir sehen somit, dass unter ausschliesslicher Benutzung der Axiome I— V alle und nur diejenigen Konstruktionsaufgaben lösbar sind, die sich auf die eben genannten Aufgaben 1 — 4 zurückführen lassen.</p>
+        <p>Wir fügen den fundamentalen Aufgaben 1 — 4 noch die folgende hinzu:</p>
+        <p><strong>Aufgabe 5.</strong> Zu einer gegebenen Geraden eine Senkrechte zu ziehen.</p>
+        <p>Wir erkennen unmittelbar, dass diese Aufgabe 5 auf verschiedene Arten durch die Aufgaben 1—4 gelöst werden kann.</p>
+        <p>Zur Ausführung der Aufgabe 1 bedürfen wir des Lineals. Ein Instrument , welches zur Ausführung der Aufgabe 3 dient d. h. das Abtragen einer Strecke auf einer gegebenen Geraden ermöglicht , nennen wir einen Streckenübertrager. Wir wollen nunmehr zeigen, dass die Aufgaben 2, 4 und 5 auf die Lösung der Aufgaben 1 und 3 zurückgeführt werden können, und mithin die sämtlichen Aufgaben 1—5 lediglich mittelst Lineals und Streckenübertragers lösbar sind. Wir finden damit folgendes Resultat :</p>
+        <p id="grundlagen-de-thm-40"><strong>Satz 40.</strong> Diejenigen geometrischen Konstruktionsaufgaben , die unter ausschliesslicher Benutzung der Axiome I — V lösbar sind, lassen sich notwendig mittelst Lineals und Streckenübertragers ausführen.</p>
+        <p><strong>Beweis.</strong> Um die Aufgabe 2 auf die Aufgaben 1 und 3 zurückzuführen, verbinden wir den gegebenen Punkt P mit irgend einem Punkte A der gegebenen Geraden und verlängern PA über A hinaus um sich selbst bis C. Sodann verbinden wir C mit irgend einem andern Punkte B der gegebenen Geraden und verlängern CB über B hinaus um sich selbst bis Q ; die Gerade PQ ist die gesuchte Parallele.</p>
+        <p>Die Aufgabe 5 lösen wir auf folgende Weise. Es sei A ein beliebiger Punkt der gegebenen Geraden; dann tragen wir von A aus auf dieser Geraden nach beiden Seiten hin zwei gleiche Strecken AB und AG ab und bestimmen dann auf zwei beliebigen anderen</p>
+        <p>durch A gehenden Geraden die Punkte E und D, so dass auch die Strecken AD und AE den Strecken AB und AC gleich werden. Die Geraden BD und CE mögen sich in F, die Geraden BE und $CD$ in $H$ schneiden: dann ist $FH$ die gesuchte Senkrechte. In der That: die Winkel $\angle BDC$ und $\angle BEC$ sind als Winkel im Halbkreise über $BC$ Rechte und daher steht nach dem Satze vom</p>
+        <p>wandt, auch FH auf BC senkrecht.</p>
+        <p>Wir können nunmehr leicht auch die Aufgabe 4 allein mittelst Ziehens von Geraden und Abtragens von Strecken lösen; wir schlagen etwa folgendes Verfahren ein, welches nur das Ziehen von Parallelen und Fällen von Loten erfordert. Es sei $\beta$ der abzutragende Winkel und $A$ der Scheitel dieses Winkels. Wir ziehen die Gerade $l$ durch $A$ parallel zu der gegebenen Geraden, an welche der gegebene Winkel $\beta$ angetragen werden soll. Von einem beliebigen Punkte $B$ eines Schenkels von $\beta$ fällen wir Lote auf den anderen Schenkel des Winkels $\beta$ und auf $l$. Die Fusspunkte dieser Lote seien $D$ und $C$. Das Fällen von Loten geschieht vermöge der Aufgaben 2 und 5. Sodann fällen wir von $A$ eine Senkrechte auf $CD$, ihr Fusspunkt sei $E$. Nach dem in § 14 ausgeführten Beweise ist $\angle CAE \equiv \beta$; die Aufgabe 4 ist somit ebenfalls auf die Aufgaben 1 und 3 zurückgeführt und damit der Satz 40 vollständig bewiesen.</p>
+        <figure class="photon-picture photon-svg">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 460 198" width="460" height="198" class="euclid-graphic" data-graphic-id="fig_gauge_constructions" data-proposition="S.36">
+          <path d="M 117.00 162.00 A 108.00 108.00 0 0 1 333.00 162.00" class="geom-dashed" />
+          <line x1="55.00" y1="162.00" x2="415.00" y2="162.00" class="geom-bold" />
+          <line x1="117.00" y1="162.00" x2="255.00" y2="26.00" class="geom-line" />
+          <line x1="333.00" y1="162.00" x2="255.00" y2="26.00" class="geom-line" />
+          <line x1="225.00" y1="162.00" x2="226.58" y2="54.01" class="geom-dashed" />
+          <line x1="225.00" y1="162.00" x2="279.54" y2="68.78" class="geom-dashed" />
+          <line x1="333.00" y1="162.00" x2="226.58" y2="54.01" class="geom-line" />
+          <line x1="117.00" y1="162.00" x2="279.54" y2="68.78" class="geom-line" />
+          <line x1="255.00" y1="26.00" x2="255.00" y2="162.00" class="geom-accent-line" />
+          <line x1="245.00" y1="162.00" x2="245.00" y2="152.00" class="geom-accent-line" />
+          <line x1="245.00" y1="152.00" x2="255.00" y2="152.00" class="geom-accent-line" />
+          <circle cx="225.00" cy="162.00" r="3.30" class="geom-point" />
+          <text x="225.00" y="179.00" text-anchor="middle" class="geom-label">O</text>
+          <circle cx="117.00" cy="162.00" r="3.30" class="geom-point" />
+          <text x="107.00" y="179.00" text-anchor="middle" class="geom-label">A</text>
+          <circle cx="333.00" cy="162.00" r="3.30" class="geom-point" />
+          <text x="343.00" y="179.00" text-anchor="middle" class="geom-label">B</text>
+          <circle cx="226.58" cy="54.01" r="3.30" class="geom-point" />
+          <text x="213.58" y="50.01" text-anchor="middle" class="geom-label">C</text>
+          <circle cx="279.54" cy="68.78" r="3.30" class="geom-point" />
+          <text x="292.54" y="64.78" text-anchor="middle" class="geom-label">D</text>
+          <circle cx="255.00" cy="26.00" r="3.30" class="geom-point" />
+          <text x="255.00" y="17.00" text-anchor="middle" class="geom-label">P</text>
+          <circle cx="255.00" cy="82.85" r="3.30" class="geom-point" />
+          <text x="268.00" y="85.85" text-anchor="middle" class="geom-label">H</text>
+          <circle cx="255.00" cy="162.00" r="3.30" class="geom-point" />
+          <text x="255.00" y="179.00" text-anchor="middle" class="geom-label">F</text>
+        </svg>
+        <figcaption>**Orthocenter Perpendicular Construction with Straightedge and Segment-Transferer (§ 36).** Dropping a perpendicular from P to line AB using only a straightedge and Streckenübertrager (Eichmass) via Thales's semicircle right angles at C and D and orthocenter H.</figcaption>
+        </figure>
+        <div class="folio-milestone" id="folio-§ 37" data-folio="§ 37" data-page="80">[Folio § 37 | p. 80]</div>
+        </section>
+        <section class="level-2" id="analytische-darstellung-der-coordinaten-konstruirbarer-punkte">
+        <h2>§ 37. Analytische Darstellung der Coordinaten konstruirbarer Punkte<a class="headerlink" href="#analytische-darstellung-der-coordinaten-konstruirbarer-punkte" title="Link to this heading">¶</a></h2>
+        <p>Ausser den in § 36 behandelten elementargeometrischen Aufgaben giebt es noch eine grosse Reihe weiterer Aufgaben, zu deren Lösung man lediglich das Ziehen von Geraden und das Abtragen von Strecken nötig hat. Um den Bereich aller auf diese Weise lösbaren Aufgaben überblicken zu können, legen wir bei der weiteren Betrachtung ein rechtwinkliges Coordinatensystem zu Grunde und denken uns die Coordinaten der Punkte in der üblichen Weise als reelle Zahlen oder Funktionen von gewissen</p>
+        <p>willkürlichen Parametern. Um die Frage nach der Gesamtheit aller konstruirbaren Punkte zu beantworten, stellen wir folgende Betrachtung an:</p>
+        <p>Es sei ein System von bestimmten Punkten gegeben; wir setzen aus den Coordinaten dieser Punkte einen Bereich $R$ zusammen; derselbe enthält gewisse reelle Zahlen und gewisse willkürliche Parameter $p$. Nunmehr denken wir uns die Gesamtheit aller derjenigen Punkte, die durch Ziehen von Geraden und Abtragen von Strecken aus dem vorgelegten System von Punkten konstruirbar sind. Der Bereich, der von den Coordinaten dieser Punkte gebildet wird, heisse $\Omega(R)$; derselbe enthält gewisse reelle Zahlen und Funktionen der willkürlichen Parameter $p$.</p>
+        <p>Unsere Betrachtungen in § 17 zeigen, dass das Ziehen von Geraden und Parallelen analytisch auf die Anwendung der Addition, Multiplikation, Subtraktion, Division von Strecken hinausläuft; ferner lehrt die bekannte in § 9 aufgestellte Formel für die Drehung, dass das Abtragen von Strecken auf einer beliebigen Geraden keine andere analytische Operation erfordert, als die Quadratwurzel zu ziehen aus einer Summe von zwei Quadraten, deren Basen man bereits konstruirt hat. Umgekehrt kann man zufolge des Pythagoräischen Lehrsatzes vermöge eines rechtwinkligen Dreiecks die Quadratwurzel aus der Summe zweier Streckenquadrate durch Abtragen von Strecken stets konstruiren.</p>
+        <p>Aus diesen Betrachtungen geht hervor, dass der Bereich $\Omega(R)$ alle diejenigen und nur solche reellen Zahlen und Funktionen der Parameter $p$ enthält, die aus den Zahlen und Parametern in $R$ vermöge einer endlichen Anzahl von Anwendungen von fünf Rechnungsoperationen, nämlich der vier elementaren Rechnungsoperationen hervorgehen, wenn man noch das Ziehen der Quadratwurzel</p>
+        <p>aus einer Summe zweier Quadrate als fünfte Rechnungsoperation</p>
+        <p>zulässt. Wir sprechen dieses Resultat wie folgt aus :</p>
+        <p id="grundlagen-de-thm-41"><strong>Satz 41.</strong> Eine geometrische Konstruktionsaufgabe ist dann und nur dann durch Ziehen von Geraden und Abtragen von Strecken, d. h. mittels Lineals und Streckenübertragers lösbar, wenn bei der analytischen Behandlung der Aufgabe die Coordinaten der gesuchten Punkte solche Funktionen der Coordinaten der gegebenen Punkte sind, deren Herstellung nur rationale Operationen und die Operation des Ziehens der Quadratwurzel aus der Summe zweier Quadrate erfordert.</p>
+        <p>Wir können aus diesem Satze sofort erkennen, dass nicht jede mittelst Zirkels lösbare Aufgabe auch allein mittelst Lineals und Streckenübertragers gelöst werden kann. Zu dem Zwecke</p>
+        <p>legen wir diejenige Geometrie zu Grunde, die in § 9 mit Hilfe des algebraischen Zahlenbereichs $\Omega$ aufgebaut worden ist; in dieser Geometrie giebt es lediglich solche Strecken, die mittelst Lineals und Streckenübertragers konstruirbar sind, nämlich die durch Zahlen des Bereichs $\Omega$ bestimmten Strecken.</p>
+        <p>Ist nun $\omega$ irgend eine Zahl in $\Omega$, so erkennen wir aus der Definition des Bereichs $\Omega$ leicht, dass auch jede zu $\omega$ conjugirte algebraische Zahl in $\Omega$ liegen muss, und da die Zahlen des Bereichs $\Omega$ offenbar sämtlich reell sind, so folgt hieraus, dass der Bereich $\Omega$ nur solche reelle algebraische Zahlen enthalten kann, deren Conjugirte ebenfalls reell sind.</p>
+        <p>Wir stellen jetzt die Aufgabe, ein rechtwinkliges Dreieck mit der Hypotenuse $1$ und einer Kathete $|\sqrt{2}| - 1$ zu konstruiren. Nun kommt die algebraische Zahl $\sqrt{2|\sqrt{2}| - 2}$, die den Zahlenwert der anderen Kathete ausdrückt, im Zahlenbereich $\Omega$ nicht vor, da die zu ihr konjugirte Zahl $\sqrt{-2|\sqrt{2}| - 2}$ imaginär ausfällt. Die gestellte Aufgabe ist mithin in der zu Grunde gelegten Geometrie nicht lösbar, und kann daher überhaupt nicht mittelst Lineals und Streckenübertragers lösbar sein, obwohl die Konstruktion mittelst des Zirkels sofort ausführbar ist.</p>
+        <div class="folio-milestone" id="folio-§ 38" data-folio="§ 38" data-page="82">[Folio § 38 | p. 82]</div>
+        </section>
+        <section class="level-2" id="die-darstellung-algebraischer-zahlen-und-ganzer-rationaler-funktionen-als-summe-von-quadraten">
+        <h2>§ 38. Die Darstellung algebraischer Zahlen und ganzer rationaler Funktionen als Summe von Quadraten<a class="headerlink" href="#die-darstellung-algebraischer-zahlen-und-ganzer-rationaler-funktionen-als-summe-von-quadraten" title="Link to this heading">¶</a></h2>
+        <p>Die Frage nach der Ausführbarkeit geometrischer Konstruktionen mittelst Lineals und Streckenübertragers erfordert zu ihrer weiteren Behandlung einige Sätze zahlentheoretischen und algebraischen Charakters, die, wie mir scheint, auch an sich von Interesse sind.</p>
+        <p>Nach Fermat ist bekanntlich jede ganze rationale positive Zahl als Summe von vier Quadratzahlen darstellbar. Dieser Fermatsche Satz gestattet eine merkwürdige Verallgemeinerung von folgender Art:</p>
+        <p><strong>Definition.</strong> Es sei $k$ ein beliebiger Zahlkörper; der Grad dieses Körpers $k$ heisse $m$, und die $m - 1$ zu $k$ konjugirten Zahlkörper mögen mit $k', k'', \dots, k^{(m-1)}$ bezeichnet werden. Trifft es sich, dass unter den $m$ Körpern $k, k', \dots, k^{(m-1)}$ einer oder mehrere aus lauter reellen Zahlen gebildet sind, so nennen wir diese Körper selbst reell; es seien diese Körper etwa $k, k', \dots, k^{(s-1)}$. Eine Zahl $\alpha$ des Körpers $k$ heisst in diesem Falle <em>total positiv</em> in $k$, falls die $s$ zu $\alpha$ konjugirten bez. in $k, k', \dots, k^{(s-1)}$ gelegenen Zahlen sämtlich positiv sind. Kommen dagegen in jedem der $m$ Körper $k, k', \dots, k^{(m-1)}$ auch imaginäre Zahlen vor, so heisst eine jede Zahl $\alpha$ in $k$ stets <em>total positiv</em>.</p>
+        <p id="grundlagen-de-thm-42"><strong>Satz 42.</strong> Jede total positive Zahl in $k$ lässt sich als Summe von vier Quadraten darstellen, deren Basen ganze oder gebrochene Zahlen des Körpers $k$ sind.</p>
+        <p>Der Beweis dieses Satzes bietet erhebliche Schwierigkeiten dar; er beruht wesentlich auf der Theorie der relativquadratischen Zahlkörper, die ich unlängst in mehreren Arbeiten <a class="footnote-reference brackets" href="#fn1" id="id1" role="doc-noteref"><span class="fn-bracket">[</span>1<span class="fn-bracket">]</span></a> entwickelt habe. Es sei hier nur auf denjenigen Satz aus dieser Theorie hingewiesen, der die Bedingungen für die Lösbarkeit einer ternären Diophantischen Gleichung von der Gestalt</p>
+        <p>$$
+        \alpha\xi^2 + \beta\eta^2 + \gamma\zeta^2 = 0
+        $$</p>
+        <p>angiebt, worin die Coefficienten $\alpha, \beta, \gamma$ gegebene Zahlen in $k$ und $\xi, \eta, \zeta$ gesuchte Zahlen in $k$ bedeuten. Der Beweis des Satzes 42 wird durch wiederholte Anwendung des eben genannten Satzes erbracht.</p>
+        <p>Aus dem Satze 42 folgen eine Reihe von Sätzen über die Darstellung solcher rationaler Funktionen einer Veränderlichen mit rationalen Coefficienten, die niemals negative Werte haben; ich hebe nur den folgenden Satz hervor, der uns im nächsten Paragraphen von Nutzen sein wird.</p>
+        <p id="grundlagen-de-thm-43"><strong>Satz 43.</strong> Es bedeute $f(x)$ eine solche ganze rationale Funktion von $x$ mit rationalen Zahlencoefficienten, die niemals negative Werte annimmt, wenn man für $x$ beliebige reelle Werte einsetzt: dann lässt sich $f(x)$ stets als Quotient zweier Summen von Quadraten darstellen, so dass die sämtlichen Basen dieser Quadrate ganze rationale Funktionen von $x$ mit rationalen Coefficienten sind.</p>
+        <p><strong>Beweis.</strong> Den Grad der vorgelegten Funktion $f(x)$ wollen wir mit $m$ bezeichnen; offenbar muss derselbe jedenfalls gerade sein. Für den Fall $m = 0$, d. h. wenn $f(x)$ eine rationale Zahl ist, folgt die Richtigkeit des Satzes 43 unmittelbar aus dem Fermatschen Satze von der Darstellung einer positiven Zahl als Summe von vier Quadratzahlen. Wir nehmen nun an, der Satz sei bereits für die Funktionen vom Grade $2, 4, 6, \dots, m - 2$ bewiesen, und zeigen dann seine Richtigkeit für den vorliegenden Fall einer Funktion $m$-ten Grades auf folgende Weise.</p>
+        <p>Zunächst behandeln wir kurz die Annahme, dass $f(x)$ in das Produkt von zwei oder mehreren ganzen Funktionen von $x$ mit rationalen Coefficienten zerfällt. Ist $p(x)$ eine solche in $f(x)$ aufgehende Funktion, die selbst nicht mehr in ein Produkt von ganzen Funktionen mit rationalen Coefficienten zerlegt werden kann, so folgt aus dem vorausgesetzten definiten Charakter der Funktion $f(x)$ leicht, dass der Faktor $p(x)$ entweder in $f(x)$ zu einer geraden Potenz erhoben vorkommen muss oder dass $p(x)$ selbst definit, d. h. eine solche Funktion ist, die für reelle Werthe von $x$ niemals negativ ausfällt. Im ersteren Falle ist der Quotient $\frac{f(x)}{\{p(x)\}^2}$, im letzteren Falle sind sowohl $p(x)$ als auch $\frac{f(x)}{p(x)}$ wiederum definite Funktionen und diese Funktionen besitzen einen geraden Grad $&lt; m$. Zufolge unserer Annahme sind daher im ersteren Falle $\frac{f(x)}{\{p(x)\}^2}$, im letzteren Falle sowohl $p(x)$ wie auch $\frac{f(x)}{p(x)}$ als Quotienten von Quadratsummen von der im Satze 43 angegebenen Art darstellbar, und daher gestattet notwendig in beiden Fällen auch die Funktion $f(x)$ die verlangte Darstellung.</p>
+        <p>Wir behandeln nunmehr die Annahme, dass $f(x)$ nicht in das Produkt von zwei ganzen Funktionen mit rationalen Coefficienten zerlegt werden kann. Die Gleichung $f(\vartheta) = 0$ definirt dann einen algebraischen Zahlkörper $k(\vartheta)$ vom $m$-ten Grade, der nebst seinen sämtlichen conjugirten Körpern imaginär ausfällt. Da somit nach der Definition, die wir dem Satze 42 vorangestellt haben, jede in $k(\vartheta)$ gelegene Zahl, also auch insbesondere die Zahl $-1$ total positiv in $k(\vartheta)$ ist, so giebt es nach diesem Satz 42 eine Darstellung der Zahl $-1$ als Summe von $4$ Quadraten gewisser Zahlen in $k(\vartheta)$; es sei</p>
+        <p>$$
+        (1)\quad -1 = \alpha^2 + \beta^2 + \gamma^2 + \delta^2,
+        $$</p>
+        <p>wobei $\alpha, \beta, \gamma, \delta$ ganze oder gebrochene Zahlen in $k(\vartheta)$ sind. Wir setzen</p>
+        <p>$$
+        \begin{aligned}
+        \alpha &amp;= a_1 \vartheta^{m-1} + a_2 \vartheta^{m-2} + \dots + a_m = \varphi(\vartheta), \\
+        \beta &amp;= b_1 \vartheta^{m-1} + b_2 \vartheta^{m-2} + \dots + b_m = \psi(\vartheta), \\
+        \gamma &amp;= c_1 \vartheta^{m-1} + c_2 \vartheta^{m-2} + \dots + c_m = \chi(\vartheta), \\
+        \delta &amp;= d_1 \vartheta^{m-1} + d_2 \vartheta^{m-2} + \dots + d_m = \rho(\vartheta);
+        \end{aligned}
+        $$</p>
+        <p>hierin bedeuten $a_1, a_2, \dots, a_m, \dots, d_1, d_2, \dots, d_m$ rationale Zahlencoefficienten und $\varphi(\vartheta), \psi(\vartheta), \chi(\vartheta), \rho(\vartheta)$ die betreffenden ganzen rationalen Funktionen vom $(m - 1)$-ten Grade in $\vartheta$.</p>
+        <p>Wegen (1) ist</p>
+        <p>$$
+        1 + \{\varphi(\vartheta)\}^2 + \{\psi(\vartheta)\}^2 + \{\chi(\vartheta)\}^2 + \{\rho(\vartheta)\}^2 = 0,
+        $$</p>
+        <p>und mit Rücksicht auf die Irreducibilität der Gleichung $f(x) = 0$ stellt daher der Ausdruck</p>
+        <p>$$
+        F(x) = 1 + \{\varphi(x)\}^2 + \{\psi(x)\}^2 + \{\chi(x)\}^2 + \{\rho(x)\}^2
+        $$</p>
+        <p>notwendig eine solche ganze rationale Funktion von $x$ dar, die durch $f(x)$ teilbar ist. $F(x)$ ist offenbar eine definite Funktion vom $(2m - 2)$-ten oder von niederem Grade und daher wird der Quotient $\frac{F(x)}{f(x)}$ eine definite Funktion vom $(m - 2)$-ten oder von niederem Grade in $x$ mit rationalen Coefficienten. Infolgedessen lässt sich im Hinblick auf unsere Annahme $\frac{F(x)}{f(x)}$ als Quotient zweier Summen von Quadraten von der im Satze 43 angegebenen Art darstellen, und da $F(x)$ selbst eine solche Summe von Quadraten ist, so folgt, dass auch $f(x)$ ein Quotient zweier Summen von Quadraten von der im Satze 43 angegebenen Art sein muss. Damit ist der Beweis des Satzes 43 vollständig erbracht.</p>
+        <p>Es dürfte sehr schwierig sein, die entsprechenden Thatsachen für ganze rationale Funktionen von zwei oder mehr Veränderlichen aufzustellen und zu beweisen, doch sei hier darauf hingewiesen, dass die Darstellbarkeit einer beliebigen definiten ganzen rationalen Funktion zweier Veränderlicher als Quotient von Quadratsummen ganzer Funktionen auf einem völlig anderen Wege von mir bewiesen worden ist — unter der Voraussetzung, dass für die darstellenden Funktionen nicht blos rationale, sondern beliebige reelle Coefficienten zulässig sind <a class="footnote-reference brackets" href="#fn2" id="id2" role="doc-noteref"><span class="fn-bracket">[</span>2<span class="fn-bracket">]</span></a>.</p>
+        <div class="folio-milestone" id="folio-§ 39" data-folio="§ 39" data-page="85">[Folio § 39 | p. 85]</div>
+        </section>
+        <section class="level-2" id="kriterium-fur-die-ausfuhrbarkeit-geometrischer-konstruktionen-mittelst-lineals-und-streckenubertragers">
+        <h2>§ 39. Kriterium für die Ausführbarkeit geometrischer Konstruktionen mittelst Lineals und Streckenübertragers<a class="headerlink" href="#kriterium-fur-die-ausfuhrbarkeit-geometrischer-konstruktionen-mittelst-lineals-und-streckenubertragers" title="Link to this heading">¶</a></h2>
+        <p>Es sei eine geometrische Konstruktionsaufgabe vorgelegt, die mittelst des Zirkels ausführbar ist; wir wollen dann ein Kriterium aufzustellen versuchen, welches unmittelbar aus der analytischen Natur der Aufgabe und ihrer Lösungen beurteilen lässt, ob die Konstruktion auch allein mittelst Lineals und Streckenübertragers ausführbar ist. Wir werden bei dieser Untersuchung auf den folgenden Satz geführt:</p>
+        <p id="grundlagen-de-thm-44"><strong>Satz 44.</strong> Es sei eine geometrische Konstruktionsaufgabe vorgelegt von der Art, dass man bei analytischer Behandlung derselben die Coordinaten der gesuchten Punkte aus den Coordinaten der gegebenen Punkte lediglich durch rationale Operationen und durch Ziehen von Quadratwurzeln finden kann; es sei $n$ die kleinste Anzahl der Quadratwurzeln, die hierbei zur Berechnung der Coordinaten der Punkte ausreichen: soll dann die vorgelegte Konstruktionsaufgabe sich auch allein durch Ziehen von Geraden und Abtragen von Strecken ausführen lassen, so ist dafür notwendig und hinreichend, dass die geometrische Aufgabe genau $2^n$ reelle Lösungen besitzt und zwar für alle Lagen der gegebenen Punkte, d. h. für alle Werte der in den Coordinaten der gegebenen Punkte auftretenden willkürlichen Parameter.</p>
+        <p><strong>Beweis.</strong> Wir beweisen diesen Satz 44 ausschliesslich für den Fall, dass die Coordinaten der gegebenen Punkte rationale Funktionen eines Parameters $p$ mit rationalen Coefficienten sind.</p>
+        <p>Die Notwendigkeit des aufgestellten Kriteriums leuchtet ein. Um zu zeigen, dass dasselbe auch hinreicht, setzen wir dieses Kriterium als erfüllt voraus und betrachten zunächst eine solche von jenen $n$ Quadratwurzeln, die bei der Berechnung der Coordinaten der gesuchten Punkte zuerst zu ziehen ist. Der Ausdruck unter dieser Quadratwurzel ist eine rationale Funktion $f_1(p)$ des Parameters $p$ mit rationalen Coefficienten; diese rationale Funktion darf für beliebige reelle Parameterwerte $p$ niemals negative Werte annehmen, da sonst entgegen der Voraussetzung die vorgelegte Aufgabe für gewisse Werte $p$ imaginäre Lösungen haben müsste. Aus Satz 43 schliessen wir daher, dass $f_1(p)$ als Quotient von Summen von Quadraten ganzer rationaler Funktionen darstellbar ist.</p>
+        <p>Nunmehr zeigen die Formeln</p>
+        <p>$$
+        \begin{aligned}
+        \sqrt{a^2 + b^2 + c^2} &amp;= \sqrt{(\sqrt{a^2 + b^2})^2 + c^2}, \\
+        \sqrt{a^2 + b^2 + c^2 + d^2} &amp;= \sqrt{(\sqrt{a^2 + b^2 + c^2})^2 + d^2}, \\
+        &amp;\;\;\vdots
+        \end{aligned}
+        $$</p>
+        <p>dass allgemein das Ziehen der Quadratwurzel aus einer Summe von beliebig vielen Quadraten sich stets zurückführen lässt auf wiederholtes Ziehen der Quadratwurzel aus der Summe zweier Quadrate.</p>
+        <p>Nehmen wir diese Bemerkung mit dem vorigen Ergebnisse zusammen, so erkennen wir, dass der Ausdruck $\sqrt{f_1(p)}$ gewiss mittelst Lineals und Streckenübertragers construirt werden kann.</p>
+        <p>Wir betrachten ferner eine solche von den $n$ Quadratwurzeln, die bei der Berechnung der Coordinaten der gesuchten Punkte an zweiter Stelle zu ziehen ist. Der Ausdruck unter dieser Quadratwurzel ist eine rationale Funktion $f_2(p, \sqrt{f_1})$ des Parameters $p$ und der zuerst betrachteten Quadratwurzel; auch diese Funktion $f_2$ ist bei beliebigen reellen Parameterwerten $p$ und für jedes Vorzeichen von $\sqrt{f_1}$ niemals negativer Werte fähig, da sonst entgegen der Voraussetzung die vorgelegte Aufgabe unter ihren $2^n$ Lösungen für gewisse Werte $p$ auch imaginäre Lösungen haben müsste. Aus diesem Umstande folgt, dass $f_2$ einer quadratischen Gleichung von der Gestalt</p>
+        <p>$$
+        f_2^2 - \varphi_1(p)f_2 + \psi_1(p) = 0
+        $$</p>
+        <p>genügen muss, worin $\varphi_1(p)$ und $\psi_1(p)$ notwendig solche rationale Funktionen von $p$ mit rationalen Coefficienten sind, die für reelle Werte von $p$ niemals negative Werte besitzen. Aus der letzteren quadratischen Gleichung entnehmen wir</p>
+        <p>$$
+        f_2 = \frac{f_2^2 + \psi_1(p)}{\varphi_1(p)}.
+        $$</p>
+        <p>Nun müssen wiederum nach Satz 43 die Funktionen $\varphi_1(p)$ und $\psi_1(p)$ Quotienten von Summen von Quadraten rationaler Funktionen sein und andererseits ist nach dem Vorigen der Ausdruck $f_2$ mittelst Lineals und Streckenübertragers construirbar; der gefundene Ausdruck für $f_2$ zeigt somit, dass $f_2$ ein Quotient von Summen von Quadraten construirbarer Funktionen ist. Also lässt sich auch der Ausdruck $\sqrt{f_2}$ mittelst Lineals und Streckenübertragers construiren.</p>
+        <p>Ebenso wie der Ausdruck $f_2$ erweist sich auch jede andere rationale Funktion $\varphi_2(p, \sqrt{f_1})$ von $p$ und $\sqrt{f_1}$ als Quotient zweier Summen von Quadraten construirbarer Funktionen, sobald diese rationale Funktion $\varphi_2$ die Eigenschaft besitzt, niemals negative Werte anzunehmen bei reellem Parameter $p$ und für beiderlei Vorzeichen von $\sqrt{f_1}$.</p>
+        <p>Diese Bemerkung gestattet uns, das eben begonnene Schlussverfahren in folgender Weise fortzusetzen.</p>
+        <p>Es sei $f_3(p, \sqrt{f_1}, \sqrt{f_2})$ ein solcher Ausdruck, der von den drei Argumenten $p, \sqrt{f_1}, \sqrt{f_2}$ in rationaler Weise abhängt und aus dem bei der analytischen Berechnung der Coordinaten der gesuchten Punkte an dritter Stelle die Quadratwurzel zu ziehen ist. Wie vorhin schliessen wir, dass $f_3$ bei beliebigen reellen Werten $p$ und für beiderlei Vorzeichen von $\sqrt{f_1}$ und $\sqrt{f_2}$ niemals negative Werte annehmen darf; dieser Umstand wiederum zeigt, dass $f_3$ einer quadratischen Gleichung von der Gestalt</p>
+        <p>$$
+        f_3^2 - \varphi_2(p, \sqrt{f_1})f_3 + \psi_2(p, \sqrt{f_1}) = 0
+        $$</p>
+        <p>genügen muss, worin $\varphi_2$ und $\psi_2$ solche rationale Funktionen von $p$ und $\sqrt{f_1}$ bedeuten, die für reelle Werte $p$ und beiderlei Vorzeichen von $\sqrt{f_1}$ negativer Werte nicht fähig sind. Da mithin $\varphi_2$ und $\psi_2$ nach der vorigen Bemerkung Quotienten zweier Summen von Quadraten construirbarer Ausdrücke sind, so folgt das gleiche auch für den Ausdruck</p>
+        <p>$$
+        f_3 = \frac{f_3^2 + \psi_2(p, \sqrt{f_1})}{\varphi_2(p, \sqrt{f_1})}
+        $$</p>
+        <p>und mithin ist auch $\sqrt{f_3}$ mittelst Lineals und Streckenübertragers construirbar.</p>
+        <p>Die Fortsetzung dieser Schlussweise führt zum Beweise des Satzes 44 in dem betrachteten Falle eines Parameters $p$.</p>
+        <p>Die allgemeine Richtigkeit des Satzes 44 hängt davon ab, ob der Satz 43 in entsprechender Weise sich auf den Fall mehrerer Veränderlicher verallgemeinern lässt.</p>
+        <p>Als Beispiel für die Anwendung des Satzes 44 mögen die regulären mittelst Zirkels construirbaren Polygone dienen ; in diesem Falle kommt ein willkürlicher Parameter p nicht vor, sondern die zu construirenden Ausdrücke stellen sämtlich algebraische Zahlen dar. Man sieht leicht, dass das Kriterium des Satzes 44 erfüllt ist, und somit ergiebt sich, dass man jene regulären Polygone auch allein mittelst Ziehens von Geraden und Abtragens von Strecken construiren kann — ein Resultat, welches sich auch aus der Theorie der Kreisteilung direkt entnehmen lässt.</p>
+        <p>Was weitere aus der Elementargeometrie bekannte Konstruktionsaufgaben anbetrifft, so sei hier nur erwähnt, dass das Malfattische Problem, nicht aber die Apollonische Berührungsaufgabe allein mittelst Lineals und Streckenübertragers gelöst werden kann.</p>
+        <hr class="docutils" />
+        <p class="rubric">Fussnoten</p>
+        <aside class="footnote-list brackets">
+        <aside class="footnote brackets" id="fn1" role="doc-footnote">
+        <span class="label"><span class="fn-bracket">[</span><a role="doc-backlink" href="#id1">1</a><span class="fn-bracket">]</span></span>
+        <p>„Ueber die Theorie der relativquadratischen Zahlkörper“, <em>Jahresber. d. Deutschen Math.-Vereinigung</em> Bd. 6, 1899 und <em>Math. Ann.</em> Bd. 51; ferner: „Ueber die Theorie der relativ-Abelschen Zahlkörper“, <em>Nachr. d. K. Ges. d. Wiss. zu Göttingen</em> 1898.</p>
+        </aside>
+        <aside class="footnote brackets" id="fn2" role="doc-footnote">
+        <span class="label"><span class="fn-bracket">[</span><a role="doc-backlink" href="#id2">2</a><span class="fn-bracket">]</span></span>
+        <p>„Ueber ternäre definite Formen“, <em>Acta Mathematica</em> Bd. 17.</p>
+        </aside>
+        </aside>
+        </section>
+        </section>
+
+      </div>
+      <footer class="book-footer">
+        <div class="book-footer-ornament">&#10086;</div>
+        <div class="book-footer-nav">
+          <div class="book-nav-prev">
+            <a class="book-nav-btn" href="../chapter-6/chapter-6-de.html" title="Chapter VI: Pascal’s Theorem">&larr; <span class="nav-label">Chapter VI: Pascal’s Theorem</span></a>
+          </div>
+          <div class="book-nav-center">
+            <a class="book-toc-link" href="../index.html">GRUNDLAGEN DER GEOMETRIE</a>
+          </div>
+          <div class="book-nav-next">
+            <a class="book-nav-btn" href="../conclusion/conclusion-de.html" title="Conclusion &amp; Appendix on Transformation Groups"><span class="nav-label">Conclusion & Appendix on Transformation Groups</span> &rarr;</a>
+          </div>
+        </div>
+      </footer>
+    </article>
+  </main>
+  <div class="asides">
+    <aside class="aside-search">
+      <h3>Search</h3>
+      <div id="searchbox" role="search">
+        <form id="rtd-search-form" class="wy-form search-form" action="../../search.html" method="get">
+          <div class="search-field">
+            <input type="search" name="q" placeholder="Search docs..." aria-label="Search docs" autocomplete="off" />
+            <button type="submit" class="search-submit" aria-label="Search" title="Search">
+              <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <circle cx="11" cy="11" r="8"></circle>
+                <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+              </svg>
+            </button>
+          </div>
+          <input type="hidden" name="check_keywords" value="yes" />
+          <input type="hidden" name="area" value="default" />
+        </form>
+      </div>
+    </aside>
+  </div>
+  <footer>
+    <div class="footer-nav">
+      <ul>
+        <li><a href="../../about/index.html"  >about</a></li>
+      </ul>
+    </div>
+    <hr />
+    <div role="contentinfo">
+      <p>
+        &copy; Copyright 1899 B. G. Teubner · 1902 Open Court · Digital Codex GEOMETOR.
+      </p>
+    </div>
+  </footer>
+
+  <script src="../../_static/jquery.js?v=5d32c60e"></script>
+  <script src="../../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+  <script src="../../_static/documentation_options.js?v=01f34227"></script>
+  <script src="../../_static/doctools.js?v=fd6eb6e6"></script>
+  <script src="../../_static/sphinx_highlight.js?v=6ffebe34"></script>
+  <script src="../../_static/js/collection_controls.js?v=b6b5297a"></script>
+  <script src="../../_static/js/geometor_interactive.js?v=b2892320"></script>
+  <script src="../../_static/js/search_highlight.js"></script>
+
+</body>
+</html>

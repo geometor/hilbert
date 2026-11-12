@@ -1,0 +1,315 @@
+
+
+<!DOCTYPE html>
+<html lang="en" data-content_root="../../">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Kapitel IV: Die Lehre von den Flächeninhalten in der Ebene &mdash; GRUNDLAGEN DER GEOMETRIE</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..700;1,400..700&family=Fira+Sans+Condensed:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600;1,700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" type="text/css" href="../../_static/pygments.css?v=ea5fcf70" />
+  <link rel="stylesheet" type="text/css" href="../../_static/css/styles.css?v=66998e95" />
+  <link rel="stylesheet" type="text/css" href="../../_static/graphviz.css?v=4ae1632d" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css" />
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js"></script>
+  <link rel="stylesheet" href="../../_static/css/print.css" type="text/css" media="print" />
+  <link rel="icon" href="../../_static/favicon.ico" />
+</head>
+
+<body class="is-book-page book-theme-classical-serif">
+  <header>
+    <div class="logo">
+      <a href="../../index.html">
+        <h1>GEOMETOR • hilbert</h1>
+      </a>
+      <div class="org-repo">
+        <span class="org">GEOMETOR</span>
+        •
+        <span class="repo">hilbert</span>
+      </div>
+    </div>
+    <nav aria-label="Header">
+      <input type="checkbox" id="nav-Header-toggle" >
+      <label for="nav-Header-toggle" >Header</label>
+      <ul>
+        <li>
+          <a href="../../mission/index.html"  >mission</a>
+        </li>
+        <li>
+          <a href="../../log/index.html"  >log</a>
+        </li>
+        <li>
+          <a href="../../modules/index.html"  >modules</a>
+        </li>
+      </ul>
+    </nav>
+    <div class="motto"></div>
+  </header>
+  <main class="book-main">
+    <article class="book-layout book-reading-pane">
+      <header class="book-header">
+        <div class="book-header-bar">
+          <div class="book-header-identity">
+            <a class="book-portal-link" href="../../index.html" title="Return to Project Portal">&larr; hilbert</a>
+            <span class="book-header-sep">/</span>
+            <a class="book-title-link" href="../index.html">GRUNDLAGEN DER GEOMETRIE</a>
+          </div>
+        </div>
+        <div class="book-header-nav">
+          <div class="book-nav-prev">
+            <a class="book-nav-btn" href="../chapter-3/chapter-3-de.html" title="Chapter III: The Theory of Proportion">&larr; <span class="nav-label">Prev</span></a>
+          </div>
+          <div class="book-nav-center">
+            <nav class="book-tracks-nav" aria-label="Document Tracks">
+              <a class="book-track-item" href="chapter-4-en.html">English</a>
+              <span class="book-track-sep">&middot;</span>
+              <strong class="book-track-item is-active" aria-current="page">Deutsch</strong>
+              <span class="book-track-sep">&middot;</span>
+              <a class="book-track-item" href="chapter-4-summary.html">Summary</a>
+              <span class="book-track-sep">&middot;</span>
+              <a class="book-track-item" href="chapter-4-notes.html">Notes</a>
+            </nav>
+          </div>
+          <div class="book-nav-next">
+            <a class="book-nav-btn" href="../chapter-5/chapter-5-de.html" title="Chapter V: Desargues’s Theorem"><span class="nav-label">Next</span> &rarr;</a>
+          </div>
+        </div>
+      </header>
+      <div class="content body book-content folio-book-page" role="main">
+        <section class="level-1" id="kapitel-iv-die-lehre-von-den-flacheninhalten-in-der-ebene">
+        <span id="grundlagen-chapter-4-de"></span><h1>Kapitel IV: Die Lehre von den Flächeninhalten in der Ebene<a class="headerlink" href="#kapitel-iv-die-lehre-von-den-flacheninhalten-in-der-ebene" title="Link to this heading">¶</a></h1>
+        <p class="rubric">David Hilbert — <em>Grundlagen der Geometrie</em> (Festschrift, B. G. Teubner, Leipzig 1899)</p>
+        <nav class="contents local" id="gliederung">
+        <p class="topic-title">Gliederung</p>
+        <ul class="simple">
+        <li><p><a class="reference internal" href="#die-flachengleichheit-und-inhaltsgleichheit-von-polygonen" id="id4">§ 18. Die Flächengleichheit und Inhaltsgleichheit von Polygonen</a></p></li>
+        <li><p><a class="reference internal" href="#parallelogramme-und-dreiecke-mit-gleicher-grundlinie-und-hohe" id="id5">§ 19. Parallelogramme und Dreiecke mit gleicher Grundlinie und Höhe</a></p></li>
+        <li><p><a class="reference internal" href="#das-flachenmass-von-dreiecken-und-polygonen" id="id6">§ 20. Das Flächenmass von Dreiecken und Polygonen</a></p></li>
+        <li><p><a class="reference internal" href="#die-inhaltsgleichheit-und-das-flachenmass" id="id7">§ 21. Die Inhaltsgleichheit und das Flächenmass</a></p></li>
+        </ul>
+        </nav>
+        <div class="folio-milestone" id="folio-§ 18" data-folio="§ 18" data-page="40">[Folio § 18 | p. 40]</div>
+        <section class="level-2" id="die-flachengleichheit-und-inhaltsgleichheit-von-polygonen">
+        <h2>§ 18. Die Flächengleichheit und Inhaltsgleichheit von Polygonen<a class="headerlink" href="#die-flachengleichheit-und-inhaltsgleichheit-von-polygonen" title="Link to this heading">¶</a></h2>
+        <p>Wir legen den Untersuchungen des gegenwärtigen Kapitels IV dieselben Axiome wie im Kapitel III zu Grunde, nämlich die ebenen Axiome sämtlicher Gruppen mit Ausnahme des Archimedischen Axioms, d. h. die Axiome 1 1 — 2 und II — IV.</p>
+        <p>Die im Kapitel III erörterte Lehre von den Proportionen und die daselbst eingeführte Streckenrechnung setzt uns in den Stand, die Euklidische Lehre von den Flächeninhalten mittelst der genannten Axiome, d. h. in der Ebene und unabhängig vom Archimedische n Axiom zu begründen.</p>
+        <p>Da nach den Entwickelungen im Kapitel III die Lehre von den Proportionen wesentlich auf dem Pascalschen Satze (Satz 21) beruht, so gilt dies auch für die Lehre von den Flächeninhalten; diese Begründung der Lehre von den Flächeninhalten erscheint mir als eine der merkwürdigsten Anwendungen des Pascalschen Satzes in der Elementargeometrie.</p>
+        <p><strong>Erklärung.</strong> Verbindet man zwei Punkte eines Polygons $P$ durch irgend einen Streckenzug, der ganz im Inneren des Polygons verläuft, so entstehen zwei neue Polygone $P_1$ und $P_2$, deren innere Punkte alle im Inneren von $P$ liegen; wir sagen: $P$ <em>zerfällt</em> in $P_1$ und $P_2$, oder $P_1$ und $P_2$ <em>setzen</em> $P$ <em>zusammen</em>.</p>
+        <p><strong>Definition.</strong> Zwei Polygone heissen flächengleich, wenn sie in eine endliche Anzahl von Dreiecken zerlegt werden können, die paarweise einander congruent sind.</p>
+        <p><strong>Definition.</strong> Zwei Polygone heissen inhaltsgleich oder von gleichem Inhalte, wenn es möglich ist, zu denselben flächengleiche Polygone hinzuzufügen, so dass die beiden zusammengesetzten Polygone einander flächengleich sind.</p>
+        <p>Aus diesen Definitionen folgt sofort : durch Zusammenfügung flächengleicher Polygone entstehen wieder flächengleiche Polygone, und wenn man flächengleiche Polygone von flächengleichen Polygonen wegnimmt , so sind die übrigbleibenden Polygone inhaltsgleich.</p>
+        <p>Ferner gelten folgende Sätze :</p>
+        <p id="grundlagen-de-thm-24"><strong>Satz 24.</strong> Sind zwei Polygone $P_1$ und $P_2$ mit einem dritten Polygon $P_3$ flächengleich, so sind sie auch unter einander flächengleich. Sind zwei Polygone mit einem dritten inhaltsgleich, so sind sie unter einander inhaltsgleich.</p>
+        <p><strong>Beweis.</strong> Nach Voraussetzung lässt sich sowohl für $P_1$ als auch für $P_2$ eine Zerlegung in Dreiecke angeben, so dass einer jeden dieser beiden Zerlegungen je eine Zerlegung des Polygons $P_3$ in congruente Dreiecke entspricht. Indem wir diese Zerlegungen von $P_3$ gleichzeitig in Betracht ziehen, wird im Allgemeinen jedes Dreieck der einen Zerlegung durch Strecken, welche der anderen Zerlegung angehören, in Polygone zerlegt. Wir fügen nun noch so viele Strecken hinzu, dass jedes dieser Polygone selbst wieder in Dreiecke zerfällt und bringen dann die zwei entsprechenden Zerlegungen in Dreiecke in $P_1$ und in $P_2$ an; dann zerfallen offenbar diese beiden Polygone $P_1$ und $P_2$ in gleich viele paarweise einander congruente Dreiecke und sind somit nach der Definition einander flächengleich.</p>
+        <p>Der Beweis der zweiten Aussage des Satzes 24 ergiebt sich nunmehr ohne Schwierigkeit.</p>
+        <p>Wir definiren in der üblichen Weise die Begriffe: Rechteck, Grundlinie und Höhe eines Parallelogrammes , Grundlinie und Höhe eines Dreiecks.</p>
+        <div class="folio-milestone" id="folio-§ 19" data-folio="§ 19" data-page="41">[Folio § 19 | p. 41]</div>
+        </section>
+        <section class="level-2" id="parallelogramme-und-dreiecke-mit-gleicher-grundlinie-und-hohe">
+        <h2>§ 19. Parallelogramme und Dreiecke mit gleicher Grundlinie und Höhe<a class="headerlink" href="#parallelogramme-und-dreiecke-mit-gleicher-grundlinie-und-hohe" title="Link to this heading">¶</a></h2>
+        <p>Die bekannte in den nebenstehenden Figuren illustrirte Schlussweise Euklids liefert den Satz:</p>
+        <p id="grundlagen-de-thm-25"><strong>Satz 25.</strong> Zwei Parallelogramme mit gleicher Grundlinie und Höhe sind einander inhaltsgleich.</p>
+        <p>Ferner gilt die bekannte Thatsache:</p>
+        <p id="grundlagen-de-thm-26"><strong>Satz 26.</strong> Ein jedes Dreieck ABC ist stets einem gewissen Parallelogramm mit gleicher Grundlinie und halber Höhe flächengleich.</p>
+        <p><strong>Beweis.</strong> Halbirt man AC in D und BC in E und verlängert dann DE um sich selbst bis F, so sind die Dreiecke DEC und FBE einander congruent und folglich sind Dreieck ABC und Parallelogramm ABFD einander inhaltsgleich. Aus Satz 25 und Satz 26 folgt mit Hinzuziehung von Satz 24 unmittelbar :</p>
+        <p id="grundlagen-de-thm-27"><strong>Satz 27.</strong> Zwei Dreiecke mit gleicher Grundlinie und Höhe sind einander inhaltsgleich.</p>
+        <p>Bekanntlich zeigt man gewöhnlich, dass zwei Dreiecke mit gleicher Grundlinie und Höhe auch stets flächengleich sind. Wir bemerken jedoch, dass dieser Nachiueis ohne Benutzung des Archimedischen Axioms nicht möglich ist; in der That lassen sich in unserer Nicht-Archimedischen Geometrie (vgl. Kap. II § 12) ohne Schwierigkeit solche zwei Dreiecke angeben, die gleiche Grundlinie und Höhe besitzen und folglich dem Satze 27 entsprechend inhaltsgleich, aber die dennoch nicht flächengleich sind. Als Beispiel mögen zwei Dreiecke $ABC$ und $ABD$ mit der gemeinsamen Grundlinie AB = 1 und der gleichen Höhe 1 dienen, wenn die Spitze C des erster en Dreiecks senkrecht über A und im zweiten Dreiecke der Fusspunkt F der von der Spitze D gefällten Höhe so gelegen ist, dass AF = t wird.</p>
+        <p>Die übrigen Sätze aus der elementaren Geometrie über die Inhaltsgleichheit von Polygonen, insbesondere der Pythagoräische Lehrsatz sind leichte Folgerungen der eben aufgestellten Sätze. Wir begegnen aber dennoch bei der weiteren Durchführung der Theorie der Flächeninhalte einer wesentlichen Schwierigkeit. Insbesondere lassen es unsere bisherigen Betrachtungen dahingestellt, ob nicht etwa alle Polygone stets einander inhaltsgleich sind. In diesem Falle wären die sämtlichen vorhin aufgestellten Sätze nichtssagend und ohne Bedeutung. Weiter entsteht die allgemeinere Frage, ob zwei inhaltsgleiche Rechtecke mit einer gemeinschaftlichen Seite auch notwendig in der anderen Seite übereinstimmen, d. h., ob ein Rechteck durch eine Seite und den Flächeninhalt eindeutig bestimmt ist.</p>
+        <p>Wie die nähere Ueberlegung zeigt, bedarf man zur Beantwortung der aufgeworfenen Fragen der Umkehrung des Satzes 27, die folgendermassen lautet:</p>
+        <p id="grundlagen-de-thm-28"><strong>Satz 28.</strong> Wenn zwei inhaltsgleiche Dreiecke gleiche Grundlinie haben, so haben sie auch gleiche Höhe.</p>
+        <p>Dieser fundamentale Satz 28 findet sich im ersten Buch der Elemente des Euklid als 39ster Satz ; beim Beweise desselben beruft sich jedoch Euklid auf den allgemeinen Grössensatz: „Καὶ τὸ ὅλον τοῦ μέρους μεῖζόν ἐστιν“ — ein Verfahren, welches auf die Einführung eines neuen geometrischen Axioms über Flächeninhalte hinausläuft.</p>
+        <p>Es gelingt nun, den Satz 28 und damit die Lehre von den Flächeninhalten auf dem hier von uns in Aussicht genommenen Wege, d. h. lediglich mit Hülfe der ebenen Axiome ohne Benutzung des Archimedischen Axioms zu begründen. Um dies einzusehen, haben wir den Begriff des Flächenmasses nöthig.</p>
+        <figure class="photon-picture photon-svg">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 490 192" width="490" height="192" class="euclid-graphic" data-graphic-id="fig_polygon_equivalence" data-proposition="S.19">
+          <line x1="40.00" y1="160.00" x2="465.00" y2="160.00" class="geom-dashed" />
+          <line x1="40.00" y1="52.00" x2="470.00" y2="52.00" class="geom-dashed" />
+          <polygon points="70.00,160.00 115.00,52.00 270.00,52.00 225.00,160.00" class="geom-polygon" />
+          <polygon points="70.00,160.00 295.00,52.00 450.00,52.00 225.00,160.00" class="geom-polygon-gnomon" />
+          <line x1="70.00" y1="160.00" x2="225.00" y2="160.00" class="geom-bold" />
+          <line x1="70.00" y1="160.00" x2="115.00" y2="52.00" class="geom-bold" />
+          <line x1="115.00" y1="52.00" x2="270.00" y2="52.00" class="geom-bold" />
+          <line x1="270.00" y1="52.00" x2="225.00" y2="160.00" class="geom-bold" />
+          <line x1="70.00" y1="160.00" x2="295.00" y2="52.00" class="geom-accent-line" />
+          <line x1="295.00" y1="52.00" x2="450.00" y2="52.00" class="geom-accent-line" />
+          <line x1="450.00" y1="52.00" x2="225.00" y2="160.00" class="geom-accent-line" />
+          <circle cx="263.75" cy="67.00" r="3.20" class="geom-point-accent" />
+          <text x="265.75" y="85.00" text-anchor="middle" class="geom-label">E</text>
+          <circle cx="70.00" cy="160.00" r="3.30" class="geom-point" />
+          <text x="62.00" y="177.00" text-anchor="middle" class="geom-label">A</text>
+          <circle cx="225.00" cy="160.00" r="3.30" class="geom-point" />
+          <text x="233.00" y="177.00" text-anchor="middle" class="geom-label">D</text>
+          <circle cx="115.00" cy="52.00" r="3.30" class="geom-point" />
+          <text x="109.00" y="42.00" text-anchor="middle" class="geom-label">B</text>
+          <circle cx="270.00" cy="52.00" r="3.30" class="geom-point" />
+          <text x="270.00" y="42.00" text-anchor="middle" class="geom-label">C</text>
+          <circle cx="295.00" cy="52.00" r="3.30" class="geom-point" />
+          <text x="295.00" y="42.00" text-anchor="middle" class="geom-label">B'</text>
+          <circle cx="450.00" cy="52.00" r="3.30" class="geom-point" />
+          <text x="458.00" y="42.00" text-anchor="middle" class="geom-label">C'</text>
+        </svg>
+        <figcaption>**Equicomplementability (Inhaltsgleichheit) of Parallelograms on Equal Base (§ 19).** Euclid I.35 reconstructed in § 19: parallelograms ABCD and AB'C'D are inhaltsgleich unconditionally, though flächengleich (zerlegungsgleich) requires Archimedes.</figcaption>
+        </figure>
+        <div class="folio-milestone" id="folio-§ 20" data-folio="§ 20" data-page="43">[Folio § 20 | p. 43]</div>
+        </section>
+        <section class="level-2" id="das-flachenmass-von-dreiecken-und-polygonen">
+        <h2>§ 20. Das Flächenmass von Dreiecken und Polygonen<a class="headerlink" href="#das-flachenmass-von-dreiecken-und-polygonen" title="Link to this heading">¶</a></h2>
+        <p><strong>Definition.</strong> Wenn wir in einem Dreieck $ABC$ mit den Seiten $a, b, c$ die beiden Höhen $h_a = AD$, $h_b = BE$ construiren, so folgt aus der Aehnlichkeit der Dreiecke $BCE$ und $ACD$ nach Satz 22 die Proportion</p>
+        <p>$$
+        a : h_b = b : h_a, \quad \text{d. h.} \quad ah_a = bh_b;
+        $$</p>
+        <p>mithin ist in jedem Dreiecke das Produkt aus einer Grundlinie und der zu ihr gehörigen Höhe davon unabhängig, welche Seite des Dreiecks man als Grundlinie wählt. Das halbe Produkt aus Grundlinie und Höhe eines Dreiecks $\Delta$ heisse das <em>Flächenmass</em> des Dreiecks $\Delta$ und werde mit $F(\Delta)$ bezeichnet.</p>
+        <p><strong>Erklärung.</strong> Eine Strecke, welche eine Ecke eines Dreiecks mit einem Punkte der gegenüberliegenden Seite verbindet, heisst <em>Transversale</em>; dieselbe zerlegt das Dreieck in zwei Dreiecke mit gemeinsamer Höhe, deren Grundlinien in dieselbe Gerade fallen; eine solche Zerlegung heisse eine <em>transversale Zerlegung</em> des Dreiecks.</p>
+        <p id="grundlagen-de-thm-29"><strong>Satz 29.</strong> Wenn ein Dreieck $\Delta$ durch beliebige Gerade irgendwie in eine gewisse endliche Anzahl von Dreiecken $\Delta_k$ zerlegt wird, so ist stets das Flächenmass des Dreiecks $\Delta$ gleich der Summe der Flächenmasse der sämtlichen Dreiecken $\Delta_k$.</p>
+        <p><strong>Beweis.</strong> Aus dem distributiven Gesetze in unserer Streckenrechnung folgt unmittelbar, dass das Flächenmass eines beliebigen Dreiecks gleich der Summe der Flächenmasse zweier solcher Dreiecke ist, die durch irgendwelche transversale Zerlegung aus jenem Dreieck hervorgehen. Die wiederholte Anwendung dieser Thatsache zeigt, dass das Flächenmass eines beliebigen Dreiecks auch gleich der Summe der Flächenmasse der sämtlichen Dreiecke ist, die aus dem vorgelegten Dreiecke entstehen, wenn man nach einander beliebig viele transversale Zerlegungen ausführt.</p>
+        <p>Um nun den entsprechenden Nachweis für die beliebige Zerlegung des Dreiecks $\Delta$ in Dreiecke $\Delta_k$ zu erbringen, ziehen wir von der einen Ecke $A$ des Dreieckes $\Delta$ durch jeden Teilpunkt der Zerlegung, d. h. durch jeden Eckpunkt der Dreiecke $\Delta_k$ eine Transversale; durch diese Transversalen zerfällt das Dreieck $\Delta$ in gewisse Dreiecke $\Delta_t$. Jedes dieser Dreiecke $\Delta_t$ zerfällt durch die Teilstrecken der gegebenen Zerlegung in gewisse Dreiecke und Vierecke. Wenn wir in den Vierecken noch je eine Diagonale construiren, so zerfällt jedes Dreieck $\Delta_t$ in gewisse Dreiecke $\Delta_{ts}$. Wir wollen nun zeigen, dass die Zerlegung in Dreiecke $\Delta_{ts}$ sowohl für die Dreiecke $\Delta_t$ als auch für die Dreiecke $\Delta_k$ nichts anderes als eine Kette von transversalen Zerlegungen bedeutet.</p>
+        <p>In der That, zunächst ist klar, dass jede Zerlegung eines Dreiecks in Teildreiecke stets durch eine Reihe von transversalen Zerlegungen bewirkt werden kann, wenn bei der Zerlegung im Inneren des Dreiecks keine Teilpunkte liegen und überdies wenigstens eine Seite des Dreiecks von Teilpunkten frei bleibt.</p>
+        <p>Nun ist für die Dreiecke $\Delta_t$ unsere Behauptung aus dem Umstande ersichtlich, dass für jedes derselben das Innere sowie eine Seite, nämlich die dem Punkte $A$ gegenüberliegende Seite von weiteren Teilpunkten frei ist.</p>
+        <p>Aber auch für jedes $\Delta_k$ ist die Zerlegung in $\Delta_{ts}$ auf transversale Zerlegungen zurückführbar. Betrachten wir nämlich ein Dreieck $\Delta_k$, so wird es unter den von $A$ ausgehenden Transversalen im Dreieck $\Delta$ eine bestimmte Transversale geben, in welche entweder eine Seite von $\Delta_k$ hineinfällt oder welche selbst das Dreieck $\Delta_k$ in zwei Dreiecke zerlegt. Im ersten Fall bleibt die betreffende Seite des Dreiecks $\Delta_k$ überhaupt frei von weiteren Teilpunkten bei der Zerlegung in Dreiecke $\Delta_{ts}$; im letzteren Falle ist die im Inneren des Dreiecks $\Delta_k$ verlaufende Strecke jener Transversale in den beiden entstehenden Dreiecken eine Seite, die bei der Teilung in Dreiecke $\Delta_{ts}$ von weiteren Teilpunkten gewiss frei bleibt.</p>
+        <p>Nach der am Anfang dieses Beweises angestellten Betrachtung ist das Flächenmass $F(\Delta)$ des Dreiecks $\Delta$ gleich der Summe aller Flächenmasse $F(\Delta_t)$ der Dreiecke $\Delta_t$, und diese Summe ist gleich der Summe aller Flächenmasse $F(\Delta_{ts})$. Andererseits ist auch die Summe über die Flächenmasse $F(\Delta_k)$ aller Dreiecke $\Delta_k$ gleich der Summe aller Flächenmasse $F(\Delta_{ts})$, und hieraus folgt endlich, dass das Flächenmass $F(\Delta)$ auch gleich der Summe aller Flächenmasse $F(\Delta_k)$ ist. Damit ist der Beweis des Satzes 29 vollständig erbracht.</p>
+        <p><strong>Definition.</strong> Definiren wir das Flächenmass $F(P)$ eines Polygons als die Summe der Flächenmasse aller Dreiecke, in die dasselbe bei einer bestimmten Zerlegung zerfällt, so erkennen wir auf Grund des Satzes 29 durch eine ähnliche Schlussweise, wie wir sie in § 18 beim Beweise des Satzes 24 angewandt haben, dass das Flächenmass eines Polygons von der Art der Zerlegung in Dreiecke unabhängig ist und mithin allein durch das Polygon sich eindeutig bestimmt. Aus dieser Definition entnehmen wir vermittels des Satzes 29 die Thatsache, dass <em>flächengleiche Polygone gleiches Flächenmass haben</em>.</p>
+        <p>Sind ferner $P$ und $Q$ zwei inhaltsgleiche Polygone, so muss es nach der Definition zwei flächengleiche Polygone $P'$ und $Q'$ geben, so dass das aus $P$ und $P'$ zusammengesetzte Polygon mit dem aus $Q$ und $Q'$ zusammengesetzten Polygon flächengleich ausfällt. Aus den beiden Gleichungen:</p>
+        <p>$$
+        F(P + P') = F(Q + Q'), \quad F(P') = F(Q')
+        $$</p>
+        <p>schliessen wir leicht</p>
+        <p>$$
+        F(P) = F(Q),
+        $$</p>
+        <ol class="loweralpha simple" start="4">
+        <li><ol class="loweralpha simple" start="8">
+        <li><p><em>inhaltsgleiche Polygone haben gleiches Flächenmass</em>.</p></li>
+        </ol>
+        </li>
+        </ol>
+        <p>Aus der letzteren Thatsache entnehmen wir unmittelbar den Beweis des Satzes 28. Bezeichnen wir nämlich die gleiche Grundlinie der beiden Dreiecke mit $g$, die zugehörigen Höhen mit $h$ und $h'$, so schliessen wir aus der angenommenen Inhaltsgleichheit der beiden Dreiecke, dass dieselben auch gleiches Flächenmass haben müssen, d. h. es folgt:</p>
+        <p>$$
+        \frac{1}{2}gh = \frac{1}{2}gh'
+        $$</p>
+        <p>und mithin nach Division durch $\frac{1}{2}g$</p>
+        <p>$$
+        h = h';
+        $$</p>
+        <p>dies ist die Aussage des Satzes 28.</p>
+        <div class="folio-milestone" id="folio-§ 21" data-folio="§ 21" data-page="46">[Folio § 21 | p. 46]</div>
+        </section>
+        <section class="level-2" id="die-inhaltsgleichheit-und-das-flachenmass">
+        <h2>§ 21. Die Inhaltsgleichheit und das Flächenmass<a class="headerlink" href="#die-inhaltsgleichheit-und-das-flachenmass" title="Link to this heading">¶</a></h2>
+        <p>In § 20 haben wir gefunden, dass inhaltsgleiche Polygone</p>
+        <p>stets gleiches Flächenmass haben. Diese Aussage lässt sich auch umkehren.</p>
+        <p>Um diese Umkehrung zu beweisen , betrachten wir zunächst zwei Dreiecke ABC und AJB’C mit gemeinsamem rechten Winkel bei A. Die Flächenmasse dieser beiden Dreiecke drücken sich durch</p>
+        <p>die Formeln</p>
+        <p>$$
+        F(ABC) = \frac{1}{2} AB \cdot AC, \quad F(AB'C') = \frac{1}{2} AB' \cdot AC'
+        $$</p>
+        <p>aus. Nehmen wir an, dass diese beiden Flächenmasse einander gleich sind, so folgt:</p>
+        <p>$$
+        AB \cdot AC = AB' \cdot AC' \quad \text{oder} \quad AB : AB' = AC' : AC
+        $$</p>
+        <p>und hieraus ergiebt sich nach Satz 23, dass die beiden Geraden $BC$ und $B'C'$ einander parallel sind und sodann erweisen sich nach Satz 27 die beiden Dreiecke $BC'B'$ und $BC'C$ als inhaltsgleich. Durch Hinzufügen des Dreiecks $ABC'$ folgt, dass die beiden Dreiecke $ABC$ und $AB'C'$ einander inhaltsgleich sind. Wir haben damit erkannt, dass zwei rechtwinklige Dreiecke mit gleichem Flächenmass auch stets einander inhaltsgleich sind.</p>
+        <p>Nehmen wir jetzt ein beliebiges Dreieck mit der Grundlinie $g$ und der Höhe $h$, so ist dasselbe nach Satz 27 inhaltsgleich einem rechtwinkligen Dreieck mit den beiden Katheten $g$ und $h$; und da das ursprüngliche Dreieck offenbar dasselbe Flächenmass wie das rechtwinklige Dreieck besitzt, so folgt, dass in der letzten Betrachtung die Einschränkung auf rechtwinklige Dreiecke nicht nötig war; damit haben wir erkannt, <em>dass zwei beliebige Dreiecke mit gleichem Flächenmass auch stets einander inhaltsgleich sind</em>.</p>
+        <p>Es sei nunmehr ein beliebiges Polygon $P$ mit dem Flächenmass $g$ vorgelegt; $P$ zerfalle in $n$ Dreiecke mit den Flächenmassen bez. $g_1, g_2, \dots, g_n$; dann ist</p>
+        <p>$$
+        g = g_1 + g_2 + \dots + g_n.
+        $$</p>
+        <p>Wir construiren nun ein Dreieck $ABC$ mit der Grundlinie $AB = g$ und der Höhe $h = 1$ und markiren auf der Grundlinie die Punkte $A_1, A_2, \dots, A_{n-1}$, sodass</p>
+        <p>$$
+        g_1 = AA_1, \quad g_2 = A_1A_2, \; \dots, \; g_{n-1} = A_{n-2}A_{n-1}, \quad g_n = A_{n-1}B
+        $$</p>
+        <p>ausfällt. Da die Dreiecke innerhalb des Polygons $P$ bez. die gleichen Flächenmasse besitzen, wie die Dreiecke $AA_1C, A_1A_2C, \dots, A_{n-2}A_{n-1}C, A_{n-1}BC$, so sind sie nach dem vorhin Bewiesenen diesen auch inhaltsgleich; folglich ist das Polygon $P$ einem Dreiecke mit der Grundlinie $g$ und der Höhe $h = 1$ inhaltsgleich. Hieraus folgt mit Hülfe von Satz 24, dass zwei Polygone mit gleichem Flächenmass einander stets inhaltsgleich sind.</p>
+        <p>Die beiden in diesem und dem vorigen Paragraph gefundenen Thatsachen fassen wir in den folgenden Satz zusammen:</p>
+        <p id="grundlagen-de-thm-30"><strong>Satz 30.</strong> Zwei inhaltsgleiche Polygone haben stets das gleiche Flächenmass ; und umgekehrt : Zwei Polygone mit gleichem Flächenmass sind stets einander inhaltsgleich.</p>
+        <p>Insbesondere müssen zwei inhaltsgleiche Rechtecke mit einer gemeinsamen Seite auch in den anderen Seiten übereinstimmen. Auch folgt der Satz:</p>
+        <p id="grundlagen-de-thm-31"><strong>Satz 31.</strong> Zerlegt man ein Rechteck durch Gerade in mehrere Dreiecke und lässt auch nur eines dieser Dreiecke fort, so kann man mit den übrigen Dreiecken das Rechteck nicht mehr ausfüllen.</p>
+        <p>Dieser Satz 31 ist von F. Schur <a class="footnote-reference brackets" href="#fn1" id="id1" role="doc-noteref"><span class="fn-bracket">[</span>1<span class="fn-bracket">]</span></a> und W. Killing <a class="footnote-reference brackets" href="#fn2" id="id2" role="doc-noteref"><span class="fn-bracket">[</span>2<span class="fn-bracket">]</span></a> mit Hülfe des Archimedischen Axioms bewiesen und von O. Stolz <a class="footnote-reference brackets" href="#fn3" id="id3" role="doc-noteref"><span class="fn-bracket">[</span>3<span class="fn-bracket">]</span></a> als Axiom hingestellt worden.</p>
+        <p>völlig unabhängig von dem Archimedischen Axiom gilt. Der Satz 31 reicht übrigens zur Begründung des Euklidischen Satzes von der Gleichheit der Höhen in inhaltsgleichen Dreiecken auf gleicher Grundlinie (Satz 28) an sich nicht aus , wenn man von der Anwendung des Archimedischen Axioms absieht.</p>
+        <p>Zum Beweise der Sätze 28, 29, 30 haben wir wesentlich die in Kapitel III § 15 eingeführte Streckenrechnung benutzt, und da diese im Wesentlichen auf dem Pascalschen Satze (Satz 21) beruht, so erweist sich für die Lehre von den Flächeninhalten der</p>
+        <p>Pascalsche Satz als der wichtigste Baustein. Wir erkennen leicht, dass auch umgekehrt aus den Sätzen 27 und 28 der Pascalsche Satz wieder gewonnen werden kann.</p>
+        <p>Von zwei Polygonen P und Q nennen wir P inhaltskleiner bez. inhaltsgrösser als Q, je nachdem das Flächenmass F(P) kleiner oder grösser als F(Q) ausfällt. Es ist nach dem Vorstehenden klar, dass die Begriffe inhaltsgleich, inhaltskleiner und inhaltsgrösser sich gegenseitig ausschliessen. Ferner erkennen wir leicht,</p>
+        <p>Kapitel V. Der Dcsarguesscke Satz. § 22. 49</p>
+        <p>dass ein Polygon, welches ganz im Inneren eines anderen Polygons liegt, stets inhaltskleiner als dieses sein muss.</p>
+        <p>Hiermit haben wir die wesentlichen Sätze der Lehre von den Flächeninhalten begründet.</p>
+        <hr class="docutils" />
+        <p class="rubric">Fussnoten</p>
+        <aside class="footnote-list brackets">
+        <aside class="footnote brackets" id="fn1" role="doc-footnote">
+        <span class="label"><span class="fn-bracket">[</span><a role="doc-backlink" href="#id1">1</a><span class="fn-bracket">]</span></span>
+        <p><em>Sitzungsberichte der Dorpater Naturf. Ges.</em> 1892.</p>
+        </aside>
+        <aside class="footnote brackets" id="fn2" role="doc-footnote">
+        <span class="label"><span class="fn-bracket">[</span><a role="doc-backlink" href="#id2">2</a><span class="fn-bracket">]</span></span>
+        <p><em>Grundlagen der Geometrie</em>, Bd. 2, Absch. 5, § 5, 1898.</p>
+        </aside>
+        <aside class="footnote brackets" id="fn3" role="doc-footnote">
+        <span class="label"><span class="fn-bracket">[</span><a role="doc-backlink" href="#id3">3</a><span class="fn-bracket">]</span></span>
+        <p><em>Monatshefte für Math. und Phys.</em>, Jahrgang 5, 1894.</p>
+        </aside>
+        </aside>
+        </section>
+        </section>
+
+      </div>
+      <footer class="book-footer">
+        <div class="book-footer-ornament">&#10086;</div>
+        <div class="book-footer-nav">
+          <div class="book-nav-prev">
+            <a class="book-nav-btn" href="../chapter-3/chapter-3-de.html" title="Chapter III: The Theory of Proportion">&larr; <span class="nav-label">Chapter III: The Theory of Proportion</span></a>
+          </div>
+          <div class="book-nav-center">
+            <a class="book-toc-link" href="../index.html">GRUNDLAGEN DER GEOMETRIE</a>
+          </div>
+          <div class="book-nav-next">
+            <a class="book-nav-btn" href="../chapter-5/chapter-5-de.html" title="Chapter V: Desargues’s Theorem"><span class="nav-label">Chapter V: Desargues’s Theorem</span> &rarr;</a>
+          </div>
+        </div>
+      </footer>
+    </article>
+  </main>
+  <div class="asides">
+    <aside class="aside-search">
+      <h3>Search</h3>
+      <div id="searchbox" role="search">
+        <form id="rtd-search-form" class="wy-form search-form" action="../../search.html" method="get">
+          <div class="search-field">
+            <input type="search" name="q" placeholder="Search docs..." aria-label="Search docs" autocomplete="off" />
+            <button type="submit" class="search-submit" aria-label="Search" title="Search">
+              <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <circle cx="11" cy="11" r="8"></circle>
+                <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+              </svg>
+            </button>
+          </div>
+          <input type="hidden" name="check_keywords" value="yes" />
+          <input type="hidden" name="area" value="default" />
+        </form>
+      </div>
+    </aside>
+  </div>
+  <footer>
+    <div class="footer-nav">
+      <ul>
+        <li><a href="../../about/index.html"  >about</a></li>
+      </ul>
+    </div>
+    <hr />
+    <div role="contentinfo">
+      <p>
+        &copy; Copyright 1899 B. G. Teubner · 1902 Open Court · Digital Codex GEOMETOR.
+      </p>
+    </div>
+  </footer>
+
+  <script src="../../_static/jquery.js?v=5d32c60e"></script>
+  <script src="../../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+  <script src="../../_static/documentation_options.js?v=01f34227"></script>
+  <script src="../../_static/doctools.js?v=fd6eb6e6"></script>
+  <script src="../../_static/sphinx_highlight.js?v=6ffebe34"></script>
+  <script src="../../_static/js/collection_controls.js?v=b6b5297a"></script>
+  <script src="../../_static/js/geometor_interactive.js?v=b2892320"></script>
+  <script src="../../_static/js/search_highlight.js"></script>
+
+</body>
+</html>

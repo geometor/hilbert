@@ -1,0 +1,578 @@
+
+
+<!DOCTYPE html>
+<html lang="en" data-content_root="../../">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Kapitel III: Die Lehre von den Proportionen &mdash; GRUNDLAGEN DER GEOMETRIE</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..700;1,400..700&family=Fira+Sans+Condensed:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600;1,700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" type="text/css" href="../../_static/pygments.css?v=ea5fcf70" />
+  <link rel="stylesheet" type="text/css" href="../../_static/css/styles.css?v=66998e95" />
+  <link rel="stylesheet" type="text/css" href="../../_static/graphviz.css?v=4ae1632d" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css" />
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js"></script>
+  <link rel="stylesheet" href="../../_static/css/print.css" type="text/css" media="print" />
+  <link rel="icon" href="../../_static/favicon.ico" />
+</head>
+
+<body class="is-book-page book-theme-classical-serif">
+  <header>
+    <div class="logo">
+      <a href="../../index.html">
+        <h1>GEOMETOR • hilbert</h1>
+      </a>
+      <div class="org-repo">
+        <span class="org">GEOMETOR</span>
+        •
+        <span class="repo">hilbert</span>
+      </div>
+    </div>
+    <nav aria-label="Header">
+      <input type="checkbox" id="nav-Header-toggle" >
+      <label for="nav-Header-toggle" >Header</label>
+      <ul>
+        <li>
+          <a href="../../mission/index.html"  >mission</a>
+        </li>
+        <li>
+          <a href="../../log/index.html"  >log</a>
+        </li>
+        <li>
+          <a href="../../modules/index.html"  >modules</a>
+        </li>
+      </ul>
+    </nav>
+    <div class="motto"></div>
+  </header>
+  <main class="book-main">
+    <article class="book-layout book-reading-pane">
+      <header class="book-header">
+        <div class="book-header-bar">
+          <div class="book-header-identity">
+            <a class="book-portal-link" href="../../index.html" title="Return to Project Portal">&larr; hilbert</a>
+            <span class="book-header-sep">/</span>
+            <a class="book-title-link" href="../index.html">GRUNDLAGEN DER GEOMETRIE</a>
+          </div>
+        </div>
+        <div class="book-header-nav">
+          <div class="book-nav-prev">
+            <a class="book-nav-btn" href="../chapter-2/chapter-2-de.html" title="Chapter II: The Compatibility and Mutual Independence of the Axioms">&larr; <span class="nav-label">Prev</span></a>
+          </div>
+          <div class="book-nav-center">
+            <nav class="book-tracks-nav" aria-label="Document Tracks">
+              <a class="book-track-item" href="chapter-3-en.html">English</a>
+              <span class="book-track-sep">&middot;</span>
+              <strong class="book-track-item is-active" aria-current="page">Deutsch</strong>
+              <span class="book-track-sep">&middot;</span>
+              <a class="book-track-item" href="chapter-3-summary.html">Summary</a>
+              <span class="book-track-sep">&middot;</span>
+              <a class="book-track-item" href="chapter-3-notes.html">Notes</a>
+            </nav>
+          </div>
+          <div class="book-nav-next">
+            <a class="book-nav-btn" href="../chapter-4/chapter-4-de.html" title="Chapter IV: The Theory of Plane Areas"><span class="nav-label">Next</span> &rarr;</a>
+          </div>
+        </div>
+      </header>
+      <div class="content body book-content folio-book-page" role="main">
+        <section class="level-1" id="kapitel-iii-die-lehre-von-den-proportionen">
+        <span id="grundlagen-chapter-3-de"></span><h1>Kapitel III: Die Lehre von den Proportionen<a class="headerlink" href="#kapitel-iii-die-lehre-von-den-proportionen" title="Link to this heading">¶</a></h1>
+        <p class="rubric">David Hilbert — <em>Grundlagen der Geometrie</em> (Festschrift, B. G. Teubner, Leipzig 1899)</p>
+        <nav class="contents local" id="gliederung">
+        <p class="topic-title">Gliederung</p>
+        <ul class="simple">
+        <li><p><a class="reference internal" href="#complexe-zahlensysteme" id="id2">§ 13. Complexe Zahlensysteme</a></p></li>
+        <li><p><a class="reference internal" href="#beweis-des-pascalschen-satzes" id="id3">§ 14. Beweis des Pascalschen Satzes</a></p></li>
+        <li><p><a class="reference internal" href="#die-streckenrechnung-auf-grund-des-pascalschen-satzes" id="id4">§ 15. Die Streckenrechnung auf Grund des Pascalschen Satzes</a></p></li>
+        <li><p><a class="reference internal" href="#die-proportionen-und-die-aehnlichkeitssatze" id="id5">§ 16. Die Proportionen und die Aehnlichkeitssätze</a></p></li>
+        <li><p><a class="reference internal" href="#die-gleichungen-der-geraden-und-ebenen" id="id6">§ 17. Die Gleichungen der Geraden und Ebenen</a></p></li>
+        </ul>
+        </nav>
+        <div class="folio-milestone" id="folio-§ 13" data-folio="§ 13" data-page="26">[Folio § 13 | p. 26]</div>
+        <section class="level-2" id="complexe-zahlensysteme">
+        <h2>§ 13. Complexe Zahlensysteme<a class="headerlink" href="#complexe-zahlensysteme" title="Link to this heading">¶</a></h2>
+        <p>Am Anfang dieses Kapitels wollen wir einige kurze Auseinandersetzungen über complexe Zahlensysteme vorausschicken, die uns später insbesondere zur Erleichterung der Darstellung nützlich sein werden.</p>
+        <p>Die reellen Zahlen bilden in ihrer Gesamtheit ein System von Dingen mit folgenden Eigenschaften:</p>
+        <p><strong>Sätze der Verknüpfung (1–12):</strong></p>
+        <p><strong>1.</strong> Aus der Zahl $a$ und der Zahl $b$ entsteht durch „Addition“ eine bestimmte Zahl $c$, in Zeichen</p>
+        <p>$$
+        a + b = c \quad \text{oder} \quad c = a + b.
+        $$</p>
+        <p><strong>2.</strong> Es giebt eine bestimmte Zahl — sie heisse $0$ —, so dass für jedes $a$ zugleich</p>
+        <p>$$
+        a + 0 = a \quad \text{und} \quad 0 + a = a
+        $$</p>
+        <p>ist.</p>
+        <p><strong>3.</strong> Wenn $a$ und $b$ gegebene Zahlen sind, so existirt stets eine und nur eine Zahl $x$ und auch eine und nur eine Zahl $y$, so dass</p>
+        <p>$$
+        a + x = b \quad \text{bez.} \quad y + a = b
+        $$</p>
+        <p>wird.</p>
+        <p><strong>4.</strong> Aus der Zahl $a$ und der Zahl $b$ entsteht noch auf eine andere Art durch „Multiplikation“ eine bestimmte Zahl $c$, in Zeichen</p>
+        <p>$$
+        ab = c \quad \text{oder} \quad c = ab.
+        $$</p>
+        <p><strong>5.</strong> Es giebt eine bestimmte Zahl — sie heisse $1$ —, so dass für jedes $a$ zugleich</p>
+        <p>$$
+        a \cdot 1 = a \quad \text{und} \quad 1 \cdot a = a
+        $$</p>
+        <p>ist.</p>
+        <p><strong>6.</strong> Wenn $a$ und $b$ beliebig gegebene Zahlen sind und $a$ nicht $0$ ist, so existirt stets eine und nur eine Zahl $x$ und auch eine und nur eine Zahl $y$, so dass</p>
+        <p>$$
+        ax = b \quad \text{bez.} \quad ya = b
+        $$</p>
+        <p>wird.</p>
+        <p>Wenn $a, b, c$ beliebige Zahlen sind, so gelten stets folgende Rechnungsgesetze:</p>
+        <p>$$
+        \begin{aligned}
+        \mathbf{7.}\quad a + (b + c) &amp;= (a + b) + c \\
+        \mathbf{8.}\quad a + b &amp;= b + a \\
+        \mathbf{9.}\quad a(bc) &amp;= (ab)c \\
+        \mathbf{10.}\quad a(b + c) &amp;= ab + ac \\
+        \mathbf{11.}\quad (a + b)c &amp;= ac + bc \\
+        \mathbf{12.}\quad ab &amp;= ba.
+        \end{aligned}
+        $$</p>
+        <p><strong>Sätze der Anordnung (13–16):</strong></p>
+        <p><strong>13.</strong> Wenn $a, b$ irgend zwei verschiedene Zahlen sind, so ist stets eine bestimmte von ihnen (etwa $a$) grösser ($&gt;$) als die andere; die letztere heisst dann die kleinere, in Zeichen:</p>
+        <p>$$
+        a &gt; b \quad \text{und} \quad b &lt; a.
+        $$</p>
+        <p><strong>14.</strong> Wenn $a &gt; b$ und $b &gt; c$, so ist auch $a &gt; c$.</p>
+        <p><strong>15.</strong> Wenn $a &gt; b$ ist, so ist auch stets</p>
+        <p>$$
+        a + c &gt; b + c \quad \text{und} \quad c + a &gt; c + b.
+        $$</p>
+        <p><strong>16.</strong> Wenn $a &gt; b$ und $c &gt; 0$ ist, so ist auch stets</p>
+        <p>$$
+        ac &gt; bc \quad \text{und} \quad ca &gt; cb.
+        $$</p>
+        <p><strong>Archimedischer Satz (17):</strong></p>
+        <p><strong>17.</strong> Wenn $a &gt; 0$ und $b &gt; 0$ zwei beliebige Zahlen sind, so ist es stets möglich, $a$ zu sich selbst so oft zu addiren, dass die entstehende Summe die Eigenschaft hat</p>
+        <p>$$
+        a + a + \dots + a &gt; b.
+        $$</p>
+        <p>Ein System von Dingen, das nur einen Teil der Eigenschaften 1–17 besitzt, heisse ein <em>complexes Zahlensystem</em> oder auch ein <em>Zahlensystem</em> schlechthin. Ein Zahlensystem heisse ein <em>Archimedisches</em> oder ein <em>Nicht-Archimedisches</em>, jenachdem dasselbe der Forderung 17 genügt oder nicht.</p>
+        <p>Von den aufgestellten Eigenschaften 1–17 sind einige Folgen der übrigen. Es entsteht die Aufgabe, die logische Abhängigkeit dieser Eigenschaften zu untersuchen. Wir werden in Kapitel VI § 32 und § 33 zwei bestimmte Fragen der angedeuteten Art wegen ihrer geometrischen Bedeutung beantworten und wollen hier nur darauf hinweisen, dass jedenfalls die letzte Forderung 17 keine logische Folge der übrigen Eigenschaften ist, da ja beispielsweise das in § 12 betrachtete complexe Zahlensystem $\Omega(t)$ sämtliche Eigenschaften 1–16 besitzt, aber nicht die Forderung 17 erfüllt.</p>
+        <div class="folio-milestone" id="folio-§ 14" data-folio="§ 14" data-page="28">[Folio § 14 | p. 28]</div>
+        </section>
+        <section class="level-2" id="beweis-des-pascalschen-satzes">
+        <h2>§ 14. Beweis des Pascalschen Satzes<a class="headerlink" href="#beweis-des-pascalschen-satzes" title="Link to this heading">¶</a></h2>
+        <p>In diesem und dem folgenden Kapitel legen wir unserer Untersuchung die ebenen Axiome sämtlicher Gruppen mit Ausnahme des Archimedischen Axioms , d. h. die Axiome I 1 — 2 und II — IV zu Grunde. In dem gegenwärtigen Kapitel III gedenken</p>
+        <p>wir Euklids Lehre von den Proportionen mittelst der genannten Axiome, d.h. in der Ebene und unabhängig vom Archimedischen Axiom zu begründen.</p>
+        <p>Zu dem Zwecke beweisen wir zunächst eine Thatsache, die ein besonderer Fall des bekannten Pascalschen Satzes aus der Lehre von den Kegelschnitten ist und die ich künftig kurz als den Pascalschen Satz bezeichnen will. Dieser Satz lautet :</p>
+        <p id="grundlagen-de-thm-21"><strong>Satz 21</strong> <a class="footnote-reference brackets" href="#fn1" id="id1" role="doc-noteref"><span class="fn-bracket">[</span>1<span class="fn-bracket">]</span></a> <strong>(Pascalscher Satz).</strong> Es seien $A, B, C$ bez. $A', B', C'$ je drei Punkte auf zwei sich schneidenden Geraden, die vom Schnittpunkte der Geraden verschieden sind; ist dann $CB'$ parallel $BC'$ und $CA'$ parallel $AC'$, so ist auch $BA'$ parallel $AB'$.</p>
+        <p>Um den Beweis für diesen Satz zu erbringen, führen wir zunächst folgende Bezeichnungsweise ein. In einem rechtwinkligen Dreiecke ist offenbar die Kathete $a$ durch die Hypotenuse $c$ und den von $a$ und $c$ eingeschlossenen Basiswinkel $\alpha$ eindeutig bestimmt: wir setzen kurz</p>
+        <p>$$
+        a = \alpha c,
+        $$</p>
+        <p>sodass das Symbol $\alpha c$ stets eine bestimmte Strecke bedeutet, sobald $c$ eine beliebig gegebene Strecke und $\alpha$ ein beliebig gegebener spitzer Winkel ist.</p>
+        <p>Nunmehr möge $c$ eine beliebige Strecke und $\alpha, \beta$ mögen zwei beliebige spitze Winkel bedeuten; wir behaupten, dass allemal die Streckencongruenz</p>
+        <p>$$
+        \alpha\beta c \equiv \beta\alpha c
+        $$</p>
+        <p>besteht und somit die Symbole $\alpha, \beta$ stets mit einander vertauschbar sind.</p>
+        <p>Um diese Behauptung zu beweisen, nehmen wir die Strecke $c = AB$ und tragen an diese Strecke in $A$ zu beiden Seiten die Winkel $\alpha$ und $\beta$ an. Dann fällen wir von $B$ aus auf die anderen Schenkel dieser Winkel die Lote $BC$ und $BD$, verbinden $C$ mit $D$ und fällen schliesslich von $A$ aus das Lot $AE$ auf $CD$.</p>
+        <p>Da die Winkel $\angle ACB$ und $\angle ADB$ Rechte sind, so liegen die vier Punkte $A, B, C, D$ auf einem Kreise und demnach sind die beiden Winkel $\angle ACD$ und $\angle ABD$ als Peripheriewinkel auf derselben Sehne $AD$ einander congruent. Nun ist einerseits $\angle ACD$ zusammen mit dem $\angle CAE$ und andererseits $\angle ABD$ zusammen mit $\angle BAD$ je ein Rechter und folglich sind auch die Winkel $\angle CAE$ und $\angle BAD$ einander congruent, d. h. es ist</p>
+        <p>$$
+        \angle CAE \equiv \beta,
+        $$</p>
+        <p>und daher</p>
+        <p>$$
+        \angle DAE \equiv \alpha.
+        $$</p>
+        <p>Wir gewinnen nun unmittelbar die Streckencongruenzen</p>
+        <p>$$
+        \begin{aligned}
+        \beta c &amp;\equiv AD, &amp; \alpha c &amp;\equiv AC, \\
+        \alpha\beta c &amp;\equiv \alpha(AD) \equiv AE, &amp; \beta\alpha c &amp;\equiv \beta(AC) \equiv AE,
+        \end{aligned}
+        $$</p>
+        <p>und hieraus folgt die Richtigkeit der vorhin behaupteten Congruenz.</p>
+        <p>Wir kehren nun zur Figur des Pascalschen Satzes zurück und bezeichnen den Schnittpunkt der beiden Geraden mit $O$ und die Strecken $OA, OB, OC, OA', OB', OC', CB', BC', CA', AC', BA', AB'$ bez. mit $a, b, c, a', b', c', l, l^*, m, m^*, n, n^*$. Sodann fällen wir von $O$ Lote auf $l, m, n$; das Lot auf $l$ schliesse mit den beiden Geraden $OA, OA'$ die spitzen Winkel $\lambda', \lambda$ ein und die Lote auf $m$ bez. $n$ mögen mit den Geraden $OA$ und $OA'$ die spitzen Winkel $\mu', \mu$ bez. $\nu', \nu$ bilden. Drücken wir nun diese drei Lote in der vorhin angegebenen Weise mit Hülfe der Hypotenusen und Basiswinkel in den betreffenden rechtwinkligen Dreiecken auf doppelte Weise aus, so erhalten wir folgende drei Streckencongruenzen</p>
+        <p>$$
+        \begin{aligned}
+        (1)\quad \lambda b' &amp;\equiv \lambda' c, \\
+        (2)\quad \mu a' &amp;\equiv \mu' c, \\
+        (3)\quad \nu a' &amp;\equiv \nu' b.
+        \end{aligned}
+        $$</p>
+        <p>Da nach Voraussetzung $l$ parallel $l^*$ und $m$ parallel $m^*$ sein soll, so stimmen die von $O$ auf $l^*$ bez. $m^*$ zu fällenden Lote mit den Loten auf $l$ bez. $m$ überein und wir erhalten somit</p>
+        <p>$$
+        \begin{aligned}
+        (4)\quad \lambda c' &amp;\equiv \lambda' b, \\
+        (5)\quad \mu c' &amp;\equiv \mu' a.
+        \end{aligned}
+        $$</p>
+        <p>Wenn wir auf die Congruenz (3) links und rechts das Symbol $\lambda'\mu$ anwenden und bedenken, dass nach dem vorhin Bewiesenen die in Rede stehenden Symbole mit einander vertauschbar sind, so finden wir</p>
+        <p>$$
+        \nu\lambda'\mu a' \equiv \nu'\mu\lambda' b.
+        $$</p>
+        <p>In dieser Congruenz berücksichtigen wir links die Congruenz (2) und rechts (4); dann wird</p>
+        <p>$$
+        \nu\lambda'\mu' c \equiv \nu'\mu\lambda c'
+        $$</p>
+        <p>oder</p>
+        <p>$$
+        \nu\mu'\lambda' c \equiv \nu'\lambda\mu c'.
+        $$</p>
+        <p>Hierin berücksichtigen wir links die Congruenz (1) und rechts (5); dann wird</p>
+        <p>$$
+        \nu\mu'\lambda b' \equiv \nu'\lambda\mu' a
+        $$</p>
+        <p>oder</p>
+        <p>$$
+        \lambda\mu'\nu b' \equiv \lambda\mu'\nu' a.
+        $$</p>
+        <p>Wegen der Bedeutung unserer Symbole schliessen wir aus der letzten Congruenz sofort</p>
+        <p>$$
+        \mu'\nu b' \equiv \mu'\nu' a
+        $$</p>
+        <p>und hieraus</p>
+        <p>$$
+        (6)\quad \nu b' \equiv \nu' a.
+        $$</p>
+        <p>Fassen wir nun das von $O$ auf $n$ gefällte Lot in’s Auge und fällen auf dasselbe Lote von $A$ und $B'$ aus, so zeigt die Congruenz (6), dass die Fusspunkte der letzteren beiden Lote zusammenfallen, d. h. die Gerade $n^* = AB'$ steht zu dem Lote auf $n$ senkrecht und ist mithin zu $n$ parallel. Damit ist der Beweis für den Pascalschen Satz erbracht.</p>
+        <p>Wenn irgend eine Gerade, ein Punkt ausserhalb derselben und irgend ein Winkel gegeben ist, so kann man offenbar durch Abtragen dieses Winkels und Ziehen einer Parallelen eine Gerade finden, die durch den gegebenen Punkt geht und die gegebene Gerade unter dem gegebenen Winkel schneidet. Im Hinblick auf diesen Umstand dürfen wir uns zum Beweise des Pascalschen Satzes auch des folgenden einfachen Schlussverfahrens bedienen, das ich einer Mittheilung von anderer Seite verdanke.</p>
+        <p>Man ziehe durch $B$ eine Gerade, die $OA'$ im Punkte $D'$ unter dem Winkel $OCA'$ trifft, so dass die Congruenz</p>
+        <p>$$
+        (1^*)\quad \angle OCA' \equiv \angle OD'B
+        $$</p>
+        <p>gilt; dann ist nach einem bekannten Satze aus der Lehre vom Kreise $CBD'A'$ ein Kreisviereck und mithin gilt nach dem Satze von der Congruenz der Peripheriewinkel auf der nämlichen Sehne die Congruenz</p>
+        <p>$$
+        (2^*)\quad \angle OBA' \equiv \angle OD'C.
+        $$</p>
+        <p>Da $CA'$ und $AC'$ nach Voraussetzung einander parallel sind, so ist</p>
+        <p>$$
+        (3^*)\quad \angle OCA' \equiv \angle OAC';
+        $$</p>
+        <p>aus $(1^*)$ und $(3^*)$ folgern wir die Congruenz</p>
+        <p>$$
+        \angle OD'B \equiv \angle OAC';
+        $$</p>
+        <p>dann aber ist auch $BAD'C'$ ein Kreisviereck und mithin gilt nach dem Satze von den Winkeln im Kreisviereck die Congruenz</p>
+        <p>$$
+        (4^*)\quad \angle OAD' \equiv \angle OC'B.
+        $$</p>
+        <p>Da ferner nach Voraussetzung $CB'$ parallel $BC'$ ist, so haben wir auch</p>
+        <p>$$
+        (5^*)\quad \angle OB'C \equiv \angle OC'B;
+        $$</p>
+        <p>aus $(4^*)$ und $(5^*)$ folgern wir die Congruenz</p>
+        <p>$$
+        \angle OAD' \equiv \angle OB'C;
+        $$</p>
+        <p>diese endlich lehrt, dass $CAD'B'$ ein Kreisviereck ist, und mithin gilt auch die Congruenz</p>
+        <p>$$
+        (6^*)\quad \angle OAB' \equiv \angle OD'C.
+        $$</p>
+        <p>Aus $(2^*)$ und $(6^*)$ folgt</p>
+        <p>$$
+        \angle OBA' \equiv \angle OAB'
+        $$</p>
+        <p>und die Congruenz lehrt, dass $BA'$ und $AB'$ einander parallel sind, wie es der Pascalsche Satz verlangt.</p>
+        <p>Fällt $D'$ mit einem der Punkte $A', B', C'$ zusammen, so wird eine Abänderung dieses Schlussverfahrens nothwendig, die leicht ersichtlich ist.</p>
+        <figure class="photon-picture photon-svg">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 205" width="480" height="205" class="euclid-graphic" data-graphic-id="fig_pascal_orthogonal" data-proposition="S.14">
+          <line x1="42.00" y1="175.00" x2="454.73" y2="131.62" class="geom-line" />
+          <line x1="42.00" y1="175.00" x2="317.53" y2="-32.63" class="geom-line" />
+          <line x1="414.95" y1="135.80" x2="181.76" y2="69.68" class="geom-bold" />
+          <line x1="285.66" y1="149.39" x2="133.31" y2="106.19" class="geom-bold" />
+          <line x1="414.95" y1="135.80" x2="278.15" y2="-2.95" class="geom-dashed" />
+          <line x1="186.21" y1="159.84" x2="133.31" y2="106.19" class="geom-dashed" />
+          <line x1="285.66" y1="149.39" x2="278.15" y2="-2.95" class="geom-assert-line" />
+          <line x1="186.21" y1="159.84" x2="181.76" y2="69.68" class="geom-assert-line" />
+          <circle cx="42.00" cy="175.00" r="3.30" class="geom-point" />
+          <text x="30.00" y="180.00" text-anchor="middle" class="geom-label">O</text>
+          <circle cx="186.21" cy="159.84" r="3.30" class="geom-point" />
+          <text x="186.21" y="176.84" text-anchor="middle" class="geom-label">A</text>
+          <circle cx="285.66" cy="149.39" r="3.30" class="geom-point" />
+          <text x="285.66" y="166.39" text-anchor="middle" class="geom-label">B</text>
+          <circle cx="414.95" cy="135.80" r="3.30" class="geom-point" />
+          <text x="414.95" y="152.80" text-anchor="middle" class="geom-label">C</text>
+          <circle cx="133.31" cy="106.19" r="3.30" class="geom-point" />
+          <text x="125.31" y="97.19" text-anchor="middle" class="geom-label">C'</text>
+          <circle cx="181.76" cy="69.68" r="3.30" class="geom-point" />
+          <text x="173.76" y="60.68" text-anchor="middle" class="geom-label">B'</text>
+          <circle cx="278.15" cy="-2.95" r="3.30" class="geom-point" />
+          <text x="270.15" y="-11.95" text-anchor="middle" class="geom-label">A'</text>
+        </svg>
+        <figcaption>**Affine Pascal's (Pappus's) Hexagon Theorem (Theorem 21).** Theorem 21 (Pappus's Hexagon Theorem on two intersecting lines): CB' ∥ BC' and CA' ∥ AC' imply BA' ∥ AB' without Archimedes's Axiom.</figcaption>
+        </figure>
+        <div class="folio-milestone" id="folio-§ 15" data-folio="§ 15" data-page="32">[Folio § 15 | p. 32]</div>
+        </section>
+        <section class="level-2" id="die-streckenrechnung-auf-grund-des-pascalschen-satzes">
+        <h2>§ 15. Die Streckenrechnung auf Grund des Pascalschen Satzes<a class="headerlink" href="#die-streckenrechnung-auf-grund-des-pascalschen-satzes" title="Link to this heading">¶</a></h2>
+        <p>Der im vorigen Paragraph bewiesene Pascalsche Satz setzt uns in den Stand, in die Geometrie eine Rechnung mit Strecken einzuführen, in der die Rechnungsregeln für reelle Zahlen sämtlich unverändert gültig sind.</p>
+        <p>Statt des Wortes „congruent“ und des Zeichens $\equiv$ bedienen wir uns in der Streckenrechnung des Wortes „gleich“ und des Zeichens $=$.</p>
+        <p>Wenn $A, B, C$ drei Punkte einer Geraden sind und $B$ zwischen $A$ und $C$ liegt, so bezeichnen wir $c = AC$ als die <em>Summe</em> der beiden Strecken $a = AB$ und $b = BC$ und setzen</p>
+        <p>$$
+        c = a + b.
+        $$</p>
+        <p>Die Strecken $a$ und $b$ heissen <em>kleiner</em> als $c$, in Zeichen:</p>
+        <p>$$
+        a &lt; c, \quad b &lt; c,
+        $$</p>
+        <p>und $c$ heisst <em>grösser</em> als $a$ und $b$, in Zeichen:</p>
+        <p>$$
+        c &gt; a, \quad c &gt; b.
+        $$</p>
+        <p>Aus den linearen Congruenzaxiomen IV 1–3 entnehmen wir leicht, dass für die eben definirte Addition der Strecken das associative Gesetz</p>
+        <p>$$
+        a + (b + c) = (a + b) + c
+        $$</p>
+        <p>sowie das commutative Gesetz</p>
+        <p>$$
+        a + b = b + a
+        $$</p>
+        <p>gültig ist.</p>
+        <p>Um das Produkt einer Strecke a in eine Strecke b geometrisch zu definiren, bedienen wir uns folgender Construktion. Wir wählen zunächst eine beliebige Strecke, die für die ganze Betrachtung die nämliche bleibt, und bezeichnen dieselbe mit 1. Nunmehr tragen wir auf dem einen Schenkel eines rechten Winkels vom</p>
+        <p>Scheitel 0 aus die Strecke 1 und ferner ebenfalls vom Scheitel 0 aus die Strecke b ab ; sodann tragen wir auf dem anderen Schenkel die Strecke a ab. Wir verbinden die Endpunkte der Strecken 1 und a durch eine Gerade und ziehen zu dieser Geraden durch den Endpunkt der Strecke b eine Parallele ; dieselbe möge auf dem anderen Schenkel eine Strecke c abschneiden: dann nennen wir diese Strecke c das Produkt der Strecke a in die Strecke b und bezeichnen sie mit</p>
+        <p>$$c = ab.$$</p>
+        <p>Wir wollen vor Allem beweisen, dass für die eben definirte Multiplikation der Strecken das commutative Gesetz</p>
+        <p>$$ab = ba$$</p>
+        <p>gültig ist. Zu dem Zwecke construiren wir zuerst auf die oben festgesetzte Weise die Strecke ab. Ferner tragen wir auf dem ersten Schenkel des rechten Winkels die Strecke a und auf dem anderen Schenkel die Strecke b ab, verbinden den Endpunkt der Strecke 1 mit dem Endpunkt von b auf dem anderen Schenkel durch</p>
+        <p>eine Gerade und ziehen zu dieser Geraden durch den Endpunkt von a auf dem ersten Schenkel eine Parallele: dieselbe schneidet auf dem anderen Schenkel die Strecke ba ab; in der That fällt diese Strecke ba, wie die Figur 22 zeigt, wegen der Parallelität der punktirten Hülfslinien nach dem Pascalschen Satze (Satz 21) mit der vorhin construirten Strecke ab zusammen.</p>
+        <p>Um für unsere Multiplikation der Strecken das associative Gesetz</p>
+        <p>$$
+        a(bc) = (ab)c
+        $$</p>
+        <p>zu beweisen, construiren wir erst die Strecke $d = bc$, dann $da$, ferner die Strecke $e = ba$ und dann $ec$. Dass die Endpunkte von $da$ und $ec$ zusammenfallen, ist wiederum auf Grund des Pascalschen Satzes aus der Figur 23 unmittelbar ersichtlich und mit Benutzung des bereits bewiesenen commutativen Gesetzes folgt hieraus die obige Formel für das associative Gesetz der Streckenmultiplikation.</p>
+        <p>Endlich gilt in unserer Streckenrechnung auch das distributive Gesetz</p>
+        <p>$$
+        a(b + c) = ab + ac.
+        $$</p>
+        <p>Um dasselbe zu beweisen, construiren wir die Strecken $ab$, $ac$ und $a(b + c)$ und ziehen dann durch den Endpunkt der Strecke $c$ (s. Figur 24) eine Parallele zu dem anderen Schenkel des rechten Winkels. Die Congruenz der beiden rechtwinkligen in der Figur 24 schraffirten Dreiecke und die Anwendung des Satzes von der Gleichheit der Gegenseiten im Parallelogramm liefert dann den gewünschten Nachweis.</p>
+        <p>Sind $b$ und $c$ zwei beliebige Strecken, so giebt es stets eine Strecke $a$, sodass $c = ab$ wird; diese Strecke $a$ wird mit $\frac{c}{b}$ bezeichnet und der <em>Quotient</em> von $c$ durch $b$ genannt.</p>
+        <figure class="photon-picture photon-svg">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 445 224" width="445" height="224" class="euclid-graphic" data-graphic-id="fig_segment_multiplication" data-proposition="S.15">
+          <line x1="65.00" y1="195.00" x2="425.00" y2="195.00" class="geom-line" />
+          <line x1="65.00" y1="195.00" x2="65.00" y2="18.00" class="geom-line" />
+          <line x1="76.00" y1="195.00" x2="76.00" y2="184.00" class="geom-dashed" />
+          <line x1="65.00" y1="184.00" x2="76.00" y2="184.00" class="geom-dashed" />
+          <line x1="65.00" y1="127.00" x2="177.20" y2="195.00" class="geom-bold" />
+          <line x1="65.00" y1="35.20" x2="328.67" y2="195.00" class="geom-bold" />
+          <line x1="65.00" y1="127.00" x2="224.80" y2="195.00" class="geom-dashed" />
+          <line x1="65.00" y1="82.80" x2="328.67" y2="195.00" class="geom-dashed" />
+          <line x1="177.20" y1="195.00" x2="65.00" y2="82.80" class="geom-accent-line" />
+          <line x1="224.80" y1="195.00" x2="65.00" y2="35.20" class="geom-accent-line" />
+          <circle cx="65.00" cy="195.00" r="3.30" class="geom-point" />
+          <text x="53.00" y="209.00" text-anchor="middle" class="geom-label">O</text>
+          <circle cx="133.00" cy="195.00" r="3.30" class="geom-point" />
+          <text x="133.00" y="212.00" text-anchor="middle" class="geom-label">1</text>
+          <circle cx="177.20" cy="195.00" r="3.30" class="geom-point" />
+          <text x="177.20" y="212.00" text-anchor="middle" class="geom-label">a</text>
+          <circle cx="224.80" cy="195.00" r="3.30" class="geom-point" />
+          <text x="224.80" y="212.00" text-anchor="middle" class="geom-label">b</text>
+          <circle cx="328.67" cy="195.00" r="3.30" class="geom-point" />
+          <text x="328.67" y="212.00" text-anchor="middle" class="geom-label">ab = ba</text>
+          <circle cx="65.00" cy="127.00" r="3.30" class="geom-point" />
+          <text x="51.00" y="131.00" text-anchor="middle" class="geom-label">1</text>
+          <circle cx="65.00" cy="82.80" r="3.30" class="geom-point" />
+          <text x="51.00" y="86.80" text-anchor="middle" class="geom-label">a</text>
+          <circle cx="65.00" cy="35.20" r="3.30" class="geom-point" />
+          <text x="51.00" y="39.20" text-anchor="middle" class="geom-label">b</text>
+        </svg>
+        <figcaption>**Hilbert's Segment Multiplication c = ab and Commutativity ab = ba (§ 15).** Geometric product c = ab on orthogonal rays and proof of ab = ba via Pappus/Pascal parallels.</figcaption>
+        </figure>
+        <figure class="photon-picture photon-svg">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 460 222" width="460" height="222" class="euclid-graphic" data-graphic-id="fig_segment_distributive" data-proposition="S.15b">
+          <line x1="55.00" y1="192.00" x2="435.00" y2="192.00" class="geom-line" />
+          <line x1="55.00" y1="192.00" x2="55.00" y2="22.00" class="geom-line" />
+          <polygon points="55.00,192.00 217.40,192.00 55.00,99.20" class="geom-polygon" />
+          <polygon points="55.00,99.20 217.40,118.40 346.20,192.00 55.00,25.60" class="geom-polygon-gnomon" />
+          <line x1="55.00" y1="128.00" x2="167.00" y2="192.00" class="geom-dashed" />
+          <line x1="55.00" y1="99.20" x2="217.40" y2="192.00" class="geom-bold" />
+          <line x1="55.00" y1="25.60" x2="346.20" y2="192.00" class="geom-bold" />
+          <line x1="55.00" y1="99.20" x2="217.40" y2="118.40" class="geom-accent-line" />
+          <line x1="217.40" y1="192.00" x2="217.40" y2="118.40" class="geom-accent-line" />
+          <circle cx="55.00" cy="192.00" r="3.30" class="geom-point" />
+          <text x="43.00" y="206.00" text-anchor="middle" class="geom-label">O</text>
+          <circle cx="55.00" cy="128.00" r="3.30" class="geom-point" />
+          <text x="41.00" y="132.00" text-anchor="middle" class="geom-label">1</text>
+          <circle cx="55.00" cy="99.20" r="3.30" class="geom-point" />
+          <text x="41.00" y="103.20" text-anchor="middle" class="geom-label">b</text>
+          <circle cx="55.00" cy="25.60" r="3.30" class="geom-point" />
+          <text x="33.00" y="29.60" text-anchor="middle" class="geom-label">b+c</text>
+          <circle cx="167.00" cy="192.00" r="3.30" class="geom-point" />
+          <text x="167.00" y="209.00" text-anchor="middle" class="geom-label">a</text>
+          <circle cx="217.40" cy="192.00" r="3.30" class="geom-point" />
+          <text x="217.40" y="209.00" text-anchor="middle" class="geom-label">ab</text>
+          <circle cx="346.20" cy="192.00" r="3.30" class="geom-point" />
+          <text x="336.20" y="209.00" text-anchor="middle" class="geom-label">a(b+c) = ab+ac</text>
+          <circle cx="217.40" cy="118.40" r="3.30" class="geom-point" />
+          <text x="229.40" y="114.40" text-anchor="middle" class="geom-label">D</text>
+        </svg>
+        <figcaption>**Geometric Proof of the Distributive Law a(b + c) = ab + ac (§ 15).** Distributivity a(b + c) = ab + ac established via congruent right triangles and parallelogram translation.</figcaption>
+        </figure>
+        <div class="folio-milestone" id="folio-§ 16" data-folio="§ 16" data-page="35">[Folio § 16 | p. 35]</div>
+        </section>
+        <section class="level-2" id="die-proportionen-und-die-aehnlichkeitssatze">
+        <h2>§ 16. Die Proportionen und die Aehnlichkeitssätze<a class="headerlink" href="#die-proportionen-und-die-aehnlichkeitssatze" title="Link to this heading">¶</a></h2>
+        <p>Mit Hülfe der eben dargelegten Streckenrechnung lässt sich Euklids Lehre von den Proportionen einwandsfrei und ohne Archimedisches Axiom in folgender Weise begründen.</p>
+        <p><strong>Erklärung.</strong> Sind $a, b, a', b'$ irgend vier Strecken, so soll die <em>Proportion</em></p>
+        <p>$$
+        a : b = a' : b'
+        $$</p>
+        <p>nichts anderes bedeuten als die Streckengleichung</p>
+        <p>$$
+        ab' = ba'.
+        $$</p>
+        <p><strong>Definition.</strong> Zwei Dreiecke heissen <em>ähnlich</em>, wenn entsprechende Winkel in ihnen congruent sind.</p>
+        <p id="grundlagen-de-thm-22"><strong>Satz 22.</strong> Wenn $a, b$ und $a', b'$ entsprechende Seiten in zwei ähnlichen Dreiecken sind, so gilt die Proportion</p>
+        <p>$$
+        a : b = a' : b'.
+        $$</p>
+        <p><strong>Beweis.</strong> Wir betrachten zunächst den besonderen Fall, wo die von $a, b$ und $a', b'$ eingeschlossenen Winkel in beiden Dreiecken Rechte sind, und denken uns die beiden Dreiecke in ein und denselben rechten Winkel eingetragen. Wir tragen sodann vom Scheitel aus auf einem Schenkel die Strecke $1$ ab und ziehen durch den Endpunkt dieser Strecke $1$ die Parallele zu den beiden Hypotenusen; dieselbe schneide auf dem anderen Schenkel die Strecke $e$ ab; dann ist nach unserer Definition des Streckenproduktes</p>
+        <p>$$
+        b = ea, \quad b' = ea';
+        $$</p>
+        <p>mithin haben wir</p>
+        <p>$$
+        ab' = ba',
+        $$</p>
+        <ol class="loweralpha simple" start="4">
+        <li><ol class="loweralpha simple" start="8">
+        <li></li>
+        </ol>
+        </li>
+        </ol>
+        <p>$$
+        a : b = a' : b'.
+        $$</p>
+        <p>Nunmehr kehren wir zu dem allgemeinen Falle zurück. Wir construiren in jedem der beiden ähnlichen Dreiecke den Schnittpunkt $S$ bez. $S'$ der drei Winkelhalbirenden und fällen von diesem die drei Lote $r$ bez. $r'$ auf die Dreiecksseiten; die auf diesen entstehenden Abschnitte bezeichnen wir mit</p>
+        <p>$$
+        a_b, \; a_c, \; b_c, \; b_a, \; c_a, \; c_b
+        $$</p>
+        <p>bez.</p>
+        <p>$$
+        a'_b, \; a'_c, \; b'_c, \; b'_a, \; c'_a, \; c'_b.
+        $$</p>
+        <p>Der vorhin bewiesene spezielle Fall unseres Satzes liefert dann die Proportionen</p>
+        <p>$$
+        \begin{aligned}
+        a_b : r &amp;= a'_b : r', &amp; b_c : r &amp;= b'_c : r', \\
+        a_c : r &amp;= a'_c : r', &amp; b_a : r &amp;= b'_a : r';
+        \end{aligned}
+        $$</p>
+        <p>aus diesen schliessen wir mittelst des distributiven Gesetzes</p>
+        <p>$$
+        a : r = a' : r', \quad b : r = b' : r'
+        $$</p>
+        <p>und folglich mit Rücksicht auf das commutative Gesetz der Multiplikation</p>
+        <p>$$
+        a : b = a' : b'.
+        $$</p>
+        <p>Aus dem eben bewiesenen Satze 22 entnehmen wir leicht den Fundamentalsatz in der Lehre von den Proportionen, der wie folgt lautet:</p>
+        <p id="grundlagen-de-thm-23"><strong>Satz 23.</strong> Schneiden zwei Parallele auf den Schenkeln eines beliebigen Winkels die Strecken $a, b$ bez. $a', b'$ ab, so gilt die Proportion</p>
+        <p>$$
+        a : b = a' : b'.
+        $$</p>
+        <p>Umgekehrt, wenn vier Strecken $a, b, a', b'$ diese Proportion erfüllen und $a, a'$ und $b, b'$ je auf einem Schenkel eines beliebigen Winkels abgetragen werden, so sind die Verbindungsgeraden der Endpunkte von $a, b$ bez. von $a', b'$ einander parallel.</p>
+        <div class="folio-milestone" id="folio-§ 17" data-folio="§ 17" data-page="37">[Folio § 17 | p. 37]</div>
+        </section>
+        <section class="level-2" id="die-gleichungen-der-geraden-und-ebenen">
+        <h2>§ 17. Die Gleichungen der Geraden und Ebenen<a class="headerlink" href="#die-gleichungen-der-geraden-und-ebenen" title="Link to this heading">¶</a></h2>
+        <p>Zu dem bisherigen System von Strecken fügen wir noch ein zweites ebensolches System von Strecken hinzu; die Strecken des neuen Systems denken wir uns durch ein Merkzeichen kenntlich gemacht und nennen sie dann „negative“ Strecken zum Unterschiede von den bisher betrachteten „positiven“ Strecken. Führen wir noch die durch einen einzigen Punkt bestimmte Strecke 0 ein, so gelten bei gehörigen Festsetzungen in dieser erweiterten Streckenrechnung sämtliche Rechnungsregeln für reelle Zahlen, die in § 13 zusammengestellt worden sind. Wir heben folgende specielle Thatsachen hervor:</p>
+        <ul class="simple">
+        <li><p>Es ist stets $a \cdot 1 = 1 \cdot a = a$.</p></li>
+        <li><p>Wenn $ab = 0$, so ist entweder $a = 0$ oder $b = 0$.</p></li>
+        <li><p>Wenn $a &gt; b$ und $c &gt; 0$, so folgt stets $ac &gt; bc$.</p></li>
+        </ul>
+        <p>Wir nehmen nun in einer Ebene $\alpha$ durch einen Punkt $O$ zwei zu einander senkrechte Gerade als festes rechtwinkliges Axenkreuz an und tragen dann die beliebigen Strecken $x, y$ von $O$ aus auf den beiden Geraden ab, und zwar nach der einen oder nach der anderen Seite hin, jenachdem die abzutragende Strecke $x$ bez. $y$ positiv oder negativ ist; sodann errichten wir die Lote in den Endpunkten der Strecken $x, y$ und bestimmen den Schnittpunkt $P$ dieser Lote: die Strecken $x, y$ heissen die <em>Coordinaten</em> des Punktes $P$; jeder Punkt der Ebene $\alpha$ ist durch seine Coordinaten $x, y$, die positive oder negative Strecken oder $0$ sein können, eindeutig bestimmt.</p>
+        <p>Es sei $l$ irgend eine Gerade in der Ebene $\alpha$, die durch $O$ und durch einen Punkt $C$ mit den Coordinaten $a, b$ gehe. Sind dann $x, y$ die Coordinaten irgend eines Punktes von $l$, so finden wir leicht aus Satz 22</p>
+        <p>$$
+        a : b = x : y \quad \text{oder} \quad bx - ay = 0
+        $$</p>
+        <p>als die Gleichung der Geraden $l$. Ist $l'$ eine zu $l$ parallele Gerade, die auf der $x$-Axe die Strecke $c$ abschneidet, so gelangen wir zu der Gleichung der Geraden $l'$, indem wir in der Gleichung der Geraden $l$ die Strecke $x$ durch die Strecke $x - c$ ersetzen; die gewünschte Gleichung lautet also</p>
+        <p>$$
+        bx - ay - bc = 0.
+        $$</p>
+        <p>Aus diesen Entwickelungen schliessen wir leicht auf eine Weise, die von dem Archimedischen Axiom unabhängig ist, dass jede Gerade in einer Ebene durch eine lineare Gleichung in den Coordinaten x, y dargestellt wird und umgekehrt jede solche lineare Gleichung eine Gerade darstellt, wenn die Coefficienten</p>
+        <p>derselben in der betreffenden Geometrie vorkommende Strecken sind.</p>
+        <p>Die entsprechenden Resultate beweist man ebenso leicht in der räumlichen Geometrie.</p>
+        <p>Der weitere Aufbau der Geometrie kann von nun an nach den Methoden geschehen, die man in der analytischen Geometrie gemeinhin anwendet.</p>
+        <p>Wir haben bisher in diesem Kapitel III das Archimedische Axiom nirgends benutzt ; setzen wir jetzt die Gültigkeit desselben voraus, so können wir den Punkten einer beliebigen Geraden im Raume reelle Zahlen zuordnen und zwar auf folgende Art.</p>
+        <p>Wir wählen auf der Geraden zwei beliebige Punkte aus und ordnen diesen die Zahlen $0$ und $1$ zu; sodann halbiren wir die durch sie bestimmte Strecke $01$ und bezeichnen den entstehenden Mittelpunkt mit $\frac{1}{2}$, ferner den Mittelpunkt der Strecke $0\frac{1}{2}$ mit $\frac{1}{4}$ u. s. w.; nach $n$-maliger Ausführung dieses Verfahrens gelangen wir zu einem Punkte, dem die Zahl $\frac{1}{2^n}$ zuzuordnen ist. Nun tragen wir die Strecke $0\frac{1}{2^n}$ an den Punkt $0$ sowohl nach der Seite des Punktes $1$ als auch nach der anderen Seite hin etwa $m$-mal hintereinander ab und erteilen den so entstehenden Punkten die Zahlenwerte $\frac{m}{2^n}$ bez. $-\frac{m}{2^n}$. Aus dem Archimedischen Axiom kann leicht geschlossen werden, dass auf Grund dieser Zuordnung sich jedem beliebigen Punkte der Geraden in eindeutig bestimmter Weise eine reelle Zahl zuordnen lässt und zwar so dass dieser Zuordnung folgende Eigenschaft zukommt: wenn $A, B, C$ irgend drei Punkte der Geraden und bez. $\alpha, \beta, \gamma$ die zugehörigen reellen Zahlen sind und $B$ zwischen $A$ und $C$ liegt, so erfüllen dieselben stets entweder die Ungleichung $\alpha &lt; \beta &lt; \gamma$ oder $\alpha &gt; \beta &gt; \gamma$.</p>
+        <p>Aus den Entwicklungen in Kap. II § 9 leuchtet ein, dass dort für jede Zahl, die dem algebraischen Zahlkörper $\Omega$ angehört, notwendig ein Punkt der Geraden existiren muss, dem sie zugeordnet ist. Ob auch jeder anderen reellen Zahl ein Punkt entspricht, lässt sich im allgemeinen nicht entscheiden, sondern hängt von der vorgelegten Geometrie ab.</p>
+        <p>Dagegen ist es stets möglich, das ursprüngliche System von Punkten, Geraden und Ebenen so durch „ideale“ oder „irrationale“ Elemente zu erweitern, dass auf irgend einer Geraden der entstehenden Geometrie jedem System von drei reellen Zahlen ohne Ausnahme ein Punkt zugeordnet ist. Durch gehörige Festsetzung kann zugleich erreicht werden, dass in der erweiterten Geometrie sämtliche Axiome I — V gültig sind. Diese (durch Hinzufügung der irrationalen Elemente) erweiterte Geometrie ist keine andere als die gewöhnliche analytische Geometrie des Raumes.</p>
+        <hr class="docutils" />
+        <p class="rubric">Fussnoten</p>
+        <aside class="footnote-list brackets">
+        <aside class="footnote brackets" id="fn1" role="doc-footnote">
+        <span class="label"><span class="fn-bracket">[</span><a role="doc-backlink" href="#id1">1</a><span class="fn-bracket">]</span></span>
+        <ol class="upperalpha simple" start="6">
+        <li><p>Schur hat einen interessanten Beweis des Pascalschen Satzes auf Grund der sämtlichen Axiome I–II, IV in den <em>Math. Ann.</em> Bd. 51 veröffentlicht.</p></li>
+        </ol>
+        </aside>
+        </aside>
+        </section>
+        </section>
+
+      </div>
+      <footer class="book-footer">
+        <div class="book-footer-ornament">&#10086;</div>
+        <div class="book-footer-nav">
+          <div class="book-nav-prev">
+            <a class="book-nav-btn" href="../chapter-2/chapter-2-de.html" title="Chapter II: The Compatibility and Mutual Independence of the Axioms">&larr; <span class="nav-label">Chapter II: The Compatibility and Mutual Independence of the Axioms</span></a>
+          </div>
+          <div class="book-nav-center">
+            <a class="book-toc-link" href="../index.html">GRUNDLAGEN DER GEOMETRIE</a>
+          </div>
+          <div class="book-nav-next">
+            <a class="book-nav-btn" href="../chapter-4/chapter-4-de.html" title="Chapter IV: The Theory of Plane Areas"><span class="nav-label">Chapter IV: The Theory of Plane Areas</span> &rarr;</a>
+          </div>
+        </div>
+      </footer>
+    </article>
+  </main>
+  <div class="asides">
+    <aside class="aside-search">
+      <h3>Search</h3>
+      <div id="searchbox" role="search">
+        <form id="rtd-search-form" class="wy-form search-form" action="../../search.html" method="get">
+          <div class="search-field">
+            <input type="search" name="q" placeholder="Search docs..." aria-label="Search docs" autocomplete="off" />
+            <button type="submit" class="search-submit" aria-label="Search" title="Search">
+              <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <circle cx="11" cy="11" r="8"></circle>
+                <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+              </svg>
+            </button>
+          </div>
+          <input type="hidden" name="check_keywords" value="yes" />
+          <input type="hidden" name="area" value="default" />
+        </form>
+      </div>
+    </aside>
+  </div>
+  <footer>
+    <div class="footer-nav">
+      <ul>
+        <li><a href="../../about/index.html"  >about</a></li>
+      </ul>
+    </div>
+    <hr />
+    <div role="contentinfo">
+      <p>
+        &copy; Copyright 1899 B. G. Teubner · 1902 Open Court · Digital Codex GEOMETOR.
+      </p>
+    </div>
+  </footer>
+
+  <script src="../../_static/jquery.js?v=5d32c60e"></script>
+  <script src="../../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+  <script src="../../_static/documentation_options.js?v=01f34227"></script>
+  <script src="../../_static/doctools.js?v=fd6eb6e6"></script>
+  <script src="../../_static/sphinx_highlight.js?v=6ffebe34"></script>
+  <script src="../../_static/js/collection_controls.js?v=b6b5297a"></script>
+  <script src="../../_static/js/geometor_interactive.js?v=b2892320"></script>
+  <script src="../../_static/js/search_highlight.js"></script>
+
+</body>
+</html>

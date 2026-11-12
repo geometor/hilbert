@@ -1,0 +1,323 @@
+
+
+<!DOCTYPE html>
+<html lang="en" data-content_root="../../">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Chapter VII: Geometrical Constructions Based Upon Axioms I–V &mdash; GRUNDLAGEN DER GEOMETRIE</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..700;1,400..700&family=Fira+Sans+Condensed:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600;1,700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" type="text/css" href="../../_static/pygments.css?v=ea5fcf70" />
+  <link rel="stylesheet" type="text/css" href="../../_static/css/styles.css?v=66998e95" />
+  <link rel="stylesheet" type="text/css" href="../../_static/graphviz.css?v=4ae1632d" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css" />
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js"></script>
+  <link rel="stylesheet" href="../../_static/css/print.css" type="text/css" media="print" />
+  <link rel="icon" href="../../_static/favicon.ico" />
+</head>
+
+<body class="is-book-page book-theme-classical-serif">
+  <header>
+    <div class="logo">
+      <a href="../../index.html">
+        <h1>GEOMETOR • hilbert</h1>
+      </a>
+      <div class="org-repo">
+        <span class="org">GEOMETOR</span>
+        •
+        <span class="repo">hilbert</span>
+      </div>
+    </div>
+    <nav aria-label="Header">
+      <input type="checkbox" id="nav-Header-toggle" >
+      <label for="nav-Header-toggle" >Header</label>
+      <ul>
+        <li>
+          <a href="../../mission/index.html"  >mission</a>
+        </li>
+        <li>
+          <a href="../../log/index.html"  >log</a>
+        </li>
+        <li>
+          <a href="../../modules/index.html"  >modules</a>
+        </li>
+      </ul>
+    </nav>
+    <div class="motto"></div>
+  </header>
+  <main class="book-main">
+    <article class="book-layout book-reading-pane">
+      <header class="book-header">
+        <div class="book-header-bar">
+          <div class="book-header-identity">
+            <a class="book-portal-link" href="../../index.html" title="Return to Project Portal">&larr; hilbert</a>
+            <span class="book-header-sep">/</span>
+            <a class="book-title-link" href="../index.html">GRUNDLAGEN DER GEOMETRIE</a>
+          </div>
+        </div>
+        <div class="book-header-nav">
+          <div class="book-nav-prev">
+            <a class="book-nav-btn" href="../chapter-6/chapter-6-en.html" title="Chapter VI: Pascal’s Theorem">&larr; <span class="nav-label">Prev</span></a>
+          </div>
+          <div class="book-nav-center">
+            <nav class="book-tracks-nav" aria-label="Document Tracks">
+              <strong class="book-track-item is-active" aria-current="page">English</strong>
+              <span class="book-track-sep">&middot;</span>
+              <a class="book-track-item" href="chapter-7-de.html">Deutsch</a>
+              <span class="book-track-sep">&middot;</span>
+              <a class="book-track-item" href="chapter-7-summary.html">Summary</a>
+              <span class="book-track-sep">&middot;</span>
+              <a class="book-track-item" href="chapter-7-notes.html">Notes</a>
+            </nav>
+          </div>
+          <div class="book-nav-next">
+            <a class="book-nav-btn" href="../conclusion/conclusion-en.html" title="Conclusion &amp; Appendix on Transformation Groups"><span class="nav-label">Next</span> &rarr;</a>
+          </div>
+        </div>
+      </header>
+      <div class="content body book-content folio-book-page" role="main">
+        <section class="level-1" id="chapter-vii-geometrical-constructions-based-upon-axioms-iv">
+        <span id="grundlagen-chapter-7-en"></span><h1>Chapter VII: Geometrical Constructions Based Upon Axioms I–V<a class="headerlink" href="#chapter-vii-geometrical-constructions-based-upon-axioms-iv" title="Link to this heading">¶</a></h1>
+        <p class="rubric">David Hilbert — <em>The Foundations of Geometry</em> (Authorized Translation by E. J. Townsend, 1902)</p>
+        <nav class="contents local" id="in-this-unit">
+        <p class="topic-title">In This Unit</p>
+        <ul class="simple">
+        <li><p><a class="reference internal" href="#geometrical-constructions-by-means-of-a-straight-edge-and-a-transferer-of-segments" id="id3">§ 36. Geometrical Constructions by Means of a Straight-Edge and a Transferer of Segments</a></p></li>
+        <li><p><a class="reference internal" href="#analytical-representation-of-the-co-ordinates-of-points-which-can-be-so-constructed" id="id4">§ 37. Analytical Representation of the Co-ordinates of Points Which Can Be So Constructed</a></p></li>
+        <li><p><a class="reference internal" href="#the-representation-of-algebraic-numbers-and-of-integral-rational-functions-as-sums-of-squares" id="id5">§ 38. The Representation of Algebraic Numbers and of Integral Rational Functions as Sums of Squares</a></p></li>
+        <li><p><a class="reference internal" href="#criterion-for-the-possibility-of-a-geometrical-construction-by-means-of-a-straight-edge-and-a-transferer-of-segments" id="id6">§ 39. Criterion for the Possibility of a Geometrical Construction by Means of a Straight-Edge and a Transferer of Segments</a></p></li>
+        </ul>
+        </nav>
+        <div class="folio-milestone" id="folio-§ 36" data-folio="§ 36" data-page="115">[Folio § 36 | p. 115]</div>
+        <section class="level-2" id="geometrical-constructions-by-means-of-a-straight-edge-and-a-transferer-of-segments">
+        <h2>§ 36. Geometrical Constructions by Means of a Straight-Edge and a Transferer of Segments<a class="headerlink" href="#geometrical-constructions-by-means-of-a-straight-edge-and-a-transferer-of-segments" title="Link to this heading">¶</a></h2>
+        <p>Suppose we have given a geometry of space, in which all of the axioms I–V are valid. For the sake of simplicity, we shall consider in this chapter a a plane geometry which is contained in this geometry of space and shall investigate the question as to what elementary geometrical constructions may be carried out in such a geometry.</p>
+        <p>Upon the basis of the axioms of group I, the following constructions are always possible.</p>
+        <p><strong>Problem</strong> 1. To join two points with a straight line and to find the intersection of two straight lines, the lines not being parallel.</p>
+        <p>Axiom III renders possible the following construction:</p>
+        <p><strong>Problem</strong> 2. Through a given point to draw a parallel to a given straight line.</p>
+        <p>By the assistance of the axioms (IV) of congruence, it is possible to lay off segments and angles; that is to say, in the given geometry we may solve the following problems:</p>
+        <p><strong>Problem</strong> 3. To lay off from a given point upon a given straight line a given segment.</p>
+        <p><strong>Problem</strong> 4. To lay off on a given straight line a given angle; or what is the same thing, to construct a straight line which shall cut a given straight line at a given angle.</p>
+        <p>It is impossible to make any new constructions by the addition of the axioms of groups II and V. Consequently, when we take into consideration merely the axioms of groups I–V, all of those constructions and only those are possible, which may be reduced to the problems 1–4 given above.</p>
+        <p>We will add to the fundamental problems 1–4 also the following:</p>
+        <p><strong>Problem</strong> 5. To draw a perpendicular to a given straight line.</p>
+        <p>We see at once that this construction can be made in different ways by means of the problems 1–4.</p>
+        <p>In order to carry out the construction in problem 1, we need to make use of only a <em>straight edge</em>. An instrument which enables us to make the construction in problem 3, we will call a <em>transferer of segments</em>. We shall now show that problems 2, 4, and 5 can be reduced to the constructions in problems 1 and 3 and, consequently, all of the problems 1–5 can be completely constructed by means of a straight-edge and a transferer of segments. We arrive, then, at the following result:</p>
+        <p id="grundlagen-en-thm-40"><strong>Theorem 40.</strong> Those problems in geometrical construction, which may be solved by the assistance of only the axioms I–V, can always be carried out by the use of the straight-edge and the transferer of segments.</p>
+        <p><strong>Proof.</strong> In order to reduce problem 2 to the solution of problems 1 and 3, we join the given point $P$ with any point $A$ of the given straight line and produce $PA$ to $C$, making $AC=PA$. Then, join $C$ with any other point $B$ of the given straight line and produce $CB$ to $Q$, making, $BQ=CB$. The straight line $PQ$ is the desired parallel.</p>
+        <p>We can solve problem 5 in the following manner. Let $A$ be an arbitrary point of the given straight line. Then upon this straight line, lay off in both directions from $A$ the two equal segments $AB$ and $AC$. Determine, upon any two straight lines passing through the point $A$, the points $E$ and $D$ so that the segments $AD$ and $AE$ will equal $AB$ and $AC$.</p>
+        <p>Suppose the straight lines $BD$ and $CE$ intersect in $F$ and the straight lines $BE$ and $CD$ intersect in $H$. $FH$ is then the desired perpendicular. In fact, the angles $BDC$ and $BEC$, being inscribed in a semicircle having the diameter $BC$, are both right angles, and, hence, according to the theorem relating to the point of intersection of the altitudes of a triangle, the straight lines $FH$ and $BC$ are perpendicular to each other.</p>
+        <p>Moreover, we can easily solve problem 4 simply by the drawing of straight lines and the laying off of segments. We will employ the following method which requires only the drawing of parallel lines and the erection of perpendiculars. Let $\beta$ be the angle to be laid off and $A$ its vertex. Draw through $A$ a straight line $l$ parallel to the given straight line, upon which we are to lay off the given angle $\beta$. From an arbitrary point $B$ of one side of the angle $\beta$, let fall a perpendicular upon the other side of this angle and also one upon $l$. Denote the feet of these perpendiculars by $D$ and $C$ respectively. The construction of these perpendiculars is accomplished by means of problems 2 and 5. Then, let fall from $A$ a perpendicular upon $CD$, and let its foot be denoted by $E$. According to the demonstration given in Section § 14, the angle $CAE$ equals $\beta$. Consequently, the construction in 4 is made to depend upon that of 1 and 3 and with this our proposition is demonstrated.</p>
+        <figure class="photon-picture photon-svg">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 460 198" width="460" height="198" class="euclid-graphic" data-graphic-id="fig_gauge_constructions" data-proposition="S.36">
+          <path d="M 117.00 162.00 A 108.00 108.00 0 0 1 333.00 162.00" class="geom-dashed" />
+          <line x1="55.00" y1="162.00" x2="415.00" y2="162.00" class="geom-bold" />
+          <line x1="117.00" y1="162.00" x2="255.00" y2="26.00" class="geom-line" />
+          <line x1="333.00" y1="162.00" x2="255.00" y2="26.00" class="geom-line" />
+          <line x1="225.00" y1="162.00" x2="226.58" y2="54.01" class="geom-dashed" />
+          <line x1="225.00" y1="162.00" x2="279.54" y2="68.78" class="geom-dashed" />
+          <line x1="333.00" y1="162.00" x2="226.58" y2="54.01" class="geom-line" />
+          <line x1="117.00" y1="162.00" x2="279.54" y2="68.78" class="geom-line" />
+          <line x1="255.00" y1="26.00" x2="255.00" y2="162.00" class="geom-accent-line" />
+          <line x1="245.00" y1="162.00" x2="245.00" y2="152.00" class="geom-accent-line" />
+          <line x1="245.00" y1="152.00" x2="255.00" y2="152.00" class="geom-accent-line" />
+          <circle cx="225.00" cy="162.00" r="3.30" class="geom-point" />
+          <text x="225.00" y="179.00" text-anchor="middle" class="geom-label">O</text>
+          <circle cx="117.00" cy="162.00" r="3.30" class="geom-point" />
+          <text x="107.00" y="179.00" text-anchor="middle" class="geom-label">A</text>
+          <circle cx="333.00" cy="162.00" r="3.30" class="geom-point" />
+          <text x="343.00" y="179.00" text-anchor="middle" class="geom-label">B</text>
+          <circle cx="226.58" cy="54.01" r="3.30" class="geom-point" />
+          <text x="213.58" y="50.01" text-anchor="middle" class="geom-label">C</text>
+          <circle cx="279.54" cy="68.78" r="3.30" class="geom-point" />
+          <text x="292.54" y="64.78" text-anchor="middle" class="geom-label">D</text>
+          <circle cx="255.00" cy="26.00" r="3.30" class="geom-point" />
+          <text x="255.00" y="17.00" text-anchor="middle" class="geom-label">P</text>
+          <circle cx="255.00" cy="82.85" r="3.30" class="geom-point" />
+          <text x="268.00" y="85.85" text-anchor="middle" class="geom-label">H</text>
+          <circle cx="255.00" cy="162.00" r="3.30" class="geom-point" />
+          <text x="255.00" y="179.00" text-anchor="middle" class="geom-label">F</text>
+        </svg>
+        <figcaption>**Orthocenter Perpendicular Construction with Straightedge and Segment-Transferer (§ 36).** Dropping a perpendicular from P to line AB using only a straightedge and Streckenübertrager (Eichmass) via Thales's semicircle right angles at C and D and orthocenter H.</figcaption>
+        </figure>
+        <div class="folio-milestone" id="folio-§ 37" data-folio="§ 37" data-page="119">[Folio § 37 | p. 119]</div>
+        </section>
+        <section class="level-2" id="analytical-representation-of-the-co-ordinates-of-points-which-can-be-so-constructed">
+        <h2>§ 37. Analytical Representation of the Co-ordinates of Points Which Can Be So Constructed<a class="headerlink" href="#analytical-representation-of-the-co-ordinates-of-points-which-can-be-so-constructed" title="Link to this heading">¶</a></h2>
+        <p>Besides the elementary geometrical problems considered in § 36, there exists a long series of other problems whose solution is possible by the drawing of straight lines and the laying off of segments. In order to get a general survey of the scope of the problems which may be solved in this manner, let us take as the basis of our consideration a system of axes in rectangular co-ordinates and suppose that the co-ordinates of the points are, as usual, represented by real numbers or by functions of certain arbitrary parameters. In order to answer the question in respect to all the points capable of such a construction, we employ the following considerations.</p>
+        <p>Let a system of definite points be given. Combine the co-ordinates of these points into a domain $R$. This domain contains, then, certain real numbers and certain arbitrary parameters $p$. Consider, now, the totality of points capable of construction by the drawing of straight lines and the laying off of definite segments, making use of the system of points in question. We will call the domain formed from the co-ordinates of these points $\Omega(R)$, which will then contain real numbers and functions of the arbitrary parameters $p$.</p>
+        <p>The discussion in § 17 shows that the drawing of straight lines and of parallels amounts, analytically, to the addition, subtraction, multiplication, and division of segments. Furthermore, the well known formula given in § 9 for a rotation shows that the laying off of segments upon a straight line does not necessitate any other analytical operation than the extraction of the square root of the sum of the squares of two segments whose bases have been previously constructed. Conversely, in consequence of the pythagorean theorem, we can always construct, by the aid of a right triangle, the square root of the sum of the squares of two segments by the mere laying off of segments.</p>
+        <p>From these considerations, it follows that the domain $\Omega(R)$ contains all of those and only those real numbers and functions of the parameters $p$, which arise from the numbers and parameters in $R$ by means of a finite number of applications of the five operations; viz., the four elementary operations of arithmetic and, in addition, the fifth operation of extracting the square root of the sum of two squares. We may express this result as follows:</p>
+        <p id="grundlagen-en-thm-41"><strong>Theorem 41.</strong> A problem in geometrical construction is, then, possible of solution by the drawing of straight lines and the laying off of segments, that is to say, by the use of the straight-edge and a transferer of segments, when and only when, by the analytical solution of the problem, the co-ordinates of the desired points are such functions of the co-ordinates of the given points as may be determined by the rational operations and, in addition, the extraction of the square root of the sum of two squares.</p>
+        <p>From this proposition, we can at once show that not every problem which can be solved by the use of a compass can also be solved by the aid of a transferer of segments and a straight-edge. For the purpose of showing this, let us consider again that geometry which was constructed in § 9 by the help of the domain $\Omega$ of algebraic numbers. In this geometry, there exist only such segments as can be constructed by means of a straight-edge and a transferer of segments, namely, the segments determined by the numbers of the domain $\Omega$.</p>
+        <p>Now, if $\omega$ is a number of the domain $\Omega$, we easily see from the definition of $\Omega$ that every algebraic number conjugate to $\omega$ must also lie in $\Omega$. Since the numbers of the domain $\Omega$ are evidently all real, it follows that it can contain only such real algebraic numbers as have their conjugates also real.</p>
+        <p>Let us now consider the following problem; viz., to construct a right triangle having the hypotenuse 1 and one side $|\sqrt{2}| - 1$. The algebraic number $\sqrt{2|\sqrt{2}| - 2}$, which expresses the numerical value of the other side, does not occur in the domain $\Omega$, since the conjugate number $\sqrt{-2|\sqrt{2}| - 2}$ is imaginary. This problem is, therefore, not capable of solution in the geometry in question and, hence, cannot be constructed by means of a straight-edge and a transferer of segments, although the solution by means of a compass is possible.</p>
+        <div class="folio-milestone" id="folio-§ 38" data-folio="§ 38" data-page="122">[Folio § 38 | p. 122]</div>
+        </section>
+        <section class="level-2" id="the-representation-of-algebraic-numbers-and-of-integral-rational-functions-as-sums-of-squares">
+        <h2>§ 38. The Representation of Algebraic Numbers and of Integral Rational Functions as Sums of Squares<a class="headerlink" href="#the-representation-of-algebraic-numbers-and-of-integral-rational-functions-as-sums-of-squares" title="Link to this heading">¶</a></h2>
+        <p>The question of the possibility of geometrical constructions by the aid of a straight-edge and a transferer of segments necessitates, for its complete treatment, particular theorems of an arithmetical and algebraic character, which, it appears to me, are themselves of interest. Since the time of Fermat, it has been known that every positive integral rational number can be represented as the sum of four squares. This theorem of Fermat permits the following remarkable generalization:</p>
+        <p><strong>Definition</strong>. Let $k$ be an arbitrary number field and let $m$ be its degree. We will denote by $k^{\prime}$, $k^{\prime\prime}$, …, $k^{(m-1)}$ the $m-1$ number fields conjugate to $k$. If, among the $m$ fields $k$, $k^{\prime}, k^{\prime\prime}, \ldots, k^{(m-1)}$ there is one or more formed entirely of real numbers, then we call these fields real. Suppose that the fields $k$, $k^\prime$, …, $k^{(s-1)}$ are such. A number $\alpha$ of the field $k$ is called in this case <em>totally positive in $k$</em>, whenever the $s$ numbers conjugate to $\alpha$, contained respectively in $k$, $k^\prime$, $k^{\prime\prime}$, …, $k^{(s-1)}$ are all positive. However, if in each of the $m$ fields $k$, $k^\prime$, $k^{\prime\prime}$, …, $k^{(m-1)}$ there are also imaginary numbers present, we call every number $\alpha$ in $k$ <em>totally positive</em>.</p>
+        <p>We have, then, the following proposition:</p>
+        <p id="grundlagen-en-thm-42"><strong>Theorem 42.</strong> Every totally positive number in $k$ may be represented as the sum of four squares, whose bases are integral or fractional numbers of the field $k$.</p>
+        <p>The demonstration of this theorem presents serious difficulty. It depends essentially upon the theory of relatively quadratic number fields, which I have recently developed in several papers. <a class="footnote-reference brackets" href="#fn1" id="id1" role="doc-noteref"><span class="fn-bracket">[</span>1<span class="fn-bracket">]</span></a> We will here call attention only to that proposition in this theory which gives the condition that a ternary diophantine equation of the form</p>
+        <p>$$
+        \alpha\xi^2 + \beta\eta^2 + \gamma\zeta^2 = 0
+        $$</p>
+        <p>can be solved when the coefficients $\alpha$, $\beta$, $\gamma$ are given numbers in $k$ and $\xi$, $\eta$, $\zeta$ are the required numbers in $k$. The demonstration of theorem 42 is accomplished by the repeated application of the proposition just mentioned.</p>
+        <p>From theorem 42 follow a series of propositions concerning the representation of such rational functions of a variable, with rational coefficients, as never have negative values. I will mention only the following theorem, which will be of service in the following sections.</p>
+        <p id="grundlagen-en-thm-43"><strong>Theorem 43.</strong> Let, $f(x)$ be an integral rational function of $x$ whose coefficients are rational numbers and which never becomes negative for any real value of $x$. Then $f(x)$ can always be represented as the quotient of two sums of squares of which the bases are all integral rational functions of $x$ with rational coefficients.</p>
+        <p><strong>Proof</strong>. We will denote the degree of the function $f(x)$ by $m$, which, in any case, must evidently be even. When $m = 0$, that is to say, when $f(x)$ is a rational number, the validity of theorem 43 follows immediately from Fermat’s theorem concerning the representation of a positive number as the sum of four squares. We will assume that the proposition is already established for functions of degree $2$, $4$, $6$, …, $m-2$, and show, in the following manner, its validity for the case of a function of the $m^{th}$ degree.</p>
+        <p>Let us, first of all, consider briefly the case where $f(x)$ breaks up into the product of two or more integral functions of $x$ with rational coefficients. Suppose $p(x)$ to be one of those functions contained in $f(x)$, which itself cannot be further decomposed into a product of integral functions having rational coefficients. It then follows at once from the “definite” character which we have given to the function $f(x)$, that the factor $p(x)$ must either appear in $f(x)$ to an even degree or $p(x)$ must be itself “definite”; that is to say, must be a function which never has negative values for any real values of $x$. In the first case, the quotient $\frac{f(x)}{\{p(x)\}^2}$ and, in the second case, both $p(x)$ and $\frac{f(x)}{p(x)}$, are “definite,” and these functions have an even degree $&lt; m$. Hence, according to our hypothesis, in the first case, $\frac{f(x)}{\{p(x)\}^2}$ and, in the last case, $p(x)$ and $\frac{f(x)}{p(x)}$ may be represented as the quotient of the sum of squares of the character mentioned in theorem 43. Consequently, in both of these cases, the function $f(x)$ admits of the required representation.</p>
+        <p>Let us now consider the case where $f(x)$ cannot be broken up into the product of two integral functions having rational coefficients. The equation $f(\theta)=0$ defines, then, a field of algebraic numbers $k(\theta)$ of the $m^\text{th}$ degree, which, together with all their conjugate fields, are imaginary. Since, according to the definition given just before the statement of theorem 42, each number given in $k(\theta)$, and hence also $-1$ is totally positive in $k(\theta)$, it follows from theorem 42 that the number $-1$ can be represented as a sum of the squares of four definite numbers in $k(\theta)$. Let, for example</p>
+        <p>$$
+        \tag{1}
+        -1 = \alpha^2 + \beta^2 + \gamma^2 + \delta^2,
+        $$</p>
+        <p>where $\alpha$, $\beta$, $\gamma$, $\delta$ are integral or fractional numbers in $k(\theta)$. Let us put</p>
+        <p>$$
+        \begin{array}{rcccl}
+        \alpha &amp; = &amp; a_1 \theta^{m-1} + a_2 \theta^{m-2} + \cdots + a_m  &amp; = &amp; \phi(\theta), \\
+        \beta  &amp; = &amp; b_1 \theta^{m-1} + b_2 \theta^{m-2} + \cdots + b_m  &amp; = &amp; \psi(\theta), \\
+        \gamma &amp; = &amp; c_1 \theta^{m-1} + c_2 \theta^{m-2} + \cdots + c_m  &amp; = &amp; \chi(\theta), \\
+        \theta &amp; = &amp; d_1 \theta^{m-1} + d_2 \theta^{m-2} + \cdots + d_m  &amp; = &amp; \rho(\theta);
+        \end{array}
+        $$</p>
+        <p>where $a_1$, $a_2$, …, $a_m$, …, $d_1$, $d_2$, …, $d_m$ are the rational numerical coefficients and $\phi(\theta)$, $\psi(\theta)$, $\chi(\theta)$, $\rho(\theta)$ the integral rational functions in question, having the degree $(m-1)$ in $\theta$.</p>
+        <p>From (1), we have</p>
+        <p>$$
+        1 + \{ \phi(\theta) \}^2 + \{\psi(\theta)\}^2 + \{\chi(\theta)\}^2 + \{\rho(\theta)\}^2 = 0
+        $$</p>
+        <p>Because of the irreducibility of the equation $f(x) = 0$, the expression</p>
+        <p>$$
+        F(x) = 1 + \{ \phi(\theta) \}^2 + \{\psi(\theta)\}^2 + \{\chi(\theta)\}^2 + \{\rho(\theta)\}^2
+        $$</p>
+        <p>represents, necessarily, an integral rational function of $x$ which is divisible by $f(x)$. $F(x)$ is, then, a “definite” function of the degree $(2m-2)$ or lower. Hence, the quotient $\frac{F(x)}{f(x)}$ is a “definite” function of the degree $(m-2)$ or lower in $x$, having rational coefficients. Consequently, by the hypothesis we have made, $\frac{F(x)}{f(x)}$  can be represented as the quotient of two sums of squares of the kind mentioned in theorem 43 and, since $F(x)$ is itself such a sum of squares, it follows that, $f(x)$ must also be a quotient of two sums of squares of the required kind. The validity of theorem 43 is accordingly established.</p>
+        <p>It would be perhaps difficult to formulate and to demonstrate the corresponding proposition for integral functions of two or more variables. However, I will here merely remark that I have demonstrated in an entirely different manner the possibility of representing any “definite” integral rational function of two variables as the quotient of sums of squares of integral functions, upon the hypothesis that the functions represented may have as coefficients not only rational but <em>any</em> real numbers. <a class="footnote-reference brackets" href="#fn2" id="id2" role="doc-noteref"><span class="fn-bracket">[</span>2<span class="fn-bracket">]</span></a></p>
+        <div class="folio-milestone" id="folio-§ 39" data-folio="§ 39" data-page="126">[Folio § 39 | p. 126]</div>
+        </section>
+        <section class="level-2" id="criterion-for-the-possibility-of-a-geometrical-construction-by-means-of-a-straight-edge-and-a-transferer-of-segments">
+        <h2>§ 39. Criterion for the Possibility of a Geometrical Construction by Means of a Straight-Edge and a Transferer of Segments<a class="headerlink" href="#criterion-for-the-possibility-of-a-geometrical-construction-by-means-of-a-straight-edge-and-a-transferer-of-segments" title="Link to this heading">¶</a></h2>
+        <p>Suppose we have given a problem in geometrical construction which can be affected by means of a compass. We shall attempt to find a criterion which will enable us to decide, from the analytical nature of the problem and its solutions, whether or not the construction can be carried out by means of only a straight-edge and a transferer of segments. Our investigation will lead us to the following proposition.</p>
+        <p id="grundlagen-en-thm-44"><strong>Theorem 44.</strong> Suppose we have given a problem in geometrical construction, which is of such a character that the analytical treatment of it enables us to determine uniquely the co-ordinates of the desired points from the co-ordinates of the given points by means of the rational operations and the extraction of the square root. Let $n$ be the smallest number of square roots which suffice to calculate the co-ordinates of the points. Then, in order that the required construction shall be possible by the drawing of straight lines and the laying off of segments, it is necessary and sufficient that the given geometrical problem shall have exactly $2^n$ real solutions for every position of the given points; that is to say, for all values of the arbitrary parameter expressed in terms of the co-ordinates of the given points.</p>
+        <p><strong>Proof</strong>. We shall demonstrate this proposition merely for the case where the co-ordinates of the given points are rational functions, having rational coefficients, of a single parameter $p$.</p>
+        <p>It is at once evident that the proposition gives a necessary condition. In order to show that it is also sufficient, let us assume that it is fulfilled and then, among the $n$ square roots, consider that one which, in the calculation of the co-ordinates of the desired points, is first to be extracted. The expression under this radical is a rational function $f_1(p)$, having rational coefficients, of the parameter $p$. This rational function cannot have a negative value for any real value of the parameter $p$,; for, otherwise the problem must have imaginary solutions for certain values of $p$, which is contrary to the given hypothesis. Hence, from theorem 43, we conclude that $f_1(p)$ can be represented as a quotient of the sums of squares of integral rational functions.</p>
+        <p>Moreover, the formulæ</p>
+        <p>$$
+        \begin{aligned}
+        \sqrt{a^2 + b^2 + c^2} &amp;= \sqrt{(\sqrt{a^2 + b^2})^2 + c^2} \\
+        \sqrt{a^2 + b^2 + c^2 + d^2} &amp;= \sqrt{(\sqrt{a^2 + b^2 + c^2})^2 + d^2}
+        \end{aligned}
+        $$</p>
+        <p>$$
+        \cdot \quad \cdot \quad \cdot \quad \cdot \quad \cdot \quad \cdot \quad
+        \cdot \quad \cdot \quad \cdot \quad \cdot \quad \cdot \quad
+        \cdot \quad \cdot \quad \cdot \quad \cdot \quad \cdot
+        $$</p>
+        <p>show that, in general, the extraction of the square root of a sum of any number of squares may always be reduced to the repeated extraction of the square root of the sum of two squares.</p>
+        <p>If now we combine this conclusion with the preceding results, it follows that the expression $\sqrt{f_1(p)}$ can certainly be constructed by means of a straight-edge and a transferer of segments. Among the $n$ square roots, consider now the second one to be extracted in the process of calculating the co-ordinates of the required points. The expression under this radical is a rational function $f_2(p, \sqrt{f_1})$ of the parameter $p$ and the square root first considered. This function $f_2$ can never be negative for any real arbitrary value of the parameter $p$ and for either sign of $\sqrt{f_1}$; for, otherwise among the $2^n$ solutions of our problem, there would exist for certain values of $p$ also imaginary solutions, which is contrary to our hypothesis. It follows, therefore, that $f_2$ must satisfy a quadratic equation of the form</p>
+        <p>$$
+        f_2^2 - \phi_2(p)f_2 + \psi_1(p) = 0,
+        $$</p>
+        <p>where $\phi_1(p)$ and $\psi_1(p)$ are, necessarily, such rational functions of $p$ as have rational coefficients and for real values of $p$ never become negative. From this equation, we have</p>
+        <p>$$
+        f_2 = \frac{f_2^2 + \psi_1(p)}{\phi_1(p)}.
+        $$</p>
+        <p>Now, according to theorem 43, the functions $\phi_1(p)$ and $\psi_1(p)$ must again be the quotient of the sums of squares of rational functions, and, on the other hand, the expression $f_2$ may be, from the above considerations, constructed by means of a straight-edge and a transferer of segments. The expression found for $f_2$ shows, therefore, that $f_2$ is a quotient of the sum of squares of functions which may be constructed in the same way. Hence, the expression $\sqrt{f_2}$ can also be constructed by means of a straight-edge and a transferer of segments.</p>
+        <p>Just as with the expression $f_2$, any other rational function $\phi_2(p, \sqrt{f_1})$ of $p$ and $\sqrt{f_1}$ may be shown to be the quotient of two sums of squares of functions which may be constructed, provided this rational function $\phi_2$ possesses the property that for real values of the parameter $p$ and for either sign of $\sqrt{f_1}$, it never becomes negative.</p>
+        <p>This remark permits us to extend the above method of reasoning in the following manner.</p>
+        <p>Let $f_3(p, \sqrt{f_1}, \sqrt{f_2})$ be such an expression as depends in a rational manner upon the three arguments $p, \sqrt{f_1}, \sqrt{f_2}$ and of which, in the analytical calculation of the co-ordinates of the desired points, the square root is the third to be extracted. As before, it follows that $f_3$ can never have negative values for real values of $p$ and for either sign of $\sqrt{f_1}$ and $\sqrt{f_2}$. This condition of affairs shows again that $f_3$ must satisfy a quadratic equation of the form</p>
+        <p>$$
+        f_3^2 - \phi_2(p, \sqrt{f_1}) f_3 - \psi_2(p, \sqrt{f_1}) = 0,
+        $$</p>
+        <p>where $\phi_2$ and $\psi_2$ are such rational functions of $p$ and $\sqrt{f_1}$ as never become negative for any real value of $p$ and either sign of $\sqrt{f_1}$. But, according to the preceding remark, the functions $\phi_2$ and $\psi_2$ are the quotients of two sums of squares of functions which may be constructed and, hence, it follows that the expression</p>
+        <p>$$
+        f_3 = \frac{f_3^2 + \psi_2(p, \sqrt{f_1})}{\phi_2(p, \sqrt{f_1})}
+        $$</p>
+        <p>is likewise possible of construction by aid of a straight-edge and a transferer of segments.</p>
+        <p>The continuation of this method of reasoning leads to the demonstration of theorem 44 for the case of a single parameter $p$.</p>
+        <p>The truth of theorem 44 for the general case depends upon whether or not theorem 43 can be generalized in a similar manner to cover the case of two or more variables.</p>
+        <p>As an example of the application of theorem 44, we may consider the regular polygons which may be constructed by means of a compass. In this case, the arbitrary parameter, $p$ does not occur, and the expressions to be constructed all represent algebraic numbers. We easily see that the criterion of theorem 44 is fulfilled, and, consequently, it follows that the above-mentioned regular polygons can be constructed by the drawing of straight lines and the laying off of segments. We might deduce this result also directly from the theory of the division of the circle (<em>Kreisteilung</em>).</p>
+        <p>Concerning the other known problems of construction in the elementary geometry, we will here only mention that the problem of Malfatti may be constructed by means of a straight-edge and a transferer of segments. This is, however, not the case with the contact problems of Appolonius.</p>
+        <hr class="docutils" />
+        <p class="rubric">Footnotes</p>
+        <aside class="footnote-list brackets">
+        <aside class="footnote brackets" id="fn1" role="doc-footnote">
+        <span class="label"><span class="fn-bracket">[</span><a role="doc-backlink" href="#id1">1</a><span class="fn-bracket">]</span></span>
+        <p>“Ueber die Theorie der relativquadratischen Zahlkörper,” <em>Jahresbericht der Deutschen Math. Vereinigung</em>, Vol. 6, 1899, and <em>Math. Annalen</em>, Vol. 51. See, also, “Ueber die Theorie der relativ-Abelschen Zahlkörper” <em>Nachr.der K. Ges.der Wiss.zu Göttingen</em>, 1898.</p>
+        </aside>
+        <aside class="footnote brackets" id="fn2" role="doc-footnote">
+        <span class="label"><span class="fn-bracket">[</span><a role="doc-backlink" href="#id2">2</a><span class="fn-bracket">]</span></span>
+        <p>See “Ueber ternäre definite Formen,” <em>Acta mathematica</em>, Vol. 17.</p>
+        </aside>
+        </aside>
+        </section>
+        </section>
+
+      </div>
+      <footer class="book-footer">
+        <div class="book-footer-ornament">&#10086;</div>
+        <div class="book-footer-nav">
+          <div class="book-nav-prev">
+            <a class="book-nav-btn" href="../chapter-6/chapter-6-en.html" title="Chapter VI: Pascal’s Theorem">&larr; <span class="nav-label">Chapter VI: Pascal’s Theorem</span></a>
+          </div>
+          <div class="book-nav-center">
+            <a class="book-toc-link" href="../index.html">GRUNDLAGEN DER GEOMETRIE</a>
+          </div>
+          <div class="book-nav-next">
+            <a class="book-nav-btn" href="../conclusion/conclusion-en.html" title="Conclusion &amp; Appendix on Transformation Groups"><span class="nav-label">Conclusion & Appendix on Transformation Groups</span> &rarr;</a>
+          </div>
+        </div>
+      </footer>
+    </article>
+  </main>
+  <div class="asides">
+    <aside class="aside-search">
+      <h3>Search</h3>
+      <div id="searchbox" role="search">
+        <form id="rtd-search-form" class="wy-form search-form" action="../../search.html" method="get">
+          <div class="search-field">
+            <input type="search" name="q" placeholder="Search docs..." aria-label="Search docs" autocomplete="off" />
+            <button type="submit" class="search-submit" aria-label="Search" title="Search">
+              <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <circle cx="11" cy="11" r="8"></circle>
+                <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+              </svg>
+            </button>
+          </div>
+          <input type="hidden" name="check_keywords" value="yes" />
+          <input type="hidden" name="area" value="default" />
+        </form>
+      </div>
+    </aside>
+  </div>
+  <footer>
+    <div class="footer-nav">
+      <ul>
+        <li><a href="../../about/index.html"  >about</a></li>
+      </ul>
+    </div>
+    <hr />
+    <div role="contentinfo">
+      <p>
+        &copy; Copyright 1899 B. G. Teubner · 1902 Open Court · Digital Codex GEOMETOR.
+      </p>
+    </div>
+  </footer>
+
+  <script src="../../_static/jquery.js?v=5d32c60e"></script>
+  <script src="../../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+  <script src="../../_static/documentation_options.js?v=01f34227"></script>
+  <script src="../../_static/doctools.js?v=fd6eb6e6"></script>
+  <script src="../../_static/sphinx_highlight.js?v=6ffebe34"></script>
+  <script src="../../_static/js/collection_controls.js?v=b6b5297a"></script>
+  <script src="../../_static/js/geometor_interactive.js?v=b2892320"></script>
+  <script src="../../_static/js/search_highlight.js"></script>
+
+</body>
+</html>

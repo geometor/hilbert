@@ -1,0 +1,570 @@
+
+
+<!DOCTYPE html>
+<html lang="en" data-content_root="../../">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Chapter III: The Theory of Proportion &mdash; GRUNDLAGEN DER GEOMETRIE</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..700;1,400..700&family=Fira+Sans+Condensed:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600;1,700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" type="text/css" href="../../_static/pygments.css?v=ea5fcf70" />
+  <link rel="stylesheet" type="text/css" href="../../_static/css/styles.css?v=66998e95" />
+  <link rel="stylesheet" type="text/css" href="../../_static/graphviz.css?v=4ae1632d" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css" />
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js"></script>
+  <link rel="stylesheet" href="../../_static/css/print.css" type="text/css" media="print" />
+  <link rel="icon" href="../../_static/favicon.ico" />
+</head>
+
+<body class="is-book-page book-theme-classical-serif">
+  <header>
+    <div class="logo">
+      <a href="../../index.html">
+        <h1>GEOMETOR • hilbert</h1>
+      </a>
+      <div class="org-repo">
+        <span class="org">GEOMETOR</span>
+        •
+        <span class="repo">hilbert</span>
+      </div>
+    </div>
+    <nav aria-label="Header">
+      <input type="checkbox" id="nav-Header-toggle" >
+      <label for="nav-Header-toggle" >Header</label>
+      <ul>
+        <li>
+          <a href="../../mission/index.html"  >mission</a>
+        </li>
+        <li>
+          <a href="../../log/index.html"  >log</a>
+        </li>
+        <li>
+          <a href="../../modules/index.html"  >modules</a>
+        </li>
+      </ul>
+    </nav>
+    <div class="motto"></div>
+  </header>
+  <main class="book-main">
+    <article class="book-layout book-reading-pane">
+      <header class="book-header">
+        <div class="book-header-bar">
+          <div class="book-header-identity">
+            <a class="book-portal-link" href="../../index.html" title="Return to Project Portal">&larr; hilbert</a>
+            <span class="book-header-sep">/</span>
+            <a class="book-title-link" href="../index.html">GRUNDLAGEN DER GEOMETRIE</a>
+          </div>
+        </div>
+        <div class="book-header-nav">
+          <div class="book-nav-prev">
+            <a class="book-nav-btn" href="../chapter-2/chapter-2-en.html" title="Chapter II: The Compatibility and Mutual Independence of the Axioms">&larr; <span class="nav-label">Prev</span></a>
+          </div>
+          <div class="book-nav-center">
+            <nav class="book-tracks-nav" aria-label="Document Tracks">
+              <strong class="book-track-item is-active" aria-current="page">English</strong>
+              <span class="book-track-sep">&middot;</span>
+              <a class="book-track-item" href="chapter-3-de.html">Deutsch</a>
+              <span class="book-track-sep">&middot;</span>
+              <a class="book-track-item" href="chapter-3-summary.html">Summary</a>
+              <span class="book-track-sep">&middot;</span>
+              <a class="book-track-item" href="chapter-3-notes.html">Notes</a>
+            </nav>
+          </div>
+          <div class="book-nav-next">
+            <a class="book-nav-btn" href="../chapter-4/chapter-4-en.html" title="Chapter IV: The Theory of Plane Areas"><span class="nav-label">Next</span> &rarr;</a>
+          </div>
+        </div>
+      </header>
+      <div class="content body book-content folio-book-page" role="main">
+        <section class="level-1" id="chapter-iii-the-theory-of-proportion">
+        <span id="grundlagen-chapter-3-en"></span><h1>Chapter III: The Theory of Proportion<a class="headerlink" href="#chapter-iii-the-theory-of-proportion" title="Link to this heading">¶</a></h1>
+        <p class="rubric">David Hilbert — <em>The Foundations of Geometry</em> (Authorized Translation by E. J. Townsend, 1902)</p>
+        <nav class="contents local" id="in-this-unit">
+        <p class="topic-title">In This Unit</p>
+        <ul class="simple">
+        <li><p><a class="reference internal" href="#complex-number-systems" id="id2">§ 13. Complex Number-Systems</a></p></li>
+        <li><p><a class="reference internal" href="#demonstration-of-pascal-s-theorem" id="id3">§ 14. Demonstration of Pascal’s Theorem</a></p></li>
+        <li><p><a class="reference internal" href="#an-algebra-of-segments-based-upon-pascal-s-theorem" id="id4">§ 15. An Algebra of Segments, Based Upon Pascal’s Theorem</a></p></li>
+        <li><p><a class="reference internal" href="#proportion-and-the-theorems-of-similitude" id="id5">§ 16. Proportion and the Theorems of Similitude</a></p></li>
+        <li><p><a class="reference internal" href="#equations-of-straight-lines-and-of-planes" id="id6">§ 17. Equations of Straight Lines and of Planes</a></p></li>
+        </ul>
+        </nav>
+        <div class="folio-milestone" id="folio-§ 13" data-folio="§ 13" data-page="37">[Folio § 13 | p. 37]</div>
+        <section class="level-2" id="complex-number-systems">
+        <h2>§ 13. Complex Number-Systems<a class="headerlink" href="#complex-number-systems" title="Link to this heading">¶</a></h2>
+        <p>At the beginning of this chapter, we shall present briefly certain preliminary ideas concerning complex number systems which will later be of service to us in our discussion.</p>
+        <p>The real numbers form, in their totality, a system of things having the following properties:</p>
+        <p><strong>THEOREMS OF CONNECTION (1–12).</strong></p>
+        <p><strong>1.</strong> From the number $a$ and the number $b$, there is obtained by “addition” a definite number $c$, which we express by writing</p>
+        <p>$$
+        a+b= c  \text{or}  c=a+b.
+        $$</p>
+        <p><strong>2.</strong> There exists a definite number, which we call $0$, such that, for every number $a$, we have</p>
+        <p>$$
+        a+0= a  \text{and}  0 + a = a.
+        $$</p>
+        <p><strong>3.</strong> If $a$ and $b$ are two given numbers, there exists one and only one number $x$, and also one and only one number $y$, such that we have respectively</p>
+        <p>$$
+        a+x = b,\ y+a=b.
+        $$</p>
+        <p><strong>4.</strong> From the number $a$ and the number $b$, there may be obtained in another way, namely, by “multiplication,” a definite number $c$, which we express by writing</p>
+        <p>$$
+        ab = c  \text{or}  c = ab.
+        $$</p>
+        <p><strong>5.</strong> There exists a definite number, called $1$, such that, for every number $a$, we have</p>
+        <p>$$
+        a\cdot 1 = a  \text{and}  1 \cdot a = a.
+        $$</p>
+        <p><strong>6.</strong> If $a$ and $b$ are any arbitrarily given numbers, where $a$ is different from $0$, then there exists one and only one number $x$ and also one and only one number $y$ such that we have respectively</p>
+        <p>$$
+        ax = b,\,ya=b.
+        $$</p>
+        <p>If $a$, $b$, $c$ are arbitrary numbers, the following laws of operation always hold: $$
+        \begin{aligned}
+        \mathbf{7.}\quad a + (b + c) &amp;= (a + b) + c \\
+        \mathbf{8.}\quad a + b &amp;= b + a \\
+        \mathbf{9.}\quad a(bc) &amp;= (ab)c \\
+        \mathbf{10.}\quad a(b + c) &amp;= ab + ac \\
+        \mathbf{11.}\quad (a + b)c &amp;= ac + bc \\
+        \mathbf{12.}\quad ab &amp;= ba.
+        \end{aligned}
+        $$</p>
+        <p><strong>THEOREMS OF ORDER (13–16).</strong></p>
+        <p><strong>13.</strong> If $a$, $b$ are any two distinct numbers, one of these, say $a$, is always greater ($&gt;$) than the other. The other number is said to be the smaller of the two. We express this relation by writing</p>
+        <p>$$
+        a &gt; b  \text{and}  b &lt; a.
+        $$</p>
+        <p><strong>14.</strong> If $a &gt; b$ and $b &gt; c$, then is also $a &gt; c$.</p>
+        <p><strong>15.</strong> If $a &gt; b$, then is also $a+c &gt; b+ c$ and $c+a &gt; c+b$.</p>
+        <p><strong>16.</strong> If $a &gt; b$ and $c&gt;0$, then is also $ac&gt;bc$ and $ca &gt; cb$.</p>
+        <p><strong>THEOREM OF ARCHIMEDES (17).</strong></p>
+        <p><strong>17.</strong> If $a$, $b$ are any two arbitrary numbers, such that $a &gt; 0$ and $b &gt; 0$, it is always possible to add $a$ to itself a sufficient number of times so that the resulting sum shall have the property that</p>
+        <p>$$
+        a+a+a+ \cdots + a &gt; b.
+        $$</p>
+        <p>A system of things possessing only a portion of the above properties (1–17) is called a <em>complex number system</em>, or simply a <em>number system</em>. A number system is called <em>archimedean</em>, or <em>non-archimedean</em>, according as it does, or does not, satisfy condition (17).</p>
+        <p>Not every one of the properties (1–17) given above is independent of the others. The problem arises to investigate the logical dependence of these properties. Because of their great importance in geometry, we shall, in §§ 32, 33, pp. 101–106, answer two definite questions of this character. We will here merely call attention to the fact that, in any case, the last of these conditions (17) is not a consequence of the remaining properties, since, for example, the complex number system $\Omega(t)$, considered in § 12, possesses all of the properties (1–16), but does not fulfil the law stated in (17).</p>
+        <div class="folio-milestone" id="folio-§ 14" data-folio="§ 14" data-page="40">[Folio § 14 | p. 40]</div>
+        </section>
+        <section class="level-2" id="demonstration-of-pascal-s-theorem">
+        <h2>§ 14. Demonstration of Pascal’s Theorem<a class="headerlink" href="#demonstration-of-pascal-s-theorem" title="Link to this heading">¶</a></h2>
+        <p>In this and the following chapter, we shall take as the basis of our discussion all of the plane axioms with the exception of the axiom of Archimedes; that is to say, the axioms I, 1–2 and II–IV. In the present chapter, we propose, by aid of these axioms, to establish Euclid’s theory of proportion; that is, <em>we shall establish it for the plane and that independently of the axiom of Archimedes</em>.</p>
+        <p>For this purpose, we shall first demonstrate a proposition which is a special case of the well known theorem of Pascal usually considered in the theory of conic sections, and which we shall hereafter, for the sake of brevity, refer to simply as Pascal’s theorem. This theorem may be stated as follows:</p>
+        <p id="grundlagen-en-thm-21"><strong>Theorem 21.</strong> (Pascal’s theorem.) Given the two sets of points $A$, $B$, $C$ and $A'$, $B'$, $C'$ so situated respectively upon two intersecting straight lines that none of them fall at the intersection of these lines. If $CB'$ is parallel to $BC'$ and $CA'$ is also parallel to $AC'$, then $BA'$ is parallel to $AB'$. <a class="footnote-reference brackets" href="#fn1" id="id1" role="doc-noteref"><span class="fn-bracket">[</span>1<span class="fn-bracket">]</span></a></p>
+        <p>In order to demonstrate this theorem, we shall first introduce the following notation. In a right triangle, the base $a$ is uniquely determined by the hypotenuse $c$ and the base angle $\alpha$ included by $a$ and $c$.  We will express this fact briefly by writing</p>
+        <p>$$
+        a=\alpha c.
+        $$</p>
+        <p>Hence, the symbol $\alpha c$ always represents a definite segment, providing $c$ is any given segment whatever and $\alpha$ is any given acute angle.</p>
+        <p>Furthermore, if $c$ is any arbitrary segment and $\alpha$, $\beta$ are any two acute angles whatever, then the two segments $\alpha \beta c$ and $\beta \alpha c$ are always congruent; that is, we have</p>
+        <p>$$
+        \alpha \beta c = \beta \alpha c,
+        $$</p>
+        <p>and, consequently, the symbols $\alpha$ and $\beta$ are interchangeable.</p>
+        <p>In order to prove this statement, we take the segment $c = AB$, and with $A$ as a vertex lay off upon the one side of this segment the angle $\alpha$ and upon the other the angle $\beta$. Then, from the point $B$, let fall upon the opposite sides of the $\alpha$ and $\beta$ the perpendiculars $BC$ and $BD$, respectively. Finally, join $C$ with $D$ and let fall from $A$ the perpendicular $AE$ upon $CD$.</p>
+        <p>Since the two angles $ACB$ and $ADB$ are right angles, the four points $A$, $B$, $C$, $D$ are situated upon a circle. Consequently, the angles $ACD$ and $ABD$, being inscribed in the same segment of the circle, are congruent. But the angles $ACD$ and $CAE$, taken together, make a right angle, and the same is true of the two angles $ABD$ and $BAD$. Hence, the two angles $CAE$ and $BAD$ are also congruent; that is to say,</p>
+        <p>$$
+        \angle CAE \equiv \beta
+        $$</p>
+        <p>and, therefore,</p>
+        <p>$$
+        \angle DAE \equiv \alpha.
+        $$</p>
+        <p>From these considerations, we have immediately the following congruences of segments:</p>
+        <p>$$
+        \begin{array}{rclrcl}
+        \beta c  &amp; \equiv &amp; AD, &amp; \alpha c &amp; \equiv &amp; AC, \\
+        \alpha \beta c &amp; \equiv &amp; \alpha(AD) \equiv AE, &amp; \beta \alpha c &amp; \equiv &amp; \beta(AC) \equiv AE. \\
+        \end{array}
+        $$</p>
+        <p>From these, the validity of the congruence in question follows.</p>
+        <p>Returning now to the figure in connection with Pascal’s theorem, denote the intersection of the two given straight lines by $O$ and the segments $OA$, $OB$, $OC$, $OA'$, $OB'$, $OC'$, $CB'$, $BC'$, $CA'$, $AC'$, $BA'$, $AB'$ by $a$, $b$, $c$, $a'$, $b'$, $c'$, $l$, $l^{*}$, $m$, $m^{*}$, $n$, $n^{*}$, respectively.</p>
+        <p>Let fall from the point $O$ a perpendicular upon each of the segments $l$, $m$, $n$. The perpendicular to $l$ will form with the straight lines $OA$ and $OA'$ acute angles, which we shall denote by $\lambda'$ and $\lambda$, respectively. Likewise, the perpendiculars to $m$ and $n$ form with these same lines $OA$ and $OA'$ acute angles, which we shall denote by $\mu'$, $\mu$ and $\nu'$, $\nu$, respectively. If we now express, as indicated above, each of these perpendiculars in terms of the hypotenuse and base angle, we have the three following congruences of segments: $$
+        \begin{aligned}
+        (1)\quad \lambda b' &amp;\equiv \lambda' c, \\
+        (2)\quad \mu a' &amp;\equiv \mu' c, \\
+        (3)\quad \nu a' &amp;\equiv \nu' b.
+        \end{aligned}
+        $$</p>
+        <p>But since, according to our hypothesis, $l$ is parallel to $l^{*}$ and $m$ is parallel to $m^{*}$, the perpendiculars from $O$ falling upon $l^{*}$ and $m^{*}$ must coincide with the perpendiculars from the same point falling upon $l$ and $m$, and consequently, we have $$
+        \begin{aligned}
+        (4)\quad \lambda c' &amp;\equiv \lambda' b, \\
+        (5)\quad \mu c' &amp;\equiv \mu' a.
+        \end{aligned}
+        $$</p>
+        <p>Multiplying both members of congruence (3) by the symbol $\lambda' \mu$, and remembering that, as we have already seen, the symbols in question are commutative, we have</p>
+        <p>$$
+        \nu \lambda' \mu a' \equiv \nu' \mu \lambda' b.
+        $$</p>
+        <p>In this congruence, we may replace $\mu a'$ in the first member by its value given in (2) and $\lambda' b$ in the second member by its value given in (4), thus obtaining as a result</p>
+        <p>$$
+        \nu \lambda' \mu' c \equiv \nu' \mu \lambda c',
+        $$</p>
+        <p>or</p>
+        <p>$$
+        \nu \mu' \lambda' c \equiv \nu' \lambda \mu c'.
+        $$</p>
+        <p>Here again in this congruence we can, by aid of (1), replace $\lambda' c$ by $\lambda b'$, and, by aid of (5), we may replace in the second member $\mu c'$ by $\mu' a$. We then have</p>
+        <p>$$
+        \nu\mu'\lambda b' \equiv \nu'\lambda\mu' a,
+        $$</p>
+        <p>or</p>
+        <p>$$
+        \lambda\mu'\nu b' \equiv \lambda\mu'\nu' a.
+        $$</p>
+        <p>Because of the significance of our symbols, we can conclude at once from this congruence that</p>
+        <p>$$
+        \mu'\nu b' \equiv \mu'\nu' a,
+        $$</p>
+        <p>and, consequently, that $$
+        (6)\quad \nu b' \equiv \nu' a.
+        $$</p>
+        <p>If now we consider the perpendicular let fall from $O$ upon $n$ and draw perpendiculars to this same line from the points $A$ and $B'$, then congruence (6) shows that the feet of the last two perpendiculars must coincide; that is to say, the straight line $n^{*} = AB'$ makes a right angle with the perpendicular to $n$ and, consequently, is parallel to $n$. This establishes the truth of Pascal’s theorem.</p>
+        <p>Having given any straight line whatever, together with an arbitrary angle and a point lying outside of the given line, we can, by constructing the given angle and drawing a parallel line, find a straight line passing through the given point and cutting the given straight line at the given angle. By means of this construction, we can demonstrate Pascal’s theorem in the following very simple manner, for which, however, I am indebted to another source.</p>
+        <p>Through the point $B$, draw a straight line cutting $OA'$ in the point $D'$ and making with it the angle $OCA'$, so that the congruence</p>
+        <p>$$
+        (1^*)\quad \angle OCA' \equiv \angle OD'B
+        $$</p>
+        <p>is fulfilled. Now, according to a well known property of circles, $CBD'A'$ is an inscribed quadrilateral, and, consequently, by aid of the theorem concerning the congruence of angles inscribed in the same segment of a circle, we have the congruence</p>
+        <p>$$
+        (2^*)\quad \angle OBA' \equiv \angle OD'C.
+        $$</p>
+        <p>Since, by hypothesis, $CA'$ and $AC'$ are parallel, we have</p>
+        <p>$$
+        (3^*)\quad \angle OCA' \equiv \angle OAC',
+        $$</p>
+        <p>and from $(1^*)$ and $(3^*)$ we obtain the congruence</p>
+        <p>$$
+        \angle OD'B \equiv \angle OAC'.
+        $$</p>
+        <p>However, $BAD'C'$ is also an inscribed quadrilateral, and, consequently, by virtue of the theorem relating to the angles of such a quadrilateral, we have the congruence</p>
+        <p>$$
+        (4^*)\quad \angle OAD' \equiv \angle OC'B.
+        $$</p>
+        <p>But as $CB'$ is, by hypothesis, parallel to $BC'$, we have also $$
+        (5^*)\quad \angle OB'C \equiv \angle OC'B.
+        $$</p>
+        <p>From $(4^*)$ and $(5^*)$, we obtain the congruence</p>
+        <p>$$
+        \angle OAD' \equiv \angle OB'C,
+        $$</p>
+        <p>which shows that $CAD'B'$ is also an inscribed quadrilateral, and, hence, the congruence</p>
+        <p>$$
+        (6^*)\quad \angle OAB' \equiv \angle OD'C,
+        $$</p>
+        <p>is valid. From $(2^*)$ and $(6^*)$, it follows that</p>
+        <p>$$
+        \angle OBA' \equiv \angle OAB',
+        $$</p>
+        <p>and this congruence shows that $BA'$ and $AB'$ are parallel as Pascal’s theorem demands. In case $D'$ coincides with one of the points $A'$, $B'$, $C'$, it is necessary to make a modification of this method, which evidently is not difficult to do.</p>
+        <figure class="photon-picture photon-svg">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 205" width="480" height="205" class="euclid-graphic" data-graphic-id="fig_pascal_orthogonal" data-proposition="S.14">
+          <line x1="42.00" y1="175.00" x2="454.73" y2="131.62" class="geom-line" />
+          <line x1="42.00" y1="175.00" x2="317.53" y2="-32.63" class="geom-line" />
+          <line x1="414.95" y1="135.80" x2="181.76" y2="69.68" class="geom-bold" />
+          <line x1="285.66" y1="149.39" x2="133.31" y2="106.19" class="geom-bold" />
+          <line x1="414.95" y1="135.80" x2="278.15" y2="-2.95" class="geom-dashed" />
+          <line x1="186.21" y1="159.84" x2="133.31" y2="106.19" class="geom-dashed" />
+          <line x1="285.66" y1="149.39" x2="278.15" y2="-2.95" class="geom-assert-line" />
+          <line x1="186.21" y1="159.84" x2="181.76" y2="69.68" class="geom-assert-line" />
+          <circle cx="42.00" cy="175.00" r="3.30" class="geom-point" />
+          <text x="30.00" y="180.00" text-anchor="middle" class="geom-label">O</text>
+          <circle cx="186.21" cy="159.84" r="3.30" class="geom-point" />
+          <text x="186.21" y="176.84" text-anchor="middle" class="geom-label">A</text>
+          <circle cx="285.66" cy="149.39" r="3.30" class="geom-point" />
+          <text x="285.66" y="166.39" text-anchor="middle" class="geom-label">B</text>
+          <circle cx="414.95" cy="135.80" r="3.30" class="geom-point" />
+          <text x="414.95" y="152.80" text-anchor="middle" class="geom-label">C</text>
+          <circle cx="133.31" cy="106.19" r="3.30" class="geom-point" />
+          <text x="125.31" y="97.19" text-anchor="middle" class="geom-label">C'</text>
+          <circle cx="181.76" cy="69.68" r="3.30" class="geom-point" />
+          <text x="173.76" y="60.68" text-anchor="middle" class="geom-label">B'</text>
+          <circle cx="278.15" cy="-2.95" r="3.30" class="geom-point" />
+          <text x="270.15" y="-11.95" text-anchor="middle" class="geom-label">A'</text>
+        </svg>
+        <figcaption>**Affine Pascal's (Pappus's) Hexagon Theorem (Theorem 21).** Theorem 21 (Pappus's Hexagon Theorem on two intersecting lines): CB' ∥ BC' and CA' ∥ AC' imply BA' ∥ AB' without Archimedes's Axiom.</figcaption>
+        </figure>
+        <div class="folio-milestone" id="folio-§ 15" data-folio="§ 15" data-page="46">[Folio § 15 | p. 46]</div>
+        </section>
+        <section class="level-2" id="an-algebra-of-segments-based-upon-pascal-s-theorem">
+        <h2>§ 15. An Algebra of Segments, Based Upon Pascal’s Theorem<a class="headerlink" href="#an-algebra-of-segments-based-upon-pascal-s-theorem" title="Link to this heading">¶</a></h2>
+        <p>Pascal’s theorem, which was demonstrated in the last section, puts us in a position to introduce into geometry a method of calculating with segments, in which all of the rules for calculating with real numbers remain valid without any modification.</p>
+        <p>Instead of the word “congruent” and the sign $\equiv$, we make use, in the algebra of segments, of the word “equal” and the sign $=$.</p>
+        <p>If $A, B, C$ are three points of a straight line and if $B$ lies between $A$ and $C$, then we say that $c = AC$ is the <em>sum</em> of the two segments $a=AB$ and $b=BC$. We indicate this by writing</p>
+        <p>$$
+        c=a+b.
+        $$</p>
+        <p>The segments $a$ and $b$ are said to be smaller than c, which fact we indicate by writing</p>
+        <p>$$
+        a&lt;c,\ b&lt;c.
+        $$</p>
+        <p>On the other hand, $c$ is said to be larger than $a$ and $b$, and we indicate this by writing</p>
+        <p>$$
+        c&gt;a,\ c&gt;b.
+        $$</p>
+        <p>From the linear axioms of congruence (axioms IV, 1–3), we easily see that, for the above definition of addition of segments, the associative law</p>
+        <p>$$
+        a+(b+c)=(a+b)+c,
+        $$</p>
+        <p>as well as the commutative law</p>
+        <p>$$
+        a+b = b+a
+        $$</p>
+        <p>is valid.</p>
+        <p>In order to define geometrically the product of two segments $a$ and $b$, we shall make use of the following construction. Select any convenient segment, which, having been selected, shall remain constant throughout the discussion, and denote the same by $1$. Upon the one side of a right angle, lay off from the vertex $O$ the segment $1$ and also the segment $b$. Then, from $O$ lay off upon the other side of the right angle the segment $a$. Join the extremities of the segments $1$ and $a$ by a straight line, and from the extremity of $b$ draw a line parallel to this straight line. This parallel will cut off from the other side of the right angle a segment $c$. We call this segment $c$ the <em>product</em> of the segments $a$ and $b$, and indicate this relation by writing</p>
+        <p>$$
+        c=ab.
+        $$</p>
+        <p>% required for correct placement of Figure 23</p>
+        <p>We shall now demonstrate that, for this definition of the multiplication of segments, the <em>commutative</em> law</p>
+        <p>$$
+        ab=ba
+        $$</p>
+        <p>holds. For this purpose, we construct in the above manner the product $ab$. Furthermore, lay off from $0$ upon the first side (I) of the right angle the segment $a$ and upon the other side (II) the segment $b$. Connect by a straight line the extremity of the segment $1$ with the extremity of $b$, situated on II, and draw through the endpoint of $a$, on I, a line parallel to this straight line. This parallel will determine, by its intersection with the side II, the segment $ba$. But, because the two dotted lines are, by Pascal’s theorem, parallel, the segment $ba$ just found coincides with the segment $ab$ previously constructed, and our proposition is established. In order to show that the <em>associative</em> law</p>
+        <p>$$
+        a(bc)=(ab)c
+        $$</p>
+        <p>holds for the multiplication of segments, we construct first of all the segment $d=be$, then $da$, after that the segment $e=ba$, and finally $ec$. By virtue of Pascal’s theorem, the extremities of the segments $da$ and $ec$ coincide, as may be clearly seen from figure 24.</p>
+        <p>If now we apply the commutative law which we have just demonstrated, we obtain the above formula, which expresses the associative law for the multiplication of two segments.</p>
+        <p>Finally, <em>the distributive</em> law</p>
+        <p>$$
+        a(b+c) = ab+ac
+        $$</p>
+        <p>also holds for our algebra of segments. In order to demonstrate this, we construct the segments, $ab$, $ac$,</p>
+        <p>and $a(b+c)$, and draw through the extremity of the segment $c$ (Fig. 25) a straight line parallel to the other side of the right angle. From the congruence of the two right-angled triangles which are shaded in the figure and the application of the theorem relating to the equality of the opposite sides of a parallelogram, the desired result follows. If $b$ and $c$ are any two arbitrary segments, there is always a segment $a$ to be found such that $c=ab$. This segment $a$ is denoted by $\frac{c}{b}$ and is called the <em>quotient</em> of $c$ by $b$.</p>
+        <figure class="photon-picture photon-svg">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 445 224" width="445" height="224" class="euclid-graphic" data-graphic-id="fig_segment_multiplication" data-proposition="S.15">
+          <line x1="65.00" y1="195.00" x2="425.00" y2="195.00" class="geom-line" />
+          <line x1="65.00" y1="195.00" x2="65.00" y2="18.00" class="geom-line" />
+          <line x1="76.00" y1="195.00" x2="76.00" y2="184.00" class="geom-dashed" />
+          <line x1="65.00" y1="184.00" x2="76.00" y2="184.00" class="geom-dashed" />
+          <line x1="65.00" y1="127.00" x2="177.20" y2="195.00" class="geom-bold" />
+          <line x1="65.00" y1="35.20" x2="328.67" y2="195.00" class="geom-bold" />
+          <line x1="65.00" y1="127.00" x2="224.80" y2="195.00" class="geom-dashed" />
+          <line x1="65.00" y1="82.80" x2="328.67" y2="195.00" class="geom-dashed" />
+          <line x1="177.20" y1="195.00" x2="65.00" y2="82.80" class="geom-accent-line" />
+          <line x1="224.80" y1="195.00" x2="65.00" y2="35.20" class="geom-accent-line" />
+          <circle cx="65.00" cy="195.00" r="3.30" class="geom-point" />
+          <text x="53.00" y="209.00" text-anchor="middle" class="geom-label">O</text>
+          <circle cx="133.00" cy="195.00" r="3.30" class="geom-point" />
+          <text x="133.00" y="212.00" text-anchor="middle" class="geom-label">1</text>
+          <circle cx="177.20" cy="195.00" r="3.30" class="geom-point" />
+          <text x="177.20" y="212.00" text-anchor="middle" class="geom-label">a</text>
+          <circle cx="224.80" cy="195.00" r="3.30" class="geom-point" />
+          <text x="224.80" y="212.00" text-anchor="middle" class="geom-label">b</text>
+          <circle cx="328.67" cy="195.00" r="3.30" class="geom-point" />
+          <text x="328.67" y="212.00" text-anchor="middle" class="geom-label">ab = ba</text>
+          <circle cx="65.00" cy="127.00" r="3.30" class="geom-point" />
+          <text x="51.00" y="131.00" text-anchor="middle" class="geom-label">1</text>
+          <circle cx="65.00" cy="82.80" r="3.30" class="geom-point" />
+          <text x="51.00" y="86.80" text-anchor="middle" class="geom-label">a</text>
+          <circle cx="65.00" cy="35.20" r="3.30" class="geom-point" />
+          <text x="51.00" y="39.20" text-anchor="middle" class="geom-label">b</text>
+        </svg>
+        <figcaption>**Hilbert's Segment Multiplication c = ab and Commutativity ab = ba (§ 15).** Geometric product c = ab on orthogonal rays and proof of ab = ba via Pappus/Pascal parallels.</figcaption>
+        </figure>
+        <figure class="photon-picture photon-svg">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 460 222" width="460" height="222" class="euclid-graphic" data-graphic-id="fig_segment_distributive" data-proposition="S.15b">
+          <line x1="55.00" y1="192.00" x2="435.00" y2="192.00" class="geom-line" />
+          <line x1="55.00" y1="192.00" x2="55.00" y2="22.00" class="geom-line" />
+          <polygon points="55.00,192.00 217.40,192.00 55.00,99.20" class="geom-polygon" />
+          <polygon points="55.00,99.20 217.40,118.40 346.20,192.00 55.00,25.60" class="geom-polygon-gnomon" />
+          <line x1="55.00" y1="128.00" x2="167.00" y2="192.00" class="geom-dashed" />
+          <line x1="55.00" y1="99.20" x2="217.40" y2="192.00" class="geom-bold" />
+          <line x1="55.00" y1="25.60" x2="346.20" y2="192.00" class="geom-bold" />
+          <line x1="55.00" y1="99.20" x2="217.40" y2="118.40" class="geom-accent-line" />
+          <line x1="217.40" y1="192.00" x2="217.40" y2="118.40" class="geom-accent-line" />
+          <circle cx="55.00" cy="192.00" r="3.30" class="geom-point" />
+          <text x="43.00" y="206.00" text-anchor="middle" class="geom-label">O</text>
+          <circle cx="55.00" cy="128.00" r="3.30" class="geom-point" />
+          <text x="41.00" y="132.00" text-anchor="middle" class="geom-label">1</text>
+          <circle cx="55.00" cy="99.20" r="3.30" class="geom-point" />
+          <text x="41.00" y="103.20" text-anchor="middle" class="geom-label">b</text>
+          <circle cx="55.00" cy="25.60" r="3.30" class="geom-point" />
+          <text x="33.00" y="29.60" text-anchor="middle" class="geom-label">b+c</text>
+          <circle cx="167.00" cy="192.00" r="3.30" class="geom-point" />
+          <text x="167.00" y="209.00" text-anchor="middle" class="geom-label">a</text>
+          <circle cx="217.40" cy="192.00" r="3.30" class="geom-point" />
+          <text x="217.40" y="209.00" text-anchor="middle" class="geom-label">ab</text>
+          <circle cx="346.20" cy="192.00" r="3.30" class="geom-point" />
+          <text x="336.20" y="209.00" text-anchor="middle" class="geom-label">a(b+c) = ab+ac</text>
+          <circle cx="217.40" cy="118.40" r="3.30" class="geom-point" />
+          <text x="229.40" y="114.40" text-anchor="middle" class="geom-label">D</text>
+        </svg>
+        <figcaption>**Geometric Proof of the Distributive Law a(b + c) = ab + ac (§ 15).** Distributivity a(b + c) = ab + ac established via congruent right triangles and parallelogram translation.</figcaption>
+        </figure>
+        <div class="folio-milestone" id="folio-§ 16" data-folio="§ 16" data-page="50">[Folio § 16 | p. 50]</div>
+        </section>
+        <section class="level-2" id="proportion-and-the-theorems-of-similitude">
+        <h2>§ 16. Proportion and the Theorems of Similitude<a class="headerlink" href="#proportion-and-the-theorems-of-similitude" title="Link to this heading">¶</a></h2>
+        <p>By aid of the preceding algebra of segments, we can establish Euclid’s theory of proportion in a manner free from objections and without making use of the axiom of Archimedes.</p>
+        <p>If $a,b,a',b'$ are any four segments whatever, the proportion</p>
+        <p>$$
+        a:b=a':b'
+        $$</p>
+        <p>expresses nothing else than the validity of equation</p>
+        <p>$$
+        ab'=ba'.
+        $$</p>
+        <p><strong>Definition</strong>. Two triangles are called <em>similar</em> when the corresponding angles are congruent.</p>
+        <p id="grundlagen-en-thm-22"><strong>Theorem 22.</strong> If $a,b$ and $a',b'$ are homologous sides of two similar triangles, we have the proportion</p>
+        <p>$$
+        a:b=a':b'
+        $$</p>
+        <p><strong>Proof.</strong> We shall first consider the special case where the angle included between $a$ and $b$ and the one included between $a'$ and $b'$ are right angles.</p>
+        <p>Moreover, we shall assume that the two triangles are laid off in one and the same right angle. Upon one of the sides of this right angle, we lay off from the vertex $0$ the segment $1$, and through the extremity of this segment, we draw a straight line parallel to the hypotenuses of the two triangles.</p>
+        <p>This parallel determines upon the other side of the right angle a segment $e$. Then, according to our definition of the product of two segments, we have</p>
+        <p>$$
+        b = ea,\ b' = ea',
+        $$</p>
+        <p>from which we obtain</p>
+        <p>$$
+        ab'=ba',
+        $$</p>
+        <p>that is to say,</p>
+        <p>$$
+        a:b=a':b'.
+        $$</p>
+        <p>Let us now return to the general case. In each of the two similar triangles, find the point of intersection of the bisectors of the three angles. Denote these points by $S$ and $S'$. From these points let fall upon the sides of the triangles the perpendiculars $r$ and $r'$, respectively. Denote the segments thus determined upon the sides of the triangles by</p>
+        <p>$$
+        a_b, a_c, b_c, b_a, c_a, c_b
+        $$</p>
+        <p>and</p>
+        <p>$$
+        a'_b, a'_c, b'_c, b'_a, c'_a, c'_b,
+        $$</p>
+        <p>respectively. The special case of our proposition, demonstrated above, gives us then the following proportions:</p>
+        <p>$$
+        \begin{aligned}
+        a_b:r = a'_b:r', &amp;\; \ \; b_c:r=b'_c:r', \\
+        a_c:r = a'_c:r', &amp;\; \ \; b_a:r=b'_a:r'.
+        \end{aligned}
+        $$</p>
+        <p>By aid of the distributive law, we obtain from these proportions the following:</p>
+        <p>$$
+        a: r = a': r, \quad  b: r = b': r'.
+        $$</p>
+        <p>Consequently, by virtue of the commutative law of multiplication, we have</p>
+        <p>$$
+        a:b=a':b'.
+        $$</p>
+        <p>From the theorem just demonstrated, we can easily deduce the fundamental theorem in the theory of proportion. This theorem may be stated as follows:</p>
+        <p id="grundlagen-en-thm-23"><strong>Theorem 23.</strong> If two parallel lines cut from the sides of an arbitrary angle the segments $a,b$ and $a',b'$ respectively, then we have always the proportion</p>
+        <p>$$
+        a: b = a': b'.
+        $$</p>
+        <p>Conversely, if the four segments $a,b,a',b$ fulfill this proportion and if $a,a'$ and $b,b'$ are laid off upon the two sides respectively of an arbitrary angle, then the straight lines joining the extremities of $a$ and $b$ and of $a'$ and $b'$ are parallel to each other.</p>
+        <div class="folio-milestone" id="folio-§ 17" data-folio="§ 17" data-page="53">[Folio § 17 | p. 53]</div>
+        </section>
+        <section class="level-2" id="equations-of-straight-lines-and-of-planes">
+        <h2>§ 17. Equations of Straight Lines and of Planes<a class="headerlink" href="#equations-of-straight-lines-and-of-planes" title="Link to this heading">¶</a></h2>
+        <p>To the system of segments already discussed, let us now add a second system. We will distinguish the segments of the new system from those of the former one by means of a special sign, and will call them “<em>negative</em>” segments in contradistinction to the “<em>positive</em>” segments already considered. If we introduce also the segment $O$, which is determined by a single point, and make other appropriate conventions, then all of the rules deduced in § 13 for calculating with real numbers will hold equally well here for calculating with segments. We call special attention to the following particular propositions:</p>
+        <ul class="simple">
+        <li><p>We have always $a\cdot 1 = 1\cdot a=a$.</p></li>
+        <li><p>If $a\cdot b=0$, then either $a=0$, or $b=0$.</p></li>
+        <li><p>If $a&gt;b$ and $c&gt;0$, then $ac&gt;bc$.</p></li>
+        </ul>
+        <p>In a plane $\alpha$, we now take two straight lines cutting each other in $O$ at right angles as the fixed axes of rectangular co-ordinates, and lay off from $O$ upon these two straight lines the arbitrary segments $x$ and $y$. We lay off these segments upon the one side or upon the other side of $O$, according as they are positive or negative. At the extremities of $x$ and $y$, erect perpendiculars and determine the point $P$ of their intersection. The segments $x$ and $y$ are called the co-ordinates of $P$. Every point of the plane $\alpha$ is uniquely determined by its co-ordinates $x$, $y$, which may be positive, negative, or zero.</p>
+        <p>Let $l$ be a straight line in the plane $\alpha$, such that it shall pass through $O$ and also through a point $C$ having the co-ordinates $a,b$. If $x,y$ are the co-ordinates</p>
+        <p>of any point on $l$, it follows at once from theorem 22 that</p>
+        <p>$$
+        a: b = x: y,
+        $$</p>
+        <p>or</p>
+        <p>$$
+        bx-ay = 0,
+        $$</p>
+        <p>is the equation of the straight line $l$. If $l'$ is a straight line parallel to $l$ and cutting off from the $x$-axis the segment $c$, then we may obtain the equation of the straight line $l'$ by replacing, in the equation for $l$, the segment $x$ by the segment $x-c$. The desired equation will then be of the form</p>
+        <p>$$
+        bx-ay-bc=0.
+        $$</p>
+        <p>From these considerations, we may easily conclude, independently of the axiom of Archimedes, that every straight line of a plane is represented by an equation which is linear in the co-ordinates $x$, $y$, and, conversely, every such linear equation represents a straight line when the co-ordinates are segments appertaining to the geometry in question. The corresponding results for the geometry of space may be easily deduced.</p>
+        <p>The remaining parts of geometry may now be developed by the usual methods of analytic geometry.</p>
+        <p>So far in this chapter, we have made absolutely no use of the axiom of Archimedes. If now we assume the validity of this axiom, we can arrange a definite correspondence between the points on any straight line in space and the real numbers. This may be accomplished in the following manner.</p>
+        <p>We first select on a straight line any two points, and assign to these points the numbers $0$ and $1$. Then, bisect the segment $(0,1)$ thus determined and denote the middle point by the number $\frac{1}{2}$. In the same way, we denote the middle of $(0, \frac{1}{2})$ by $\frac{1}{4}$, etc. After applying this process $n$ times, we obtain a point which corresponds to $\frac{1}{2^n}$.  Now, lay off $m$ times in both directions from the point $O$ the segment $(O,\frac{1}{2^n})$. We obtain in this manner a point corresponding to the numbers $\frac{m}{2^n})$ and $-\frac{m}{2^n})$. From the axiom of Archimedes, we now easily see that, upon the basis of this association, to each arbitrary point of a straight line there corresponds a single, definite, real number, and, indeed, such that this correspondence possesses the following property: If $A$, $B$, $C$ are any three points on a straight line and $\alpha$, $\beta$, $\gamma$ are the corresponding real numbers, and, if $B$ lies between $A$ and $C$, then one of the inequalities,</p>
+        <p>$$
+        \alpha&lt;\beta&lt;\gamma\  \text{or} \ \alpha&gt;\beta&gt;\gamma,
+        $$</p>
+        <p>is always fulfilled.</p>
+        <p>From the development given in § 9, p. 27, it is evident, that to every number belonging to the field of</p>
+        <p>algebraic numbers $\Omega$, there must exist a corresponding point upon the straight line. Whether to every real number there corresponds a point cannot in general be established, but depends upon the geometry to which we have reference.</p>
+        <p>However, it is always possible to generalize the original system of points, straight lines, and planes by the addition of “ideal” or “irrational” elements, so that, upon any straight line of the corresponding geometry, a point corresponds without exception to every system of three real numbers. By the adoption of suitable conventions, it may also be seen that, in this generalized geometry, all of the axioms I–V are valid. This geometry, generalized by the addition of irrational elements, is nothing else than the ordinary analytic geometry of space.</p>
+        <hr class="docutils" />
+        <p class="rubric">Footnotes</p>
+        <aside class="footnote-list brackets">
+        <aside class="footnote brackets" id="fn1" role="doc-footnote">
+        <span class="label"><span class="fn-bracket">[</span><a role="doc-backlink" href="#id1">1</a><span class="fn-bracket">]</span></span>
+        <ol class="upperalpha simple" start="6">
+        <li><p>Schur has published in the <em>Math. Ann.</em>, Vol. 51, a very interesting proof of the theorem of Pascal, based upon the axioms I–II, IV.</p></li>
+        </ol>
+        </aside>
+        </aside>
+        </section>
+        </section>
+
+      </div>
+      <footer class="book-footer">
+        <div class="book-footer-ornament">&#10086;</div>
+        <div class="book-footer-nav">
+          <div class="book-nav-prev">
+            <a class="book-nav-btn" href="../chapter-2/chapter-2-en.html" title="Chapter II: The Compatibility and Mutual Independence of the Axioms">&larr; <span class="nav-label">Chapter II: The Compatibility and Mutual Independence of the Axioms</span></a>
+          </div>
+          <div class="book-nav-center">
+            <a class="book-toc-link" href="../index.html">GRUNDLAGEN DER GEOMETRIE</a>
+          </div>
+          <div class="book-nav-next">
+            <a class="book-nav-btn" href="../chapter-4/chapter-4-en.html" title="Chapter IV: The Theory of Plane Areas"><span class="nav-label">Chapter IV: The Theory of Plane Areas</span> &rarr;</a>
+          </div>
+        </div>
+      </footer>
+    </article>
+  </main>
+  <div class="asides">
+    <aside class="aside-search">
+      <h3>Search</h3>
+      <div id="searchbox" role="search">
+        <form id="rtd-search-form" class="wy-form search-form" action="../../search.html" method="get">
+          <div class="search-field">
+            <input type="search" name="q" placeholder="Search docs..." aria-label="Search docs" autocomplete="off" />
+            <button type="submit" class="search-submit" aria-label="Search" title="Search">
+              <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <circle cx="11" cy="11" r="8"></circle>
+                <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+              </svg>
+            </button>
+          </div>
+          <input type="hidden" name="check_keywords" value="yes" />
+          <input type="hidden" name="area" value="default" />
+        </form>
+      </div>
+    </aside>
+  </div>
+  <footer>
+    <div class="footer-nav">
+      <ul>
+        <li><a href="../../about/index.html"  >about</a></li>
+      </ul>
+    </div>
+    <hr />
+    <div role="contentinfo">
+      <p>
+        &copy; Copyright 1899 B. G. Teubner · 1902 Open Court · Digital Codex GEOMETOR.
+      </p>
+    </div>
+  </footer>
+
+  <script src="../../_static/jquery.js?v=5d32c60e"></script>
+  <script src="../../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+  <script src="../../_static/documentation_options.js?v=01f34227"></script>
+  <script src="../../_static/doctools.js?v=fd6eb6e6"></script>
+  <script src="../../_static/sphinx_highlight.js?v=6ffebe34"></script>
+  <script src="../../_static/js/collection_controls.js?v=b6b5297a"></script>
+  <script src="../../_static/js/geometor_interactive.js?v=b2892320"></script>
+  <script src="../../_static/js/search_highlight.js"></script>
+
+</body>
+</html>

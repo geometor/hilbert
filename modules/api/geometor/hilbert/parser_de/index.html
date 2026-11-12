@@ -1,0 +1,237 @@
+
+
+<!DOCTYPE html>
+<html lang="en" data-content_root="../../../../../">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>geometor.hilbert.parser_de &mdash; GEOMETOR • hilbert</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..700;1,400..700&family=Fira+Sans+Condensed:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600;1,700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" type="text/css" href="../../../../../_static/pygments.css?v=ea5fcf70" />
+  <link rel="stylesheet" type="text/css" href="../../../../../_static/css/styles.css?v=66998e95" />
+  <link rel="stylesheet" type="text/css" href="../../../../../_static/graphviz.css?v=4ae1632d" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css" />
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js"></script>
+  <link rel="stylesheet" href="../../../../../_static/css/print.css" type="text/css" media="print" />
+  <link rel="icon" href="../../../../../_static/favicon.ico" />
+</head>
+
+<body class="book-theme-classical-serif">
+  <header>
+    <div class="logo">
+      <a href="../../../../../index.html">
+        <h1>GEOMETOR • hilbert</h1>
+      </a>
+      <div class="org-repo">
+        <span class="org">GEOMETOR</span>
+        •
+        <span class="repo">hilbert</span>
+      </div>
+    </div>
+    <nav aria-label="Header">
+      <input type="checkbox" id="nav-Header-toggle" >
+      <label for="nav-Header-toggle" >Header</label>
+      <ul>
+        <li>
+          <a href="../../../../../mission/index.html"  >mission</a>
+        </li>
+        <li>
+          <a href="../../../../../log/index.html"  >log</a>
+        </li>
+        <li>
+          <a href="../../../../index.html" class="is-active" aria-selected="true" >modules</a>
+        </li>
+      </ul>
+    </nav>
+    <div class="motto"></div>
+  </header>
+  <main class="book-main">
+    <article class="book-layout book-reading-pane">
+      <header class="book-header">
+        <div class="book-header-bar">
+          <div class="book-header-identity">
+            <a class="book-portal-link" href="../../../../../index.html" title="Return to Project Portal">&larr; hilbert</a>
+            <span class="book-header-sep">/</span>
+            <a class="book-title-link" href="../../../../../index.html">GEOMETOR • hilbert</a>
+          </div>
+          <div class="book-header-breadcrumbs book-header-badges" role="navigation" aria-label="Breadcrumbs">
+            <a class="book-crumb-link" href="../../../../index.html">modules</a>
+          </div>
+        </div>
+        <div class="book-header-nav">
+          <div class="book-nav-prev">
+            <a class="book-nav-btn" href="../concordance/index.html" title="geometor.hilbert.concordance">&larr; <span class="nav-label">Prev</span></a>
+          </div>
+          <div class="book-nav-center">
+          </div>
+          <div class="book-nav-next">
+            <a class="book-nav-btn" href="../parser_en/index.html" title="geometor.hilbert.parser_en"><span class="nav-label">Next</span> &rarr;</a>
+          </div>
+        </div>
+      </header>
+      <div class="content body book-content" role="main">
+        <section class="level-1" id="module-geometor.hilbert.parser_de">
+        <span id="geometor-hilbert-parser-de"></span><h1>geometor.hilbert.parser_de<a class="headerlink" href="#module-geometor.hilbert.parser_de" title="Link to this heading">¶</a></h1>
+        <p>Diplomatic-critical RST parser for David Hilbert’s 1899 Teubner Festschrift German edition.</p>
+        <section class="level-2" id="attributes">
+        <h2>Attributes<a class="headerlink" href="#attributes" title="Link to this heading">¶</a></h2>
+        <table class="autosummary longtable docutils align-default">
+        <tbody>
+        <tr class="row-odd"><td><p><a class="reference internal" href="#geometor.hilbert.parser_de.SECTION_RANGES_DE" title="geometor.hilbert.parser_de.SECTION_RANGES_DE"><code class="xref py py-obj docutils literal notranslate"><span class="pre">SECTION_RANGES_DE</span></code></a></p></td>
+        <td><p></p></td>
+        </tr>
+        <tr class="row-even"><td><p><a class="reference internal" href="#geometor.hilbert.parser_de.LINE_SPAN_PATCHES" title="geometor.hilbert.parser_de.LINE_SPAN_PATCHES"><code class="xref py py-obj docutils literal notranslate"><span class="pre">LINE_SPAN_PATCHES</span></code></a></p></td>
+        <td><p></p></td>
+        </tr>
+        <tr class="row-odd"><td><p><a class="reference internal" href="#geometor.hilbert.parser_de.FOOTNOTES_DE" title="geometor.hilbert.parser_de.FOOTNOTES_DE"><code class="xref py py-obj docutils literal notranslate"><span class="pre">FOOTNOTES_DE</span></code></a></p></td>
+        <td><p></p></td>
+        </tr>
+        <tr class="row-even"><td><p><a class="reference internal" href="#geometor.hilbert.parser_de.OCR_WORD_FIXES" title="geometor.hilbert.parser_de.OCR_WORD_FIXES"><code class="xref py py-obj docutils literal notranslate"><span class="pre">OCR_WORD_FIXES</span></code></a></p></td>
+        <td><p></p></td>
+        </tr>
+        <tr class="row-odd"><td><p><a class="reference internal" href="#geometor.hilbert.parser_de.VOLLSTAENDIGKEIT_NOTE_DE" title="geometor.hilbert.parser_de.VOLLSTAENDIGKEIT_NOTE_DE"><code class="xref py py-obj docutils literal notranslate"><span class="pre">VOLLSTAENDIGKEIT_NOTE_DE</span></code></a></p></td>
+        <td><p></p></td>
+        </tr>
+        <tr class="row-even"><td><p><a class="reference internal" href="#geometor.hilbert.parser_de.SCHLUSSWORT_NOTE_DE" title="geometor.hilbert.parser_de.SCHLUSSWORT_NOTE_DE"><code class="xref py py-obj docutils literal notranslate"><span class="pre">SCHLUSSWORT_NOTE_DE</span></code></a></p></td>
+        <td><p></p></td>
+        </tr>
+        </tbody>
+        </table>
+        </section>
+        <section class="level-2" id="functions">
+        <h2>Functions<a class="headerlink" href="#functions" title="Link to this heading">¶</a></h2>
+        <table class="autosummary longtable docutils align-default">
+        <tbody>
+        <tr class="row-odd"><td><p><a class="reference internal" href="#geometor.hilbert.parser_de.build_german_units" title="geometor.hilbert.parser_de.build_german_units"><code class="xref py py-obj docutils literal notranslate"><span class="pre">build_german_units</span></code></a>([txt_path]) → dict[str, str]</p></td>
+        <td><p>Generate the complete 9 German unit RST documents (<cite>&lt;unit&gt;-de.rst</cite>) from the 1899 Festschrift.</p></td>
+        </tr>
+        </tbody>
+        </table>
+        </section>
+        <section class="level-2" id="module-contents">
+        <h2>Module Contents<a class="headerlink" href="#module-contents" title="Link to this heading">¶</a></h2>
+        <dl class="py data">
+        <dt class="sig sig-object py" id="geometor.hilbert.parser_de.SECTION_RANGES_DE">
+        <span class="sig-prename descclassname"><span class="pre">geometor.hilbert.parser_de.</span></span><span class="sig-name descname"><span class="pre">SECTION_RANGES_DE</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><a class="reference external" href="https://docs.python.org/3.13/builtins/stdtypes.html#dict" title="(in Python v3.13)"><span class="pre">dict</span></a><span class="p"><span class="pre">[</span></span><a class="reference external" href="https://docs.python.org/3.13/builtins/functions.html#int" title="(in Python v3.13)"><span class="pre">int</span></a><span class="p"><span class="pre">,</span></span><span class="w"> </span><a class="reference external" href="https://docs.python.org/3.13/builtins/stdtypes.html#tuple" title="(in Python v3.13)"><span class="pre">tuple</span></a><span class="p"><span class="pre">[</span></span><a class="reference external" href="https://docs.python.org/3.13/builtins/functions.html#int" title="(in Python v3.13)"><span class="pre">int</span></a><span class="p"><span class="pre">,</span></span><span class="w"> </span><a class="reference external" href="https://docs.python.org/3.13/builtins/functions.html#int" title="(in Python v3.13)"><span class="pre">int</span></a><span class="p"><span class="pre">]</span></span><span class="p"><span class="pre">]</span></span></span><a class="headerlink" href="#geometor.hilbert.parser_de.SECTION_RANGES_DE" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py data">
+        <dt class="sig sig-object py" id="geometor.hilbert.parser_de.LINE_SPAN_PATCHES">
+        <span class="sig-prename descclassname"><span class="pre">geometor.hilbert.parser_de.</span></span><span class="sig-name descname"><span class="pre">LINE_SPAN_PATCHES</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><a class="reference external" href="https://docs.python.org/3.13/builtins/stdtypes.html#list" title="(in Python v3.13)"><span class="pre">list</span></a><span class="p"><span class="pre">[</span></span><a class="reference external" href="https://docs.python.org/3.13/builtins/stdtypes.html#tuple" title="(in Python v3.13)"><span class="pre">tuple</span></a><span class="p"><span class="pre">[</span></span><a class="reference external" href="https://docs.python.org/3.13/builtins/functions.html#int" title="(in Python v3.13)"><span class="pre">int</span></a><span class="p"><span class="pre">,</span></span><span class="w"> </span><a class="reference external" href="https://docs.python.org/3.13/builtins/functions.html#int" title="(in Python v3.13)"><span class="pre">int</span></a><span class="p"><span class="pre">,</span></span><span class="w"> </span><a class="reference external" href="https://docs.python.org/3.13/builtins/stdtypes.html#str" title="(in Python v3.13)"><span class="pre">str</span></a><span class="p"><span class="pre">]</span></span><span class="p"><span class="pre">]</span></span></span><a class="headerlink" href="#geometor.hilbert.parser_de.LINE_SPAN_PATCHES" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py data">
+        <dt class="sig sig-object py" id="geometor.hilbert.parser_de.FOOTNOTES_DE">
+        <span class="sig-prename descclassname"><span class="pre">geometor.hilbert.parser_de.</span></span><span class="sig-name descname"><span class="pre">FOOTNOTES_DE</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><a class="reference external" href="https://docs.python.org/3.13/builtins/stdtypes.html#dict" title="(in Python v3.13)"><span class="pre">dict</span></a><span class="p"><span class="pre">[</span></span><a class="reference external" href="https://docs.python.org/3.13/builtins/stdtypes.html#str" title="(in Python v3.13)"><span class="pre">str</span></a><span class="p"><span class="pre">,</span></span><span class="w"> </span><a class="reference external" href="https://docs.python.org/3.13/builtins/stdtypes.html#str" title="(in Python v3.13)"><span class="pre">str</span></a><span class="p"><span class="pre">]</span></span></span><a class="headerlink" href="#geometor.hilbert.parser_de.FOOTNOTES_DE" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py data">
+        <dt class="sig sig-object py" id="geometor.hilbert.parser_de.OCR_WORD_FIXES">
+        <span class="sig-prename descclassname"><span class="pre">geometor.hilbert.parser_de.</span></span><span class="sig-name descname"><span class="pre">OCR_WORD_FIXES</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><a class="reference external" href="https://docs.python.org/3.13/builtins/stdtypes.html#dict" title="(in Python v3.13)"><span class="pre">dict</span></a><span class="p"><span class="pre">[</span></span><a class="reference external" href="https://docs.python.org/3.13/builtins/stdtypes.html#str" title="(in Python v3.13)"><span class="pre">str</span></a><span class="p"><span class="pre">,</span></span><span class="w"> </span><a class="reference external" href="https://docs.python.org/3.13/builtins/stdtypes.html#str" title="(in Python v3.13)"><span class="pre">str</span></a><span class="p"><span class="pre">]</span></span></span><a class="headerlink" href="#geometor.hilbert.parser_de.OCR_WORD_FIXES" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py data">
+        <dt class="sig sig-object py" id="geometor.hilbert.parser_de.VOLLSTAENDIGKEIT_NOTE_DE">
+        <span class="sig-prename descclassname"><span class="pre">geometor.hilbert.parser_de.</span></span><span class="sig-name descname"><span class="pre">VOLLSTAENDIGKEIT_NOTE_DE</span></span><span class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">Multiline-String</span></span><a class="headerlink" href="#geometor.hilbert.parser_de.VOLLSTAENDIGKEIT_NOTE_DE" title="Link to this definition">¶</a></dt>
+        <dd><details><summary>Show Value</summary><div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="sd">"""</span>
+
+        <span class="sd">.. admonition:: [Philologische Editionsnotiz: Das Axiom der Vollständigkeit (1900 / 1902 / 1903)]</span>
+        <span class="sd">   :class: note</span>
+
+        <span class="sd">   Die vorliegende **Teubner-Festschrift von Juni 1899** (Erste Auflage) enthält in der Axiomgruppe V ausschliesslich das obige **Archimedische Axiom**. Erst in seinem Vortrag *„Über den Zahlbegriff“* (*Jahresbericht der Deutschen Mathematiker-Vereinigung*, Bd. 8, 1900, S. 180–184), in L. Laugels französischer Ausgabe (1900), in E. J. Townsends englischer Übersetzung (:ref:`Chapter I, § 8 &lt;grundlagen-en-s8&gt;`, 1902) sowie ab der zweiten deutschen Auflage (1903) fügte Hilbert als Axiom **V 2** das **Axiom der Vollständigkeit** hinzu:</span>
+
+        <span class="sd">      **Axiom der Vollständigkeit (V 2).** *Die Elemente (Punkte, Geraden, Ebenen) der Geometrie bilden ein System von Dingen, welches bei Aufrechterhaltung sämtlicher genannten Axiome keiner Erweiterung mehr fähig ist; d. h.: zu dem System der Punkte, Geraden, Ebenen ist es nicht möglich, ein anderes System von Dingen hinzuzufügen, so dass in dem durch Zusammensetzung entstehenden System sämtliche aufgeführten Axiome I–IV, V 1 erfüllt sind.*</span>
+        <span class="sd">"""</span>
+        </pre></div>
+        </div>
+        </details></dd></dl>
+
+        <dl class="py data">
+        <dt class="sig sig-object py" id="geometor.hilbert.parser_de.SCHLUSSWORT_NOTE_DE">
+        <span class="sig-prename descclassname"><span class="pre">geometor.hilbert.parser_de.</span></span><span class="sig-name descname"><span class="pre">SCHLUSSWORT_NOTE_DE</span></span><span class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">Multiline-String</span></span><a class="headerlink" href="#geometor.hilbert.parser_de.SCHLUSSWORT_NOTE_DE" title="Link to this definition">¶</a></dt>
+        <dd><details><summary>Show Value</summary><div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="sd">"""</span>
+
+        <span class="sd">.. admonition:: [Philologische Editionsnotiz: Erweiterungen des Schlusswortes und Anhang (1900–1902)]</span>
+        <span class="sd">   :class: note</span>
+
+        <span class="sd">   Das vorstehende **Schlusswort** giebt den vollständigen Originalwortlaut der **Göttinger Festschrift von 1899** wieder (einschliesslich Hilberts Danksagung an Hans von Schaper, Hermann Minkowski und Julius Sommer, die in Townsends englischer Ausgabe entfiel). In der französischen Ausgabe von 1900 und der englischen Ausgabe von 1902 (:ref:`Conclusion &amp; Appendix &lt;grundlagen-conclusion-en&gt;`) erweiterte Hilbert das Schlusswort um die Ergebnisse der Göttinger Dissertation seines Schülers **Max Dehn** (1900) über Nicht-Legendresche und Semi-Euklidische Geometrien ohne Archimedisches Axiom und fügte in der Ausgabe von 1902 einen **Anhang** über die gruppentheoretisch-topologische Begründung der ebenen Geometrie (ohne Differenzierbarkeitsannahmen im Sinne von Sophus Lie) hinzu. Beide Texte sind im englischen Paralleltrack vollständig ediert und in den :ref:`Notes &lt;grundlagen-conclusion-notes&gt;` kommentiert.</span>
+        <span class="sd">"""</span>
+        </pre></div>
+        </div>
+        </details></dd></dl>
+
+        <dl class="py function">
+        <dt class="sig sig-object py" id="geometor.hilbert.parser_de.build_german_units">
+        <span class="sig-prename descclassname"><span class="pre">geometor.hilbert.parser_de.</span></span><span class="sig-name descname"><span class="pre">build_german_units</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">txt_path</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference external" href="https://docs.python.org/3.13/library/pathlib.html#pathlib.Path" title="(in Python v3.13)"><span class="pre">pathlib.Path</span></a><span class="w"> </span><span class="p"><span class="pre">|</span></span><span class="w"> </span><a class="reference external" href="https://docs.python.org/3.13/builtins/constants.html#None" title="(in Python v3.13)"><span class="pre">None</span></a></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><a class="reference external" href="https://docs.python.org/3.13/builtins/stdtypes.html#dict" title="(in Python v3.13)"><span class="pre">dict</span></a><span class="p"><span class="pre">[</span></span><a class="reference external" href="https://docs.python.org/3.13/builtins/stdtypes.html#str" title="(in Python v3.13)"><span class="pre">str</span></a><span class="p"><span class="pre">,</span></span><span class="w"> </span><a class="reference external" href="https://docs.python.org/3.13/builtins/stdtypes.html#str" title="(in Python v3.13)"><span class="pre">str</span></a><span class="p"><span class="pre">]</span></span></span></span><a class="headerlink" href="#geometor.hilbert.parser_de.build_german_units" title="Link to this definition">¶</a></dt>
+        <dd><p>Generate the complete 9 German unit RST documents (<cite>&lt;unit&gt;-de.rst</cite>) from the 1899 Festschrift.</p>
+        </dd></dl>
+
+        </section>
+        </section>
+
+      </div>
+      <footer class="book-footer">
+        <div class="book-footer-ornament">&#10086;</div>
+        <div class="book-footer-nav">
+          <div class="book-nav-prev">
+            <a class="book-nav-btn" href="../concordance/index.html" title="geometor.hilbert.concordance">&larr; <span class="nav-label">geometor.hilbert.concordance</span></a>
+          </div>
+          <div class="book-nav-center">
+            <a class="book-toc-link" href="../../../../../index.html">GEOMETOR • hilbert</a>
+          </div>
+          <div class="book-nav-next">
+            <a class="book-nav-btn" href="../parser_en/index.html" title="geometor.hilbert.parser_en"><span class="nav-label">geometor.hilbert.parser_en</span> &rarr;</a>
+          </div>
+        </div>
+      </footer>
+    </article>
+  </main>
+  <div class="asides">
+    <aside class="aside-search">
+      <h3>Search</h3>
+      <div id="searchbox" role="search">
+        <form id="rtd-search-form" class="wy-form search-form" action="../../../../../search.html" method="get">
+          <div class="search-field">
+            <input type="search" name="q" placeholder="Search docs..." aria-label="Search docs" autocomplete="off" />
+            <button type="submit" class="search-submit" aria-label="Search" title="Search">
+              <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <circle cx="11" cy="11" r="8"></circle>
+                <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+              </svg>
+            </button>
+          </div>
+          <input type="hidden" name="check_keywords" value="yes" />
+          <input type="hidden" name="area" value="default" />
+        </form>
+      </div>
+    </aside>
+  </div>
+  <footer>
+    <div class="footer-nav">
+      <ul>
+        <li><a href="../../../../../about/index.html"  >about</a></li>
+      </ul>
+    </div>
+    <hr />
+    <div role="contentinfo">
+      <p>
+        &copy; Copyright 1899 B. G. Teubner · 1902 Open Court · Digital Codex GEOMETOR.
+      </p>
+    </div>
+  </footer>
+
+  <script src="../../../../../_static/jquery.js?v=5d32c60e"></script>
+  <script src="../../../../../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+  <script src="../../../../../_static/documentation_options.js?v=01f34227"></script>
+  <script src="../../../../../_static/doctools.js?v=fd6eb6e6"></script>
+  <script src="../../../../../_static/sphinx_highlight.js?v=6ffebe34"></script>
+  <script src="../../../../../_static/js/collection_controls.js?v=b6b5297a"></script>
+  <script src="../../../../../_static/js/geometor_interactive.js?v=b2892320"></script>
+  <script src="../../../../../_static/js/search_highlight.js"></script>
+
+</body>
+</html>

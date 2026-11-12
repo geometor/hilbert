@@ -1,0 +1,33 @@
+geometor.hilbert.parser_en
+==========================
+
+.. py:module:: geometor.hilbert.parser_en
+
+.. autoapi-nested-parse::
+
+   Verbatim LaTeX-to-RST parser for E. J. Townsend's 1902 English edition (Gutenberg #17384).
+
+
+
+Functions
+---------
+
+.. autoapisummary::
+
+   geometor.hilbert.parser_en.parse_english_source
+   geometor.hilbert.parser_en.build_english_units
+
+
+Module Contents
+---------------
+
+.. py:function:: parse_english_source(tex_path: pathlib.Path | None = None) -> dict[str, Any]
+
+   Slice `gutenberg_17384_townsend_1902.tex` into Preface, Epigraph, §§ 0–39, Conclusion, and Appendix.
+
+
+.. py:function:: build_english_units(tex_path: pathlib.Path | None = None) -> dict[str, str]
+
+   Generate the complete 9 English unit RST documents (`<unit>-en.rst`).
+
+

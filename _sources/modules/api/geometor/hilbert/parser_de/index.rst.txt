@@ -1,0 +1,100 @@
+geometor.hilbert.parser_de
+==========================
+
+.. py:module:: geometor.hilbert.parser_de
+
+.. autoapi-nested-parse::
+
+   Diplomatic-critical RST parser for David Hilbert's 1899 Teubner Festschrift German edition.
+
+
+
+Attributes
+----------
+
+.. autoapisummary::
+
+   geometor.hilbert.parser_de.SECTION_RANGES_DE
+   geometor.hilbert.parser_de.LINE_SPAN_PATCHES
+   geometor.hilbert.parser_de.FOOTNOTES_DE
+   geometor.hilbert.parser_de.OCR_WORD_FIXES
+   geometor.hilbert.parser_de.VOLLSTAENDIGKEIT_NOTE_DE
+   geometor.hilbert.parser_de.SCHLUSSWORT_NOTE_DE
+
+
+Functions
+---------
+
+.. autoapisummary::
+
+   geometor.hilbert.parser_de.build_german_units
+
+
+Module Contents
+---------------
+
+.. py:data:: SECTION_RANGES_DE
+   :type:  dict[int, tuple[int, int]]
+
+.. py:data:: LINE_SPAN_PATCHES
+   :type:  list[tuple[int, int, str]]
+
+.. py:data:: FOOTNOTES_DE
+   :type:  dict[str, str]
+
+.. py:data:: OCR_WORD_FIXES
+   :type:  dict[str, str]
+
+.. py:data:: VOLLSTAENDIGKEIT_NOTE_DE
+   :value: Multiline-String
+
+   .. raw:: html
+
+      <details><summary>Show Value</summary>
+
+   .. code-block:: python
+
+      """
+      
+      .. admonition:: [Philologische Editionsnotiz: Das Axiom der Vollständigkeit (1900 / 1902 / 1903)]
+         :class: note
+      
+         Die vorliegende **Teubner-Festschrift von Juni 1899** (Erste Auflage) enthält in der Axiomgruppe V ausschliesslich das obige **Archimedische Axiom**. Erst in seinem Vortrag *„Über den Zahlbegriff“* (*Jahresbericht der Deutschen Mathematiker-Vereinigung*, Bd. 8, 1900, S. 180–184), in L. Laugels französischer Ausgabe (1900), in E. J. Townsends englischer Übersetzung (:ref:`Chapter I, § 8 <grundlagen-en-s8>`, 1902) sowie ab der zweiten deutschen Auflage (1903) fügte Hilbert als Axiom **V 2** das **Axiom der Vollständigkeit** hinzu:
+      
+            **Axiom der Vollständigkeit (V 2).** *Die Elemente (Punkte, Geraden, Ebenen) der Geometrie bilden ein System von Dingen, welches bei Aufrechterhaltung sämtlicher genannten Axiome keiner Erweiterung mehr fähig ist; d. h.: zu dem System der Punkte, Geraden, Ebenen ist es nicht möglich, ein anderes System von Dingen hinzuzufügen, so dass in dem durch Zusammensetzung entstehenden System sämtliche aufgeführten Axiome I–IV, V 1 erfüllt sind.*
+      """
+
+   .. raw:: html
+
+      </details>
+
+
+
+.. py:data:: SCHLUSSWORT_NOTE_DE
+   :value: Multiline-String
+
+   .. raw:: html
+
+      <details><summary>Show Value</summary>
+
+   .. code-block:: python
+
+      """
+      
+      .. admonition:: [Philologische Editionsnotiz: Erweiterungen des Schlusswortes und Anhang (1900–1902)]
+         :class: note
+      
+         Das vorstehende **Schlusswort** giebt den vollständigen Originalwortlaut der **Göttinger Festschrift von 1899** wieder (einschliesslich Hilberts Danksagung an Hans von Schaper, Hermann Minkowski und Julius Sommer, die in Townsends englischer Ausgabe entfiel). In der französischen Ausgabe von 1900 und der englischen Ausgabe von 1902 (:ref:`Conclusion & Appendix <grundlagen-conclusion-en>`) erweiterte Hilbert das Schlusswort um die Ergebnisse der Göttinger Dissertation seines Schülers **Max Dehn** (1900) über Nicht-Legendresche und Semi-Euklidische Geometrien ohne Archimedisches Axiom und fügte in der Ausgabe von 1902 einen **Anhang** über die gruppentheoretisch-topologische Begründung der ebenen Geometrie (ohne Differenzierbarkeitsannahmen im Sinne von Sophus Lie) hinzu. Beide Texte sind im englischen Paralleltrack vollständig ediert und in den :ref:`Notes <grundlagen-conclusion-notes>` kommentiert.
+      """
+
+   .. raw:: html
+
+      </details>
+
+
+
+.. py:function:: build_german_units(txt_path: pathlib.Path | None = None) -> dict[str, str]
+
+   Generate the complete 9 German unit RST documents (`<unit>-de.rst`) from the 1899 Festschrift.
+
+

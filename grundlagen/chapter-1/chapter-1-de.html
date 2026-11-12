@@ -1,0 +1,470 @@
+
+
+<!DOCTYPE html>
+<html lang="en" data-content_root="../../">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Kapitel I: Die fünf Axiomgruppen &mdash; GRUNDLAGEN DER GEOMETRIE</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..700;1,400..700&family=Fira+Sans+Condensed:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600;1,700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" type="text/css" href="../../_static/pygments.css?v=ea5fcf70" />
+  <link rel="stylesheet" type="text/css" href="../../_static/css/styles.css?v=66998e95" />
+  <link rel="stylesheet" type="text/css" href="../../_static/graphviz.css?v=4ae1632d" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css" />
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js"></script>
+  <link rel="stylesheet" href="../../_static/css/print.css" type="text/css" media="print" />
+  <link rel="icon" href="../../_static/favicon.ico" />
+</head>
+
+<body class="is-book-page book-theme-classical-serif">
+  <header>
+    <div class="logo">
+      <a href="../../index.html">
+        <h1>GEOMETOR • hilbert</h1>
+      </a>
+      <div class="org-repo">
+        <span class="org">GEOMETOR</span>
+        •
+        <span class="repo">hilbert</span>
+      </div>
+    </div>
+    <nav aria-label="Header">
+      <input type="checkbox" id="nav-Header-toggle" >
+      <label for="nav-Header-toggle" >Header</label>
+      <ul>
+        <li>
+          <a href="../../mission/index.html"  >mission</a>
+        </li>
+        <li>
+          <a href="../../log/index.html"  >log</a>
+        </li>
+        <li>
+          <a href="../../modules/index.html"  >modules</a>
+        </li>
+      </ul>
+    </nav>
+    <div class="motto"></div>
+  </header>
+  <main class="book-main">
+    <article class="book-layout book-reading-pane">
+      <header class="book-header">
+        <div class="book-header-bar">
+          <div class="book-header-identity">
+            <a class="book-portal-link" href="../../index.html" title="Return to Project Portal">&larr; hilbert</a>
+            <span class="book-header-sep">/</span>
+            <a class="book-title-link" href="../index.html">GRUNDLAGEN DER GEOMETRIE</a>
+          </div>
+        </div>
+        <div class="book-header-nav">
+          <div class="book-nav-prev">
+            <a class="book-nav-btn" href="../introduction/introduction-de.html" title="Preface &amp; Introduction">&larr; <span class="nav-label">Prev</span></a>
+          </div>
+          <div class="book-nav-center">
+            <nav class="book-tracks-nav" aria-label="Document Tracks">
+              <a class="book-track-item" href="chapter-1-en.html">English</a>
+              <span class="book-track-sep">&middot;</span>
+              <strong class="book-track-item is-active" aria-current="page">Deutsch</strong>
+              <span class="book-track-sep">&middot;</span>
+              <a class="book-track-item" href="chapter-1-summary.html">Summary</a>
+              <span class="book-track-sep">&middot;</span>
+              <a class="book-track-item" href="chapter-1-notes.html">Notes</a>
+            </nav>
+          </div>
+          <div class="book-nav-next">
+            <a class="book-nav-btn" href="../chapter-2/chapter-2-de.html" title="Chapter II: The Compatibility and Mutual Independence of the Axioms"><span class="nav-label">Next</span> &rarr;</a>
+          </div>
+        </div>
+      </header>
+      <div class="content body book-content folio-book-page" role="main">
+        <section class="level-1" id="kapitel-i-die-funf-axiomgruppen">
+        <span id="grundlagen-chapter-1-de"></span><h1>Kapitel I: Die fünf Axiomgruppen<a class="headerlink" href="#kapitel-i-die-funf-axiomgruppen" title="Link to this heading">¶</a></h1>
+        <p class="rubric">David Hilbert — <em>Grundlagen der Geometrie</em> (Festschrift, B. G. Teubner, Leipzig 1899)</p>
+        <nav class="contents local" id="gliederung">
+        <p class="topic-title">Gliederung</p>
+        <ul class="simple">
+        <li><p><a class="reference internal" href="#die-elemente-der-geometrie-und-die-funf-axiomgruppen" id="id2">§ 1. Die Elemente der Geometrie und die fünf Axiomgruppen</a></p></li>
+        <li><p><a class="reference internal" href="#die-axiomgruppe-i-axiome-der-verknupfung" id="id3">§ 2. Die Axiomgruppe I: Axiome der Verknüpfung</a></p></li>
+        <li><p><a class="reference internal" href="#die-axiomgruppe-ii-axiome-der-anordnung" id="id4">§ 3. Die Axiomgruppe II: Axiome der Anordnung</a></p></li>
+        <li><p><a class="reference internal" href="#folgerungen-aus-den-axiomen-der-verknupfung-und-der-anordnung" id="id5">§ 4. Folgerungen aus den Axiomen der Verknüpfung und der Anordnung</a></p></li>
+        <li><p><a class="reference internal" href="#die-axiomgruppe-iii-axiom-der-parallelen-euklidisches-axiom" id="id6">§ 5. Die Axiomgruppe III: Axiom der Parallelen (Euklidisches Axiom)</a></p></li>
+        <li><p><a class="reference internal" href="#die-axiomgruppe-iv-axiome-der-congruenz" id="id7">§ 6. Die Axiomgruppe IV: Axiome der Congruenz</a></p></li>
+        <li><p><a class="reference internal" href="#folgerungen-aus-den-axiomen-der-congruenz" id="id8">§ 7. Folgerungen aus den Axiomen der Congruenz</a></p></li>
+        <li><p><a class="reference internal" href="#die-axiomgruppe-v-axiom-der-stetigkeit-archimedisches-axiom" id="id9">§ 8. Die Axiomgruppe V: Axiom der Stetigkeit (Archimedisches Axiom)</a></p></li>
+        </ul>
+        </nav>
+        <div class="folio-milestone" id="folio-§ 1" data-folio="§ 1" data-page="4">[Folio § 1 | p. 4]</div>
+        <section class="level-2" id="die-elemente-der-geometrie-und-die-funf-axiomgruppen">
+        <h2>§ 1. Die Elemente der Geometrie und die fünf Axiomgruppen<a class="headerlink" href="#die-elemente-der-geometrie-und-die-funf-axiomgruppen" title="Link to this heading">¶</a></h2>
+        <p><strong>Erklärung.</strong> Wir denken drei verschiedene Systeme von Dingen: die Dinge des ersten Systems nennen wir Punkte und bezeichnen sie mit A, B, C, … ; die Dinge des zweiten Systems nennen wir Gerade und bezeichnen sie mit a, b, c, … ; die Dinge des dritten Systems nennen wir Ebenen und bezeichnen sie mit $\alpha, \beta, \gamma, \dots$; die Punkte heissen auch die Elemente der linearen Geometrie , die Punkte und Geraden heissen die Elemente der ebenen Geometrie und die Punkte, Geraden und Ebenen heissen die Elemente der räumlichen Geometrie oder des Raumes.</p>
+        <p>Wir denken die Punkte, Geraden, Ebenen in gewissen gegenseitigen Beziehungen und bezeichnen diese Beziehungen durch Worte wie „liegen“, „zwischen“, „parallel“, „congruent“, „stetig“; die genaue und vollständige Beschreibung dieser Beziehungen erfolgt durch die Axiome der Geometrie.</p>
+        <p>Die Axiome der Geometrie gliedern sich in fünf Gruppen; jede einzelne dieser Gruppen drückt gewisse zusammengehörige Grundthatsachen unserer Anschauung aus. Wir benennen diese Gruppen von Axiomen in folgender Weise :</p>
+        <ul class="simple">
+        <li><p><strong>I 1–7.</strong> Axiome der <em>Verknüpfung</em>,</p></li>
+        <li><p><strong>II 1–5.</strong> Axiome der <em>Anordnung</em>,</p></li>
+        <li><p><strong>III.</strong> Axiom der <em>Parallelen</em> (<em>Euklidisches Axiom</em>),</p></li>
+        <li><p><strong>IV 1–6.</strong> Axiome der <em>Congruenz</em>,</p></li>
+        <li><p><strong>V.</strong> Axiom der <em>Stetigkeit</em> (<em>Archimedisches Axiom</em>).</p></li>
+        </ul>
+        <div class="folio-milestone" id="folio-§ 2" data-folio="§ 2" data-page="5">[Folio § 2 | p. 5]</div>
+        </section>
+        <section class="level-2" id="die-axiomgruppe-i-axiome-der-verknupfung">
+        <h2>§ 2. Die Axiomgruppe I: Axiome der Verknüpfung<a class="headerlink" href="#die-axiomgruppe-i-axiome-der-verknupfung" title="Link to this heading">¶</a></h2>
+        <p>Die Axiome dieser Gruppe stellen zwischen den oben erklärten Begriffen Punkte, Geraden und Ebenen eine Verknüpfung her und lauten wie folgt:</p>
+        <p><strong>I 1.</strong> Zwei von einander verschiedene Punkte A, B bestimmen stets eine Gerade a; wir setzen AB = a oder BA = a.</p>
+        <p>Statt „bestimmen“ werden wir auch andere Wendungen</p>
+        <p>brauchen, z. B. A „liegt auf“ a, A „ist ein Punkt von“ a, a „geht durch“ A „und durch“ B, a „verbindet“ A „und“ oder „mit“ B u. s. w. Wenn A auf a und ausserdem auf einer anderen Geraden b liegt , so gebrauchen wir auch die Wendung : „die Geraden“ a „und“ b „haben den Punkt A gemein“ u. s. w.</p>
+        <p><strong>I 2.</strong> Irgend zwei von einander verschiedene Punkte einer Geraden bestimmen diese Gerade, d. h. wenn $AB = a$ und $AC = a$, und $B \neq C$, so ist auch $BC = a$.</p>
+        <p><strong>I 3.</strong> Drei nicht auf ein und derselben Geraden liegende Punkte $A, B, C$ bestimmen stets eine Ebene $\alpha$; wir setzen $ABC = \alpha$.</p>
+        <p>Wir gebrauchen auch die Wendungen: $A, B, C$ „liegen in“ $\alpha$; $A, B, C$ „sind Punkte von“ $\alpha$ u. s. w.</p>
+        <p><strong>I 4.</strong> Irgend drei Punkte $A, B, C$ einer Ebene $\alpha$, die nicht auf ein und derselben Geraden liegen, bestimmen diese Ebene $\alpha$.</p>
+        <p><strong>I 5.</strong> Wenn zwei Punkte $A, B$ einer Geraden $a$ in einer Ebene $\alpha$ liegen, so liegt jeder Punkt von $a$ in $\alpha$.</p>
+        <p>In diesem Falle sagen wir: die Gerade $a$ liegt in der Ebene $\alpha$ u. s. w.</p>
+        <p><strong>I 6.</strong> Wenn zwei Ebenen $\alpha, \beta$ einen Punkt $A$ gemein haben, so haben sie wenigstens noch einen weiteren Punkt $B$ gemein.</p>
+        <p><strong>I 7.</strong> Auf jeder Geraden giebt es wenigstens zwei Punkte, in jeder Ebene wenigstens drei nicht auf einer Geraden gelegene Punkte und im Raum giebt es wenigstens vier nicht in einer Ebene gelegene Punkte.</p>
+        <p>Die Axiome I 1 — 2 enthalten nur Aussagen über die Punkte und Geraden, d. h. über die Elemente der ebenen Geometrie und mögen daher die ebenen Axiome der Gruppe I heissen, zum Unterschied von den Axiomen I 3 — 7, die ich kurz als die räumlichen Axiome bezeichne.</p>
+        <p>Von den Sätzen, die aus den Axiomen I 1–7 folgen, erwähne ich nur diese beiden:</p>
+        <p id="grundlagen-de-thm-1"><strong>Satz 1.</strong> Zwei Geraden einer Ebene haben einen oder keinen Punkt gemein ; zwei Ebenen haben keinen Punkt oder eine Gerade gemein ; eine Ebene und eine nicht in ihr liegende Gerade haben keinen oder einen Punkt gemein.</p>
+        <p id="grundlagen-de-thm-2"><strong>Satz 2.</strong> Durch eine Gerade und einen nicht auf ihr liegenden Punkt, so wie auch durch zwei verschiedene Geraden mit einem gemeinsamen Punkt giebt es stets eine und nur eine Ebene.</p>
+        <div class="folio-milestone" id="folio-§ 3" data-folio="§ 3" data-page="6">[Folio § 3 | p. 6]</div>
+        </section>
+        <section class="level-2" id="die-axiomgruppe-ii-axiome-der-anordnung">
+        <h2>§ 3. Die Axiomgruppe II: Axiome der Anordnung<a class="headerlink" href="#die-axiomgruppe-ii-axiome-der-anordnung" title="Link to this heading">¶</a></h2>
+        <p>Die Axiome dieser Gruppe <a class="footnote-reference brackets" href="#fn1" id="id1" role="doc-noteref"><span class="fn-bracket">[</span>1<span class="fn-bracket">]</span></a> definiren den Begriff „zwischen“ und ermöglichen auf Grund dieses Begriffes die Anordnung der Punkte auf einer Geraden, in einer Ebene und im Raume.</p>
+        <p><strong>Erklärung.</strong> Die Punkte einer Geraden stehen in gewissen Beziehungen zu einander, zu deren Beschreibung uns insbesondere das Wort „ziuischen“ dient.</p>
+        <p><strong>II 1.</strong> Wenn $A, B, C$ Punkte einer Geraden sind, und $B$ zwischen $A$ und $C$ liegt, so liegt $B$ auch zwischen $C$ und $A$.</p>
+        <p><strong>II 2.</strong> Wenn $A$ und $C$ zwei Punkte einer Geraden sind, so giebt es stets wenigstens einen Punkt $B$, der zwischen $A$ und $C$ liegt und wenigstens einen Punkt $D$, so dass $C$ zwischen $A$ und $D$ liegt.</p>
+        <p><strong>II 3.</strong> Unter irgend drei Punkten einer Geraden giebt es stets einen und nur einen, der zwischen den beiden andern liegt.</p>
+        <p><strong>II 4.</strong> Irgend vier Punkte $A, B, C, D$ einer Geraden können stets so angeordnet werden, dass $B$ zwischen $A$ und $C$ und auch zwischen $A$ und $D$ und ferner $C$ zwischen $A$ und $D$ und auch zwischen $B$ und $D$ liegt.</p>
+        <p><strong>Definition.</strong> Das System zweier Punkte A und B, die auf einer Geraden a liegen, nennen wir eine Strecke und bezeichnen dieselbe mit AB oder BA. Die Punkte zwischen A und B heissen Punkte der Strecke AB oder auch innerhalb der Strecke AB gelegen ; alle übrigen Punkte der Geraden a heissen ausserhalb der Strecke AB gelegen. Die Punkte A, B heissen Endpunkte der Strecke AB.</p>
+        <p><strong>II 5.</strong> Es seien A, B, C drei nicht in gerader Linie gelegene Punkte und a eine Gerade in der Ebene ABC, die keinen der Punkte A, B, C trifft: wenn dann die Gerade a durch einen Punkt innerhalb der Strecke AB geht, so geht sie stets entweder durch einen Punkt der Strecke BC oder durch einen Punkt der Strecke $AC$.</p>
+        <p>Die Axiome II 1 — 4 enthalten nur Aussagen über die Punkte</p>
+        <p>auf einer Geraden und mögen daher die linearen Axiome der Gruppe II heissen ; das Axiom II 5 enthält eine Aussage über die Elemente der ebenen Geometrie und heisse daher das ebene Axiom der Gruppe II.</p>
+        <figure class="photon-picture photon-svg">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 505 185" width="505" height="185" class="euclid-graphic" data-graphic-id="fig_betweenness_pasch" data-proposition="S.3">
+          <text x="125.00" y="24.00" text-anchor="middle" class="geom-label-sm">II 1–4: Linear Order</text>
+          <line x1="24.00" y1="95.00" x2="226.00" y2="95.00" class="geom-line" />
+          <circle cx="48.00" cy="95.00" r="3.30" class="geom-point" />
+          <text x="48.00" y="82.00" text-anchor="middle" class="geom-label">A</text>
+          <circle cx="98.00" cy="95.00" r="3.30" class="geom-point" />
+          <text x="98.00" y="82.00" text-anchor="middle" class="geom-label">B</text>
+          <circle cx="152.00" cy="95.00" r="3.30" class="geom-point" />
+          <text x="152.00" y="82.00" text-anchor="middle" class="geom-label">C</text>
+          <circle cx="200.00" cy="95.00" r="3.30" class="geom-point" />
+          <text x="200.00" y="82.00" text-anchor="middle" class="geom-label">D</text>
+          <text x="220.00" y="112.00" text-anchor="middle" class="geom-label-sm">g</text>
+          <text x="375.00" y="24.00" text-anchor="middle" class="geom-label-sm">II 5: Pasch's Axiom</text>
+          <polygon points="365.00,44.00 285.00,158.00 455.00,158.00" class="geom-polygon" />
+          <line x1="365.00" y1="44.00" x2="285.00" y2="158.00" class="geom-bold" />
+          <line x1="285.00" y1="158.00" x2="455.00" y2="158.00" class="geom-bold" />
+          <line x1="455.00" y1="158.00" x2="365.00" y2="44.00" class="geom-bold" />
+          <line x1="268.00" y1="118.00" x2="476.00" y2="86.00" class="geom-accent-line" />
+          <circle cx="365.00" cy="44.00" r="3.30" class="geom-point" />
+          <text x="365.00" y="34.00" text-anchor="middle" class="geom-label">A</text>
+          <circle cx="285.00" cy="158.00" r="3.30" class="geom-point" />
+          <text x="273.00" y="172.00" text-anchor="middle" class="geom-label">B</text>
+          <circle cx="455.00" cy="158.00" r="3.30" class="geom-point" />
+          <text x="467.00" y="172.00" text-anchor="middle" class="geom-label">C</text>
+          <circle cx="318.52" cy="110.23" r="3.60" class="geom-point-accent" />
+          <circle cx="406.59" cy="96.68" r="3.60" class="geom-point-accent" />
+          <text x="308.52" y="101.23" text-anchor="middle" class="geom-label">P</text>
+          <text x="418.59" y="88.68" text-anchor="middle" class="geom-label">Q</text>
+          <text x="478.00" y="102.00" text-anchor="middle" class="geom-label-sm">a</text>
+        </svg>
+        <figcaption>**Linear Betweenness (II 1–4) and Pasch's Planar Separation Axiom (II 5).** Linear order of collinear points A, B, C, D and Pasch's Axiom (II 5) with secant a piercing side AB at P and side AC at Q.</figcaption>
+        </figure>
+        <div class="folio-milestone" id="folio-§ 4" data-folio="§ 4" data-page="7">[Folio § 4 | p. 7]</div>
+        </section>
+        <section class="level-2" id="folgerungen-aus-den-axiomen-der-verknupfung-und-der-anordnung">
+        <h2>§ 4. Folgerungen aus den Axiomen der Verknüpfung und der Anordnung<a class="headerlink" href="#folgerungen-aus-den-axiomen-der-verknupfung-und-der-anordnung" title="Link to this heading">¶</a></h2>
+        <p>Zunächst leiten wir aus den linearen Axiomen II 1 — 4 ohne Mühe folgende Sätze ab :</p>
+        <p id="grundlagen-de-thm-3"><strong>Satz 3.</strong> Zwischen irgend zwei Punkten einer Geraden giebt es stets unbegrenzt viele Punkte.</p>
+        <p id="grundlagen-de-thm-4"><strong>Satz 4.</strong> Sind irgend eine endliche Anzahl von Punkten einer Geraden gegeben, so lassen sich dieselben stets in einer Reihe $A, B, C, D, E, \dots, K$ anordnen, sodass $B$ zwischen $A$ einerseits und $C, D, E, \dots, K$ andererseits, ferner $C$ zwischen $A, B$ einerseits und $D, E, \dots, K$ andererseits, sodann $D$ zwischen $A, B, C$ einerseits und $E, \dots, K$ andererseits u. s. w. liegt. Ausser dieser Anordnung giebt es nur noch die umgekehrte Anordnung $K, \dots, E, D, C, B, A$, die von der nämlichen Beschaffenheit ist.</p>
+        <p id="grundlagen-de-thm-5"><strong>Satz 5.</strong> Jede Gerade $a$, welche in einer Ebene $\alpha$ liegt, trennt die übrigen Punkte dieser Ebene $\alpha$ in zwei Gebiete, von folgender</p>
+        <p>Beschaffenheit: ein jeder Punkt A des einen Gebietes bestimmt mit</p>
+        <p>jedem Punkt B des anderen Gebietes eine Strecke AB, innerhalb derer ein Punkt der Geraden $a$ liegt; dagegen bestimmen irgend zwei Punkte $A$ und $A'$ ein und desselben Gebietes eine Strecke $AA'$, welche keinen Punkt von $a$ enthält.</p>
+        <p><strong>Erklärung.</strong> Es seien A,A’,0, B vier Punkte einer Geraden a, so dass 0 zwischen A und B, aber nicht zwischen A und A’ liegt ; dann sagen wir : die Punkte A, A’ liegen in der Geraden a auf ein und derselben Seite vom Punkte 0, und die Punkte</p>
+        <p>$A, B$ liegen in der Geraden $a$ auf verschiedenen Seiten vom Punkte $O$. Die sämtlichen auf ein und derselben Seite von $O$ gelegenen Punkte der Geraden $a$ heissen auch ein von $O$ ausgehender <em>Halbstrahl</em>; somit trennt jeder Punkt einer Geraden diese in zwei Halbstrahlen.</p>
+        <p>Indem wir die Bezeichnungen des Satzes 5 benutzen, sagen wir: die Punkte $A, A'$ liegen in der Ebene $\alpha$ auf ein und derselben Seite von der Geraden $a$ und die Punkte $A, B$ liegen in der Ebene $\alpha$ auf verschiedenen Seiten von der Geraden $a$.</p>
+        <p><strong>Definition.</strong> Ein System von Strecken AB, BC, CD, … , KL heisst ein Streckenzug, der die Punkte A und L miteinander verbindet ; dieser Streckenzug wird auch kurz mit ABCD … KL bezeichnet. Die Punkte innerhalb der Strecken AB, BC, CD, . . KL, sowie die Punkte A, B, C, D, … , K, L heissen insgesamt die Punkte des Streckenzuges. Fällt insbesondere der Punkt L mit dem Punkt A zusammen, so wird der Streckenzug ein Polygon genannt und als Polygon ABCD … K bezeichnet. Die Strecken AB, BC, CD, … , KA heissen auch die Seiten des Polygons. Die Punkte A, B,C,D, …, K heissen die Ecken des Polygons. Polygone mit 3, 4, … , n Ecken heissen bez. Dreiecke, Vierecke, … , n-Ecke.</p>
+        <p>Wenn die Ecken eines Polygons sämtlich von einander verschieden sind und keine Ecke des Polygons in eine Seite fällt und endlich irgend zwei Seiten eines Polygons keinen Punkt mit einander gemein haben, so heisst das Polygon einfach.</p>
+        <p>Mit Zuhülfenahme des Satzes 5 gelangen wir jetzt ohne erhebliche Schwierigkeit zu folgenden Sätzen:</p>
+        <p id="grundlagen-de-thm-6"><strong>Satz 6.</strong> Ein jedes einfache Polygon, dessen Ecken sämtlich in einer Ebene a liegen, trennt die Punkte dieser Ebene a, die nicht dem Streckenzuge des Polygons angehören, in zwei Gebiete, ein Inneres und ein Aeusseres, von folgender Beschaffenheit: ist A ein Punkt des Inneren (innerer Punkt) und B ein Punkt des Aeusseren (äusserer Punkt), so hat jeder</p>
+        <p>Streckenzug, der A mit B verbindet , mindestens einen Punkt mit dem Polygon gemein; sind dagegen A, A’ zwei Punkte des Inneren und B, B’ zwei Punkte des Aeusseren, so giebt es stets</p>
+        <p>Streckenzüge, die $A$ mit $A'$ und $B$ mit $B'$ verbinden und keinen Punkt mit dem Polygon gemein haben. Es giebt Gerade in $\alpha$, die ganz im Aeusseren des Polygons verlaufen, dagegen keine solche Gerade, die ganz im Inneren des Polygons verläuft.</p>
+        <p id="grundlagen-de-thm-7"><strong>Satz 7.</strong> Jede Ebene $\alpha$ trennt die übrigen Punkte des Raumes in zwei Gebiete von folgender Beschaffenheit: jeder Punkt $A$ des einen Gebietes bestimmt mit jedem Punkt $B$ des andern Gebietes eine Strecke $AB$, innerhalb derer ein Punkt von $\alpha$ liegt; dagegen bestimmen irgend zwei Punkte $A$ und $A'$ eines und desselben Gebietes stets eine Strecke $AA'$, die keinen Punkt von $\alpha$ enthält.</p>
+        <p><strong>Erklärung.</strong> Indem wir die Bezeichnungen dieses Satzes 7 benutzen, sagen wir: die Punkte $A, A'$ liegen im Raume auf ein und derselben Seite von der Ebene $\alpha$ und die Punkte $A, B$ liegen im Raume auf verschiedenen Seiten von der Ebene $\alpha$.</p>
+        <p>Der Satz 7 bringt die wichtigsten Thatsachen betreffs der Anordnung der Elemente im Raume zum Ausdruck; diese Thatsachen sind daher lediglich Folgerungen aus den bisher behandelten Axiomen und es bedurfte in der Gruppe II keines neuen räumlichen Axioms.</p>
+        <div class="folio-milestone" id="folio-§ 5" data-folio="§ 5" data-page="9">[Folio § 5 | p. 9]</div>
+        </section>
+        <section class="level-2" id="die-axiomgruppe-iii-axiom-der-parallelen-euklidisches-axiom">
+        <h2>§ 5. Die Axiomgruppe III: Axiom der Parallelen (Euklidisches Axiom)<a class="headerlink" href="#die-axiomgruppe-iii-axiom-der-parallelen-euklidisches-axiom" title="Link to this heading">¶</a></h2>
+        <p>Die Einführung dieses Axioms vereinfacht die Grundlagen und erleichtert den Aufbau der Geometrie in erheblichem Masse; wir sprechen dasselbe wie folgt aus:</p>
+        <p><strong>III.</strong> In einer Ebene $\alpha$ lässt sich durch einen Punkt $A$ ausserhalb einer Geraden $a$ stets eine und nur eine Gerade ziehen, welche jene Gerade $a$ nicht schneidet; dieselbe heisst die Parallele zu $a$ durch den Punkt $A$.</p>
+        <p>Diese Fassung des Parallelenaxioms enthält zwei Aussagen; nach der ersteren giebt es in der Ebene $\alpha$ durch $A$ stets eine Gerade, die $a$ nicht trifft, und zweitens wird ausgesprochen,</p>
+        <p>dass keine andere solche Gerade möglich ist.</p>
+        <p>Die zweite Aussage unseres Axioms ist die wesentliche; sie nimmt auch folgende Fassung an :</p>
+        <p id="grundlagen-de-thm-8"><strong>Satz 8.</strong> Wenn zwei Geraden a, b in einer Ebene eine dritte Gerade c derselben Ebene nicht treffen, so treffen sie sich auch einander nicht.</p>
+        <p>In der That hätten a, b einen Punkt A gemein, so würden durch A in derselben Ebene die beiden Geraden a, b möglich sein, die c nicht treffen; dieser Umstand widerspräche der zweiten Aussage des Parallelenaxioms in unserer ursprünglichen Fassung. Auch folgt umgekehrt aus Satz 8 die zweite Aussage des Parallelenaxioms in unserer ursprünglichen Fassung.</p>
+        <p>Das Parallelenaxiom III ist ein ebenes Axiom.</p>
+        <div class="folio-milestone" id="folio-§ 6" data-folio="§ 6" data-page="10">[Folio § 6 | p. 10]</div>
+        </section>
+        <section class="level-2" id="die-axiomgruppe-iv-axiome-der-congruenz">
+        <h2>§ 6. Die Axiomgruppe IV: Axiome der Congruenz<a class="headerlink" href="#die-axiomgruppe-iv-axiome-der-congruenz" title="Link to this heading">¶</a></h2>
+        <p>Die Axiome dieser Gruppe definieren den Begriff der Congruenz oder der Bewegung.</p>
+        <p><strong>Erklärung.</strong> Die Strecken stehen in gewissen Beziehungen zu einander, zu deren Beschreibung uns insbesondere das Wort „congruent“ dient.</p>
+        <p><strong>IV 1.</strong> Wenn $A, B$ zwei Punkte auf einer Geraden $a$ und ferner $A'$ ein Punkt auf derselben oder einer anderen Geraden $a'$ ist, so kann man auf einer gegebenen Seite der Geraden $a'$ von $A'$ stets einen und nur einen Punkt $B'$ finden, so dass die Strecke $AB$ (oder $BA$) der Strecke $A'B'$ congruent ist, in Zeichen:</p>
+        <p>$$
+        AB \equiv A'B'.
+        $$</p>
+        <p>Jede Strecke ist sich selbst congruent, d. h. es ist stets:</p>
+        <p>$$
+        AB \equiv AB.
+        $$</p>
+        <p>Wir sagen auch kürzer, dass eine jede Strecke auf einer gegebenen Seite einer gegebenen Geraden von einem gegebenen</p>
+        <p>Punkte in eindeutig bestimmter Weise abgetragen werden kann.</p>
+        <p><strong>IV 2.</strong> Wenn eine Strecke $AB$ sowohl der Strecke $A'B'$ als auch der Strecke $A''B''$ congruent ist, so ist auch $A'B'$ der Strecke $A''B''$ congruent, d. h.: wenn $AB \equiv A'B'$ und $AB \equiv A''B''$, so ist auch $A'B' \equiv A''B''$.</p>
+        <p><strong>IV 3.</strong> Es seien $AB$ und $BC$ zwei Strecken ohne gemeinsame Punkte auf der Geraden $a$ und ferner $A'B'$ und $B'C'$ zwei Strecken auf derselben oder einer anderen Geraden $a'$ ebenfalls ohne gemeinsame Punkte; wenn dann $AB \equiv A'B'$ und $BC \equiv B'C'$ ist, so ist auch stets $AC \equiv A'C'$.</p>
+        <p><strong>Definition.</strong> Es sei $\alpha$ eine beliebige Ebene und $h, k$ seien irgend zwei verschiedene von einem Punkte $O$ ausgehende Halbstrahlen in $\alpha$, die verschiedenen Geraden angehören. Das System dieser beiden Halbstrahlen $h, k$ nennen wir einen <em>Winkel</em> und bezeichnen denselben mit $\angle(h, k)$ oder $\angle(k, h)$. Aus den Axiomen II 1–5 kann leicht geschlossen werden, dass die Halbstrahlen $h$ und $k$, zusammengenommen mit dem Punkt $O$ die übrigen Punkte der Ebene $\alpha$ in zwei Gebiete von folgender Beschaffenheit teilen: Ist A ein Punkt des einen und B ein Punkt des anderen Gebietes, so geht jeder Streckenzug, der A mit B verbindet, entweder durch 0 oder hat mit h oder k wenigstens einen Punkt gemein ; sind dagegen A, A’ Punkte desselben Gebietes , so giebt es stets einen Streckenzug, der A mit A’ verbindet und weder durch 0, noch durch einen Punkt der Halbstrahlen h, k hindurchläuft. Eines dieser beiden Gebiete ist vor dem anderen ausgezeichnet, indem jede Strecke, die irgend zwei Punkte dieses ausgezeichneten Gebietes verbindet , stets ganz in demselben liegt ; dieses ausgezeichnete Gebiet heisse das Innere des Winkels (h, k) zum Unterschiede von dem anderen Gebiete, welches das Aeitssere des Winkels (h, k) genannt werden möge. Die Halbstrahlen h, k heissen Schenkel des Winkels und der Punkt 0 heisst der Scheitel des Winkels.</p>
+        <p><strong>IV 4.</strong> Es sei ein Winkel $\angle(h, k)$ in einer Ebene $\alpha$ und eine Gerade $a'$ in einer Ebene $\alpha'$, sowie eine bestimmte Seite von $a'$ auf $\alpha'$ gegeben. Es bedeute $h'$ einen Halbstrahl der Geraden $a'$, der vom Punkte $O'$ ausgeht: dann giebt es in der Ebene $\alpha'$ einen und nur einen Halbstrahl $k'$, so dass der Winkel $(h, k)$ (oder $(k, h)$) congruent dem Winkel $(h', k')$ ist und zugleich alle inneren Punkte des Winkels $(h', k')$ auf der gegebenen Seite von $a'$ liegen, in Zeichen:</p>
+        <p>$$
+        \angle(h, k) \equiv \angle(h', k').
+        $$</p>
+        <p>Jeder Winkel ist sich selbst congruent, d. h. es ist stets</p>
+        <p>$$
+        \angle(h, k) \equiv \angle(h, k).
+        $$</p>
+        <p>Wir sagen auch kurz, dass ein jeder Winkel in einer gegebenen Ebene nach einer gegebenen Seite an einen gegebenen Halbstrahl auf eine eindeutig bestimmte Weise abgetragen werden kann.</p>
+        <p><strong>IV 5.</strong> Wenn ein Winkel $(h, k)$ sowohl dem Winkel $(h', k')$ als auch dem Winkel $(h'', k'')$ congruent ist, so ist auch der Winkel $(h', k')$ dem Winkel $(h'', k'')$ congruent, d. h. wenn $\angle(h, k) \equiv \angle(h', k')$ und $\angle(h, k) \equiv \angle(h'', k'')$ ist, so ist auch stets $\angle(h', k') \equiv \angle(h'', k'')$.</p>
+        <p><strong>Erklärung.</strong> Es sei ein Dreieck $ABC$ vorgelegt; wir bezeichnen die beiden von $A$ ausgehenden durch $B$ und $C$ laufenden Halbstrahlen mit $h$ bez. $k$. Der Winkel $(h, k)$ heisst dann der von den Seiten $AB$ und $AC$ eingeschlossene oder der der Seite $BC$ gegenüberliegende Winkel des Dreieckes $ABC$; er enthält in seinem Inneren sämtliche innere Punkte des Dreieckes $ABC$ und wird mit $\angle BAC$ oder $\angle A$ bezeichnet.</p>
+        <p><strong>IV 6.</strong> Wenn für zwei Dreiecke $ABC$ und $A'B'C'$ die Congruenzen</p>
+        <p>$$
+        AB \equiv A'B', \quad AC \equiv A'C', \quad \angle BAC \equiv \angle B'A'C'
+        $$</p>
+        <p>gelten, so sind auch stets die Congruenzen</p>
+        <p>$$
+        \angle ABC \equiv \angle A'B'C' \quad \text{und} \quad \angle ACB \equiv \angle A'C'B'
+        $$</p>
+        <p>erfüllt.</p>
+        <p>Die Axiome IV 1 — 3 enthalten nur Aussagen über die Congruenz von Strecken auf Geraden; sie mögen daher die linearen Axiome der Gruppe IV heissen. Die Axiome IV 4, 5 enthalten</p>
+        <p>Aussagen über die Congruenz von Winkeln. Das Axiom IV 6 knüpft das Band zwischen den Begriffen der Congruenz von Strecken und von Winkeln. Die Axiome IV 3 — 6 enthalten Aussagen über die Elemente der ebenen Geometrie und mögen daher die ebenen Axiome der Gruppe IV heissen.</p>
+        <div class="folio-milestone" id="folio-§ 7" data-folio="§ 7" data-page="12">[Folio § 7 | p. 12]</div>
+        </section>
+        <section class="level-2" id="folgerungen-aus-den-axiomen-der-congruenz">
+        <h2>§ 7. Folgerungen aus den Axiomen der Congruenz<a class="headerlink" href="#folgerungen-aus-den-axiomen-der-congruenz" title="Link to this heading">¶</a></h2>
+        <p><strong>Erklärung.</strong> Es sei die Strecke AB congruent der Strecke A’B’. Da nach Axiom IV 1 auch die Strecke AB congruent AB</p>
+        <p>ist, so folgt aus Axiom IV 2 A’B’ congruent AB ; wir sagen : die beiden Strecken AB und A’B’ sind unter einander congruent.</p>
+        <p><strong>Erklärung.</strong> Sind $A, B, C, D, \dots, K, L$ auf $a$ und $A', B', C', D', \dots, K', L'$ auf $a'$ zwei Reihen von Punkten, so dass die sämtlichen entsprechenden Strecken $AB$ und $A'B'$, $AC$ und $A'C'$, $BC$ und $B'C'$, $\dots$, $KL$ und $K'L'$ bez. einander congruent sind, so heissen die beiden Reihen von Punkten <em>unter einander congruent</em>; $A$ und $A'$, $B$ und $B'$, $\dots$, $L$ und $L'$ heissen die <em>entsprechenden Punkte</em> der congruenten Punktreihen.</p>
+        <p>Aus den linearen Axiomen IV 1–3 schliessen wir leicht folgende Sätze:</p>
+        <p id="grundlagen-de-thm-9"><strong>Satz 9.</strong> Ist von zwei congruenten Punktreihen $A, B, \dots, K, L$ und $A', B', \dots, K', L'$ die erste so geordnet, dass $B$ zwischen $A$ einerseits und $C, D, \dots, K, L$ andererseits, $C$ zwischen $A, B$ einerseits und $D, \dots, K, L$ andererseits, u. s. w. liegt, so sind die Punkte $A', B', \dots, K', L'$ auf die gleiche Weise geordnet, d. h. $B'$ liegt zwischen $A'$ einerseits und $C', D', \dots, K', L'$ andererseits, $C'$ zwischen $A', B'$ einerseits und $D', \dots, K', L'$ andererseits u. s. w.</p>
+        <p><strong>Erklärung.</strong> Es sei Winkel $(h, k)$ congruent dem Winkel $(h', k')$. Da nach Axiom IV 4 der Winkel $(h, k)$ congruent $\angle(h, k)$ ist, so folgt aus Axiom IV 5, dass $\angle(h', k')$ congruent $\angle(h, k)$ ist; wir sagen: die beiden Winkel $(h, k)$ und $(h', k')$ sind <em>unter einander congruent</em>.</p>
+        <p><strong>Definition.</strong> Zwei Winkel, die den Scheitel und einen Schenkel gemein haben und deren nicht gemeinsame Schenkel eine gerade Linie bilden, heissen Nebemvinkel. Zwei Winkel mit gemeinsamem Scheitel, deren Schenkel je eine Grerade bilden, heissen Scheitelwinkel. Ein Winkel, welcher einem seiner Nebenwinkel congruent ist, heisst ein rechter Winkel.</p>
+        <p><strong>Erklärung.</strong> Zwei Dreiecke $ABC$ und $A'B'C'$ heissen einander <em>congruent</em>, wenn sämtliche Congruenzen</p>
+        <p>$$
+        \begin{aligned}
+        AB &amp;\equiv A'B', &amp; AC &amp;\equiv A'C', &amp; BC &amp;\equiv B'C', \\
+        \angle A &amp;\equiv \angle A', &amp; \angle B &amp;\equiv \angle B', &amp; \angle C &amp;\equiv \angle C'
+        \end{aligned}
+        $$</p>
+        <p>erfüllt sind.</p>
+        <p id="grundlagen-de-thm-10"><strong>Satz 10 (Erster Congruenzsatz für Dreiecke).</strong> Wenn für zwei Dreiecke $ABC$ und $A'B'C'$ die Congruenzen</p>
+        <p>$$
+        AB \equiv A'B', \quad AC \equiv A'C', \quad \angle A \equiv \angle A'
+        $$</p>
+        <p>gelten, so sind die beiden Dreiecke einander congruent.</p>
+        <p><strong>Beweis.</strong> Nach Axiom IV 6 sind die Congruenzen</p>
+        <p>$$
+        \angle B \equiv \angle B' \quad \text{und} \quad \angle C \equiv \angle C'
+        $$</p>
+        <p>erfüllt und es bedarf somit nur des Nachweises, dass die Seiten $BC$ und $B'C'$ einander congruent sind. Nehmen wir nun im Gegenteil an, es wäre etwa $BC$ nicht congruent $B'C'$ und bestimmen auf $B'C'$ den Punkt $D'$, so dass $BC \equiv B'D'$ wird, so stimmen die beiden Dreiecke $ABC$ und $A'B'D'$ in zwei Seiten und dem von ihnen eingeschlossenen Winkel überein; nach Axiom IV 6 sind mithin insbesondere die beiden Winkel $\angle BAC$ und $\angle B'A'D'$ einander congruent. Nach Axiom IV 5 müssten mithin auch die beiden Winkel $\angle B'A'C'$ und $\angle B'A'D'$ einander congruent ausfallen; dies ist nicht möglich, da nach Axiom IV 4 ein jeder Winkel an einen gegebenen Halbstrahl nach einer gegebenen Seite in einer Ebene nur auf eine Weise abgetragen werden kann. Damit ist der Beweis für Satz 10 vollständig erbracht.</p>
+        <p>Ebenso leicht beweisen wir die weitere Thatsache:</p>
+        <p id="grundlagen-de-thm-11"><strong>Satz 11 (Zweiter Congruenzsatz für Dreiecke).</strong> Wenn in zwei Dreiecken je eine Seite und die beiden anliegenden Winkel congruent ausfallen, so sind die Dreiecke stets congruent.</p>
+        <p>Wir sind nunmehr im Stande, die folgenden wichtigen Thatsachen zu beweisen:</p>
+        <p id="grundlagen-de-thm-12"><strong>Satz 12.</strong> Wenn zwei Winkel $\angle ABC$ und $\angle A'B'C'$ einander congruent sind, so sind auch ihre Nebenwinkel $\angle CBD$ und $\angle C'B'D'$ einander congruent.</p>
+        <p><strong>Beweis.</strong> Wir wählen die Punkte $A', C', D'$ auf den durch $B'$ gehenden Schenkeln derart, dass</p>
+        <p>$$
+        A'B' \equiv AB, \quad C'B' \equiv CB, \quad D'B' \equiv DB
+        $$</p>
+        <p>wird. In den beiden Dreiecken $ABC$ und $A'B'C'$ sind dann die Seiten $AB$ und $CB$ bez. den Seiten $A'B'$ und $C'B'$ congruent und, da überdies die von diesen Seiten eingeschlossenen Winkel nach Voraussetzung einander congruent sein sollen, so folgt nach Satz 10 die Congruenz jener Dreiecke, d. h. es gelten die Congruenzen</p>
+        <p>$$
+        AC \equiv A'C' \quad \text{und} \quad \angle BAC \equiv \angle B'A'C'.
+        $$</p>
+        <p>Da andererseits nach Axiom IV 3 die Strecken $AD$ und $A'D'$ einander congruent sind, so folgt wiederum aus Satz 10 die Congruenz der Dreiecke $CAD$ und $C'A'D'$, d. h. es gelten die Congruenzen</p>
+        <p>$$
+        CD \equiv C'D' \quad \text{und} \quad \angle ADC \equiv \angle A'D'C'
+        $$</p>
+        <p>und hieraus folgt mittels Betrachtung der Dreiecke $BCD$ und $B'C'D'$ nach Axiom IV 6 die Congruenz der Winkel $\angle CBD$ und $\angle C'B'D'$.</p>
+        <p>Eine unmittelbare Folgerung aus Satz 12 ist der Satz von der Congruenz der Scheitelwinkel.</p>
+        <p id="grundlagen-de-thm-13"><strong>Satz 13.</strong> Es sei der Winkel $(h, k)$ in der Ebene $\alpha$ dem Winkel $(h', k')$ in der Ebene $\alpha'$ congruent und ferner sei $l$ ein Halbstrahl der Ebene $\alpha$, der vom Scheitel des Winkels $(h, k)$ ausgeht und im Inneren dieses Winkels verläuft: dann giebt es stets einen Halbstrahl $l'$ in der Ebene $\alpha'$, der vom Scheitel des Winkels $(h', k')$ ausgeht, und im Inneren dieses Winkels $(h', k')$ verläuft, so dass</p>
+        <p>$$
+        \angle(h, l) \equiv \angle(h', l') \quad \text{und} \quad \angle(k, l) \equiv \angle(k', l')
+        $$</p>
+        <p>wird.</p>
+        <p><strong>Beweis.</strong> Wir bezeichnen die Scheitel der Winkel $(h, k)$ und $(h', k')$ bez. mit $O, O'$ und bestimmen dann auf den Schenkeln $h, k, h', k'$ die Punkte $A, B, A', B'$ derart, dass die Congruenzen</p>
+        <p>$$
+        OA \equiv O'A' \quad \text{und} \quad OB \equiv O'B'
+        $$</p>
+        <p>erfüllt sind. Wegen der Congruenz der Dreiecke $OAB$ und $O'A'B'$ wird</p>
+        <p>$$
+        AB \equiv A'B', \quad \angle OAB \equiv \angle O'A'B', \quad \angle OBA \equiv \angle O'B'A'.
+        $$</p>
+        <p>Die Gerade $AB$ schneide $l$ in $C$; bestimmen wir dann auf der Strecke $A'B'$ den Punkt $C'$, so dass $A'C' \equiv AC$ wird, so ist $O'C'$ der gesuchte Halbstrahl $l'$. In der That, aus $AC \equiv A'C'$ und $AB \equiv A'B'$ kann mittelst Axiom IV 3 leicht die Congruenz $BC \equiv B'C'$ geschlossen werden; nunmehr erweisen sich die Dreiecke $OAC$ und $O'A'C'$, sowie ferner die Dreiecke $OBC$ und $O'B'C'$ unter einander congruent; hieraus ergeben sich die Behauptungen des Satzes 13.</p>
+        <p>Auf ähnliche Art gelangen wir zu folgender Thatsache:</p>
+        <p id="grundlagen-de-thm-14"><strong>Satz 14.</strong> Es seien einerseits $h, k, l$ und andererseits $h', k', l'$ je drei von einem Punkte ausgehende und je in einer Ebene gelegene Halbstrahlen: wenn dann die Congruenzen</p>
+        <p>$$
+        \angle(h, l) \equiv \angle(h', l') \quad \text{und} \quad \angle(k, l) \equiv \angle(k', l')
+        $$</p>
+        <p>erfüllt sind, so ist stets auch</p>
+        <p>$$
+        \angle(h, k) \equiv \angle(h', k').
+        $$</p>
+        <p>Auf Grund der Sätze 12 und 13 gelingt der Nachweis des folgenden einfachen Satzes, den Euklid — meiner Meinung nach mit Unrecht — unter die Axiome gestellt hat:</p>
+        <p id="grundlagen-de-thm-15"><strong>Satz 15.</strong> Alle rechten Winkel sind einander congruent.</p>
+        <p><strong>Beweis.</strong> Der Winkel $BAD$ sei seinem Nebenwinkel $CAD$ congruent und desgleichen sei der Winkel $B'A'D'$ seinem Nebenwinkel $C'A'D'$ congruent; es sind dann $\angle BAD, \angle CAD, \angle B'A'D', \angle C'A'D'$ sämtlich rechte Winkel. Wir nehmen im Gegensatz zu unserer Behauptung an, es wäre der rechte Winkel $B'A'D'$ nicht congruent dem rechten Winkel $BAD$ und tragen dann $\angle B'A'D'$ an den Halbstrahl $AB$ an, so dass der entstehende Schenkel $AD''$ entweder in das Innere des Winkels $BAD$ oder des Winkels $CAD$ fällt; es treffe etwa die erstere Möglichkeit zu. Wegen der Congruenz der Winkel $B'A'D'$ und $BAD''$ folgt nach Satz 12, dass auch der Winkel $C'A'D'$ dem Winkel $CAD''$ congruent ist, und da die Winkel $B'A'D'$ und $C'A'D'$ einander congruent sein sollen, so lehrt Axiom IV 5, dass auch der Winkel $BAD''$ dem Winkel $CAD''$ congruent sein muss. Da ferner $\angle BAD$ congruent $\angle CAD$ ist, so können wir nach Satz 13 innerhalb des Winkels $CAD$ einen von $A$ ausgehenden Halbstrahl $AD'''$ finden, so dass $\angle BAD''$ congruent $\angle CAD'''$ und zugleich $\angle DAD''$ congruent $\angle DAD'''$ wird. Nun war aber $\angle BAD''$ congruent $\angle CAD''$ und somit müsste nach Axiom IV 5 auch $\angle CAD''$ congruent $\angle CAD'''$ sein; das ist nicht möglich, weil nach Axiom IV 4 ein jeder Winkel an einen gegebenen Halbstrahl nach einer gegebenen Seite in einer Ebene nur auf eine Weise abgetragen werden kann; hiermit ist der Beweis für Satz 15 erbracht.</p>
+        <p>Wir können jetzt die Bezeichnungen „spitzer Winkel“ und „stumpfer Winkel“ in bekannter Weise einführen.</p>
+        <p>Der Satz von der Congruenz der Basiswinkel $\angle A$ und $\angle B$</p>
+        <p>im gleichschenkligen Dreiecke ABC folgt unmittelbar durch Anwendung des Axioms IV 6 auf Dreieck ABC und Dreieck BAC. Mit Hülfe dieses Satzes und unter Hinzuziehung des Satzes 14 beweisen wir dann leicht in bekannter Weise die folgende Thatsache :</p>
+        <p id="grundlagen-de-thm-16"><strong>Satz 16 (Dritter Congruenzsatz für Dreiecke).</strong> Wenn in zwei Dreiecken die drei Seiten entsprechend congruent ausfallen, so sind die Dreiecke congruent.</p>
+        <p><strong>Erklärung.</strong> Irgend eine endliche Anzahl von Punkten heisst eine Figur; liegen alle Punkte der Figur in einer Ebene, so heisst sie eine ebene Figur.</p>
+        <p>Zwei Figuren heissen congruent, wenn ihre Punkte sich paarweise einander so zuordnen lassen, dass die auf diese Weise einander zugeordneten Strecken und Winkel sämtlich einander congruent sind.</p>
+        <p>Congruente Figuren haben, wie man aus den Sätzen 12 und 9 erkennt, folgende Eigenschaften : Drei Punkte einer Geraden liegen auch in jeder congruenten Figur auf einer Geraden. Die Anordnung der Punkte in entsprechenden Ebenen in Bezug auf entsprechende Gerade ist in congruenten Figuren die nämliche; das Gleiche gilt von der Reihenfolge entsprechender Punkte in entsprechenden Geraden.</p>
+        <p>Der allgemeinste Congruenzsatz für die Ebene und für den Raum drückt sich, wie folgt, aus :</p>
+        <p id="grundlagen-de-thm-17"><strong>Satz 17.</strong> Wenn $(A, B, C, \dots)$ und $(A', B', C', \dots)$ congruente ebene Figuren sind und $P$ einen Punkt in der Ebene der ersten bedeutet, so lässt sich in der Ebene der zweiten Figur stets ein Punkt $P'$ finden derart, dass $(A, B, C, \dots, P)$ und $(A', B', C', \dots, P')$ wieder congruente Figuren sind. Enthalten die beiden Figuren wenigstens drei nicht auf einer Geraden liegende Punkte, so ist die Construction von $P'$ nur auf eine Weise möglich.</p>
+        <p id="grundlagen-de-thm-18"><strong>Satz 18.</strong> Wenn $(A, B, C, \dots)$ und $(A', B', C', \dots)$ congruente Figuren sind und $P$ einen beliebigen Punkt bedeutet, so lässt sich stets ein Punkt $P'$ finden, so dass die Figuren $(A, B, C, \dots, P)$ und $(A', B', C', \dots, P')$ congruent sind. Enthält die Figur $(A, B, C, \dots)$ mindestens vier nicht in einer Ebene liegende Punkte, so ist die Construction von $P'$ nur auf eine Weise möglich.</p>
+        <p>Dieser Satz enthält das wichtige Resultat, dass die sämtlichen räumlichen Thatsachen der Congruenz, d. h. der Bewegung im Raume — mit Hinzuziehung der Axiomgruppen I und II — lediglich Folgerungen aus den sechs oben aufgestellten linearen und ebenen Axiomen der Congruenz sind, also das Parallelenaxiom zu ihrer Feststellung nicht notwendig ist.</p>
+        <p>Nehmen wir zu den Congruenzaxiomen noch das Parallelenaxiom III hinzu, so gelangen wir leicht zu den bekannten Thatsachen :</p>
+        <p id="grundlagen-de-thm-19"><strong>Satz 19.</strong> Wenn zwei Parallelen von einer dritten Geraden geschnitten werden , so sind die Gegenwinkel und Wechselwinkel congruent, und umgekehrt : die Congruenz der Gegen- und Wechselwinkel hat zur Folge, dass die Geraden parallel sind.</p>
+        <p id="grundlagen-de-thm-20"><strong>Satz 20.</strong> Die Winkel eines Dreiecks machen zusammen zwei Rechte aus.</p>
+        <p><strong>Definition.</strong> Wenn $M$ ein beliebiger Punkt in einer Ebene $\alpha$ ist, so heisst die Gesamtheit aller Punkte A, für welche die</p>
+        <p>Strecken MA einander congruent sind, ein Kreis; M heisst der Mittelpunkt des Kreises.</p>
+        <p>Auf Grund dieser Definition folgen mit Hülfe der Axiomgruppen III — IV leicht die bekannten Sätze über den Kreis, insbesondere die Möglichkeit der Konstruktion eines Kreises durch irgend drei nicht in einer Geraden gelegene Punkte sowie der Satz über die Congruenz aller Peripheriewinkel über der nämlichen Sehne und der Satz von den Winkeln im Kreisviereck.</p>
+        <figure class="photon-picture photon-svg">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 178" width="480" height="178" class="euclid-graphic" data-graphic-id="fig_sas_supplementary" data-proposition="S.7">
+          <polygon points="35.00,145.00 165.00,145.00 82.00,48.00" class="geom-polygon" />
+          <line x1="35.00" y1="145.00" x2="165.00" y2="145.00" class="geom-bold" />
+          <line x1="165.00" y1="145.00" x2="82.00" y2="48.00" class="geom-bold" />
+          <line x1="82.00" y1="48.00" x2="35.00" y2="145.00" class="geom-bold" />
+          <path d="M 57.00 145.00 A 22.00 22.00 0 0 0 44.59 125.20" class="geom-ang-arc" />
+          <path d="M 150.70 128.28 A 22.00 22.00 0 0 0 143.00 145.00" class="geom-ang-arc" />
+          <circle cx="35.00" cy="145.00" r="3.30" class="geom-point" />
+          <text x="25.00" y="160.00" text-anchor="middle" class="geom-label">A</text>
+          <circle cx="165.00" cy="145.00" r="3.30" class="geom-point" />
+          <text x="175.00" y="160.00" text-anchor="middle" class="geom-label">B</text>
+          <circle cx="82.00" cy="48.00" r="3.30" class="geom-point" />
+          <text x="82.00" y="38.00" text-anchor="middle" class="geom-label">C</text>
+          <polygon points="245.00,145.00 375.00,145.00 292.00,48.00" class="geom-polygon" />
+          <line x1="245.00" y1="145.00" x2="450.00" y2="145.00" class="geom-bold" />
+          <line x1="375.00" y1="145.00" x2="292.00" y2="48.00" class="geom-bold" />
+          <line x1="292.00" y1="48.00" x2="245.00" y2="145.00" class="geom-bold" />
+          <line x1="375.00" y1="145.00" x2="279.78" y2="73.22" class="geom-dashed" />
+          <line x1="292.00" y1="48.00" x2="450.00" y2="145.00" class="geom-dashed" />
+          <path d="M 267.00 145.00 A 22.00 22.00 0 0 0 254.59 125.20" class="geom-ang-arc" />
+          <path d="M 360.70 128.28 A 22.00 22.00 0 0 0 353.00 145.00" class="geom-ang-arc" />
+          <path d="M 402.00 145.00 A 27.00 27.00 0 0 0 357.45 124.49" class="geom-arc" />
+          <circle cx="245.00" cy="145.00" r="3.30" class="geom-point" />
+          <text x="235.00" y="160.00" text-anchor="middle" class="geom-label">A'</text>
+          <circle cx="375.00" cy="145.00" r="3.30" class="geom-point" />
+          <text x="375.00" y="162.00" text-anchor="middle" class="geom-label">B'</text>
+          <circle cx="292.00" cy="48.00" r="3.30" class="geom-point" />
+          <text x="288.00" y="38.00" text-anchor="middle" class="geom-label">C'</text>
+          <circle cx="279.78" cy="73.22" r="3.30" class="geom-point" />
+          <text x="263.78" y="71.22" text-anchor="middle" class="geom-label">C''</text>
+          <circle cx="450.00" cy="145.00" r="3.30" class="geom-point" />
+          <text x="460.00" y="160.00" text-anchor="middle" class="geom-label">D'</text>
+        </svg>
+        <figcaption>**Hilbert's SAS Reductio (Theorem 10) and Supplementary Angle Congruence (Theorem 12).** Eliminating Euclidean superposition: SAS congruence (Theorem 10) via Axiom IV 6 and supplementary angles (Theorem 12; cf. Heath on Euclid C.N. 4, folios 0243–0244).</figcaption>
+        </figure>
+        <div class="folio-milestone" id="folio-§ 8" data-folio="§ 8" data-page="19">[Folio § 8 | p. 19]</div>
+        </section>
+        <section class="level-2" id="die-axiomgruppe-v-axiom-der-stetigkeit-archimedisches-axiom">
+        <h2>§ 8. Die Axiomgruppe V: Axiom der Stetigkeit (Archimedisches Axiom)<a class="headerlink" href="#die-axiomgruppe-v-axiom-der-stetigkeit-archimedisches-axiom" title="Link to this heading">¶</a></h2>
+        <p>Dieses Axiom ermöglicht die Einführung des Stetigkeitsbegriffes in die Geometrie; um dasselbe auszusprechen, müssen wir zuvor eine Festsetzung über die Gleichheit zweier Strecken auf einer Geraden treffen. Zu dem Zwecke können wir entweder die Axiome über Streckencongruenz zu Grunde legen und dementsprechend congruente Strecken als „gleiche“ bezeichnen oder auf Grund der Axiomgruppen I — II durch geeignete Constructionen (vgl. Kap. V § 24) festsetzen , wie eine Strecke von einem Punkte einer gegebenen Geraden abzutragen ist, so dass eine bestimmte neue ihr „gleiche“ Strecke entsteht. Nach einer solchen Festsetzung lautet das Archimedische Axiom, wie folgt:</p>
+        <p><strong>V.</strong> Es sei $A_1$ ein beliebiger Punkt auf einer Geraden zwischen den beliebig gegebenen Punkten $A$ und $B$; man construire dann die Punkte $A_2, A_3, A_4, \dots$, so dass $A_1$ zwischen $A$ und $A_2$, ferner $A_2$ zwischen $A_1$ und $A_3$, ferner $A_3$ zwischen $A_2$ und $A_4$ u. s. w. liegt und überdies die Strecken</p>
+        <p>$$
+        AA_1, \quad A_1A_2, \quad A_2A_3, \quad A_3A_4, \quad \dots
+        $$</p>
+        <p>einander gleich sind: dann giebt es in der Reihe der Punkte $A_2, A_3, A_4, \dots$ stets einen solchen Punkt $A_n$, dass $B$ zwischen $A$ und $A_n$ liegt.</p>
+        <p>Das Archimedische Axiom ist ein lineares Axiom.</p>
+        <div class="note admonition">
+        <p class="admonition-title">[Philologische Editionsnotiz: Das Axiom der Vollständigkeit (1900 / 1902 / 1903)]</p>
+        <p>Die vorliegende <strong>Teubner-Festschrift von Juni 1899</strong> (Erste Auflage) enthält in der Axiomgruppe V ausschliesslich das obige <strong>Archimedische Axiom</strong>. Erst in seinem Vortrag <em>„Über den Zahlbegriff“</em> (<em>Jahresbericht der Deutschen Mathematiker-Vereinigung</em>, Bd. 8, 1900, S. 180–184), in L. Laugels französischer Ausgabe (1900), in E. J. Townsends englischer Übersetzung (<a class="reference internal" href="chapter-1-en.html#grundlagen-en-s8"><span class="std std-ref">Chapter I, § 8</span></a>, 1902) sowie ab der zweiten deutschen Auflage (1903) fügte Hilbert als Axiom <strong>V 2</strong> das <strong>Axiom der Vollständigkeit</strong> hinzu:</p>
+        <blockquote>
+        <div><p><strong>Axiom der Vollständigkeit (V 2).</strong> <em>Die Elemente (Punkte, Geraden, Ebenen) der Geometrie bilden ein System von Dingen, welches bei Aufrechterhaltung sämtlicher genannten Axiome keiner Erweiterung mehr fähig ist; d. h.: zu dem System der Punkte, Geraden, Ebenen ist es nicht möglich, ein anderes System von Dingen hinzuzufügen, so dass in dem durch Zusammensetzung entstehenden System sämtliche aufgeführten Axiome I–IV, V 1 erfüllt sind.</em></p>
+        </div></blockquote>
+        </div>
+        <hr class="docutils" />
+        <p class="rubric">Fussnoten</p>
+        <aside class="footnote-list brackets">
+        <aside class="footnote brackets" id="fn1" role="doc-footnote">
+        <span class="label"><span class="fn-bracket">[</span><a role="doc-backlink" href="#id1">1</a><span class="fn-bracket">]</span></span>
+        <p>Diese Axiome hat zuerst M. Pasch in seinen <em>Vorlesungen über neuere Geometrie</em>, Leipzig 1882, ausführlich untersucht. Insbesondere rührt das Axiom II 5 von M. Pasch her.</p>
+        </aside>
+        </aside>
+        </section>
+        </section>
+
+      </div>
+      <footer class="book-footer">
+        <div class="book-footer-ornament">&#10086;</div>
+        <div class="book-footer-nav">
+          <div class="book-nav-prev">
+            <a class="book-nav-btn" href="../introduction/introduction-de.html" title="Preface &amp; Introduction">&larr; <span class="nav-label">Preface & Introduction</span></a>
+          </div>
+          <div class="book-nav-center">
+            <a class="book-toc-link" href="../index.html">GRUNDLAGEN DER GEOMETRIE</a>
+          </div>
+          <div class="book-nav-next">
+            <a class="book-nav-btn" href="../chapter-2/chapter-2-de.html" title="Chapter II: The Compatibility and Mutual Independence of the Axioms"><span class="nav-label">Chapter II: The Compatibility and Mutual Independence of the Axioms</span> &rarr;</a>
+          </div>
+        </div>
+      </footer>
+    </article>
+  </main>
+  <div class="asides">
+    <aside class="aside-search">
+      <h3>Search</h3>
+      <div id="searchbox" role="search">
+        <form id="rtd-search-form" class="wy-form search-form" action="../../search.html" method="get">
+          <div class="search-field">
+            <input type="search" name="q" placeholder="Search docs..." aria-label="Search docs" autocomplete="off" />
+            <button type="submit" class="search-submit" aria-label="Search" title="Search">
+              <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <circle cx="11" cy="11" r="8"></circle>
+                <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+              </svg>
+            </button>
+          </div>
+          <input type="hidden" name="check_keywords" value="yes" />
+          <input type="hidden" name="area" value="default" />
+        </form>
+      </div>
+    </aside>
+  </div>
+  <footer>
+    <div class="footer-nav">
+      <ul>
+        <li><a href="../../about/index.html"  >about</a></li>
+      </ul>
+    </div>
+    <hr />
+    <div role="contentinfo">
+      <p>
+        &copy; Copyright 1899 B. G. Teubner · 1902 Open Court · Digital Codex GEOMETOR.
+      </p>
+    </div>
+  </footer>
+
+  <script src="../../_static/jquery.js?v=5d32c60e"></script>
+  <script src="../../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+  <script src="../../_static/documentation_options.js?v=01f34227"></script>
+  <script src="../../_static/doctools.js?v=fd6eb6e6"></script>
+  <script src="../../_static/sphinx_highlight.js?v=6ffebe34"></script>
+  <script src="../../_static/js/collection_controls.js?v=b6b5297a"></script>
+  <script src="../../_static/js/geometor_interactive.js?v=b2892320"></script>
+  <script src="../../_static/js/search_highlight.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,33 @@
+geometor.hilbert.compile_codex
+==============================
+
+.. py:module:: geometor.hilbert.compile_codex
+
+.. autoapi-nested-parse::
+
+   Compile the complete 4-track Book Codex and scholarly apparatus for `geometor-hilbert`.
+
+
+
+Functions
+---------
+
+.. autoapisummary::
+
+   geometor.hilbert.compile_codex.compile_codex
+   geometor.hilbert.compile_codex.main
+
+
+Module Contents
+---------------
+
+.. py:function:: compile_codex(repo_root: pathlib.Path | None = None) -> dict[str, Any]
+
+   Verify archival sources and compile all 41 RST files under `docsrc/grundlagen/`.
+
+
+.. py:function:: main() -> None
+
+   CLI entrypoint for `geometor-hilbert` codex compilation.
+
+

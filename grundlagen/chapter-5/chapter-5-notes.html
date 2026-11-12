@@ -1,0 +1,191 @@
+
+
+<!DOCTYPE html>
+<html lang="en" data-content_root="../../">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Chapter V: Desargues’s Theorem — Notes &mdash; GRUNDLAGEN DER GEOMETRIE</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..700;1,400..700&family=Fira+Sans+Condensed:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600;1,700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" type="text/css" href="../../_static/pygments.css?v=ea5fcf70" />
+  <link rel="stylesheet" type="text/css" href="../../_static/css/styles.css?v=66998e95" />
+  <link rel="stylesheet" type="text/css" href="../../_static/graphviz.css?v=4ae1632d" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css" />
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js"></script>
+  <link rel="stylesheet" href="../../_static/css/print.css" type="text/css" media="print" />
+  <link rel="icon" href="../../_static/favicon.ico" />
+</head>
+
+<body class="is-book-page book-theme-classical-serif">
+  <header>
+    <div class="logo">
+      <a href="../../index.html">
+        <h1>GEOMETOR • hilbert</h1>
+      </a>
+      <div class="org-repo">
+        <span class="org">GEOMETOR</span>
+        •
+        <span class="repo">hilbert</span>
+      </div>
+    </div>
+    <nav aria-label="Header">
+      <input type="checkbox" id="nav-Header-toggle" >
+      <label for="nav-Header-toggle" >Header</label>
+      <ul>
+        <li>
+          <a href="../../mission/index.html"  >mission</a>
+        </li>
+        <li>
+          <a href="../../log/index.html"  >log</a>
+        </li>
+        <li>
+          <a href="../../modules/index.html"  >modules</a>
+        </li>
+      </ul>
+    </nav>
+    <div class="motto"></div>
+  </header>
+  <main class="book-main">
+    <article class="book-layout book-reading-pane">
+      <header class="book-header">
+        <div class="book-header-bar">
+          <div class="book-header-identity">
+            <a class="book-portal-link" href="../../index.html" title="Return to Project Portal">&larr; hilbert</a>
+            <span class="book-header-sep">/</span>
+            <a class="book-title-link" href="../index.html">GRUNDLAGEN DER GEOMETRIE</a>
+          </div>
+        </div>
+        <div class="book-header-nav">
+          <div class="book-nav-prev">
+            <a class="book-nav-btn" href="../chapter-4/chapter-4-notes.html" title="Chapter IV: The Theory of Plane Areas">&larr; <span class="nav-label">Prev</span></a>
+          </div>
+          <div class="book-nav-center">
+            <nav class="book-tracks-nav" aria-label="Document Tracks">
+              <a class="book-track-item" href="chapter-5-en.html">English</a>
+              <span class="book-track-sep">&middot;</span>
+              <a class="book-track-item" href="chapter-5-de.html">Deutsch</a>
+              <span class="book-track-sep">&middot;</span>
+              <a class="book-track-item" href="chapter-5-summary.html">Summary</a>
+              <span class="book-track-sep">&middot;</span>
+              <strong class="book-track-item is-active" aria-current="page">Notes</strong>
+            </nav>
+          </div>
+          <div class="book-nav-next">
+            <a class="book-nav-btn" href="../chapter-6/chapter-6-notes.html" title="Chapter VI: Pascal’s Theorem"><span class="nav-label">Next</span> &rarr;</a>
+          </div>
+        </div>
+      </header>
+      <div class="content body book-content folio-book-page" role="main">
+        <section class="level-1" id="chapter-v-desargues-s-theorem-notes">
+        <span id="grundlagen-chapter-5-notes"></span><h1>Chapter V: Desargues’s Theorem — Notes<a class="headerlink" href="#chapter-v-desargues-s-theorem-notes" title="Link to this heading">¶</a></h1>
+        <p class="rubric">Historical, Philological &amp; Cross-Repository Commentary</p>
+        <nav class="contents local" id="in-these-notes">
+        <p class="topic-title">In These Notes</p>
+        <ul class="simple">
+        <li><p><a class="reference internal" href="#geometor-commentary-cross-repository-notes" id="id1">GEOMETOR Commentary &amp; Cross-Repository Notes</a></p>
+        <ul>
+        <li><p><a class="reference internal" href="#dimensionality-and-the-meaning-of-spatial-incidence-2223-30" id="id2">1. Dimensionality and the Meaning of Spatial Incidence (<cite>§§ 22–23, 30</cite>)</a></p></li>
+        <li><p><a class="reference internal" href="#non-commutative-geometry-before-quantum-mechanics-2429" id="id3">2. Non-Commutative Geometry Before Quantum Mechanics (<cite>§§ 24–29</cite>)</a></p></li>
+        </ul>
+        </li>
+        <li><p><a class="reference internal" href="#cross-repository-concordance-links" id="id4">Cross-Repository Concordance Links</a></p></li>
+        </ul>
+        </nav>
+        <section class="level-2" id="geometor-commentary-cross-repository-notes">
+        <h2>GEOMETOR Commentary &amp; Cross-Repository Notes<a class="headerlink" href="#geometor-commentary-cross-repository-notes" title="Link to this heading">¶</a></h2>
+        <section class="level-3" id="dimensionality-and-the-meaning-of-spatial-incidence-2223-30">
+        <h3>1. Dimensionality and the Meaning of Spatial Incidence (<cite>§§ 22–23, 30</cite>)<a class="headerlink" href="#dimensionality-and-the-meaning-of-spatial-incidence-2223-30" title="Link to this heading">¶</a></h3>
+        <p>Why can Desargues’s Theorem (<cite>Theorem 32</cite>) be proved in three lines in 3D projective/affine space using only incidence axioms (<cite>I 1–7, II, III</cite>), yet <strong>cannot be proved at all</strong> in 2D planar incidence-order-parallel geometry (<cite>I 1–2, II, III, V</cite>)?</p>
+        <ul class="simple">
+        <li><p><strong>In 3-Space</strong>: Given two perspective triangles in plane $\alpha$, one lifts the perspective rays into a triangular pyramid in 3-space so corresponding sides lie in two planes $\beta, \gamma$; the intersection line $\beta \cap \gamma$ (guaranteed by spatial Axiom <cite>I 6</cite>!) meets $\alpha$ in the Desargues axis (or parallel direction).</p></li>
+        <li><p><strong>In the Plane Alone (`§ 23`, `Theorem 33`)</strong>: Without a third spatial dimension (<cite>I 3–7</cite>) or planar triangle congruence (<cite>IV 6</cite>), <a class="person-ref" id="occ-person-hilbert-1" href="../persons.html#person-hilbert" data-person="hilbert" title="David Hilbert (1862 – 1943) — German Mathematician &amp; Professor at Göttingen">Hilbert</a>’s refracted ellipse model bends straight lines locally inside $x^2 + 4y^2 = 1$ along circular arcs through $F(\tfrac{3}{2}, 0)$, destroying perspective concurrency while preserving all planar incidence, order, parallel, and continuity axioms! <em>(Historical note: in 1902 Forest Ray Moulton simplified Hilbert’s ellipse construction to refracted broken lines across the $X$-axis—the “Moulton plane”—after Hilbert’s 1899 breakthrough showed such planes exist.)</em></p></li>
+        <li><p><strong>Elimination of Spatial Axioms (`§ 30`, `Theorem 35`)</strong>: As <a class="person-ref" id="occ-person-hilbert-2" href="../persons.html#person-hilbert" data-person="hilbert" title="David Hilbert (1862 – 1943) — German Mathematician &amp; Professor at Göttingen">Hilbert</a> summarizes memorably in § 30, Desargues’s Theorem is <em>“the result of the elimination of the space axioms”</em> for planar geometry, and simultaneously unlocks embedding into projective/affine spaces of <strong>arbitrary dimension $n$</strong>!</p></li>
+        </ul>
+        </section>
+        <section class="level-3" id="non-commutative-geometry-before-quantum-mechanics-2429">
+        <h3>2. Non-Commutative Geometry Before Quantum Mechanics (<cite>§§ 24–29</cite>)<a class="headerlink" href="#non-commutative-geometry-before-quantum-mechanics-2429" title="Link to this heading">¶</a></h3>
+        <p>Notice the astonishing modernity of §§ 24–29: twenty-six years before Heisenberg, Born, and Jordan introduced non-commutative matrix mechanics in Göttingen (1925), <a class="person-ref" id="occ-person-hilbert-3" href="../persons.html#person-hilbert" data-person="hilbert" title="David Hilbert (1862 – 1943) — German Mathematician &amp; Professor at Göttingen">Hilbert</a> constructs coordinate geometry over a <strong>non-commutative division ring</strong> (<em>skew-field</em>, <a class="term-ref glossary-term" id="occ-term-desarguessches-zahlensystem-1" href="../glossary.html#term-desarguessches-zahlensystem" data-term="desarguessches-zahlensystem" title="Desarguessches Zahlensystem (Desarguesian Number System (Ordered Associative Skew-Field)): The algebraic system constructed in §§ 24–27 (Theorem 34) from planar Incidence, Order, Parallels, and Desargues&#x27;s Theorem without Congruence. Satisfies all field axioms except commutativity of multiplication (ab = ba).">Desarguessches Zahlensystem</a>). In <cite>Theorem 34</cite> (<cite>§ 27</cite>), left-multiplication vs. right-multiplication becomes geometrically decisive:</p>
+        <ul class="simple">
+        <li><p>$ax + by + c = 0$ (coefficients on the <strong>left</strong>) defines a straight line;</p></li>
+        <li><p>$xa + yb + c = 0$ (coefficients on the <strong>right</strong>) in general <strong>does not</strong> define a straight line unless multiplication commutes—i.e., unless Pappus’s/Pascal’s Theorem holds!</p></li>
+        </ul>
+        </section>
+        </section>
+        <section class="level-2" id="cross-repository-concordance-links">
+        <h2>Cross-Repository Concordance Links<a class="headerlink" href="#cross-repository-concordance-links" title="Link to this heading">¶</a></h2>
+        <p><em>(See the full</em> <a class="reference internal" href="../concordance.html#concordance"><span class="std std-ref">Euclid–Hoenen–Hilbert–Pappus Master Concordance</span></a> <em>for complete tables.)</em></p>
+        <ul class="simple">
+        <li><p><strong>§ 22, § 23, § 24, § 25, § 26, § 27, § 28, § 29, § 30</strong> (<a class="reference internal" href="../concordance.html#concordance-sec-22-30-desargues"><span class="std std-ref">§ 22, § 23, § 24, § 25, § 26, § 27, § 28, § 29, § 30 (chapter-5)</span></a>): Proves Desargues’s Theorem from spatial incidence (I–III) or planar congruence, constructs Hilbert’s celebrated non-Desarguesian plane (§ 23, Theorem 33) by refracting lines across an ellipse to prove planar Desargues unprovable from planar I 1–2, II, III, IV 1–5, V alone, and shows that planar Desargues characterizes embeddability in 3-space and coordinatizability over an associative skew-field (Theorems 34–35).
+        - <a class="reference external" href="https://geometor.github.io/elements/index.html" title="(in GEOMETOR • elements v0.4.0)"><span class="xref std std-doc">Euclid — Book XI (Spatial Incidence vs. Book I Planar Congruence)</span></a>: Reveals that a 2D affine plane satisfying I 1–2, II, III can be embedded into a 3D incidence space satisfying I 3–7 if and only if Desargues’s Theorem holds.
+        - : Illustrates the structural constraint exerted by three-dimensional spatial incidence upon two-dimensional planar geometry.
+        - : Establishes the first rung of projective coordinatization: planar Incidence + Order + Parallels + Desargues (without Congruence IV!) generates an associative division ring (skew-field, Desarguessches Zahlensystem), whereas dropping Congruence in 2D allows Hilbert’s ellipse-arc non-Desarguesian plane (§ 23).</p></li>
+        </ul>
+        </section>
+        </section>
+
+      </div>
+      <footer class="book-footer">
+        <div class="book-footer-ornament">&#10086;</div>
+        <div class="book-footer-nav">
+          <div class="book-nav-prev">
+            <a class="book-nav-btn" href="../chapter-4/chapter-4-notes.html" title="Chapter IV: The Theory of Plane Areas">&larr; <span class="nav-label">Chapter IV: The Theory of Plane Areas</span></a>
+          </div>
+          <div class="book-nav-center">
+            <a class="book-toc-link" href="../index.html">GRUNDLAGEN DER GEOMETRIE</a>
+          </div>
+          <div class="book-nav-next">
+            <a class="book-nav-btn" href="../chapter-6/chapter-6-notes.html" title="Chapter VI: Pascal’s Theorem"><span class="nav-label">Chapter VI: Pascal’s Theorem</span> &rarr;</a>
+          </div>
+        </div>
+      </footer>
+    </article>
+  </main>
+  <div class="asides">
+    <aside class="aside-search">
+      <h3>Search</h3>
+      <div id="searchbox" role="search">
+        <form id="rtd-search-form" class="wy-form search-form" action="../../search.html" method="get">
+          <div class="search-field">
+            <input type="search" name="q" placeholder="Search docs..." aria-label="Search docs" autocomplete="off" />
+            <button type="submit" class="search-submit" aria-label="Search" title="Search">
+              <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <circle cx="11" cy="11" r="8"></circle>
+                <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+              </svg>
+            </button>
+          </div>
+          <input type="hidden" name="check_keywords" value="yes" />
+          <input type="hidden" name="area" value="default" />
+        </form>
+      </div>
+    </aside>
+  </div>
+  <footer>
+    <div class="footer-nav">
+      <ul>
+        <li><a href="../../about/index.html"  >about</a></li>
+      </ul>
+    </div>
+    <hr />
+    <div role="contentinfo">
+      <p>
+        &copy; Copyright 1899 B. G. Teubner · 1902 Open Court · Digital Codex GEOMETOR.
+      </p>
+    </div>
+  </footer>
+
+  <script src="../../_static/jquery.js?v=5d32c60e"></script>
+  <script src="../../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+  <script src="../../_static/documentation_options.js?v=01f34227"></script>
+  <script src="../../_static/doctools.js?v=fd6eb6e6"></script>
+  <script src="../../_static/sphinx_highlight.js?v=6ffebe34"></script>
+  <script src="../../_static/js/collection_controls.js?v=b6b5297a"></script>
+  <script src="../../_static/js/geometor_interactive.js?v=b2892320"></script>
+  <script src="../../_static/js/search_highlight.js"></script>
+
+</body>
+</html>

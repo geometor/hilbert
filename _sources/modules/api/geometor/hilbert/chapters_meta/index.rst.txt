@@ -1,0 +1,37 @@
+geometor.hilbert.chapters_meta
+==============================
+
+.. py:module:: geometor.hilbert.chapters_meta
+
+.. autoapi-nested-parse::
+
+   Canonical structural metadata, figure placements, and scholarly Summary/Notes tracks.
+
+
+
+Attributes
+----------
+
+.. autoapisummary::
+
+   geometor.hilbert.chapters_meta.UNITS
+   geometor.hilbert.chapters_meta.SECTIONS_META
+   geometor.hilbert.chapters_meta.SUMMARIES
+   geometor.hilbert.chapters_meta.NOTES
+
+
+Module Contents
+---------------
+
+.. py:data:: UNITS
+   :type:  list[dict[str, Any]]
+
+.. py:data:: SECTIONS_META
+   :type:  dict[int, dict[str, Any]]
+
+.. py:data:: SUMMARIES
+   :type:  dict[str, str]
+
+.. py:data:: NOTES
+   :type:  dict[str, str]
+
