@@ -1,0 +1,4952 @@
+\ü  • 
+
+
+*J* 
+
+
+Vi 
+
+
+m 
+
+
+LIBRARY  OF 
+WELLESLEY  COLLEGE 
+
+
+PRESENTED  BY 
+
+
+HELEN  A.  MEERILL,    »36 
+
+
+FESTSCHRIFT 
+
+ZUR   FEIER  DER   ENTHÜLLUNG   DES   GAUSS  -WEBER- 
+DENKMALS  IN   GÖTTINGEN.     HERAUSGEGEBEN  VON 
+DEM  FEST-COMITEE.     L  THEIL. 
+
+
+GRUNDLAGEN  DER  GEOMETRIE 
+
+
+VON 
+
+
+Dr.  DAVID  HILBERT, 
+
+0.  PROFESSOR  AN  DER  UNIVERSITÄT  GÖTTINGEN. 
+
+
+MIT  50  IN  DEN  TEXT  GEDRUCKTEN  FIGUREN. 
+
+
+LEIPZIG, 
+
+VERLAG  VON  B.  G.  TEUBNER. 
+
+1899. 
+
+
+2     1942 
+
+
+N\prc\\ 
+
+HS« 
+
+
+GRÜNDLAGEN  DER  GEOMETRIE 
+
+
+VON 
+
+DR.  DAVID  HILBERT, 
+
+O.   PROFESSOE   AN    DER   UNIVERSITÄT    GÖTTINGEN. 
+
+
+Hubert,    Grundlagen  der  Geometrie. 
+
+
+Digitized  by  the  Internet  Archive 
+
+in  2012  with  funding  from 
+
+Boston  Library  Consortium  Member  Libraries 
+
+
+http://archive.org/details/grundlagendergeoOOhilb 
+
+
+So  fängt  denn  alle  menschliche  Erkenntnis 
+mit  Anschauungen  an,  geht  von  da  zu  Begriffen 
+und  endigt  mit  Ideen. 
+
+Kant,  Kritik  der  reinen  Vernunft, 
+Elementarlehre  2.  T.  2.  Aht. 
+
+
+Einleitung. 
+
+Die  Geometrie  bedarf  —  ebenso  wie  die  Arithmetik  —  zu 
+ihrem  folgerichtigen  Aufbau  nur  weniger  und  einfacher  Grund- 
+thatsachen.  Diese  Grundthatsachen  heissen  Axiome  der  Geo- 
+metrie. Die  Aufstellung  der  Axiome  der  Geometrie  und  die 
+Erforschung  ihres  Zusammenhanges  ist  eine  Aufgabe,  die  seit  Euklid 
+in  zahlreichen  vortrefflichen  Abhandlungen  der  mathematischen 
+Litteratur x)  sich  erörtert  findet.  Die  bezeichnete  Aufgabe  läuft 
+auf  die  logische  Analyse  unserer  räumlichen  Anschauung  hinaus. 
+
+Die  vorliegende  Untersuchung  ist  ein  neuer  Versuch,  für  die 
+Geometrie  ein  einfaches  und  vollständiges  System  von  ein- 
+ander unabhängiger  Axiome  aufzustellen  und  aus  denselben 
+die  wichtigsten  geometrischen  Sätze  in  der  "Weise  abzuleiten, 
+class  dabei  die  Bedeutung  der  verschiedenen  Axiomgruppen  und 
+die  Tragweite  der  aus  den  einzelnen  Axiomen  zu  ziehenden  Fol- 
+gerungen möglichst  klar  zu  Tage  tritt. 
+
+
+1)  Man  vergleiche  die  zusammenfassenden  und  erläuternden  Berichte  von 
+G.  Veronese,  „Grundzüge  der  Geometrie",  deutsch  von  A.  Schepp,  Leipzig  1894 
+(Anhang),  und  F.  Klein,  „Zur  ersten  Verteilung  des  LöbatscliefsMy  -  Preises", 
+Math.  Ann.  Bd.  50. 
+
+
+1* 
+
+
+Kapitel  I. 
+
+Die  fünf  Axiomgruppen. 
+
+§1- 
+Die  Elemente  der  Geometrie  und  die  fünf  Axiomgruppen. 
+
+Erklärung.  Wir  denken  drei  verschiedene  Systeme  von 
+Dingen:  die  Dinge  des  ersten  Systems  nennen  wir  Punkte  und 
+bezeichnen  sie  mit  A,  B,  C,  .  . . ;  die  Dinge  des  zweiten  Systems 
+nennen  wir  Gerade  und  bezeichnen  sie  mit  a,  b,  c,  . . . ;  die  Dinge 
+des  dritten  Systems  nennen  wir  Ebenen  und  bezeichnen  sie  mit 
+cc,  ß,  y,  , . . ;  die  Punkte  heissen  auch  die  Elemente  der  linearen  Geo- 
+metrie ,  die  Punkte  und  Geraden  heissen  die  Elemente  der  ebenen 
+Geometrie  und  die  Punkte,  Geraden  und  Ebenen  heissen  die  Ele- 
+mente der  räumlichen  Geometrie  oder  des  Raumes. 
+
+Wir  denken  die  Punkte,  Geraden,  Ebenen  in  gewissen  gegen- 
+seitigen Beziehungen  und  bezeichnen  diese  Beziehungen  durch 
+Worte  wie  „liegen",  „zwischen",  „parallel",  „congruent", 
+„stetig";  die  genaue  und  vollständige  Beschreibung  dieser  Be- 
+ziehungen erfolgt  durch  die  Axiome  der  Geometrie. 
+
+Die  Axiome  der  Geometrie  gliedern  sich  in  fünf  Gruppen; 
+jede  einzelne  dieser  Gruppen  drückt  gewisse  zusammengehörige 
+Grundthatsachen  unserer  Anschauung  aus.  Wir  benennen  diese 
+Gruppen  von  Axiomen  in  folgender  Weise  : 
+
+1 1 — 7.  Axiome  der   Verknüpfung, 
+
+II 1 — 5.  Axiome  der  Anordnung, 
+
+III.  Axiom  der  Parallelen  {Euklidisches  Axiom), 
+
+IV  1 — 6.  Axiome  der  Congruenz, 
+
+V.  Axiom  der  Stetigkeit  (Archimedisches  Axiom). 
+
+
+Kap.  I.  Die  fünf  Axiomgruppen.    §  2.  5 
+
+§2. 
+Die  Axiomgruppe  I:  Axiome  der  Verknüpfung. 
+
+Die  Axiome  dieser  Gruppe  stellen  zwischen  den  oben  erklär- 
+ten Begriffen  Punkte,  Geraden  und  Ebenen  eine  Verknüpfung  her 
+und  lauten  wie  folgt: 
+
+I  1.  Zwei  von  einander  verschiedene  PunJcte  A,  B  bestimmen 
+stets  eine  Gerade  a;   ivir  setzen  AB  =  a  oder  BA  =  a. 
+
+Statt  „bestimmen"  werden  wir  auch  andere  Wendungen
+
+brauchen,  z.  B.  A  „liegt  auf"  a,  A  „ist  ein  Punkt  von"  a, 
+a  „geht  durch"  A  „und  durch"  B,  a  „verbindet"  A  „und" 
+oder  „mit"  B  u.  s.  w.  Wenn  A  auf  a  und  ausserdem  auf  einer 
+anderen  Geraden  b  liegt ,  so  gebrauchen  wir  auch  die  Wendung : 
+„die  Geraden"  a  „und"  b  „haben  den  Punkt  A  gemein" 
+u.  s.  w. 
+
+I  2.  Irgend  zwei  von  einander  verschiedene  Punkte  einer  Geraden 
+bestimmen  diese  Gerade)  d.  h.  wenn  AB  =  a  und  AG  =  a,  und 
+B  4=  C,  so  ist  auch  BC  =  a. 
+
+I  3.  Brei  nicht  auf  ein  und  derselben  Geraden  liegende  PunJcte 
+A,  B,  C  bestimmen  stets  eine  Ebene  cc;  wir  setzen  ABC  =  cc. 
+
+Wir  gebrauchen  auch  die  Wendungen:  A,  B,  C  „liegen  in" 
+cc;  A,  B,  C  „sind  Punkte  von"  cc   u.  s.  w. 
+
+14.  Irgend  drei  PunJcte  A,  B,  C  einer  Ebene  cc,  die  niclit  auf 
+ein  und  derselben  Geraden  liegen,  bestimmen  diese  Ebene  cc. 
+
+I  5.  Wenn  zwei  PunJcte  A,  B  einer  Geraden  a  in  einer  Ebene 
+cc  liegen,  so  liegt  jeder  Punkt  von  a  in  cc. 
+
+In  diesem  Falle  sagen  wir:  die  Gerade  a  liegt  in  der 
+Ebene  cc  u.  s.  w. 
+
+I  6.  Wenn  zwei  Ebenen  cc,  ß  einen  PunJct  A  gemein  Jiaben ,  so 
+Jiaben  sie  wenigstens  noch  einen  iveiteren  PunJct  B  gemein. 
+
+I  7.  Auf  jeder  Geraden  giebt  es  wenigstens  zwei  Punkte,  in  jeder 
+Ebene  ivenigstens  drei  nicJit  auf  einer  Geraden  gelegene  Punkte  und 
+im  Raum  giebt  es  ivenigstens  vier  nicJit  in  einer  Ebene  gelegene  PunJcte. 
+
+Die  Axiome  I  1 — 2  enthalten  nur  Aussagen  über  die  Punkte 
+und  Geraden,  d.  h.  über  die  Elemente  der  ebenen  Geometrie  und 
+mögen  daher  die  ebenen  Axiome  der  Gruppe  I  heissen,  zum  Unter- 
+schied von  den  Axiomen  I  3 — 7,  die  ich  kurz  als  die  räumlicJien 
+Axiome  bezeichne. 
+
+Yon  den  Sätzen,  die  aus  den  Axiomen  II — 7  folgen,  erwähne 
+ich  nur  diese  beiden: 
+
+
+6  Kap.  I.    Die  fünf  Axiomgruppen.    §  2,  3. 
+
+Satz  1.  Zwei  Geraden  einer  Ebene  haben  einen  oder  keinen 
+Punkt  gemein ;  zwei  Ebenen  haben  keinen  Punkt  oder  eine  Gerade 
+gemein ;  eine  Ebene  und  eine  nicht  in  ihr  liegende  Gerade  haben 
+keinen  oder  einen  Punkt  gemein. 
+
+Satz  2.  Durch  eine  Gerade  und  einen  nicht  auf  ihr  liegenden 
+Punkt,  so  wie  auch  durch  zwei  verschiedene  Geraden  mit  einem 
+gemeinsamen  Punkt  giebt  es  stets  eine  und  nur  eine  Ebene. 
+
+§  3. 
+Die  Axiomgruppe  II:  Axiome  der  Anordnung1). 
+
+Die  Axiome  dieser  Gruppe  defmiren  den  Begriff  „zwischen" 
+und  ermöglichen  auf  Grund  dieses  Begriffes  die  Anordnung  der 
+Punkte  auf  einer  Geraden,  in  einer  Ebene  und  im  ßaume. 
+
+Erklärung.  Die  Punkte  einer  Geraden  stehen  in  gewissen 
+Beziehungen  zu  einander,  zu  deren  Beschreibung  uns  insbesondere 
+das  Wort  „ziuischen"  dient. 
+
+II 1.     Wenn  A,  B,  C 
+
+A.  JS  C  Tunide  einer  Geraden  sind, 
+
+Fio.  j  und  B  zwischen  A  und  C 
+
+liegt,     so     liegt    B    auch 
+zwischen  C  und  A. 
+
+II  2.     Wenn  A  und  G  zivei  Punkte  einer  Geraden  sind,  so  giebt 
+
+es  stets  tvenigstens  einen 
+A.  J3        C  D  Punkt  B,    der   zwischen 
+
+F-     2  A  und  C  liegt  und  tvenig- 
+
+stens einen  Punkt  B,  so 
+dass  C  zwischen  A  und  B  liegt. 
+
+II  3.  Unter  irgend  drei  Punkten  einer  Geraden  giebt  es  stets 
+einen  und  nur  einen,  der  zwischen  den  beiden  andern  liegt. 
+
+II  4.  Irgend  vier  Punkte  A,  B,  G,  B  einer  Geraden  können  stets 
+so  angeordnet  werden,  dass  B  zwischen  A  und  C  und  auch  zwischen 
+A  und  B  und  ferner  C  zwischen  A  und  B  und  auch  zwischen  B  und 
+B  liegt. 
+
+Definition.  Das  System  zweier  Punkte  A  und  B,  die 
+auf  einer  Geraden  a  liegen,  nennen  wir  eine  Strecke  und  bezeichnen 
+dieselbe  mit  AB  oder  BA.  Die  Punkte  zwischen  A  und  B  heissen 
+Punkte  der  Strecke  AB  oder   auch  innerhalb  der  Strecke  AB  ge- 
+
+
+1)  Diese  Axiome  hat  zuerst  M.  Pasch  in  seinen  Vorlesungen  über  neuere 
+Geometrie,  Leipzig  1882,  ausführlich  untersucht.  Insbesondere  rührt  das  Axiom 
+II  5  von  M.  Pasch  her. 
+
+
+Kap.  I.    Die  fünf  Axiomgruppen.     §  3,  4.  7 
+
+legen ;  alle  übrigen  Punkte  der  Geraden  a  heissen  ausserhalb  der 
+Strecke  AB  gelegen.  Die  Punkte  A,  B  heissen  Endpunkte  der 
+Strecke  AB.
+
+II  5.  Es  seien  A,  B,  C  drei  nicht  in  gerader  Linie  gelegene 
+Punkte  und  a  eine  Gerade  in  der 
+Ebene  ABC,  die  keinen  der  Punkte 
+A,  B,  C  trifft:  ivenn  dann  die  Gerade 
+a  durch  einen  Punkt  innerhalb  der 
+Strecke  AB  geht,  so  geht  sie  stets 
+entweder  durch  einen  Punkt  der 
+Strecke  BC  oder  durch  einen  Punkt 
+der  Strecke  AG. 
+
+Die  Axiome  II 1 — 4   enthalten 
+nur    Aussagen     über     die    Punkte 
+
+auf  einer  Geraden  und  mögen  daher  die  linearen  Axiome  der 
+Gruppe  II  heissen ;  das  Axiom  II  5  enthält  eine  Aussage  über 
+die  Elemente  der  ebenen  Geometrie  und  heisse  daher  das  ebene 
+Axiom  der  Gruppe  II. 
+
+
+§4. 
+Folgerungen  aus  den  Axiomen  der  Verknüpfung  und  der  Anordnung. 
+
+Zunächst  leiten  wir  aus  den  linearen  Axiomen  II  1 — 4  ohne 
+Mühe  folgende  Sätze  ab : 
+
+Satz  3.  Zwischen  irgend  zwei  Punkten  einer  Geraden  giebt 
+es  stets  unbegrenzt  viele  Punkte. 
+
+Satz  4.  Sind  irgend  eine  endliche  Anzahl  von  Punkten  einer 
+Geraden  gegeben,  so  lassen  sich  dieselben  stets  in  einer  Reihe 
+A,  B,  G,  D,  E,  .  .  . ,  K  anordnen ,    sodass  B   zwischen  A  einerseits 
+
+A         B      C  D     E  K 
+
+
+Fig.  4. 
+
+und  C,  B,E,  .  .  .,  K  andererseits,  ferner  G  zwischen  A,  B  einerseits 
+und  I),  E,  .  .  . ,  K  andererseits ,  sodann  D  zwischen  A,  B,  C  einer- 
+seits und  E,  .  .  .,  K  andererseits  u.  s.  w.  liegt.  Ausser  dieser  An- 
+ordnung giebt  es  nur  noch  die  umgekehrte  Anordnung  K,  .  .  . ,  E, 
+B,  G,  B,  A,  die  von  der  nämlichen  Beschaffenheit  ist. 
+
+Satz  5.     Jede  Gerade  a,  welche  in  einer  Ebene  a  liegt,  trennt 
+die  übrigen  Punkte  dieser  Ebene  a  in  zwei  Gebiete,  von  folgender 
+
+
+8  Kap.  I.   Die  fünf  Axiomgruppen.    §  4. 
+
+Beschaffenheit:  ein  jeder  Punkt  A  des  einen  Gebietes  bestimmt  mit 
+
+jedem  Punkt  B  des  an- 
+deren Gebietes  eine 
+Strecke  AB,  innerhalb 
+derer  ein  Punkt  der  Ge- 
+
+^         raden  a  liegt;    dagegen 
+
+bestimmen  irgend  zwei 
+Punkte  A  und  A'  ein 
+und  desselben  Gebietes 
+Fig.  5.  eine  Strecke -4J.',  welche 
+
+keinen  Punkt  von  a  enthält. 
+
+Erklärung.  Es  seien  A,A',0,  B  vier  Punkte  einer  Ge- 
+raden a,  so  dass  0  zwischen  A  und  B,  aber  nicht  zwischen  A 
+und  A'  liegt ;  dann  sagen  wir :  die  Punkte  A,  A'  liegen  in  der 
+Geraden  a  auf  ein  und  derselben  Seite  vom  Punkte  0,  und  die  Punkte 
+
+A,  B  liegen  in  der  Ge- 
+
+-"-  •"■  "  -**  raden  a  auf  verschiedenen 
+1  ■■-  i 1 , 1 — ■ —  ' 
+
+Fig.  6.  Seiten    vom    Punkte    0. 
+
+Die  sämtlichen  auf  ein 
+und  derselben  Seite  von  0  gelegenen  Punkte  der  Geraden  a  heissen 
+auch  ein  von  0  ausgehender  Halbstrahl)  somit  trennt  jeder  Punkt 
+einer  Geraden  diese  in  zwei  Halbstrahlen. 
+
+Indem  wir  die  Bezeichnungen  des  Satzes  5  benutzen ,  sagen 
+wir :  die  Punkte  A,  A!  liegen  in  der  Ebene  a  auf  ein  und  derselben 
+Seite  von  der  Geraden  a  und  die  Punkte  A,  B  liegen  in  der  Ebene  a 
+auf  verschiedenen  Seiten  von  der  Geraden  a. 
+
+Definition.  Ein  System  von  Strecken  AB,  BC,  CD,  .  . . ,  KL 
+heisst  ein  Streckenzug,  der  die  Punkte  A  und  L  miteinander  ver- 
+bindet ;  dieser  Streckenzug  wird  auch  kurz  mit  ABCD .  .  .  KL 
+bezeichnet.  Die  Punkte  innerhalb  der  Strecken  AB,  BC,  CD, .  .  KL, 
+sowie  die  Punkte  A,  B,  C,  D,  .  .  . ,  K,  L  heissen  insgesamt  die 
+Punlcte  des  Streckenzuges.  Fällt  insbesondere  der  Punkt  L  mit 
+dem  Punkt  A  zusammen,  so  wird  der  Streckenzug  ein  Polygon 
+genannt  und  als  Polygon  ABCD  . .  .  K  bezeichnet.  Die  Strecken 
+AB,  BC,  CD,  . .  . ,  KA  heissen  auch  die  Seiten  des  Polygons.  Die 
+Punkte  A,  B,C,D, . . .,  K  heissen  die  Ecken  des  Polygons.  Polygone 
+mit  3,  4,  . . . ,  n  Ecken  heissen  bez.  Dreiecke,   Vierecke,  .  .  . ,  n-Ecke. 
+
+Wenn  die  Ecken  eines  Polygons  sämtlich  von  einander  ver- 
+schieden sind  und  keine  Ecke  des  Polygons  in  eine  Seite  fällt 
+und  endlich  irgend  zwei  Seiten  eines  Polygons  keinen  Punkt  mit 
+einander  gemein  haben,  so  heisst  das  Polygon  einfach. 
+
+
+Kap.  I.    Die  fünf  Axiomgruppen.    §  4,  5. 
+
+
+9 
+
+
+Mit  Zuhülfenahme  des  Satzes  5  gelangen  wir  jetzt  ohne  erheb- 
+liche Schwierigkeit  zu  folgenden  Sätzen:
+
+Satz  6.  Ein  jedes  einfache  Polygon,  dessen  Ecken  sämtlich 
+in  einer  Ebene  a  liegen,  trennt  die  Punkte  dieser  Ebene  a,  die 
+nicht  dem  Streckenzuge  des  Polygons  angehören,  in  zwei  Gebiete, 
+ein  Inneres  und  ein  Aeusseres, 
+von  folgender  Beschaffenheit: 
+ist  A  ein  Punkt  des  Inneren 
+(innerer  Punkt)  und  B  ein 
+Punkt  des  Aeusseren  (ä  u  s  s  e- 
+rer  Punkt),  so  hat  jeder 
+Streckenzug,  der  A  mit  B 
+verbindet ,  mindestens  einen 
+Punkt  mit  dem  Polygon  ge- 
+mein;  sind  dagegen  A,  A' 
+zwei  Punkte  des  Inneren  und 
+B,  B'  zwei  Punkte  des  Aeusse-  Fig.  7. 
+
+ren,      so      giebt      es      stets 
+
+Streckenzüge,  die  A  mit  A!  und  B  mit  B'  verbinden  und  keinen 
+Punkt  mit  dem  Polygon  gemein  haben.  Es  giebt  Gerade  in  a, 
+die  ganz  im  Aeusseren  des  Polygons  verlaufen,  dagegen  keine 
+solche  Gerade,    die  ganz  im  Inneren  des  Polygons  verläuft. 
+
+Satz  7.  Jede  Ebene  cc  trennt  die  übrigen  Punkte  des  Raumes 
+in  zwei  Gebiete  von  folgender  Beschaffenheit :  jeder  Punkt  A  des 
+einen  Gebietes  bestimmt  mit  jedem  Punkt  B  des  andern  Gebietes 
+eine  Strecke  AB,  innerhalb  derer  ein  Punkt  von  a  liegt ;  dagegen 
+bestimmen  irgend  zwei  Punkte  A  und  A'  eines  und  desselben 
+Gebietes  stets  eine  Strecke  AA! ,  die  keinen  Punkt  von  a  enthält. 
+
+Erklärung.  Indem  wir  die  Bezeichnungen  dieses  Satzes  7 
+benutzen,  sagen  wir:  die  Punkte  A,  A'  liegen  im  Räume  auf  ein 
+und  der  selten  Seite  von  der  Ebene  a  und  die  Punkte  A,  B  liegen 
+im  Räume  auf  verschiedenen  Seiten  von  der  Ebene  a. 
+
+Der  Satz  7  bringt  die  wichtigsten  Thatsachen  betreffs  der 
+Anordnung  der  Elemente  im  Räume  zum  Ausdruck;  diese  That- 
+sachen sind  daher  lediglich  Folgerungen  aus  den  bisher  behan- 
+delten Axiomen  und  es  bedurfte  in  der  Gruppe  II  keines  neuen 
+räumlichen  Axioms. 
+
+§  5. 
+Die  Axiomgruppe  III:  Axiom  der  Parallelen  (Euklidisches  Axiom). 
+
+Die  Einführung  dieses  Axioms  vereinfacht  die  Grundlagen 
+und  erleichtert  den  Aufbau  der  Geometrie  in  erheblichem 
+Masse;  wir  sprechen  dasselbe  wie  folgt  aus: 
+
+
+10  Kap.  I.    Die  fünf  Axiomgruppen.    §  5,  6. 
+
+III.  In  einer  Ebene  a  lässt  sich  durch  einen  Punkt  A  ausser- 
+halb einer  Geraden  a  stets  eine  und  nur  eine  Gerade  ziehen,  welche 
+jene  Gerade  a  nicht  schneidet ;  dieselbe  heisst  die  Parallele  zu  a  durch 
+den  Punkt  A. 
+
+Diese  Fassung  des  Parallelenaxioms  enthält  zwei  Aussagen; 
+nach  der  ersteren  giebt  es  in  der  Ebene  a  durch  A  stets  eine 
+Gerade,  die  a  nicht  trifft,  und  zweitens  wird  ausgesprochen, 
+dass  keine  andere  solche  Gerade  möglich  ist. 
+
+Die  zweite  Aussage  unseres  Axioms  ist  die  wesentliche;  sie 
+nimmt  auch  folgende  Fassung  an : 
+
+Satz  8.  Wenn  zwei  Geraden  a,  b  in  einer  Ebene  eine  dritte 
+Gerade  c  derselben  Ebene  nicht  treffen,  so  treffen  sie  sich  auch 
+einander  nicht. 
+
+In  der  That  hätten  a,  b  einen  Punkt  A  gemein,  so  würden 
+durch  A  in  derselben  Ebene  die  beiden  Geraden  a,  b  möglich  sein, 
+die  c  nicht  treffen;  dieser  Umstand  widerspräche  der  zweiten 
+Aussage  des  Parallelenaxioms  in  unserer  ursprünglichen  Fassung. 
+Auch  folgt  umgekehrt  aus  Satz  8  die  zweite  Aussage  des  Pa- 
+rallelenaxioms in  unserer  ursprünglichen  Fassung. 
+
+Das  Parallelenaxiom  III  ist  ein  ebenes  Axiom. 
+
+§  6. 
+Die  Axiomgruppe  IV:  Axiome  der  Congruenz. 
+
+Die  Axiome  dieser  Gruppe  definieren  den  Begriff  der  Con- 
+gruenz oder  der  Bewegung. 
+
+Erklärung.  Die  Strecken  stehen  in  gewissen  Beziehungen 
+zu  einander,  zu  deren  Beschreibung  uns  insbesondere  das  Wort 
+„congruent"-  dient. 
+
+IV  1.  Wenn  A,  B  zioei  Punkte  auf  einer  Geraden  a  und  ferner 
+A'  ein  Punkt  auf  derselben  oder  einer  anderen  Geraden  a'  ist,  so 
+kann  man  auf  einer  gegebenen  Seite  der  Geraden  a!  von  A'  stets 
+einen  und  nur  einen  Punkt  B'  finden,  so  dass  die  Strecke  AB 
+(oder  BA)  der  Strecke  A'B'  congruent  ist,  in  Zeichen: 
+
+AB  es  A'B'. 
+
+Jede  Strecke  ist  sich  selbst  congruent,  d.  h.  es  ist  stets: 
+
+AB  =  AB. 
+
+Wir  sagen  auch  kürzer,  dass  eine  jede  Strecke  auf  einer  ge- 
+gebenen Seite  einer  gegebenen  Geraden  von  einem  gegebenen
+
+Punkte  in  eindeutig  bestimmter  Weise  abgetragen  werden  kann. 
+
+
+Kap.  I.   Die  fünf  Axiomgruppen.    §  6.  11 
+
+IV  2.  Wenn  eine  Strecke  AB  sowohl  der  Strecke  A'B'  als  auch 
+der  Strecke  A'B"  congruent  ist ,  so  ist  auch  A'B'  der  Strecke  AI' B" 
+congruent,  d.  h.:  wenn  AB  —  A'B'  und  AB  =  A'B",  so  ist  auch 
+A'B'  =  A'B". 
+
+IV  3.  Es  seien  AB  und  BG  zwei  Strecken  ohne  gemeinsame 
+Punkte  auf  der  Geraden  a  und  ferner  A'B'  und  B'C  zivei  Strecken 
+
+A.  B  C  cu 
+
+
+A.'  B'  C  ot' 
+
+1 _ — i 1 
+
+Fig.  8. 
+
+auf  derselben  oder  einer  anderen  Geraden  a'  ebenfalls  ohne  gemein- 
+same Punkte ;  wenn  dann  AB  =  A'B'  und  BG  =  B'G'  ist,  so  ist 
+auch  stets  AG  =  A'C'. 
+
+Definition.  Es  sei  a  eine  beliebige  Ebene  und  h,  k  seien 
+irgend  zwei  verschiedene  von  einem  Punkte  0  ausgebende  Halb- 
+strahlen in  a ,  die  verschiedenen  Geraden  angehören.  Das 
+System  dieser  beiden  Halbstrahlen  h,  k  nennen  wir  einen  Winkel 
+und  bezeichnen  denselben  mit  <C  (h,  k)  oder  ^C  (k,  h).  Aus  den 
+Axiomen  II  1 — 5  kann  leicht  geschlossen  werden,  dass  die  Halb- 
+strahlen h  und  k,  zusammengenommen  mit  dem  Punkt  0  die  übri- 
+gen Punkte  der  Ebene  a  in  zwei  Gebiete  von  folgender  Beschaffen- 
+heit teilen:  Ist  A  ein  Punkt  des  einen  und  B  ein  Punkt  des  an- 
+deren Gebietes,  so  geht  jeder  Streckenzug,  der  A  mit  B  verbindet, 
+entweder  durch  0  oder  hat  mit  h  oder  k  wenigstens  einen  Punkt 
+gemein ;  sind  dagegen  A,  A'  Punkte  desselben  Gebietes ,  so  giebt 
+es  stets  einen  Streckenzug,  der  A  mit  A'  verbindet  und  weder 
+durch  0,  noch  durch  einen  Punkt  der  Halbstrahlen  h,  k  hindurch- 
+läuft. Eines  dieser  beiden  Gebiete  ist  vor  dem  anderen  ausge- 
+zeichnet, indem  jede  Strecke,  die  irgend  zwei  Punkte  dieses  aus- 
+gezeichneten Gebietes  verbindet ,  stets  ganz  in  demselben  liegt ; 
+dieses  ausgezeichnete  Gebiet  heisse  das  Innere  des  Winkels  (h,  k) 
+zum  Unterschiede  von  dem  anderen  Gebiete,  welches  das  Aeitssere 
+des  Winkels  (h,  k)  genannt  werden  möge.  Die  Halbstrahlen  h,  k 
+heissen  Schenkel  des  Winkels  und  der  Punkt  0  heisst  der  Scheitel 
+des  Winkels. 
+
+IV  4.  Es  sei  ein  Winkel  ^C  (h,  k)  in  einer  Ebene  a  und  eine 
+Gerade  a'  in  einer  Ebene  a',  sowie  eine  bestimmte  Seite  von  a'  auf 
+a'  gegeben.  Es  bedeute  h'  einen  Halbstrahl  der  Geraden  a',  der  vom 
+Punkte  0'  ausgeht:  dann  giebt  es  in  der  Ebene  a'  einen  und  nur 
+einen  Halbstrahl  k',  so  dass  der  Winkel  (h,  k)  (oder  (k,  h))  congruent 
+
+
+12  Kap.  I.   Die  fünf  Axiomgruppen.    §  6,  7. 
+
+dem  Winkel  (h',  k')  ist  und  zugleich  alle  inneren  Punkte  des  Winkels 
+Qi\  k')  auf  der  gegebenen  Seite  von  a'  liegen,  in  Zeichen : 
+
+£(A,*)  =^{h',k'). 
+
+Jeder   Winkel  ist  sich  selbst  congruent,  d.  h.  es  ist  stets 
+
+9C(M)  =  3C(M)- 
+
+Wir  sagen  auch  kurz ,  dass  ein  jeder  Winkel  in  einer  ge- 
+gebenen Ebene  nach  einer  gegebenen  Seite  an  einen  gegebenen 
+Halbstrahl  auf  eine  eindeutig  bestimmte  Weise  abgetragen  werden 
+kann. 
+
+IV  5.  Wenn  ein  Winkel  (h,  k)  sowohl  dem  Winkel  (h',  k')  als 
+auch  dem  Winkel  (7^",  k")  congruent  ist,  so  ist  auch  der  Winkel  (h' ,  k') 
+dem  Winkel  (h",  k")  congruent,  d.  h.  wenn  ^C(h,  k)  =  ^C(h',  k')  und 
+9C(M)   =   jC(h",k")  ist,  so  ist  auch  stets  <(*',&')   =  <£(/&",  7«")- 
+
+Erklärung.  Es  sei  ein  Dreieck  ABC  vorgelegt;  wir  be- 
+zeichnen die  beiden  von  A  ausgehenden  durch  B  und  G  laufenden 
+Halbstrahlen  mit  h  bez.  k.  Der  Winkel  (h,  k)  heisst  dann  der 
+von  den  Seiten  AB  und  AG  eingeschlossene  oder  der  der  Seite 
+BC  gegenüberliegende  Winkel  des  Dreieckes  ABC;  er  enthält  in 
+seinem  Inneren  sämtliche  innere  Punkte  des  Dreieckes  ABC  und 
+wird  mit  <^BAC  oder  <£A  bezeichnet. 
+
+IV  6.  Wenn  für  zwei  Breiecke  ABC  und  A'B'C  die  Con- 
+gruensen 
+
+AB  -  A'B',      AC  =  A'C,      ^BAC  =  <£  B'A'C 
+
+gelten,  so  sind  auch  stets  die  Gongruensen 
+
+^ABC  =  ^  A'B'C  und  ^ACB  =  ^A'C'B' 
+erfüllt. 
+
+Die  Axiome  IV  1 — 3  enthalten  nur  Aussagen  über  die  Con- 
+gruenz  von  Strecken  auf  Geraden;  sie  mögen  daher  die  linearen 
+Axiome  der  Gruppe  IV  heissen.  Die  Axiome  IV  4,  5  enthalten
+
+Aussagen  über  die  Congruenz  von  Winkeln.  Das  Axiom  IV  6 
+knüpft  das  Band  zwischen  den  Begriffen  der  Congruenz  von 
+Strecken  und  von  Winkeln.  Die  Axiome  IV  3 — 6  enthalten  Aus- 
+sagen über  die  Elemente  der  ebenen  Geometrie  und  mögen  daher 
+die  ebenen  Axiome  der  Gruppe  IV  heissen. 
+
+§  7. 
+Folgerungen  aus  den  Axiomen  der  Congruenz. 
+
+Erklärung.  Es  sei  die  Strecke  AB  congruent  der  Strecke 
+A'B'.     Da  nach  Axiom  IV  1  auch  die  Strecke  AB  congruent  AB 
+
+
+Kap.  I.    Die  fünf  Axiomgruppen.     §  7.  13 
+
+ist,  so  folgt  aus  Axiom  IV  2  A'B'  congruent  AB ;  wir  sagen :  die 
+beiden  Strecken  AB  und  A'B'  sind  unter  einander  congruent. 
+
+Erklärung.  Sind  A,  B,  C,  1),  . . . ,  K,  L  auf  a  und  A',  B', 
+C,  B',  . . . ,  K',  L'  auf  a'  zwei  Reihen  von  Punkten,  so  dass  die 
+sämtlichen  entsprechenden  Strecken  AB  und  A'B',  AG  und  A'C, 
+BC  und  B'C,  .  . .,  KL  und  K'L'  bez.  einander  congruent  sind,  so 
+heissen  die  beiden  Reihen  von  Punkten  unter  einander  congruent) 
+A  und  A',  B  und  B',  . . . ,  L  und  L'  heissen  die  entsprechenden  Funkte 
+der  congruenten  Punktreihen. 
+
+Aus  den  linearen  Axiomen  IV  1 — 3  schliessen  wir  leicht  fol- 
+gende Sätze : 
+
+Satz  9.  Ist  von  zwei  congruenten  Punktreihen  A,  B,  ...,  K,  L 
+und  A',  B',  .  . . ,  K',  L'  die  erste  so  geordnet,  dass  B  zwischen  A 
+einerseits  und  C,  D, . . . ,  K,  L  andererseits,  G  zwischen  A,  B  einer- 
+seits und  D, . . .,  K,  L  andererseits,  u.  s.  w.  liegt,  so  sind  die  Punkte 
+A',  B',  . . .  ,  K',  V  auf  die  gleiche  Weise  geordnet ,  d.  h.  B'  liegt 
+zwischen  A'  einerseits  und  C",  B',  . . .  ,  K' ,  L'  andererseits,  C  zwi- 
+schen A',  B'  einerseits  und  D',  . . .  ,  K',  L'  andererseits  u.  s.  w. 
+
+Erklärung.  Es  sei  Winkel  (h,  k)  congruent  dem  Winkel  (h1,  k'). 
+Da  nach  Axiom  IV  4  der  Winkel  (/*,  k)  congruent  <£  (h,  k)  ist,  so 
+folgt  aus  Axiom  IV  5,  dass  <£  (h1,  k')  congruent  ^C  (h,  k)  ist ;  wir 
+sagen :  die  beiden  Winkel  (h,  k)  und  (h1,  k')  sind  unter  einander  con- 
+gruent. 
+
+Definition.  Zwei  Winkel,  die  den  Scheitel  und  einen  Schen- 
+kel gemein  haben  und  deren  nicht  gemeinsame  Schenkel  eine  gerade 
+Linie  bilden,  heissen  Nebemvinkel.  Zwei  Winkel  mit  gemeinsamem 
+Scheitel,  deren  Schenkel  je  eine  Grerade  bilden,  heissen  Scheitel- 
+winkel. Ein  Winkel,  welcher  einem  seiner  Nebenwinkel  congruent 
+ist,  heisst  ein  rechter   Winkel. 
+
+Erklärung.  Zwei  Dreiecke  ABC  und  A'B'C'  heissen  ein- 
+ander congruent,  wenn  sämtliche  Congruenzen 
+
+AB  ==  A'B',        AG  =  A'C',         BC  =  B'C', 
+^A^^A',      ^B  =  ^B',      £C  =  ^C 
+
+erfüllt  sind. 
+
+Satz  10  (Erster  Congruenzsatz  für  Dreiecke).  Wenn 
+für  zwei  Dreiecke  ABC  und  A'B'C  die  Congruenzen 
+
+AB  =  A'B',      AC  =  A'C,      ^A  =  ^A' 
+gelten,  so  sind  die  beiden  Dreiecke  einander  congruent. 
+
+
+14  Kap.  I.   Die  fünf  Axiomgruppen.    §  7. 
+
+Beweis.     Nach  Axiom  IV  6  sind  die  Congruenzen 
+
+^B  =  ^B'  und  ^C  =  ^c 
+
+erfüllt  und  es  bedarf  somit  nur  des  Nachweises,  dass  die  Seiten 
+BG  und  B'C  einander  congruent  sind.  Nehmen  wir  nun  im  Ge- 
+genteil an,  es  wäre  etwa  BG  nicht  congruent  B'C'  und  bestimmen 
+
+c  c 
+
+
+Fig.  9. 
+
+auf  B'C  den  Punkt  D',  so  dass  BG  =  B'D'  wird,  so  stimmen  die 
+beiden  Dreiecke  ABC  und  A! B'D'  in  zwei  Seiten  und  dem  von  ihnen 
+eingeschlossenen  Winkel  überein;  nach  Axiom  IV  6  sind  mithin 
+insbesondere  die  beiden  Winkel  -^C  BAC  und  <C  B'A'D'  einander 
+congruent.  Nach  Axiom  IV  5  müssten  mithin  auch  die  beiden 
+Winkel  ^B'A'C  und  -^C.  B'A'D'  einander  congruent  ausfallen; 
+dies  ist  nicht  möglich,  da  nach  Axiom  IV  4  ein  jeder  Winkel  an 
+einen  gegebenen  Halbstrahl  nach  einer  gegebenen  Seite  in  einer 
+Ebene  nur  auf  eine  Weise  abgetragen  werden  kann.  Damit  ist 
+der  Beweis  für  Satz  10  vollständig  erbracht. 
+
+Ebenso  leicht  beweisen  wir  die  weitere  Thatsache  : 
+
+Satz  11  (Zweiter  Congruenzsatz  fürDreiecke).  Wenn 
+in  zwei  Dreiecken  je  eine  Seite  und  die  beiden  anliegenden  Winkel 
+congruent  ausfallen,  so  sind  die  Dreiecke  stets  congruent. 
+
+Wir  sind  nunmehr  im  Stande,  die  folgenden  wichtigen  That-
+
+sachen  zu  beweisen : 
+
+Satz  12.  Wenn  zwei  Winkel  -^ABC  und  ^A'B'C  einander 
+congruent  sind,  so  sind  auch  ihre  Nebenwinkel  -^C  CBD  und  ^C  C'B'D' 
+einander  congruent. 
+
+C  -  ,.  cl 
+
+
+A 
+
+
+B 
+
+
+D       A' 
+
+Fig.  10. 
+
+
+B' 
+
+
+B1 
+
+
+Beweis.    Wir  wählen  die  Punkte  A',  C,  D'  auf  den  durch  B' 
+gehenden  Schenkeln  derart,  dass 
+
+
+Kap.  I.   Die  fünf  Axiomgruppen.     §  7. 
+
+
+15 
+
+
+A'B1  =  AB,      OB'  =  CB,      D'B'  es  DB 
+
+wird.  In  den  beiden  Dreiecken  ABO  und  A'B'C  sind  dann  die 
+Seiten  AB  und  CB  bez.  den  Seiten  A'B'  und  CJ3'  congruent  und, 
+da  überdies  die  von  diesen  Seiten  eingeschlossenen  Winkel  nach 
+Voraussetzung  einander  congruent  sein  sollen,  so  folgt  nach  Satz  10 
+die  Congruenz  jener  Dreiecke,  d.  h.  es  gelten  die  Congruenzen 
+
+AC  =  A'C  und  ^BAC  es  ^B'A'C. 
+
+Da  andererseits  nach  Axiom  IV  3  die  Strecken  AD  und  A'D' 
+einander  congruent  sind,  so  folgt  wiederum  aus  Satz  10  die  Con- 
+gruenz der  Dreiecke  CAD  und  C'A'D',  d.  h.  es  gelten  die  Con- 
+gruenzen 
+
+CD  =  CD'  und  ^ADC  =  ^A'D'C 
+
+und  hieraus  folgt  mittels  Betrachtung  der  Dreiecke  BCD  und 
+B'C'D'  nach  Axiom  IV  6  die  Congruenz  der  Winkel  ^  CBD  und 
+^C'B'D'. 
+
+Eine  unmittelbare  Folgerung  aus  Satz  12  ist  der  Satz  von 
+der  Congruenz  der  Scheitelwinkel. 
+
+Satz  13.  Es  sei  der  Winkel  (h,  Je)  in  der  Ebene  a  dem 
+Winkel  (h1,  Je')  in  der  Ebene  a'  congruent  und  ferner  sei  l  ein 
+Halbstrahl  der  Ebene  cc,  der  vom  Scheitel  des  Winkels  (h,  Je)  aus- 
+geht und  im  Inneren  dieses  Winkels  verläuft:  dann  giebt  es  stets 
+einen  Halbstrahl  V  in  der  Ebene  a',  der  vom  Scheitel  des  Winkelg 
+
+
+Fig.  11. 
+
+(h'}  Je')  ausgeht ,    und   im  Inneren  dieses  Winkels  (ti,  Je')   verläuft, 
+so  dass 
+
+£(A,Z)  =  ^(h',V)  und  9C(M)  =  £(*',  0 
+wird. 
+
+Beweis.  Wir  bezeichnen  die  Scheitel  der  Winkel  (Ji,  Je)  und 
+(h',  Je')  bez.  mit  0,  0'  und  bestimmen  dann  auf  den  Schenkeln 
+Ji,  Je,  h',  Je'  die  Punkte  A,  B,  A',  B'  derart,  dass  die  Congruenzen 
+
+OA  =  O'A'  und  OB  es  O'B' 
+
+
+16 
+
+
+Kap.  I.    Die  fünf  Axiomgruppen. 
+
+
+erfüllt  sind.  Wegen  der  Congruenz  der  Dreiecke  OAB  und  O'A'B' 
+wird 
+
+AB  =  A'B',      ^OAB  =  ^O'A'B',      ^OBA  =  ^O'B'A'. 
+
+Die  Gerade  AB  schneide  l  in  G\  bestimmen  wir  dann  auf  der 
+Strecke  A'B'  den  Punkt  G,  so  dass  A'C  =  AG  wird,  so  ist  O'C 
+der  gesuchte  Halbstrahl  V.  In  der  That,  aus  AG  =  A'C'  und 
+AB  =  A'B'  kann  mittelst  Axiom  IV  3  leicht  die  Congruenz 
+BC  =  B'G  geschlossen  werden;  nunmehr  erweisen  sich  die  Drei- 
+ecke OAG  und  O'A'C',  sowie  ferner  die  Dreiecke  OBC  und  O'B'C' 
+unter  einander  congruent;  hieraus  ergeben  sich  die  Behauptungen 
+des  Satzes  13. 
+
+Auf  ähnliche  Art  gelangen  wir  zu  folgender  Thatsache: 
+Satz  14.     Es  seien  einerseits  h,  7c,  l  und  andererseits  h',  h',  V 
+je  drei  von  einem  Punkte    ausgehende   und  je   in  einer  Ebene  ge- 
+legene Halbstrahlen :  wenn  dann  die  Congruenzen 
+
+<(A,  0  =  ^(Ä',0  und  £(Ä,  l)  =  £(*',  V) 
+
+erfüllt  sind,  so  ist  stets  auch 
+
+Auf  Grund  der  Sätze  12  und  13  gelingt  der  Nachweis  des 
+folgenden  einfachen  Satzes ,  den  Euklid  —  meiner  Meinung  nach 
+mit  Unrecht  —  unter  die  Axiome  gestellt  hat: 
+
+Satz  15.     Alle  rechten   Winkel  sind  einander  congruent. 
+
+Beweis :  Der  Winkel  BAD  sei  seinem  Nebenwinkel  CAD  con- 
+gruent und  desgleichen  sei  der  Winkel  B'A'D'  seinem  Neben- 
+winkel C'A'D'  congruent;  es  sind  dann  ^BAD,  ^CAD,  <£ B'A'D', 
+jC  C'A'D'  sämtlich  rechte  Winkel.  Wir  nehmen  im  Gegensatz  zu 
+unserer  Behauptung  an,  es  wäre  der  rechte  Winkel  B'A'D'  nicht 
+congruent  dem  rechten  Winkel  BAD  und  tragen  dann  ^C  B'A'D' 
+
+
+B 
+
+
+Ä 
+
+
+__ C     JB' 
+
+Fig.  12. 
+an  den  Halbstrahl  AB  an,  so  dass  der  entstehende  Schenkel  AD" 
+entweder  in  das  Innere  des  Winkels  BAD  oder  des  Winkels  CAD 
+
+
+c 
+
+
+Kap.  I.    Die  fünf  Axiomgruppeü.    §  7.  17 
+
+fällt;  es  treffe  etwa  die  erstere  Möglichkeit  zu.  Wegen  der  Con- 
+gruenz  der  Winkel  B'A'D'  und  BAD"  folgt  nach  Satz  12,  dass 
+auch  der  Winkel  C'A'D'  dem  Winkel  CAD"  congruent  ist,  und  da 
+die  Winkel  B'A'I)'  und  C'A'D'  einander  congruent  sein  sollen,  so
+
+lehrt  Axiom  IV  5,  dass  auch  der  Winkel  BAD''  dem  Winkel  CAD" 
+congruent  sein  muss.  Da  ferner  ^BAD  congruent  <^CAD  ist, 
+so  können  wir  nach  Satz  13  innerhalb  des  Winkels  CAD  einen 
+von  A  ausgehenden  Halbstrahl  AD"  finden,  so  dass  jC  BAD"  con- 
+gruent JC.CAD'"  und  zugleich  ^DAD"  congruent  <£DAD"  wird. 
+Nun  war  aber  <^BAD"  congruent  <£CAD"  und  somit  müsste  nach 
+Axiom  IV  5  auch  jC  CAD"  congruent  <£  CAD'"  sein ;  das  ist  nicht 
+möglich,  weil  nach  Axiom  IV  4  ein  jeder  Winkel  an  einen  gegebenen 
+Halbstrahl  nach  einer  gegebenen  Seite  in  einer  Ebene  nur  auf 
+eine  Weise  abgetragen  werden  kann;  hiermit  ist  der  Beweis 
+für  Satz  15  erbracht. 
+
+Wir  können  jetzt  die  Bezeichnungen  „spitzer  Winkel"  und 
+„stumpfer  Winkel"  in  bekannter  Weise  einführen. 
+
+Der  Satz  von  der  Congruenz  der  Basiswinkel  <£  A  und  j£  B 
+im  gleichschenkligen  Dreiecke  ABC  folgt  unmittelbar  durch  An- 
+wendung des  Axioms  IV  6  auf  Dreieck  ABC  und  Dreieck  BAC. 
+Mit  Hülfe  dieses  Satzes  und  unter  Hinzuziehung  des  Satzes  14 
+beweisen  wir  dann  leicht  in  bekannter  Weise  die  folgende  That- 
+sache : 
+
+Satz  16  (Dritter  Congruenzsatz  für  Dreiecke).  Wenn 
+in  zwei  Dreiecken  die  drei  Seiten  entsprechend  congruent  aus- 
+fallen, so  sind  die  Dreiecke  congruent. 
+
+Erklärung.  Irgend  eine  endliche  Anzahl  von  Punkten 
+heisst  eine  Figur;  liegen  alle  Punkte  der  Figur  in  einer  Ebene, 
+so  heisst  sie  eine  ebene  Figur. 
+
+Zwei  Figuren  heissen  congruent,  wenn  ihre  Punkte  sich  paar- 
+weise einander  so  zuordnen  lassen,  dass  die  auf  diese  Weise  ein- 
+ander zugeordneten  Strecken  und  Winkel  sämtlich  einander  con- 
+gruent sind. 
+
+Congruente  Figuren  haben,  wie  man  aus  den  Sätzen  12  und  9 
+erkennt,  folgende  Eigenschaften :  Drei  Punkte  einer  Geraden  liegen 
+auch  in  jeder  congruenten  Figur  auf  einer  Geraden.  Die  Anord- 
+nung der  Punkte  in  entsprechenden  Ebenen  in  Bezug  auf  ent- 
+sprechende Gerade  ist  in  congruenten  Figuren  die  nämliche;  das 
+Gleiche  gilt  von  der  Reihenfolge  entsprechender  Punkte  in  ent- 
+sprechenden Geraden. 
+
+Der  allgemeinste  Congruenzsatz  für  die  Ebene  und  für  den 
+Raum  drückt  sich,  wie  folgt,  aus  : 
+
+Hubert,   Grundlagen  der  Geometrie.  2 
+
+
+18  Kap.  T.   Die  fünf  Axiomgruppen.     §  7,  8. 
+
+Satz  17.  Wenn  (A,  B,  C, .  . .)  und  (A',  B',  C,  . . .)  congruente 
+ebene  Figuren  sind  und  P  einen  Punkt  in  der  Ebene  der  ersten 
+bedeutet,  so  lässt  sich  in  der  Ebene  der  zweiten  Figur  stets  ein 
+Punkt  P'  finden  derart,  dass  (A,  B,C,...,P)  und  (A\  B',  C,  ...,P') 
+wieder  congruente  Figuren  sind.  Enthalten  die  beiden  Figuren 
+wenigstens  drei  nicht  auf  einer  Geraden  liegende  Punkte ,  so  ist 
+die  Construction  von  P'  nur  auf  eine  Weise  möglich. 
+
+Satz  18.  Wenn  (A,  B,C,..  .)  und  (A',  B',  C, . . .)  congruente 
+Figuren  sind  und  P  einen  beliebigen  Punkt  bedeutet,  so  lässt  sich 
+stets  ein  Punkt  P'  finden,  so  dass  die  Figuren  (A,  B,  C,  . . .,  P)  und 
+(A',  B',  C',...,  P')  congruent  sind.  Enthält  die  Figur  (A,  B,C.) 
+mindestens  vier  nicht  in  einer  Ebene  liegende  Punkte ,  so  ist  die 
+Construction  von  P'  nur  auf  eine  Weise  möglich. 
+
+Dieser  Satz  enthält  das  wichtige  Resultat,  dass  die  sämt- 
+lichen räumlichen  Thatsachen  der  Congruenz,  d.  h.  der  Bewegung 
+im  Räume  —  mit  Hinzuziehung  der  Axiomgruppen  I  und  II  — 
+lediglich  Folgerungen  aus  den  sechs  oben  aufgestellten  linearen 
+und  ebenen  Axiomen  der  Congruenz  sind,  also  das  Parallelen- 
+axiom zu  ihrer  Feststellung  nicht  notwendig  ist. 
+
+Nehmen  wir  zu  den  Congruenzaxiomen  noch  das  Parallelen- 
+axiom III  hinzu,  so  gelangen  wir  leicht  zu  den  bekannten  That- 
+sachen : 
+
+Satz  19.  Wenn  zwei  Parallelen  von  einer  dritten  Geraden 
+geschnitten  werden ,  so  sind  die  Gegenwinkel  und  Wechselwinkel 
+congruent,  und  umgekehrt :  die  Congruenz  der  Gegen-  und  Wechsel- 
+winkel hat  zur  Folge,  dass  die  Geraden  parallel  sind. 
+
+Satz  20.  Die  Winkel  eines  Dreiecks  machen  zusammen  zwei 
+Rechte  aus. 
+
+Definition.  Wenn  M  ein  beliebiger  Punkt  in  einer  Ebene  a 
+ist,  so  heisst  die  Gesamtheit  aller  Punkte  A,  für  welche  die
+
+Strecken  MA  einander  congruent  sind,  ein  Kreis;  M  heisst  der 
+Mittelpunkt  des  Kreises. 
+
+Auf  Grund  dieser  Definition  folgen  mit  Hülfe  der  Axiom- 
+gruppen III — IV  leicht  die  bekannten  Sätze  über  den  Kreis,  ins- 
+besondere die  Möglichkeit  der  Konstruktion  eines  Kreises  durch 
+irgend  drei  nicht  in  einer  Geraden  gelegene  Punkte  sowie  der 
+Satz  über  die  Congruenz  aller  Peripheriewinkel  über  der  näm- 
+lichen Sehne  und  der  Satz  von  den  Winkeln  im  Kreisviereck. 
+
+
+Kap.  II.  Die  Widerspruchslosigkeit  u.  gegcns.  Unabhängigkeit  der  Axiome.  §  9.      19 
+
+§  8. 
+Die  Axiomgruppe  V:  Axiom  der  Stetigkeit  (Archimedisches  Axiom). 
+
+Dieses  Axiom  ermöglicht  die  Einführung  des  Stetigkeits- 
+begriffes in  die  Geometrie;  um  dasselbe  auszusprechen,  müssen 
+wir  zuvor  eine  Festsetzung  über  die  Gleichheit  zweier  Strecken 
+auf  einer  Geraden  treffen.  Zu  dem  Zwecke  können  wir  entweder 
+die  Axiome  über  Streckencongruenz  zu  Grunde  legen  und  dem- 
+entsprechend congruente  Strecken  als  „gleiche"  bezeichnen  oder 
+auf  Grund  der  Axiomgruppen  I — II  durch  geeignete  Constructionen 
+(vgl.  Kap.  V  §  24)  festsetzen ,  wie  eine  Strecke  von  einem  Punkte 
+einer  gegebenen  Geraden  abzutragen  ist,  so  dass  eine  bestimmte 
+neue  ihr  „gleiche"  Strecke  entsteht.  Nach  einer  solchen  Fest- 
+setzung lautet  das  Archimedische  Axiom,  wie  folgt: 
+
+V.  Es  sei  Ax  ein  beliebiger  Punkt  auf  einer  Geraden  stoischen 
+den  beliebig  gegebenen  Punkten  A  und  B;  man  construire  dann  die 
+Punkte  A2,  A3,  Av  . . .,  so  dass  Ax  zwischen  A  und  A2,  ferner  A2 
+zwischen  Ax  und  A3,  ferner  A3  zwischen  A2  und  Ai  u.  s.  iv.  liegt  und 
+überdies  die  Strecken 
+
+AAlt  A1A2,  A2A3J  A3Ai,  . . . 
+
+A       Aj      Az      A3     Atf  A^jBA^ 
+
+
+Fig.  13. 
+
+einander  gleich  sind:   dann  giebt  es  in  der  Beihe  der  Punkte  A^  A3, 
+A^  . . .  stets  einen  solchen  Punkt  An,  dass  B  ziuischen  A  und  An  liegt. 
+Das  Archimedische  Axiom  ist  ein  lineares  Axiom. 
+
+
+Kapitel  II. 
+
+Die  Widerspruchslosigkeit  und  gegenseitige  Unabhängigkeit 
+
+der  Axiome. 
+
+§9. 
+Die  Widerspruchslosigkeit  der  Axiome. 
+
+Die  Axiome  der  fünf  in  Kapitel  I  aufgestellten  Axiomgruppen 
+stehen  mit  einander  nicht  in  Widerspruch,  d.  h.  es  ist  nicht  mög- 
+lich, durch  logische  Schlüsse  aus  denselben  eine  Thatsache  abzu- 
+leiten,  welche  einem  der  aufgestellten  Axiome  widerspricht.     Um 
+
+2* 
+
+
+20     Kap.  II.  Die  Widerspruckslosigkeit  u.  gegens.  Unabhängigkeit  der  Axiome.   §  9. 
+
+dies  einzusehen ,  genügt  es ,  eine  Geometrie  anzugeben ,  in  der 
+sämtliche  Axiome  der  fünf  Gruppen  erfüllt  sind. 
+
+Man  betrachte  den  Bereich  Sl  aller  derjenigen  algebraischen 
+Zahlen,  welche  hervorgehen,  indem  man  von  der  Zahl  1  ausgeht 
+und  eine  endliche  Anzahl  von  Malen  die  vier  Rechnungsoperationen: 
+Addition ,  Subtraktion ,  Multiplikation ,  Division  und  die  fünfte 
+Operation  Sjl+co2  anwendet,  wobei  co  jedesmal  eine  Zahl  be- 
+deuten kann,  die  vermöge  jener  fünf  Operationen  bereits  ent- 
+standen ist. 
+
+Wir  denken  uns  ein  Paar  von  Zahlen  (x,  y)  des  Bereiches  ß 
+als  einen  Punkt  und  die  Verhältnisse  von  irgend  drei  Zahlen 
+(u :  v :  w)  aus  £1,  falls  u,  v  nicht  beide  Null  sind,  als  eine  Gerade ; 
+ferner  möge  das  Bestehen  der  Gleichung 
+
+ux  +  vy-\-w  =  0 
+
+ausdrücken,  dass  der  Punkt  {x,y)  auf  der  Geraden  (u :  v :  iv)  liegt; 
+damit  sind,  wie  man  leicht  sieht,  die  Axiome  I  1 — 2  und  III  er- 
+füllt. Die  Zahlen  des  Bereiches  Sl  sind  sämtlich  reell;  indem  wir 
+berücksichtigen,  dass  dieselben  sich  ihrer  Grösse  nach  anordnen 
+lassen,  können  wir  leicht  solche  Festsetzungen  für  unsere  Punkte 
+und  Geraden  treffen-',  dass  auch  die  Axiome  II  der  Anordnung 
+sämtlich  gültig  sind.  In  der  That,  sind  {xv  yj,  (x2,  y2),  (x3J  y3), .  .  . 
+irgend  welche  Punkte  auf  einer  Geraden,  so  möge  dies  ihre  Reihen- 
+folge auf  der  Geraden  sein ,  wenn  die  Zahlen  xv  x2,  x3,  .  . .  oder 
+yv  y2,  y3,  . . .  in  dieser  Reihenfolge  entweder  beständig  abnehmen 
+oder  wachsen ;  um  ferner  die  Forderung  des  Axioms  II  5  zu  er-
+
+füllen, haben  wir  nur  nöthig  festzusetzen,  dass  alle  Punkte  (x,  y), 
+für  die  ux  +  vy  +  iu  kleiner  oder  grösser  als  0  ausfällt,  auf  der 
+einen  bez.  auf  der  anderen  Seite  der  Geraden  (u :  v :  iv)  gelegen 
+sein  sollen.  Man  überzeugt  sich  leicht ,  dass  diese  Festsetzung 
+sich  mit  der  vorigen  Festsetzung  in  Uebereinstimmung  befindet, 
+derzufolge  ja  die  Reihenfolge  der  Punkte  auf  einer  Geraden  be- 
+reits bestimmt  ist. 
+
+Das  Abtragen  von  Strecken  und  Winkeln  erfolgt  nach  den 
+bekannten  Methoden  der  analytischen  Geometrie.  Eine  Trans- 
+formation von  der  Gestalt 
+
+y'  =  y+h 
+
+vermittelt  die  Parallelverschiebung  von  Strecken  und  Winkeln. 
+Wird  ferner  der  Punkt  (0,  0)  mit  0,  der  Punkt  (1,  0)  mit  E  und 
+ein  beliebiger  Punkt  (a,  b)  mit  C  bezeichnet,  so  entsteht  durch 
+Drehung  um   den  Winkel  <^COE ,    wenn  0   der  feste  Drehpunkt 
+
+
+Kap.  II.  Die  Widerspruchslosigkeit  u.  gegens.  Unabhängigkeit  der  Axiome.  §  9, 10.    21 
+
+ist,  aus  dem  beliebigen  Punkte  (x,  y)  der  Punkt  (x',  y'),  wobei 
+
+b 
+
+
+zu    setzen    ist. 
+\j~ÖF+V  =  a 
+
+
+a 
+
+S/a2  +  b* 
+
+y' 
+
+b 
+
+V«a  +  b2 
+
+Da 
+
+die  Zahl 
+
+X  — 
+
+
+\Ja2  +  V 
+
+
+y, 
+
+
+x-\- 
+
+
+\/a2  +  b 
+
+
+^y 
+
+
+i  + 
+
+
+O(o,o) 
+
+
+wiederum  dem  Bereiche  Si  an- 
+gehört, so  gelten  bei  unseren 
+Festsetzungen  auch  die  Con- 
+gruenzaxiome  IV  und  offenbar 
+ist  auch  das  Archimedische 
+Axiom  V  erfüllt. 
+
+Wir  schliessen  hieraus, 
+dass  jeder  Widerspruch  in 
+den  Folgerungen  aus  unseren 
+
+Axiomen  auch  in  der  Arithmetik  des  Bereiches  Sl  erkennbar  sein 
+müsste. 
+
+Die  entsprechende  Betrachtungsweise  für  die  räumliche  Geo- 
+metrie bietet  keine  Schwierigkeit. 
+
+Wählen  wir  in  der  obigen  Entwickelung  statt  des  Bereiches  Si 
+den  Bereich  aller  reellen  Zahlen,  so  erhalten  wir  ebenfalls  eine 
+Geometrie ,  in  der  sämtliche  Axiome  I — V  gültig  sind.  Für  un- 
+seren Beweis  genügte  die  Zuhülfenahme  des  Bereiches  Si,  der  nur 
+eine  abzählbare  Menge  von  Elementen  enthält. 
+
+§  io. 
+Die  Unabhängigkeit  des  Parallelenaxioms  (Wicht-Euklidische  Geometrie). 
+
+Nachdem  wir  die  Widerspruchslosigkeit  der  Axiome  erkannt 
+haben,  ist  es  von  Interesse  zu  untersuchen,  ob  sie  sämtlich  von 
+einander  unabhängig  sind.  In  der  That  zeigt  sich ,  dass  keines 
+der  Axiome  durch  logische  Schlüsse  aus  den  übrigen  abgeleitet 
+werden  kann. 
+
+Was  zunächst  die  einzelnen  Axiome  der  Gruppen  I,  II  und  IV 
+betrifft,  so  ist  der  Nachweis  dafür  leicht  zu  führen,  dass  die 
+Axiome  ein  und  derselben  Gruppe  je  unter  sich  unabhängig  sind1). 
+
+1)  Vergl.  meine  Vorlesung  über  Euklidische  Geometrie  (Wintersemester 
+1898/99),  die  nach  einer  Ausarbeitung  des  Herrn  Dr.  von  Schaper  für  meine 
+Zuhörer  autographirt  worden  ist. 
+
+
+22     Kap.  II.  Die  WidersprucMosigkeit  u.  gegens.  Unabhängigkeit  der  Axiome.  §10. 
+
+Die  Axiome  der  Gruppen  I  und  II  liegen  bei  unserer  Dar- 
+stellung den  übrigen  Axiomen  zu  Grunde,  so  dass  es  sich  nur 
+noch  darum  handelt,  für  jede  der  Gruppen  III,  IV  und  V  die 
+Unabhängigkeit  von  den  übrigen  nachzuweisen. 
+
+Die  e  r  s  t  e  r  e  Aussage  des  Parallelenaxioms  kann  aus  den 
+Axiomen  der  Gruppen  I,  II,  IV  bewiesen  werden.  Um  dies  ein- 
+zusehen, verbinden  wir  den  gegebenen  Punkt  A  mit  einem  belie- 
+bigen Punkte  B  der  Geraden  a.  Es  sei  ferner  C  irgend  ein 
+anderer  Punkt  der  Geraden  a;  dann  tragen  wir  ^ABC  an  AB 
+im  Punkte  A  nach  derjenigen  Seite  in  der  nämlichen  Ebene  a  an, 
+auf  der  nicht  der  Punkt  G  liegt.  Die  so  erhaltene  Gerade  durch 
+A  trifft  die  Gerade  a  nicht.  In  der  That,  schnitte  sie  a  im  Punkte 
+D  und  nehmen  wir  etwa  an,  dass  B  zwischen  G  und  D  liege,  so 
+könnten  wir  auf  a  einen  Punkt  D'  finden,  so  dass  B  zwischen  D 
+uud  D'  liegt  und  überdies 
+
+AD  =  BD' 
+
+ausfiele.  "Wegen  der  Congruenz  der  Dreiecke  ABD  und  BAD' 
+würde  die  Congruenz 
+
+^ABD  =  ^BAD' 
+
+folgen  und  da  die  Winkel  ABD'  und  ABD  Nebenwinkel  sind,  so 
+müssten  sich  dann  mit  Rücksicht  auf  Satz  12  auch  die  Winkel 
+BAD  und  BAD'  als  Nebenwinkel  erweisen;  dies  ist  aber  wegen 
+Satz  1  nicht  der  Fall.
+
+Die  zweite  Aussage  des  Parallelenaxioms  III  ist  von  den 
+übrigen  Axiomen  unabhängig ;  dies  zeigt  man  in  bekannter  Weise 
+am  einfachsten  wie  folgt.  Man  wähle  die  Punkte,  Geraden  und 
+Ebenen  der  gewöhnlichen  in  §  9  construirten  Geometrie,  so  weit 
+sie  innerhalb  einer  festen  Kugel  Verlaufen ,  für  sich  allein  als 
+Elemente  einer  räumlichen  Geometrie  und  vermittle  die  Congru- 
+enzen  dieser  Geometrie  durch  solche  lineare  Transformationen  der 
+gewöhnlichen  Geometrie,  welche  die  feste  Kugel  in  sich  überführen. 
+Bei  geeigneten  Festsetzungen  erkennt  man,  dass  in  dieser  „NicM- 
+EuMidischen"  Geometrie  sämtliche  Axiome  ausser  dem  Euklidischen 
+Axiom  III  gültig  sind  und  da  die  Möglichkeit  der  gewöhnlichen 
+Geometrie  in  §  9  nachgewiesen  worden  ist,  so  folgt  nunmehr  auch 
+die  Möglichkeit  der  Nicht-Euklidischen  Geometrie. 
+
+
+Kap.  Ii.  Die  Wiclerspruchslosigkeit  u.  gegens.  Unabhängigkeit  der  Axiome.  §  11 .     23 
+
+§H. 
+
+Die  Unabhängigkeit  der  Congruenzaxiome. 
+
+Wir  werden  die  Unabhängigkeit  der  Congruenzaxiome  erken- 
+nen, indem  wir  den  Nachweis  führen,  dass  das  Axiom  IV  6  oder, 
+was  auf  das  nämliche  hinausläuft,  der  erste  Congruenzsatz  für 
+Dreiecke,  d.  i.  Satz  10  durch  logische  Schlüsse  nicht  aus  den 
+übrigen  Axiomen  I,  II,  III,  IV  1—5,  V  abgeleitet  werden  kann. 
+
+Wir  wählen  die  Punkte,  Geraden,  Ebenen  der  gewöhnlichen 
+Geometrie  auch  als  Elemente  der  neuen  räumlichen  Geometrie  und 
+definiren  das  Abtragen  der  Winkel  ebenfalls  wie  in  der  gewöhn- 
+lichen Geometrie,  etwa  in  der  Weise,  wie  in  §  9  auseinandergesetzt 
+worden  ist ;  dagegen  definiren  wir  das  Abtragen  der  Strecken  auf 
+andere  Art.  Die  zwei  Punkte  Av  A2  mögen  in  der  gewöhnlichen 
+Geometrie  die  Coordinaten  xv  yv  zt  bez.  x2,  y2,  z2  haben;  dann  be- 
+zeichnen wir  den  positiven  Wert  von 
+
+
+S/fa  -x2  +  y-  y2f  +  (y,  -  yj  +  fo  -  z2f 
+
+als  die  Länge  der  Strecke  Ä1Aa  und  nun  sollen  zwei  beliebige 
+Strecken  A1A2  und  A[A'2  einander  congruent  heissen,  wenn  sie 
+im  eben  festgesetzten  Sinne  gleiche  Längen  haben. 
+
+Es  leuchtet  unmittelbar  ein,  dass  in  der  so  hergestellten 
+räumlichen  Geometrie  die  Axiome  I,  II,  III,  IV  1  —  2,  4 — 5,  V 
+gültig  sind. 
+
+Um  zu  zeigen,  dass  auch  das  Axiom  IV  3  erfüllt  ist,  wählen 
+wir  eine  beliebige  Gerade  a  und  auf  ihr  drei  Punkte  Av  A2,  AsJ 
+sodass  A2  zwischen  A1  und  A3  liegt.  Die  Punkte  x,  y,  z  der  Ge- 
+raden a  seien  durch  die  Gleichungen 
+
+x  =  tt  +  X', 
+
+y   =   [it  +  [l', 
+
+z  =  vt  +  v' 
+
+gegeben,  worin  A,  A',  p,  fi',  v,  v'  gewisse  Constante  und  t  einen  Pa- 
+rameter bedeutet.  Sind  tv  t2  (<  tt),  t3  (<  t2)  die  Parameterwerte, 
+die  den  Punkten  Av  A2,  A3  entsprechen ,  so  finden  wir  für  die 
+Längen  der  drei  Strecken  A1A2,  A2A3  und  AXA3  bez.  die  Ausdrücke: 
+
+
+(V-OlV(*+fO'+rMV|. 
+
+und   mithin   ist    die    Summe   der  Längen   der   Strecken  A1A2   und 
+
+
+24   Kap.  II.  DieWiderspruchslosigkeitu.  gegens.  Unabhängigkeit  der  Axiome.  §11,12. 
+
+
+A2A3  gleich  der  Länge  der  Strecke  A1A3;  dieser  Umstand  bedingt 
+die  Gültigkeit  des  Axioms  IV  3. 
+
+Das  Axiom  IV  6  oder  vielmehr  der  erste  Congruenzsatz  für 
+Dreiecke  ist  in  unserer  Geometrie  nicht  immer  erfüllt.  Betrachten 
+wir  nämlich  in  der  Ebene  s  =  0  die  vier  Punkte 
+
+0  mit  den  Coordinaten  x  =  0,    y  =  0, 
+A     ii        ii  ii  x  =  1,    y  =  0, 
+
+Jj     ii       ii  ii  x  =  0,    y  =  1, 
+
+^        »  11  »  W    ==     21      tl    ==     21 
+
+so   sind  in   den  beiden  (rechtwinkligen)  Dreiecken  OAC  und  OBC 
+
+
+*B(o,7) 
+
+
+C(h-k) 
+
+
+O(o,o) 
+
+
+Mi,o) 
+
+
+die  Winkel  bei  C  und  die  anlie- 
+genden Seiten  entsprechend  con- 
+gruent ,  da  die  Seite  OC  beiden 
+Dreiecken  gemeinsam  ist  und  die 
+Strecken  AG  und  JBC  die  gleiche 
+Länge  ^  besitzen.  Dagegen  haben 
+die  dritten  Seiten  OA  und  OB  die 
+Länge  1 ,  bez.  \/2  und  sind  daher 
+nicht  einander  conoruent. 
+
+
+Fig.  15. 
+
+Es  ist  auch  nicht  schwer,   in  dieser  Geometrie  zwei  Dreiecke 
+zu  finden,  für  welche  das  Axiom  IV  6  selbst  nicht  erfüllt  ist. 
+
+
+§  12. 
+
+Die  Unabhängigkeit  des  Stetigkeitsaxioms  V
+
+(Nicht -Archimedische  Geometrie). 
+
+Um  die  Unabhängigkeit  des  Archimedischen  Axioms  V  zu 
+beweisen,  müssen  wir  eine  Geometrie  herstellen,  in  der  sämtliche 
+Axiome   mit  Ausnahme  des  Archimedischen  Axioms  erfüllt  sind1). 
+
+Zu  dem  Zwecke  construiren  wir  den  Bereich  £l(f)  aller  der- 
+jenigen algebraischen  Funktionen  von  t,  welche  aus  t  durch  die 
+vier  Rechnungsoperationen  der  Addition,  Subtraktion,  Multipli- 
+kation, Division  und  durch  die  fünfte  Operation  \/l  +  tö2  her- 
+vorgehen; dabei  soll  co  irgend  eine  Funktion  bedeuten,  die  ver- 
+möge jener  fünf  Operationen  bereits  entstanden  ist.  Die  Menge 
+der  Elemente  von  Sl  (t)  ist  —  ebenso  wie  von  Sl  —  eine  abzählbare. 
+Die  fünf  Operationen  sind  sämtlich  eindeutig  und  reell  ausführbar; 
+
+
+1)  G.  Veronese  hat  in  seinem  tiefsinnigen  Werke,  Grundzüge  der  Geometrie, 
+deutsch  von  A.  Schepp,  Leipzig  1894  ebenfalls  den  Versuch  gemacht,  eine  Geo- 
+metrie aufzubauen,  die  von  dem  Archimedischen  Axiom  unabhängig  ist. 
+
+
+Kap.  II.  Die  Wiclerspruchslosigkeit  u.  gegens.  Unabhängigkeit  der  Axiome.    §12.     25 
+
+der  Bereich  Sl(t)  enthält  daher  nur  eindeutige  und  reelle  Funk- 
+tionen von  t. 
+
+Es  sei  c  irgend  eine  Funktion  des  Bereiches  Sl(t)]  da  die 
+Funktion  c  eine  algebraische  Funktion  von  t  ist ,  so  kann  sie 
+jedenfalls  nur  für  eine  endliche  Anzahl  von  Werten  t  verschwinden 
+und  es  wird  daher  die  Funktion  c  für  genügend  grosse  positive 
+Werte  von  t  entweder  stets  positiv  oder  stets  negativ  ausfallen. 
+
+Wir  sehen  jetzt  die  Funktionen  des  Bereiches  Sl{t)  als  eine  Art 
+complexer  Zahlen  an ;  offenbar  sind  in  dem  so  definirten  complexen 
+Zahlensystem  die  gewöhnlichen  Rechnungsregeln  sämtlich  gültig. 
+Ferner  möge,  wenn  a,  b  irgend  zwei  verschiedene  Zahlen  dieses 
+complexen  Zahlensystems  sind,  die  Zahl  a  grösser  oder  kleiner 
+als  b,  in  Zeichen :  a  >  b  oder  a  <zb,  heissen,  je  nachdem  die  Diffe- 
+renz c  =  a  —  b  als  Funktion  von  t  für  genügend  grosse  positive 
+Werte  von  t  stets  positiv  oder  stets  negativ  ausfällt.  Bei  dieser 
+Festsetzung  ist  für  die  Zahlen  unseres  complexen  Zahlensystems 
+eine  Anordnung  ihrer  Grösse  nach  möglich ,  die  von  der  gewöhn- 
+lichen Art  wie  bei  reellen  Zahlen  ist ;  auch  gelten,  wie  man  leicht 
+erkennt,  für  unsere  complexen  Zahlen  die  Sätze ,  wonach  Unglei- 
+chungen richtig  bleiben,  wenn  man  auf  beiden  Seiten  die  gleiche 
+Zahl  addirt  oder  beide  Seiten  mit  der  gleichen  Zahl  >  0  mul- 
+tiplicirt. 
+
+Bedeutet  n  eine  beliebige  positive  ganze  rationale  Zahl,  so 
+gilt  für  die  beiden  Zahlen  n  und  t  des  Bereiches  Sl  (t)  gewiss  die 
+Ungleichung  n  <  t ,  da  die  Differenz  n  —  t,  als  Funktion  von  t 
+betrachtet,  für  genügend  grosse  positive  Werte  von  t  offenbar 
+stets  negativ  ausfällt.  Wir  sprechen  diese  Thatsache  in  fol- 
+gender Weise  aus:  die  beiden  Zahlen  1  und  t  des  Bereiches  £l(t), 
+die  beide  >  0  sind ,  besitzen  die  Eigenschaft ,  dass  ein  beliebiges 
+Vielfaches  der  ersteren  stets  kleiner  als  die  letztere  Zahl  bleibt. 
+
+Wir  bauen  nun  aus  den  complexen  Zahlen  des  Bereiches  £l(t) 
+eine  Geometrie  genau  auf  dieselbe  Art  auf,  wie  dies  in  §  9  unter 
+Zugrundelegung  des  Bereiches  Sl  von  algebraischen  Zahlen  ge- 
+schehen ist :  wir  denken  uns  ein  System  von  drei  Zahlen  (x,  y,  z) 
+des  Bereiches  Sl  (f)  als  einen  Punkt  und  die  Verhältnisse  von  irgend 
+vier  Zahlen  (u  :  v  :  w  :  r)  aus  5i  (t),  falls  u,  v,  iv  nicht  sämtlich  Null 
+sind,  als  eine  Ebene;  ferner  möge  das  Bestehen  der  Gleichung 
+
+ux  +  vy  +  we  +  r  =  0 
+
+ausdrücken,  dass  der  Punkt  (x,  y,  z)  in  der  Ebene  (u  :  v  :  w  :  r)  liegt 
+und  die  Gerade  sei  die  Gesamtheit  aller  in  zwei  Ebenen  ge- 
+legenen  Punkte.      Treffen   wir     sodann   die    entsprechenden   Fest- 
+
+
+26  Kap.  III.   Die  Lehre  von  den  Proportionen.    §  13. 
+
+Setzungen  über  die  Anordnung  der  Elemente  und  über  Abtragen 
+von  Strecken  und  "Winkeln,  wie  in  §  9,  so  entstellt  eine  „Nicht- 
+ArcJiimedische"  Geometrie,  in  welcher,  wie  die  zuvor  erörterten
+
+Eigenschaften  des  complexen  Zahlensystems  Sl  (t)  zeigen,  sämtliche 
+Axiome  mit  Ausnahme  des  Archimedischen  Axioms  erfüllt  sind. 
+In  der  That  können  wir  die  Strecke  1  auf  der  Strecke  t  beliebig 
+oft  hinter  einander  abtragen,  ohne  dass  der  Endpunkt  der  Strecke  t 
+bedeckt  wird ;  dies  widerspricht  der  Forderung  des  Archimedischen 
+Axioms. 
+
+
+Kapitel  III. 
+
+Die  Lehre  von  den  Proportionen. 
+
+§  13. 
+Complexe  Zahlensysteme. 
+
+Am  Anfang  dieses  Kapitels  wollen  wir  einige  kurze  Aus- 
+einandersetzungen über  complexe  Zahlensysteme  vorausschicken, 
+die  uns  später  insbesondere  zur  Erleichterung  der  Darstellung 
+nützlich  sein  werden. 
+
+Die  reellen  Zahlen  bilden  in  ihrer  Gesamtheit  ein  System 
+von  Dingen  mit  folgenden  Eigenschaften: 
+
+Sätze  der  Verknüpfung  (1 — 12): 
+
+1.  Aus  der  Zahl  a  und  der  Zahl  b  entsteht  durch  „Addi- 
+tion" eine  bestimmte  Zahl  c,  in  Zeichen 
+
+a  +  b  =  c    oder    c  =  a  +  b. 
+
+2.  Es  giebt  eine  bestimmte  Zahl  —  sie  heisse  0  — ,  so  dass 
+für  jedes  a  zugleich 
+
+a  -f  0  =  a    und    0  +  a  =  a 
+ist. 
+
+3.  "Wenn  a  und  b  gegebene  Zahlen  sind,  so  existirt  stets 
+eine  und  nur  eine  Zahl  x  und  auch  eine  und  nur  eine  Zahl  y,  so 
+dass 
+
+a  +  x  =  b    bez.    y  +  a  =  b 
+wird. 
+
+4.  Aus  der  Zahl  a  und  der  Zahl  b  entsteht  noch  auf  eine 
+andere  Art  durch  „Multiplikation"   eine  bestimmte  Zahl  c,    in 
+
+
+Kap.  III.    Die  Lehre  von  den  Proportionen.    §13.  27 
+
+Zeichen 
+
+ab  =  c     oder     c  =  ab. 
+
+5.  Es  giebt  eine  bestimmte  Zahl  —  sie  heisse  1  — ,  so  dass 
+für  jedes  a  zugleich 
+
+a  •  1  =  a    und     1-  a  =  a 
+ist. 
+
+6.  Wenn  a  und  b  beliebig  gegebene  Zahlen  sind  und  a  nicht  0 
+ist,  so  existirt  stets  eine  und  nur  eine  Zahl  x  und  auch  eine  und 
+nur  eine  Zahl  y,  so  dass 
+
+ax  =  b   bez.   ya  =  b 
+wird. 
+
+Wenn  a,  b,  c  beliebige  Zahlen  sind ,  so  gelten  stets  folgende 
+Rechnungsgesetze : 
+
+7.  a  +  (b  +  c)  —  (a  +  b)  +  c 
+
+8.  a  +  b  =  b  +  a 
+
+9.  a(bc)  =  (ab)c 
+
+10.  a(b  +  c)  =  ab  +  ac 
+
+11.  (a  +  b)c  =  ac  +  bc 
+
+12.  ab  =  ba. 
+
+Sätze  der  Anordnung  (13  —  16). 
+
+13.  Wenn  a,  b  irgend  zwei  verschiedene  Zahlen  sind,  so  ist 
+stets  eine  bestimmte  von  ihnen  (etwa  a)  grösser  (>)  als  die  an- 
+dere ;  die  letztere  heisst  dann  die  kleinere,  in  Zeichen : 
+
+a  >  b     und     b  <  a. 
+
+14.  Wenn  a  >  b  und  b  >  c,  so  ist  auch  a  >  c. 
+
+15.  Wenn  a  >  b  ist,  so  ist  auch  stets 
+
+a  +  o  b  +  c    und     c  +  a  >  c  +  b. 
+
+16.  Wenn  a  >  b  und  c  >  0   ist,   so  ist  auch  stets 
+
+ac  >  &c     und    ca  >  cb. 
+
+Archimedischer  Satz  (17). 
+
+17.  Wenn  a  >  0  und  b  >  0  zwei  beliebige  Zahlen  sind,  so 
+ist  es  stets  möglich,  a  zu  sich  selbst  so  oft  zu  addiren,  dass  die 
+entstehende  Summe  die  Eigenschaft  hat 
+
+a  +  a-\ \-a  >  b. 
+
+Ein  System  von  Dingen,  das  nur  einen  Teil  der  Eigenschaften 
+1 — 17  besitzt,  heisse  ein  complexes  Zahlensystem  oder  auch  ein 
+Zahlensystem   schlechthin.      Ein   Zahlensystem    heisse    ein   Archi- 
+
+
+28 
+
+
+Kap.  III.     Die  Lehre  von  den  Proportionen.    §  13,  14. 
+
+
+medisches    oder   ein  Nicht  -  Archimedisches ,    jenachdem   dasselbe   der 
+Forderung  17  genügt  oder  nicht. 
+
+Von  den  aufgestellten  Eigenschaften  1 — 17  sind  einige  Folgen 
+der  übrigen.  Es  entsteht  die  Aufgabe,  die  logische  Abhängigkeit 
+dieser  Eigenschaften  zu  untersuchen.  Wir  werden  in  Kapitel  VI 
+§  32  und  §  33  zwei  bestimmte  Fragen  der  angedeuteten  Art  wegen 
+ihrer  geometrischen  Bedeutung  beantworten  und  wollen  hier  nur 
+darauf  hinweisen,  dass  jedenfalls  die  letzte  Forderung  17  keine 
+logische  Folge  der  übrigen  Eigenschaften  ist,  da  ja  beispielsweise 
+das  in  §  12  betrachtete  complexe  Zahlensystem  £l(t)  sämtliche  Ei- 
+genschaften 1 — 16  besitzt,  aber  nicht  die  Forderung  17  erfüllt. 
+
+
+§  14. 
+Beweis  des  Pascalschen  Satzes. 
+
+In  diesem  und  dem  folgenden  Kapitel  legen  wir  unserer  Un- 
+tersuchung die  ebenen  Axiome  sämtlicher  Gruppen  mit  Aus- 
+nahme des  Archimedischen  Axioms ,  d.  h.  die  Axiome  I  1 — 2  und 
+II — IV  zu  Grunde.  In  dem  gegenwärtigen  Kapitel  III  gedenken
+
+wir  Euklids  Lehre  von  den  Proportionen  mittelst  der  genannten 
+Axiome,  d.h.  in  der  Ebene  und  unabhängig  vom  Archi- 
+medischen Axiom  zu  begründen. 
+
+Zu  dem  Zwecke  beweisen  wir  zunächst  eine  Thatsache,  die 
+ein  besonderer  Fall  des  bekannten  Pascalschen  Satzes  aus  der 
+Lehre  von  den  Kegelschnitten  ist  und  die  ich  künftig  kurz  als 
+den  Pascalschen  Satz  bezeichnen  will.     Dieser  Satz  lautet : 
+
+Satz  21  *)  (Pascal- 
+scher Satz).  Es  seien 
+A,B,Cbez.A',B',C  je 
+drei  Punkte  auf  zwei  sich 
+schneidenden  Geraden,  die 
+vom  Schnittpunkte  der  Ge- 
+raden verschieden  sind; 
+ist  dann  CB'  parallel 
+BC  und  CA'  parallel 
+AC,  so  ist  auch  BA' 
+parallel  AB1. 
+
+
+C 
+
+
+B 
+
+Fig.  16 
+Um   den   Beweis   für    diesen   Satz   zu   erbringen,   führen  wir 
+
+
+1)  F.  Schur  hat  einen  interessanten  Beweis  des  Pascalschen  Satzes  auf  Grund 
+der  sämtlichen  Axiome  I — II,  IV  in  den  Math.  Ann.  Bd.  51  veröffentlicht. 
+
+
+Kap.  HL    Die  Lehre  von  den  Proportionen.     §  14. 
+
+
+29 
+
+
+zunächst  folgende  ßezeichnungsweise  ein.    In  einem  rechtwinkligen 
+Dreiecke    ist   offenbar  die  Kathete  a  durch 
+die   Hypotenuse    c    und    den    von   a  und  c 
+eingeschlossenen    Basiswinkel    a     eindeutig 
+bestimmt:  wir  setzen  kurz 
+
+
+a  =  ccc, 
+
+
+Fig.  17. 
+
+
+sodass  das  Symbol  ccc   stets  eine  bestimmte 
+
+Strecke   bedeutet,    sobald  c  eine   beliebig  gegebene  Strecke  und  cc 
+
+ein  beliebig  gegebener  spitzer  Winkel  ist. 
+
+Nunmehr  möge  c  eine  beliebige  Strecke  und  cc,  ß  mögen  zwei 
+beliebige  spitze  Winkel  bedeuten ;  wir  behaupten,  dass  allemal  die 
+
+
+Streckencongruenz 
+
+
+ccßc  =  ßac 
+
+
+besteht  und  somit  die  Symbole  cc,  ß  stets  mit  einander  vertausch- 
+bar sind. 
+
+Um  diese  Behauptung  zu  be- 
+weisen, nehmen  wir  die  Strecke 
+c  =  AB  und  tragen  an  diese 
+Strecke  in  A  zu  beiden  Seiten 
+die  Winkel  a  und  ß  an.  Dann 
+fällen  wir  von  B  aus  auf  die 
+anderen  Schenkel  dieser  Winkel 
+die  Lote  BG  und  BD,  verbinden 
+C  mit  D  und  fällen  schliesslich 
+von  A  aus  das  Lot  AE  auf  CD. 
+
+Da  die  Winkel  jCACB  und 
+■^ADB  Rechte  sind,  so  liegen 
+die  vier  Punkte  A,  B,  C,  D  auf  einem  Kreise  und  demnach  sind  die 
+beiden  Winkel  ^ACD  und  jf^ABD  als  Peripheriewinkel  auf  der- 
+selben Sehne  AD  einander  congruent.  Nun  ist  einerseits  jCACD 
+zusammen  mit  dem  jCCAE  und  andererseits  ^CABD  zusammen 
+mit  <£iBAD  je  ein  Rechter  und  folglich  sind  auch  die  Winkel 
+^C.CAE  und  ^BAD  einander  congruent,  d.  h.  es  ist 
+
+^CAE  =  ß, 
+und  daher 
+
+^DAE  =  a. 
+
+Wir  gewinnen  nun  unmittelbar  die  Streckencongruenzen 
+
+
+Fig.  18. 
+
+
+ßc  =  AD 
+ccßc  =  cc(AD)  =  AE 
+
+
+ccc  =  AC 
+
+ßac  =  ß(AC)  =  AE, 
+
+
+30 
+
+
+Kap.  III.   Die  Lehre  von  den  Proportionen.    §  14. 
+
+
+und  hieraus  folgt  die  Richtigkeit  der  vorhin  behaupteten  Con- 
+gruenz. 
+
+"Wir  kehren  nun  zur  Figur  des  Pascalschen  Satzes  zurück 
+und  bezeichnen  den  Schnittpunkt  der  beiden  Geraden  mit  0  und 
+die  Strecken  OA,  OB,  OC,  OA',  OB',  OC,  CB',  BC,  CA',  AC,  BA', 
+AB'  bez.  mit  a,  b,  c,  a',  b',  c',  l,  l*,  m,  m*,  n,  n*.  Sodann  fällen  wir 
+von  0  Lote  auf  Z,  m,  n ;  das  Lot  auf  l  schliesse  mit  den  beiden 
+Geraden  OA,  OA'  die  spitzen  Winkel  X',  X  ein  und  die  Lote  auf 
+m  bez.  n  mögen  mit  den  Geraden  OA  und  OA'  die  spitzen  Winkel 
+ft',  p  bez.  v',  v  bilden.  Drücken  wir  nun  diese  drei  Lote  in  der 
+vorhin  angegebenen  Weise  mit  Hülfe  der  Hypotenusen  und  Basis- 
+winkel in  den  betreffenden  rechtwinkligen  Dreiecken  auf  doppelte 
+Weise  aus,  so  erhalten  wir  folgende  drei  Streckencongruenzen 
+
+(1)  XV  =  X'c, 
+
+(2)  fia'  =  ft'c, 
+
+(3)  va'  =  v'b. 
+
+Da  nach  Voraussetzung  l  parallel  l*  und  m  parallel  m*  sein  soll, 
+so  stimmen  die  von  0  auf  l*  bez.  m*  zu  fällenden  Lote  mit  den 
+Loten  auf  l  bez.  m  überein  und  wir  erhalten  somit 
+
+
+(4) 
+(5) 
+
+
+Xc'  es  X'b, 
+
+
+Och  co 
+
+Fig.  19. 
+
+Wenn  wir  auf  die  Congruenz  (3)  links  und  rechts  das  Symbol 
+
+A'ft  anwenden  und  bedenken,    dass  nach  dem  vorhin  Bewiesenen 
+
+die  in  Rede  stehenden  Symbole  mit   einander   vertauschbar   sind, 
+
+so  finden  wir 
+
+vX'fia'  =  v'fiX'b. 
+
+In  dieser  Congruenz   berücksichtigen  wir  links  die  Congruenz  (2)
+
+und  rechts  (4);  dann  wird 
+
+vX'p'c  es  v'fiXc' 
+
+
+Kap.  III.  Die  Lehre  von  den  Proportionen.  §  14. 
+
+
+31 
+
+
+oder 
+
+Hierin  berücksichtigen  wir  links  die  Congruenz  (1)  und  rechts  (5) ; 
+dann  wird 
+
+
+oder 
+
+
+v[i'kb'  =  v'kfi'a 
+
+
+X^i'vb'  —  X^i'v'a. 
+
+Wegen   der   Bedeutung   unserer   Symbole   scbliessen   wir   aus  der 
+letzten  Congruenz  sofort 
+
+p'vb'  =  n'v'a 
+und  hieraus 
+(6)  vV  =  v'a. 
+
+Fassen  wir  nun  das  von  0  auf  n  gefällte  Lot  in's  Auge  und 
+fällen  auf  dasselbe  Lote  von  A  und  B'  aus ,  so  zeigt  die  Con- 
+gruenz (6),  dass  die  Fusspunkte  der  letzteren  beiden  Lote  zu- 
+sammenfallen, d.  h.  die  Gerade  n*  —  AB'  steht  zu  dem  Lote  auf  n 
+senkrecht  und  ist  mithin  zu  n  parallel.  Damit  ist  der  Beweis  für 
+den  Pascalschen  Satz  erbracht. 
+
+Wenn  irgend  eine  Gerade,  ein  Punkt  ausserhalb  derselben 
+und  irgend  ein  Winkel  gegeben  ist ,  so  kann  man  oiTenbar  durch 
+Abtragen  dieses  Winkels  und  Ziehen  einer  Parallelen  eine  Ge- 
+rade finden,  die  durch  den  gegebenen  Punkt  geht  und  die  gegebene 
+Gerade  unter  dem  gegebenen  Winkel  schneidet.  Im  Hinblick  auf 
+diesen  Umstand  dürfen  wir  uns  zum  Beweise  des  Pascalschen 
+Satzes  auch  des  folgenden  einfachen  Schlussverfahrens  bedienen, 
+das  ich  einer  Mittheilung  von  anderer  Seite  verdanke. 
+
+Man  ziehe  durch  B  eine  Gerade,  die  OA'  im  Punkte  D'  unter 
+dem  Winkel  OCA'  trifft,  so  dass  die  Congruenz 
+(1*)  ^OCA'  =  ^OB'B 
+
+
+32  Kap.  III.     Die  Lehre  von  den  Proportionen.     §  14,   15. 
+
+gilt ;  dann  ist  nach  einem  bekannten  Satze  aus  der  Lehre  vom 
+Kreise  CBD'A'  ein  Kreisviereck  und  mithin  gilt  nach  dem  Satze 
+von  der  Congruenz  der  Peripheriewinkel  auf  der  nämlichen  Sehne 
+die  Congruenz 
+
+(2*)  ^OBA'  =  ^OD'C. 
+
+Da  CA'  und  AC  nach  Voraussetzung  einander  parallel  sind,  so  ist 
+(3*)  jCOCA'  =  jC.OAC; 
+
+aus  (1*)  und  (3*)  folgern  wir  die  Congruenz 
+^OD'B  =  jCOAC; 
+
+dann  aber  ist  auch  BAB'C  ein  Kreisviereck  und  mithin  gilt  nach 
+dem  Satze  von  den  Winkeln  im  Kreisviereck  die  Congruenz 
+
+(4*)  ^OAB'  =  ^OC'B. 
+
+Da  ferner  nach  Voraussetzung  ÜB'  parallel  BC  ist,  so  haben 
+wir  auch 
+
+(5*)  <£OB'C  =  ^OC'B- 
+
+aus  (4*)  und  (5*)  folgern  wir  die  Congruenz 
+
+jCOAD'  =  <£OB'C; 
+
+diese  endlich  lehrt,  dass  CAB' B'  ein  Kreisviereck  ist,  und  mithin 
+gilt  auch  die  Congruenz 
+
+(6*)  jCOAB'  =  ^OB'C. 
+
+Aus  (2*)  und  (6*)  folgt 
+
+jC  OBA'  =  $Z  OAB' 
+
+und  die  Congruenz  lehrt ,  dass  BA'  und  AB'  einander  parallel 
+sind,  wie  es  der  Pascalsche  Satz  verlangt. 
+
+Fällt  D'  mit  einem  der  Punkte  A',  B',  C  zusammen,  so  wird 
+eine  Abänderung  dieses  Schlussverfahrens  nothwendig,  die  leicht 
+ersichtlich  ist. 
+
+§  15. 
+Die  Streckenrechnung  auf  Grund  des  Pascalschen  Satzes. 
+
+Der  im  vorigen  Paragraph  bewiesene  Pascalsche  Satz  setzt 
+uns  in  den  Stand,  in  die  Geometrie  eine  Rechnung  mit  Strecken 
+einzuführen,  in  der  die  Rechnungsregeln  für  reelle  Zahlen  sämt- 
+lich unverändert  gültig  sind. 
+
+
+Kap.  III.   Die  Lehre  von  den  Proportionen.     §  15.  33 
+
+Statt  des  Wortes  „congruent"  und  des  Zeichens  =  bedienen 
+wir  uns  in  der  Streckenrechnung  des  Wortes  „gleich"  und  des 
+Zeichens  =. 
+
+Wenn  A,  B,  C  drei  Punkte  einer  Geraden  sind  und  B  zwischen 
+
+A  und  C  liegt,  so  bezeichnen  wir  -, 
+
+c  =  AG  als  die  Summe   der  bei-         . . 
+
+den  Strecken  a  =  AB  und  b  =  BC        ^ c  =  cu  +  b   > 
+
+und  setzen 
+
+c  ■=■  a  +  b. 
+
+Die  Strecken  a  und  b  heissen  kleiner  als  c,  in  Zeichen: 
+
+
+und  c  heisst  grösser  als  a  und  b,    in  Zeichen: 
+
+c  >  a,       c  >  b. 
+
+Aus  den  linearen  Congruenzaxiomen  IV  1 — 3  entnehmen  wir 
+leicht,  dass  für  die  eben  definirte  Addition  der  Strecken  das  asso- 
+ciative  Gesetz 
+
+a  +  (b-\-c)  =  (a  +  b)  +  c 
+
+sowie  das  commutative  Gesetz 
+
+a-\-b  =  b-\-a 
+gültig  ist. 
+
+Um  das  Produkt  einer  Strecke  a  in  eine  Strecke  b  geometrisch 
+zu  definiren,  bedienen  wir  uns  folgender  Construktion.  Wir  wählen 
+zunächst  eine  beliebige  Strecke,  die  für  die  ganze  Betrachtung 
+die  nämliche  bleibt,  und  bezeichnen  dieselbe  mit  1.  Nunmehr 
+tragen  wir  auf  dem  einen  Schenkel  eines  rechten  Winkels  vom
+
+Scheitel  0  aus  die  Strecke  1  und  ferner  ebenfalls  vom  Scheitel  0 
+aus  die  Strecke  b  ab ;  sodann 
+tragen  wir  auf  dem  anderen 
+Schenkel  die  Strecke  a  ab. 
+Wir  verbinden  die  Endpunkte 
+der  Strecken  1  und  a  durch 
+eine  Gerade  und  ziehen  zu 
+dieser  Geraden  durch  den 
+Endpunkt  der  Strecke  b  eine 
+Parallele  ;  dieselbe  möge  auf 
+dem  anderen  Schenkel  eine  Strecke  c  abschneiden:  dann  nennen 
+wir  diese  Strecke  c  das  Produkt  der  Strecke  a  in  die  Strecke  b 
+und  bezeichnen  sie  mit 
+
+c  =  ab. 
+
+Hubert,   Grundlagen  der  Geometrie.  O 
+
+
+34 
+
+
+Kap.  III.    Die  Lehre  von  den  Proportionen.    §  15. 
+
+
+Wir  wollen  vor  Allem  beweisen,    dass  für  die  eben   definirte 
+Multiplikation  der  Strecken  das  commutative  Gesetz 
+
+ab  =  ba 
+
+gültig  ist.  Zu  dem  Zwecke  construiren  wir  zuerst  auf  die  oben 
+festgesetzte  Weise  die  Strecke  ab.  Ferner  tragen  wir  auf  dem 
+ersten  Schenkel  des  rechten  Winkels  die  Strecke  a  und  auf  dem 
+anderen  Schenkel  die  Strecke  b  ab,  verbinden  den  Endpunkt  der 
+Strecke  1  mit  dem  Endpunkt  von  b  auf  dem  anderen  Schenkel  durch 
+
+eine  Gerade  und  ziehen  zu  dieser 
+Geraden  durch  den  Endpunkt  von 
+a  auf  dem  ersten  Schenkel  eine 
+Parallele:  dieselbe  schneidet  auf 
+dem  anderen  Schenkel  die  Strecke 
+ba  ab;  in  der  That  fällt  diese 
+Strecke  ba,  wie  die  Figur  22  zeigt, 
+wegen  der  Parallelität  der  punk- 
+tirten  Hülfslinien  nach  dem  Pas- 
+calschen  Satze  (Satz  21)  mit  der 
+vorhin  construirten  Strecke  ab  zu- 
+sammen. 
+
+Um  für  unsere  Multiplikation 
+der  Strecken  das  associative  Gesetz 
+
+
+a(bc)  =  (ab)c 
+
+zu  beweisen,  construiren  wir  erst  die  Strecke  d  =  bc,  dann  da, 
+ferner  die  Strecke  e  —  ba  und  dann  ec.  Dass  die  Endpunkte  von 
+da  und  ec  zusammenfallen,  ist  wiederum  auf  Grund  des  Pascalschen 
+
+
+da=(bc) 
+
+
+1  c 
+
+a(bc)  =  (ab)c 
+Fig.  23. 
+
+
+CL 
+
+
+Kap.  III.  Die  Lehre  von  den  Proportionen.  §  15,  16. 
+
+
+35 
+
+
+Satzes  aus  der  Figur  23  unmittelbar  ersichtlich  und  mit  Be- 
+nutzung des  bereits  bewiesenen  commutativen  G-esetzes  folgt  hier- 
+aus die  obige  Formel  für  das  associative  Gesetz  der  Strecken- 
+multiplikation. 
+
+Endlich   gilt    in    unserer  Streckenrechnung  auch  das  distri- 
+butive Gesetz 
+
+a(b  +  c)  =  ab  +  ac. 
+
+Um  dasselbe  zu  beweisen,  construiren  wir  die  Strecken  ab,  ac  und 
+a{b-{-c)  und  ziehen  dann  durch  den  Endpunkt  der  Strecke  c  (s.  Fi- 
+gur 24)  eine  Parallele 
+zu  dem  anderen  Sehen-  Cb(btc) 
+kel  des  rechten  Win- 
+kels. Die  Congruenz 
+der  beiden  rechtwink- 
+ligen in  der  Figur  24 
+schrafiirten  Dreiecke 
+und  die  Anwendung 
+des  Satzes  von  der 
+Gleichheit  der  Gegen- 
+seiten im  Parallelo- 
+gramm liefert  dann  den 
+gewünschten  Nachweis. 
+
+Sind  b  und  c  zwei  beliebige  Strecken,    so   giebt  es  stets  eine 
+
+c 
+Strecke  a,  sodass  c  =  ab  wird;   diese  Strecke  a  wird  mit  -=-  be- 
+
+o 
+
+zeichnet  und  der  Quotient  von  c  durch  b  genannt. 
+
+
+b      i        c 
+
+a(b  +  c)  =  ab  +  ac 
+Fig.  24. 
+
+
+§  16. 
+Die  Proportionen  und  die  Aehnlichkeitssätze. 
+
+Mit  Hülfe  der  eben  dargelegten  Streckenrechnung  lässt  sich 
+Euklids  Lehre  von  den  Proportionen  einwandsfrei  und  ohne  Archi- 
+medisches Axiom  in  folgender  Weise  begründen. 
+
+Erklärung.  Sind  a,  b,  a',  V  irgend  vier  Strecken,  so  soll 
+die  Proportion 
+
+a  :b  =  a' :  b' 
+
+nichts  anderes  bedeuten  als  die  Streckengleichung 
+
+ab'  =  ba'. 
+
+Definition.  Zwei  Dreiecke  heissen  ähnlich,  wenn  ent- 
+sprechende Winkel  in  ihnen  congruent  sind. 
+
+3* 
+
+
+36 
+
+
+Kap.  III.    Die  Lehre  von  den  Proportionen.     §  16. 
+
+
+Satz  22.     Wenn  a,  b  und  a',  V  entsprechende  Seiten  in  zwei 
+ähnlichen  Dreiecken  sind,  so  gilt  die  Proportion 
+
+a  :  b  =  a'  :  V . 
+
+Beweis.  Wir  betrachten  zunächst  den  besonderen  Fall,  wo 
+die  von  a,  b  und  a',  V  eingeschlossenen  Winkel  in  beiden  Drei- 
+ecken Rechte  sind,  und  denken 
+uns  die  beiden  Dreiecke  in  ein 
+und  denselben  rechten  Winkel 
+eingetragen.  Wir  tragen  sodann 
+vom  Scheitel  aus  auf  einem  Schen- 
+kel die  Strecke  1  ab  und  ziehen 
+durch  den  Endpunkt  dieser 
+Strecke  1  die  Parallele  zu  den 
+beiden  Hypotenusen ;  dieselbe 
+schneide  auf  dem  anderen  Schen- 
+kel   die  Strecke  e  ab  ;    dann  ist
+
+Fig.  25. 
+
+
+nach  unserer  Definition  des  Streckenproduktes 
+
+b  =  ea,    V  =  ea' ; 
+mithin  haben  wir 
+
+ab'  =  ba' 
+d.  h. 
+
+a\b  =  a' :  V . 
+
+Nunmehr  kehren  wir  zu  dem  allgemeinen  Falle  zurück.     Wir 
+
+construiren  in  jedem  der  bei- 
+den ähnlichen  Dreiecke  den 
+Schnittpunkt  S  bez.  S'  der 
+drei  Winkelhalbirenden  und 
+fällen  von  diesem  die  drei  Lote 
+r  bez.  r'  auf  die  Dreiecks- 
+seiten; die  auf  diesen  ent- 
+stehenden Abschnitte  bezeich- 
+nen wir  mit 
+
+«»>  «„>  K  K  ca,  c„ 
+bez. 
+
+<,  K,  K  K>  ci,  c[. 
+
+Der   vorhin    bewiesene    spezielle   Fall   unseres    Satzes    liefert 
+dann  die  Proportionen 
+
+
+Fig.  26. 
+
+
+ab  :  r  =  a'b  :  r 
+a:r  =  a':r' 
+
+
+bc  :  r  =  b[  :  r' 
+b„\r  =  b'  :  r'\ 
+
+
+Kap.  III.    Die  Lehre  von  den  Proportionen.     §  16,  17.  37 
+
+aus  diesen  schliessen  wir  mittelst  des  distributiven  Gesetzes 
+a  :  r  =  a'  :  r' ,     b  :  r  =  V  :  r' 
+
+und  folglich  mit  Rücksicht   auf  das  commutative  Gesetz  der  Mul- 
+tiplikation 
+
+a  :  b  =  a'  :  b'. 
+
+Aus  dem  eben  bewiesenen  Satze  22  entnehmen  wir  leicht  den 
+Fundamentalsatz  in  der  Lehre  von  den  Proportionen,  der  wie 
+folgt  lautet : 
+
+Satz  23.  Schneiden  zwei  Parallele  auf  den  Schenkeln  eines 
+beliebigen  Winkels  die  Strecken  a,  b  bez.  a',b'  ab,  so  gilt  die  Pro- 
+portion 
+
+a  :  b  =  a'  :  b'. 
+
+Umgekehrt ,  ivenn  vier  Strecken  a,  b,  a',  b'  diese  Proportion  er- 
+füllen und  a,  a!  und  b,  b'  je  auf  einem  Schenkel  eines  beliebigen  Win- 
+kels abgetragen  werden,  so  sind  die  Verbindungsgeraden  der  Endpunkte 
+von  a,  b  bez.  von  a',  b'  einander  parallel. 
+
+§  17. 
+Die  Gleichungen  der  Geraden  und  Ebenen. 
+
+Zu  dem  bisherigen  System  von  Strecken  fügen  wir  noch  ein 
+zweites  ebensolches  System  von  Strecken  hinzu;  die  Strecken  des 
+neuen  Systems  denken  wir  uns  durch  ein  Merkzeichen  kenntlich 
+gemacht  und  nennen  sie  dann  „negative"  Strecken  zum  Unter- 
+schiede von  den  bisher  betrachteten  „positiven"  Strecken.  Führen 
+wir  noch  die  durch  einen  einzigen  Punkt  bestimmte  Strecke  0  ein, 
+so  gelten  bei  gehörigen  Festsetzungen  in  dieser  erweiterten  Strecken- 
+rechnung sämtliche  Rechnungsregeln  für  reelle  Zahlen,  die  in  §  13 
+zusammengestellt  worden  sind.  Wir  heben  folgende  specielle  That- 
+sachen  hervor: 
+
+Es  ist  stets  a  •  1  =  1  •  a  =  a. 
+
+Wenn  ab  =  0,  so  ist  entweder  a  =  0  oder  b  —  0. 
+
+Wenn  a  >  b  und  c  >  0,  so  folgt  stets  ac  >  bc. 
+
+Wir  nehmen  nun  in  einer  Ebene  a  durch  einen  Punkt  0  zwei 
+zu  einander  senkrechte  Gerade  als  festes  rechtwinkliges  Axen- 
+kreuz  an  und  tragen  dann  die  beliebigen  Strecken  x,  y  von  0 
+aus  auf  den  beiden  Geraden  ab,  und  zwar  nach  der  einen  oder 
+nach  der  anderen  Seite  hin ,  jenachdem  die  abzutragende  Strecke 
+x  bez.  y  positiv  oder  negativ  ist ;    sodann   errichten  wir  die  Lote 
+
+
+38 
+
+
+Kap.  III.    Die  Lehre  von  den  Proportionen.    §  17. 
+
+
+in  den  Endpunkten  der  Strecken  x,  y  und  bestimmen  den  Schnitt- 
+punkt P  dieser  Lote:  die  Strecken  x,  y  heissen  die  Coordinaten 
+des  Punktes  P;  jeder  Punkt  der  Ebene  a  ist  durch  seine  Coordi- 
+naten x,  y,  die  positive  oder  negative  Strecken  oder  0  sein  können, 
+eindeutig  bestimmt. 
+
+Es  sei  l  irgend  eine  Gerade  in  der  Ebene  a,  die  durch  0  und 
+
+durch  einen  Punkt  C 
+mit  den  Coordinaten 
+a,  b  gehe.  Sind  dann 
+x,  y  die  Coordinaten 
+irgend  eines  Punktes 
+von  l,  so  finden  wir 
+leicht  aus  Satz  22 
+
+
+a  :  b  =  x  :  y 
+
+
+oder 
+
+
+bx  —  ay  =  0 
+
+
+Fig.  27. 
+
+
+als  die  Gleichung  der 
+Geraden  l.  Ist  V  eine  zu  l  parallele  Gerade,  die  auf  der  x-Axe 
+die  Strecke  c  abschneidet ,  so  gelangen  wir  zu  der  Gleichung  der 
+Geraden  V,  indem  wir  in  der  Gleichung  der  Geraden  l  die  Strecke 
+x  durch  die  Strecke  x—c  ersetzen;  die  gewünschte  Gleichung 
+lautet  also 
+
+bx  —  ay  —  bc  =  0. 
+
+Aus  diesen  Entwickelungen  schliessen  wir  leicht  auf  eine 
+Weise,  die  von  dem  Archimedischen  Axiom  unabhängig  ist,  dass 
+jede  Gerade  in  einer  Ebene  durch  eine  lineare  Gleichung  in  den 
+Coordinaten  x,  y  dargestellt  wird  und  umgekehrt  jede  solche 
+lineare  Gleichung  eine  Gerade  darstellt,  wenn  die  Coefficienten
+
+derselben  in  der  betreffenden  Geometrie  vorkommende  Strecken 
+sind. 
+
+Die  entsprechenden  Resultate  beweist  man  ebenso  leicht  in 
+der  räumlichen  Geometrie. 
+
+Der  weitere  Aufbau  der  Geometrie  kann  von  nun  an  nach 
+den  Methoden  geschehen,  die  man  in  der  analytischen  Geometrie 
+gemeinhin  anwendet. 
+
+Wir  haben  bisher  in  diesem  Kapitel  III  das  Archimedische 
+Axiom  nirgends  benutzt ;  setzen  wir  jetzt  die  Gültigkeit  desselben 
+voraus,  so  können  wir  den  Punkten  einer  beliebigen  Geraden  im 
+Räume  reelle  Zahlen  zuordnen  und  zwar  auf  folgende  Art. 
+
+
+Kap.  III.    Die  Lehre  von  den  Proportionen.     §  17.  39 
+
+Wir  wählen  auf  der  Geraden  zwei  beliebige  Punkte  aus  und 
+ordnen  diesen  die  Zahlen  0  und  1  zu ;  sodann  halbiren  wir  die 
+durch  sie  bestimmte  Strecke  Ol  und  bezeichnen  den  entstehenden 
+Mittelpunkt  mit  ±,  ferner  den  Mittelpunkt  der  Strecke  0£  mit  £ 
+u.  s.  w. ;   nach   w-maliger   Ausführung    dieses  Verfahrens    gelangen 
+
+wir    zu   einem   Punkte ,   dem  die  Zahl  -^-   zuzuordnen    ist.      Nun 
+
+tragen   wir    die    Strecke    0-^-  an  den  Punkt  0  sowohl    nach   der 
+
+Seite  des  Punktes  1  als  auch  nach  der  anderen  Seite  hin 
+etwa  m  mal  hintereinander  ab  und  erteilen    den    so    entstehenden 
+
+Punkten  die  Zahlenwerte  -^  bez.  —  -^-.     Aus  dem  Archimedischen 
+
+Axiom  kann  leicht  geschlossen  werden,  dass  auf  Grund  dieser 
+Zuordnung  sich  jedem  beliebigem  Punkte  der  Geraden  in  eindeutig 
+bestimmter  Weise  eine  reelle  Zahl  zuordnen  lässt  und  zwar  so  dass 
+dieser  Zuordnung  folgende  Eigenschaft  zukommt:  wenn  A,  B,  C 
+irgend  drei  Punkte  der  Geraden  und  bez.  a,  ß,  y  die  zugehörigen 
+reellen  Zahlen  sind  und  B  zwischen  A  und  C  liegt,  so  erfüllen 
+dieselben  stets  entweder  die  Ungleichung  a  <c  ß  <  y  oder  a  >  ß  >  y. 
+
+Aus  den  Entwicklungen  in  Kap.  II  §  9  leuchtet  ein,  dass  dort 
+für  jede  Zahl,  die  dem  algebraischen  Zahlkörper  Si  angehört,  not- 
+wendig ein  Punkt  der  Geraden  existiren  muss,  dem  sie  zugeordnet 
+ist.  Ob  auch  jeder  anderen  reellen  Zahl  ein  Punkt  entspricht,  lässt 
+sich  im  allgemeinen  nicht  entscheiden,  sondern  hängt  von  der 
+vorgelegten  Geometrie  ab. 
+
+Dagegen  ist  es  stets  möglich,  das  ursprüngliche  System  von 
+Punkten,  Geraden  und  Ebenen  so  durch  „ideale"  oder  „irra- 
+tionale" Elemente  zu  erweitern,  dass  auf  irgend  einer  Geraden 
+der  entstehenden  Geometrie  jedem  System  von  drei  reellen  Zahlen 
+ohne  Ausnahme  ein  Punkt  zugeordnet  ist.  Durch  gehörige  Fest- 
+setzung kann  zugleich  erreicht  werden,  dass  in  der  erweiterten 
+Geometrie  sämtliche  Axiome  I — V  gültig  sind.  Diese  (durch 
+Hinzufügung  der  irrationalen  Elemente)  erweiterte  Geometrie  ist 
+keine  andere  als  die  gewöhnliche  analytische  Geometrie  des  Raumes. 
+
+
+40       Kap.  IV.    Die  Lehre  von  den  Flächeninhalten  in  der  Ebene.     §  18. 
+
+Kapitel  IV. 
+Die  Lehre  von  den  Flächeninhalten  in  der  Ebene. 
+
+§  18. 
+Die  Flächengleichheit  und  Inhaltsgleichheit  von  Polygonen. 
+
+Wir  legen  den  Untersuchungen  des  gegenwärtigen  Kapitels  IV 
+dieselben  Axiome  wie  im  Kapitel  III  zu  Grunde,  nämlich  die 
+ebenen  Axiome  sämtlicher  Gruppen  mit  Ausnahme  des  Archime- 
+dischen Axioms,  d.  h.  die  Axiome  1 1 — 2  und  II — IV. 
+
+Die  im  Kapitel  III  erörterte  Lehre  von  den  Proportionen  und 
+die  daselbst  eingeführte  Streckenrechnung  setzt  uns  in  den  Stand, 
+die  Euklidische  Lehre  von  den  Flächeninhalten  mittelst  der  ge- 
+nannten Axiome,  d.  h.  in  der  Ebene  und  unabhängig  vom 
+Archimedische n  Axiom  zu  begründen. 
+
+Da  nach  den  Entwickelungen  im  Kapitel  III  die  Lehre  von 
+den  Proportionen  wesentlich  auf  dem  Pascalschen  Satze  (Satz  21) 
+beruht,  so  gilt  dies  auch  für  die  Lehre  von  den  Flächeninhalten; 
+diese  Begründung  der  Lehre  von  den  Flächeninhalten  erscheint 
+mir  als  eine  der  merkwürdigsten  Anwendungen  des  Pascalschen 
+Satzes  in  der  Elementargeometrie. 
+
+Erklärung.  Verbindet  man  zwei  Punkte  eines  Polygons  P 
+durch  irgend  einen  Streckenzug,  der  ganz  im  Inneren  des  Poly- 
+gons verläuft,  so  entstehen  zwei  neue  Polygone  P,  und  P2,  deren
+
+innere  Punkte  alle  im  Inneren  von  P  liegen ;  wir  sagen :  P  zer- 
+fällt in  Pj  und  P2,  oder  Px  und  P2  setzen  P  zusammen. 
+
+Definition.  Zwei  Polygone  heissen  flächengleich,  wenn  sie 
+in  eine  endliche  Anzahl  von  Dreiecken  zerlegt  werden  können,  die 
+paarweise  einander  congruent  sind. 
+
+Definition.  Zwei  Polygone  heissen  inhaltsgleich  oder  von 
+gleichem  Inhalte,  wenn  es  möglich  ist,  zu  denselben  flächengleiche 
+Polygone  hinzuzufügen,  so  dass  die  beiden  zusammengesetzten  Po- 
+lygone einander  flächengleich  sind. 
+
+Aus  diesen  Definitionen  folgt  sofort :  durch  Zusammenfügung 
+flächengleicher  Polygone  entstehen  wieder  flächengleiche  Po- 
+lygone, und  wenn  man  flächengleiche  Polygone  von  flächengleichen 
+Polygonen  wegnimmt ,  so  sind  die  übrigbleibenden  Polygone  in- 
+haltsgleich. 
+
+
+Kap.  IV.    Die  Lehre  von  den  Flächeninhalten  in  der  Ebene.     §  18.       41 
+
+Ferner  gelten  folgende  Sätze : 
+
+Satz  24.  Sind  zwei  Polygone  Px  und  P2  mit  einem  dritten 
+Polygon  P3  flächengleich,  so  sind  sie  auch  unter  einander  flächen- 
+gleich. Sind  zwei  Polygone  mit  einem  dritten  inhaltsgleich ,  so 
+sind  sie  unter  einander  inhaltsgleich. 
+
+Beweis.  Nach  Voraussetzung  lässt  sich  sowohl  für  Pv  als  auch 
+für  P2  eine  Zerlegung  in  Dreiecke  angeben,  so  dass  einer  jeden 
+dieser  beiden  Zerlegungen  je  eine  Zerlegung  des  Polygons  P3  in 
+congruente  Dreiecke  entspricht.  Indem  wir  diese  Zerlegungen 
+von  P3  gleichzeitig  in  Betracht  ziehen,  wird  im  Allgemeinen  jedes 
+Dreieck  der  einen  Zerlegung  durch  Strecken,   welche  der  anderen 
+
+
+Fig.  28. 
+
+Zerlegung  angehören,  in  Polygone  zerlegt.  Wir  fügen  nun  noch 
+so  viele  Strecken  hinzu,  dass  jedes  dieser  Polygone  selbst  wieder 
+in  Dreiecke  zerfällt  und  bringen  dann  die  zwei  entsprechenden  Zer- 
+legungen in  Dreiecke  in  P,  und  in  P2  an;  dann  zerfallen  offenbar 
+diese  beiden  Polygone  P1  und  P2  in  gleich  viele  paarweise  einander 
+congruente  Dreiecke  und  sind  somit  nach  der  Definition  einander 
+flächengleich. 
+
+Der  Beweis  der  zweiten  Aussage  des  Satzes  24  ergiebt  sich 
+nunmehr  ohne  Schwierigkeit. 
+
+Wir  definiren  in  der  üblichen  Weise  die  Begriffe:  Bechteck, 
+Grundlinie  und  Höhe  eines  Parallelogrammes ,  Grundlinie  und  Höhe 
+eines  Dreiecks, 
+
+
+§  19. 
+Parallelogramme  und  Dreiecke  mit  gleicher  Grundlinie  und  Höhe. 
+
+Die    bekannte    in    den     nebenstehenden    Figuren     illustrirte 
+Schlussweise  Euklids  liefert  den  Satz: 
+
+
+42       Kap.  IV.    Die  Lehre  von  den  Flächeninhalten  in  der  Ehene. 
+
+
+19. 
+
+
+Satz  25.     Zwei  Parallelogramme  mit  gleicher  Grundlinie  und 
+Höhe  sind  einander  inhaltsgleich. 
+
+
+Fig.  30. 
+
+
+Fig.  29. 
+Ferner  gilt  die  bekannte  Thatsache: 
+
+Satz  26.  Ein  jedes  Dreieck  ABC 
+ist  stets  einem  gewissen  Parallelogramm 
+mit  gleicher  Grundlinie  und  halber  Höhe 
+flächengleich. 
+
+Beweis :  Halbirt  man  AC  in  D 
+und  BC  in  E  und  verlängert  dann  DE 
+um  sich  selbst  bis  F,  so  sind  die  Drei- 
+ecke DEC  und  FBE  einander  congru- 
+ent  und  folglich  sind  Dreieck  ABC 
+und  Parallelogramm  ABFD  einander 
+inhaltsgleich. 
+Aus  Satz  25  und  Satz  26  folgt  mit  Hinzuziehung  von  Satz  24 
+unmittelbar : 
+
+Satz  27.  Zwei  Dreiecke  mit  gleicher  Grundlinie  und  Höhe 
+sind  einander  inhaltsgleich. 
+
+Bekanntlich  zeigt  man  gewöhnlich,  dass  zwei  Dreiecke  mit 
+gleicher  Grundlinie  und  Höhe  auch  stets  flächengleich  sind.  Wir 
+bemerken  jedoch,  dass  dieser  Nachiueis  ohne  Benutzung  des  Ar- 
+chimedischen Axioms  nicht  möglich  ist]  in  der  That  lassen  sich 
+in  unserer  Nicht  -  Archimedischen  Geometrie  (vgl.  Kap.  II  §  12) 
+ohne  Schwierigkeit  solche  zwei  Dreiecke  angeben,  die  gleiche 
+Grundlinie  und  Höhe  besitzen  und  folglich  dem  Satze  27  ent- 
+sprechend inhaltsgleich,  aber  die  dennoch  nicht  flächen- 
+gleich sind.  Als  Beispiel  mögen  zwei  Dreiecke  ABC  und  ABB 
+mit  der  gemeinsamen  Grundlinie  AB  =  1  und  der  gleichen  Höhe  1 
+dienen,  wenn  die  Spitze  C  des  erster en  Dreiecks  senkrecht  über  A 
+und  im  zweiten  Dreiecke  der  Fusspunkt  F  der  von  der  Spitze  D 
+gefällten  Höhe  so  gelegen  ist,  dass  AF  =  t  wird.
+
+Die  übrigen  Sätze  aus  der  elementaren  Geometrie  über  die 
+Inhaltsgleichheit  von  Polygonen,  insbesondere  der  Pythagoräische 
+Lehrsatz  sind  leichte  Folgerungen  der  eben  aufgestellten  Sätze. 
+Wir  begegnen  aber  dennoch  bei  der  weiteren  Durchführung  der 
+Theorie  der  Flächeninhalte  einer  wesentlichen  Schwierigkeit.    Ins- 
+
+
+Kap.  IV.    Die  Lehre  von  den  Flächeninhalten  in  der  Ehene.     §  19,  20.       43 
+
+besondere  lassen  es  unsere  bisherigen  Betrachtungen  dahingestellt, 
+ob  nicht  etwa  alle  Polygone  stets  einander  inhaltsgleich  sind.  In 
+diesem  Falle  wären  die  sämtlichen  vorhin  aufgestellten  Sätze 
+nichtssagend  und  ohne  Bedeutung.  Weiter  entsteht  die  allge- 
+meinere Frage,  ob  zwei  inhaltsgleichc  Rechtecke  mit  einer  ge- 
+meinschaftlichen Seite  auch  notwendig  in  der  anderen  Seite  über- 
+einstimmen, d.  h.,  ob  ein  Rechteck  durch  eine  Seite  und  den 
+Flächeninhalt  eindeutig  bestimmt  ist. 
+
+Wie  die  nähere  Ueberlegung  zeigt,  bedarf  man  zur  Beant- 
+wortung der  aufgeworfenen  Fragen  der  Umkehrung  des  Satzes  27, 
+die  folgendermassen  lautet: 
+
+Satz  28.  Wenn  zwei  inJialtsgleiche  Dreiecke  gleiche  Grundlinie 
+haben,  so  haben  sie  auch  gleiche  Höhe. 
+
+Dieser  fundamentale  Satz  28  findet  sich  im  ersten  Buch  der 
+Elemente  des  Euklid  als  39ster  Satz ;  beim  Beweise  desselben  beruft 
+sich  jedoch  Euklid  auf  den  allgemeinen  Grössensatz:  „Kai  rö  oAov 
+rot)  {lEQOvg  [iet£6v  sötlv"  —  ein  Verfahren,  welches  auf  die  Ein- 
+führung eines  neuen  geometrischen  Axioms  über  Flächeninhalte 
+hinausläuft. 
+
+Es  gelingt  nun,  den  Satz  28  und  damit  die  Lehre  von  den 
+Flächeninhalten  auf  dem  hier  von  uns  in  Aussicht  genommenen 
+Wege,  d.  h.  lediglich  mit  Hülfe  der  ebenen  Axiome  ohne  Benutzung 
+des  Archimedischen  Axioms  zu  begründen.  Um  dies  einzusehen, 
+haben  wir  den  Begriff  des  Flächenmasses  nöthig. 
+
+§  20. 
+Das  Flächenmass  von  Dreiecken  und  Polygonen. 
+
+Definition.  Wenn  wir  in  einem  Dreieck  ABC  mit  den 
+Seiten  a,  b,  c  die  beiden  Höhen  ha  =  AD,  hb  =  DE  construiren, 
+so  folgt  aus  der  Aehnlichkeit  der  Dreiecke  DCE  und  ACD  nach 
+Satz  22  die  Proportion 
+
+a  :  hh  =  b  :  h„, 
+d.h. 
+
+äh,  =  bhb; 
+
+mithinist  in  jedemDreiecke  das  Produkt 
+aus  einer  Grundlinie  und  der  zu  ihr  ge- 
+hörigen Höhe  davon  unabhängig,  welche 
+Seite  des  Dreiecks  man  als  Grund- 
+linie wählt.  Das  halbe  Produkt  aus 
+Grundlinie  und  Höhe  eines  Dreiecks  d 
+heisse  das  Flächenmass  des  Dreiecks  /i 
+und  werde  mit  F{d)  bezeichnet. 
+
+
+44       Kap.  IV.    Die  Lehre  von  den  Flächeninhalten  in  der  Ehene.    §  20. 
+
+
+Erklärung.  Eine  Strecke,  welche  eine  Ecke  eines  Dreiecks 
+mit  einem  Punkte  der  gegenüberliegenden  Seite  verbindet,  heisst 
+Transversale]  dieselbe  zerlegt  das  Dreieck  in  zwei  Dreiecke  mit  ge- 
+meinsamer Höhe ,  deren  Grundlinien  in  dieselbe  Gerade  fallen ; 
+eine  solche  Zerlegung  heisse  eine  transversale  Zerlegung  des  Dreiecks. 
+
+Satz  29.  Wenn  ein  Dreieck  /i  durch  beliebige  Gerade  irgend- 
+wie in  eine  gewisse  endliche  Anzahl  von  Dreiecken  Ah  zerlegt 
+wird,  so  ist  stets  das  Flächenmass  des  Dreiecks  A  gleich  der 
+Summe  der  Flächenmasse  der  sämtlichen  Dreiecke  Ah. 
+
+Beweis.  Aus  dem  distributiven  Gesetze  in  unserer  Strecken- 
+rechnung folgt  unmittelbar,  dass  das  Flächenmass  eines  beliebigen 
+Dreiecks  gleich  der  Summe  der  Flächenmasse  zweier  solcher  Drei- 
+ecke ist,  die  durch  irgendwelche  transversale  Zerlegung  aus  jenem 
+Dreieck  hervorgehen.  Die  wiederholte  Anwendung  dieser  That- 
+sache  zeigt,   dass  das  Flächenmass  eines  beliebigen  Dreiecks  auch 
+
+gleich  der  Summe  der  Flächenmasse 
+der  sämtlichen  Dreiecke  ist,  die  aus 
+dem  vorgelegten  Dreiecke  entstehen, 
+wenn  man  nach  einander  beliebig  viele 
+transversale  Zerlegungen  ausführt. 
+
+Um  nun  den  entsprechenden  Nach- 
+weis für  die  beliebige  Zerlegung  des 
+
+
+Fig.  32. 
+
+
+Dreiecks  A  in  Dreiecke  <dh  zu  erbringen,  ziehen  wir  von  der 
+einen  Ecke  A  des  Dreieckes  z/  durch  jeden  Teilpunkt  der  Zer- 
+legung, d.h.  durch  jeden  Eckpunkt  der  Dreiecke  Ak  eine  Trans- 
+versale; durch  diese  Transver- 
+salen zerfällt  das  Dreieck  /l  in
+
+gewisse  Dreiecke  z/s.  Jedes  die- 
+ser Dreiecke  dt  zerfällt  durch 
+die  Teilstrecken  der  gegebenen 
+Zerlegung  in  gewisse  Dreiecke 
+und  Vierecke.  Wenn  wir  in 
+den  Vierecken  noch  je  eine  Dia- 
+gonale construiren,  so  zerfällt 
+jedes  Dreieck  At  in  gewisse  Drei- 
+ecke Ats.  Wir  wollen  nun  zeigen, 
+dass  die  Zerlegung  in  Dreiecke 
+
+
+Fig.  33. 
+
+
+Au  sowohl  für  die  Dreiecke  dt  als  auch  für  die  Dreiecke  A,  nichts 
+anderes  als  eine  Kette  von  transversalen  Zerlegungen  bedeutet. 
+
+In   der  That,   zunächst   ist   klar,    dass  jede  Zerlegung    eines 
+Dreiecks  in  Teildreiecke  stets  durch  eine  Reihe  von  transversalen 
+
+
+Kap.  IV.    Die  Lehre  von  den  Flächeninhalten  in  der  Ebene.     §  20.        45 
+
+Zerlegungen  bewirkt  werden  kann,  wenn  bei  der  Zerlegung  im 
+Inneren  des  Dreiecks  keine  Teilpunkte  liegen  und  überdies  we- 
+nigstens  eine  Seite   des  Dreiecks  von  Teilpunkten  frei  bleibt. 
+
+Nun  ist  für  die  Dreiecke  At  unsere  Behauptung  aus  dem  Um- 
+stände ersichtlich ,  dass  für  jedes  derselben  das  Innere  sowie 
+eine  Seite,  nämlich  die  dem  Punkte  A  gegenüberliegende  Seite 
+von  weiteren  Teilpunkten  frei  ist. 
+
+Aber  auch  für  jedes  Ak  ist  die  Zerlegung  in  Als  auf  trans- 
+versale Zerlegungen  zurückführbar.  Betrachten  wir  nämlich  ein 
+Dreieck  Av  so  wird  es  unter  den  von  A  ausgehenden  Transver- 
+salen im  Dreieck  A  eine  bestimmte  Transversale  geben,  in  welche 
+entweder  eine  Seite  von  Ak  hineinfällt  oder  welche  selbst  das 
+Dreieck  Ak  in  zwei  Dreiecke  zerlegt.  Im  ersten  Fall  bleibt  die 
+betreffende  Seite  des  Dreiecks  Ak  überhaupt  frei  von  weiteren 
+Teilpunkten  bei  der  Zerlegung  in  Dreiecke  Au ;  im  letzteren  Falle 
+ist  die  im  Inneren  des  Dreiecks  Ak  verlaufende  Strecke  jener 
+Transversale  in  den  beiden  entstehenden  Dreiecken  eine  Seite, 
+die  bei  der  Teilung  in  Dreiecke  Au  von  weiteren  Teilpunkten  ge- 
+wiss  frei  bleibt. 
+
+Nach  der  am  Anfang  dieses  Beweises  angestellten  Betrach- 
+tung ist  das  Flächenmass  F(A)  des  Dreiecks  A  gleich  der  Summe 
+aller  Flächenmasse  F(At)  der  Dreiecke  At,  und  diese  Summe  ist 
+gleich  der  Summe  aller  Flächenmasse  F(Ats).  Andererseits  ist 
+auch  die  Summe  über  die  Flächenmasse  F(Ak)  aller  Dreiecke  Ak 
+gleich  der  Summe  aller  Flächenmasse  F(Ats),  und  hieraus  folgt 
+endlich,  dass  das  Flächenmass  F{A)  auch  gleich  der  Summe  aller 
+Flächenmasse  F{Ak)  ist.  Damit  ist  der  Beweis  des  Satzes  29 
+vollständig  erbracht. 
+
+Definition.  Definiren  wir  das  Flächenmass  F(P)  eines 
+Polygons  als  die  Summe  der  Flächenmasse  aller  Dreiecke,  in 
+die  dasselbe  bei  einer  bestimmten  Zerlegung  zerfällt,  so  erkennen 
+wir  auf  Grund  des  Satzes  29  durch  eine  ähnliche  Schlussweise, 
+wie  wir  sie  in  §  18  beim  Beweise  des  Satzes  24  angewandt  haben, 
+dass  das  Flächenmass  eines  Polygons  von  der  Art  der  Zerlegung 
+in  Dreiecke  unabhängig  ist  und  mithin  allein  durch  das  Polygon 
+sich  eindeutig  bestimmt.  Aus  dieser  Definition  entnehmen  wir 
+vermittels  des  Satzes  29  die  Thatsache,  dass  flächengleiche 
+Polygone  gleiches  Flächenmass  haben. 
+
+Sind  ferner  P  und  Q  zwei  inhaltsgleiche  Polygone,  so  muss 
+es  nach  der  Definition  zwei  flächengleiche  Polygone  P'  und  Q' 
+geben,    so  dass  das  aus  P  und  P'  zusammengesetzte  Polygon  mit 
+
+
+46       Kap.  IV.    Die  Lehre  von  den  Flächeninhalten  in  der  Ebene.     §  20,  21. 
+
+dem  aus  Q  und  Q'   zusammengesetzten  Polygon  flächengleich   aus- 
+fällt.    Aus  den  beiden  Gleichungen : 
+
+F(P+P)  =  F{Q  +  Q<), 
+F(F)  =  F(Q') 
+schliessen  wir  leicht 
+
+F(P)  =  F(Q), 
+
+d.h.    inhaltsgleiche  Polygone   haben    gleiches    Fläche n- 
+mass. 
+
+Aus  der  letzteren  Thatsache  entnehmen  wir  unmittelbar  den 
+Beweis  des  Satzes  28.  Bezeichnen  wir  nämlich  die  gleiche  Grund- 
+linie der  beiden  Dreiecke  mit  g,  die  zugehörigen  Höhen  mit  h 
+und  h',  so  schliessen  wir  aus  der  angenommenen  Inhaltsgleichheit 
+der  beiden  Dreiecke,  dass  dieselben  auch  gleiches  Flächenmass 
+haben  müssen,  d.  h.  es  folgt: 
+
+und  mithin  nach  Division  durch  \g 
+
+h  =  h'; 
+dies  ist  die  Aussage  des  Satzes  28. 
+
+
+§  21. 
+Die  Inhaltsgleichheit  und  das  Flächenmass.
+
+In   §  20   haben   wir    gefunden,    dass    inhaltsgleiche   Polygone 
+
+stets  gleiches  Flächenmass 
+haben.  Diese  Aussage  lässt 
+sich  auch  umkehren. 
+
+Um  diese  Umkehrung 
+zu  beweisen ,  betrachten 
+wir  zunächst  zwei  Drei- 
+ecke ABC  und  AJB'C  mit 
+gemeinsamem  rechten  Win- 
+kel bei  A.  Die  Flächen- 
+masse dieser  beiden  Drei- 
+ecke   drücken    sich    durch 
+
+
+die  Formeln 
+
+
+F(ABC)  =  ^AB-AC, 
+F(AB'C)  =  %AB'-AC 
+
+
+Kap.  IV.    Die  Lehre  von  den  Flächeninhalten  in  der  Ebene.     §  21.       47 
+
+aus.  Nehmen  wir  an,  dass  diese  beiden  Flüchenmasse  einander 
+gleich  sind,  so  folgt: 
+
+AB  -AG  =  AJB'-AC' 
+oder 
+
+AB:  AB'  =  AG':  AG 
+
+und  hieraus  ergiebt  sich  nach  Satz  23,  dass  die  beiden  Geraden 
+BC  und  B'C  einander  parallel  sind  und  sodann  erweisen  sich 
+nach  Satz  27  die  beiden  Dreiecke  BC' B'  und  BG'C  als  inhalts- 
+gleich. Durch  Hinzufügen  des  Dreiecks  ABC'  folgt,  dass  die 
+beiden  Dreiecke  ABC  und  AB'C'  einander  inhaltsgleich  sind. 
+Wir  haben  damit  erkannt ,  dass  zwei  rechtwinklige  Dreiecke  mit 
+gleichem  Flächenmas s  auch  stets  einander  inhaltsgleich  sind. 
+
+Nehmen  wir  jetzt  ein  beliebiges  Dreieck  mit  der  Grundlinie  g 
+und  der  Höhe  /?,  so  ist  dasselbe  nach  Satz  27  inhaltsgleich  einem 
+rechtwinkligen  Dreieck  mit  den  beiden  Katheten  g  und  h;  und 
+da  das  ursprüngliche  Dreieck  offenbar  dasselbe  Flächenmass  wie 
+das  rechtwinklige  Dreieck  besitzt,  so  folgt,  dass  in  der  letzten 
+Betrachtung  die  Einschränkung  auf  rechtwinklige  Dreiecke  nicht 
+nötig  war;  damit  haben  wir  erkannt,  dass  zwei  beliebige  Drei- 
+ecke mit  gleichem  Flächenmass  auch  stets  einander  in- 
+haltsgleich sind. 
+
+Es  sei  nunmehr  ein  beliebiges  Polygon  P  mit  dem  Flächen- 
+mass g  vorgelegt ;  P  zerfalle  in  n  Dreiecke  mit  den  Flächenmassen 
+bez.  gv  g2,  , . .  ,  gn ;  dann  ist 
+
+Wir   construiren   nun   ein  Dreieck  ABC   mit    der   Grundlinie 
+
+
+n-1 
+
+
+Fig.  35. 
+
+AB  =  g  und  der  Höhe  h  =  1  und  markiren  auf  der  Grundlinie 
+die  Punkte  Av  A»  .  . . ,  An_v  sodass 
+
+9x  =  AAV     ga  =  A1Aa,...,     gn_x  =  An_2  An_v     gn  =  An_,  B 
+
+ausfällt.     Da   die   Dreiecke   innerhalb    des   Polygons  P  bez.   die 
+
+
+«w        et    SKJ!  U   . 
+
+
+48       Kap.  IV.    Die  Lehre  von  den  Flächeninhalten  in  der  Ebene.     §  21. 
+
+gleichen  Flächenmasse  besitzen,  wie  die  Dreiecke  AAXC,  AlA2Cl 
+.  ..,  An_2An_1C,  An_1BC,  so  sind  sie  nach  dem  vorhin  Bewiesenen 
+diesen  anch  inhaltsgleich;  folglich  ist  das  Polygon  P  einem  Drei- 
+ecke mit  der  Grundlinie  g  und  der  Höhe  h  =  1  inhaltsgleich. 
+Hieraus  folgt  mit  Hülfe  von  Satz  24,  dass  zwei  Polygone  mit 
+gleichem  Flächenmass  einander  stets  inhaltsgleich  sind. 
+
+Die  beiden  in  diesem  und  dem  vorigen  Paragraph  gefun- 
+denen Thatsachen  fassen  wir  in  den  folgenden  Satz  zusammen: 
+
+Satz  30.  Zwei  inhaltsgleiche  Polygone  haben  stets  das  gleiche 
+Flächenmass ;  und  umgekehrt :  Zwei  Polygone  mit  gleichem  Flächen- 
+mass sind  stets  einander  inhaltsgleich. 
+
+Insbesondere  müssen  zwei  inhaltsgleiche  Pechtecke  mit  einer 
+gemeinsamen  Seite  auch  in  den  anderen  Seiten  übereinstimmen. 
+Auch  folgt  der  Satz: 
+
+Satz  31.  Zerlegt  man  ein  Rechteck  durch  Gerade  in  meh- 
+rere Dreiecke  und  lässt  auch  nur  eines  dieser  Dreiecke  fort,  so 
+kann  man  mit  den  übrigen  Dreiecken  das  Pechteck  nicht  mehr 
+ausfüllen. 
+
+Dieser  Satz  31  ist  von  F.  Schur *)  und  W.  Killing 2)  mit  Hülfe 
+des  Archimedischen  Axioms  bewiesen  und  von  0.  Stolz 3)  als  Axiom 
+hingestellt  worden.  Im  Vorstehenden  ist  gezeigt,  dass  derselbe 
+völlig  unabhängig  von  dem  Archimedischen  Axiom  gilt.  Der  Satz  31 
+reicht  übrigens  zur  Begründung  des  Euklidischen  Satzes  von  der 
+Gleichheit  der  Höhen  in  inhaltsgleichen  Dreiecken  auf  gleicher 
+Grundlinie  (Satz  28)  an  sich  nicht  aus ,  wenn  man  von  der  An- 
+wendung des  Archimedischen  Axioms  absieht. 
+
+Zum  Beweise  der  Sätze  28,  29,  30  haben  wir  wesentlich  die 
+in  Kapitel  III  §  15  eingeführte  Streckenrechnung  benutzt,  und 
+da  diese  im  Wesentlichen  auf  dem  Pascalschen  Satze  (Satz  21) 
+beruht,  so  erweist  sich  für  die  Lehre  von  den  Flächeninhalten  der
+
+Pascalsche  Satz  als  der  wichtigste  Baustein.  Wir  erkennen  leicht, 
+dass  auch  umgekehrt  aus  den  Sätzen  27  und  28  der  Pascalsche 
+Satz  wieder  gewonnen  werden  kann. 
+
+Von  zwei  Polygonen  P  und  Q  nennen  wir  P  inhaltskleiner 
+bez.  inhaltsgrösser  als  Q,  je  nachdem  das  Flächenmass  F(P)  kleiner 
+oder  grösser  als  F(Q)  ausfällt.  Es  ist  nach  dem  Vorstehenden 
+klar,  dass  die  Begriffe  inhaltsgleich,  inhaltskleiner  und  inhalts- 
+grösser sich  gegenseitig  ausschliessen.     Ferner  erkennen  wir  leicht, 
+
+
+1)  Sitzungsberichte  der  Dorpater  Naturf.  Ges.  1892. 
+
+2)  Grundlagen  der  Geometrie,  Bd.  2,  Absch.  5,  §  5,  1898. 
+
+3)  Monatshefte  für  Math,  und  Phys.,  Jahrgang  5,  1894. 
+
+
+Kapitel  V.    Der  Dcsarguesscke  Satz.     §  22.  49 
+
+dass  ein  Polygon,    welches   ganz   im  Inneren  eines  anderen  Poly- 
+gons liegt,  stets  inhaltskleiner  als  dieses  sein  muss. 
+
+Hiermit  haben  wir  die  wesentlichen  Sätze  der  Lehre  von  den 
+Flächeninhalten  begründet. 
+
+
+Kapitel  V. 
+
+Der  Desarguessche  Satz. 
+
+
+Der  Desarguessche  Satz  und  der  Beweis  desselben  in  der  Ebene 
+mit  Hülfe  der  Congruenzaxiome. 
+
+Von  den  im  Kapitel  I  aufgestellten  Axiomen  sind  diejenigen 
+der  Gruppen  II — Y  sämtlich  teils  lineare,  teils  ebene  Axiome; 
+die  Axiome  3 — 7  der  Gruppe  I  sind  die  einzigen  räumlichen 
+Axiome.  Um  die  Bedeutung  dieser  räumlichen  Axiome  klar  zu 
+erkennen,  denken  wir  uns  irgend  eine  ebene  Geometrie  vorgelegt 
+und  untersuchen  allgemein  die  Bedingungen  dafür,  dass  diese  ebene 
+Geometrie  sich  als  Teil  einer  räumlichen  Geometrie  aufpassen 
+lässt,  in  welcher  wenigstens  die  Axiome  der  Gruppen  1 — III  sämt- 
+lich erfüllt  sind. 
+
+Auf  Grund  der  Axiome  der  Gruppen  I — III  ist  es  bekanntlich 
+leicht  möglich,  den  sogenannten  Desarguesschen  Satz  zu  beweisen; 
+derselbe  ist  ein  ebener  Schnittpunktsatz.  Wir  nehmen  insbeson- 
+dere die  Gerade,  auf  der  die  Schnittpunkte  entsprechender  Seiten 
+der  beiden  Dreiecke  liegen  sollen,  zur  „Unendlichfernen",  wie  man 
+sagt,  und  bezeichnen  den  so  entstehenden  Satz  nebst  seiner  Um- 
+kehrung schlechthin  als  Desarguesschen  Satz;  dieser  Satz  lautet, 
+wie  folgt: 
+
+Satz  32.  (DesarguesscherSatz.)  "Wenn  zwei  Dreiecke  in 
+einer  Ebene  so  gelegen  sind,  dass  je  zwei  entsprechende  Seiten 
+einander  parallel  sind,  so  laufen  die  Verbindungslinien  der  ent- 
+sprechenden Ecken  durch  ein  und  denselben  Punkt  oder  sind  ein- 
+ander parallel,  und  umgekehrt : 
+
+Wenn  zwei  Dreiecke  in  einer  Ebene  so  gelegen  sind,  dass 
+die  Verbindungslinien  der  entsprechenden  Ecken  durch  einen  Punkt 
+
+Hubert,    Grundlagen  der  Geometrie.  4 
+
+
+50  Kap.  V.   Der  Desarguessehe  Satz.    §  22. 
+
+laufen   oder  einander  parallel  sind,    und  wenn   ferner  zwei  Paare 
+
+
+entsprechender  Seiten  in  den  Dreiecken  einander  parallel  sind,  so 
+sind  auch  die  dritten  Seiten  der  beiden  Dreiecke  einander  parallel. 
+
+Wie  bereits  erwähnt,  ist  der  Satz  32  eine  Folge  der  Axiome 
+I — III;  dieser  Thatsache  gemäss  ist  die  Gültigkeit  des  Desar- 
+guesschen  Satzes  in  der  Ebene  jedenfalls  eine  notwendige 
+Bedingung  dafür,  dass  die  Geometrie  dieser  Ebene  sich  als  Teil 
+einer  räumlichen  Geometrie  auffassen  lässt,  in  welcher  die  Axiome 
+der  Gruppen  I — III  sämtlich  erfüllt  sind. 
+
+Wir  nehmen  nun  wie  in  den  Kapiteln  III  und  IV  eine  ebene 
+Geometrie  an,  in  welcher  die  Axiome  I  1 — 2  und  II — IV  gelten, 
+und  denken  uns  in  derselben  nach  §  15  eine  Streckenrechnung  ein- 
+geführt: dann  lässt  sich,  wie  in  §  17  dargelegt  worden  ist,  jedem 
+Punkte  der  Ebene  ein  Paar  von  Strecken  (x,  y)  und  jeder  Geraden 
+ein  Verhältnis  von  drei  Strecken  (u  :  v  :  w)  zuordnen  derart,  dass 
+die  lineare  Gleichung 
+
+ux  +  vy  +  io  =  0 
+
+die  Bedingung  für  die  vereinigte  Lage  von  Punkt  und  Gerade 
+darstellt.  Das  System  aller  Strecken  in  unserer  Geometrie  bildet 
+nach  §  17  einen  Zahlenbereich,  für  welchen  die  in  §  13  aufgezählten 
+Eigenschaften  1 — 16  bestehen,  und  wir  können  daher  mittelst  die- 
+ses Zahlenbereiches,  ähnlich  wie  es  in  §  9  oder  §  12  mittelst  des
+
+Zahlensystems  Sl  bez,  £l(t)  geschehen  ist,  eine  räumliche  Geometrie 
+construiren:  wir  setzen  zu  dem  Zwecke  fest,  dass  ein  System 
+von  drei  Strecken  (x,  y,  g)  einen  Punkt,  die  Verhältnisse  von  vier 
+Strecken  (u  :  v  :  iv  :  r)  eine  Ebene  darstellen  möge ,  während  die 
+Geraden  als  Schnitte  zweier  Ebenen  definirt  sind ;  dabei  drückt 
+die  lineare  Gleichung 
+
+ux  +  vy  +  wz  +  r  =  0 
+
+aus ,  dass  der  Punkt  (x,  y,  s)  auf  der  Ebene  (u  :  v  :  w  :  r)  liegt. 
+Was    endlich   die  Anordnung  der  Punkte   auf   einer  Geraden  oder 
+
+
+Kap.  V.    Der  Desarguessche  Satz.     §  22,  23.  51 
+
+der  Punkte  einer  Ebene  in  Bezug  auf  eine  Gerade  in  ihr  oder 
+endlich  die  Anordnung  der  Punkte  in  Bezug  auf  eine  Ebene  im 
+Räume  anbetrifft,  so  wird  diese  in  analoger  Weise  durch  Un- 
+gleichungen zwischen  Strecken  bestimmt,  wie  dies  in  §  9  für  die 
+Ebene  geschehen  ist. 
+
+Da  wir  durch  das  Einsetzen  des  Wertes  z  =  0  die  ursprüng- 
+liche ebene  Geometrie  wieder  gewinnen,  so  erkennen  wir,  dass 
+unsere  ebene  Geometrie  als  Teil  einer  räumlichen  Geometrie  be- 
+trachtet werden  kann.  Nun  ist  hierfür  die  Gültigkeit  des  Desar- 
+guesschen  Satzes  nach  den  obigen  Ausführungen  eine  notwendige 
+Bedingung ,  und  daher  folgt ,  dass  in  der  angenommenen  ebenen 
+Geometrie  auch  der  Desarguessche  Satz  gelten  muss. 
+
+Wir  bemerken,  dass  die  eben  gefundene  Thatsache  sich  auch 
+direkt  aus  dem  Satze  23  in  der  Lehre  von  den  Proportionen 
+ohne  Mühe  ableiten  lässt. 
+
+§  23. 
+
+Die  Nichtbeweisbarkeit  des  Desarguesschen  Satzes  in  der  Ebene 
+ohne  Hülfe  der  Congruenzaxiome. 
+
+Wir  untersuchen  nun  die  Frage,  ob  in  der  ebenen  Geometrie 
+auch  ohne  Hülfe  der  Congruenzaxiome  der  Desarguessche  Satz 
+bewiesen  werden  kann,  und  gelangen  dabei  zu  folgendem  Resultate : 
+
+Satz  33.  Es  giebt  eine  ebene  Geometrie,  in  welcher  die  Axiome 
+II — 2,  II — III,  IV  1 — 5,  V,  d.  h.  sämtliche  linearen  und  ebenen 
+Axiome  mit  Ausnahme  des  Congruenzaxioms  IV  6  erfüllt  sind,  während 
+der  Desarguessche  Satz  (Satz  32)  nicht  gilt.  Der  Desarguessche 
+Satz  kann  mithin  aus  den  genannten  Axiomen  allein  nicht  gefolgert 
+werden :  es  bedarf  zum  Deweise  desselben  notivendig  entiveder  der 
+räumlichen  Axiome  oder  der  sämtlichen  Congruenzaxiome. 
+
+Beweis.  Wir  wählen  in  der  gewöhnlichen  ebenen  Geometrie, 
+deren  Möglichkeit  bereits  im  Kapitel  II  §  9  erkannt  worden  ist, 
+irgend  zwei  zu  einander  senkrechte  Gerade  als  Coordinatenaxen 
+X,  Y  und  denken  uns  um  den  Nullpunkt  0  dieses  Coordinaten- 
+systems  als  Mittelpunkt  eine  Ellipse  mit  den  Halbaxen  1  und  % 
+construirt;  endlich  bezeichnen  wir  mit  F  den  Punkt,  welcher  in 
+der  Entfernung  §  von  0  auf  der  positiven  X-Axe  liegt. 
+
+Wir  fassen  nun  die  Gesamtheit  aller  Kreise  ins  Auge,  welche 
+die  Ellipse  in  vier  reellen  —  getrennten  oder  beliebig  zusammen- 
+fallenden —  Punkten  schneiden,  und  suchen  unter  allen  auf  diesen 
+Kreisen   gelegenen  Punkten  denjenigen  Punkt  zu  bestimmen,    der 
+
+auf  der   positiven  X-Axe   am  weitesten  vom  Nullpunkt  entfernt 
+
+4* 
+
+
+52  •  Kap.  V.    Der  Desarguessche  Satz.    §  23. 
+
+ist.  Zu  dem"  Zwecke  gehen  wir  von  einem  beliebigen  Kreise  aus, 
+der  die  Ellipse  in  vier  Punkten  schneidet  und  die  positive  X-Axe 
+im  Punkte  C  treffen  möge.  Diesen  Kreis  denken  wir  uns  dann 
+um  den  Punkt  C  derart  gedreht,  dass  zwei  von  den  vier  Schnitt- 
+punkten oder  mehr  in  einen  einzigen  Punkt  A  zusammenfallen, 
+während  die  übrigen  reell  bleiben.  Der  so  entstehende  Berührungs- 
+kreis werde  alsdann  vergrössert  derart,  dass  stets  der  Punkt  A 
+Berührungspunkt  mit  der  Ellipse  bleibt ;  hierdurch  gelangen  wir 
+notwendig  zu  einem  Kreise ,  der  die  Ellipse  entweder  noch  in 
+einem  anderen  Punkte  JB  berührt  oder  in  A  mit  der  Ellipse  eine 
+vierpunktige  Berührung  aufweist  und  der  überdies  die  positive 
+X-Axe  in  einem  entfernteren  Punkte  als  C  trifft.  Der  gesuchte 
+entfernteste  Punkt  wird  sich  demnach  unter  denjenigen  Punkten 
+befinden,  die  von  den  doppeltberührenden  ausserhalb  der  Ellipse
+
+verlaufenden  Kreisen  auf  der  positiven  X-Axe  ausgeschnitten 
+werden.  Die  doppeltberührenden  ausserhalb  der  Ellipse  verlau- 
+fenden Kreise  liegen  nun,  wie  man  leicht  sieht,  sämtlich  zur 
+F-Axe  symmetrisch.  Es  seien  a,  b  die  Coordinaten  irgend  eines 
+Punktes  der  Ellipse:  dann  lehrt  eine  leichte  Rechnung,  dass  der 
+in  diesem  Punkte  berührende  zur  F-Axe  symmetrische  Kreis  auf 
+der  positiven  X-Axe  die  Strecke 
+
+x  =  |  \JT+W*  | 
+
+abschneidet.  Der  grösstmögliche  Wert  dieses  Ausdrucks  tritt 
+für  &  =  i  ein  und  wird  somit  gleich  \  \\jl  |.  Da  der  vorhin  mit 
+F  bezeichnete  Punkt  auf  der  X-Axe  die  Abscisse  f>-§-|V7|  au^" 
+weist,  so  folgt,  dass  unter  den  die  Ellipse  viermal  tref- 
+fenden Kreisen  sich  gewiss  keiner  befindet,  der  durch 
+den  Punkt  F  läuft. 
+
+Nunmehr  stellen  wir  uns  eine  neue  ebene  Geometrie  in  fol- 
+gender Weise  her.  Als  Punkte  der  neuen  Greometrie  nehmen  wir 
+die  Punkte  der  XF- Ebene ;  als  Gerade  der  neuen  Geometrie 
+nehmen  wir  diejenigen  Geraden  der  XF-Ebene  unverändert,  welche 
+die  feste  Ellipse  berühren  oder  gar  nicht  treffen ;  ist  dagegen  g 
+eine  Gerade  der  XF-Ebene ,  die  die  Ellipse  in  zwei  Punkten  P 
+und  Q  trifft,  so  construiren  wir  durch  P,  Q  und  den  festen  Punkt 
+F  einen  Kreis;  dieser  Kreis  hat,  wie  aus  dem  oben  Bewiesenen 
+hervorgeht,  keinen  weiteren  Punkt  mit  der  Ellipse  gemein.  Wir 
+denken  uns  nun  an  Stelle  des  zwischen  P  und  Q  innerhalb  der 
+Ellipse  gelegenen  Stückes  der  Geraden  g  denjenigen  Bogen  des 
+eben  construirten  Kreises  gesetzt,  der  zwischen  P  und  Q  inner- 
+halb der  Ellipse  verläuft.     Den  Linienzug,  welcher  aus  den  beiden 
+
+
+Kap.  V.   Der  Desarguessche  Satz.    §  23. 
+
+
+53 
+
+
+von  P  und  Q  ausgehenden  unendlichen  Stücken  der  Geraden  g  und 
+dem  eben  construirten  Kreisbogen  PQ  besteht ,  nehmen  wir  als 
+Gerade  der  neu  herzustellenden  Geometrie.  Denken  wir  uns  für 
+alle  Geraden  der  XF-Ebene  die  entsprechenden  Linienzüge  con- 
+struirt,    so    entsteht    ein    System    von   Linienzügen,    welche,    als 
+
+
+Fig.  36. 
+
+Gerade  einer  Geometrie  aufgefasst ,  offenbar  den  Axiomen  1 1 — 2 
+und  III  genügen.  Bei  Festsetzung  der  natürlichen  Anordnung 
+für  die  Punkte  und  Geraden  in  unserer  neuen  Geometrie  erkennen 
+wir  unmittelbar,  dass  auch  die  Axiome  II  gültig  sind. 
+
+Ferner  nennen  wir  zwei  Strecken  AB  und  A'B1  in  unserer 
+neuen  Geometrie  congruent,  wenn  der  zwischen  A  und  B  verlau- 
+fende Linienzug  die  gleiche  natürliche  Länge  hat,  wie  der  zwischen 
+A'  und  B'  verlaufende  Linienzug. 
+
+Endlich  bedürfen  wir  einer  Festsetzung  betreffs  der  Congruenz 
+der  Winkel.  Sobald  keiner  von  den  Scheiteln  der  zu  verglei- 
+chenden Winkel  auf  der  Ellipse  liegt,  nennen  wir  zwei  Winkel 
+einander  congruent,  wenn  sie  im  gewöhnlichen  Sinne  einander  gleich 
+sind.     Im   anderen  Falle   treffen  wir    folgende   Festsetzung.     Es 
+
+
+54 
+
+
+Kap.  V.   Der  Desarguessche  Satz.    §  23. 
+
+
+mögen  die  Punkte  A,  B,  C  in  dieser  Reihenfolge  und  die  Punkte 
+A',  B'  C  in  dieser  Reihenfolge  je  auf  einer  Geraden  unserer 
+neuen  Geometrie  liegen ;  D  sei  ein  Punkt  ausserhalb  der  Geraden 
+ABC  und  D'  ein  Punkt  ausserhalb  der  Geraden  A'B'C:  dann 
+mögen  für  die  Winkel  zwischen  diesen  Geraden  in  unserer  neuen 
+Geometrie  die  Congruenzen 
+
+^ABD  =  ^A'B'D'    und    ^CBB  =  ^C'B'D' 
+
+gelten ,  sobald  für  die  natürlichen  Winkel  zwischen  den  ent- 
+sprechenden Linienzügen  in  der  gewöhnlichen  Geometrie  die  Pro- 
+portion 
+
+^ABD  :  ^CBD  =  ^A'B'B'  :  ^C'B'B' 
+
+erfüllt  ist.  Bei  diesen  Festsetzungen  sind  auch  die  Axiome  IV 1 — 5 
+und  V  gültig. 
+
+
+Um  einzusehen,  dass  in  unserer  neu  hergestellten  Geometrie 
+der  Desarguessche  Satz  nicht  gilt,  betrachten  wir  folgende  drei 
+gewöhnliche  gerade  Linien  in  der  XY- Ebene:  die  X-Axe,  die 
+Y-Axe  und  die  Gerade,  welche  die  beiden  Ellipsenpunkte  x  =  f, 
+y  =  f  und  a?  =  — -§- ,  y  =  —  f  mit  einander  verbindet.  Da 
+diese  drei  gewöhnlichen  geraden  Linien  durch  den  Nullpunkt  0 
+laufen,  so  können  wir  leicht  zwei  solche  Dreiecke  angeben,  deren
+
+Ecken  bez.  auf  jenen  drei  Geraden  liegen,  deren  entsprechende 
+Seiten  paarweise  einander  parallel  laufen  und  die  sämtlich  ausserhalb 
+der  Ellipse  gelegen  sind.  Da  die  Linienzüge ,  welche  aus  den 
+genannten  drei  geraden  Linien   entspringen ,    sich ,    wie  Figur  38 
+
+
+Kap.  V.    Der  Desarguessche  Satz.    §  23,  24.  55 
+
+zeigt   und   wie   man    leicht    durch   Rechnung    bestätigt,   nicht    in 
+
+
+Fig.  38. 
+
+einem  Punkte  treffen,  so  folgt,  dass  der  Desarguessche  Satz  in 
+der  neuen  ebenen  Geometrie  für  die  beiden  vorhin  construirten 
+Dreiecke  gewiss  nicht  gilt. 
+
+Die  von  uns  hergestellte  ebene  Geometrie  dient  zugleich  als 
+Beispiel  einer  ebenen  Geometrie ,  in  welcher  die  Axiome  1 1 — 2, 
+II — III,  IV  1 — 5,  V  gültig  sind,  und  die  sich  dennoch  nicht  als 
+Teil  einer  räumlichen  Geometrie  auffassen  lässt. 
+
+
+§24. 
+
+Einführung  einer  Streckenrechnung  ohne  Hülfe  der  Congruenzaxiome 
+auf  Grund  des  Desarguesschen  Satzes. 
+
+Um  die  Bedeutung  des  Desarguesschen  Satzes  (Satz  32)  voll- 
+ständig zu  erkennen,  legen  wir  eine  ebene  Geometrie  zu  Grunde, 
+in  welcher  die  Axiome  I  1 — 2,  II — III,  d.  h.  die  sämtlichen  ebenen 
+Axiome  der  ersten  drei  Axiomgruppen  gültig  sind,  und  führen  in 
+diese  Geometrie  unabhängig  von  den  Congruenzaxiomen 
+auf  folgende  Weise  eine  neue  Streckenrechnung  ein. 
+
+Wir  nehmen  in  der  Ebene  zwei  feste  Geraden  an,  die  sich 
+in  dem  Punkte  0  schneiden  mögen,  und  rechnen  im  Folgenden 
+nur  mit  solchen  Strecken,  deren  Anfangspunkt  0  ist  und  deren 
+Endpunkte  auf  einer  dieser   beiden   festen  Geraden  liegen.     Auch 
+
+
+56  Kap.  V.   Der  Desarguessche  Satz.    §  24. 
+
+den  Punkt  0  allein  bezeichnen  wir  als  Strecke  und  nennen  ihn 
+dann  die  Strecke  0,  in  Zeichen 
+
+00  =  0     oder    0  =  00. 
+
+Es  seien  E  und  E'  je  ein  bestimmter  Punkt  auf  den  festen 
+Geraden  durch  0 ;  dann  bezeichnen  wir  die  beiden  Strecken  OE 
+und  OE'  als  die  Strecken  1,  in  Zeichen : 
+
+OE  =  OE'  =  1     oder    1  =  OE  =  OE'. 
+
+Die  Gerade  EE'  nennen  wir  kurz  die  Einheitsgerade.  Sind  ferner 
+A  und  A'  Punkte  auf  den  Geraden  OE  bez.  OE'  und  läuft  die 
+Verbindungsgerade  AA!  parallel  zu  EE',  so  nennen  wir  die  Strecken 
+OA  und  OA'  einander  gleich,  in  Zeichen: 
+
+OA  =  OA'     oder     OA'  =  OA. 
+
+Um  zunächst  die  Summe  der  Strecken  a  =  OA  und  b  =  OB 
+zu  definiren,  construire  man  AA'  parallel  zur  Einheitsgeraden 
+EE'  und  ziehe  sodann  durch  A'  eine  Parallele  zu  OE  und  durch 
+B  eine  Parallele  zu  OE'.  Diese  beiden  Parallelen  mögen  sich  in 
+A"  schneiden.  Endlich  ziehe  man  durch  A"  zur  Einheitsgeraden 
+EE'   eine  Parallele;    dieselbe   treffe   die   festen  Geraden  OE  und 
+
+
+CL+b,  C' 
+
+
+Fig.  39. 
+
+OE'    in    C  und  C :    dann   heisse   c  =  OG  =  OC    die   Summe   der 
+Strecke   a  =  OA  mit  der  Strecke  b  =  OB ,   in  Zeichen : 
+
+c  =  a  +  b   oder  a  +  b  =  c. 
+
+Um  das  Produkt  einer  Strecke  a  =  OA  in  eine  Strecke 
+b  =  OB  zu  definiren,  bedienen  wir  uns  genau  der  in  §  15  ange- 
+gebenen Konstruktion,  nur  dass  an  Stelle  der  Schenkel  des  rechten 
+Winkels  hier  die  beiden  festen  Geraden  OE  und  OE'  treten.  Die 
+Konstruktion  ist  demnach  folgende.  Man  bestimme  auf  OE'  den 
+Punkt  A',  sodass  AA'  parallel  der  Einheitsgeraden  EE'  wird,  ver- 
+
+
+Kap.  V.    Der  Desarguessche  Satz.    §  24,  25.  57 
+
+binde  E  mit  A'  und  ziehe   durch  B  eine  Parallele  zu  EA' ;   trifft 
+
+
+ab,C 
+
+
+diese  Parallele  die  feste  Gerade  OE'  im  Punkte  C,  so  heisst 
+c  =  OC  das  Produkt  der  Strecke  a  =  OA  in  die  Strecke 
+b  =  OB,  in  Zeichen: 
+
+c  =  ab    oder    a&  =  c. 
+
+
+:    §  25.  ■ 
+
+Das  commutative  und  associative  Gesetz  der  Addition  in  der  neuen 
+
+Streckenrechnung. 
+
+Wir  untersuchen  jetzt,  welche  von  den  in  §13  aufgestellten 
+Rechnungsgesetzen  für  unsere  neue  Streckenrechnung  gültig  sind, 
+wenn  wir  eine  ebene  Geometrie  zu  Grunde  legen ,  in  der  die 
+Axiome  1 1 — 2,  II— III  erfüllt  sind  und  überdies  der  Desargues- 
+sche Satz  gilt. 
+
+Vor  Allem  wollen  wir  beweisen,  dass  für  die  in  §  24  defi- 
+nirte  Addition  der  Strecken  das  commutative  Gesetz 
+
+a+b = b+a
+
+gilt.    Es  sei 
+
+a  =  OA  =  OA', 
+b  =  OB  =  OB', 
+
+wobei  unserer  Festsetzung  entsprechend  AA!  und  BB'  der  Ein- 
+heitsgeraden parallel  sind.  Nun  construiren  wir  die  Punkte  A" 
+und  B",  indem  wir  A'A"  sowie  B'B"  parallel  OA  und  ferner 
+AB"  und  BA"  parallel  OA'  ziehen;  wie  man  sofort  sieht,  sagt 
+dann  unsere  Behauptung  aus,  dass  die  Verbindungslinie  A"B"  pa- 
+rallel mit  AA'  läuft.  Die  Richtigkeit  dieser  Behauptung  erkennen 
+wir    auf  Grund   des   Desarguesschen  Satzes  (Satz  32)    wie   folgt. 
+
+
+58 
+
+
+Kap.  V.    Der  Desarguessche  Satz.    §  25. 
+
+
+Wir  bezeichnen  den  Schnittpunkt 
+von  AB"  und  A'A"  mit  F  und  den 
+Schnittpunkt  von  BA"  und  B'B" 
+mit  B ;  dann  sind  in  den  Dreiecken 
+AA'F  und  BB'B  die  entsprechen- 
+den Seiten  einander  parallel.  Mit- 
+telst des  Desarguesschen  Satzes 
+schliessen  wir  hieraus,  dass  die 
+drei  Punkte  0,  F,  B  in  einer  Ge- 
+raden liegen.  In  Folge  dieses  Um- 
+standes  liegen  die  beiden  Dreiecke 
+OAA'  und  BB"A'  derart,  dass  die 
+Verbindungslinien  entsprechender  Ecken  durch  den  nämlichen  Punkt 
+F  laufen  und  da  überdies  zwei  Paare  entsprechender  Seiten,  näm- 
+lich OA  und  BB"  sowie  OA'  und  BA"  einander  parallel  sind, 
+so  laufen  nach  der  zweiten  Aussage  des  Desarguesschen  Satzes 
+(Satz  32)  auch  die  dritten  Seiten  AA'  und  B"A"  einander  parallel. 
+Zum  Beweise  des  associativen  Gesetzes  der  Addition 
+
+
+a  +  (b  +  c)  =  (a  +  b)  +  c 
+
+dient  die  Figur  42.  Mit  Berücksichtigung  des  eben  bewiesenen 
+commutativen  Gesetzes  der  Addition  spricht  sich  die  obige  Be- 
+hauptung, wie  man  sieht,  darin  aus,  dass  die  Gerade  A" B"  parallel 
+
+
+a+b+c 
+
+
+a  +  {b  +  c) 
+
+
+(a  +  b)  +  c 
+
+
+Fig.  42. 
+
+der  Einheitsgeraden  verlaufen  muss.  Die  Richtigkeit  dieser  Be- 
+hauptung ist  offenbar,  da  der  schraffirte  Teil  der  Figur  42  mit 
+der  Figur  41  genau  übereinstimmt. 
+
+
+Kap.  V.    Der  Desarguessche  Satz.    §  26.  59 
+
+§26. 
+
+Das  associative  Gesetz  der  Multiplikation  und  die  beiden  distributiven 
+Gesetze  in  der  neuen  Streckenrechnung. 
+
+Bei  unseren  Annahmen  gilt    auch    für    die  Multiplikation  der 
+Strecken  das  associative  Gesetz: 
+
+a  (bc)  =  (ab)  c. 
+
+Es  seien  auf  der  ersteren  der  beiden  festen  Geraden  durch  0 
+die  Strecken  I 
+
+1  =  OÄ,    b  =  0(7,    c  =  OA' 
+
+und  auf  der  anderen  Geraden  die  Strecken 
+
+a  =  OG   und   b  =  OB 
+
+gegeben.  Um  gemäss  der  Vorschrift  in  §  24  der  Reihe  nach  die 
+Strecken 
+
+bc  =  OB'  und  bc  =  OG, 
+ab  =  OB, 
+(ab)c  =  OD' 
+
+zu  construiren,  ziehen  wir  A'B'  parallel  AB,  B'C  parallel  BC, 
+CD  parallel  AG  sowie  A'D'  parallel  AD]  wie  wir  sofort  er- 
+kennen,  läuft   dann  unsere  Behauptung  darauf  hinaus,   dass  auch 
+
+
+cvbc.  D' 
+
+
+C 
+bc 
+
+a(bc)  =  (ab)c 
+Fig.  43. 
+
+CD  parallel  CD'   sein  muss.     Bezeichnen   wir    nun   den  Schnitt- 
+punkt der  Geraden  AD  und  BC  mit  F  und  den  Schnittpunkt  der 
+
+
+60  Kap.  V.   Der  Desarguessche  Satz.    §  26. 
+
+Geraden  A'D'  und  B'C  mit  F' ,  so  sind  in  den  Dreiecken  ABF 
+und  A'B'F'  die  entsprechenden  Seiten  einander  parallel;  nach 
+dem  Desarguesschen  Satze  liegen  daher  die  drei  Punkte  0,  F,  F' 
+auf  einer  Geraden.  Wegen  dieses  Umstandes  können  wir  die 
+zweite  Aussage  des  Desarguesschen  Satzes  auf  die  beiden  Dreiecke 
+CDF  und  C'D'F'  anwenden  und  erkennen  hieraus,  dass  in  der 
+That  CD  parallel  CD'  ist. 
+
+Wir  beweisen  endlich  in  unserer  Streckenrechnung  auf  Grund 
+des  Desarguesschen  Satzes  die  beiden  distributiven  Gesetze: 
+
+a  (b  +  c)  =  ab-\-ac 
+und 
+
+(a  +  b)c  =  ac  +  bc. 
+
+Zum  Beweise    des    ersteren  Gesetzes   dient  die  Figur  44 i). 
+In  derselben  ist 
+
+b  =  OA',      c  ==  OC 
+ab  =  OB',      ab  =  OA",      ac  =  OC"   u.  s.  f. 
+
+und  es  läuft 
+
+B"D2  parallel  C"D1  parallel  zur  festen  Geraden  OA', 
+B'D[        „       C'D2        „  „        „  ,        OA"; 
+
+ferner  ist 
+
+A'A"  parallel  C'C" 
+und 
+
+A'B"  paraUel  B'A"  parallel  F'D2  parallel  F"DV 
+
+Die  Behauptung  läuft  darauf  hinaus,  dass  dann  auch 
+
+F'F"  parallel  A'A'  und  C'C" 
+sein  muss. 
+
+Wir  construiren  folgende  Hülfslinien: 
+
+F"J  parallel  der  festen  Geraden  OA' , 
+F'J        „  n         „  „  OA";
+
+die  Schnittpunkte  der  Geraden  C"DX  und  C"D2,  C"Dt  und  F'J, 
+C'D2  und  F"J  heissen  G,  H1}  H2;  endlich  erhalten  wir  noch  die 
+weiteren  in  der  Figur  44  punktirten  Hülfslinien  durch  Verbindung 
+bereits  construirter  Punkte. 
+
+In  den  beiden  Dreiecken  A'B"C"  und  F'D2G   laufen  die  Ver- 
+bindungsgeraden   entsprechender   Ecken    einander    parallel;    nach 
+
+
+1)  Die  Figuren  44,  45  und  47  hat  Herr  Dr.  von  Schaf  er   entworfen   und 
+auch  die  zugehörigen  Beweise  ausgeführt. 
+
+
+Kap.  V.    Der  Desarguessche  Satz.    §  26.  61 
+
+der  zweiten  Aussage  des  Desarguessclien  Satzes  folgt  daher,  dass 
+
+A'G"  parallel  F'G 
+sein   muss.     In   den   beiden   Dreiecken  A'G'F"  und  F'G  IL  laufen 
+
+
+CLüiac,F"L-t 
+
+
+ac,C" 
+
+
+ab,A" 
+b,B" 
+
+
+a(b-\-c)  =  ab+hc 
+Fig.  44. 
+
+ebenfalls  die  Verbindungsgeraden  entsprechender  Ecken  einander 
+parallel;  wegen  der  vorhin  gefundenen  Thatsache  folgt  nach  der 
+zweiten  Aussage  des  Desarguessclien  Satzes,  dass 
+
+A'F"  parallel  F'E2 
+
+sein  muss.  Da  somit  in  den  beiden  wagerecht  schraffirten  Drei- 
+ecken OA'F"  und  JH2F'  die  entsprechenden  Seiten  parallel  sind, 
+so  lehrt  der  Desarguessche  Satz,  dass  die  drei  Verbindungsgeraden 
+
+OJ,      A'H2,      F"F' 
+
+sich  in  einem  und  demselben  Punkte,  etwa  in  P,  treffen. 
+Auf  dieselbe  Weise  finden  wir,  dass  auch 
+
+A"F'  parallel  F"Hl 
+
+sein  muss  und  da  somit  in  den  beiden  schräg  schraffierten  Drei- 
+ecken OÄ'F'  und  JHXF"  die  entsprechenden  Seiten  parallel  laufen, 
+so  treffen  sich  dem  Desarguesschen  Satze  zufolge  die  drei  Ver- 
+bindungsgeraden 
+
+OJ,      A"HV      F'F" 
+
+ebenfalls  in  einem  Punkte  —  dem  Punkte  P. 
+
+Nunmehr  laufen  für  die  Dreiecke  OA'A"  und  JH2Hl  die  Ver- 
+bindungsgeraden entsprechender  Ecken  durch  den  nämlichen  Punkt 
+
+
+62  Kap.  V.    Der  Desarguessche   Satz.    §  26. 
+
+P,  und  mithin  folgt,  dass 
+
+H,H2  parallel  A'A" 
+sein  muss  ;  mithin  ist  auch 
+
+HtH2  parallel  CG". 
+
+Endlich  betrachten  wir  die  Figur  F'Hß'C'H.FF".  Da  in 
+derselben 
+
+F"H2  parallel  C'F'  parallel  G"HX 
+Hfi'  „  F"C"  „  HXF' 
+CG"         „         HXH2 
+
+ausfällt ,  so  erkennen  wir  hierin  die  Figur  41  wieder,  die  wir  in 
+§  25  zum  Beweise  für  das  commutative  Gesetz  der  Addition  be- 
+nutzt haben.  Die  entsprechenden  Schlüsse  wie  dort  zeigen  dann, 
+dass 
+
+FF"  parallel  HXH2 
+
+sein  muss  und  da  mithin  auch 
+
+FF"  parallel  A'A" 
+
+ausfällt ,  so  ist  der  Beweis  unserer  Behauptung  vollständig  er- 
+bracht. 
+
+Zum  Beweise  der  zweiten  Formel  des  distributiven  Gesetzes 
+dient  die  völlig  verschiedene  Figur  45.     In  derselben  ist 
+
+1  =  OD,     a  =  OA,     a  =  OB,     b  =  OG,     c  =  OD' 
+ac  =  OA',    ac  =  OB',     bc  =  OG'  u.  s.  f. 
+
+und  es  läuft 
+
+GH  parallel  G'H'  parallel  zur  festen  Geraden  OA, 
+AH       „         A'H'        ,  „         „  „  OB 
+
+und  ferner 
+
+AB  parallel  AB', 
+BD  „  B'D', 
+DG  „  D'G', 
+HJ        „         H'J'. 
+
+Die  Behauptung  läuft  darauf  hinaus,  dass  dann  auch 
+
+DJ  parallel  DJ' 
+sein  muss. 
+
+"Wir  bezeichnen  die  Punkte,  in  denen  BD  und  GD  die  Ge- 
+rade AH  treffen,  bez.  mit  G  und  F  und  ferner  die  Punkte  ,  in 
+denen  B'D'  und  G'D'  die  Gerade  A'H'  treffen,  bez.  mit  G'  und  F\ 
+
+
+Kap.  V.    Der  Desarguessche  Satz.    §  26,  27.  63 
+
+endlich   ziehen  wir   noch   die   in   der  Figur  45    punktirten  Hülfs- 
+linien  FJ  und  F'J'. 
+
+
+(a  +  b)c  =  ac-\-l)C 
+Fig.  45. 
+
+In  den  Dreiecken  ABC  und  A'B'C  laufen  die  entsprechenden 
+Seiten  parallel;  mithin  liegen  nach  dem  Desarguesschen  Satze  die 
+drei  Punkte  0,  C,  C  auf  einer  Geraden.  Ebenso  folgt  dann  aus 
+der  Betrachtung  der  Dreiecke  CDF  und  C'D'F',  dass  0,  F,  F'  auf 
+einer  Geraden  liegen,  und  die  Betrachtung  der  Dreiecke  FGH  und 
+F'G'R'  lehrt,  dass  0,  H,  FL'  Punkte  einer  Geraden  sind.  Nun 
+laufen  in  den  Dreiecken  FHJ  und  F'H'J'  die  Yerbindungsgeraden 
+entsprechender  Ecken  durch  den  nämlichen  Punkt  0,  und  mithin 
+sind  zufolge  der  zweiten  Aussage  des  Desarguesschen  Satzes 
+die  Geraden  FJ  und  F'J'  einander  parallel.  Endlich  zeigt  dann 
+die  Betrachtung  der  Dreiecke  DFJ  und  D'F'J',  dass  die  Geraden
+
+DJ  und  D'J'  einander  parallel  sind,  und  damit  ist  der  Beweis 
+unserer  Behauptung  vollständig  erbracht. 
+
+§  27. 
+Die  Gleichung  der  Geraden  auf  Grund  der  neuen  Streckenrechnung. 
+
+Wir  haben  in  §  24  bis  §  26  mittelst  der  in  §  24  angeführten 
+Axiome  und  unter  Voraussetzung  der  Gültigkeit  des  Desargues- 
+schen Satzes  in  der  Ebene  eine  Streckenrechnung  eingeführt ,  in 
+welcher  das  commutative  Gesetz  der  Addition,  die  associativen 
+Gesetze  der  Addition  und  Multiplikation,  sowie  die  beiden  distri- 
+butiven Gesetze  gültig  sind.     Wir  wollen  in  diesem  Paragraphen 
+
+
+64  Kap.  V.    Der  Desarguessclie  Satz.     §  27. 
+
+zeigen,  in  welcher  Weise  auf  Grund  dieser  Streckenrechnung  eine 
+analytische  Darstellung  der  Punkte  und  Geraden  in  der  Ebene 
+möglich  ist. 
+
+Definition.  "Wir  bezeichnen  in  der  Ebene  die  beiden  ange- 
+nommenen festen  Geraden  durch  den  Punkt  0  als  die  X-  und  Y- 
+Axe  und  denken  uns  irgend  einen  Punkt  P  der  Ebene  durch  die 
+Strecken  x,  y  bestimmt,  die  man  auf  der  X-  bez.  Y-Axe  erhält, 
+wenn  man  durch  P  zu  diesen  Axen  Parallelen  zieht.  Diese  Strecken 
+x,  y  heissen  Coordinaten  des  Punktes  P.  Auf  Grund  der  neuen 
+Streckenrechnung  und  mit  Hülfe  des  Desarguesschen  Satzes  ge- 
+langen wir  zu  der  folgenden  Thatsache  : 
+
+Satz  34.  Die  Coordinaten  x,  y  der  Punkte  auf  einer  beliebigen 
+Geraden  erfüllen  stets  eine  Streckengleichung  von  der  Gestalt: 
+
+ax  +  by  +  c  =  0; 
+
+in  dieser  Gleichung  stehen  die  Strecken  a,b  notwendig  linksseitig 
+von  den  Coordinaten  x,  y;  die  Strecken  ä,  b  sind  niemals  beide  Null 
+und  c  ist  eine  beliebige  Strecke. 
+
+Umgekehrt:  jede  Streckengleichung  der  beschriebenen  Art  stellt 
+stets  eine  Gerade  in  der  zu  Grunde  gelegten  ebenen  Geometrie  dar. 
+
+Beweis.  Wir  nehmen  zunächst  an,  die  Gerade  l  gehe  durch  0. 
+Ferner  sei  C  ein  bestimmter  von  0  verschiedener  Punkt  auf  l 
+und  P  ein  beliebiger  Punkt  auf  l ;  C  habe  die  Coordinaten  OA,  OB 
+und  P  habe  die  Coordinaten  x,  y ;  wir  bezeichnen  die  Verbindungs- 
+gerade der  Endpunkte  von  x,  y  mit  g.     Endlich  ziehen  wir  durch 
+
+
+den  Endpunkt    der   Strecke  1    auf    der    X-Axe   eine   Parallele  h 
+zu  AB:    diese  Parallele    schneide   auf  der  F-Axe   die  Strecke   e 
+
+
+Kap.  V.    Der  Desarguessche  Satz.    §  27. 
+
+
+65 
+
+
+ab.  Aus  der  zweiten  Aussage  des  Desarguesschen  Satzes  folgt 
+leicht,  dass  die  Gerade  g  stets  parallel  zu  AB  läuft.  Da  somit 
+auch  g  stets  zu  h  parallel  ist ,  so  folgt  für  die  Coordinaten  x,  y 
+des  beliebigen  Punktes  P  auf  l  die  Streckengleichung 
+
+ex  =  y. 
+
+Nunmehr  sei  V  eine  beliebige  Gerade  in  unserer  Ebene;  die- 
+selbe schneide  auf  der  X-Axe  die  Strecke  c  =  00'  ab.  Wir 
+ziehen  ferner  die  Gerade  l  durch  0  parallel  zu  V .  Es  sei  P'  ein 
+beliebiger  Punkt  auf  V ;  die  Parallele  durch  P'  zur  X-Axe  treffe 
+die  Gerade  l  in  P  und  schneide  auf  der  Y-Axe  die  Strecke 
+y  =  OB  ab;  ferner  mögen  die  Parallelen  durch  P  und  P'  zur 
+Y-Axe  auf  der  X-Axe  die  Strecken  x  =  OA  und  x'  =  OA' 
+abschneiden. 
+
+Wir  wollen  nun  beweisen,  dass  die  Streckengleichung 
+
+x'  =  x  +  c 
+besteht.     Zu  diesem  Zwecke  ziehen  wir  O'C  parallel  zur  Einheits- 
+
+
+geraden,   ferner    CD   parallel   zur  X-Axe   und  AD  parallel  zur 
+Y-  Axe ;  dann  läuft  unsere  Behauptung  darauf  hinaus,  dass 
+
+A'D  parallel  O'C 
+
+sein    muss.      Wir    construiren  noch  D'  als  Schnittpunkt    der  Ge- 
+raden CD  und  A'P'  und  ziehen  O'C  parallel  zur  F-Axe. 
+
+Da  in  den  Dreiecken  OCP  und  O'C'P'  die  Verbindungsgeraden 
+entsprechender  Ecken  parallel  laufen,  so  folgt  mittelst  der  zweiten 
+Aussage  des  Desarguesschen  Satzes,  dass 
+
+CP  parallel  C'P' 
+
+sein  muss;   auf  gleiche  Weise  lehrt  die  Betrachtung  der  Dreiecke 
+
+Hubert,   Grundlagen  der  Geometrie,  5 
+
+
+66  Kap.  V.   Der  Desarguessche  Satz.    §  27,  28. 
+
+ACP  und  Ä'G'F,  dass 
+
+AG  parallel  A'C 
+
+ist.  Da  somit  in  den  Dreiecken  ACD  und  C'A'O'  die  entsprechen- 
+den Seiten  einander  parallel  laufen,  so  treffen  sich  die  Geraden 
+AC,  CA',  DO'  in  einem  Punkte  und  die  Betrachtung  der  beiden
+
+Dreiecke  C'A'D  und  ACO'  zeigt  dann,  dass  A'D  und  CO'  ein- 
+ander parallel  sind. 
+
+Aus  den  beiden  bisher  gefundenen  Streckengleichungen 
+
+ex  =  y    und    x'  =  x  +  e 
+
+folgt  sofort  die  weitere  Gleichung 
+
+ex'  ==  y-\-  ec. 
+
+Bezeichnen  wir  schliesslich  mit  n  die  Strecke,  die  zur  Strecke  1 
+addirt  die  Strecke  0  liefert,  so  folgt,  wie  man  leicht  beweist,  aus 
+der  letzten  Gleichung 
+
+ex'  +  ny  +  nec  =  0 
+
+und  diese  Gleichung  ist  von  der  Gestalt,  wie  der  Satz  34  be- 
+hauptet. 
+
+Die  zweite  Aussage  des  Satzes  34  erkennen  wir  nun  ohne 
+Mühe  als  richtig;  denn  eine  jede  vorgelegte  Streckengleichung 
+
+ox  +  by  +  c  =  0 
+
+lässt  sich  offenbar  durch  linksseitige  Multiplikation  mit  einer  ge- 
+eigneten Strecke  in  die  vorhin  gefundene  Gestalt 
+
+ex  +  ny  +  nee  =  0 
+bringen. 
+
+Es  sei  noch  ausdrücklich  bemerkt,  dass  bei  unseren  Annahmen 
+eine  Streckengleichung  von  der  Gestalt 
+
+xa-\-yb-\-e  =  0, 
+
+in  der  die  Strecken  a,  b  rechtsseitig  von  den  Coordinaten  x,  y 
+stehen,  im  Allgemeinen  nicht  eine  Gerade  darstellt. 
+
+"Wir  werden  in  §  30  eine  wichtige  Anwendung  von  dem  Satze 
+34  machen. 
+
+§28. 
+Der  Inbegriff  der  Strecken  aufgefasst  als  complexes  Zahlensystem. 
+
+Wir  sehen  unmittelbar  ein,  dass  für  unsere  neue  in  §  24  be- 
+gründete Streckenrechnung  die  Sätze  1—6  in  §  13  erfüllt  sind. 
+
+
+Kap.  V.   Der  Desarguessche  Satz.     §  28,  29.  67 
+
+Ferner  haben  wir  in  §  25  und  §  26  mit  Hülfe  des  Desargues- 
+schen  Satzes  erkannt,  dass  für  diese  Streckenrechnung  die  Rech- 
+nungsgesetze 7 — 11  in  §13  gültig  sind;  es  bestehen  somit  sämt- 
+liche Sätze  der  Verknüpfung,  abgesehen  vom  commutativen  Ge- 
+setze der  Multiplikation. 
+
+Um  endlich  eine  Anordnung  der  Strecken  zu  ermöglichen, 
+treffen  wir  folgende  Festsetzung.  Es  seien  A,  B  irgend  zwei 
+verschiedene  Punkte  der  Geraden  OE;  dann  bringen  wir  gemäss 
+Axiom  II  4  die  vier  Punkte  0,  E,  A,  B  in  eine  Reihenfolge.  Ist 
+dies  auf  eine  der  folgenden  sechs  Arten 
+
+ABOE,  AOBE,  AOEB,  OABE,  OAEB,  OEAB 
+
+möglich,  so  nennen  wir  die  Strecke  a  =  OA  Meiner  als  die  Strecke 
+b  =  OB,  in  Zeichen : 
+
+a  <c  b, 
+
+Findet  dagegen  eine  der  sechs  Reihenfolgen 
+
+BAOE,  BOAE,  BOEA,  OBAE,  OBEA,  OEBA 
+
+statt,  so  nennen  wir  die  Strecke  a  =  OA  grösser  als  die  Strecke 
+b  =  OA,  in  Zeichen 
+
+a  >  b. 
+
+Diese  Festsetzung  bleibt  auch  in  Kraft ,  wenn  A  oder  B  mit  0 
+oder  E  zusammenfallen,  nur  dass  dann  die  zusammenfallenden 
+Punkte  als  ein  einziger  Punkt  anzusehen  sind  und  somit  lediglich 
+die  Anordnung  dreier  Punkte  in  Frage  kommt. 
+
+Wir  erkennen  leicht ,  dass  nunmehr  in  unserer  Streckenrech- 
+nung auf  Grund  der  Axiome  II  die  Rechnungsgesetze  13 — 16  in 
+§  13  erfüllt  sind ;  somit  bildet  die  Gesamtheit  aller  verschiedenen 
+Strecken  ein  complexes  Zahlensystem,  für  welches  die  Gesetze 
+1—11,  13 — 16  in  §13,  d.h.  die  sämtlichen  Vorschriften 
+ausser  dem  commutativen  Gesetze  der  Multiplikation 
+und  dem  Archimedischen  Satze  gewiss  gültig  sind; 
+wir  bezeichnen  ein  solches  Zahlensystem  im  Folgenden  kurz  als 
+ein  Desarguessches  Zahlensystem. 
+
+§  29. 
+
+Aufbau  einer  räumlichen  Geometrie  mit  Hülfe  eines 
+Desarguesschen  Zahlensystems. 
+
+Es  sei  nun  irgend  ein  Desarguessches  Zahlensystem  D  vor- 
+gelegt; dasselbe  ermöglicht  uns  den  Aufbau  einer  räum- 
+
+5* 
+
+
+68  Kap.  V.    Der  Desarguessche  Satz.    §  29. 
+
+liehen  Geometrie,  in  der  die  Axiome  I,  II,  III  sämtlich 
+erfüllt  sind. 
+
+Um  dies  einzusehen,  denken  wir  uns  das  System  von  irgend 
+drei  Zahlen  (x,  y,  z)  des  Desarguesschen  Zahlensystems  D  als 
+einen  Punkt  und  das  System  von  irgend  vier  Zahlen  (u  :  v  :  w  :  r) 
+in  D,  von  denen  die  ersten  drei  Zahlen  nicht  zugleich  0  sind,  als 
+eine  Ebene ;  doch  sollen  die  Systeme  (u :  v :  w :  r)  und  (au  :  av :  aiv  :  ar), 
+wo  a  irgend  eine  von  0  verschiedene  Zahl  in  D  bedeutet ,  die 
+nämliche  Ebene  darstellen.     Das  Bestehen  der  Gleichung 
+
+ux  +  vy  +  wz  +  r  =  0 
+
+möge  ausdrücken,  dass  der  Punkt  (x,  y,  z)  auf  der  Ebene  (uw.iv.r) 
+liegt.  Die  Gerade  endlich  definiren  wir  mit  Hülfe  eines  Systems
+
+zweier  Ebenen  («/:  v':  w':r')  und  (u":  v":  w":  r"),  wenn  es  nicht  mög- 
+lich ist,  zwei  von  0  verschiedene  Zahlen  a!,  a"  in  D  zu  finden, 
+sodass  gleichzeitig 
+
+a'u'  =  a"u'\      a'v'  =  a"v",      a'iv'  =  d'io" 
+
+wird.  Ein  Punkt  (x,  y,  z)  heisst  auf  dieser  Geraden  [(V :  v' :  w' :  r'), 
+(u" :  v" :iv":  r")]  gelegen,  wenn  er  den  beiden  Ebenen  (u':  v':  w':  r') 
+und  (u",  v",  w",  r")  gemeinsam  ist.  Zwei  Gerade,  welche  dieselben 
+Punkte  enthalten,  gelten  als  nicht  verschieden. 
+
+Indem  wir  die  Rechnungsgesetze  1 — 11  in  §  13  anwenden, 
+die  nach  Voraussetzung  für  die  Zahlen  in  D  gelten  sollen,  ge- 
+langen wir  ohne  Schwierigkeit  zu  dem  Resultate ,  dass  in  der 
+soeben  aufgestellten  räumlichen  Geometrie  die  Axiome  I  und  III 
+sämtlich  erfüllt  sind. 
+
+Damit  auch  den  Axiomen  II  der  Anordnung  Genüge  geschehe, 
+treffen  wir  folgende  Festsetzungen.     Es  seien 
+
+[xv  yv  zj,       (x2,  y2,  z2),       \x3l  y3,  z3) 
+
+irgend  drei  Punkte  einer  Geraden 
+
+[(u':v':  w':r'),       (u" :  v" :  w" :  /')]; 
+
+dann  heisse  der  Punkt  (x2,  y2,  z2)  zwischen  den  beiden  anderen 
+gelegen,  wenn  wenigstens  eine  der  sechs  Doppelungleichungen 
+
+\*-J  X^    ^ZL    X2    <C    X~  ,  X^    .>    Xq    •-^>   **'g 
+
+(2)  &<?*<&.,    Vi  >  y*  >  y» 
+
+(3)  gx  <  z2  <  z3 ,       zx  >  z2  >  z3 
+
+erfüllt  ist.  Besteht  nun  etwa  eine  der  beiden  Doppelungleichungen 
+(1),   so   schliessen   wir  leicht,   dass  entweder  yx  =  */a  =  y3  oder 
+
+
+Kap.  V.   Der  Desarguessche  Satz.    §  29.  69 
+
+notwendig  eine  der  beiden  Doppelungleichungen  (2)  und  ebenso 
+dass  entweder  el  =  s2  =  zz  oder  eine  der  Doppelungleichungen  (3) 
+gelten  muss.     In  der  That,  aus  den  Gleichungen 
+
+u'xt  -f-  v'y.  +  w'0t  +  r'  =  0 , 
+
+u"xi  +  v"iji  +  iv"zi  +  r"  =  0, 
+
+(i  =  1,  2,  3) 
+
+leiten  wir  durch  linksseitige  Multiplikation  derselben  mit  geeig- 
+neten Zahlen  aus  D  und  durch  nachherige  Addition  der  ent- 
+stehenden Gleichungen  ein  Gleichungssystem  von  der  Gestalt 
+
+(4)  u'"%i  +  v'"yi  +  r'"  =  0 
+
+(•  =  1,  2,  3) 
+
+ab.  Hierin  ist  der  Coefficient  v'"  sicher  nicht  0,  da  sonst  die 
+Gleichheit  der  drei  Zahlen  xv  x2,  x3  folgen  würde.     Aus 
+
+Xl    >.    X2    >    X3 
+
+schliessen  wir 
+
+m'X  ^  u'"x3  ^  u'"x3 
+1  >        2  >        3 
+
+und  mithin  wegen  (4) 
+
+v'"y1  +  r'"  =;  v'"y3  +  r'"  g  v'"y3  +  r" 
+und  daher 
+
+v'"yx  =  0"'y.  =  *"'y»» 
+
+und  da  «'"  nicht  0  ist,  so  haben  wir 
+
+2/1  =  2/2  =  2/3  ; 
+
+in  jeder  dieser  Doppelungleichungen  soll  stets  entweder  durchweg 
+das  obere  oder  durchweg  das  mittlere  oder  durchweg  das  untere 
+Zeichen  gelten. 
+
+Die  angestellten  Ueberlegungen  lassen  erkennen,  dass  in  un- 
+serer Geometrie  die  linearen  Axiome  II 1 — 4  der  Anordnung  zu- 
+treffen. Es  bleibt  noch  zu  zeigen  übrig,  dass  in  unserer  Geometrie 
+auch  das  ebene  Axiom  II  5  gültig  ist. 
+
+Zu  dem  Zwecke  sei  eine  Ebene  (u  :  v  :  w  :  r)  und  in  ihr  eine 
+Gerade  [(u  :v:iu:  r),  (u1:  v':  w':  r')]  gegeben.  Wir  setzen  fest,  dass 
+alle  in  der  Ebene  (u:v:w:r)  gelegenen  Punkte  (x,  y,  2),  für  die  der 
+Ausdruck  n'x  +  v'y  +  w'z  +  r'  kleiner  oder  grösser  als  0  ausfällt, 
+auf  der  einen  bez.  auf  der  anderen  Seite  von  jener  Geraden  ge- 
+legen sein  sollen,   und  haben  dann  zu  beweisen,    dass   diese  Fest- 
+
+
+70  Kap.  V.    Der  Desarguessche  Satz.     §  29,  30. 
+
+setzung   sich   mit  der  vorigen  in  Uebereinstimmung  befindet,    was 
+leicht  geschehen  kann. 
+
+Damit  haben  wir  erkannt,  dass  die  sämtlichen  Axiome  I,  II,  III 
+in  derjenigen  räumlichen  Geometrie  erfüllt  sind,  die  in  der  oben 
+geschilderten  Weise  aus  dem  Desarguesschen  Zahlensystem  D 
+entspringt.  Bedenken  wir,  dass  der  Desarguessche  Satz  eine  Folge 
+der  Axiome  I,  II,  III  ist,  so  sehen  wir,  dass  die  eben  gefundene 
+Thatsache  die  genaue  Umkehrung  desjenigen  Ergebnisses  darstellt, 
+zu  dem  wir  in  §  28  gelangt  sind. 
+
+
+§30. 
+Die  Bedeutung  des  Desarguesschen  Satzes. 
+
+Wenn  in  einer  ebenen  Geometrie  die  Axiome  I  1 — 2,  II,  III 
+erfüllt  sind  und  überdies  der  Desarguessche  Satz  gilt,  so  ist  es
+
+nach  §  24  —  §  28  in  dieser  Geometrie  stets  möglich,  eine  Strecken- 
+rechnung einzuführen,  für  die  die  Regeln  1 — 11,  13 — 16  in  §  13 
+anwendbar  sind.  Wir  betrachten  nun  weiter  den  Inbegriff  dieser 
+Strecken  als  ein  complexes  Zahlensystem  und  bauen  aus  denselben 
+nach  den  Entwickelungen  in  §  29  eine  räumliche  Geometrie  auf, 
+in  der  sämtliche  Axiome  I,  II,  III  gültig  sind. 
+
+Fassen  wir  in  dieser  räumlichen  Geometrie  lediglich  die  Punkte 
+(x,  y,  0)  und  diejenigen  Geraden  ins  Auge ,  auf  denen  nur  solche 
+Punkte  liegen ,  so  entsteht  eine  ebene  Geometrie,  und  wenn  wir 
+die  in  §  27  abgeleitete  Thatsache  berücksichtigen,  so  leuchtet  ein, 
+dass  diese  ebene  Geometrie  genau  mit  der  zu  Anfang  vorgelegten 
+ebenen  Geometrie  übereinstimmen  muss.  Damit  gewinnen  wir 
+folgenden  Satz,  der  als  das  Endziel  der  gesamten  Entwickelungen 
+dieses  Kapitels  V  anzusehen  ist : 
+
+Satz  35.  Es  seien  in  einer  ebenen  Geometrie  die  Axiome  II — 2, 
+II,  III  erfüllt:  dann  ist  die  Gültigheit  des  Desarguesschen  Satzes 
+die  notivendige  und  hinreichende  Bedingung  dafür,  dass  diese  ebene 
+Geometrie  sich  auffassen  lässt  als  ein  Teil  einer  räumlichen  Geometrie, 
+in  welcher  die  sämtlichen  Axiome  1,  II,  III  erfüllt  sind. 
+
+Der  Desarguessche  Satz  kennzeichnet  sich  so  gewissermassen 
+für  die  ebene  Geometrie  als  das  Resultat  der  Elimination  der 
+räumlichen  Axiome. 
+
+Die  gefundenen  Resultate  setzen  uns  auch  in  den  Stand  zu 
+erkennen ,  dass  jede  räumliche  Geometrie ,  in  der  die  Axiome  I, 
+II,  III  sämtlich  erfüllt  sind,  sich  stets  als  ein  Teil  einer  „Geome- 
+trie von   beliebig  vielen  Dimensionen"    auffassen   lässt;    dabei   ist 
+
+
+Kap.  VI.   Der  Pascalsche  Satz.    §  31.  71 
+
+unter  einer  Geometrie  von  beliebig  vielen  Dimensionen  eine  Ge- 
+samtheit von  Punkten,  Geraden,  Ebenen  und  noch  weiteren  linearen 
+Elementen  zu  verstehen ,  für  welche  die  entsprechenden  Axiome 
+der  Verknüpfung  und  Anordnung  sowie  das  Parallelenaxiom  er- 
+füllt sind. 
+
+
+Kapitel  VI. 
+
+Der  Pascalsche  Satz. 
+
+§  31. 
+Zwei  Sätze  über  die  Beweisbarkeit  des  Pascalschen  Satzes. 
+
+Der  Desarguessche  Satz  (Satz  32)  lässt  sich  bekanntlich  aus 
+den  Axiomen  I,  II,  III,  d.  h.  unter  wesentlicher  Benutzung  der 
+räumlichen  Axiome  beweisen ;  in  §  23  habe  ich  gezeigt ,  dass  der 
+Beweis  desselben  ohne  die  räumlichen  Axiome  der  Gruppe  I  und 
+ohne  die  Congruenzaxiome  IV  nicht  möglich  ist,  selbst  wenn  die 
+Benutzung  des  Archimedischen  Axioms   gestattet  wird. 
+
+In  §  14  ist  der  Pascalsche  Satz  (Satz  21)  und  damit  nach 
+§  22  auch  der  Desarguessche  Satz  aus  den  Axiomen  I  1 — 2,  II — IV, 
+also  mit  Ausschluss  der  räumlichen  Axiome  und  unter  wesent- 
+licher Benutzung  der  Congruenzaxiome  abgeleitet  worden.  Es 
+entsteht  die  Frage ,  ob  auch  der  Pascalsche  Satz  ohne 
+Hinzuziehung  der  Congruenzaxiome  bewiesen  werden 
+kann.  Unsere  Untersuchung  wird  zeigen,  dass  in  dieser  Hinsicht 
+der  Pascalsche  Satz  sich  völlig  anders  als  der  Desarguessche  Satz 
+verhält,  indem  bei  dem  Beweise  des  Pascalschen  Satzes  die  Zu- 
+lassung oder  Ausschliessung  des  Archimedischen 
+Axioms  von  entscheidendem  Einflüsse  für  seine  Gültigkeit  ist. 
+Die  wesentlichen  Ergebnisse  unserer  Untersuchung  fassen  wir  in 
+den  folgenden  zwei  Sätzen  zusammen: 
+
+Satz  36.  Der  Pascalsche  Satz  (Satz  21)  ist  beweisbar  auf  Grund 
+der  Axiome  I,  II,  III,  V,  d.  h.  unter  Ausschliessung  der  Congruenz- 
+axiome mit  Zuhülfenahme  des  Archimedischen  Axioms. 
+
+Satz  37.  Der  Pascalsche  Satz  (Satz  21)  ist  nicht  beiveisbar 
+auf  Grund  der  Axiome  I,  II,  III,  d.  li,  unter  Ausschliessung  der  Con- 
+gruenzaxiome sowie  des  Archimedischen  Axioms. 
+
+In  der  Fassung   dieser   beiden  Sätze   können  nach  dem  allge- 
+
+
+72  Kap.  VI.   Der  Pascalsche  Satz.    §  31,  32. 
+
+ineinen  Satze  35  die  räumlichen  Axiome  13 — 7  auch  durch  die 
+ebene  Forderung  ersetzt  werden ,  dass  der  Desarguessche  Satz 
+(Satz  32)  gelten  soll. 
+
+§  32. 
+
+Das  commutative  Gesetz  der  Multiplikation  im  Archimedischen 
+Zahlensystem.
+
+Die  Beweise  der  Sätze  36  und  37  beruhen  wesentlich  auf 
+gewissen  gegenseitigen  Beziehungen,  welche  für  die  Rechnungs- 
+regeln und  Grundthatsachen  der  Arithmetik  bestehen  und  deren 
+Kenntnis  auch  an  sich  von  Interesse  erscheint.  Wir  stellen  die 
+folgenden  zwei  Sätze  auf: 
+
+Satz  38.  Für  ein  Archimedisches  Zahlensystem  ist  das  commu- 
+tative Gesetz  der  Multiplikation  eine  notwendige  Folge  der  übrigen 
+Rechnungsgesetze ;  d.  h.,  ivenn  ein  Zahlensystem  die  in  §  13  aufge- 
+zählten Eigenschaften  1 — 11,  13 — 17  besitzt,  so  folgt  notwendig,  dass 
+dasselbe  auch  der  Formel  12  genügt. 
+
+Beweis.  Zunächst  bemerken  wir :  wenn  a  eine  beliebige  Zahl 
+des  Zahlensystems  und 
+
+n  =  1  +  H +  1 
+
+eine  ganze  rationale  positive  Zahl  ist,  so  gilt  für  a  und  n  stets 
+das  commutative  Gesetz  der  Multiplikation;  es  ist  nämlich 
+
+an  =  a  (1  -j- 1  -j 1-1)  =  a-l  +  a-l-\ [-  a  •  1  =  a  +  a-\---  •  +  a 
+
+und  ebenso 
+
+na  =  (1  +  1-1 \-l)a  =  1  •  a  + 1  ■  a  H f- 1  •  a  =  a  +  a-\ \-a 
+
+Es  seien  nun  im  Gegensatz  zu  unserer  Behauptung  a,  b  solche 
+zwei  Zahlen  des  Zahlensystems,  für  welche  das  commutative  Ge- 
+setz der  Multiplikation  nicht  gültig  ist.  Wir  dürfen  dann ,  wie 
+leicht  ersichtlich,  die  Annahmen 
+
+a>0,     b  >  0  ab  —  ba>0 
+
+machen.  Wegen  der  Forderung  6  in  §  13  giebt  es  eine  Zahl  c  (>  0), 
+so  dass 
+
+(a  +  b  -f  1)  c  =  ab  —  ba 
+
+ist.  Endlich  wählen  wir  eine  Zahl  d,  die  zugleich  den  Un- 
+gleichungen 
+
+d>0,     d<l,     d<zc 
+
+genügt,   und  bezeichnen  mit  m  und  n  zwei  solche  ganze  rationale 
+
+
+Kap.  VI.   Der  Pascalsche  Satz.    §  32,  33.  73 
+
+Zahlen  >  0,  für  die 
+
+md  <  a  <  (m  -\- 1)  d 
+bez. 
+
+nd  <  b  <  (w  + 1)  d 
+
+wird.  Das  Vorhandensein  solcher  Zahlen  m,  n  ist  eine  unmittel- 
+bare Folgerung  des  Archimedischen  Satzes  (Satz  17  in  §  13). 
+Mit  Rücksicht  auf  die  Bemerkung  zu  Anfang  dieses  Beweises  er- 
+halten wir  aus  den  letzteren  Ungleichungen  durch  Multiplikation 
+
+ab  <  mnd2  +  (»»  +  n  + 1)  d2, 
+ba  >  mnä\ 
+
+also  durch  Subtraktion 
+
+
+Nun  ist 
+
+und  folglich 
+
+d.  h. 
+
+oder  wegen  d  <z  c 
+
+
+ab  —  ba<  (m  +  n  +  l)  d2. 
+md  <  «,     nd  <b,     d  <  1 
+
+(m  +  n  + 1)  d  <  a  +  b  +  1, 
+a&  —  &a  <:  (a  +  &  + 1)  <# 
+a&  —  &a  <:  (a  -f-  &  +  1)  c. 
+
+
+Diese  Ungleichung  widerspricht  der  Bestimmung  der  Zahl  c,  und 
+damit  ist  der  Beweis  für  den  Satz  38  erbracht. 
+
+§  33. 
+
+Das  commutative  Gesetz  der  Multiplikation  im  Nicht-Archimedischen 
+
+Zahlensystem. 
+
+Satz  39.  Für  ein  Nicht  -  Archimedisches  Zahlensystem  ist  das 
+commutative  Gesetz  der  Multiplikation  nicht  eine  notivendige  Folge 
+der  übrigen  Rechnungsgesetze;  d.  h.  es  giebt  ein  Zahlensystem,  das  die 
+in  §  13  aufgezählten  Eigenscliaften  1 — 11,  13 — 16  besitzt  —  ein  De- 
+sarguessches  Zahlensystem  nach  §28  — ,  in  welchem  nicht  das  com- 
+mutative Gesetz  (12)  der  Multiplikation  besteht. 
+
+Beweis.  Es  sei  t  ein  Parameter  und  T  irgend  ein  Ausdruck 
+mit  einer  endlichen  oder   unendlichen  Gliederzahl  von  der  Gestalt 
+
+T  =  r0tn+r1tH+'+r2f+2+r3f+*+--.] 
+
+darin  mögen  r0(^=  0),  rv  r2,  . . .  beliebige  rationale  Zahlen  bedeuten 
+und  n  sei  eine  beliebige  ganze  rationale  Zahl  =  0.  Ferner  sei 
+s   ein   anderer  Parameter   und   S  irgend   ein  Ausdruck    mit    einer 
+
+
+74  Kap.  VI.   Der  Pascalsche  Satz.    §  33. 
+
+endlichen  oder  unendlichen  Gliederzahl  von  der  Gestalt 
+
+S  =  smT0  +  sm+1T1  +  sm+2T2  +  --'] 
+
+darin  mögen  T0(=j=  0),  Tv  T2, . . .  beliebige  Ausdrücke  von  der  Ge- 
+stalt  T  bezeichnen  und  m  sei  wiederum  eine  beliebige  ganze 
+rationale  Zahl  =  0.  Die  Gesamtheit  aller  Ausdrücke  von  der 
+Gestalt  S  sehen  wir  als  ein  complexes  Zahlensystem  Sl  (s,  t)  an, 
+in  dem  wir  folgende  Rechnungsregeln  festsetzen:  man  rechne  mit 
+s  und  t,  wie  mit  Parametern  nach  den  Regeln  7 — 11  in  §  13,  wäh- 
+rend man  an  Stelle  der  Regel  12  stets  die  Formel 
+
+(1)  ts  =  -st 
+
+anwende. 
+
+Sind  nun  S',  S"  irgend  zwei  Ausdrücke  von  der  Gestalt  S: 
+
+s"  =  sm" r;+sm"+lr;+sm"+2T';+  •■ ., 
+
+so  kann  man  offenbar  durch  Zusammenfügung  einen  neuen  Aus-
+
+druck S'  +  S"  bilden,  der  wiederum  von  der  Gestalt  S  und  zugleich 
+eindeutig  bestimmt  ist ;  dieser  Ausdruck  S'  +  S"  heisst  die  Summe 
+der  durch  S',  S"  dargestellten  Zahlen. 
+
+Durch  gliedweise  Multiplikation  der  beiden  Ausdrücke  S',  S" 
+gelangen  wir  zunächst  zu  einem  Ausdrucke  von  der  Gestalt 
+
+S'S"  =  sm'Tlsm''r0'  +  {sm'T'0sm''+l^i  +  sm'+lT'1sm''T^ 
+
++  (sm'T'0  sm"+2Ti + sm'+}  t[  sm"+1  r; + sm'+2r2  sw"T"0) +■■■. 
+
+Dieser  Ausdruck  wird  bei  Benutzung  der  Formel  (1)  offenbar  ein 
+eindeutig  bestimmter  Ausdruck  von  der  Gestalt  S;  der  letztere 
+heisse  das  Produkt  der  durch  S'  dargestellten  Zahl  in  die  durch 
+S"  dargestellte  Zahl. 
+
+Bei  der  so  festgesetzten  Rechnungsweise  leuchtet  die  Gültig- 
+keit der  Rechnungsregeln  1 — 5  in  §  13  unmittelbar  ein.  Auch  die 
+Gültigkeit  der  Vorschrift  6  in  §  13  ist  nicht  schwer  einzusehen. 
+Zu  dem  Zwecke  nehmen  wir  an,  es  seien  etwa 
+
+S'  =  sm'T'0  +  sm'+1T'1  +  sm'+2T'2  +  "- 
+und 
+
+S"'  =  sm'"r:+sm'"+ir;'  +  sm'"+2r2"+--- 
+
+gegebene  Ausdrücke  von  der  Gestalt  S,  und  bedenken,  dass  un- 
+seren Festsetzungen  entsprechend  der  erste  Coefficient  r'0  aus  T'0 
+von  0  verschieden  sein  muss.     Indem   wir    nun    die  nämlichen  Po- 
+
+
+Kap.  VI.    Der  Pascalsche  Satz.    §  33,  34.  75 
+
+tenzen  von  s  auf  beiden  Seiten  einer  Gleichung 
+
+(2)  S'S"  =  S"' 
+
+vergleichen,  finden  wir  in  eindeutig  bestimmter  Weise  zunächst 
+eine  ganze  Zahl  m"  als  Exponenten  und  sodann  der  Reihe  nach 
+gewisse  Ausdrücke 
+
+rprt      rpn      rpn 
+
+-*   0>     ■*■  U    ■*•  2J    *  '   * 
+
+derart,  dass  der  Ausdruck 
+
+S"  =  sm"Tl  +  sm"+lT'l  +  sm"+2Tl  +  --- 
+
+bei  Benutzung  der  Formel  (1)  der  Gleichung  (2)  genügt;  hiermit 
+ist  der  gewünschte  Nachweis  erbracht. 
+
+Um  endlich  die  Anordnung  der  Zahlen  unseres  Zahlensystems 
+Sl  (s,  t)  zu  ermöglichen ,  treffen  wir  folgende  Festsetzungen.  Eine 
+Zahl  des  Systems  heisse  <  oder  >  0,  jenachdem  in  dem  Aus- 
+drucke S,  der  sie  darstellt,  der  erste  Coefficient  r0  von  T0  <  oder 
+>  0  ausfällt.  Sind  irgend  zwei  Zahlen  a  und  b  des  complexen 
+Zahlensystems  vorgelegt,  so  heisse  a  <  b  bez.  a  >  b,  jenachdem 
+fl-J<0  oder  >  0  wird.  Es  leuchtet  unmittelbar  ein ,  dass  bei 
+diesen  Festsetzungen  die  Regeln  13 — 16  in  §  13  gültig  sind,  d.  h. 
+Sl  (s,  t)  ist  ein  Desarguessches  Zahlensystem  (vgl.  §  28). 
+
+Die  Vorschrift  12  in  §  13  ist,  wie  Gleichung  (1)  zeigt,  für 
+unser  complexes  Zahlensystem  £l(s,t)  nicht  erfüllt  und  damit 
+ist  die  Richtigkeit  des  Satzes  39  vollständig  erkannt. 
+
+In  Uebereinstimmung  mit  Satz  38  gilt  der  Archimedische 
+Satz  (Satz  17  in  §  13)  für  das  soeben  aufgestellte  Zahlensystem 
+Sl  (s,  t)  nicht. 
+
+Es  werde  noch  hervorgehoben,  dass  das  Zahlensystem  Sl  (s,  t) 
+—  ebenso  wie  die  in  §  9  und  §  12  benutzten  Zahlensysteme  Sl  und 
+Sl{t)  —  nur  eine  abzählbare  Menge  von  Zahlen  enthält. 
+
+§  34. 
+
+Beweis  der  beiden  Sätze  über  den  Pascalschen  Satz. 
+(Nicht-Pascalsche  Geometrie.) 
+
+Wenn  in  einer  räumlichen  Geometrie  die  sämtlichen  Axiome 
+I,  II,  III  erfüllt  sind,  so  gilt  auch  der  Desarguessche  Satz  (Satz  32) 
+und  mithin  ist  nach  Kapitel  V  §  24  bis  §  26  in  dieser  Geometrie 
+die  Einführung  einer  Streckenrechnung  möglich,  für  welche  die 
+Vorschriften  1 — 11,  13 — 16  in  §  13  gültig  sind.  Setzen  wir  nun 
+das  Archimedische  Axiom  V  in  unserer  Geometrie  voraus,  so  gilt 
+
+
+76  Kap.  VI.   Der  Pascalsclie  Satz.    §  34,  35. 
+
+offenbar  für  die  Streckenrechnung  der  Archimedische  Satz  (Satz  17 
+in  §  13)  und  mithin  nach  Satz  38  auch  das  commutative  Gesetz  der 
+Multiplikation.  Da  aber  die  hier  in  Rede  stehende  in  §  24  (Fig.  40) 
+eingeführte  Definition  des  Streckenproduktes  mit  der  in  §  15  (Fig.  21) 
+angewandten  Definition  übereinstimmt,  so  bedeutet  gemäss  der  in 
+§  15  ausgeführten  Construktion  das  commutative  Gesetz  der  Mul- 
+tiplikation zweier  Strecken  auch  hier  nichts  anderes  als  den  Pas- 
+calschen  Satz.     Damit   ist  die  Richtigkeit  des  Satzes  36  erkannt. 
+
+Um  den  Satz  37  zu  beweisen,  fassen  wir  das  in  §  33  aufge-
+
+stellte Desarguessche  Zahlensystem  £1  (s,  t)  ins  Auge  und  con- 
+struiren  mit  Hülfe  desselben  auf  die  in  §  29  beschriebene  Art  eine 
+räumliche  Geometrie ,  in  der  die  sämtlichen  Axiome  I,  II,  III  er- 
+füllt sind.  Trotzdem  gilt  der  Pascalsche  Satz  in  dieser  Geometrie 
+nicht,  da  das  commutative  Gesetz  der  Multiplikation  in  dem  De- 
+sarguesschen  Zahlensystem  61  (s,  t)  nicht  besteht.  Die  so  aufge- 
+baute „Nicht  -  Pascalsche"  Geometrie  ist  in  Uebereinstimmung  mit 
+dem  vorhin  bewiesenen  Satz  36  notwendig  zugleich  auch  eine 
+„  Nicht- Archimedische  "  Geom etrie. 
+
+Es  ist  offenbar,  dass  der  Pascalsche  Satz  sich  bei  unseren 
+Annahmen  auch  dann  nicht  beweisen  lässt,  wenn  man  die  räum- 
+liche Geometrie  als  einen  Teil  einer  Geometrie  von  beliebig  vielen 
+Dimensionen  auffasst,  in  welcher  neben  den  Punkten,  Geraden  und 
+Ebenen  noch  weitere  lineare  Elemente  vorhanden  sind  und  für 
+diese  ein  entsprechendes  System  von  Axiomen  der  Verknüpfung 
+und  Anordnung,  sowie  das  Parallelenaxiom  zu  Grunde  gelegt  wird. 
+
+§  35. 
+
+Beweis  eines  beliebigen  Schnittpunktsatzes  mittelst  des  Desarguesschen 
+und  des  Pascalschen  Satzes. 
+
+Ein  jeder  ebener  Schnittpunktsatz  hat  notwendig  diese  Form: 
+Man  wähle  zunächst  ein  System  von  Punkten  und  Geraden  will- 
+kürlich, bez.  mit  der  Bedingung,  dass  für  gewisse  von  diesen 
+Punkten  und  Geraden  die  vereinigte  Lage  vorgeschrieben  ist ; 
+wenn  man  dann  in  bekannter  Weise  Verbindungsgerade  und  Schnitt- 
+punkte construirt,  so  gelangt  man  schliesslich  zu  einem  bestimmten 
+System  von  drei  Geraden,  von  denen  der  Satz  aussagt,  dass  sie 
+durch  den  nämlichen  Punkt  hindurchlaufen. 
+
+Es  sei  nun  eine  ebene  Geometrie  vorgelegt,  in  der  sämtliche 
+Axiome  II — 2,  II— V  gültig  sind;  nach  Kap.  III  §17  können 
+wir  dann  vermittelst  eines  rechtwinkligen  Axenkreuzes  jedem 
+Punkte   ein    Zahlenpaar  (x,  y)   und  jeder   Geraden    ein  Verhältnis 
+
+
+Kap.  VI.    Der  Pascalsche  Satz.    §  35.  77 
+
+von  drei  Zahlen  (u  :  v  :  10)  entsprechen  lassen ;  hierbei  sind  x,  y, 
+u,  v,  w  jedenfalls  reelle  Zahlen,  von  denen  u,  v  nicht  beide  ver- 
+schwinden, und  die  Bedingung  für  die  vereinigte  Lage  von  Punkt 
+und  Geraden 
+
+ux  +  vy  +  w  =  0 
+
+bedeutet  eine  Gleichung  im  gewöhnlichen  Sinne.  Umgekehrt  dürfen 
+wir,  falls  x,  y,  it,  v,  w  Zahlen  des  in  §  9  construirten  algebraischen 
+Bereiches  £1  sind  und  u,  v  nicht  beide  verschwinden,  gewiss  annehmen, 
+dass  das  Zahlenpaar  (x,  y)  und  das  Zahlentripel  (u :  v  :  w)  einen 
+Punkt  bez.  eine  Gerade  in  der  vorgelegten  Geometrie  liefert. 
+
+Führen  wir  für  alle  Punkte  und  Geraden,  die  in  einem  be- 
+liebigen ebenen  Schnittpunktsatze  auftreten,  die  betreffenden 
+Zahlenpaare  und  Zahlentripel  ein,  so  wird  dieser  Schnittpunktsatz 
+aussagen,  dass  ein  bestimmter,  von  gewissen  Parametern  pv  . . . ,  pr 
+rational  abhängiger  Ausdruck  A  (pv  . . . ,  pr)  mit  reellen  Coeffi- 
+cienten  stets  verschwindet,  sobald  wir  für  jene  Parameter  irgend 
+welche  Zahlen  des  in  §  9  betrachteten  Bereiches  Sl  einsetzen.  Wir 
+schliessen  hieraus,  dass  der  Ausdruck  A(pt,  . . .  ,pr)  auch  identisch 
+auf  Grund  der  Rechnungsgesetze  7  —  12  in  §  13  verschwinden  muss. 
+
+Da  in  der  vorgelegten  Geometrie  nach  §  22  der  Desarguessche 
+Satz  gilt,  so  können  wir  gewiss  auch  die  in  §  24  eingeführte 
+Streckenrechnung  benutzen,  und  wegen  der  Gültigkeit  des  Pascal- 
+schen  Satzes  trifft  für  diese  Streckenrechnung  auch  das  commu- 
+tative  Gesetz  der  Multiplikation  zu,  sodass  in  dieser  Strecken- 
+rechnung sämtliche  Rechnungsgesetze  7 — 12  in  §  13  gültig  sind. 
+
+Indem  wir  die  Axen  des  bisher  benutzten  Axenkreuzes  auch 
+als  Axen  dieser  neuen  Streckenrechnung  gewählt  und  die  Einheits- 
+punkte E  und  E'  geeignet  festgesetzt  denken,  erkennen  wir  die 
+Uebereinstimmung  der  neuen  Streckenrechnung  mit  der  früheren 
+Coordinatenrechnung. 
+
+Um  in  der  neuen  Streckenrechnung  das  identische  Verschwinden 
+des  Ausdruckes  A  (pv  . . .  ,pr)  nachzuweisen,  genügt  die  Anwendung 
+des  Desarguesschen  und  Pascalschen  Satzes  und  damit  erkennen
+
+wir,  dass  jeder  in  der  vorgelegten  Geometrie  geltende 
+Schnittpunktsatz  durch  Konstruktion  geeigneter  Hülfs- 
+punkte  und  Hülfsgeraden  sich  stets  als  eine  Kombi- 
+nation des  Desarguesschen  und  Pascalschen  Satzes 
+herausstellen  muss.  Zum  Nachweise  der  Richtigkeit  des 
+Schnittpunktsatzes  brauchen  wir  also  nicht  auf  die  Congruenz- 
+sätze  zurückzugreifen. 
+
+
+78   Kap.  VII.    Die  geometrischen  Konstruktionen  auf  Grund  der  Axiome  I — V.  §  36. 
+
+Kapitel  VII. 
+
+Die  geometrischen  Konstruktionen  auf  Grund  der  Axiome  I — V. 
+
+§  36. 
+
+Die  geometrischen  Konstruktionen  mittelst  Lineals  und 
+Streckenübertragers. 
+
+Es  sei  eine  räumliche  Geometrie  vorgelegt ,  in  der  die  sämt- 
+lichen Axiome  I— V  gelten;  wir  fassen  der  Einfachheit  wegen 
+in  diesem  Kapitel  eine  ebene  Geometrie  ins  Auge,  die  in  dieser 
+räumlichen  Greometrie  enthalten  ist ,  und  untersuchen  dann  die 
+Frage,  welche  elementaren  Konstruktionsaufgaben  in  einer  solchen 
+Greometrie  notwendig  ausführbar  sind. 
+
+Auf  Grund  der  Axiome  I  ist  die  Ausführung  der  folgenden 
+Aufgabe  stets  möglich : 
+
+Aufgabe  1.  Zwei  Punkte  durch  eine  Gerade  zu  verbinden 
+und  den  Schnittpunkt  zweier  Geraden  zu  finden ,  falls  die  Ge- 
+raden nicht  parallel  sind. 
+
+Das  Axiom  III  ermöglicht  die  Ausführung  der  folgenden 
+Aufgabe : 
+
+Aufgabe  2.  Durch  einen  gegebenen  Punkt  zu  einer  Geraden 
+eine  Parallele  zu  ziehen. 
+
+Auf  Grund  der  Congruenzaxiome  IV  ist  das  Abtragen  von 
+Strecken  und  Winkeln  möglich,  d.  h.  es  lassen  sich  in  der  vor- 
+gelegten Geometrie  folgende  Aufgaben  lösen: 
+
+A  u  f  g  a  b  e  3.  Eine  gegebene  Strecke  auf  einer  gegebenen 
+Geraden  von  einem  Punkte  aus  abzutragen. 
+
+Aufgabe  4.  Einen  gegebenen  Winkel  an  eine  gegebene 
+Gerade  anzutragen  oder  eine  Gerade  zu  konstruiren,  die  eine  ge- 
+gebene Gerade  unter  einem  gegebenen  Winkel  schneidet. 
+
+Auf  Grund  der  Axiome  der  Gruppen  II  und  V  werden  keine 
+neuen  Aufgaben  lösbar;  wir  sehen  somit,  dass  unter  ausschliess- 
+licher Benutzung  der  Axiome  I— V  alle  und  nur  diejenigen  Kon- 
+struktionsaufgaben lösbar  sind,  die  sich  auf  die  eben  genannten 
+Aufgaben  1 — 4  zurückführen  lassen. 
+
+Wir  fügen  den  fundamentalen  Aufgaben  1 — 4  noch  die  fol- 
+gende hinzu: 
+
+Aufgabe  5.  Zu  einer  gegebenen  Geraden  eine  Senkrechte 
+zu  ziehen. 
+
+
+Kap.  VII.   Die  geometrischen  Konstruktionen  auf  Grund  der  Axiome  I— V.  §  3G.    79 
+
+
+Wir  erkennen  unmittelbar,  dass  diese  Aufgabe  5  auf  ver- 
+schiedene Arten  durch  die  Aufgaben  1—4  gelöst  werden  kann. 
+
+Zur  Ausführung  der  Aufgabe  1  bedürfen  wir  des  Lineals. 
+Ein  Instrument ,  welches  zur  Ausführung  der  Aufgabe  3  dient 
+d.  h.  das  Abtragen  einer  Strecke  auf  einer  gegebenen  Geraden 
+ermöglicht ,  nennen  wir  einen  Streckenübertrager.  "Wir 
+wollen  nunmehr  zeigen,  dass  die  Aufgaben  2,  4  und  5  auf  die 
+Lösung  der  Aufgaben  1  und  3  zurückgeführt  werden  können,  und 
+mithin  die  sämtlichen  Aufgaben  1—5  lediglich  mittelst  Lineals 
+und  Streckenübertragers  lösbar  sind.  Wir  finden  damit  folgendes 
+Resultat : 
+
+Satz  40.  Diejenigen  geometrischen  Konstruläionsaufgaben ,  die 
+unter  ausschliesslicher  Benutzung  der  Axiome  I — V  lösbar  sind, 
+lassen  sich  notwendig  mittelst  Lineals  und  Streckenübertragers  aus- 
+führen. 
+
+Beweis.  Um  die  Aufgabe  2  auf  die 
+Aufgaben  1  und  3  zurückzuführen,  ver- 
+binden wir  den  gegebenen  Punkt  P  mit 
+irgend  einem  Punkte  A  der  gegebenen 
+Geraden  und  verlängern  PA  über  A 
+hinaus  um  sich  selbst  bis  C.  Sodann 
+verbinden  wir  C  mit  irgend  einem  an- 
+dern Punkte  B  der  gegebenen  Geraden 
+und  verlängern  CB  über  B  hinaus  um 
+sich  selbst  bis    Q ;    die    Gerade    PQ   ist   die  gesuchte  Parallele. 
+
+Die  Aufgabe  5  lösen  wir  auf  folgende  Weise.  Es  sei  A  ein 
+beliebiger  Punkt  der  gegebenen  Geraden;  dann  tragen  wir  von  A 
+aus  auf  dieser  Geraden  nach  beiden  Seiten  hin  zwei  gleiche  Strecken 
+AB  und  AG  ab  und  bestimmen   dann  auf  zwei  beliebigen  anderen 
+
+
+Fig.  48. 
+
+
+80  Kap.  VII.  Die  geometrischen  Konstruktionen  auf  Grund  der  Axiome  I— V.  §36,37.
+
+durch  A  gehenden  Geraden  die  Punkte  E  und  D,  so  dass  auch  die 
+Strecken  AD  und  AE  den  Strecken  AB  und  AC  gleich  werden. 
+Die  Geraden  BD  und  CE  mögen  sich  in  F,  die  Geraden  BE  und 
+CD  in  E  schneiden :  dann  ist  FH  die  gesuchte  Senkrechte.  In 
+der  That:  die  Winkel  jCBDC  und  ^BEC  sind  als  Winkel  im 
+Halbkreise  über  BC  Rechte  und  daher  steht  nach  dem  Satze  vom 
+Höhenschnittpunkt  eines  Dreieckes ,  auf  das  Dreieck  BCF  ange- 
+wandt, auch  FH  auf  BC  senkrecht. 
+
+Wir  können  nunmehr  leicht  auch  die  Aufgabe  4  allein  mittelst 
+Ziehens  von  Geraden  und  Abtragens  von  Strecken  lösen;  wir 
+schlagen  etwa  folgendes  Verfahren  ein,  welches  nur  das  Ziehen 
+von  Parallelen  und  Fällen  von  Loten  erfordert.  Es  sei  ß  der 
+abzutragende  Winkel   und  A    der    Scheitel    dieses    Winkels.     Wir 
+
+ziehen  die  Gerade  l  durch  A 
+parallel  zu  der  gegebenen  Ge- 
+raden, an  welche  der  gegebene 
+Winkel  ß  angetragen  werden 
+soll.  Von  einem  beliebigen 
+Punkte  B  eines  Schenkels  von 
+ß  fällen  wir  Lote  auf  den  an- 
+deren Schenkel  des  Winkels  ß 
+und  auf  l.  Die  Fusspunkte  die- 
+ser Lote  seien  D  und  C.  Das 
+Fällen  von  Loten  geschieht  ver- 
+möge der  Aufgaben  2  und  5. 
+Sodann  fällen  wir  von  A  eine  Senkrechte  auf  CD,  ihr  Fusspunkt 
+sei  E.  Nach  dem  in  §  14  ausgeführten  Beweise  ist  jC  CAE  =  ß ; 
+die  Aufgabe  4  ist  somit  ebenfalls  auf  die  Aufgaben  1  und  3  zu- 
+rückgeführt und  damit  der  Satz  40  vollständig  bewiesen. 
+
+
+Fig.  50. 
+
+
+§  37. 
+Analytische  Darstellung  der  Coordinaten  konstruirbarer  Punkte. 
+
+Ausser  den  in  §  36  behandelten  elementargeometrischen  Auf- 
+gaben giebt  es  noch  eine  grosse  Reihe  weiterer  Aufgaben,  zu 
+deren  Lösung  man  lediglich  das  Ziehen  von  Geraden  und  das  Ab- 
+tragen von  Strecken  nötig  hat.  Um  den  Bereich  aller  auf  diese 
+Weise  lösbaren  Aufgaben  überblicken  zu  können,  legen  wir  bei 
+der  weiteren  Betrachtung  ein  rechtwinkliges  Coordinatensystem 
+zu  Grunde  und  denken  uns  die  Coordinaten  der  Punkte  in  der 
+üblichen  Weise   als    reelle  Zahlen    oder  Funktionen   von   gewissen 
+
+
+Kap.  VII.  Die  geometrischen  Konstruktionen  auf  Grund  der  Axiome  I — V.  §  37.     81 
+
+willkürlichen  Parametern.  Um  die  Frage  nach  der  Gesamtheit 
+aller  konstruirbaren  Punkte  zu  beantworten,  stellen  wir  folgende 
+Betrachtung  an: 
+
+Es  sei  ein  System  von  bestimmten  Punkten  gegeben;  wir 
+setzen  aus  den  Coordinaten  dieser  Punkte  einen  Bereich  E  zu- 
+sammen; derselbe  enthält  gewisse  reelle  Zahlen  und  gewisse 
+willkürliche  Parameter  p.  Nunmehr  denken  wir  uns  die  Gesamt- 
+heit aller  derjenigen  Punkte ,  die  durch  Ziehen  von  Geraden  und 
+Abtragen  von  Strecken  aus  dem  vorgelegten  System  von  Punkten 
+konstruirbar  sind.  Der  Bereich,  der  von  den  Coordinaten  dieser 
+Punkte  gebildet  wird,  heisse  ß(-R);  derselbe  enthält  gewisse  reelle 
+Zahlen  und  Funktionen  der  willkürlichen  Parameter  p. 
+
+Unsere  Betrachtungen  in  §  17  zeigen ,  dass  das  Ziehen  von 
+Geraden  und  Parallelen  analytisch  auf  die  Anwendung  der  Addition, 
+Multiplikation ,  Subtraktion ,  Division  von  Strecken  hinausläuft ; 
+ferner  lehrt  die  bekannte  in  §  9  aufgestellte  Formel  für  die  Dre- 
+hung, dass  das  Abtragen  von  Strecken  auf  einer  beliebigen  Ge- 
+raden keine  andere  analytische  Operation  erfordert,  als  die  Qua- 
+dratwurzel zu  ziehen  aus  einer  Summe  von  zwei  Quadraten,  deren 
+Basen  man  bereits  konstruirt  hat.  Umgekehrt  kann  man  zufolge 
+des  Pythagoräischen  Lehrsatzes  vermöge  eines  rechtwinkligen 
+Dreiecks  die  Quadratwurzel  aus  der  Summe  zweier  Strecken- 
+quadrate durch  Abtragen  von  Strecken  stets  konstruiren. 
+
+Aus  diesen  Betrachtungen  geht  hervor,  dass  der  Bereich  £1  (B,) 
+alle  diejenigen  und  nur  solche  reellen  Zahlen  und  Funktionen  der 
+Parameter  p  enthält,  die  aus  den  Zahlen  und  Parametern  in  R 
+vermöge  einer  endlichen  Anzahl  von  Anwendungen  von  fünf  Reck- 
+nungsoperationen ,  nämlich  der  vier  elementaren  Rechnungsopera- 
+tionen hervorgehen,  wenn  man  noch  das  Ziehen  der  Quadratwurzel 
+aus  einer  Summe  zweier  Quadrate  als  fünfte  Rechnungsoperation
+
+zulässt.     Wir  sprechen  dieses  Resultat  wie  folgt  aus : 
+
+Satz  41.  Eine  geometrische  Konstruktionsaufgabe  ist  dann 
+und  nur  dann  durch  Ziehen  von  Geraden  und  Abtragen  von  Strecken, 
+d.  h.  mittels  Lineals  und  Streckenübertragers  lösbar,  wenn  bei 
+der  analytischen  Behandlung  der  Aufgabe  die  Coordinaten  der 
+gesuchten  Punkte  solche  Funktionen  der  Coordinaten  der  ge- 
+gebenen Punkte  sind,  deren  Herstellung  nur  rationale  Operationen 
+und  die  Operation  des  Ziehens  der  Quadratwurzel  aus  der  Summe 
+zweier  Quadrate  erfordert. 
+
+Wir  können  aus  diesem  Satze  sofort  erkennen,  dass  nicht 
+jede  mittelst  Zirkels  lösbare  Aufgabe  auch  allein  mittelst  Lineals 
+und  Streckenübertragers    gelöst    werden  kann.    Zu  dem  Zwecke 
+
+Hubert,   Grundlagen  der  Geometrie.  6 
+
+
+82  Kap.  VII.  Die  geometrischen  Konstruktionen  auf  Grund  der  Axiome  I— V.  §37,38. 
+
+legen  wir  diejenige  Geometrie  zu  Grunde ,  die  in  §  9  mit  Hilfe 
+des  algebraischen  Zahlenbereichs  Sl  aufgebaut  worden  ist ;  in 
+dieser  Geometrie  giebt  es  lediglich  solche  Strecken,  die  mittelst 
+Lineals  und  Streckenübertragers  konstruirbar  sind,  nämlich  die 
+durch  Zahlen  des  Bereichs  Si  bestimmten  Strecken. 
+
+Ist  nun  co  irgend  eine  Zahl  in  Si,  so  erkennen  wir  aus  der 
+Definition  des  Bereichs  Sl  leicht ,  dass  auch  jede  zu  co  conjugirte 
+algebraische  Zahl  in  Sl  liegen  muss ,  und  da  die  Zahlen  des  Be- 
+reichs Sl  offenbar  sämtlich  reell  sind ,  so  folgt  hieraus ,  dass  der 
+Bereich  5i  nur  solche  reelle  algebraische  Zahlen  enthalten  kann, 
+deren  Conjugirte  ebenfalls  reell  sind. 
+
+Wir  stellen  jetzt  die  Aufgabe,  ein  rechtwinkliges  Dreieck 
+mit  der  Hypotenuse  1  und  einer  Kathete  |  \/2  |  —  1  zu  konstruiren. 
+
+Nun  kommt  die  algebraische  Zahl  y  2 1  \J2  \  —  2 ,  die  den  Zahlen- 
+wert der  anderen  Kathete  ausdrückt ,  im  Zahlenbereich  Sl  nicht 
+vor,  da  die  zu  ihr  konjugirte  Zahl  y  —  2|\/2|  —  2  imaginär  aasfällt. 
+
+Die  gestellte  Aufgabe  ist  mithin  in  der  zu  Grunde  gelegten  Geo- 
+metrie nicht  lösbar,  und  kann  daher  überhaupt  nicht  mittelst 
+Lineals  und  Streckenübertragers  lösbar  sein,  obwohl  die  Kon- 
+struktion mittelst  des  Zirkels  sofort  ausführbar  ist. 
+
+
+§38. 
+
+Die  Darstellung  algebraischer  Zahlen  und  ganzer  rationaler  Funktionen 
+als  Summe  von  Quadraten. 
+
+Die  Frage  nach  der  Ausführbarkeit  geometrischer  Konstruk- 
+tionen mittelst  Lineals  und  Streckenübertragers  erfordert  zu 
+ihrer  weiteren  Behandlung  einige  Sätze  zahlentheoretischen  und 
+algebraischen  Charakters,  die,  wie  mir  scheint,  auch  an  sich  von 
+Interesse  sind. 
+
+Nach  Fermat  ist  bekanntlich  jede  ganze  rationale  positive 
+Zahl  als  Summe  von  vier  Quadratzahlen  darstellbar.  Dieser 
+Fermatsche  Satz  gestattet  eine  merkwürdige  Verallgemeinerung 
+von  folgender  Art: 
+
+Definition.  Es  sei  k  ein  beliebiger  Zahlkörper ;  der  Grad 
+dieses  Körpers  k  heisse  m,  und  die  m  —  1  zu  k  konjugirten  Zahl- 
+körper mögen  mit  k',  k",  . . . ,  k'm~v  bezeichnet  werden.  Trifft  es 
+sich,  dass  unter  den  m  Körpern  k,  k ',.;.,'  klm~iy  einer  oder  mehrere 
+aus   lauter    reellen   Zahlen    gebildet    sind,    so    nennen   wir    diese 
+
+
+Kap.  VII.  Die  geometrischen  Konstruktionen  auf  Grund  der  Axiome  I— V.  §  38.    83 
+
+Körper  selbst  reell ;  es  seien  diese  Körper  etwa  Je,  Je1,  . . .  7c"-1'. 
+Eine  Zahl  a  des  Körpers  Je  heisst  in  diesem  Falle  total  positiv 
+in  Je,  falls  die  s  zu  a  konjugirten  bez.  in  Je,  Je', ... ,  Jeu~v  gelegenen 
+Zahlen  sämtlich  positiv  sind.  Kommen  dagegen  in  jedem  der 
+m  Körper  Je,  Je',  . .  . ,  ¥m~l)  auch  imaginäre  Zahlen  vor ,  so  heisst 
+eine  jede  Zahl  a  in  Je  stets  total  positiv. 
+
+Satz  42.  Jede  total  positive  Zalü  in  Je  lässt  sicli  als  Summe 
+von  vier  Quadraten  darstellen,  deren  Basen  ganze  oder  gebrocJiene 
+ZaJblen  des  Körpers  Je  sind. 
+
+Der  Beweis  dieses  Satzes  bietet  erhebliche  Schwierigkeiten 
+dar ;  er  beruht  wesentlich  auf  der  Theorie  der  relativquadratischen 
+Zahlkörper ,  die  ich  unlängst  in  mehreren  Arbeiten *)  entwickelt 
+habe.  Es  sei  hier  nur  auf  denjenigen  Satz  aus  dieser  Theorie
+
+hingewiesen,  der  die  Bedingungen  für  die  Lösbarkeit  einer  ternären 
+Diophan tischen  Gleichung  von  der  Gestalt 
+
+a¥  +  ßr?  +  y?  =  0 
+
+angiebt ,  worin  die  Coefficienten  a,  ß,  y  gegebene  Zahlen  in  Je  und 
+|,  rj,  £  gesuchte  Zahlen  in  Je  bedeuten.  Der  Beweis  des  Satzes  42 
+wird  durch  wiederholte  Anwendung  des  eben  genannten  Satzes 
+erbracht. 
+
+Aus  dem  Satze  42  folgen  eine  Reihe  von  Sätzen  über  die 
+Darstellung  solcher  rationaler  Funktionen  einer  Veränderlichen 
+mit  rationalen  Coefficienten ,  die  niemals  negative  Werte  haben ; 
+ich  hebe  nur  den  folgenden  Satz  hervor,  der  uns  im  nächsten 
+Paragraphen  von  Nutzen  sein  wird. 
+
+Satz  43.  Es  bedeute  fix)  eine  solche  ganze  rationale  Funktion 
+von  x  mit  rationalen  Zahlencoefficienten ,  die  niemals  negative 
+Werte  annimmt,  wenn  man  für  x  beliebige  reelle  Werte  einsetzt : 
+dann  lässt  sich  f{x)  stets  als  Quotient  zweier  Summen  von  Qua- 
+draten darstellen,  so  dass  die  sämtlichen  Basen  dieser  Quadrate 
+ganze  rationale  Funktionen  von  x  mit  rationalen  Coefficienten  sind. 
+
+Beweis.  Den  Grad  der  vorgelegten  Funktion  f(x)  wollen  wir 
+mit  m  bezeichnen ;  offenbar  muss  derselbe  jedenfalls  gerade  sein. 
+Für  den  Fall  m  =  0,  d.  h.  wenn  f(x)  eine  rationale  Zahl  ist, 
+folgt  die  Richtigkeit  des  Satzes  43  unmittelbar  aus  dem  Fermat- 
+schen  Satze  von  der  Darstellung  einer  positiven  Zahl  als  Summe 
+von    vier   Quadratzahlen.      Wir    nehmen    nun    an,    der    Satz    sei 
+
+
+1)  Ueber  die  Theorie  der  relativquadratischen  Zahlkörper,  Jahresber.  d. 
+Deutschen  Math. -Vereinigung  Bd.  6,  1899  und  Math.  Ann.  Bd.  51;  ferner:  Ueber 
+die  Theorie  der  relativ -Abelschen  Zahlkörper,  Nachr.  d.  K.  Ges.  d.  Wiss.  zu 
+Göttingen  1898. 
+
+
+84  Kap.  VII.    Die  geometrischen  Konstruktionen  auf  Grund  der  Axiome  I — V.  §  38. 
+
+bereits  für  die  Funktionen  vom  Grade  2,  4,  6,  ... ,  m  —  2  bewiesen, 
+und  zeigen  dann  seine  Richtigkeit  für  den  vorliegenden  Fall  einer 
+Funktion  mt6n  Grades  auf  folgende  Weise. 
+
+Zunächst  behandeln  wir  kurz  die  Annahme,  dass  f(x)  in  das 
+Produkt  von  zwei  oder  mehreren  ganzen  Funktionen  von  x  mit 
+rationalen  Coefficienten  zerfällt.  Ist  p  (x)  eine  solche  in  f{x)  auf- 
+gehende Funktion,  die  selbst  nicht  mehr  in  ein  Produkt  von  ganzen 
+Funktionen  mit  rationalen  Coefficienten  zerlegt  werden  kann,  so 
+folgt  aus  dem  vorausgesetzten  definiten  Charakter  der  Funktion 
+fix)  leicht,  dass  der  Faktor  p(x)  entweder  in  f{x)  zu  einer  geraden 
+Potenz  erhoben  vorkommen  muss  oder  dass  p(x)  selbst  definit, 
+d.  h.  eine  solche  Funktion  ist,    die   für   reelle  Werthe  von  x  nie- 
+
+f(x) 
+mals  negativ  ausfällt.    Im  ersteren  Falle  ist  der  Quotient  -,     )  . , . , 
+
+°  \p  (x)r 
+
+f(x) 
+im  letzteren  Falle  sind  sowohl  p(x)  als  auch  ■  \  {  wiederum  defi- 
+
+v  '  p(x) 
+
+nite  Funktionen  und  diese  Funktionen  besitzen  einen  geraden 
+Grad  <  m.     Zufolge    unserer    Annahme    sind    daher    im    ersteren 
+
+Falle   ,     ;  L  9  ,  im  letzteren  Falle   sowohl  p  (x)   wie    auch  -^~-  als 
+\p(x)}2  P{%) 
+
+Quotienten  von  Quadratsummen  von  der  im  Satze  43  angegebenen 
+
+Art  darstellbar,   und   daher  gestattet  notwendig  in  beiden  Fällen 
+
+auch  die. Funktion  f(x)  die  verlangte  Darstellung. 
+
+Wir  behandeln  nunmehr  die  Annahme,    dass  f(x)  nicht  in  das 
+
+Produkt  von  zwei  ganzen  Funktionen  mit   rationalen  Coefficienten 
+
+zerlegt  werden  kann.     Die  Gleichung  ffö)  =  0  definirt  dann  einen 
+
+algebraischen  Zahlkörper  ]c(&)  vom  m-ten  Grade,  der  nebst  seinen 
+
+sämtlichen  conjugirten  Körpern  imaginär  ausfällt.     Da  somit  nach 
+
+der  Definition,  die  wir  dem  Satze  42  vorangestellt  haben,  jede  in 
+
+li  {%)  gelegene  Zahl,  also  auch  insbesondere  die  Zahl  —  1  total  positiv 
+
+in   li{&)  ist,    so    giebt    es   nach   diesem   Satz  42    eine  Darstellung 
+
+der   Zahl  —1    als   Summe    von   4  Quadraten    gewisser   Zahlen    in 
+
+li  (%)  ;  es  sei 
+
+(1)  -1  =  cc2  +  ß2+y2+d\ 
+
+wobei  a,  ß,  y,  d  ganze  oder  gebrochene  Zahlen  in  &(#)  sind.  Wir 
+setzen 
+
+«  =  a, -fr-1 +  a2ä'~-8 +■■•  +  «„  =  9(d),
+
+ß    =    b^+b^+.-.  +  bn    =     ],(»), 
+
+
+Kap.  VII.  Die  geometrischen  Konstruktionen  auf  Grund  der  Axiome  I— V.  §38,39.   85 
+
+hierin  bedeuten  av  a2,  . .  . ,  am, . .  . ,  dv  ä2, ...,  dm   rationale  Zahlen- 
+
+coefficienten   und   <p(&),  *K#),  %(&),  (>(#)    die  betreffenden   ganzen 
+
+rationalen  Funktionen  vom  im  —  l)-ten  Grade  in  &. 
+Wegen  (1)  ist 
+
+i  +  {9)^)j2+^(^i2+UWi2+!?(^i2  =  o, 
+
+und  mit  Rücksicht  auf  die  Irreducibilität  der  Gleichung  f{x)  =  0 
+stellt  daher  der  Ausdruck 
+
+f{x)  =  i+^(^)!2+^^)i2+jx(^r+^^)i2 
+
+notwendig    eine    solche   ganze    rationale  Funktion  von  x  dar,    die 
+
+durch  f(x)  teilbar   ist.      F(x)   ist   offenbar    eine    definite  Funktion 
+
+vom  (2m  — 2)-ten    oder   von    niederem  Grade  und   daher  wird   der 
+
+Fix) 
+Quotient  ■   eine   definite  Funktion   vom   (m  —  2)-ten    oder   von 
+
+f(x) 
+
+niederem  Grade   in  x  mit    rationalen  Coefficienten.      Infolgedessen 
+
+Fix) 
+lässt   sich   im  Hinblick    auf  unsere  Annahme    ,.,  .      als    Quotient 
+
+fix) 
+
+zweier  Summen  von  Quadraten  von  der  im  Satze  43  angegebenen 
+Art  darstellen,  und  da  F(x)  selbst  eine  solche  Summe  von  Qua- 
+draten ist,  so  folgt,  dass  auch  f(x)  ein  Quotient  zweier  Summen 
+von  Quadraten  von  der  im  Satze  43  angegebenen  Art  sein  muss. 
+Damit  ist  der  Beweis  des  Satzes  43  vollständig  erbracht. 
+
+Es  dürfte  sehr  schwierig  sein,  die  entsprechenden  Thatsachen 
+für  ganze  rationale  Funktionen  von  zwei  oder  mehr  Veränder- 
+lichen aufzustellen  und  zu  beweisen,  doch  sei  hier  darauf  hinge- 
+wiesen, dass  die  Darstellbarkeit  einer  beliebigen  definiten  ganzen 
+rationalen  Funktion  zweier  Veränderlicher  als  Quotient  von  Qua- 
+dratsummen ganzer  Funktionen  auf  einem  völlig  anderen  Wege 
+von  mir  bewiesen  worden  ist  —  unter  der  Voraussetzung,  dass 
+für  die  darstellenden  Funktionen  nicht  blos  rationale,  sondern 
+beliebige  reelle  Coefficienten  zulässig  sind1). 
+
+§  39. 
+
+Kriterium  für  die  Ausführbarkeit  geometrischer  Konstruktionen 
+mittelst  Lineals  und  Streckenübertragers. 
+
+Es  sei  eine  geometrische  Konstruktionsaufgabe  vorgelegt,  die 
+mittelst  des  Zirkels  ausführbar  ist;  wir  wollen  dann  ein  Krite- 
+rium  aufzustellen  versuchen,    welches  unmittelbar  aus  der  analy- 
+
+
+1)  Ueber  ternäre  definite  Formen,  Acta  Mathematica  Bd.  17. 
+
+
+86   Kap.  VII.   Die  geometrischen  Konstruktionen  auf  Grund  der  Axiome  I— V.   §  39. 
+
+tischen  Natur  der  Aufgabe  und  ihrer  Lösungen  beurteilen  lässt, 
+ob  die  Konstruktion  auch  allein  mittelst  Lineals  und  Strecken- 
+übertragers ausführbar  ist.  Wir  werden  bei  dieser  Untersuchung 
+auf  den  folgenden  Satz  geführt: 
+
+Satz  44.  Es  sei  eine  geometrische  Konstruktionsaufgabe  vor- 
+gelegt von  der  Art,  dass  man  bei  analytischer  Behandlung  derselben 
+die  Coordinaten  der  gesuchten  Punkte  aus  den  Coordinaten  der  ge- 
+gebenen Punkte  lediglich  durch  rationale  Operationen  und  durch  Ziehen 
+von  Quadratwurzeln  finden  kann]  es  sei  n  die  kleinste  Anzahl  der 
+Quadratwurzeln ,  die  hierbei  zur  Berechnung  der  Coordinaten  der 
+Punkte  ausreichen:  soll  dann  die  vorgelegte  Konstruktionsaufgabe  sich 
+auch  allein  durch  Ziehen  von  Geraden  und  Abtragen  von  Strecken 
+ausführen  lassen ,  so  ist  dafür  notwendig  und  hinreichend ,  dass  die 
+geometrische  Aufgabe  genau  2n  reelle  Lösungen  besitzt  und  zwar  für 
+alle  Lagen  der  gegebenen  Punkte ,  d.  h.  für  alle  Werte  der  in  den 
+Coordinaten  der  gegebenen  Punkte  auftretenden  willkürlichen  Parameter. 
+
+Beweis.  Wir  beweisen  diesen  Satz  44  ausschliesslich  für  den 
+Fall,  dass  die  Coordinaten  der  gegebenen  Punkte  rationale  Funk- 
+tionen eines  Parameters  p  mit  rationalen  Coefficienten  sind. 
+
+Die  Notwendigkeit  des  aufgestellten  Kriteriums  leuchtet  ein. 
+Um  zu  zeigen,  dass  dasselbe  auch  hinreicht,  setzen  wir  dieses 
+Kriterium  als  erfüllt  voraus  und  betrachten  zunächst  eine  solche 
+von  jenen  n  Quadratwurzeln ,  die  bei  der  Berechnung  der  Coor- 
+dinaten der  gesuchten  Punkte  zuerst  zu  ziehen  ist.  Der  Aus- 
+druck unter  dieser  Quadratwurzel  ist  eine  rationale  Funktion 
+f\  (p)  des  Parameters  p  mit  rationalen  Coefficienten ;  diese  ra-
+
+tionale Funktion  darf  für  beliebige  reelle  Parameterwerte  p  nie- 
+mals negative  Werte  annehmen,  da  sonst  entgegen  der  Vor- 
+aussetzung die  vorgelegte  Aufgabe  für  gewisse  Werte  p  imagi- 
+näre Lösungen  haben  müsste.  Aus  Satz  43  schliessen  wir  daher, 
+dass  f%  (p)  als  Quotient  von  Summen  von  Quadraten  ganzer  ratio- 
+naler Funktionen  darstellbar  ist. 
+
+Nunmehr  zeigen  die  Formeln 
+
+\Ja2  +  V  +  c2  =  \/{\l'oF+b2)2  +  c\, 
+\Ja2+b2+c2+W  =  ^(\Ja'  +  b*+c*y+d*, 
+
+
+dass    allgemein  das  Ziehen   der   Quadratwurzel   aus    einer  Summe 
+von  beliebig  vielen  Quadraten    sich    stets   zurückführen   lässt  auf 
+
+
+Kap.  VII.  Die  geometrischen  Konstruktionen  auf  Grund  der  Axiome  I— V.  §  39.     87 
+
+wiederholtes  Ziehen  der  Quadratwurzel  aus  der  Summe  zweier 
+Quadrate. 
+
+Nehmen  wir  diese  Bemerkung  mit  dem  vorigen  Ergebnisse 
+zusammen,  so  erkennen  wir,  dass  der  Ausdruck  \Jf\  (p)  gewiss  mit- 
+telst Lineals  und  Streckenübertragers  construirt  werden  kann. 
+
+Wir  betrachten  ferner  eine  solche  von  den  n  Quadratwurzeln, 
+die  bei  der  Berechnung  der  Coordinaten  der  gesuchten  Punkte 
+an  zweiter  Stelle  zu  ziehen  ist.  Der  Ausdruck  unter  dieser 
+Quadratwurzel  ist  eine  rationale  Funktion  f\  (p,  \//j )  des  Para- 
+meters p  und  der  zuerst  betrachteten  Quadratwurzel ;  auch  diese 
+Funktion  f2  ist  bei  beliebigen  reellen  Parameterwerten  p  und  für 
+jedes  Vorzeichen  von  y//'1  niemals  negativer  Werte  fähig,  da  sonst 
+entgegen  der  Voraussetzung  die  vorgelegte  Aufgabe  unter  ihren 
+2"  Lösungen  für  gewisse  Werte  p  auch  imaginäre  Lösungen  haben 
+müsste.  Aus  diesem  Umstände  folgt,  dass  f2  einer  quadratischen 
+Gleichung  von  der  Gestalt 
+
+ft-vMfi+Mp)  =  o 
+
+genügen  muss ,  worin  <jPj  (p)  und  i\,\  {p)  notwendig  solche  rationale 
+Funktionen  von  p  mit  rationalen  Coefficienten  sind,  die  für  reelle 
+Werte  von  p  niemals  negative  Werte  besitzen.  Aus  der  letzteren 
+quadratischen  Gleichung  entnehmen  wir 
+
+h         '    9>,(20       ' 
+
+Nun  müssen  wiederum  nach  Satz  43  die  Funktionen  q>x{p)  und 
+il>l  (p)  Quotienten  von  Summen  von  Quadraten  rationaler  Funk- 
+tionen sein  und  andererseits  ist  nach  dem  Vorigen  der  Ausdruck 
+f2  mittelst  Lineals  und  Streckenübertragers  construirbar ;  der 
+gefundene  Ausdruck  für  f2  zeigt  somit ,  dass  f2  ein  Quotient  von 
+Summen  von  Quadraten  construirbarer  Funktionen  ist.  Also  lägst 
+sich  auch  der  Ausdruck  \//2  mittelst  Lineals  und  Streckenübertra- 
+gers construiren. 
+
+Ebenso  wie  der  Ausdruck  f2  erweist  sich  auch  jede  andere 
+rationale  Funktion  <p2(#,  vV"i)  von  P  un^  \/fi  a^s  Quotient  zweier 
+Summen  von  Quadraten  construirbarer  Funktionen,  sobald  diese 
+rationale  Funktion  cp2  die  Eigenschaft  besitzt ,  niemals  negative 
+Werte  anzunehmen  bei  reellem  Parameter  p  und  für  beiderlei 
+Vorzeichen  von  \ff[. 
+
+Diese  Bemerkung  gestattet  uns,  das  eben  begonnene  Schluss- 
+verfahren in  folgender  Weise  fortzusetzen. 
+
+Es  sei/3(jp,  y'/j,  \/f2)   ein  solcher  Ausdruck,   der  von  den  drei 
+
+
+88    Kap.  VII.  Die  geometrischen  Konstruktionen  auf  Grund  der  Axiome  I— V.  §  39. 
+
+Argumenten  p,  \ff\,  \f2  in  rationaler  "Weise  abhängt  und  aus  dem 
+bei  der  analytischen  Berechnung  der  Coordinaten  der  gesuchten 
+Punkte  an  dritter  Stelle  die  Quadratwurzel  zu  ziehen  ist. 
+Wie  vorhin  schliessen  wir,  dass  f3  bei  beliebigen  reellen  Werten 
+p  und  für  beiderlei  Vorzeichen  von  \Jf\  und  \Jf2  niemals  negative 
+Werte  annehmen  darf;  dieser  Umstand  wiederum  zeigt,  dass  f3 
+einer  quadratischen  Gleichung  von  der  Gestalt 
+
+fl-<pÄp,\/K)fa+fAp,fö)  =  o 
+
+genügen  muss,  worin  <p2  und  ip2  solche  rationale  Funktionen  von 
+p  und  y/j  bedeuten,  die  für  reelle  Werte  p  und  beiderlei  Vor- 
+zeichen von  y/j  negativer  Werte  nicht  fähig  sind.  Da  mithin 
+(p9  und  t\>2  nach  der  vorigen  Bemerkung  Quotienten  zweier  Summen 
+von  Quadraten  construirbarer  Ausdrücke  sind,  so  folgt  das  gleiche 
+auch  für  den  Ausdruck 
+
+ft+^ip^K) 
+
+
+U 
+
+
+<p.G>,  V/i' 
+
+
+und  mithin  ist  auch  \Jf3  mittelst  Lineals  und  Streckenübertra- 
+gers construirbar. 
+
+Die  Fortsetzung  dieser  Schlussweise  führt  zum  Beweise  des
+
+Satzes  44  in  dem  betrachteten  Falle  eines  Parameters  p. 
+
+Die  allgemeine  Richtigkeit  des  Satzes  44  hängt  davon  ab,  ob 
+der  Satz  43  in  entsprechender  Weise  sich  auf  den  Fall  mehrerer 
+Veränderlicher  verallgemeinern  lässt. 
+
+Als  Beispiel  für  die  Anwendung  des  Satzes  44  mögen  die 
+regulären  mittelst  Zirkels  construirbaren  Polygone  dienen ;  in 
+diesem  Falle  kommt  ein  willkürlicher  Parameter  p  nicht  vor,  son- 
+dern die  zu  construirenden  Ausdrücke  stellen  sämtlich  algebraische 
+Zahlen  dar.  Man  sieht  leicht,  dass  das  Kriterium  des  Satzes  44 
+erfüllt  ist,  und  somit  ergiebt  sich,  dass  man  jene  regulären  Po- 
+lygone auch  allein  mittelst  Ziehens  von  Geraden  und  Abtragens 
+von  Strecken  construiren  kann  —  ein  Resultat,  welches  sich  auch 
+aus  der  Theorie  der  Kreisteilung  direkt  entnehmen  lässt. 
+
+Was  weitere  aus  der  Elementargeometrie  bekannte  Kon- 
+struktionsaufgaben anbetrifft,  so  sei  hier  nur  erwähnt,  dass  das 
+Malfattische  Problem,  nicht  aber  die  Apollonische  Berührungs- 
+aufgabe allein  mittelst  Lineals  und  Streckenübertragers  gelöst 
+werden  kann. 
+
+
+89 
+
+
+Schlusswort. 
+
+Die  vorstehende  Abhandlung  ist  eine  kritische  Untersuchung 
+der  Principien  der  Geometrie;  in  dieser  Untersuchung  leitete  uns 
+der  Grundsatz,  eine  jede  sich  darbietende  Frage  in  der  Weise  zu 
+erörtern,  dass  wir  zugleich  prüften,  ob  ihre  Beantwortung  auf 
+einem  vorgeschriebenen  Wege  mit  gewissen  eingeschränkten  Hilfs- 
+mitteln möglich  oder  nicht  möglich  ist.  Dieser  Grundsatz  scheint 
+mir  eine  allgemeine  und  naturgemässe  Vorschrift  zu  enthalten ;  in 
+der  That  wird,  wenn  wir  bei  unseren  mathematischen  Betrach- 
+tungen einem  Probleme  begegnen  oder  einen  Satz  vermuten,  unser 
+Erkenntnistrieb  erst  dann  befriedigt,  wenn  uns  entweder  die  völlige 
+Lösung  jenes  Problems  und  der  strenge  Beweis  dieses  Satzes  ge- 
+lingt oder  wenn  der  Grund  für  die  Unmöglichkeit  des  Gelingens 
+und  damit  zugleich  die  Notwendigkeit  des  Misslingens  von  uns 
+klar   erkannt  worden  ist. 
+
+So  spielt  denn  in  der  neueren  Mathematik  die  Frage  nach 
+der  Unmöglichkeit  gewisser  Lösungen  oder  Aufgaben  eine  hervor- 
+ragende Rolle  und  das  Bestreben,  eine  Frage  solcher  Art  zu  be- 
+antworten ,  war  oftmals  der  Anlas s  zur  Entdeckung  neuer  und 
+fruchtbarer  Forschungsgebiete.  Wir  erinnern  nur  an  ÄbeVs  Beweis 
+für  die  Unmöglichkeit  der  Auflösung  der  Gleichungen  fünften 
+Grades  durch  Wurzelziehen,  ferner  an  die  Erkenntnis  der  Unbe- 
+weisbarkeit  des  Parallelenaxioms  und  an  Hermite's  und  Lindemann^ 
+Sätze  von  der  Unmöglichkeit ,  die  Zahlen  e  und  n  auf  alge- 
+braischem Wege  zu  construiren. 
+
+Der  Grundsatz ,  demzufolge  man  überall  die  Principien  der 
+Möglichkeit  der  Beweise  erörtern  soll,  hängt  auch  aufs  Engste  mit 
+der  Forderung  der  „Reinheit"  der  Beweismethoden  zusammen,  die 
+von  mehreren  Mathematikern  der  neueren  Zeit  mit  Nachdruck 
+erhoben  worden  ist.  Diese  Forderung  ist  im  Grunde  nichts  An- 
+deres als  eine  subjektive  Fassung  des  hier  befolgten  Grundsatzes. 
+In  der  That  sucht  die  vorstehende  geometrische  Untersuchung 
+allgemein  darüber  Aufschluss  zu  geben,  welche  Axiome,  Voraus- 
+setzungen   oder   Hilfsmittel    zum    Beweise    einer    elementar  -  geo- 
+
+Hilbert,    Grundlagen  der  Geometrie.  7 
+
+
+90 
+
+
+metrischen  Wahrheit  nötig  sind,  und  es  bleibt  dann  dem  jedes- 
+maligen Ermessen  anheim  gestellt,  welche  ßeweismethode  von  dem 
+gerade    eingenommenen  Standpunkte  aus  zu  bevorzugen  ist. 
+
+
+Bei  der  Anfertigung  der  Figuren  sowie  bei  der  Durchsicht 
+der  Correcturbogen  habe  ich  mich  der  Hülfe  des  Herrn  Dr.  Hans 
+von  Schaper  erfreut ;  ich  spreche  ihm  hierfür  meinen  Dank  aus. 
+Desgleichen  danke  ich  meinem  Freunde  Hermann  Minkowski  und 
+Herrn  Dr.  Julius  Sommer  für  ihre  Unterstützung  beim  Lesen  der 
+Correctur. 
+
+
+91 
+
+
+Inhalt. 
+
+Seite 
+
+Einleitung 3 
+
+Kapitel  I.    Die  fünf  Axiomgruppen. 
+
+§  1.       Die  Elemente  der  Geometrie  und  die  fünf  Axiomgruppen 4 
+
+§  2.       Die  Axiomgruppe  I :  Axiome  der  Verknüpfung 5 
+
+§  3.       Die  Axiomgruppe  II:  Axiome  der  Anordnung 6
+
+§  4.      Folgerungen  aus  den  Axiomen  der  Verknüpfung  und  der  Anordnung  .  7 
+
+§  5.       Die  Axiomgruppe  III :  Axiom  der  Parallelen  (Euklidisches  Axiom) .     .  9 
+
+§  6.       Die  Axiomgruppe  IV:  Axiome  der  Congruenz  ' 10 
+
+§  7.       Folgerungen  aus  den  Axiomen  der  Congruenz 12 
+
+§  8.       Die  Axiomgruppe  V:  Axiom  der  Stetigkeit  (Archimedisches  Axiom)     .  19 
+
+Kapitel  II.     Die  Widerspruchslosigkeit  und  gegenseitige  Unabhängigkeit 
+der  Axiome. 
+
+§  9.       Die  Widerspruchslosigkeit  der  Axiome 19 
+
+§  10.     Die  Unabhängigkeit  des  Parallelenaxioms  (Nicht-Euklidische  Geometrie)  21 
+
+§  11.     Die  Unabhängigkeit  der  Congruenzaxiome 23 
+
+§  12.     Die    Unabhängigkeit   des    Stetigkeitsaxioms    V    (Nicht  -  Archimedische 
+
+Geometrie) 24 
+
+Kapitel  III.    Die  Lehre  von  den  Proportionen. 
+
+§  13.     Complexe  Zahlensysteme 26 
+
+§  14.     Beweis  des  Pascalschen  Satzes 28 
+
+§  15.     Die  Streckenrechnung  auf  Grund  des  Pascalschen  Satzes 32 
+
+§  16.     Die  Proportionen  und  die  Aehnlichkeitssätze 35 
+
+§  17.     Die  Gleichungen  der  Geraden  und  Ebenen 37 
+
+Kapitel  IV.    Die  Lehre  von  den  Flächeninhalten  in  der  Ebene. 
+
+§  18.     Die  Flächengleichheit  und  Inhaltsgleichheit  von  Polygonen      ....  40 
+
+§  19.     Parallelogramme  und  Dreiecke  mit  gleicher  Grundlinie  und  Höhe  .     .  41 
+
+§  20.     Das  Flächenmass  von  Dreiecken  und  Polygonen         43 
+
+§  21.     Die  Inhaltsgleichheit  und  das  Flächenmass 46 
+
+Kapitel  V.     Der  Desarguessche  Satz. 
+
+§  22.     Der  Desarguessche  Satz  und  der  Beweis   desselben  in  der  Ebene  mit 
+
+Hülfe  der  Congruenzaxiome 49 
+
+§  23.     Die  Nichtbeweisbarkeit  des  Desarguesschen  Satzes  in  der  Ebene  ohne 
+
+Hülfe  der  Congruenzaxiome 51 
+
+§  24.     Einführung  einer  Streckenrechnung   ohne  Hülfe   der  Congruenzaxiome 
+
+auf  Grund  des  Desarguesschen  Satzes 55 
+
+
+92 
+
+Seite 
+
+§  25.     Das  commutative    und    associative  Gesetz    der  Addition    in  der  neuen 
+
+Streckenrechnung       57 
+
+§  26.     Das  associative  Gesetz  der  Multiplikation  und  die  beiden  distributiven 
+
+Gesetze  in  der  neuen  Streckenrechnung 59 
+
+§  27,     Die  Gleichung  der  Geraden  auf  Grund  der  neuen  Streckenrechnung     .  63 
+
+§  28.     Der  Inbegriff  der  Strecken  aufgefasst  als  complexes  Zahlensystem .     .  66 
+§  29.     Aufbau   einer  räumlichen  Geometrie    mit  Hülfe   eines  Desarguesschen 
+
+Zahlensystems 67 
+
+§  80.     Die  Bedeutung  des  Desarguesschen  Satzes 70 
+
+Kapitel  VI.     Der  Pascalsche  Satz. 
+
+§  31.     Zwei  Sätze  über  die  Beweisbarkeit  des  Pascalschen  Satzes     ....     71 
+
+§  32.  Das  commutative  Gesetz  der  Multiplikation  im  Archimedischen  Zahlen- 
+system   72 
+
+§  33.     Das  commutative  Gesetz  der  Multiplikation  im  Nicht  -  Archimedischen 
+
+Zahlensystem 73 
+
+§  34.     Beweis  der  beiden  Sätze  über  den  Pascalschen  Satz  (Nicht-Pascalsche 
+
+Geometrie) 75 
+
+§  35.     Beweis  eines  beliebigen  Schnittpunktsatzes  mittelst  des  Desarguesschen 
+
+und  des  Pascalschen  Satzes ' 76 
+
+Kapitel  VII.    Die  geometrischen  Konstruktionen  auf  Grund  der  Axiome  I— V. 
+
+§  36.  Die  geometrischen  Konstruktionen  mittelst  Lineals  und  Streckenüber- 
+tragers       -. 78 
+
+§  37.     Analytische  Darstellung  der  Coordinaten  konstruirbarer  Punkte.     .     .     80 
+
+§  38.     Die  Darstellung  algebraischer  Zahlen  und  ganzer,  rationaler  Funktionen 
+
+als  Summe  von  Quadraten 82 
+
+§  39.     Kriterium  für  die  Ausführbarkeit  geometrischer  Konstruktionen  mittelst 
+
+Lineals  und  Streckenübertragers 85 
+
+Schlusswort 89 
+
+
+Date 
+
+Due 
+
+Library  Bureau 
+
+Cat.  no.  1137 
+
+scm 
+
+
+3  5002  00030  5628 
+
+
+Hilbert,  David 
+Grundlagen  der  geometrie. 
+
+
+Hilbert. 
+
+
+681 
+
+H58 
+
+
+214392 
+
+
+TITLE 
+
+G-nandl  äffen  der  geometrJja^ 
+
+
+DATE  DUE 
+
+
+MAY  3  04a 
+
+
+BORROWER-3   NAME 
+
+
+Cjt^  L^JaT/ 
+
+
+X",  i 
+
+Mm 
+
+II1- V^
+

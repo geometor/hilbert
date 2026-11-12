@@ -1,0 +1,290 @@
+{
+  "archimedes": {
+    "name": "Archimedes of Syracuse",
+    "dates": "c. 287 – c. 212 BC",
+    "role": "Ancient Greek Mathematician, Physicist & Engineer",
+    "bio": "Formulated in On the Sphere and Cylinder the lemma of comparability of magnitudes (earlier attributed by him to Eudoxus of Cnidus) that Hilbert canonizes in § 8 as Group V: the Axiom of Archimedes (Archimedisches Axiom). Much of Hilbert's Grundlagen (Chapters III–VI) investigates how far Euclidean proportion, area, and projective algebra reach when Archimedes's Axiom is deliberately suspended."
+  },
+  "aristotle": {
+    "name": "Aristotle",
+    "dates": "384 – 322 BC",
+    "role": "Ancient Greek Philosopher (Author of the Posterior Analytics)",
+    "bio": "Codified the classical theory of demonstrative science (episteme) in the Posterior Analytics, distinguishing indemonstrable true principles grasped by intellectual insight (nous) from syllogistic conclusions. In De Noetica Geometriae (Caput V § 1), Peter Hoenen contrasts Aristotle's truth-grounded axiomatics with Hilbert's purely formal hypothetico-deductive method."
+  },
+  "bolyai": {
+    "name": "János Bolyai",
+    "dates": "1802 – 1860",
+    "role": "Hungarian Mathematician & Co-Discoverer of Hyperbolic Geometry",
+    "bio": "Published the Appendix scientiam spatii absolute veram exhibens (1832), establishing absolute and hyperbolic geometry independently of Lobachevsky. Hilbert's § 10 model proves the consistency and independence of Bolyai–Lobachevsky geometry relative to real arithmetic."
+  },
+  "bolyai-farkas": {
+    "name": "Farkas Bolyai",
+    "dates": "1775 – 1856",
+    "role": "Hungarian Mathematician & Friend of Gauss",
+    "bio": "Father of János Bolyai; proved (independently of Paul Gerwien, 1833) that any two Euclidean polygons of equal area are equidecomposable into finitely many congruent triangles—a theorem Hilbert shows in Chapter IV (§ 21, Theorem 31) depends essentially upon the Axiom of Archimedes."
+  },
+  "cantor": {
+    "name": "Georg Cantor",
+    "dates": "1845 – 1918",
+    "role": "German Mathematician & Creator of Transfinite Set Theory",
+    "bio": "Pioneered the rigorous theory of real numbers, point-sets, and continuity. Hilbert aligns his Group V Continuity investigations (§ 8, Axiom of Completeness) with Dedekind's and Cantor's arithmetic characterization of the linear continuum."
+  },
+  "de-zolt": {
+    "name": "Antonio De Zolt",
+    "dates": "1847 – 1926",
+    "role": "Italian Mathematician",
+    "bio": "Highlighted in Principii della eguaglianza di poligoni (1881) that Euclid's Common Notion 5 ('The whole is greater than the part') requires geometric proof for polygonal dissection: a polygon cannot be equidecomposable with a proper sub-polygon. Hilbert proves De Zolt's postulate without Archimedes's Axiom in § 20 (Theorem 30) via signed triangle area."
+  },
+  "dehn": {
+    "name": "Max Dehn",
+    "dates": "1878 – 1952",
+    "role": "German-American Mathematician & Student of Hilbert",
+    "bio": "Under Hilbert's supervision in Göttingen (1899–1900), investigated non-Legendrian and non-Archimedean geometries and became the first mathematician to solve one of Hilbert's 23 Paris Problems (Problem 3, 1900), proving via the Dehn invariant that two tetrahedra of equal base and altitude need not be equidecomposable or equicomplementable—cited by Hilbert in the 1900/1902 Conclusion."
+  },
+  "desargues": {
+    "name": "Girard Desargues",
+    "dates": "1591 – 1661",
+    "role": "French Mathematician, Architect & Founder of Projective Geometry",
+    "bio": "Discovered the perspective-triangle theorem bearing his name (published by Abraham Bosse, 1648). In Chapter V (§§ 22–30), Hilbert proves that Desargues's Theorem is the exact necessary and sufficient condition for a planar incidence-order-parallel geometry to be embeddable in 3-space and coordinatizable over an associative skew-field."
+  },
+  "descartes": {
+    "name": "René Descartes",
+    "dates": "1596 – 1650",
+    "role": "French Philosopher & Mathematician",
+    "bio": "Introduced segment multiplication via parallel lines in La Géométrie (1637)—the direct ancestor of Hilbert's purely geometric Streckenrechnung in § 15 and § 24, where Descartes's construction is freed from metric continuity."
+  },
+  "euclid": {
+    "name": "Euclid of Alexandria",
+    "dates": "fl. c. 300 BC",
+    "role": "Ancient Greek Geometer (Author of the Elements)",
+    "bio": "Author of the Stoicheia (Elements), whose definitions, five postulates, and common notions stood for over two millennia as the paradigm of deductive rigor. Hilbert's Grundlagen der Geometrie reconstructs Euclid's entire edifice while supplying its missing order, continuity, and congruence axioms and isolating the algebraic content of Books I, V, VI, and XI."
+  },
+  "eudoxus": {
+    "name": "Eudoxus of Cnidus",
+    "dates": "c. 408 – c. 355 BC",
+    "role": "Ancient Greek Mathematician & Astronomer",
+    "bio": "Created the classical theory of proportion for commensurable and incommensurable magnitudes in Book V of Euclid's Elements (V.Def.4–5). In Chapter III (§§ 13–17), Hilbert bypasses Eudoxus's Archimedean definition entirely by deriving proportion from planar congruence and Pappus's (Pascal's) Hexagon Theorem."
+  },
+  "frege": {
+    "name": "Gottlob Frege",
+    "dates": "1848 – 1925",
+    "role": "German Mathematician, Logician & Philosopher",
+    "bio": "Engaged Hilbert in the famous 1899–1900 Frege–Hilbert correspondence immediately following publication of the Grundlagen, challenging Hilbert's doctrine that axioms serve as 'implicit definitions' of primitive terms rather than assertions about antecedently known concepts."
+  },
+  "freudenthal": {
+    "name": "Hans Freudenthal",
+    "dates": "1905 – 1990",
+    "role": "German-Dutch Mathematician & Historian of Geometry",
+    "bio": "Author of classic essays on the history of geometric foundations ('Zur Geschichte der Grundlagen der Geometrie', 1957, celebrating Hilbert's Festschrift); cited by Peter Hoenen in Caput V § 1.3 as representative of 'semi-axiomatics' grounded in pre-geometry."
+  },
+  "gauss": {
+    "name": "Carl Friedrich Gauss",
+    "dates": "1777 – 1855",
+    "role": "German Mathematician, Astronomer & Physicist",
+    "bio": "Göttingen's Princeps Mathematicorum, who privately discovered non-Euclidean hyperbolic geometry and characterized ruler-and-compass constructible regular polygons via Fermat primes. Hilbert's Grundlagen der Geometrie was written as the mathematical centerpiece of the June 1899 Festschrift unveiling the Gauss–Weber Monument in Göttingen."
+  },
+  "hardy": {
+    "name": "Godfrey Harold Hardy",
+    "dates": "1877 – 1947",
+    "role": "British Mathematician",
+    "bio": "In his landmark 1929 Mind lecture 'Mathematical Proof', analyzed Hilbert's metamathematics and wrote—in a passage quoted and endorsed by Peter Hoenen (Caput V § 3.2.B)—that 'if Hilbert's axioms are to mean anything to us, we must draw figures' and grasp the spatial order of symbols intuitively."
+  },
+  "heath": {
+    "name": "Sir Thomas Little Heath",
+    "dates": "1861 – 1940",
+    "role": "British Historian of Ancient Greek Mathematics & Translator of Euclid",
+    "bio": "Author of the definitive three-volume English edition of The Thirteen Books of Euclid's Elements (1908; 2nd ed. 1926). Heath repeatedly integrates Hilbert's Grundlagen into his commentary—most notably on Postulate 4 (p. 200), Common Notion 4 (pp. 228–230), I.1 (p. 242), I.4 (pp. 249–250), and I.35 (p. 328)."
+  },
+  "helmholtz": {
+    "name": "Hermann von Helmholtz",
+    "dates": "1821 – 1894",
+    "role": "German Physicist, Physiologist & Philosopher of Science",
+    "bio": "Initiated the group-theoretic characterization of space ('Über die Thatsachen, die der Geometrie zum Grunde liegen', 1868) through free mobility of rigid bodies—refined by Sophus Lie and re-examined topologically by Hilbert in the 1902 Appendix."
+  },
+  "hilbert": {
+    "name": "David Hilbert",
+    "dates": "1862 – 1943",
+    "role": "German Mathematician & Professor at Göttingen",
+    "bio": "Delivered his Göttingen lectures on the elements of Euclidean geometry in winter 1898–1899 and published Grundlagen der Geometrie in June 1899 for the unveiling of the Gauss–Weber Monument, inaugurating modern axiomatics, model-theoretic independence proofs, geometric algebra (Streckenrechnung), and metamathematics."
+  },
+  "hoenen": {
+    "name": "Petrus Hubertus Jacobus Hoenen, S.J.",
+    "dates": "1880 – 1961",
+    "role": "Dutch Jesuit Philosopher of Science & Professor at the Gregorian University",
+    "bio": "Author of De Noetica Geometriae: Origine Theoriae Cognitionis (1954), which conducts a sustained philosophical and textual critique of Hilbert's Grundlagen der Geometrie (Caput I, Caput IV, Caput V), arguing that formal axiomatics presupposes intuitive abstraction of intelligible extension (materia intelligibilis) and spatial symbol order."
+  },
+  "jordan": {
+    "name": "Camille Jordan",
+    "dates": "1838 – 1922",
+    "role": "French Mathematician",
+    "bio": "Formulated the Jordan curve theorem in his Cours d'analyse (1887/1893). In § 4 (Theorem 6), Hilbert proves the polygonal separation theorem purely from the planar incidence and order axioms I 1–2 and II 1–5 without metric or topological limits."
+  },
+  "kant": {
+    "name": "Immanuel Kant",
+    "dates": "1724 – 1804",
+    "role": "German Philosopher (Author of the Critique of Pure Reason)",
+    "bio": "Hilbert places Kant's dictum from the Critique of Pure Reason (A 702 / B 730)—'All human knowledge begins with intuitions, thence passes to concepts and ends with ideas'—as the epigraph of the Grundlagen, signaling the progression from spatial intuition (Anschauung) through axiomatic concepts (Begriffe) to metamathematical completeness and purity of method (Ideen)."
+  },
+  "killing": {
+    "name": "Wilhelm Killing",
+    "dates": "1847 – 1923",
+    "role": "German Mathematician",
+    "bio": "Co-architect of Lie algebra classification and author of Einführung in die Grundlagen der Geometrie (2 vols., 1893–1898), examining non-Euclidean, non-Archimedean, and group-theoretic space forms immediately prior to Hilbert's 1899 treatise."
+  },
+  "klein": {
+    "name": "Felix Klein",
+    "dates": "1849 – 1925",
+    "role": "German Mathematician & Colleague of Hilbert at Göttingen",
+    "bio": "Author of the Erlangen Program (1872) and projective Cayley–Klein models of non-Euclidean geometry (1871–1873), which inspired Hilbert's analytic independence models in Chapter II and non-Desarguesian/non-Pascalian geometries in Chapters V–VI."
+  },
+  "lagrange": {
+    "name": "Joseph-Louis Lagrange",
+    "dates": "1736 – 1813",
+    "role": "Italian-French Mathematician & Mechanician",
+    "bio": "Proved in 1770 that every positive integer (and hence every positive rational number) is a sum of four squares—invoked by Hilbert in § 38 to prove that totally positive rational and quadratic expressions are sums of squares constructible with the segment-transferer."
+  },
+  "laugel": {
+    "name": "Léonce Laugel",
+    "dates": "1848 – c. 1920",
+    "role": "French Mathematical Translator",
+    "bio": "Translated Hilbert's treatise into French as Les principes fondamentaux de la géométrie (Gauthier-Villars, Paris, 1900), incorporating Hilbert's first additions—notably the Axiom of Completeness (Vollständigkeit) and Max Dehn's polyhedral theorem—from which E. J. Townsend drew for the 1902 English edition."
+  },
+  "lie": {
+    "name": "Sophus Lie",
+    "dates": "1842 – 1899",
+    "role": "Norwegian Mathematician & Creator of Continuous Transformation Groups",
+    "bio": "Solved the Riemann–Helmholtz space problem via differentiable transformation groups (Theorie der Transformationsgruppen, Vol. III, 1893). In his 1902 Mathematische Annalen memoir—summarized by Townsend in the Appendix—Hilbert eliminated Lie's differentiability assumptions using Jordan curves and topological group axioms (foreshadowing Hilbert's Fifth Problem)."
+  },
+  "lobachevsky": {
+    "name": "Nikolai Ivanovich Lobachevsky",
+    "dates": "1792 – 1856",
+    "role": "Russian Mathematician & Pioneer of Hyperbolic Geometry",
+    "bio": "Published the first public treatises on hyperbolic ('imaginary') geometry (1829–1840) denying Euclid's Fifth Postulate; honored alongside Bolyai and Gauss in Hilbert's § 10 independence proof for Axiom III."
+  },
+  "minkowski": {
+    "name": "Hermann Minkowski",
+    "dates": "1864 – 1909",
+    "role": "German Mathematician & Lifelong Collaborator of Hilbert",
+    "bio": "Creator of the geometry of numbers and Minkowski spacetime; reviewed and discussed early drafts of Hilbert's 1899 Festschrift and explored convex metrics closely related to Hilbert's § 11 counterexample to SAS congruence."
+  },
+  "moore": {
+    "name": "Eliakim Hastings Moore",
+    "dates": "1862 – 1932",
+    "role": "American Mathematician & Head of Mathematics at Chicago",
+    "bio": "Proved in 'On the Projective Axioms of Geometry' (Transactions of the AMS, Jan. 1902) that Hilbert's 1899 linear order Axiom II 4 is deducible from the planar incidence axioms and Pasch's Axiom II 5—prompting Hilbert to convert II 4 into Theorem 5 in subsequent German editions (a point highlighted by Hoenen in Caput V § 3.2.A)."
+  },
+  "pappus": {
+    "name": "Pappus of Alexandria",
+    "dates": "c. 290 – c. 350 AD",
+    "role": "Late Antique Greek Geometer (Author of the Mathematical Collection / Synagoge)",
+    "bio": "Proved in Synagoge Book VII, Propositions 138–139, the collinearity/parallelism theorem for hexagons inscribed between two straight lines—known in modern projective geometry as Pappus's Hexagon Theorem and called by Hilbert 'Pascal's Theorem' (der Pascalsche Satz, degenerate conic case). Hilbert's Chapters III and VI reveal Pappus's Theorem to be the exact geometric equivalent of commutative multiplication ab = ba."
+  },
+  "pascal": {
+    "name": "Blaise Pascal",
+    "dates": "1623 – 1662",
+    "role": "French Mathematician, Physicist & Philosopher",
+    "bio": "Discovered at age sixteen the mystic hexagram theorem for conics (Essai pour les coniques, 1640). Following Hermann Wiener and Friedrich Schur, Hilbert calls the degenerate case of a hexagon inscribed in two intersecting lines 'Pascal's Theorem' (Pascalscher Satz, historically Pappus's Hexagon Theorem, §§ 14 & 31–35)."
+  },
+  "pasch": {
+    "name": "Moritz Pasch",
+    "dates": "1843 – 1930",
+    "role": "German Mathematician & Pioneer of Empirical-Deductive Axiomatics",
+    "bio": "In Vorlesungen über neuere Geometrie (1882), gave the first rigorous axiomatization of projective/descriptive order and formulated the planar triangle-piercing axiom immortalized by Hilbert in § 3 as Axiom II 5 ('Pasch's Axiom')."
+  },
+  "peano": {
+    "name": "Giuseppe Peano",
+    "dates": "1858 – 1932",
+    "role": "Italian Mathematician & Symbolic Logician",
+    "bio": "Axiomatized arithmetic and geometric order in I principii di geometria logicamente esposti (1889) and Grundzüge des geometrischen Calculs (1891), developing symbolic axiomatics in parallel with Pasch, Pieri, and Hilbert."
+  },
+  "pieri": {
+    "name": "Mario Pieri",
+    "dates": "1860 – 1913",
+    "role": "Italian Geometer of the Peano School",
+    "bio": "Published Della geometria elementare come sistema ipotetico deduttivo (1899) simultaneously with Hilbert's Grundlagen, axiomatizing Euclidean geometry from just two primitives ('point' and 'motion')."
+  },
+  "poincare": {
+    "name": "Henri Poincaré",
+    "dates": "1854 – 1912",
+    "role": "French Mathematician, Theoretical Physicist & Philosopher of Science",
+    "bio": "Wrote an influential 1902 review of Hilbert's Grundlagen der Geometrie in the Bulletin des sciences mathématiques, praising Hilbert's non-Desarguesian and non-Pascalian models while debating the role of arithmetic induction and geometric convention."
+  },
+  "poncelet": {
+    "name": "Jean-Victor Poncelet",
+    "dates": "1788 – 1867",
+    "role": "French Geometer & Engineer",
+    "bio": "Conjectured in Traité des propriétés projectives des figures (1822) that all straightedge-and-compass constructions can be performed with a straightedge alone once a single circle and its center are drawn—sharpened by Jakob Steiner (1833) and analyzed axiomatically by Hilbert in Chapter VII (§§ 36–39)."
+  },
+  "proclus": {
+    "name": "Proclus Lycius (Diadochus)",
+    "dates": "412 – 485 AD",
+    "role": "Neoplatonic Philosopher & Commentator on Euclid Book I",
+    "bio": "Preserved the ancient history of Greek geometry and scrutinized Euclid's Fourth and Fifth Postulates—anticipating both Hilbert's Theorem 15 (proving Postulate 4 on right angles) and the independence of Postulate 5."
+  },
+  "riemann": {
+    "name": "Bernhard Riemann",
+    "dates": "1826 – 1866",
+    "role": "German Mathematician & Successor to Gauss at Göttingen",
+    "bio": "Revolutionized geometry in his 1854 Göttingen Habilitationsvortrag 'Über die Hypothesen, welche der Geometrie zu Grunde liegen', grounding geometry in differential manifolds and metric tensors."
+  },
+  "russell": {
+    "name": "Bertrand Russell",
+    "dates": "1872 – 1970",
+    "role": "British Philosopher, Logician & Mathematician",
+    "bio": "Analyzed Euclid's superposition fallacy in The Principles of Mathematics (1903, p. 405), quoted by T. L. Heath on Euclid I.4 alongside Hilbert's axiomatic resolution via Congruence Axiom IV 6."
+  },
+  "schaper": {
+    "name": "Hans von Schaper",
+    "dates": "1874 – c. 1940",
+    "role": "German Mathematician & Göttingen Student of Hilbert",
+    "bio": "Obtained his Göttingen doctorate under Hilbert (1898) and worked out detailed geometric constructions for Hilbert's Chapter VII (§ 36 footnote), showing how elementary problems are executed with straightedge and segment-transferer (Streckenübertrager)."
+  },
+  "schur": {
+    "name": "Friedrich Schur",
+    "dates": "1856 – 1932",
+    "role": "German Geometer",
+    "bio": "Proved in 'Über den Fundamentalsatz der projectiven Geometrie' (Mathematische Annalen, Bd. 51, 1898) that Pappus's/Pascal's Theorem can be deduced in 3D projective space using congruence without Archimedes's Axiom. Hilbert credits Schur in § 14 while discovering a simpler purely planar proof."
+  },
+  "sommer": {
+    "name": "Julius Sommer",
+    "dates": "1871 – 1943",
+    "role": "German Mathematician & Colleague at Göttingen",
+    "bio": "Constructed an alternative spatial model demonstrating the independence of Congruence Axiom IV 6 without altering Euclidean distance formulas on lines, cited by Hilbert in § 11 and reviewed in Bulletin of the AMS (1900)."
+  },
+  "steiner": {
+    "name": "Jakob Steiner",
+    "dates": "1796 – 1863",
+    "role": "Swiss-German Synthetic Geometer",
+    "bio": "Proved in Die geometrischen Constructionen, ausgeführt mittelst der geraden Linie und eines festen Kreises (1833) that a straightedge and one fixed circle with known center suffice for all ruler-and-compass constructions; Hilbert determines in § 39 (Theorem 44) exactly how many circles/compass steps are needed when only a segment-transferer is available."
+  },
+  "stolz": {
+    "name": "Otto Stolz",
+    "dates": "1842 – 1905",
+    "role": "Austrian Mathematician",
+    "bio": "Investigated non-Archimedean magnitudes (1883, prior to Veronese) and published 'Die ebenen Vielecke und die Winkel mit Einschluss der Berührungswinkel als Systeme von absoluten Grössen' (Monatshefte für Mathematik und Physik, 1894), cited by Hilbert in §§ 12 and 18 on Archimedes's Axiom and polygonal area."
+  },
+  "townsend": {
+    "name": "Edgar Jerome Townsend",
+    "dates": "1864 – 1955",
+    "role": "American Mathematician & Authorized English Translator of Hilbert",
+    "bio": "Earned his Ph.D. under David Hilbert at Göttingen in 1900 (Über den Begriff und die Anwendung des Doppellimes) before serving as Professor and Dean at the University of Illinois; prepared the authorized 1902 English edition The Foundations of Geometry (Open Court, Chicago), incorporating Hilbert's 1900 additions and an Appendix on Lie groups."
+  },
+  "veronese": {
+    "name": "Giuseppe Veronese",
+    "dates": "1854 – 1917",
+    "role": "Italian Geometer & Pioneer of Non-Archimedean Geometry",
+    "bio": "Constructed the first synthetic non-Archimedean geometries with actual infinitesimals and infinite segments in Fondamenti di geometria (1891; German trans. Grundzüge der Geometrie, 1894), cited by Hilbert in § 12 alongside Hilbert's far simpler algebraic field Ω(t)."
+  },
+  "weber": {
+    "name": "Wilhelm Eduard Weber",
+    "dates": "1804 – 1891",
+    "role": "German Physicist & Collaborator of Gauss at Göttingen",
+    "bio": "Co-inventor with Carl Friedrich Gauss of the electromagnetic telegraph (1833) and member of the 'Göttingen Seven'. The unveiling of the Gauss–Weber Monument in Göttingen on June 17, 1899 was the occasion for which Hilbert wrote Grundlagen der Geometrie."
+  },
+  "wiener": {
+    "name": "Hermann Wiener",
+    "dates": "1857 – 1939",
+    "role": "German Geometer",
+    "bio": "Delivered a seminal 1891 Halle lecture ('Weiteres über Grundlagen und Aufbau der Geometrie', Jahresbericht der DMV, Bd. 1 & 3) proposing that Desargues's and Pascal's (Pappus's) theorems serve as purely incidence-based axioms replacing continuity in projective geometry—inspiring Hilbert's Chapters III, V, and VI as well as Hilbert's legendary remark on 'tables, chairs, and beer mugs'."
+  }
+}

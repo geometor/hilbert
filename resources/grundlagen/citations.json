@@ -1,0 +1,266 @@
+{
+  "aristotle:anal-post": {
+    "author": "Aristotle",
+    "work": "Analytica Posteriora (Posterior Analytics)",
+    "locus": "Book I, Chs. 1–10 (71a1–77a4)",
+    "year": "c. 335 BC",
+    "publisher": "Classical Corpus Aristotelicum",
+    "note": "Classical theory of demonstrative science (episteme) contrasted by Hoenen (Caput V § 1.2) with Hilbert's formal axiomatics."
+  },
+  "de-zolt:1881": {
+    "author": "Antonio De Zolt",
+    "work": "Principii della eguaglianza di poligoni",
+    "locus": "Milano",
+    "year": "1881",
+    "publisher": "Briola",
+    "note": "Formulates the polygonal area postulate (Euclid C.N. 5 for dissection) proved deductively by Hilbert as Theorem 30 in § 20."
+  },
+  "dehn:1900": {
+    "author": "Max Dehn",
+    "work": "Über raumgleiche Polyeder",
+    "locus": "Nachrichten von der Königl. Gesellschaft der Wissenschaften zu Göttingen, Math.-phys. Klasse, pp. 345–354 (and Math. Annalen, Bd. 55, 1901, pp. 465–478)",
+    "year": "1900",
+    "publisher": "Vandenhoeck & Ruprecht / B. G. Teubner",
+    "note": "Solves Hilbert's Third Problem, proving that tetrahedra of equal base and altitude need not be equidecomposable or equicomplementable—cited by Hilbert in the 1900/1902 Conclusion."
+  },
+  "dehn:1900:legendre": {
+    "author": "Max Dehn",
+    "work": "Die Legendre'schen Sätze über die Winkelsumme im Dreieck",
+    "locus": "Mathematische Annalen, Bd. 53, pp. 404–439",
+    "year": "1900",
+    "publisher": "B. G. Teubner, Leipzig",
+    "note": "Göttingen doctoral dissertation under Hilbert constructing non-Legendrian and non-Archimedean geometries."
+  },
+  "euclid:elements": {
+    "author": "Euclid of Alexandria",
+    "work": "Elements (Stoicheia)",
+    "locus": "Books I, V, VI, X, XI",
+    "year": "c. 300 BC",
+    "publisher": "Critical ed. J. L. Heiberg (Teubner, 1883–1888); English ed. T. L. Heath (Cambridge, 1908)",
+    "note": "Foundational Greek treatise whose axioms, congruence proofs, proportion theory, polygonal area theorems, and straightedge-and-compass constructions Hilbert reconstructs throughout §§ 1–39."
+  },
+  "frege:1903": {
+    "author": "Gottlob Frege",
+    "work": "Über die Grundlagen der Geometrie",
+    "locus": "Jahresbericht der Deutschen Mathematiker-Vereinigung, Bd. 12, pp. 319–324, 368–375",
+    "year": "1903",
+    "publisher": "B. G. Teubner, Leipzig",
+    "note": "Public continuation of the 1899–1900 Frege–Hilbert correspondence debating implicit definitions, consistency, and geometric truth."
+  },
+  "freudenthal:1957": {
+    "author": "Hans Freudenthal",
+    "work": "Zur Geschichte der Grundlagen der Geometrie (Zugleich eine Besprechung der 8. Aufl. von Hilberts 'Grundlagen der Geometrie')",
+    "locus": "Nieuw Archief voor Wiskunde (3), Vol. 5, pp. 105–142",
+    "year": "1957",
+    "publisher": "Noordhoff, Groningen",
+    "note": "Definitive historical and mathematical retrospective on Hilbert's 1899 Grundlagen and its evolution through subsequent editions."
+  },
+  "hardy:1929": {
+    "author": "Godfrey Harold Hardy",
+    "work": "Mathematical Proof",
+    "locus": "Mind, New Series, Vol. 38, No. 149, pp. 1–25",
+    "year": "1929",
+    "publisher": "Oxford University Press",
+    "note": "Quoted by Hoenen (Caput V § 3.2.B, fn. 9) on the indispensable intuitive role of spatial symbol order and geometric figures in Hilbert's axiomatics."
+  },
+  "heath:1908": {
+    "author": "Sir Thomas Little Heath",
+    "work": "The Thirteen Books of Euclid's Elements, Translated from the Text of Heiberg with Introduction and Commentary",
+    "locus": "Vol. I: pp. 200, 228–230, 242, 249–250, 328",
+    "year": "1908",
+    "publisher": "Cambridge University Press (2nd ed. 1926)",
+    "note": "Primary commentary in GEOMETOR euclid analyzing Hilbert's Congruence Axioms, SAS proof, right-angle congruence (Post. 4), continuity, and area dissection."
+  },
+  "helmholtz:1868": {
+    "author": "Hermann von Helmholtz",
+    "work": "Über die Thatsachen, die der Geometrie zum Grunde liegen",
+    "locus": "Nachrichten von der Königl. Gesellschaft der Wissenschaften zu Göttingen, pp. 193–221",
+    "year": "1868",
+    "publisher": "Göttingen",
+    "note": "Initiated the group-theoretic free-mobility characterization of space revisited by Sophus Lie and by Hilbert in the 1902 Appendix."
+  },
+  "hilbert:1899": {
+    "author": "David Hilbert",
+    "work": "Grundlagen der Geometrie (Festschrift zur Feier der Enthüllung des Gauss-Weber-Denkmals in Göttingen, Erster Theil)",
+    "locus": "pp. 1–92",
+    "year": "1899",
+    "publisher": "B. G. Teubner, Leipzig",
+    "note": "First German edition digitized in verbatim archival full text for the Deutsch track of this Book Codex."
+  },
+  "hilbert:1900:french": {
+    "author": "David Hilbert",
+    "work": "Les principes fondamentaux de la géométrie (traduit par L. Laugel)",
+    "locus": "Annales scientifiques de l'École Normale Supérieure (3), Tome 17, pp. 103–209 (and separate monograph)",
+    "year": "1900",
+    "publisher": "Gauthier-Villars, Paris",
+    "note": "Authorized French edition introducing the Axiom of Completeness (Vollständigkeit) in § 8 and Dehn's polyhedra note in the Conclusion."
+  },
+  "hilbert:1900:zahlbegriff": {
+    "author": "David Hilbert",
+    "work": "Über den Zahlbegriff",
+    "locus": "Jahresbericht der Deutschen Mathematiker-Vereinigung, Bd. 8, pp. 180–184",
+    "year": "1900",
+    "publisher": "B. G. Teubner, Leipzig",
+    "note": "Companion axiomatization of the real number continuum pairing Archimedes's Axiom with the Axiom of Completeness."
+  },
+  "hilbert:1902:en": {
+    "author": "David Hilbert (trans. E. J. Townsend)",
+    "work": "The Foundations of Geometry",
+    "locus": "pp. vii + 1–132",
+    "year": "1902",
+    "publisher": "The Open Court Publishing Company, Chicago",
+    "note": "Authorized English translation forming the verbatim English track of this Book Codex."
+  },
+  "hilbert:1902:lie": {
+    "author": "David Hilbert",
+    "work": "Über die Grundlagen der Geometrie",
+    "locus": "Mathematische Annalen, Bd. 56, pp. 381–422",
+    "year": "1902",
+    "publisher": "B. G. Teubner, Leipzig",
+    "note": "Topological characterization of the Euclidean and hyperbolic planes via Jordan curves and transformation groups without differentiability; summarized in Townsend's 1902 Appendix."
+  },
+  "hilbert:1930": {
+    "author": "David Hilbert",
+    "work": "Grundlagen der Geometrie (Siebente umgearbeitete und vermehrte Auflage)",
+    "locus": "pp. vii + 326",
+    "year": "1930",
+    "publisher": "B. G. Teubner, Leipzig & Berlin",
+    "note": "Definitive lifetime revision by Hilbert, cited by Peter Hoenen in De Noetica Geometriae (1954)."
+  },
+  "hoenen:1954": {
+    "author": "Petrus Hubertus Jacobus Hoenen, S.J.",
+    "work": "De Noetica Geometriae: Origine Theoriae Cognitionis",
+    "locus": "Analecta Gregoriana, Vol. LXIII (Caput I § 6, Caput IV Prelim., Caput V §§ 1–5)",
+    "year": "1954",
+    "publisher": "Apud Aedes Universitatis Gregorianae, Romae",
+    "note": "Epistemological treatise in GEOMETOR hoenen critically examining Hilbert's primitive terms, Erklärungen, linear order axioms, and completeness postulate."
+  },
+  "jordan:1893": {
+    "author": "Camille Jordan",
+    "work": "Cours d'analyse de l'École Polytechnique (2e édition)",
+    "locus": "Tome I, pp. 90–99",
+    "year": "1893",
+    "publisher": "Gauthier-Villars, Paris",
+    "note": "Locus classicus of the Jordan curve theorem cited in § 4 (polygon separation) and the 1902 Appendix."
+  },
+  "kant:1781": {
+    "author": "Immanuel Kant",
+    "work": "Kritik der reinen Vernunft (Critique of Pure Reason)",
+    "locus": "Transcendental Dialectic, A 702 / B 730",
+    "year": "1781 / 1787",
+    "publisher": "Johann Friedrich Hartknoch, Riga",
+    "note": "Source of Hilbert's epigraph: 'So fängt denn alle menschliche Erkenntniss mit Anschauungen an, geht von da zu Begriffen und endigt mit Ideen.'"
+  },
+  "killing:1893": {
+    "author": "Wilhelm Killing",
+    "work": "Einführung in die Grundlagen der Geometrie",
+    "locus": "Bd. I (1893), Bd. II (1898)",
+    "year": "1893–1898",
+    "publisher": "Ferdinand Schöningh, Paderborn",
+    "note": "Comprehensive treatise on space forms and non-Archimedean/group-theoretic foundations cited by Hilbert in § 12."
+  },
+  "lie:1893": {
+    "author": "Sophus Lie (bearbeitet von Friedrich Engel)",
+    "work": "Theorie der Transformationsgruppen, Dritter und letzter Abschnitt",
+    "locus": "Abtheilung V: Untersuchungen über die Grundlagen der Geometrie, pp. 393–543",
+    "year": "1893",
+    "publisher": "B. G. Teubner, Leipzig",
+    "note": "Lie's analytic solution of the Riemann–Helmholtz problem cited by Hilbert in the Introduction and Appendix."
+  },
+  "moore:1902": {
+    "author": "Eliakim Hastings Moore",
+    "work": "On the Projective Axioms of Geometry",
+    "locus": "Transactions of the American Mathematical Society, Vol. 3, No. 1, pp. 142–158",
+    "year": "1902",
+    "publisher": "American Mathematical Society",
+    "note": "Proved that Hilbert's 1899 linear order Axiom II 4 is redundant (deducible from planar incidence I 1–2 and Pasch's Axiom II 5), cited by Townsend (§ 3 fn.) and Hoenen (Caput V § 3.2.A)."
+  },
+  "pappus:synagoge": {
+    "author": "Pappus of Alexandria",
+    "work": "Synagoge (Mathematical Collection)",
+    "locus": "Book VII, Propositions 138–139 (ed. F. Hultsch, Vol. II, 1877, pp. 882–886)",
+    "year": "c. 340 AD",
+    "publisher": "Weidmann, Berlin (GEOMETOR pappus)",
+    "note": "Original Greek locus of Pappus's Hexagon Theorem—the degenerate conic theorem Hilbert calls 'Pascal's Theorem' (Pascalscher Satz) in Chapters III and VI."
+  },
+  "pasch:1882": {
+    "author": "Moritz Pasch",
+    "work": "Vorlesungen über neuere Geometrie",
+    "locus": "§§ 1–4, pp. 1–35",
+    "year": "1882",
+    "publisher": "B. G. Teubner, Leipzig",
+    "note": "First rigorous axiomatization of linear and planar order; source of Hilbert's Axiom II 5 ('Pasch's Axiom') in § 3."
+  },
+  "peano:1891": {
+    "author": "Giuseppe Peano",
+    "work": "Die Grundzüge des geometrischen Calculs (trans. A. Schepp) & I principii di geometria logicamente esposti",
+    "locus": "Turin (1889) / Leipzig (1891)",
+    "year": "1889–1891",
+    "publisher": " Fratelli Bocca / B. G. Teubner",
+    "note": "Symbolic axiomatization of geometric segments and vector calculus cited in Hilbert's Introduction and § 3."
+  },
+  "poincare:1902": {
+    "author": "Henri Poincaré",
+    "work": "Les fondements de la géométrie",
+    "locus": "Bulletin des sciences mathématiques (2), Tome 26, pp. 249–272",
+    "year": "1902",
+    "publisher": "Gauthier-Villars, Paris",
+    "note": "Classic philosophical and mathematical review of Hilbert's Grundlagen."
+  },
+  "russell:1903": {
+    "author": "Bertrand Russell",
+    "work": "The Principles of Mathematics",
+    "locus": "Part VI: Space, Ch. XLVI, p. 405",
+    "year": "1903",
+    "publisher": "Cambridge University Press",
+    "note": "Critique of Euclidean superposition quoted by Heath on Euclid I.4 alongside Hilbert's Axiom IV 6."
+  },
+  "schur:1898": {
+    "author": "Friedrich Schur",
+    "work": "Über den Fundamentalsatz der projectiven Geometrie",
+    "locus": "Mathematische Annalen, Bd. 51, pp. 401–409",
+    "year": "1898",
+    "publisher": "B. G. Teubner, Leipzig",
+    "note": "Spatial metric proof of Pascal's/Pappus's Theorem without Archimedes's Axiom cited by Hilbert in § 14."
+  },
+  "sommer:1900": {
+    "author": "Julius Sommer",
+    "work": "Hilbert's Foundations of Geometry",
+    "locus": "Bulletin of the American Mathematical Society, Vol. 6, pp. 287–299",
+    "year": "1900",
+    "publisher": "American Mathematical Society",
+    "note": "Early Göttingen review of Hilbert's Festschrift; Sommer's 3D independence model for IV 6 is cited by Hilbert in § 11."
+  },
+  "steiner:1833": {
+    "author": "Jakob Steiner",
+    "work": "Die geometrischen Constructionen, ausgeführt mittelst der geraden Linie und eines festen Kreises",
+    "locus": "Berlin",
+    "year": "1833",
+    "publisher": "Ferdinand Dümmler",
+    "note": "Poncelet–Steiner fixed-circle theorem generalized and refined by Hilbert in Chapter VII (§§ 36–39)."
+  },
+  "stolz:1894": {
+    "author": "Otto Stolz",
+    "work": "Die ebenen Vielecke und die Winkel mit Einschluss der Berührungswinkel als Systeme von absoluten Grössen",
+    "locus": "Monatshefte für Mathematik und Physik, Jahrg. 5, pp. 233–240",
+    "year": "1894",
+    "publisher": "Wien",
+    "note": "Cited by Hilbert in § 12 and § 18 on non-Archimedean magnitudes and polygon area equivalence."
+  },
+  "veronese:1894": {
+    "author": "Giuseppe Veronese",
+    "work": "Grundzüge der Geometrie von mehreren Dimensionen und mehreren Arten gradliniger Einheiten in elementarer Form entwickelt (trans. A. Schepp)",
+    "locus": "Leipzig (Italian original: Fondamenti di geometria, Padova, 1891)",
+    "year": "1891 / 1894",
+    "publisher": "B. G. Teubner, Leipzig",
+    "note": "Synthetic investigation of non-Archimedean geometry cited by Hilbert in § 12."
+  },
+  "wiener:1891": {
+    "author": "Hermann Wiener",
+    "work": "Über Grundlagen und Aufbau der Geometrie / Weiteres über Grundlagen und Aufbau der Geometrie",
+    "locus": "Jahresbericht der Deutschen Mathematiker-Vereinigung, Bd. 1 (1891), pp. 45–48; Bd. 3 (1893), pp. 70–80",
+    "year": "1891–1893",
+    "publisher": "Georg Reimer, Berlin",
+    "note": "Proposed Desargues's and Pascal's (Pappus's) theorems as incidence-based foundations of projective geometry, directly motivating Hilbert's Chapters III, V, and VI."
+  }
+}

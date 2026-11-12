@@ -1,0 +1,53 @@
+{
+  "work": {
+    "title_de": "Grundlagen der Geometrie",
+    "title_en": "The Foundations of Geometry",
+    "author": "David Hilbert",
+    "translator_en": "Edgar Jerome Townsend",
+    "original_year": 1899,
+    "english_edition_year": 1902,
+    "later_reference_editions": [
+      "1900 French translation by L. Laugel (Gauthier-Villars, Paris) — adds Axiom of Completeness (Vollständigkeit) and Max Dehn's Conclusion note",
+      "1903 Second German Edition (B. G. Teubner, Leipzig) — incorporates Vollständigkeitsaxiom (V 2) and Dehn's non-Archimedean polyhedra theorem",
+      "1930 Seventh German Edition (B. G. Teubner, Leipzig) — swaps Groups III (Congruence) and IV (Parallels), drops redundant Axiom II 4 (becoming Satz 5, shifting 1899 Satz 4 to Satz 6), renames flächengleich to zerlegungsgleich, and specializes Streckenübertrager to Eichmass; cited by P. Hoenen, S.J. (1954)"
+    ]
+  },
+  "sources": [
+    {
+      "id": "townsend-1902-en",
+      "language": "en",
+      "filename": "resources/grundlagen/sources/gutenberg_17384_townsend_1902.tex",
+      "title": "The Foundations of Geometry",
+      "author": "David Hilbert",
+      "translator": "E. J. Townsend, Ph.D. (University of Illinois)",
+      "publisher": "The Open Court Publishing Company, Chicago (London: Kegan Paul, Trench, Trübner & Co., Ltd.)",
+      "year": 1902,
+      "archive_provider": "Project Gutenberg",
+      "archive_id": "17384",
+      "url": "https://www.gutenberg.org/files/17384/17384-t/17384-t.tex",
+      "rights": "Public Domain in the United States and worldwide (published 1902; Project Gutenberg eBook #17384, prepared by Joshua Hutchinson, John Hagerson, and the Online Distributed Proofreading Team, December 25, 2005).",
+      "sha256": "bdeb9914b3bcb32247a8127c1dcc5b70cd2872692d7b02c89330c06d1a7b43a9",
+      "bytes": 246406,
+      "lines": 6200,
+      "notes": "Complete LaTeX source of Townsend's authorized 1902 English translation (incorporating Hilbert's 1900 French additions: the Remark on the Axiom of Completeness in § 8, the Max Dehn paragraphs in the Conclusion, and Townsend's Appendix summarizing Hilbert's 1902 Mathematische Annalen paper on Lie transformation groups). Trailing pdflatex compilation log after \\end{document} stripped cleanly."
+    },
+    {
+      "id": "teubner-1899-de",
+      "language": "de",
+      "filename": "resources/grundlagen/sources/ia_grundlagendergeo00hilb_teubner_1899.txt",
+      "title": "Festschrift zur Feier der Enthüllung des Gauss-Weber-Denkmals in Göttingen — Erster Theil: Grundlagen der Geometrie",
+      "author": "David Hilbert",
+      "publisher": "Verlag von B. G. Teubner, Leipzig",
+      "year": 1899,
+      "archive_provider": "Internet Archive (University of California Libraries digitization)",
+      "archive_id": "grundlagendergeo00hilb",
+      "url": "https://archive.org/download/grundlagendergeo00hilb/grundlagendergeo00hilb_djvu.txt",
+      "details_url": "https://archive.org/details/grundlagendergeo00hilb",
+      "rights": "Public Domain (published June 1899; author died 1943).",
+      "sha256": "47e538718c41c8a202c724e84cb9e96bb1ef0d201a2d5c4fe22a8b221dd7cac6",
+      "bytes": 191744,
+      "lines": 4952,
+      "notes": "Complete DjVu OCR text of the 1899 Göttingen Festschrift First Edition (pp. 1–92). Note on archival disambiguation: Project Gutenberg #22062 is John Dee's Mathematicall Praeface (1570), not Hilbert; Internet Archive 'grundlagendergeo00hilb' provides the authentic 1899 Teubner Festschrift edition matching Townsend's 1902 section (§§ 1–39), axiom-group (I Connection, II Order, III Parallels, IV Congruence, V Continuity), and theorem (Sätze 1–44) numbering."
+    }
+  ]
+}
