@@ -28,6 +28,11 @@ namespaces = true
 [tool.setuptools.dynamic]
 version = {attr = "geometor.hilbert.__version__"}
 
+[project.urls]
+"Website" = "https://geometor.github.io/hilbert"
+"Repository" = "https://github.com/geometor/hilbert"
+"Issues" = "https://github.com/geometor/hilbert/issues"
+
 [tool.pytest.ini_options]
 pythonpath = ["src"]
 testpaths = ["tests"]
