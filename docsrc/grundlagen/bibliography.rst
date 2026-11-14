@@ -1,9 +1,12 @@
 :layout: book
+:navigation: header
+:order: 6
+:nav_title: Bibliography
 
 .. _bibliography:
 
-Systematic Bibliography
-=======================
+Bibliography
+============
 
 .. rubric:: Primary Editions, Classical Treatises & Foundational Commentaries
 

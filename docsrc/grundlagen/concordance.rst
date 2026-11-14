@@ -1,9 +1,11 @@
 :layout: book
+:navigation: footer
+:nav_title: Concordance
 
 .. _concordance:
 
-Euclid–Hoenen–Hilbert–Pappus Concordance
-========================================
+Concordance
+===========
 
 .. rubric:: Structured cross-repository concordance mapping David Hilbert's Grundlagen der Geometrie (1899 / 1902) across Euclid's Elements (Heath 1908 & GEOMETOR elements), Petrus Hoenen's De Noetica Geometriae (1954), and Pappus of Alexandria's Synagoge Book VII.
 

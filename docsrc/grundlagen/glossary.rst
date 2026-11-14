@@ -1,9 +1,11 @@
 :layout: book
+:navigation: footer
+:nav_title: Glossary
 
 .. _glossary:
 
-Mathematical & Philosophical Glossary
-=====================================
+Glossary
+========
 
 .. rubric:: Bilingual & Classical Technical Terminology (*Deutsch · English · Greek · Latin*)
 
