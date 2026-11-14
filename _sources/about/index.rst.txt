@@ -1,10 +1,10 @@
 :navigation: footer
 :order: 10
+:nav_title: About
 
 .. _about-index:
 
-=====
-about
+About
 =====
 
 Historical, philological, and archival provenance for ``geometor.hilbert``.
