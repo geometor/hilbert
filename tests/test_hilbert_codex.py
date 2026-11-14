@@ -36,7 +36,7 @@ EXPECTED_FIGURES = {
 
 def test_package_version() -> None:
     """Package exposes a semantic version string."""
-    assert __version__ == "0.1.1"
+    assert __version__ == "0.1.3"
 
 
 def test_sources_manifest_sha256_integrity() -> None:
