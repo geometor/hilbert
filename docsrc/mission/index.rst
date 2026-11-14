@@ -1,8 +1,8 @@
 :navigation: header
 :order: 10
+:nav_title: Mission
 
-=======
-mission
+Mission
 =======
 
 ``geometor.hilbert`` establishes a rigorous, verbatim, bilingual digital critical edition of **David Hilbert's** *Grundlagen der Geometrie* (*The Foundations of Geometry*, 1899 / 1902) as the axiomatic and metamathematical keystone of the **GEOMETOR** classical canon.

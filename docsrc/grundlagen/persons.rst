@@ -1,11 +1,36 @@
 :layout: book
+:navigation: header
+:order: 5
+:nav_title: People
 
 .. _persons:
 
-Index of Persons
-================
+People
+======
 
-.. rubric:: Prosopographical Registry of Mathematicians & Philosophers
+.. rubric:: Authors, Translators & Cited Geometers in the Hilbert Axiomatic Tradition
+
+Every inline ``:person:`` reference across the codex resolves directly below.
+
+----
+
+Authors, Translators & Editors
+------------------------------
+
+.. _person-hilbert:
+
+**David Hilbert** (1862 – 1943) — *German Mathematician & Professor at Göttingen*
+   Delivered his Göttingen lectures on the elements of Euclidean geometry in winter 1898–1899 and published Grundlagen der Geometrie in June 1899 for the unveiling of the Gauss–Weber Monument, inaugurating modern axiomatics, model-theoretic independence proofs, geometric algebra (Streckenrechnung), and metamathematics.
+
+.. _person-townsend:
+
+**Edgar Jerome Townsend** (1864 – 1955) — *American Mathematician & Authorized English Translator of Hilbert*
+   Earned his Ph.D. under David Hilbert at Göttingen in 1900 (Über den Begriff und die Anwendung des Doppellimes) before serving as Professor and Dean at the University of Illinois; prepared the authorized 1902 English edition The Foundations of Geometry (Open Court, Chicago), incorporating Hilbert's 1900 additions and an Appendix on Lie groups.
+
+----
+
+Cited Geometers, Philosophers & Scholars
+----------------------------------------
 
 .. _person-archimedes:
 
@@ -91,11 +116,6 @@ Index of Persons
 
 **Hermann von Helmholtz** (1821 – 1894) — *German Physicist, Physiologist & Philosopher of Science*
    Initiated the group-theoretic characterization of space ('Über die Thatsachen, die der Geometrie zum Grunde liegen', 1868) through free mobility of rigid bodies—refined by Sophus Lie and re-examined topologically by Hilbert in the 1902 Appendix.
-
-.. _person-hilbert:
-
-**David Hilbert** (1862 – 1943) — *German Mathematician & Professor at Göttingen*
-   Delivered his Göttingen lectures on the elements of Euclidean geometry in winter 1898–1899 and published Grundlagen der Geometrie in June 1899 for the unveiling of the Gauss–Weber Monument, inaugurating modern axiomatics, model-theoretic independence proofs, geometric algebra (Streckenrechnung), and metamathematics.
 
 .. _person-hoenen:
 
@@ -226,11 +246,6 @@ Index of Persons
 
 **Otto Stolz** (1842 – 1905) — *Austrian Mathematician*
    Investigated non-Archimedean magnitudes (1883, prior to Veronese) and published 'Die ebenen Vielecke und die Winkel mit Einschluss der Berührungswinkel als Systeme von absoluten Grössen' (Monatshefte für Mathematik und Physik, 1894), cited by Hilbert in §§ 12 and 18 on Archimedes's Axiom and polygonal area.
-
-.. _person-townsend:
-
-**Edgar Jerome Townsend** (1864 – 1955) — *American Mathematician & Authorized English Translator of Hilbert*
-   Earned his Ph.D. under David Hilbert at Göttingen in 1900 (Über den Begriff und die Anwendung des Doppellimes) before serving as Professor and Dean at the University of Illinois; prepared the authorized 1902 English edition The Foundations of Geometry (Open Court, Chicago), incorporating Hilbert's 1900 additions and an Appendix on Lie groups.
 
 .. _person-veronese:
 

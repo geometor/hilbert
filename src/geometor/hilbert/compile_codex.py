@@ -157,20 +157,31 @@ def _build_notes_unit(unit: dict[str, Any], apparatus: HilbertApparatus) -> str:
 
 
 def _build_grundlagen_index() -> str:
-    """Generate `docsrc/grundlagen/index.rst` (`:layout: book` Conspectus & hidden track toctrees)."""
+    """Generate `docsrc/grundlagen/index.rst` (`:layout: book` Table of Contents & hidden track toctrees)."""
     parts: list[str] = [
         ":layout: book",
+        ":navigation: header",
+        ":order: 1",
+        ":nav_title: Foundations of Geometry",
+        ":book_title: Foundations of Geometry",
+        ":book_subtitle: Grundlagen der Geometrie — David Hilbert (1899 / 1902)",
+        ":author: David Hilbert",
+        ":year: 1899",
         "",
         ".. _grundlagen-index:",
         "",
-        "GRUNDLAGEN DER GEOMETRIE",
-        "========================",
+        "Foundations of Geometry",
+        "=======================",
         "",
-        ".. rubric:: *The Foundations of Geometry* — David Hilbert (1899 / 1902)",
+        ".. rubric:: *Grundlagen der Geometrie* — David Hilbert (1899 / 1902)",
         "",
-        "| **Editio Princeps (Deutsch, 1899):** *Festschrift zur Feier der Enthüllung des Gauss-Weber-Denkmals in Göttingen*, Erster Theil, B. G. Teubner, Leipzig, 1899.",
-        "| **Authorized English Edition (1902):** Translated by *Edgar Jerome Townsend*, Ph.D., The Open Court Publishing Company, Chicago, 1902 (with Hilbert's 1900–1902 additions).",
-        "| **Digital Critical Codex:** Synchronized 4-track edition (*English · Deutsch · Summary · Notes*) curated within the GEOMETOR canon.",
+        ".. container:: title-page",
+        "",
+        "   | **Author:** :person:`David Hilbert <hilbert>` (1862–1943)",
+        "   | **Authorized Translation:** :person:`Edgar Jerome Townsend <townsend>` (1902)",
+        "   | **First German Edition (1899):** *Festschrift zur Feier der Enthüllung des Gauss-Weber-Denkmals in Göttingen*, Erster Theil, B. G. Teubner, Leipzig, 1899.",
+        "   | **Authorized English Edition (1902):** Translated by *Edgar Jerome Townsend*, Ph.D., The Open Court Publishing Company, Chicago, 1902 (with Hilbert's 1900–1902 additions).",
+        "   | **Digital Critical Codex:** Synchronized 4-track edition (*English · Deutsch · Summary · Notes*) curated within the GEOMETOR canon.",
         "",
         ".. epigraph::",
         "",
@@ -182,8 +193,10 @@ def _build_grundlagen_index() -> str:
         "",
         "----",
         "",
-        "Conspectus Totius Operis",
-        "------------------------",
+        ".. _table-of-contents:",
+        "",
+        "Table of Contents",
+        "-----------------",
         "",
     ]
 
@@ -222,17 +235,17 @@ def _build_grundlagen_index() -> str:
         [
             "----",
             "",
-            "Apparatus Criticus & Cross-Repository Indices",
-            "---------------------------------------------",
+            "Scholarly Apparatus",
+            "-------------------",
             "",
             ("* :ref:`Euclid–Hoenen–Hilbert–Pappus Master Concordance <concordance>` — "
             "Section-by-section cross-mapping across ``geometor/euclid``, ``geometor/elements``, "
             "``geometor/hoenen``, and ``geometor/pappus``, including the 1899/1902 vs. 1930 7th-edition numbering table."),
-            ("* :ref:`Systematic Bibliography <bibliography>` — "
+            ("* :ref:`Bibliography <bibliography>` — "
             "Primary editions, historical sources, and foundational commentaries."),
-            ("* :ref:`Prosopographical Index of Persons <persons>` — "
+            ("* :ref:`People <persons>` — "
             "Geometers, algebraists, and philosophers cited across treatise and commentary."),
-            ("* :ref:`Bilingual Mathematical & Philosophical Glossary <glossary>` — "
+            ("* :ref:`Glossary <glossary>` — "
             "Technical German, Greek, Latin, and metamathematical terminology."),
             "",
             ".. toctree::",
@@ -281,7 +294,7 @@ def _build_grundlagen_index() -> str:
             ".. toctree::",
             "   :maxdepth: 1",
             "   :hidden:",
-            "   :caption: Critical Apparatus",
+            "   :caption: Scholarly Apparatus",
             "",
             "   concordance",
             "   bibliography",
@@ -298,11 +311,13 @@ def _build_concordance_rst(apparatus: HilbertApparatus) -> str:
     meta = apparatus.concordance_meta
     parts: list[str] = [
         ":layout: book",
+        ":navigation: footer",
+        ":nav_title: Concordance",
         "",
         ".. _concordance:",
         "",
-        "Euclid–Hoenen–Hilbert–Pappus Concordance",
-        "========================================",
+        "Concordance",
+        "===========",
         "",
         f".. rubric:: {meta.get('description', '')}",
         "",
@@ -436,11 +451,14 @@ def _build_bibliography_rst(citations: dict[str, dict[str, Any]]) -> str:
     """Generate `docsrc/grundlagen/bibliography.rst` with exact `.. _cite-<slug>:` anchors."""
     parts: list[str] = [
         ":layout: book",
+        ":navigation: header",
+        ":order: 6",
+        ":nav_title: Bibliography",
         "",
         ".. _bibliography:",
         "",
-        "Systematic Bibliography",
-        "=======================",
+        "Bibliography",
+        "============",
         "",
         ".. rubric:: Primary Editions, Classical Treatises & Foundational Commentaries",
         "",
@@ -477,17 +495,58 @@ def _build_persons_rst(persons: dict[str, dict[str, Any]]) -> str:
     """Generate `docsrc/grundlagen/persons.rst` with exact `.. _person-<slug>:` anchors."""
     parts: list[str] = [
         ":layout: book",
+        ":navigation: header",
+        ":order: 5",
+        ":nav_title: People",
         "",
         ".. _persons:",
         "",
-        "Index of Persons",
-        "================",
+        "People",
+        "======",
         "",
-        ".. rubric:: Prosopographical Registry of Mathematicians & Philosophers",
+        ".. rubric:: Authors, Translators & Cited Geometers in the Hilbert Axiomatic Tradition",
+        "",
+        "----",
+        "",
+        "Authors, Translators & Editors",
+        "------------------------------",
         "",
     ]
+    featured = ["hilbert", "townsend"]
+    for f_key in featured:
+        if f_key in persons:
+            item = persons[f_key]
+            slug = apparatus_slug(f_key)
+            name = item.get("name", f_key)
+            dates = item.get("dates", "")
+            role = item.get("role", "")
+            bio = item.get("bio", "")
+            header = f"**{name}** ({dates})" if dates else f"**{name}**"
+            if role:
+                header += f" — *{role}*"
+            parts.extend(
+                [
+                    f".. _person-{slug}:",
+                    "",
+                    header,
+                    f"   {bio}",
+                    "",
+                ]
+            )
+
+    parts.extend(
+        [
+            "----",
+            "",
+            "Cited Geometers, Philosophers & Scholars",
+            "----------------------------------------",
+            "",
+        ]
+    )
     sorted_items = sorted(persons.items(), key=lambda kv: kv[0])
     for key, item in sorted_items:
+        if key in featured:
+            continue
         slug = apparatus_slug(key)
         name = item.get("name", key)
         dates = item.get("dates", "")
@@ -512,11 +571,13 @@ def _build_glossary_rst(glossary: dict[str, dict[str, Any]]) -> str:
     """Generate `docsrc/grundlagen/glossary.rst` with exact `.. _term-<slug>:` anchors."""
     parts: list[str] = [
         ":layout: book",
+        ":navigation: footer",
+        ":nav_title: Glossary",
         "",
         ".. _glossary:",
         "",
-        "Mathematical & Philosophical Glossary",
-        "=====================================",
+        "Glossary",
+        "========",
         "",
         ".. rubric:: Bilingual & Classical Technical Terminology (*Deutsch · English · Greek · Latin*)",
         "",
