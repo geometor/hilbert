@@ -46,7 +46,7 @@
           <a href="../grundlagen/bibliography.html"  >Bibliography</a>
         </li>
         <li>
-          <a href="../mission/index.html"  >Mission</a>
+          <a href="#" class="is-active" aria-selected="true" aria-current="page">About</a>
         </li>
         <li>
           <a href="../usage/index.html"  >Usage</a>
@@ -73,25 +73,53 @@
         </div>
         <div class="book-header-nav">
           <div class="book-nav-prev">
-            <a class="book-nav-btn" href="../modules/api/geometor/hilbert/parser_en/index.html" title="geometor.hilbert.parser_en">&larr; <span class="nav-label">Prev</span></a>
+            <a class="book-nav-btn" href="../index.html" title="GEOMETOR • hilbert">&larr; <span class="nav-label">Prev</span></a>
           </div>
           <div class="book-nav-center">
           </div>
           <div class="book-nav-next">
+            <a class="book-nav-btn" href="../grundlagen/index.html" title="Foundations of Geometry"><span class="nav-label">Next</span> &rarr;</a>
           </div>
         </div>
       </header>
       <div class="content body book-content" role="main">
-        <section class="level-1" id="about">
-        <span id="about-index"></span><h1>About<a class="headerlink" href="#about" title="Link to this heading">¶</a></h1>
-        <p>Historical, philological, and archival provenance for <code class="docutils literal notranslate"><span class="pre">geometor.hilbert</span></code>.</p>
-        <section class="level-2" id="primary-textual-witnesses">
-        <h2>Primary Textual Witnesses<a class="headerlink" href="#primary-textual-witnesses" title="Link to this heading">¶</a></h2>
-        <ul class="simple">
+        <section class="level-1" id="hilbert-about">
+        <span id="about-hilbert"></span><span id="about-index"></span><span id="about"></span><span id="id1"></span><h1>About<a class="headerlink" href="#hilbert-about" title="Link to this heading">¶</a></h1>
+        <p class="rubric">Extracting Historical Semantic Knowledge &amp; Repurposing It for Exact Symbolic Reasoning</p>
+        <section class="level-2" id="about-this-edition">
+        <h2>About This Edition<a class="headerlink" href="#about-this-edition" title="Link to this heading">¶</a></h2>
+        <p><em>GEOMETOR hilbert</em> reconstructs the axiomatic and metamathematical keystone of modern geometry: <span class="person-ref" data-person="hilbert" title="David Hilbert (1862 – 1943) — German Mathematician &amp; Professor at Göttingen">David Hilbert</span>’s landmark treatise <em>Grundlagen der Geometrie</em> (<em>The Foundations of Geometry</em>). Published in June 1899 as Part I of the <em>Festschrift zur Feier der Enthüllung des Gauss-Weber-Denkmals in Göttingen</em> by B. G. Teubner, and authorized for English translation by <span class="person-ref" data-person="townsend" title="Edgar Jerome Townsend (1864 – 1955) — American Mathematician &amp; Authorized English Translator of Hilbert">Edgar Jerome Townsend</span> in 1902 (The Open Court Publishing Company), Hilbert’s work established the modern axiomatic method. By detaching geometric entities from sensory intuition and establishing formal relation systems across five rigorous axiom groups (incidence, betweenness, congruence, parallels, and continuity), Hilbert demonstrated the independence, consistency, and structural limits of geometric deduction.</p>
+        <p>Every definition, axiom, theorem (§§ 1–39, Theorems 1–44), and independence model has been extracted into structured, machine-addressable semantic elements. The edition presents a synchronized four-track Book Codex aligning the 1899 German <em>editio princeps</em> with Townsend’s 1902 authorized translation (including Hilbert’s 1900 completeness axiom <em>Vollständigkeitsaxiom</em>, Max Dehn’s non-Legendrian analysis, and the 1902 transformation group appendix). Geometric figures from the original Teubner edition have been reconstructed as calibrated, resolution-independent vector graphics, and Hilbert’s segment arithmetic (<em>Streckenrechnung</em>) and algebraic number fields (<span class="math notranslate nohighlight">\(\Omega\)</span>, <span class="math notranslate nohighlight">\(\Omega(t)\)</span>) are linked directly to exact symbolic algebra.</p>
+        <p>Within the GEOMETOR canon, <em>hilbert</em> serves as the critical meta-axiomatic horizon. It provides the logical framework underpinning <span class="citation-ref" data-cite="euclid_elements" title="Citation: euclid_elements">Euclid's Elements</span> (<a class="reference external" href="https://geometor.github.io/elements/modules/index.html#module-geometor.elements" title="(in GEOMETOR • elements v0.4.1)"><code class="xref py py-mod docutils literal notranslate"><span class="pre">geometor.elements</span></code></a> and <code class="xref py py-mod docutils literal notranslate"><span class="pre">geometor.euclid</span></code>), links to the projective Pappus-Desargues configurations of <code class="xref py py-mod docutils literal notranslate"><span class="pre">geometor.pappus</span></code>, and interfaces directly with the epistemological critique of <span class="person-ref" data-person="hoenen" title="Petrus Hubertus Jacobus Hoenen, S.J. (1880 – 1961) — Dutch Jesuit Philosopher of Science &amp; Professor at the Gregorian University">Fr. Peter Hoenen, S.J.</span> (<em>De Noetica Geometriae</em>, 1954). Through the computational infrastructure of GEOMETOR, Hilbert’s minimal countable Pythagorean coordinate fields and segment calculi become living, inspectable algebraic systems.</p>
+        </section>
+        <section class="level-2" id="the-geometor-mission">
+        <h2>The GEOMETOR Mission<a class="headerlink" href="#the-geometor-mission" title="Link to this heading">¶</a></h2>
+        <p>Founded and directed by <strong>phi ARCHITECT</strong>, the GEOMETOR initiative is dedicated to the systematic digitization, symbolic formalization, and multi-medium re-articulation of classical geometric and axiomatic literature across 2,300+ years of mathematical history. GEOMETOR bridges historical philology and modern computational geometry through three structural pillars:</p>
+        <dl class="simple">
+        <dt>Extracting Historical Semantic Knowledge</dt><dd><p>Moving beyond passive page scans and lossy optical character recognition (OCR), GEOMETOR recovers the living deductive architecture of classical, Renaissance, and modern mathematical treatises. Enunciations, geometric constructions, proof steps, axiomatic justifications, marginal citations, primary-source folios (rendered dynamically through <code class="docutils literal notranslate"><span class="pre">publish</span> <span class="pre">folio</span></code>), and calibrated Ink-to-Vector <code class="docutils literal notranslate"><span class="pre">.euclid-graphic</span></code> diagrams are converted into structured, machine-addressable semantic graphs.</p>
+        </dd>
+        <dt>Exact Symbolic Grounding (<code class="docutils literal notranslate"><span class="pre">geometor.model</span></code>)</dt><dd><p>Eliminating floating-point approximation errors entirely, GEOMETOR anchors geometric constructions and center proofs in 100% exact symbolic algebra via <a class="reference external" href="https://docs.sympy.org/latest/index.html#module-sympy" title="(in SymPy v1.14.0)"><code class="xref py py-mod docutils literal notranslate"><span class="pre">sympy</span></code></a> and Rational Trigonometry invariants (quadrance, spread, cross-ratio) evaluated over exact algebraic number fields. Every center, line concurrence, circle intersection, and tangency condition is verified to exact symbolic zero.</p>
+        </dd>
+        <dt>Repurposing Knowledge Across Mediums</dt><dd><p>Extracted semantic and algebraic models are mobilized across synchronized multi-track Book Codices and EPUB 3 editions via <code class="docutils literal notranslate"><span class="pre">photon-platform/publish</span></code>, computable deductive canons (<a class="reference external" href="https://geometor.github.io/elements/modules/index.html#module-geometor.elements" title="(in GEOMETOR • elements v0.4.1)"><code class="xref py py-mod docutils literal notranslate"><span class="pre">geometor.elements</span></code></a>, <code class="xref py py-mod docutils literal notranslate"><span class="pre">geometor.etc</span></code>, <code class="xref py py-mod docutils literal notranslate"><span class="pre">geometor.pappus</span></code>, <code class="xref py py-mod docutils literal notranslate"><span class="pre">geometor.divine</span></code>), interactive SVG laboratories (<code class="xref py py-mod docutils literal notranslate"><span class="pre">geometor.explorer</span></code>), high-definition visual broadcasts, and neuro-symbolic program synthesis engines (<code class="xref py py-mod docutils literal notranslate"><span class="pre">geometor.seer</span></code>) across <a class="reference external" href="https://geometor.com">geometor.com</a>.</p>
+        </dd>
+        </dl>
+        </section>
+        <section class="level-2" id="sources-provenance-methodology">
+        <h2>Sources, Provenance &amp; Methodology<a class="headerlink" href="#sources-provenance-methodology" title="Link to this heading">¶</a></h2>
+        <p>This edition is established upon verified primary textual witnesses and systematic philological collation:</p>
+        <dl class="simple">
+        <dt>Primary Textual Witnesses</dt><dd><ul class="simple">
         <li><p><strong>1899 German Editio Princeps (B. G. Teubner, Leipzig)</strong>: Published in June 1899 as Part I (<em>Erster Theil</em>, pp. 1–92) of the <em>Festschrift zur Feier der Enthüllung des Gauss-Weber-Denkmals in Göttingen</em>, issued by the <em>Fest-Comitee</em> (together with Emil Wiechert’s <em>Grundlagen der Elektrodynamik</em>). Archived verbatim from Internet Archive identifier <code class="docutils literal notranslate"><span class="pre">grundlagendergeo00hilb</span></code> and verified by SHA-256 checksum in <code class="docutils literal notranslate"><span class="pre">resources/grundlagen/sources_manifest.json</span></code>. <em>(Philological note: Project Gutenberg eBook ``#22062`` is John Dee’s 1570 *Mathematicall Praeface</em> to Euclid, not Hilbert’s German text.)*</p></li>
         <li><p><strong>1902 Authorized English Translation (Open Court, Chicago)</strong>: Translated by <strong>Edgar Jerome Townsend</strong>, Ph.D. (University of Illinois), incorporating Hilbert’s additions from L. Laugel’s 1900 French edition (<em>Les principes fondamentaux de la géométrie</em>, Gauthier-Villars) and Hilbert’s 1902 <em>Mathematische Annalen</em> memoir on transformation groups. Archived verbatim from Project Gutenberg eBook <code class="docutils literal notranslate"><span class="pre">#17384</span></code>.</p></li>
         <li><p><strong>1930 Seventh German Edition Concordance</strong>: Because Fr. Peter Hoenen, S.J. (<em>De Noetica Geometriae</em>, 1954) cites Hilbert’s revised 7th edition (1930)—in which Groups III and IV are swapped, Axiom <code class="docutils literal notranslate"><span class="pre">II</span> <span class="pre">4</span></code> is demoted to <em>Satz 5</em> after E. H. Moore’s 1902 redundancy proof, <em>flächengleich</em> is renamed <em>zerlegungsgleich</em>, and <em>Streckenübertrager</em> is specialized to <em>Eichmass</em>—every shift is explicitly mapped in the <a class="reference internal" href="../grundlagen/concordance.html#concordance"><span class="std std-ref">Master Concordance</span></a> and unit <a class="reference internal" href="../grundlagen/chapter-1/chapter-1-notes.html#grundlagen-chapter-1-notes"><span class="std std-ref">Notes</span></a>.</p></li>
         </ul>
+        </dd>
+        <dt>Digital Scriptorium Methodology</dt><dd><ul class="simple">
+        <li><p><strong>Four-Track Synchronized Codex</strong>: Readers can inspect each section across parallel tracks: Townsend 1902 English translation, Teubner 1899 German text, chapter synopses, and scholarly commentary.</p></li>
+        <li><p><strong>Scholarly &amp; Cross-Repository Apparatus</strong>: For full bibliographical citations, see <a class="reference internal" href="../grundlagen/bibliography.html"><span class="doc">Bibliography</span></a>; for biographical notes on figures cited throughout the treatise, see <a class="reference internal" href="../grundlagen/persons.html"><span class="doc">People</span></a>; for mathematical and philological terminology, see <a class="reference internal" href="../grundlagen/glossary.html"><span class="doc">Glossary</span></a>; and for cross-treatise mapping with Euclid, Hoenen, and Pappus, see <a class="reference internal" href="../grundlagen/concordance.html#concordance"><span class="std std-ref">Concordance</span></a>.</p></li>
+        </ul>
+        </dd>
+        </dl>
         </section>
         </section>
 
@@ -100,12 +128,13 @@
         <div class="book-footer-ornament">&#10086;</div>
         <div class="book-footer-nav">
           <div class="book-nav-prev">
-            <a class="book-nav-btn" href="../modules/api/geometor/hilbert/parser_en/index.html" title="geometor.hilbert.parser_en">&larr; <span class="nav-label">geometor.hilbert.parser_en</span></a>
+            <a class="book-nav-btn" href="../index.html" title="GEOMETOR • hilbert">&larr; <span class="nav-label">GEOMETOR • hilbert</span></a>
           </div>
           <div class="book-nav-center">
             <a class="book-toc-link" href="../index.html">GEOMETOR • hilbert</a>
           </div>
           <div class="book-nav-next">
+            <a class="book-nav-btn" href="../grundlagen/index.html" title="Foundations of Geometry"><span class="nav-label">Foundations of Geometry</span> &rarr;</a>
           </div>
         </div>
       </footer>
@@ -136,7 +165,6 @@
       <ul>
         <li><a href="../grundlagen/concordance.html"  >Concordance</a></li>
         <li><a href="../grundlagen/glossary.html"  >Glossary</a></li>
-        <li><a href="#" class="is-active" aria-selected="true" aria-current="page">About</a></li>
       </ul>
     </div>
     <hr />
@@ -149,11 +177,12 @@
 
   <script src="../_static/jquery.js?v=5d32c60e"></script>
   <script src="../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
-  <script src="../_static/documentation_options.js?v=92734c54"></script>
+  <script src="../_static/documentation_options.js?v=360bc84d"></script>
   <script src="../_static/doctools.js?v=fd6eb6e6"></script>
   <script src="../_static/sphinx_highlight.js?v=6ffebe34"></script>
   <script src="../_static/js/collection_controls.js?v=b6b5297a"></script>
   <script src="../_static/js/geometor_interactive.js?v=b2892320"></script>
+  <script defer="defer" src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-mml-chtml.js"></script>
   <script src="../_static/js/search_highlight.js"></script>
 
 </body>

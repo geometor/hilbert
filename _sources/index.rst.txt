@@ -27,9 +27,8 @@ Hilbert's epoch-making axiomatic reconstruction of Euclidean, non-Euclidean, non
 Context & Architecture
 ----------------------
 
-* :doc:`Mission & Axiomatic Vision <mission/index>`
-* :doc:`Reader's Guide & Verification API <usage/index>`
 * :doc:`About This Critical Edition & Archival Provenance <about/index>`
+* :doc:`Reader's Guide & Verification API <usage/index>`
 * :doc:`Python Package & Concordance API <modules/index>`
 * :doc:`Development & Curation Log <log/index>`
 
@@ -37,11 +36,10 @@ Context & Architecture
    :maxdepth: 2
    :hidden:
 
+   about/index
    grundlagen/index
    grundlagen/persons
    grundlagen/bibliography
-   mission/index
    usage/index
    log/index
    modules/index
-   about/index
