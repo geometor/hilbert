@@ -1,0 +1,222 @@
+{
+  "Einleitung": {
+    "de": "resources/grundlagen/sources/ia_grundlagendergeo00hilb_teubner_1899.txt#L90",
+    "en": "resources/grundlagen/sources/gutenberg_17384_townsend_1902.tex#L319",
+    "default": "resources/grundlagen/sources/ia_grundlagendergeo00hilb_teubner_1899.txt#L90"
+  },
+  "Introduction": {
+    "de": "resources/grundlagen/sources/ia_grundlagendergeo00hilb_teubner_1899.txt#L90",
+    "en": "resources/grundlagen/sources/gutenberg_17384_townsend_1902.tex#L319",
+    "default": "resources/grundlagen/sources/gutenberg_17384_townsend_1902.tex#L319"
+  },
+  "§ 1": {
+    "de": "resources/grundlagen/sources/ia_grundlagendergeo00hilb_teubner_1899.txt#L123",
+    "en": "resources/grundlagen/sources/gutenberg_17384_townsend_1902.tex#L346",
+    "default": "resources/grundlagen/sources/ia_grundlagendergeo00hilb_teubner_1899.txt#L123"
+  },
+  "§ 2": {
+    "de": "resources/grundlagen/sources/ia_grundlagendergeo00hilb_teubner_1899.txt#L160",
+    "en": "resources/grundlagen/sources/gutenberg_17384_townsend_1902.tex#L380",
+    "default": "resources/grundlagen/sources/ia_grundlagendergeo00hilb_teubner_1899.txt#L160"
+  },
+  "§ 3": {
+    "de": "resources/grundlagen/sources/ia_grundlagendergeo00hilb_teubner_1899.txt#L226",
+    "en": "resources/grundlagen/sources/gutenberg_17384_townsend_1902.tex#L460",
+    "default": "resources/grundlagen/sources/ia_grundlagendergeo00hilb_teubner_1899.txt#L226"
+  },
+  "§ 4": {
+    "de": "resources/grundlagen/sources/ia_grundlagendergeo00hilb_teubner_1899.txt#L300",
+    "en": "resources/grundlagen/sources/gutenberg_17384_townsend_1902.tex#L539",
+    "default": "resources/grundlagen/sources/ia_grundlagendergeo00hilb_teubner_1899.txt#L300"
+  },
+  "§ 5": {
+    "de": "resources/grundlagen/sources/ia_grundlagendergeo00hilb_teubner_1899.txt#L436",
+    "en": "resources/grundlagen/sources/gutenberg_17384_townsend_1902.tex#L682",
+    "default": "resources/grundlagen/sources/ia_grundlagendergeo00hilb_teubner_1899.txt#L436"
+  },
+  "§ 6": {
+    "de": "resources/grundlagen/sources/ia_grundlagendergeo00hilb_teubner_1899.txt#L472",
+    "en": "resources/grundlagen/sources/gutenberg_17384_townsend_1902.tex#L724",
+    "default": "resources/grundlagen/sources/ia_grundlagendergeo00hilb_teubner_1899.txt#L472"
+  },
+  "§ 7": {
+    "de": "resources/grundlagen/sources/ia_grundlagendergeo00hilb_teubner_1899.txt#L602",
+    "en": "resources/grundlagen/sources/gutenberg_17384_townsend_1902.tex#L878",
+    "default": "resources/grundlagen/sources/ia_grundlagendergeo00hilb_teubner_1899.txt#L602"
+  },
+  "§ 8": {
+    "de": "resources/grundlagen/sources/ia_grundlagendergeo00hilb_teubner_1899.txt#L944",
+    "en": "resources/grundlagen/sources/gutenberg_17384_townsend_1902.tex#L1249",
+    "default": "resources/grundlagen/sources/ia_grundlagendergeo00hilb_teubner_1899.txt#L944"
+  },
+  "§ 9": {
+    "de": "resources/grundlagen/sources/ia_grundlagendergeo00hilb_teubner_1899.txt#L983",
+    "en": "resources/grundlagen/sources/gutenberg_17384_townsend_1902.tex#L1323",
+    "default": "resources/grundlagen/sources/ia_grundlagendergeo00hilb_teubner_1899.txt#L983"
+  },
+  "§ 10": {
+    "de": "resources/grundlagen/sources/ia_grundlagendergeo00hilb_teubner_1899.txt#L1118",
+    "en": "resources/grundlagen/sources/gutenberg_17384_townsend_1902.tex#L1437",
+    "default": "resources/grundlagen/sources/ia_grundlagendergeo00hilb_teubner_1899.txt#L1118"
+  },
+  "§ 11": {
+    "de": "resources/grundlagen/sources/ia_grundlagendergeo00hilb_teubner_1899.txt#L1184",
+    "en": "resources/grundlagen/sources/gutenberg_17384_townsend_1902.tex#L1512",
+    "default": "resources/grundlagen/sources/ia_grundlagendergeo00hilb_teubner_1899.txt#L1184"
+  },
+  "§ 12": {
+    "de": "resources/grundlagen/sources/ia_grundlagendergeo00hilb_teubner_1899.txt#L1285",
+    "en": "resources/grundlagen/sources/gutenberg_17384_townsend_1902.tex#L1607",
+    "default": "resources/grundlagen/sources/ia_grundlagendergeo00hilb_teubner_1899.txt#L1285"
+  },
+  "§ 13": {
+    "de": "resources/grundlagen/sources/ia_grundlagendergeo00hilb_teubner_1899.txt#L1379",
+    "en": "resources/grundlagen/sources/gutenberg_17384_townsend_1902.tex#L1699",
+    "default": "resources/grundlagen/sources/ia_grundlagendergeo00hilb_teubner_1899.txt#L1379"
+  },
+  "§ 14": {
+    "de": "resources/grundlagen/sources/ia_grundlagendergeo00hilb_teubner_1899.txt#L1499",
+    "en": "resources/grundlagen/sources/gutenberg_17384_townsend_1902.tex#L1833",
+    "default": "resources/grundlagen/sources/ia_grundlagendergeo00hilb_teubner_1899.txt#L1499"
+  },
+  "§ 15": {
+    "de": "resources/grundlagen/sources/ia_grundlagendergeo00hilb_teubner_1899.txt#L1773",
+    "en": "resources/grundlagen/sources/gutenberg_17384_townsend_1902.tex#L2113",
+    "default": "resources/grundlagen/sources/ia_grundlagendergeo00hilb_teubner_1899.txt#L1773"
+  },
+  "§ 16": {
+    "de": "resources/grundlagen/sources/ia_grundlagendergeo00hilb_teubner_1899.txt#L1944",
+    "en": "resources/grundlagen/sources/gutenberg_17384_townsend_1902.tex#L2272",
+    "default": "resources/grundlagen/sources/ia_grundlagendergeo00hilb_teubner_1899.txt#L1944"
+  },
+  "§ 17": {
+    "de": "resources/grundlagen/sources/ia_grundlagendergeo00hilb_teubner_1899.txt#L2061",
+    "en": "resources/grundlagen/sources/gutenberg_17384_townsend_1902.tex#L2403",
+    "default": "resources/grundlagen/sources/ia_grundlagendergeo00hilb_teubner_1899.txt#L2061"
+  },
+  "§ 18": {
+    "de": "resources/grundlagen/sources/ia_grundlagendergeo00hilb_teubner_1899.txt#L2203",
+    "en": "resources/grundlagen/sources/gutenberg_17384_townsend_1902.tex#L2540",
+    "default": "resources/grundlagen/sources/ia_grundlagendergeo00hilb_teubner_1899.txt#L2203"
+  },
+  "§ 19": {
+    "de": "resources/grundlagen/sources/ia_grundlagendergeo00hilb_teubner_1899.txt#L2282",
+    "en": "resources/grundlagen/sources/gutenberg_17384_townsend_1902.tex#L2649",
+    "default": "resources/grundlagen/sources/ia_grundlagendergeo00hilb_teubner_1899.txt#L2282"
+  },
+  "§ 20": {
+    "de": "resources/grundlagen/sources/ia_grundlagendergeo00hilb_teubner_1899.txt#L2375",
+    "en": "resources/grundlagen/sources/gutenberg_17384_townsend_1902.tex#L2766",
+    "default": "resources/grundlagen/sources/ia_grundlagendergeo00hilb_teubner_1899.txt#L2375"
+  },
+  "§ 21": {
+    "de": "resources/grundlagen/sources/ia_grundlagendergeo00hilb_teubner_1899.txt#L2537",
+    "en": "resources/grundlagen/sources/gutenberg_17384_townsend_1902.tex#L2951",
+    "default": "resources/grundlagen/sources/ia_grundlagendergeo00hilb_teubner_1899.txt#L2537"
+  },
+  "§ 22": {
+    "de": "resources/grundlagen/sources/ia_grundlagendergeo00hilb_teubner_1899.txt#L2685",
+    "en": "resources/grundlagen/sources/gutenberg_17384_townsend_1902.tex#L3100",
+    "default": "resources/grundlagen/sources/ia_grundlagendergeo00hilb_teubner_1899.txt#L2685"
+  },
+  "§ 23": {
+    "de": "resources/grundlagen/sources/ia_grundlagendergeo00hilb_teubner_1899.txt#L2783",
+    "en": "resources/grundlagen/sources/gutenberg_17384_townsend_1902.tex#L3211",
+    "default": "resources/grundlagen/sources/ia_grundlagendergeo00hilb_teubner_1899.txt#L2783"
+  },
+  "§ 24": {
+    "de": "resources/grundlagen/sources/ia_grundlagendergeo00hilb_teubner_1899.txt#L2955",
+    "en": "resources/grundlagen/sources/gutenberg_17384_townsend_1902.tex#L3391",
+    "default": "resources/grundlagen/sources/ia_grundlagendergeo00hilb_teubner_1899.txt#L2955"
+  },
+  "§ 25": {
+    "de": "resources/grundlagen/sources/ia_grundlagendergeo00hilb_teubner_1899.txt#L3034",
+    "en": "resources/grundlagen/sources/gutenberg_17384_townsend_1902.tex#L3480",
+    "default": "resources/grundlagen/sources/ia_grundlagendergeo00hilb_teubner_1899.txt#L3034"
+  },
+  "§ 26": {
+    "de": "resources/grundlagen/sources/ia_grundlagendergeo00hilb_teubner_1899.txt#L3116",
+    "en": "resources/grundlagen/sources/gutenberg_17384_townsend_1902.tex#L3546",
+    "default": "resources/grundlagen/sources/ia_grundlagendergeo00hilb_teubner_1899.txt#L3116"
+  },
+  "§ 27": {
+    "de": "resources/grundlagen/sources/ia_grundlagendergeo00hilb_teubner_1899.txt#L3352",
+    "en": "resources/grundlagen/sources/gutenberg_17384_townsend_1902.tex#L3796",
+    "default": "resources/grundlagen/sources/ia_grundlagendergeo00hilb_teubner_1899.txt#L3352"
+  },
+  "§ 28": {
+    "de": "resources/grundlagen/sources/ia_grundlagendergeo00hilb_teubner_1899.txt#L3500",
+    "en": "resources/grundlagen/sources/gutenberg_17384_townsend_1902.tex#L3969",
+    "default": "resources/grundlagen/sources/ia_grundlagendergeo00hilb_teubner_1899.txt#L3500"
+  },
+  "§ 29": {
+    "de": "resources/grundlagen/sources/ia_grundlagendergeo00hilb_teubner_1899.txt#L3552",
+    "en": "resources/grundlagen/sources/gutenberg_17384_townsend_1902.tex#L4023",
+    "default": "resources/grundlagen/sources/ia_grundlagendergeo00hilb_teubner_1899.txt#L3552"
+  },
+  "§ 30": {
+    "de": "resources/grundlagen/sources/ia_grundlagendergeo00hilb_teubner_1899.txt#L3692",
+    "en": "resources/grundlagen/sources/gutenberg_17384_townsend_1902.tex#L4157",
+    "default": "resources/grundlagen/sources/ia_grundlagendergeo00hilb_teubner_1899.txt#L3692"
+  },
+  "§ 31": {
+    "de": "resources/grundlagen/sources/ia_grundlagendergeo00hilb_teubner_1899.txt#L3743",
+    "en": "resources/grundlagen/sources/gutenberg_17384_townsend_1902.tex#L4207",
+    "default": "resources/grundlagen/sources/ia_grundlagendergeo00hilb_teubner_1899.txt#L3743"
+  },
+  "§ 32": {
+    "de": "resources/grundlagen/sources/ia_grundlagendergeo00hilb_teubner_1899.txt#L3784",
+    "en": "resources/grundlagen/sources/gutenberg_17384_townsend_1902.tex#L4256",
+    "default": "resources/grundlagen/sources/ia_grundlagendergeo00hilb_teubner_1899.txt#L3784"
+  },
+  "§ 33": {
+    "de": "resources/grundlagen/sources/ia_grundlagendergeo00hilb_teubner_1899.txt#L3875",
+    "en": "resources/grundlagen/sources/gutenberg_17384_townsend_1902.tex#L4355",
+    "default": "resources/grundlagen/sources/ia_grundlagendergeo00hilb_teubner_1899.txt#L3875"
+  },
+  "§ 34": {
+    "de": "resources/grundlagen/sources/ia_grundlagendergeo00hilb_teubner_1899.txt#L3996",
+    "en": "resources/grundlagen/sources/gutenberg_17384_townsend_1902.tex#L4486",
+    "default": "resources/grundlagen/sources/ia_grundlagendergeo00hilb_teubner_1899.txt#L3996"
+  },
+  "§ 35": {
+    "de": "resources/grundlagen/sources/ia_grundlagendergeo00hilb_teubner_1899.txt#L4040",
+    "en": "resources/grundlagen/sources/gutenberg_17384_townsend_1902.tex#L4530",
+    "default": "resources/grundlagen/sources/ia_grundlagendergeo00hilb_teubner_1899.txt#L4040"
+  },
+  "§ 36": {
+    "de": "resources/grundlagen/sources/ia_grundlagendergeo00hilb_teubner_1899.txt#L4117",
+    "en": "resources/grundlagen/sources/gutenberg_17384_townsend_1902.tex#L4608",
+    "default": "resources/grundlagen/sources/ia_grundlagendergeo00hilb_teubner_1899.txt#L4117"
+  },
+  "§ 37": {
+    "de": "resources/grundlagen/sources/ia_grundlagendergeo00hilb_teubner_1899.txt#L4245",
+    "en": "resources/grundlagen/sources/gutenberg_17384_townsend_1902.tex#L4749",
+    "default": "resources/grundlagen/sources/ia_grundlagendergeo00hilb_teubner_1899.txt#L4245"
+  },
+  "§ 38": {
+    "de": "resources/grundlagen/sources/ia_grundlagendergeo00hilb_teubner_1899.txt#L4340",
+    "en": "resources/grundlagen/sources/gutenberg_17384_townsend_1902.tex#L4848",
+    "default": "resources/grundlagen/sources/ia_grundlagendergeo00hilb_teubner_1899.txt#L4340"
+  },
+  "§ 39": {
+    "de": "resources/grundlagen/sources/ia_grundlagendergeo00hilb_teubner_1899.txt#L4536",
+    "en": "resources/grundlagen/sources/gutenberg_17384_townsend_1902.tex#L5025",
+    "default": "resources/grundlagen/sources/ia_grundlagendergeo00hilb_teubner_1899.txt#L4536"
+  },
+  "Schlusswort": {
+    "de": "resources/grundlagen/sources/ia_grundlagendergeo00hilb_teubner_1899.txt#L4709",
+    "en": "resources/grundlagen/sources/gutenberg_17384_townsend_1902.tex#L5201",
+    "default": "resources/grundlagen/sources/ia_grundlagendergeo00hilb_teubner_1899.txt#L4709"
+  },
+  "Conclusion": {
+    "de": "resources/grundlagen/sources/ia_grundlagendergeo00hilb_teubner_1899.txt#L4709",
+    "en": "resources/grundlagen/sources/gutenberg_17384_townsend_1902.tex#L5201",
+    "default": "resources/grundlagen/sources/gutenberg_17384_townsend_1902.tex#L5201"
+  },
+  "Appendix": {
+    "de": "resources/grundlagen/sources/ia_grundlagendergeo00hilb_teubner_1899.txt#L4709",
+    "en": "resources/grundlagen/sources/gutenberg_17384_townsend_1902.tex#L5447",
+    "default": "resources/grundlagen/sources/gutenberg_17384_townsend_1902.tex#L5447"
+  }
+}

@@ -15,7 +15,7 @@ from geometor.hilbert.concordance import (
     verify_sources_manifest,
 )
 
-__version__ = "0.1.0"
+__version__ = "0.1.1"
 
 __all__ = [
     "ConcordanceEntry",

@@ -2,6 +2,11 @@
 changelog
 =========
 
+0.1.1 (2026-11-13)
+------------------
+
+* Resolve 100% of marginal ``.. folio::`` source links (83 directives) to primary witness line anchors in ``ia_grundlagendergeo00hilb_teubner_1899.txt`` via ``publish folio-links``.
+
 0.1.0 (2026-11-11)
 ------------------
 
