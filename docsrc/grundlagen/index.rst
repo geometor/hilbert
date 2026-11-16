@@ -1,11 +1,14 @@
 :layout: book
+:type: book
 :navigation: header
 :order: 1
 :nav_title: Foundations of Geometry
+:breadcrumb_title: Foundations of Geometry
 :book_title: Foundations of Geometry
 :book_subtitle: Grundlagen der Geometrie — David Hilbert (1899 / 1902)
 :author: David Hilbert
 :year: 1899
+:excerpt: David Hilbert's epoch-making axiomatic foundation of geometry, establishing the independence, consistency, and completeness of geometric axioms.
 
 .. _grundlagen-index:
 
@@ -37,32 +40,22 @@ Foundations of Geometry
 Table of Contents
 -----------------
 
-**Preface & Introduction** (*Epigraph & Einleitung* — Preface, Epigraph & Introduction)
-   :ref:`English (1902) <grundlagen-introduction-en>` · :ref:`Deutsch (1899) <grundlagen-introduction-de>` · :ref:`Summary <grundlagen-introduction-summary>` · :ref:`Notes <grundlagen-introduction-notes>`
+.. collection::
+   :sort: order
 
-**Chapter I: The Five Groups of Axioms** (*Kapitel I: Die fünf Axiomgruppen* — §§ 1–8)
-   :ref:`English (1902) <grundlagen-chapter-1-en>` · :ref:`Deutsch (1899) <grundlagen-chapter-1-de>` · :ref:`Summary <grundlagen-chapter-1-summary>` · :ref:`Notes <grundlagen-chapter-1-notes>`
+.. toctree::
+   :hidden:
+   :maxdepth: 1
 
-**Chapter II: The Compatibility and Mutual Independence of the Axioms** (*Kapitel II: Die Widerspruchslosigkeit und gegenseitige Unabhängigkeit der Axiome* — §§ 9–12)
-   :ref:`English (1902) <grundlagen-chapter-2-en>` · :ref:`Deutsch (1899) <grundlagen-chapter-2-de>` · :ref:`Summary <grundlagen-chapter-2-summary>` · :ref:`Notes <grundlagen-chapter-2-notes>`
-
-**Chapter III: The Theory of Proportion** (*Kapitel III: Die Lehre von den Proportionen* — §§ 13–17)
-   :ref:`English (1902) <grundlagen-chapter-3-en>` · :ref:`Deutsch (1899) <grundlagen-chapter-3-de>` · :ref:`Summary <grundlagen-chapter-3-summary>` · :ref:`Notes <grundlagen-chapter-3-notes>`
-
-**Chapter IV: The Theory of Plane Areas** (*Kapitel IV: Die Lehre von den Flächeninhalten in der Ebene* — §§ 18–21)
-   :ref:`English (1902) <grundlagen-chapter-4-en>` · :ref:`Deutsch (1899) <grundlagen-chapter-4-de>` · :ref:`Summary <grundlagen-chapter-4-summary>` · :ref:`Notes <grundlagen-chapter-4-notes>`
-
-**Chapter V: Desargues's Theorem** (*Kapitel V: Der Desarguessche Satz* — §§ 22–30)
-   :ref:`English (1902) <grundlagen-chapter-5-en>` · :ref:`Deutsch (1899) <grundlagen-chapter-5-de>` · :ref:`Summary <grundlagen-chapter-5-summary>` · :ref:`Notes <grundlagen-chapter-5-notes>`
-
-**Chapter VI: Pascal's Theorem** (*Kapitel VI: Der Pascalsche Satz* — §§ 31–35)
-   :ref:`English (1902) <grundlagen-chapter-6-en>` · :ref:`Deutsch (1899) <grundlagen-chapter-6-de>` · :ref:`Summary <grundlagen-chapter-6-summary>` · :ref:`Notes <grundlagen-chapter-6-notes>`
-
-**Chapter VII: Geometrical Constructions Based Upon Axioms I–V** (*Kapitel VII: Die geometrischen Konstruktionen auf Grund der Axiome I–V* — §§ 36–39)
-   :ref:`English (1902) <grundlagen-chapter-7-en>` · :ref:`Deutsch (1899) <grundlagen-chapter-7-de>` · :ref:`Summary <grundlagen-chapter-7-summary>` · :ref:`Notes <grundlagen-chapter-7-notes>`
-
-**Conclusion & Appendix on Transformation Groups** (*Schlusswort & Editionsanhang* — Conclusion (*Schlusswort*) & 1902 Appendix)
-   :ref:`English (1902) <grundlagen-conclusion-en>` · :ref:`Deutsch (1899) <grundlagen-conclusion-de>` · :ref:`Summary <grundlagen-conclusion-summary>` · :ref:`Notes <grundlagen-conclusion-notes>`
+   introduction/index
+   chapter_01/index
+   chapter_02/index
+   chapter_03/index
+   chapter_04/index
+   chapter_05/index
+   chapter_06/index
+   chapter_07/index
+   conclusion/index
 
 ----
 
@@ -73,60 +66,6 @@ Scholarly Apparatus
 * :ref:`Bibliography <bibliography>` — Primary editions, historical sources, and foundational commentaries.
 * :ref:`People <persons>` — Geometers, algebraists, and philosophers cited across treatise and commentary.
 * :ref:`Glossary <glossary>` — Technical German, Greek, Latin, and metamathematical terminology.
-
-.. toctree::
-   :maxdepth: 1
-   :hidden:
-   :caption: English Edition (1902)
-
-   introduction/introduction-en
-   chapter-1/chapter-1-en
-   chapter-2/chapter-2-en
-   chapter-3/chapter-3-en
-   chapter-4/chapter-4-en
-   chapter-5/chapter-5-en
-   chapter-6/chapter-6-en
-   chapter-7/chapter-7-en
-   conclusion/conclusion-en
-
-.. toctree::
-   :maxdepth: 1
-   :hidden:
-   :caption: Deutsche Festschrift (1899)
-
-   introduction/introduction-de
-   chapter-1/chapter-1-de
-   chapter-2/chapter-2-de
-   chapter-3/chapter-3-de
-   chapter-4/chapter-4-de
-   chapter-5/chapter-5-de
-   chapter-6/chapter-6-de
-   chapter-7/chapter-7-de
-   conclusion/conclusion-de
-
-.. toctree::
-   :maxdepth: 1
-   :hidden:
-   :caption: Summaries & Commentary
-
-   introduction/introduction-summary
-   introduction/introduction-notes
-   chapter-1/chapter-1-summary
-   chapter-1/chapter-1-notes
-   chapter-2/chapter-2-summary
-   chapter-2/chapter-2-notes
-   chapter-3/chapter-3-summary
-   chapter-3/chapter-3-notes
-   chapter-4/chapter-4-summary
-   chapter-4/chapter-4-notes
-   chapter-5/chapter-5-summary
-   chapter-5/chapter-5-notes
-   chapter-6/chapter-6-summary
-   chapter-6/chapter-6-notes
-   chapter-7/chapter-7-summary
-   chapter-7/chapter-7-notes
-   conclusion/conclusion-summary
-   conclusion/conclusion-notes
 
 .. toctree::
    :maxdepth: 1

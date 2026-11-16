@@ -88,27 +88,71 @@ def test_codex_four_track_file_tree_and_book_layout() -> None:
         assert anchor in txt, f"{fname} missing anchor {anchor}"
 
     assert len(UNITS) == 9
-    for unit in UNITS:
-        slug = unit["slug"]
-        for track in ("en", "de", "summary", "notes"):
-            tpath = GRUNDLAGEN_DIR / slug / f"{slug}-{track}.rst"
+
+    # Standalone 4-track units: introduction and conclusion
+    for standalone, anchor_base in (("introduction", "introduction"), ("conclusion", "conclusion")):
+        for track in ("index", "de", "summary", "notes"):
+            tpath = GRUNDLAGEN_DIR / standalone / f"{track}.rst"
             assert tpath.is_file(), f"Missing track file: {tpath}"
             txt = tpath.read_text(encoding="utf-8")
             assert txt.startswith(":layout: book\n"), f"{tpath.name} missing :layout: book"
-            assert f".. _grundlagen-{slug}-{track}:" in txt
+            legacy_track = "en" if track == "index" else track
+            assert f".. _grundlagen-{anchor_base}-{legacy_track}:" in txt
+
+    # 7 Chapter Containers
+    for ch_idx in range(1, 8):
+        cpath = GRUNDLAGEN_DIR / f"chapter_{ch_idx:02d}" / "index.rst"
+        assert cpath.is_file(), f"Missing chapter container: {cpath}"
+        txt = cpath.read_text(encoding="utf-8")
+        assert txt.startswith(":layout: book\n"), f"{cpath.name} missing :layout: book"
+        assert ".. collection::" in txt
+        assert f".. _grundlagen-chapter-{ch_idx}:" in txt
+        assert f".. _grundlagen-chapter-{ch_idx}-en:" in txt
+
+    # 39 Atomic Sections
+    sec_to_ch = {
+        s: ch_idx
+        for ch_idx, secs in [
+            (1, range(1, 9)),
+            (2, range(9, 13)),
+            (3, range(13, 18)),
+            (4, range(18, 22)),
+            (5, range(22, 31)),
+            (6, range(31, 36)),
+            (7, range(36, 40)),
+        ]
+        for s in secs
+    }
+    assert len(sec_to_ch) == 39
+    for s_num, ch_idx in sec_to_ch.items():
+        sec_dir = GRUNDLAGEN_DIR / f"chapter_{ch_idx:02d}" / f"sec_{s_num:02d}"
+        assert sec_dir.is_dir(), f"Missing section dir: {sec_dir}"
+        for track in ("index", "de", "summary", "notes"):
+            tpath = sec_dir / f"{track}.rst"
+            assert tpath.is_file(), f"Missing section track file: {tpath}"
+            txt = tpath.read_text(encoding="utf-8")
+            assert txt.startswith(":layout: book\n"), f"{tpath.name} missing :layout: book"
+            assert ":tracks:" in txt
+            assert f":canonical_id: § {s_num}" in txt
+        assert f".. _grundlagen-en-s{s_num}:" in (sec_dir / "index.rst").read_text(encoding="utf-8")
+        assert f".. _grundlagen-de-s{s_num}:" in (sec_dir / "de.rst").read_text(encoding="utf-8")
 
 
 def test_all_sections_and_44_theorems_present_in_both_languages() -> None:
     """Both EN and DE tracks contain all 41 section blocks (0..40) and all 44 theorems."""
     assert len(SECTIONS_META) == 41
-    en_blob = "\n".join(
-        (GRUNDLAGEN_DIR / u["slug"] / f"{u['slug']}-en.rst").read_text(encoding="utf-8")
-        for u in UNITS
+    en_files = (
+        [GRUNDLAGEN_DIR / "introduction" / "index.rst"]
+        + sorted(GRUNDLAGEN_DIR.glob("chapter_*/sec_*/index.rst"))
+        + [GRUNDLAGEN_DIR / "conclusion" / "index.rst"]
     )
-    de_blob = "\n".join(
-        (GRUNDLAGEN_DIR / u["slug"] / f"{u['slug']}-de.rst").read_text(encoding="utf-8")
-        for u in UNITS
+    de_files = (
+        [GRUNDLAGEN_DIR / "introduction" / "de.rst"]
+        + sorted(GRUNDLAGEN_DIR.glob("chapter_*/sec_*/de.rst"))
+        + [GRUNDLAGEN_DIR / "conclusion" / "de.rst"]
     )
+    en_blob = "\n".join(p.read_text(encoding="utf-8") for p in en_files)
+    de_blob = "\n".join(p.read_text(encoding="utf-8") for p in de_files)
 
     en_secs = {int(m) for m in re.findall(r"\.\. _grundlagen-en-s(\d+):", en_blob)}
     de_secs = {int(m) for m in re.findall(r"\.\. _grundlagen-de-s(\d+):", de_blob)}
@@ -138,11 +182,18 @@ def test_calibrated_svg_figures_and_picture_directives() -> None:
             f"{svg_name} missing euclid-graphic class"
         )
 
-    for track in ("en", "de"):
-        blob = "\n".join(
-            (GRUNDLAGEN_DIR / u["slug"] / f"{u['slug']}-{track}.rst").read_text(encoding="utf-8")
-            for u in UNITS
-        )
+    en_files = (
+        [GRUNDLAGEN_DIR / "introduction" / "index.rst"]
+        + sorted(GRUNDLAGEN_DIR.glob("chapter_*/sec_*/index.rst"))
+        + [GRUNDLAGEN_DIR / "conclusion" / "index.rst"]
+    )
+    de_files = (
+        [GRUNDLAGEN_DIR / "introduction" / "de.rst"]
+        + sorted(GRUNDLAGEN_DIR.glob("chapter_*/sec_*/de.rst"))
+        + [GRUNDLAGEN_DIR / "conclusion" / "de.rst"]
+    )
+    for track_files in (en_files, de_files):
+        blob = "\n".join(p.read_text(encoding="utf-8") for p in track_files)
         referenced = set(re.findall(r"\.\. picture:: /_static/figures/(\S+)", blob))
         assert referenced == EXPECTED_FIGURES
 

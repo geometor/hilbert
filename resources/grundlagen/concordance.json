@@ -403,7 +403,7 @@
       "pappus_refs": [
         {
           "locus": "Synagoge Book VII, Props. 138–139 & Mystic Hexagram",
-          "repo_path": "pappus:theorems/pascal-hexagrammum/index",
+          "repo_path": "pappus:theorems/hexagon-theorem/index",
           "relation": "Culmination of the GEOMETOR pappus <-> hilbert nexus: proves that Pappus's Hexagon Theorem ('Pascal's Theorem' for degenerate conic = line pair) is strictly equivalent to the commutativity law ab = ba in the coordinate division ring, and constructs the first explicit non-Archimedean non-commutative ordered skew-field Ω(s, t) (with ts = 2st, Theorem 39) to build a 3D Desarguesian, non-Pascalian geometry (§ 34)."
         }
       ],

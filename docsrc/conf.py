@@ -24,7 +24,9 @@ repo_name = "hilbert"
 
 setup_globals(org, org_name, repo, repo_name)  # noqa: F405
 
-project = "GEOMETOR • hilbert"
+site_title = "David Hilbert"
+project = site_title
+html_title = f"{site_title} • {org_name}"
 author = "David Hilbert"
 copyright = "1899 B. G. Teubner · 1902 Open Court · Digital Codex GEOMETOR"
 

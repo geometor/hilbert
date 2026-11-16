@@ -55,8 +55,17 @@ class HilbertApparatus:
     sources_manifest: dict[str, Any]
 
     def by_chapter(self, chapter_slug: str) -> list[ConcordanceEntry]:
-        """Return all concordance entries belonging to `chapter_slug` (e.g. `'chapter-1'`)."""
-        return [entry for entry in self.entries if entry.chapter == chapter_slug]
+        """Return all concordance entries belonging to `chapter_slug` (e.g. `'chapter-1'` or `'chapter_01'`)."""
+        norm = chapter_slug.replace("-", "_")
+        if norm.startswith("chapter_") and len(norm) == 9 and norm[-1].isdigit():
+            # e.g. chapter_1 -> chapter_01
+            norm = f"chapter_{int(norm[8:]):02d}"
+        return [
+            entry
+            for entry in self.entries
+            if entry.chapter.replace("-", "_") == norm
+            or (entry.chapter.startswith("chapter-") and f"chapter_{int(entry.chapter[8:]):02d}" == norm)
+        ]
 
     def by_section(self, section_label: str) -> list[ConcordanceEntry]:
         """Return concordance entries covering `section_label` (e.g. `'§ 14'` or `'14'`)."""
