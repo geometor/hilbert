@@ -4,13 +4,13 @@
 
 .. container:: author-overline
 
-   the works of
+   semantic digital archive • the works of
 
 =============
 David Hilbert
 =============
 
-The mission of this project is to capture a semantic digital library of the works of :person:`David Hilbert <hilbert>` (1862–1943), the German mathematician whose *Grundlagen der Geometrie* provided the definitive modern axiomatic reconstruction of Euclidean and non-Euclidean geometry.
+The works of :person:`David Hilbert <hilbert>` (1862–1943) established the modern axiomatic foundations of geometry, reconstructing Euclidean and non-Euclidean space upon rigorous independence and consistency proofs. Within the interconnected `GEOMETOR <https://geometor.com/books/>`_ semantic digital archive, the *Grundlagen der Geometrie* is liberated from static print bounds—decomposed into addressable semantic units, calibrated vector diagrams, primary-source folio provenance, and cross-corpus citations speaking one shared geometric language.
 
 .. collection::
    :type: book
