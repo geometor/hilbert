@@ -1,0 +1,260 @@
+
+
+<!DOCTYPE html>
+<html lang="en" data-content_root="../../../">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>§ 27: Die Gleichung der Geraden auf Grund der neuen Streckenrechnung — Foundations of Geometry • GEOMETOR</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <link rel="canonical" href="https://geometor.github.io/hilbert/grundlagen/chapter_05/sec_27/de.html" />
+  <meta name="description" content="Wir haben in § 24 bis § 26 mittelst der in § 24 angeführten Axiome und unter Voraussetzung der Gültigkeit des Desarguesschen Satzes in der Ebene eine Streckenrechnung eingeführt , in welcher…" />
+  <meta property="og:site_name" content="GEOMETOR" />
+  <meta property="og:type" content="article" />
+  <meta property="og:title" content="§ 27: Die Gleichung der Geraden auf Grund der neuen Streckenrechnung — Foundations of Geometry • GEOMETOR" />
+  <meta property="og:description" content="Wir haben in § 24 bis § 26 mittelst der in § 24 angeführten Axiome und unter Voraussetzung der Gültigkeit des Desarguesschen Satzes in der Ebene eine Streckenrechnung eingeführt , in welcher…" />
+  <meta property="og:url" content="https://geometor.github.io/hilbert/grundlagen/chapter_05/sec_27/de.html" />
+  <meta property="og:image" content="https://geometor.github.io/hilbert/_static/social/grundlagen.png" />
+  <meta property="og:image:type" content="image/png" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta property="og:image:alt" content="David Hilbert — GEOMETOR" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="§ 27: Die Gleichung der Geraden auf Grund der neuen Streckenrechnung — Foundations of Geometry • GEOMETOR" />
+  <meta name="twitter:description" content="Wir haben in § 24 bis § 26 mittelst der in § 24 angeführten Axiome und unter Voraussetzung der Gültigkeit des Desarguesschen Satzes in der Ebene eine Streckenrechnung eingeführt , in welcher…" />
+  <meta name="twitter:image" content="https://geometor.github.io/hilbert/_static/social/grundlagen.png" />
+  <meta name="twitter:image:alt" content="David Hilbert — GEOMETOR" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..700;1,400..700&family=Fira+Sans+Condensed:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600;1,700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" type="text/css" href="../../../_static/pygments.css?v=ea5fcf70" />
+  <link rel="stylesheet" type="text/css" href="../../../_static/css/styles.css?v=81e79cc0" />
+  <link rel="stylesheet" type="text/css" href="../../../_static/graphviz.css?v=4ae1632d" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css" />
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js"></script>
+  <link rel="stylesheet" href="../../../_static/css/print.css" type="text/css" media="print" />
+  <link rel="icon" href="../../../_static/favicon.ico" />
+</head>
+
+<body class="is-book-page book-theme-classical-serif" data-folio="63
+
+/home/runner/work/hilbert/hilbert/docsrc/grundlagen/chapter_05/sec_27/de.rst:5: (INFO/1) Enumerated list start value not ordinal-1: “S” (ordinal 19)">
+  <header>
+    <div class="logo">
+      <a href="../../../index.html" title="Home">
+        <img src="../../../_static/logo.png" class="logo" alt="GEOMETOR hilbert"/>
+        <div class="org-repo">
+          <span class="org">GEOMETOR</span>
+          <span class="sep" aria-hidden="true">&bull;</span>
+          <span class="repo">hilbert</span>
+        </div>
+      </a>
+    </div>
+    <nav aria-label="Header">
+      <input type="checkbox" id="nav-Header-toggle" >
+      <label for="nav-Header-toggle" >Header</label>
+      <ul>
+        <li>
+          <a href="../../index.html" class="is-active" aria-selected="true" >Foundations of Geometry</a>
+        </li>
+        <li>
+          <a href="../../persons.html"  >People</a>
+        </li>
+        <li>
+          <a href="../../bibliography.html"  >Bibliography</a>
+        </li>
+        <li>
+          <a href="../../../about/index.html"  >About</a>
+        </li>
+        <li>
+          <a href="../../../usage/index.html"  >Usage</a>
+        </li>
+        <li>
+          <a href="../../../log/index.html"  >Log</a>
+        </li>
+        <li>
+          <a href="../../../modules/index.html"  >Modules</a>
+        </li>
+      </ul>
+    </nav>
+    <div class="motto"></div>
+  </header>
+  <main class="book-main">
+    <article class="book-layout book-reading-pane" data-folio="63
+
+/home/runner/work/hilbert/hilbert/docsrc/grundlagen/chapter_05/sec_27/de.rst:5: (INFO/1) Enumerated list start value not ordinal-1: “S” (ordinal 19)" data-canonical-id="§ 27">
+      <header class="book-header">
+        <div class="book-header-bar">
+          <nav class="book-breadcrumbs" aria-label="Breadcrumb">
+            <a class="book-section-home-link" href="../../index.html">Foundations of Geometry</a>
+            <span class="book-crumb-sep" aria-hidden="true">/</span>
+            <a class="book-crumb-link" href="../index.html">Chapter V</a>
+            <span class="book-crumb-sep" aria-hidden="true">/</span>
+            <span class="book-crumb-current" aria-current="page">§ 27</span>
+          </nav>
+          <div class="book-provenance-badges">
+            <span class="book-badge folio-badge">Folio 63
+
+/home/runner/work/hilbert/hilbert/docsrc/grundlagen/chapter_05/sec_27/de.rst:5: (INFO/1) Enumerated list start value not ordinal-1: “S” (ordinal 19) | p. 63</span>
+          </div>
+        </div>
+        <div class="book-header-nav">
+          <div class="book-nav-prev">
+            <a class="book-nav-btn" href="../sec_26/de.html" title="§ 26: The Associative Law of Multiplication and the Two Distributive Laws for the New Algebra of Segments">&larr; <span class="nav-label">Prev</span></a>
+          </div>
+          <div class="book-nav-center">
+            <nav class="book-tracks-nav" aria-label="Document Tracks">
+              <a class="book-track-item" href="index.html">English</a>
+              <span class="book-track-sep">&middot;</span>
+              <strong class="book-track-item is-active" aria-current="page">Deutsch</strong>
+              <span class="book-track-sep">&middot;</span>
+              <a class="book-track-item" href="summary.html">Summary</a>
+              <span class="book-track-sep">&middot;</span>
+              <a class="book-track-item" href="notes.html">Notes</a>
+            </nav>
+          </div>
+          <div class="book-nav-next">
+            <a class="book-nav-btn" href="../sec_28/de.html" title="§ 28: The Totality of Segments Regarded as a Complex Number System"><span class="nav-label">Next</span> &rarr;</a>
+          </div>
+        </div>
+      </header>
+      <div class="content body book-content folio-book-page" role="main">
+        <span class="folio-milestone" id="folio-§ 27" data-folio="§ 27" data-page="63"><a class="folio-link" href="https://github.com/geometor/hilbert/blob/main/resources/grundlagen/sources/ia_grundlagendergeo00hilb_teubner_1899.txt#L3352" target="_blank" rel="noopener" title="View Folio § 27 (p. 63)">f. § 27 · p. 63</a></span>
+        <section class="level-1" id="die-gleichung-der-geraden-auf-grund-der-neuen-streckenrechnung">
+        <h1>§ 27: Die Gleichung der Geraden auf Grund der neuen Streckenrechnung<a class="headerlink" href="#die-gleichung-der-geraden-auf-grund-der-neuen-streckenrechnung" title="Link to this heading">¶</a></h1>
+        <p class="rubric">David Hilbert — <em>Grundlagen der Geometrie</em> (Festschrift, Leipzig 1899)</p>
+        <p>Wir haben in § 24 bis § 26 mittelst der in § 24 angeführten Axiome und unter Voraussetzung der Gültigkeit des Desarguesschen Satzes in der Ebene eine Streckenrechnung eingeführt , in welcher das commutative Gesetz der Addition, die associativen Gesetze der Addition und Multiplikation, sowie die beiden distributiven Gesetze gültig sind. Wir wollen in diesem Paragraphen</p>
+        <p>zeigen, in welcher Weise auf Grund dieser Streckenrechnung eine analytische Darstellung der Punkte und Geraden in der Ebene möglich ist.</p>
+        <p><strong>Definition.</strong> Wir bezeichnen in der Ebene die beiden angenommenen festen Geraden durch den Punkt 0 als die X- und Y- Axe und denken uns irgend einen Punkt P der Ebene durch die Strecken x, y bestimmt, die man auf der X- bez. Y-Axe erhält, wenn man durch P zu diesen Axen Parallelen zieht. Diese Strecken x, y heissen Coordinaten des Punktes P. Auf Grund der neuen Streckenrechnung und mit Hülfe des Desarguesschen Satzes gelangen wir zu der folgenden Thatsache :</p>
+        <p id="grundlagen-de-thm-34"><strong>Satz 34.</strong> Die Coordinaten x, y der Punkte auf einer beliebigen Geraden erfüllen stets eine Streckengleichung von der Gestalt:</p>
+        <p>$$
+        ax + by + c = 0;
+        $$</p>
+        <p>in dieser Gleichung stehen die Strecken $a, b$ notwendig linksseitig von den Coordinaten $x, y$; die Strecken $a, b$ sind niemals beide Null und $c$ ist eine beliebige Strecke.</p>
+        <p>Umgekehrt: jede Streckengleichung der beschriebenen Art stellt stets eine Gerade in der zu Grunde gelegten ebenen Geometrie dar.</p>
+        <p><strong>Beweis.</strong> Wir nehmen zunächst an, die Gerade $l$ gehe durch $O$. Ferner sei $C$ ein bestimmter von $O$ verschiedener Punkt auf $l$ und $P$ ein beliebiger Punkt auf $l$; $C$ habe die Coordinaten $OA, OB$ und $P$ habe die Coordinaten $x, y$; wir bezeichnen die Verbindungsgerade der Endpunkte von $x, y$ mit $g$. Endlich ziehen wir durch den Endpunkt der Strecke $1$ auf der $X$-Axe eine Parallele $h$ zu $AB$: diese Parallele schneide auf der $Y$-Axe die Strecke $e$ ab. Aus der zweiten Aussage des Desarguesschen Satzes folgt leicht, dass die Gerade $g$ stets parallel zu $AB$ läuft. Da somit auch $g$ stets zu $h$ parallel ist, so folgt für die Coordinaten $x, y$ des beliebigen Punktes $P$ auf $l$ die Streckengleichung</p>
+        <p>$$
+        ex = y.
+        $$</p>
+        <p>Nunmehr sei $l'$ eine beliebige Gerade in unserer Ebene; dieselbe schneide auf der $X$-Axe die Strecke $c = OO'$ ab. Wir ziehen ferner die Gerade $l$ durch $O$ parallel zu $l'$. Es sei $P'$ ein beliebiger Punkt auf $l'$; die Parallele durch $P'$ zur $X$-Axe treffe die Gerade $l$ in $P$ und schneide auf der $Y$-Axe die Strecke $y = OB$ ab; ferner mögen die Parallelen durch $P$ und $P'$ zur $Y$-Axe auf der $X$-Axe die Strecken $x = OA$ und $x' = OA'$ abschneiden.</p>
+        <p>Wir wollen nun beweisen, dass die Streckengleichung</p>
+        <p>$$
+        x' = x + c
+        $$</p>
+        <p>besteht. Zu diesem Zwecke ziehen wir $O'C$ parallel zur Einheitsgeraden, ferner $CD$ parallel zur $X$-Axe und $AD$ parallel zur $Y$-Axe; dann läuft unsere Behauptung darauf hinaus, dass</p>
+        <p>$$
+        A'D \; \text{parallel} \; O'C
+        $$</p>
+        <p>sein muss. Wir construiren noch $D'$ als Schnittpunkt der Geraden $CD$ und $A'P'$ und ziehen $O'C'$ parallel zur $Y$-Axe.</p>
+        <p>Da in den Dreiecken $OCP$ und $O'C'P'$ die Verbindungsgeraden entsprechender Ecken parallel laufen, so folgt mittelst der zweiten Aussage des Desarguesschen Satzes, dass</p>
+        <p>$$
+        CP \; \text{parallel} \; C'P'
+        $$</p>
+        <p>sein muss; auf gleiche Weise lehrt die Betrachtung der Dreiecke $ACP$ und $A'C'P'$, dass</p>
+        <p>$$
+        AC \; \text{parallel} \; A'C'
+        $$</p>
+        <p>ist. Da somit in den Dreiecken $ACD$ und $C'A'O'$ die entsprechenden Seiten einander parallel laufen, so treffen sich die Geraden $AC', C'A, DO'$ in einem Punkte und die Betrachtung der beiden Dreiecke $C'A'D$ und $ACO'$ zeigt dann, dass $A'D$ und $CO'$ einander parallel sind.</p>
+        <p>Aus den beiden bisher gefundenen Streckengleichungen</p>
+        <p>$$
+        ex = y \quad \text{und} \quad x' = x + c
+        $$</p>
+        <p>folgt sofort die weitere Gleichung</p>
+        <p>$$
+        ex' = y + ec.
+        $$</p>
+        <p>Bezeichnen wir schliesslich mit $n$ die Strecke, die zur Strecke $1$ addirt die Strecke $0$ liefert, so folgt, wie man leicht beweist, aus der letzten Gleichung</p>
+        <p>$$
+        ex' + ny + nec = 0
+        $$</p>
+        <p>und diese Gleichung ist von der Gestalt, wie der Satz 34 behauptet.</p>
+        <p>Die zweite Aussage des Satzes 34 erkennen wir nun ohne Mühe als richtig; denn eine jede vorgelegte Streckengleichung</p>
+        <p>$$
+        ax + by + c = 0
+        $$</p>
+        <p>lässt sich offenbar durch linksseitige Multiplikation mit einer geeigneten Strecke in die vorhin gefundene Gestalt</p>
+        <p>$$
+        ex + ny + nec = 0
+        $$</p>
+        <p>bringen.</p>
+        <p>Es sei noch ausdrücklich bemerkt, dass bei unseren Annahmen eine Streckengleichung von der Gestalt</p>
+        <p>$$
+        xa + yb + c = 0,
+        $$</p>
+        <p>in der die Strecken $a, b$ rechtsseitig von den Coordinaten $x, y$ stehen, im Allgemeinen nicht eine Gerade darstellt.</p>
+        <p>Wir werden in § 30 eine wichtige Anwendung von dem Satze 34 machen.</p>
+        </section>
+
+      </div>
+      <footer class="book-footer">
+        <div class="book-footer-ornament">&#10086;</div>
+        <div class="book-footer-nav">
+          <div class="book-nav-prev">
+            <a class="book-nav-btn" href="../sec_26/de.html" title="§ 26: The Associative Law of Multiplication and the Two Distributive Laws for the New Algebra of Segments">&larr; <span class="nav-label">Prev</span></a>
+          </div>
+          <div class="book-nav-center">
+            <a class="book-toc-link" href="../../index.html">Foundations of Geometry</a>
+          </div>
+          <div class="book-nav-next">
+            <a class="book-nav-btn" href="../sec_28/de.html" title="§ 28: The Totality of Segments Regarded as a Complex Number System"><span class="nav-label">Next</span> &rarr;</a>
+          </div>
+        </div>
+      </footer>
+    </article>
+  </main>
+  <div class="asides">
+    <aside class="aside-search">
+      <h3>Search</h3>
+      <div id="searchbox" role="search">
+        <form id="rtd-search-form" class="wy-form search-form" action="../../../search.html" method="get">
+          <div class="search-field">
+            <input type="search" name="q" placeholder="Search docs..." aria-label="Search docs" autocomplete="off" />
+            <button type="submit" class="search-submit" aria-label="Search" title="Search">
+              <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <circle cx="11" cy="11" r="8"></circle>
+                <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+              </svg>
+            </button>
+          </div>
+          <input type="hidden" name="check_keywords" value="yes" />
+          <input type="hidden" name="area" value="default" />
+        </form>
+      </div>
+    </aside>
+    <aside class="aside-types">
+      <h3>Types</h3>
+      <ul>
+        <li><a href="../../../types/book.html">book</a></li>
+      </ul>
+    </aside>
+  </div>
+  <footer>
+    <div class="footer-nav">
+      <ul>
+        <li><a href="../../concordance.html"  >Concordance</a></li>
+        <li><a href="../../glossary.html"  >Glossary</a></li>
+      </ul>
+    </div>
+    <hr />
+    <div role="contentinfo">
+      <p>
+        &copy; Copyright 1899 B. G. Teubner · 1902 Open Court · Digital Codex GEOMETOR.
+      </p>
+    </div>
+  </footer>
+
+  <script src="../../../_static/jquery.js?v=5d32c60e"></script>
+  <script src="../../../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+  <script src="../../../_static/documentation_options.js?v=59fadc99"></script>
+  <script src="../../../_static/doctools.js?v=fd6eb6e6"></script>
+  <script src="../../../_static/sphinx_highlight.js?v=6ffebe34"></script>
+  <script src="../../../_static/js/collection_controls.js?v=b6b5297a"></script>
+  <script src="../../../_static/js/geometor_interactive.js?v=b2892320"></script>
+  <script src="../../../_static/js/search_highlight.js"></script>
+
+</body>
+</html>

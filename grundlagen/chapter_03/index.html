@@ -1,0 +1,372 @@
+
+
+<!DOCTYPE html>
+<html lang="en" data-content_root="../../">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Chapter III: The Theory of Proportion — Foundations of Geometry • GEOMETOR</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <link rel="canonical" href="https://geometor.github.io/hilbert/grundlagen/chapter_03/" />
+  <meta name="description" content="Chapter III resolves one of the deepest structural problems in the history of geometry: reconstructing Euclid’s Book V–VI theory of proportion and similar triangles purely in the plane (`I 1–2…" />
+  <meta property="og:site_name" content="GEOMETOR" />
+  <meta property="og:type" content="article" />
+  <meta property="og:title" content="Chapter III: The Theory of Proportion — Foundations of Geometry • GEOMETOR" />
+  <meta property="og:description" content="Chapter III resolves one of the deepest structural problems in the history of geometry: reconstructing Euclid’s Book V–VI theory of proportion and similar triangles purely in the plane (`I 1–2…" />
+  <meta property="og:url" content="https://geometor.github.io/hilbert/grundlagen/chapter_03/" />
+  <meta property="og:image" content="https://geometor.github.io/hilbert/_static/social/grundlagen.png" />
+  <meta property="og:image:type" content="image/png" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta property="og:image:alt" content="David Hilbert — GEOMETOR" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Chapter III: The Theory of Proportion — Foundations of Geometry • GEOMETOR" />
+  <meta name="twitter:description" content="Chapter III resolves one of the deepest structural problems in the history of geometry: reconstructing Euclid’s Book V–VI theory of proportion and similar triangles purely in the plane (`I 1–2…" />
+  <meta name="twitter:image" content="https://geometor.github.io/hilbert/_static/social/grundlagen.png" />
+  <meta name="twitter:image:alt" content="David Hilbert — GEOMETOR" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..700;1,400..700&family=Fira+Sans+Condensed:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600;1,700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" type="text/css" href="../../_static/pygments.css?v=ea5fcf70" />
+  <link rel="stylesheet" type="text/css" href="../../_static/css/styles.css?v=81e79cc0" />
+  <link rel="stylesheet" type="text/css" href="../../_static/graphviz.css?v=4ae1632d" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css" />
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js"></script>
+  <link rel="stylesheet" href="../../_static/css/print.css" type="text/css" media="print" />
+  <link rel="icon" href="../../_static/favicon.ico" />
+</head>
+
+<body class="is-book-page book-theme-classical-serif">
+  <header>
+    <div class="logo">
+      <a href="../../index.html" title="Home">
+        <img src="../../_static/logo.png" class="logo" alt="GEOMETOR hilbert"/>
+        <div class="org-repo">
+          <span class="org">GEOMETOR</span>
+          <span class="sep" aria-hidden="true">&bull;</span>
+          <span class="repo">hilbert</span>
+        </div>
+      </a>
+    </div>
+    <nav aria-label="Header">
+      <input type="checkbox" id="nav-Header-toggle" >
+      <label for="nav-Header-toggle" >Header</label>
+      <ul>
+        <li>
+          <a href="../index.html" class="is-active" aria-selected="true" >Foundations of Geometry</a>
+        </li>
+        <li>
+          <a href="../persons.html"  >People</a>
+        </li>
+        <li>
+          <a href="../bibliography.html"  >Bibliography</a>
+        </li>
+        <li>
+          <a href="../../about/index.html"  >About</a>
+        </li>
+        <li>
+          <a href="../../usage/index.html"  >Usage</a>
+        </li>
+        <li>
+          <a href="../../log/index.html"  >Log</a>
+        </li>
+        <li>
+          <a href="../../modules/index.html"  >Modules</a>
+        </li>
+      </ul>
+    </nav>
+    <div class="motto"></div>
+  </header>
+  <main class="book-main">
+    <article class="book-layout book-reading-pane" data-canonical-id="Chapter III">
+      <header class="book-header">
+        <div class="book-header-bar">
+          <nav class="book-breadcrumbs" aria-label="Breadcrumb">
+            <a class="book-section-home-link" href="../index.html">Foundations of Geometry</a>
+            <span class="book-crumb-sep" aria-hidden="true">/</span>
+            <span class="book-crumb-current" aria-current="page">Chapter III</span>
+          </nav>
+        </div>
+        <div class="book-header-nav">
+          <div class="book-nav-prev">
+            <a class="book-nav-btn" href="../chapter_02/sec_12/index.html" title="§ 12: Independence of the Axiom of Continuity (Non-Archimedean Geometry)">&larr; <span class="nav-label">Prev</span></a>
+          </div>
+          <div class="book-nav-center">
+          </div>
+          <div class="book-nav-next">
+            <a class="book-nav-btn" href="sec_13/index.html" title="§ 13: Complex Number-Systems"><span class="nav-label">Next</span> &rarr;</a>
+          </div>
+        </div>
+      </header>
+      <div class="content body book-content folio-book-page" role="main">
+        <section class="level-1" id="chapter-iii-the-theory-of-proportion">
+        <span id="grundlagen-chapter-3-notes"></span><span id="grundlagen-chapter-3-summary"></span><span id="grundlagen-chapter-3-de"></span><span id="grundlagen-chapter-3-en"></span><span id="grundlagen-chapter-3"></span><h1>Chapter III: The Theory of Proportion<a class="headerlink" href="#chapter-iii-the-theory-of-proportion" title="Link to this heading">¶</a></h1>
+        <p class="rubric"><em>Kapitel III: Die Lehre von den Proportionen</em> — David Hilbert (1899 / 1902) — §§ 13–17</p>
+        <p>Chapter III resolves one of the deepest structural problems in the history of geometry: reconstructing <a class="person-ref" id="occ-person-euclid-1" href="../persons.html#person-euclid" data-person="euclid" title="Euclid of Alexandria (fl. c. 300 BC) — Ancient Greek Geometer (Author of the Elements)">Euclid</a>’s Book V–VI theory of proportion and similar triangles <strong>purely in the plane (`I 1–2, II–IV`) without the Axiom of Archimedes (`V`)</strong>:</p>
+        <ul class="simple">
+        <li><p><strong>§ 13 — Complex Number Systems</strong>: Catalogues 17 algebraic axioms (<cite>1–12</cite> field laws, <cite>13–16</cite> ordered ring laws, <cite>17</cite> Archimedean property), framing the central question of geometric algebra: which geometric axioms correspond to which algebraic field laws?</p></li>
+        <li><p><strong>§ 14 — Proof of Pascal’s (Pappus’s) Theorem (Theorem 21)</strong>: States the affine two-line specialization of <a class="person-ref" id="occ-person-pascal-1" href="../persons.html#person-pascal" data-person="pascal" title="Blaise Pascal (1623 – 1662) — French Mathematician, Physicist &amp; Philosopher">Pascal</a>’s hexagram—historically <a class="person-ref" id="occ-person-pappus-1" href="../persons.html#person-pappus" data-person="pappus" title="Pappus of Alexandria (c. 290 – c. 350 AD) — Late Antique Greek Geometer (Author of the Mathematical Collection / Synagoge)">Pappus</a>’s Hexagon Theorem (<a class="citation-ref" id="occ-cite-pappus-synagoge-1" href="../bibliography.html#cite-pappus-synagoge" data-cite="pappus:synagoge" title="Pappus of Alexandria — Synagoge (Mathematical Collection) (Book VII, Propositions 138–139 (ed. F. Hultsch, Vol. II, 1877, pp. 882–886))"><em>Synagoge</em> VII.138–139</a>): if $A, B, C$ and $A', B', C'$ lie on two intersecting lines through $O$ with $CB' \parallel BC'$ and $CA' \parallel AC'$, then $BA' \parallel AB'$. Using right-triangle projection operators $a = \alpha c$ and inscribed cyclic quadrilaterals ($ABCD$ on a diameter circle), <a class="person-ref" id="occ-person-hilbert-1" href="../persons.html#person-hilbert" data-person="hilbert" title="David Hilbert (1862 – 1943) — German Mathematician &amp; Professor at Göttingen">Hilbert</a> proves operator commutativity $\alpha\beta c \equiv \beta\alpha c$ and deduces <cite>Theorem 21</cite> (adding a second direct four-circle proof).</p></li>
+        <li><p><strong>§ 15 — Geometric Calculus of Segments (*Streckenrechnung*)</strong>: Defines segment addition $c = a + b$ by collinear juxtaposition and segment multiplication $c = ab$ on perpendicular rays from $O$ via a fixed unit segment $1$ and parallel lines. Crucially, <cite>Theorem 21</cite> (<a class="term-ref glossary-term" id="occ-term-pascalscher-satz-1" href="../glossary.html#term-pascalscher-satz" data-term="pascalscher-satz" title="Pascalscher Satz (Pappus&#x27;s Hexagon Theorem) (Pascal&#x27;s Theorem (Affine Pappus&#x27;s Hexagon Theorem)): Hilbert&#x27;s name (§ 14, Theorem 21; §§ 31–35) for the degenerate two-line case of Pascal&#x27;s conic hexagram—historically discovered by Pappus of Alexandria (Synagoge VII.138–139). If A, B, C and A&#x27;, B&#x27;, C&#x27; lie on two intersecting lines and CB&#x27; ∥ BC&#x27; and CA&#x27; ∥ AC&#x27;, then BA&#x27; ∥ AB&#x27;. Equivalent to commutativity of segment multiplication ab = ba.">Pascalscher Satz</a>) immediately yields <strong>commutativity</strong> $ab = ba$ and <strong>associativity</strong> $a(bc) = (ab)c$, while congruent right triangles establish <strong>distributivity</strong> $a(b + c) = ab + ac$.</p></li>
+        <li><p><strong>§ 16 — Proportion and Similitude (Theorems 22–23)</strong>: Defines $a : b = a' : b'$ algebraically as $ab' = ba'$, proves proportionality of corresponding sides in similar triangles (<cite>Theorem 22</cite>, first for right triangles and then generally via the incenter $S$ of the three angle bisectors!), and deduces the Fundamental Theorem of Proportion (<cite>Theorem 23</cite>, Thales’s intercept theorem <cite>Euclid VI.2</cite>).</p></li>
+        <li><p><strong>§ 17 — Linear Equations of Lines and Planes</strong>: Extends positive segments to signed segments ($+, 0, -$) forming an ordered commutative field, establishes rectangular coordinates $(x, y)$, proves every straight line has a linear equation $bx - ay - bc = 0$, and shows how adjoining Archimedes (<cite>V</cite>) embeds the coordinate domain into $\mathbb{R}^3$.</p></li>
+        </ul>
+        <section class="level-2" id="sections">
+        <h2>Sections<a class="headerlink" href="#sections" title="Link to this heading">¶</a></h2>
+            <section class="collection ">
+              <article class="excerpt">
+                <div class="content">
+                  <section>
+                    <h2><a href="sec_13/index.html">§ 13: Complex Number-Systems</a></h2>
+                      <p>At the beginning of this chapter, we shall present briefly certain preliminary ideas concerning complex number systems which will later be of service to us in our discussion.</p>
+                    <nav class="excerpt-tracks" aria-label="Tracks">
+                      <a class="excerpt-track-link" href="sec_13/index.html">English</a>
+                      <span class="excerpt-track-sep">&middot;</span>
+                      <a class="excerpt-track-link" href="sec_13/de.html">Deutsch</a>
+                      <span class="excerpt-track-sep">&middot;</span>
+                      <a class="excerpt-track-link" href="sec_13/summary.html">Summary</a>
+                      <span class="excerpt-track-sep">&middot;</span>
+                      <a class="excerpt-track-link" href="sec_13/notes.html">Notes</a>
+                    </nav>
+                  </section>
+                </div>
+              </article>
+              <article class="excerpt">
+                <div class="content">
+                  <figure class="excerpt-svg">
+                    <a href="sec_14/index.html" aria-label="Theorem 21 (Pappus's Hexagon Theorem on two intersecting lines): CB' ∥ BC' and CA' ∥ AC' imply BA' ∥ AB' without Archimedes's Axiom.">
+                      <svg class="euclid-graphic euclid-thumbnail" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 205" width="480" height="205" data-graphic-id="fig_pascal_orthogonal" data-proposition="S.14" data-svg-scope="s-0111b028">
+          <style>
+            svg[data-svg-scope="s-0111b028"] { font-family: 'Fira Sans Condensed', 'Fira Sans', sans-serif; font-style: normal; font-weight: 700 }
+            svg[data-svg-scope="s-0111b028"] .geom-line { stroke: var(--geom-fg); stroke-width: 1.8; stroke-linecap: round; stroke-linejoin: round; fill: none }
+            svg[data-svg-scope="s-0111b028"] .geom-bold { stroke: var(--geom-fg); stroke-width: 2.3; stroke-linecap: round; stroke-linejoin: round; fill: none }
+            svg[data-svg-scope="s-0111b028"] .geom-dashed { stroke: var(--geom-fg); stroke-width: 1.4; stroke-dasharray: 5, 3.5; stroke-linecap: round; stroke-linejoin: round; fill: none }
+            svg[data-svg-scope="s-0111b028"] .geom-accent-line { stroke: var(--geom-accent); stroke-width: 2.1; stroke-linecap: round; stroke-linejoin: round; fill: none }
+            svg[data-svg-scope="s-0111b028"] .geom-assert-line { stroke: var(--geom-assert); stroke-width: 2.2; stroke-dasharray: 6, 3; stroke-linecap: round; stroke-linejoin: round; fill: none }
+            svg[data-svg-scope="s-0111b028"] .geom-circle { stroke: var(--geom-fg); stroke-width: 1.6; fill: none }
+            svg[data-svg-scope="s-0111b028"] .geom-arc { stroke: var(--geom-accent); stroke-width: 1.9; stroke-linecap: round; fill: none }
+            svg[data-svg-scope="s-0111b028"] .geom-ang-arc { stroke: var(--geom-assert); stroke-width: 2.0; stroke-linecap: round; fill: none }
+            svg[data-svg-scope="s-0111b028"] .geom-polygon { fill: var(--geom-poly-fill); fill-opacity: 0.05; stroke: none }
+            svg[data-svg-scope="s-0111b028"] .geom-polygon-gnomon { fill: var(--geom-accent); fill-opacity: 0.14; stroke: none }
+            svg[data-svg-scope="s-0111b028"] .geom-point { fill: var(--geom-fg); stroke: var(--geom-point-stroke); stroke-width: 1.1 }
+            svg[data-svg-scope="s-0111b028"] .geom-point-accent { fill: var(--geom-accent); stroke: var(--geom-point-stroke); stroke-width: 1.1 }
+            svg[data-svg-scope="s-0111b028"] .geom-label { font-family: 'Fira Sans Condensed', 'Fira Sans', sans-serif; font-size: 14px; font-weight: 700; fill: var(--geom-fg); user-select: none }
+            svg[data-svg-scope="s-0111b028"] .geom-label-sm { font-family: 'Fira Sans Condensed', 'Fira Sans', sans-serif; font-size: 11.5px; font-weight: 700; fill: var(--geom-fg); opacity: 0.85; user-select: none }
+          </style>
+          <line x1="42.00" y1="175.00" x2="454.73" y2="131.62" class="geom-line" />
+          <line x1="42.00" y1="175.00" x2="317.53" y2="-32.63" class="geom-line" />
+          <line x1="414.95" y1="135.80" x2="181.76" y2="69.68" class="geom-bold" />
+          <line x1="285.66" y1="149.39" x2="133.31" y2="106.19" class="geom-bold" />
+          <line x1="414.95" y1="135.80" x2="278.15" y2="-2.95" class="geom-dashed" />
+          <line x1="186.21" y1="159.84" x2="133.31" y2="106.19" class="geom-dashed" />
+          <line x1="285.66" y1="149.39" x2="278.15" y2="-2.95" class="geom-assert-line" />
+          <line x1="186.21" y1="159.84" x2="181.76" y2="69.68" class="geom-assert-line" />
+          <circle cx="42.00" cy="175.00" r="3.30" class="geom-point" />
+          <text x="30.00" y="180.00" text-anchor="middle" class="geom-label">O</text>
+          <circle cx="186.21" cy="159.84" r="3.30" class="geom-point" />
+          <text x="186.21" y="176.84" text-anchor="middle" class="geom-label">A</text>
+          <circle cx="285.66" cy="149.39" r="3.30" class="geom-point" />
+          <text x="285.66" y="166.39" text-anchor="middle" class="geom-label">B</text>
+          <circle cx="414.95" cy="135.80" r="3.30" class="geom-point" />
+          <text x="414.95" y="152.80" text-anchor="middle" class="geom-label">C</text>
+          <circle cx="133.31" cy="106.19" r="3.30" class="geom-point" />
+          <text x="125.31" y="97.19" text-anchor="middle" class="geom-label">C'</text>
+          <circle cx="181.76" cy="69.68" r="3.30" class="geom-point" />
+          <text x="173.76" y="60.68" text-anchor="middle" class="geom-label">B'</text>
+          <circle cx="278.15" cy="-2.95" r="3.30" class="geom-point" />
+          <text x="270.15" y="-11.95" text-anchor="middle" class="geom-label">A'</text>
+        </svg>
+                    </a>
+                  </figure>
+                  <section>
+                    <h2><a href="sec_14/index.html">§ 14: Demonstration of Pascal’s Theorem</a></h2>
+                      <p>In this and the following chapter, we shall take as the basis of our discussion all of the plane axioms with the exception of the axiom of Archimedes; that is to say, the axioms I, 1–2 and II–IV. In the present chapter, we propose, by aid of these axioms, to establish Euclid’s theory of proportion; that is, <em>we shall establish it for the plane and that independently of the axiom of Archimedes</em>.</p>
+                    <nav class="excerpt-tracks" aria-label="Tracks">
+                      <a class="excerpt-track-link" href="sec_14/index.html">English</a>
+                      <span class="excerpt-track-sep">&middot;</span>
+                      <a class="excerpt-track-link" href="sec_14/de.html">Deutsch</a>
+                      <span class="excerpt-track-sep">&middot;</span>
+                      <a class="excerpt-track-link" href="sec_14/summary.html">Summary</a>
+                      <span class="excerpt-track-sep">&middot;</span>
+                      <a class="excerpt-track-link" href="sec_14/notes.html">Notes</a>
+                    </nav>
+                  </section>
+                </div>
+              </article>
+              <article class="excerpt">
+                <div class="content">
+                  <figure class="excerpt-svg">
+                    <a href="sec_15/index.html" aria-label="Geometric product c = ab on orthogonal rays and proof of ab = ba via Pappus/Pascal parallels.">
+                      <svg class="euclid-graphic euclid-thumbnail" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 445 224" width="445" height="224" data-graphic-id="fig_segment_multiplication" data-proposition="S.15" data-svg-scope="s-ad8740c3">
+          <style>
+            svg[data-svg-scope="s-ad8740c3"] { font-family: 'Fira Sans Condensed', 'Fira Sans', sans-serif; font-style: normal; font-weight: 700 }
+            svg[data-svg-scope="s-ad8740c3"] .geom-line { stroke: var(--geom-fg); stroke-width: 1.8; stroke-linecap: round; stroke-linejoin: round; fill: none }
+            svg[data-svg-scope="s-ad8740c3"] .geom-bold { stroke: var(--geom-fg); stroke-width: 2.3; stroke-linecap: round; stroke-linejoin: round; fill: none }
+            svg[data-svg-scope="s-ad8740c3"] .geom-dashed { stroke: var(--geom-fg); stroke-width: 1.4; stroke-dasharray: 5, 3.5; stroke-linecap: round; stroke-linejoin: round; fill: none }
+            svg[data-svg-scope="s-ad8740c3"] .geom-accent-line { stroke: var(--geom-accent); stroke-width: 2.1; stroke-linecap: round; stroke-linejoin: round; fill: none }
+            svg[data-svg-scope="s-ad8740c3"] .geom-assert-line { stroke: var(--geom-assert); stroke-width: 2.2; stroke-dasharray: 6, 3; stroke-linecap: round; stroke-linejoin: round; fill: none }
+            svg[data-svg-scope="s-ad8740c3"] .geom-circle { stroke: var(--geom-fg); stroke-width: 1.6; fill: none }
+            svg[data-svg-scope="s-ad8740c3"] .geom-arc { stroke: var(--geom-accent); stroke-width: 1.9; stroke-linecap: round; fill: none }
+            svg[data-svg-scope="s-ad8740c3"] .geom-ang-arc { stroke: var(--geom-assert); stroke-width: 2.0; stroke-linecap: round; fill: none }
+            svg[data-svg-scope="s-ad8740c3"] .geom-polygon { fill: var(--geom-poly-fill); fill-opacity: 0.05; stroke: none }
+            svg[data-svg-scope="s-ad8740c3"] .geom-polygon-gnomon { fill: var(--geom-accent); fill-opacity: 0.14; stroke: none }
+            svg[data-svg-scope="s-ad8740c3"] .geom-point { fill: var(--geom-fg); stroke: var(--geom-point-stroke); stroke-width: 1.1 }
+            svg[data-svg-scope="s-ad8740c3"] .geom-point-accent { fill: var(--geom-accent); stroke: var(--geom-point-stroke); stroke-width: 1.1 }
+            svg[data-svg-scope="s-ad8740c3"] .geom-label { font-family: 'Fira Sans Condensed', 'Fira Sans', sans-serif; font-size: 14px; font-weight: 700; fill: var(--geom-fg); user-select: none }
+            svg[data-svg-scope="s-ad8740c3"] .geom-label-sm { font-family: 'Fira Sans Condensed', 'Fira Sans', sans-serif; font-size: 11.5px; font-weight: 700; fill: var(--geom-fg); opacity: 0.85; user-select: none }
+          </style>
+          <line x1="65.00" y1="195.00" x2="425.00" y2="195.00" class="geom-line" />
+          <line x1="65.00" y1="195.00" x2="65.00" y2="18.00" class="geom-line" />
+          <line x1="76.00" y1="195.00" x2="76.00" y2="184.00" class="geom-dashed" />
+          <line x1="65.00" y1="184.00" x2="76.00" y2="184.00" class="geom-dashed" />
+          <line x1="65.00" y1="127.00" x2="177.20" y2="195.00" class="geom-bold" />
+          <line x1="65.00" y1="35.20" x2="328.67" y2="195.00" class="geom-bold" />
+          <line x1="65.00" y1="127.00" x2="224.80" y2="195.00" class="geom-dashed" />
+          <line x1="65.00" y1="82.80" x2="328.67" y2="195.00" class="geom-dashed" />
+          <line x1="177.20" y1="195.00" x2="65.00" y2="82.80" class="geom-accent-line" />
+          <line x1="224.80" y1="195.00" x2="65.00" y2="35.20" class="geom-accent-line" />
+          <circle cx="65.00" cy="195.00" r="3.30" class="geom-point" />
+          <text x="53.00" y="209.00" text-anchor="middle" class="geom-label">O</text>
+          <circle cx="133.00" cy="195.00" r="3.30" class="geom-point" />
+          <text x="133.00" y="212.00" text-anchor="middle" class="geom-label">1</text>
+          <circle cx="177.20" cy="195.00" r="3.30" class="geom-point" />
+          <text x="177.20" y="212.00" text-anchor="middle" class="geom-label">a</text>
+          <circle cx="224.80" cy="195.00" r="3.30" class="geom-point" />
+          <text x="224.80" y="212.00" text-anchor="middle" class="geom-label">b</text>
+          <circle cx="328.67" cy="195.00" r="3.30" class="geom-point" />
+          <text x="328.67" y="212.00" text-anchor="middle" class="geom-label">ab = ba</text>
+          <circle cx="65.00" cy="127.00" r="3.30" class="geom-point" />
+          <text x="51.00" y="131.00" text-anchor="middle" class="geom-label">1</text>
+          <circle cx="65.00" cy="82.80" r="3.30" class="geom-point" />
+          <text x="51.00" y="86.80" text-anchor="middle" class="geom-label">a</text>
+          <circle cx="65.00" cy="35.20" r="3.30" class="geom-point" />
+          <text x="51.00" y="39.20" text-anchor="middle" class="geom-label">b</text>
+        </svg>
+                    </a>
+                  </figure>
+                  <section>
+                    <h2><a href="sec_15/index.html">§ 15: An Algebra of Segments, Based Upon Pascal’s Theorem</a></h2>
+                      <p>Pascal’s theorem, which was demonstrated in the last section, puts us in a position to introduce into geometry a method of calculating with segments, in which all of the rules for calculating with real numbers remain valid without any modification.</p>
+                    <nav class="excerpt-tracks" aria-label="Tracks">
+                      <a class="excerpt-track-link" href="sec_15/index.html">English</a>
+                      <span class="excerpt-track-sep">&middot;</span>
+                      <a class="excerpt-track-link" href="sec_15/de.html">Deutsch</a>
+                      <span class="excerpt-track-sep">&middot;</span>
+                      <a class="excerpt-track-link" href="sec_15/summary.html">Summary</a>
+                      <span class="excerpt-track-sep">&middot;</span>
+                      <a class="excerpt-track-link" href="sec_15/notes.html">Notes</a>
+                    </nav>
+                  </section>
+                </div>
+              </article>
+              <article class="excerpt">
+                <div class="content">
+                  <section>
+                    <h2><a href="sec_16/index.html">§ 16: Proportion and the Theorems of Similitude</a></h2>
+                      <p>By aid of the preceding algebra of segments, we can establish Euclid’s theory of proportion in a manner free from objections and without making use of the axiom of Archimedes.</p>
+                    <nav class="excerpt-tracks" aria-label="Tracks">
+                      <a class="excerpt-track-link" href="sec_16/index.html">English</a>
+                      <span class="excerpt-track-sep">&middot;</span>
+                      <a class="excerpt-track-link" href="sec_16/de.html">Deutsch</a>
+                      <span class="excerpt-track-sep">&middot;</span>
+                      <a class="excerpt-track-link" href="sec_16/summary.html">Summary</a>
+                      <span class="excerpt-track-sep">&middot;</span>
+                      <a class="excerpt-track-link" href="sec_16/notes.html">Notes</a>
+                    </nav>
+                  </section>
+                </div>
+              </article>
+              <article class="excerpt">
+                <div class="content">
+                  <section>
+                    <h2><a href="sec_17/index.html">§ 17: Equations of Straight Lines and of Planes</a></h2>
+                      <p>To the system of segments already discussed, let us now add a second system. We will distinguish the segments of the new system from those of the former one by means of a special sign, and will call them “<em>negative</em>” segments in contradistinction to the “<em>positive</em>” segments already considered. If we introduce also the segment $O$, which is determined by a single point, and make other appropriate conventions, then all of the rules deduced in § 13 for calculating with real numbers will hold equally well here for calculating with segments. We call special attention to the following particular propositions:</p>
+                    <nav class="excerpt-tracks" aria-label="Tracks">
+                      <a class="excerpt-track-link" href="sec_17/index.html">English</a>
+                      <span class="excerpt-track-sep">&middot;</span>
+                      <a class="excerpt-track-link" href="sec_17/de.html">Deutsch</a>
+                      <span class="excerpt-track-sep">&middot;</span>
+                      <a class="excerpt-track-link" href="sec_17/summary.html">Summary</a>
+                      <span class="excerpt-track-sep">&middot;</span>
+                      <a class="excerpt-track-link" href="sec_17/notes.html">Notes</a>
+                    </nav>
+                  </section>
+                </div>
+              </article>
+            </section><div class="toctree-wrapper compound">
+        </div>
+        </section>
+        </section>
+
+      </div>
+      <footer class="book-footer">
+        <div class="book-footer-ornament">&#10086;</div>
+        <div class="book-footer-nav">
+          <div class="book-nav-prev">
+            <a class="book-nav-btn" href="../chapter_02/sec_12/index.html" title="§ 12: Independence of the Axiom of Continuity (Non-Archimedean Geometry)">&larr; <span class="nav-label">Prev</span></a>
+          </div>
+          <div class="book-nav-center">
+            <a class="book-toc-link" href="../index.html">Foundations of Geometry</a>
+          </div>
+          <div class="book-nav-next">
+            <a class="book-nav-btn" href="sec_13/index.html" title="§ 13: Complex Number-Systems"><span class="nav-label">Next</span> &rarr;</a>
+          </div>
+        </div>
+      </footer>
+    </article>
+  </main>
+  <div class="asides">
+    <aside class="aside-search">
+      <h3>Search</h3>
+      <div id="searchbox" role="search">
+        <form id="rtd-search-form" class="wy-form search-form" action="../../search.html" method="get">
+          <div class="search-field">
+            <input type="search" name="q" placeholder="Search docs..." aria-label="Search docs" autocomplete="off" />
+            <button type="submit" class="search-submit" aria-label="Search" title="Search">
+              <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <circle cx="11" cy="11" r="8"></circle>
+                <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+              </svg>
+            </button>
+          </div>
+          <input type="hidden" name="check_keywords" value="yes" />
+          <input type="hidden" name="area" value="default" />
+        </form>
+      </div>
+    </aside>
+    <aside class="aside-types">
+      <h3>Types</h3>
+      <ul>
+        <li><a href="../../types/book.html">book</a></li>
+      </ul>
+    </aside>
+  </div>
+  <footer>
+    <div class="footer-nav">
+      <ul>
+        <li><a href="../concordance.html"  >Concordance</a></li>
+        <li><a href="../glossary.html"  >Glossary</a></li>
+      </ul>
+    </div>
+    <hr />
+    <div role="contentinfo">
+      <p>
+        &copy; Copyright 1899 B. G. Teubner · 1902 Open Court · Digital Codex GEOMETOR.
+      </p>
+    </div>
+  </footer>
+
+  <script src="../../_static/jquery.js?v=5d32c60e"></script>
+  <script src="../../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+  <script src="../../_static/documentation_options.js?v=59fadc99"></script>
+  <script src="../../_static/doctools.js?v=fd6eb6e6"></script>
+  <script src="../../_static/sphinx_highlight.js?v=6ffebe34"></script>
+  <script src="../../_static/js/collection_controls.js?v=b6b5297a"></script>
+  <script src="../../_static/js/geometor_interactive.js?v=b2892320"></script>
+  <script src="../../_static/js/search_highlight.js"></script>
+
+</body>
+</html>

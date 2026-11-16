@@ -1,0 +1,366 @@
+
+
+<!DOCTYPE html>
+<html lang="en" data-content_root="../../../">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>§ 14: Beweis des Pascalschen Satzes — Foundations of Geometry • GEOMETOR</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <link rel="canonical" href="https://geometor.github.io/hilbert/grundlagen/chapter_03/sec_14/de.html" />
+  <meta name="description" content="In diesem und dem folgenden Kapitel legen wir unserer Untersuchung die ebenen Axiome sämtlicher Gruppen mit Ausnahme des Archimedischen Axioms , d. h. die Axiome I 1 — 2 und II — IV zu Grunde…" />
+  <meta property="og:site_name" content="GEOMETOR" />
+  <meta property="og:type" content="article" />
+  <meta property="og:title" content="§ 14: Beweis des Pascalschen Satzes — Foundations of Geometry • GEOMETOR" />
+  <meta property="og:description" content="In diesem und dem folgenden Kapitel legen wir unserer Untersuchung die ebenen Axiome sämtlicher Gruppen mit Ausnahme des Archimedischen Axioms , d. h. die Axiome I 1 — 2 und II — IV zu Grunde…" />
+  <meta property="og:url" content="https://geometor.github.io/hilbert/grundlagen/chapter_03/sec_14/de.html" />
+  <meta property="og:image" content="https://geometor.github.io/hilbert/_static/social/grundlagen.png" />
+  <meta property="og:image:type" content="image/png" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta property="og:image:alt" content="David Hilbert — GEOMETOR" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="§ 14: Beweis des Pascalschen Satzes — Foundations of Geometry • GEOMETOR" />
+  <meta name="twitter:description" content="In diesem und dem folgenden Kapitel legen wir unserer Untersuchung die ebenen Axiome sämtlicher Gruppen mit Ausnahme des Archimedischen Axioms , d. h. die Axiome I 1 — 2 und II — IV zu Grunde…" />
+  <meta name="twitter:image" content="https://geometor.github.io/hilbert/_static/social/grundlagen.png" />
+  <meta name="twitter:image:alt" content="David Hilbert — GEOMETOR" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..700;1,400..700&family=Fira+Sans+Condensed:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600;1,700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" type="text/css" href="../../../_static/pygments.css?v=ea5fcf70" />
+  <link rel="stylesheet" type="text/css" href="../../../_static/css/styles.css?v=81e79cc0" />
+  <link rel="stylesheet" type="text/css" href="../../../_static/graphviz.css?v=4ae1632d" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css" />
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js"></script>
+  <link rel="stylesheet" href="../../../_static/css/print.css" type="text/css" media="print" />
+  <link rel="icon" href="../../../_static/favicon.ico" />
+</head>
+
+<body class="is-book-page book-theme-classical-serif" data-folio="28
+
+/home/runner/work/hilbert/hilbert/docsrc/grundlagen/chapter_03/sec_14/de.rst:5: (INFO/1) Enumerated list start value not ordinal-1: “S” (ordinal 19)">
+  <header>
+    <div class="logo">
+      <a href="../../../index.html" title="Home">
+        <img src="../../../_static/logo.png" class="logo" alt="GEOMETOR hilbert"/>
+        <div class="org-repo">
+          <span class="org">GEOMETOR</span>
+          <span class="sep" aria-hidden="true">&bull;</span>
+          <span class="repo">hilbert</span>
+        </div>
+      </a>
+    </div>
+    <nav aria-label="Header">
+      <input type="checkbox" id="nav-Header-toggle" >
+      <label for="nav-Header-toggle" >Header</label>
+      <ul>
+        <li>
+          <a href="../../index.html" class="is-active" aria-selected="true" >Foundations of Geometry</a>
+        </li>
+        <li>
+          <a href="../../persons.html"  >People</a>
+        </li>
+        <li>
+          <a href="../../bibliography.html"  >Bibliography</a>
+        </li>
+        <li>
+          <a href="../../../about/index.html"  >About</a>
+        </li>
+        <li>
+          <a href="../../../usage/index.html"  >Usage</a>
+        </li>
+        <li>
+          <a href="../../../log/index.html"  >Log</a>
+        </li>
+        <li>
+          <a href="../../../modules/index.html"  >Modules</a>
+        </li>
+      </ul>
+    </nav>
+    <div class="motto"></div>
+  </header>
+  <main class="book-main">
+    <article class="book-layout book-reading-pane" data-folio="28
+
+/home/runner/work/hilbert/hilbert/docsrc/grundlagen/chapter_03/sec_14/de.rst:5: (INFO/1) Enumerated list start value not ordinal-1: “S” (ordinal 19)" data-canonical-id="§ 14">
+      <header class="book-header">
+        <div class="book-header-bar">
+          <nav class="book-breadcrumbs" aria-label="Breadcrumb">
+            <a class="book-section-home-link" href="../../index.html">Foundations of Geometry</a>
+            <span class="book-crumb-sep" aria-hidden="true">/</span>
+            <a class="book-crumb-link" href="../index.html">Chapter III</a>
+            <span class="book-crumb-sep" aria-hidden="true">/</span>
+            <span class="book-crumb-current" aria-current="page">§ 14</span>
+          </nav>
+          <div class="book-provenance-badges">
+            <span class="book-badge folio-badge">Folio 28
+
+/home/runner/work/hilbert/hilbert/docsrc/grundlagen/chapter_03/sec_14/de.rst:5: (INFO/1) Enumerated list start value not ordinal-1: “S” (ordinal 19) | p. 28</span>
+          </div>
+        </div>
+        <div class="book-header-nav">
+          <div class="book-nav-prev">
+            <a class="book-nav-btn" href="../sec_13/de.html" title="§ 13: Complex Number-Systems">&larr; <span class="nav-label">Prev</span></a>
+          </div>
+          <div class="book-nav-center">
+            <nav class="book-tracks-nav" aria-label="Document Tracks">
+              <a class="book-track-item" href="index.html">English</a>
+              <span class="book-track-sep">&middot;</span>
+              <strong class="book-track-item is-active" aria-current="page">Deutsch</strong>
+              <span class="book-track-sep">&middot;</span>
+              <a class="book-track-item" href="summary.html">Summary</a>
+              <span class="book-track-sep">&middot;</span>
+              <a class="book-track-item" href="notes.html">Notes</a>
+            </nav>
+          </div>
+          <div class="book-nav-next">
+            <a class="book-nav-btn" href="../sec_15/de.html" title="§ 15: An Algebra of Segments, Based Upon Pascal’s Theorem"><span class="nav-label">Next</span> &rarr;</a>
+          </div>
+        </div>
+      </header>
+      <div class="content body book-content folio-book-page" role="main">
+        <span class="folio-milestone" id="folio-§ 14" data-folio="§ 14" data-page="28"><a class="folio-link" href="https://github.com/geometor/hilbert/blob/main/resources/grundlagen/sources/ia_grundlagendergeo00hilb_teubner_1899.txt#L1499" target="_blank" rel="noopener" title="View Folio § 14 (p. 28)">f. § 14 · p. 28</a></span>
+        <section class="level-1" id="beweis-des-pascalschen-satzes">
+        <h1>§ 14: Beweis des Pascalschen Satzes<a class="headerlink" href="#beweis-des-pascalschen-satzes" title="Link to this heading">¶</a></h1>
+        <p class="rubric">David Hilbert — <em>Grundlagen der Geometrie</em> (Festschrift, Leipzig 1899)</p>
+        <p>In diesem und dem folgenden Kapitel legen wir unserer Untersuchung die ebenen Axiome sämtlicher Gruppen mit Ausnahme des Archimedischen Axioms , d. h. die Axiome I 1 — 2 und II — IV zu Grunde. In dem gegenwärtigen Kapitel III gedenken</p>
+        <p>wir Euklids Lehre von den Proportionen mittelst der genannten Axiome, d.h. in der Ebene und unabhängig vom Archimedischen Axiom zu begründen.</p>
+        <p>Zu dem Zwecke beweisen wir zunächst eine Thatsache, die ein besonderer Fall des bekannten Pascalschen Satzes aus der Lehre von den Kegelschnitten ist und die ich künftig kurz als den Pascalschen Satz bezeichnen will. Dieser Satz lautet :</p>
+        <p id="grundlagen-de-thm-21"><strong>Satz 21</strong> <a class="footnote-reference brackets" href="#fn1" id="id1" role="doc-noteref"><span class="fn-bracket">[</span>1<span class="fn-bracket">]</span></a> <strong>(Pascalscher Satz).</strong> Es seien $A, B, C$ bez. $A', B', C'$ je drei Punkte auf zwei sich schneidenden Geraden, die vom Schnittpunkte der Geraden verschieden sind; ist dann $CB'$ parallel $BC'$ und $CA'$ parallel $AC'$, so ist auch $BA'$ parallel $AB'$.</p>
+        <p>Um den Beweis für diesen Satz zu erbringen, führen wir zunächst folgende Bezeichnungsweise ein. In einem rechtwinkligen Dreiecke ist offenbar die Kathete $a$ durch die Hypotenuse $c$ und den von $a$ und $c$ eingeschlossenen Basiswinkel $\alpha$ eindeutig bestimmt: wir setzen kurz</p>
+        <p>$$
+        a = \alpha c,
+        $$</p>
+        <p>sodass das Symbol $\alpha c$ stets eine bestimmte Strecke bedeutet, sobald $c$ eine beliebig gegebene Strecke und $\alpha$ ein beliebig gegebener spitzer Winkel ist.</p>
+        <p>Nunmehr möge $c$ eine beliebige Strecke und $\alpha, \beta$ mögen zwei beliebige spitze Winkel bedeuten; wir behaupten, dass allemal die Streckencongruenz</p>
+        <p>$$
+        \alpha\beta c \equiv \beta\alpha c
+        $$</p>
+        <p>besteht und somit die Symbole $\alpha, \beta$ stets mit einander vertauschbar sind.</p>
+        <p>Um diese Behauptung zu beweisen, nehmen wir die Strecke $c = AB$ und tragen an diese Strecke in $A$ zu beiden Seiten die Winkel $\alpha$ und $\beta$ an. Dann fällen wir von $B$ aus auf die anderen Schenkel dieser Winkel die Lote $BC$ und $BD$, verbinden $C$ mit $D$ und fällen schliesslich von $A$ aus das Lot $AE$ auf $CD$.</p>
+        <p>Da die Winkel $\angle ACB$ und $\angle ADB$ Rechte sind, so liegen die vier Punkte $A, B, C, D$ auf einem Kreise und demnach sind die beiden Winkel $\angle ACD$ und $\angle ABD$ als Peripheriewinkel auf derselben Sehne $AD$ einander congruent. Nun ist einerseits $\angle ACD$ zusammen mit dem $\angle CAE$ und andererseits $\angle ABD$ zusammen mit $\angle BAD$ je ein Rechter und folglich sind auch die Winkel $\angle CAE$ und $\angle BAD$ einander congruent, d. h. es ist</p>
+        <p>$$
+        \angle CAE \equiv \beta,
+        $$</p>
+        <p>und daher</p>
+        <p>$$
+        \angle DAE \equiv \alpha.
+        $$</p>
+        <p>Wir gewinnen nun unmittelbar die Streckencongruenzen</p>
+        <p>$$
+        \begin{aligned}
+        \beta c &amp;\equiv AD, &amp; \alpha c &amp;\equiv AC, \\
+        \alpha\beta c &amp;\equiv \alpha(AD) \equiv AE, &amp; \beta\alpha c &amp;\equiv \beta(AC) \equiv AE,
+        \end{aligned}
+        $$</p>
+        <p>und hieraus folgt die Richtigkeit der vorhin behaupteten Congruenz.</p>
+        <p>Wir kehren nun zur Figur des Pascalschen Satzes zurück und bezeichnen den Schnittpunkt der beiden Geraden mit $O$ und die Strecken $OA, OB, OC, OA', OB', OC', CB', BC', CA', AC', BA', AB'$ bez. mit $a, b, c, a', b', c', l, l^*, m, m^*, n, n^*$. Sodann fällen wir von $O$ Lote auf $l, m, n$; das Lot auf $l$ schliesse mit den beiden Geraden $OA, OA'$ die spitzen Winkel $\lambda', \lambda$ ein und die Lote auf $m$ bez. $n$ mögen mit den Geraden $OA$ und $OA'$ die spitzen Winkel $\mu', \mu$ bez. $\nu', \nu$ bilden. Drücken wir nun diese drei Lote in der vorhin angegebenen Weise mit Hülfe der Hypotenusen und Basiswinkel in den betreffenden rechtwinkligen Dreiecken auf doppelte Weise aus, so erhalten wir folgende drei Streckencongruenzen</p>
+        <p>$$
+        \begin{aligned}
+        (1)\quad \lambda b' &amp;\equiv \lambda' c, \\
+        (2)\quad \mu a' &amp;\equiv \mu' c, \\
+        (3)\quad \nu a' &amp;\equiv \nu' b.
+        \end{aligned}
+        $$</p>
+        <p>Da nach Voraussetzung $l$ parallel $l^*$ und $m$ parallel $m^*$ sein soll, so stimmen die von $O$ auf $l^*$ bez. $m^*$ zu fällenden Lote mit den Loten auf $l$ bez. $m$ überein und wir erhalten somit</p>
+        <p>$$
+        \begin{aligned}
+        (4)\quad \lambda c' &amp;\equiv \lambda' b, \\
+        (5)\quad \mu c' &amp;\equiv \mu' a.
+        \end{aligned}
+        $$</p>
+        <p>Wenn wir auf die Congruenz (3) links und rechts das Symbol $\lambda'\mu$ anwenden und bedenken, dass nach dem vorhin Bewiesenen die in Rede stehenden Symbole mit einander vertauschbar sind, so finden wir</p>
+        <p>$$
+        \nu\lambda'\mu a' \equiv \nu'\mu\lambda' b.
+        $$</p>
+        <p>In dieser Congruenz berücksichtigen wir links die Congruenz (2) und rechts (4); dann wird</p>
+        <p>$$
+        \nu\lambda'\mu' c \equiv \nu'\mu\lambda c'
+        $$</p>
+        <p>oder</p>
+        <p>$$
+        \nu\mu'\lambda' c \equiv \nu'\lambda\mu c'.
+        $$</p>
+        <p>Hierin berücksichtigen wir links die Congruenz (1) und rechts (5); dann wird</p>
+        <p>$$
+        \nu\mu'\lambda b' \equiv \nu'\lambda\mu' a
+        $$</p>
+        <p>oder</p>
+        <p>$$
+        \lambda\mu'\nu b' \equiv \lambda\mu'\nu' a.
+        $$</p>
+        <p>Wegen der Bedeutung unserer Symbole schliessen wir aus der letzten Congruenz sofort</p>
+        <p>$$
+        \mu'\nu b' \equiv \mu'\nu' a
+        $$</p>
+        <p>und hieraus</p>
+        <p>$$
+        (6)\quad \nu b' \equiv \nu' a.
+        $$</p>
+        <p>Fassen wir nun das von $O$ auf $n$ gefällte Lot in’s Auge und fällen auf dasselbe Lote von $A$ und $B'$ aus, so zeigt die Congruenz (6), dass die Fusspunkte der letzteren beiden Lote zusammenfallen, d. h. die Gerade $n^* = AB'$ steht zu dem Lote auf $n$ senkrecht und ist mithin zu $n$ parallel. Damit ist der Beweis für den Pascalschen Satz erbracht.</p>
+        <p>Wenn irgend eine Gerade, ein Punkt ausserhalb derselben und irgend ein Winkel gegeben ist, so kann man offenbar durch Abtragen dieses Winkels und Ziehen einer Parallelen eine Gerade finden, die durch den gegebenen Punkt geht und die gegebene Gerade unter dem gegebenen Winkel schneidet. Im Hinblick auf diesen Umstand dürfen wir uns zum Beweise des Pascalschen Satzes auch des folgenden einfachen Schlussverfahrens bedienen, das ich einer Mittheilung von anderer Seite verdanke.</p>
+        <p>Man ziehe durch $B$ eine Gerade, die $OA'$ im Punkte $D'$ unter dem Winkel $OCA'$ trifft, so dass die Congruenz</p>
+        <p>$$
+        (1^*)\quad \angle OCA' \equiv \angle OD'B
+        $$</p>
+        <p>gilt; dann ist nach einem bekannten Satze aus der Lehre vom Kreise $CBD'A'$ ein Kreisviereck und mithin gilt nach dem Satze von der Congruenz der Peripheriewinkel auf der nämlichen Sehne die Congruenz</p>
+        <p>$$
+        (2^*)\quad \angle OBA' \equiv \angle OD'C.
+        $$</p>
+        <p>Da $CA'$ und $AC'$ nach Voraussetzung einander parallel sind, so ist</p>
+        <p>$$
+        (3^*)\quad \angle OCA' \equiv \angle OAC';
+        $$</p>
+        <p>aus $(1^*)$ und $(3^*)$ folgern wir die Congruenz</p>
+        <p>$$
+        \angle OD'B \equiv \angle OAC';
+        $$</p>
+        <p>dann aber ist auch $BAD'C'$ ein Kreisviereck und mithin gilt nach dem Satze von den Winkeln im Kreisviereck die Congruenz</p>
+        <p>$$
+        (4^*)\quad \angle OAD' \equiv \angle OC'B.
+        $$</p>
+        <p>Da ferner nach Voraussetzung $CB'$ parallel $BC'$ ist, so haben wir auch</p>
+        <p>$$
+        (5^*)\quad \angle OB'C \equiv \angle OC'B;
+        $$</p>
+        <p>aus $(4^*)$ und $(5^*)$ folgern wir die Congruenz</p>
+        <p>$$
+        \angle OAD' \equiv \angle OB'C;
+        $$</p>
+        <p>diese endlich lehrt, dass $CAD'B'$ ein Kreisviereck ist, und mithin gilt auch die Congruenz</p>
+        <p>$$
+        (6^*)\quad \angle OAB' \equiv \angle OD'C.
+        $$</p>
+        <p>Aus $(2^*)$ und $(6^*)$ folgt</p>
+        <p>$$
+        \angle OBA' \equiv \angle OAB'
+        $$</p>
+        <p>und die Congruenz lehrt, dass $BA'$ und $AB'$ einander parallel sind, wie es der Pascalsche Satz verlangt.</p>
+        <p>Fällt $D'$ mit einem der Punkte $A', B', C'$ zusammen, so wird eine Abänderung dieses Schlussverfahrens nothwendig, die leicht ersichtlich ist.</p>
+        <figure class="photon-picture photon-svg">
+            <svg class="euclid-graphic" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 205" width="480" height="205" data-graphic-id="fig_pascal_orthogonal" data-proposition="S.14" data-svg-scope="s-0111b028">
+          <style>
+            svg[data-svg-scope="s-0111b028"] { font-family: 'Fira Sans Condensed', 'Fira Sans', sans-serif; font-style: normal; font-weight: 700 }
+            svg[data-svg-scope="s-0111b028"] .geom-line { stroke: var(--geom-fg); stroke-width: 1.8; stroke-linecap: round; stroke-linejoin: round; fill: none }
+            svg[data-svg-scope="s-0111b028"] .geom-bold { stroke: var(--geom-fg); stroke-width: 2.3; stroke-linecap: round; stroke-linejoin: round; fill: none }
+            svg[data-svg-scope="s-0111b028"] .geom-dashed { stroke: var(--geom-fg); stroke-width: 1.4; stroke-dasharray: 5, 3.5; stroke-linecap: round; stroke-linejoin: round; fill: none }
+            svg[data-svg-scope="s-0111b028"] .geom-accent-line { stroke: var(--geom-accent); stroke-width: 2.1; stroke-linecap: round; stroke-linejoin: round; fill: none }
+            svg[data-svg-scope="s-0111b028"] .geom-assert-line { stroke: var(--geom-assert); stroke-width: 2.2; stroke-dasharray: 6, 3; stroke-linecap: round; stroke-linejoin: round; fill: none }
+            svg[data-svg-scope="s-0111b028"] .geom-circle { stroke: var(--geom-fg); stroke-width: 1.6; fill: none }
+            svg[data-svg-scope="s-0111b028"] .geom-arc { stroke: var(--geom-accent); stroke-width: 1.9; stroke-linecap: round; fill: none }
+            svg[data-svg-scope="s-0111b028"] .geom-ang-arc { stroke: var(--geom-assert); stroke-width: 2.0; stroke-linecap: round; fill: none }
+            svg[data-svg-scope="s-0111b028"] .geom-polygon { fill: var(--geom-poly-fill); fill-opacity: 0.05; stroke: none }
+            svg[data-svg-scope="s-0111b028"] .geom-polygon-gnomon { fill: var(--geom-accent); fill-opacity: 0.14; stroke: none }
+            svg[data-svg-scope="s-0111b028"] .geom-point { fill: var(--geom-fg); stroke: var(--geom-point-stroke); stroke-width: 1.1 }
+            svg[data-svg-scope="s-0111b028"] .geom-point-accent { fill: var(--geom-accent); stroke: var(--geom-point-stroke); stroke-width: 1.1 }
+            svg[data-svg-scope="s-0111b028"] .geom-label { font-family: 'Fira Sans Condensed', 'Fira Sans', sans-serif; font-size: 14px; font-weight: 700; fill: var(--geom-fg); user-select: none }
+            svg[data-svg-scope="s-0111b028"] .geom-label-sm { font-family: 'Fira Sans Condensed', 'Fira Sans', sans-serif; font-size: 11.5px; font-weight: 700; fill: var(--geom-fg); opacity: 0.85; user-select: none }
+          </style>
+          <line x1="42.00" y1="175.00" x2="454.73" y2="131.62" class="geom-line" />
+          <line x1="42.00" y1="175.00" x2="317.53" y2="-32.63" class="geom-line" />
+          <line x1="414.95" y1="135.80" x2="181.76" y2="69.68" class="geom-bold" />
+          <line x1="285.66" y1="149.39" x2="133.31" y2="106.19" class="geom-bold" />
+          <line x1="414.95" y1="135.80" x2="278.15" y2="-2.95" class="geom-dashed" />
+          <line x1="186.21" y1="159.84" x2="133.31" y2="106.19" class="geom-dashed" />
+          <line x1="285.66" y1="149.39" x2="278.15" y2="-2.95" class="geom-assert-line" />
+          <line x1="186.21" y1="159.84" x2="181.76" y2="69.68" class="geom-assert-line" />
+          <circle cx="42.00" cy="175.00" r="3.30" class="geom-point" />
+          <text x="30.00" y="180.00" text-anchor="middle" class="geom-label">O</text>
+          <circle cx="186.21" cy="159.84" r="3.30" class="geom-point" />
+          <text x="186.21" y="176.84" text-anchor="middle" class="geom-label">A</text>
+          <circle cx="285.66" cy="149.39" r="3.30" class="geom-point" />
+          <text x="285.66" y="166.39" text-anchor="middle" class="geom-label">B</text>
+          <circle cx="414.95" cy="135.80" r="3.30" class="geom-point" />
+          <text x="414.95" y="152.80" text-anchor="middle" class="geom-label">C</text>
+          <circle cx="133.31" cy="106.19" r="3.30" class="geom-point" />
+          <text x="125.31" y="97.19" text-anchor="middle" class="geom-label">C'</text>
+          <circle cx="181.76" cy="69.68" r="3.30" class="geom-point" />
+          <text x="173.76" y="60.68" text-anchor="middle" class="geom-label">B'</text>
+          <circle cx="278.15" cy="-2.95" r="3.30" class="geom-point" />
+          <text x="270.15" y="-11.95" text-anchor="middle" class="geom-label">A'</text>
+        </svg>
+        <figcaption>**Affine Pascal's (Pappus's) Hexagon Theorem (Theorem 21).** Theorem 21 (Pappus's Hexagon Theorem on two intersecting lines): CB' ∥ BC' and CA' ∥ AC' imply BA' ∥ AB' without Archimedes's Axiom.</figcaption>
+        </figure>
+        <aside class="footnote-list brackets">
+        <aside class="footnote brackets" id="fn1" role="doc-footnote">
+        <span class="label"><span class="fn-bracket">[</span><a role="doc-backlink" href="#id1">1</a><span class="fn-bracket">]</span></span>
+        <ol class="upperalpha simple" start="6">
+        <li><p>Schur hat einen interessanten Beweis des Pascalschen Satzes auf Grund der sämtlichen Axiome I–II, IV in den <em>Math. Ann.</em> Bd. 51 veröffentlicht.</p></li>
+        </ol>
+        </aside>
+        </aside>
+        </section>
+
+      </div>
+      <footer class="book-footer">
+        <div class="book-footer-ornament">&#10086;</div>
+        <div class="book-footer-nav">
+          <div class="book-nav-prev">
+            <a class="book-nav-btn" href="../sec_13/de.html" title="§ 13: Complex Number-Systems">&larr; <span class="nav-label">Prev</span></a>
+          </div>
+          <div class="book-nav-center">
+            <a class="book-toc-link" href="../../index.html">Foundations of Geometry</a>
+          </div>
+          <div class="book-nav-next">
+            <a class="book-nav-btn" href="../sec_15/de.html" title="§ 15: An Algebra of Segments, Based Upon Pascal’s Theorem"><span class="nav-label">Next</span> &rarr;</a>
+          </div>
+        </div>
+      </footer>
+    </article>
+  </main>
+  <div class="asides">
+    <aside class="aside-search">
+      <h3>Search</h3>
+      <div id="searchbox" role="search">
+        <form id="rtd-search-form" class="wy-form search-form" action="../../../search.html" method="get">
+          <div class="search-field">
+            <input type="search" name="q" placeholder="Search docs..." aria-label="Search docs" autocomplete="off" />
+            <button type="submit" class="search-submit" aria-label="Search" title="Search">
+              <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <circle cx="11" cy="11" r="8"></circle>
+                <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+              </svg>
+            </button>
+          </div>
+          <input type="hidden" name="check_keywords" value="yes" />
+          <input type="hidden" name="area" value="default" />
+        </form>
+      </div>
+    </aside>
+    <aside class="aside-types">
+      <h3>Types</h3>
+      <ul>
+        <li><a href="../../../types/book.html">book</a></li>
+      </ul>
+    </aside>
+  </div>
+  <footer>
+    <div class="footer-nav">
+      <ul>
+        <li><a href="../../concordance.html"  >Concordance</a></li>
+        <li><a href="../../glossary.html"  >Glossary</a></li>
+      </ul>
+    </div>
+    <hr />
+    <div role="contentinfo">
+      <p>
+        &copy; Copyright 1899 B. G. Teubner · 1902 Open Court · Digital Codex GEOMETOR.
+      </p>
+    </div>
+  </footer>
+
+  <script src="../../../_static/jquery.js?v=5d32c60e"></script>
+  <script src="../../../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+  <script src="../../../_static/documentation_options.js?v=59fadc99"></script>
+  <script src="../../../_static/doctools.js?v=fd6eb6e6"></script>
+  <script src="../../../_static/sphinx_highlight.js?v=6ffebe34"></script>
+  <script src="../../../_static/js/collection_controls.js?v=b6b5297a"></script>
+  <script src="../../../_static/js/geometor_interactive.js?v=b2892320"></script>
+  <script src="../../../_static/js/search_highlight.js"></script>
+
+</body>
+</html>

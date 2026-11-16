@@ -1,0 +1,262 @@
+
+
+<!DOCTYPE html>
+<html lang="en" data-content_root="../../../">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>§ 29: Aufbau einer räumlichen Geometrie mit Hülfe eines Desarguesschen Zahlensystems — Foundations of Geometry • GEOMETOR</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <link rel="canonical" href="https://geometor.github.io/hilbert/grundlagen/chapter_05/sec_29/de.html" />
+  <meta name="description" content="Es sei nun irgend ein Desarguessches Zahlensystem D vorgelegt; dasselbe ermöglicht uns den Aufbau einer räumliehen Geometrie, in der die Axiome I, II, III sämtlich erfüllt sind." />
+  <meta property="og:site_name" content="GEOMETOR" />
+  <meta property="og:type" content="article" />
+  <meta property="og:title" content="§ 29: Aufbau einer räumlichen Geometrie mit Hülfe eines Desarguesschen Zahlensystems — Foundations of Geometry • GEOMETOR" />
+  <meta property="og:description" content="Es sei nun irgend ein Desarguessches Zahlensystem D vorgelegt; dasselbe ermöglicht uns den Aufbau einer räumliehen Geometrie, in der die Axiome I, II, III sämtlich erfüllt sind." />
+  <meta property="og:url" content="https://geometor.github.io/hilbert/grundlagen/chapter_05/sec_29/de.html" />
+  <meta property="og:image" content="https://geometor.github.io/hilbert/_static/social/grundlagen.png" />
+  <meta property="og:image:type" content="image/png" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta property="og:image:alt" content="David Hilbert — GEOMETOR" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="§ 29: Aufbau einer räumlichen Geometrie mit Hülfe eines Desarguesschen Zahlensystems — Foundations of Geometry • GEOMETOR" />
+  <meta name="twitter:description" content="Es sei nun irgend ein Desarguessches Zahlensystem D vorgelegt; dasselbe ermöglicht uns den Aufbau einer räumliehen Geometrie, in der die Axiome I, II, III sämtlich erfüllt sind." />
+  <meta name="twitter:image" content="https://geometor.github.io/hilbert/_static/social/grundlagen.png" />
+  <meta name="twitter:image:alt" content="David Hilbert — GEOMETOR" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..700;1,400..700&family=Fira+Sans+Condensed:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600;1,700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" type="text/css" href="../../../_static/pygments.css?v=ea5fcf70" />
+  <link rel="stylesheet" type="text/css" href="../../../_static/css/styles.css?v=81e79cc0" />
+  <link rel="stylesheet" type="text/css" href="../../../_static/graphviz.css?v=4ae1632d" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css" />
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js"></script>
+  <link rel="stylesheet" href="../../../_static/css/print.css" type="text/css" media="print" />
+  <link rel="icon" href="../../../_static/favicon.ico" />
+</head>
+
+<body class="is-book-page book-theme-classical-serif" data-folio="67
+
+/home/runner/work/hilbert/hilbert/docsrc/grundlagen/chapter_05/sec_29/de.rst:5: (INFO/1) Enumerated list start value not ordinal-1: “S” (ordinal 19)">
+  <header>
+    <div class="logo">
+      <a href="../../../index.html" title="Home">
+        <img src="../../../_static/logo.png" class="logo" alt="GEOMETOR hilbert"/>
+        <div class="org-repo">
+          <span class="org">GEOMETOR</span>
+          <span class="sep" aria-hidden="true">&bull;</span>
+          <span class="repo">hilbert</span>
+        </div>
+      </a>
+    </div>
+    <nav aria-label="Header">
+      <input type="checkbox" id="nav-Header-toggle" >
+      <label for="nav-Header-toggle" >Header</label>
+      <ul>
+        <li>
+          <a href="../../index.html" class="is-active" aria-selected="true" >Foundations of Geometry</a>
+        </li>
+        <li>
+          <a href="../../persons.html"  >People</a>
+        </li>
+        <li>
+          <a href="../../bibliography.html"  >Bibliography</a>
+        </li>
+        <li>
+          <a href="../../../about/index.html"  >About</a>
+        </li>
+        <li>
+          <a href="../../../usage/index.html"  >Usage</a>
+        </li>
+        <li>
+          <a href="../../../log/index.html"  >Log</a>
+        </li>
+        <li>
+          <a href="../../../modules/index.html"  >Modules</a>
+        </li>
+      </ul>
+    </nav>
+    <div class="motto"></div>
+  </header>
+  <main class="book-main">
+    <article class="book-layout book-reading-pane" data-folio="67
+
+/home/runner/work/hilbert/hilbert/docsrc/grundlagen/chapter_05/sec_29/de.rst:5: (INFO/1) Enumerated list start value not ordinal-1: “S” (ordinal 19)" data-canonical-id="§ 29">
+      <header class="book-header">
+        <div class="book-header-bar">
+          <nav class="book-breadcrumbs" aria-label="Breadcrumb">
+            <a class="book-section-home-link" href="../../index.html">Foundations of Geometry</a>
+            <span class="book-crumb-sep" aria-hidden="true">/</span>
+            <a class="book-crumb-link" href="../index.html">Chapter V</a>
+            <span class="book-crumb-sep" aria-hidden="true">/</span>
+            <span class="book-crumb-current" aria-current="page">§ 29</span>
+          </nav>
+          <div class="book-provenance-badges">
+            <span class="book-badge folio-badge">Folio 67
+
+/home/runner/work/hilbert/hilbert/docsrc/grundlagen/chapter_05/sec_29/de.rst:5: (INFO/1) Enumerated list start value not ordinal-1: “S” (ordinal 19) | p. 67</span>
+          </div>
+        </div>
+        <div class="book-header-nav">
+          <div class="book-nav-prev">
+            <a class="book-nav-btn" href="../sec_28/de.html" title="§ 28: The Totality of Segments Regarded as a Complex Number System">&larr; <span class="nav-label">Prev</span></a>
+          </div>
+          <div class="book-nav-center">
+            <nav class="book-tracks-nav" aria-label="Document Tracks">
+              <a class="book-track-item" href="index.html">English</a>
+              <span class="book-track-sep">&middot;</span>
+              <strong class="book-track-item is-active" aria-current="page">Deutsch</strong>
+              <span class="book-track-sep">&middot;</span>
+              <a class="book-track-item" href="summary.html">Summary</a>
+              <span class="book-track-sep">&middot;</span>
+              <a class="book-track-item" href="notes.html">Notes</a>
+            </nav>
+          </div>
+          <div class="book-nav-next">
+            <a class="book-nav-btn" href="../sec_30/de.html" title="§ 30: Significance of Desargues’s Theorem"><span class="nav-label">Next</span> &rarr;</a>
+          </div>
+        </div>
+      </header>
+      <div class="content body book-content folio-book-page" role="main">
+        <span class="folio-milestone" id="folio-§ 29" data-folio="§ 29" data-page="67"><a class="folio-link" href="https://github.com/geometor/hilbert/blob/main/resources/grundlagen/sources/ia_grundlagendergeo00hilb_teubner_1899.txt#L3552" target="_blank" rel="noopener" title="View Folio § 29 (p. 67)">f. § 29 · p. 67</a></span>
+        <section class="level-1" id="aufbau-einer-raumlichen-geometrie-mit-hulfe-eines-desarguesschen-zahlensystems">
+        <h1>§ 29: Aufbau einer räumlichen Geometrie mit Hülfe eines Desarguesschen Zahlensystems<a class="headerlink" href="#aufbau-einer-raumlichen-geometrie-mit-hulfe-eines-desarguesschen-zahlensystems" title="Link to this heading">¶</a></h1>
+        <p class="rubric">David Hilbert — <em>Grundlagen der Geometrie</em> (Festschrift, Leipzig 1899)</p>
+        <p>Es sei nun irgend ein Desarguessches Zahlensystem D vorgelegt; dasselbe ermöglicht uns den Aufbau einer räumliehen Geometrie, in der die Axiome I, II, III sämtlich erfüllt sind.</p>
+        <p>Um dies einzusehen, denken wir uns das System von irgend drei Zahlen $(x, y, z)$ des Desarguesschen Zahlensystems $D$ als einen Punkt und das System von irgend vier Zahlen $(u : v : w : r)$ in $D$, von denen die ersten drei Zahlen nicht zugleich $0$ sind, als eine Ebene; doch sollen die Systeme $(u : v : w : r)$ und $(au : av : aw : ar)$, wo $a$ irgend eine von $0$ verschiedene Zahl in $D$ bedeutet, die nämliche Ebene darstellen. Das Bestehen der Gleichung</p>
+        <p>$$
+        ux + vy + wz + r = 0
+        $$</p>
+        <p>möge ausdrücken, dass der Punkt $(x, y, z)$ auf der Ebene $(u : v : w : r)$ liegt. Die Gerade endlich definiren wir mit Hülfe eines Systems zweier Ebenen $(u' : v' : w' : r')$ und $(u'' : v'' : w'' : r'')$, wenn es nicht möglich ist, zwei von $0$ verschiedene Zahlen $a', a''$ in $D$ zu finden, sodass gleichzeitig</p>
+        <p>$$
+        a'u' = a''u'', \quad a'v' = a''v'', \quad a'w' = a''w''
+        $$</p>
+        <p>wird. Ein Punkt $(x, y, z)$ heisst auf dieser Geraden $[(u' : v' : w' : r'), (u'' : v'' : w'' : r'')]$ gelegen, wenn er den beiden Ebenen $(u' : v' : w' : r')$ und $(u'' : v'' : w'' : r'')$ gemeinsam ist. Zwei Gerade, welche dieselben Punkte enthalten, gelten als nicht verschieden.</p>
+        <p>Indem wir die Rechnungsgesetze 1–11 in § 13 anwenden, die nach Voraussetzung für die Zahlen in $D$ gelten sollen, gelangen wir ohne Schwierigkeit zu dem Resultate, dass in der soeben aufgestellten räumlichen Geometrie die Axiome I und III sämtlich erfüllt sind.</p>
+        <p>Damit auch den Axiomen II der Anordnung Genüge geschehe, treffen wir folgende Festsetzungen. Es seien</p>
+        <p>$$
+        (x_1, y_1, z_1), \quad (x_2, y_2, z_2), \quad (x_3, y_3, z_3)
+        $$</p>
+        <p>irgend drei Punkte einer Geraden</p>
+        <p>$$
+        [(u' : v' : w' : r'), \; (u'' : v'' : w'' : r'')];
+        $$</p>
+        <p>dann heisse der Punkt $(x_2, y_2, z_2)$ zwischen den beiden anderen gelegen, wenn wenigstens eine der sechs Doppelungleichungen</p>
+        <p>$$
+        \begin{aligned}
+        (1)\quad x_1 &amp;&lt; x_2 &lt; x_3, &amp; x_1 &amp;&gt; x_2 &gt; x_3, \\
+        (2)\quad y_1 &amp;&lt; y_2 &lt; y_3, &amp; y_1 &amp;&gt; y_2 &gt; y_3, \\
+        (3)\quad z_1 &amp;&lt; z_2 &lt; z_3, &amp; z_1 &amp;&gt; z_2 &gt; z_3
+        \end{aligned}
+        $$</p>
+        <p>erfüllt ist. Besteht nun etwa eine der beiden Doppelungleichungen (1), so schliessen wir leicht, dass entweder $y_1 = y_2 = y_3$ oder notwendig eine der beiden Doppelungleichungen (2) und ebenso dass entweder $z_1 = z_2 = z_3$ oder eine der Doppelungleichungen (3) gelten muss. In der That, aus den Gleichungen</p>
+        <p>$$
+        \begin{aligned}
+        u'x_i + v'y_i + w'z_i + r' &amp;= 0, \\
+        u''x_i + v''y_i + w''z_i + r'' &amp;= 0 \qquad (i = 1, 2, 3)
+        \end{aligned}
+        $$</p>
+        <p>leiten wir durch linksseitige Multiplikation derselben mit geeigneten Zahlen aus $D$ und durch nachherige Addition der entstehenden Gleichungen ein Gleichungssystem von der Gestalt</p>
+        <p>$$
+        (4)\quad u'''x_i + v'''y_i + r''' = 0 \qquad (i = 1, 2, 3)
+        $$</p>
+        <p>ab. Hierin ist der Coefficient $v'''$ sicher nicht $0$, da sonst die Gleichheit der drei Zahlen $x_1, x_2, x_3$ folgen würde. Aus</p>
+        <p>$$
+        x_1 \lesseqgtr x_2 \lesseqgtr x_3
+        $$</p>
+        <p>schliessen wir</p>
+        <p>$$
+        u'''x_1 \gtreqless u'''x_2 \gtreqless u'''x_3
+        $$</p>
+        <p>und mithin wegen (4)</p>
+        <p>$$
+        v'''y_1 + r''' \lesseqgtr v'''y_2 + r''' \lesseqgtr v'''y_3 + r'''
+        $$</p>
+        <p>und daher</p>
+        <p>$$
+        v'''y_1 \lesseqgtr v'''y_2 \lesseqgtr v'''y_3,
+        $$</p>
+        <p>und da $v'''$ nicht $0$ ist, so haben wir</p>
+        <p>$$
+        y_1 \lesseqgtr y_2 \lesseqgtr y_3;
+        $$</p>
+        <p>in jeder dieser Doppelungleichungen soll stets entweder durchweg das obere oder durchweg das mittlere oder durchweg das untere Zeichen gelten.</p>
+        <p>Die angestellten Ueberlegungen lassen erkennen, dass in unserer Geometrie die linearen Axiome II 1–4 der Anordnung zutreffen. Es bleibt noch zu zeigen übrig, dass in unserer Geometrie auch das ebene Axiom II 5 gültig ist.</p>
+        <p>Zu dem Zwecke sei eine Ebene $(u : v : w : r)$ und in ihr eine Gerade $[(u : v : w : r), (u' : v' : w' : r')]$ gegeben. Wir setzen fest, dass alle in der Ebene $(u : v : w : r)$ gelegenen Punkte $(x, y, z)$, für die der Ausdruck $u'x + v'y + w'z + r'$ kleiner oder grösser als $0$ ausfällt, auf der einen bez. auf der anderen Seite von jener Geraden gelegen sein sollen, und haben dann zu beweisen, dass diese Festsetzung sich mit der vorigen in Uebereinstimmung befindet, was leicht geschehen kann.</p>
+        <p>Damit haben wir erkannt, dass die sämtlichen Axiome I, II, III in derjenigen räumlichen Geometrie erfüllt sind, die in der oben geschilderten Weise aus dem Desarguesschen Zahlensystem D entspringt. Bedenken wir, dass der Desarguessche Satz eine Folge der Axiome I, II, III ist, so sehen wir, dass die eben gefundene Thatsache die genaue Umkehrung desjenigen Ergebnisses darstellt, zu dem wir in § 28 gelangt sind.</p>
+        </section>
+
+      </div>
+      <footer class="book-footer">
+        <div class="book-footer-ornament">&#10086;</div>
+        <div class="book-footer-nav">
+          <div class="book-nav-prev">
+            <a class="book-nav-btn" href="../sec_28/de.html" title="§ 28: The Totality of Segments Regarded as a Complex Number System">&larr; <span class="nav-label">Prev</span></a>
+          </div>
+          <div class="book-nav-center">
+            <a class="book-toc-link" href="../../index.html">Foundations of Geometry</a>
+          </div>
+          <div class="book-nav-next">
+            <a class="book-nav-btn" href="../sec_30/de.html" title="§ 30: Significance of Desargues’s Theorem"><span class="nav-label">Next</span> &rarr;</a>
+          </div>
+        </div>
+      </footer>
+    </article>
+  </main>
+  <div class="asides">
+    <aside class="aside-search">
+      <h3>Search</h3>
+      <div id="searchbox" role="search">
+        <form id="rtd-search-form" class="wy-form search-form" action="../../../search.html" method="get">
+          <div class="search-field">
+            <input type="search" name="q" placeholder="Search docs..." aria-label="Search docs" autocomplete="off" />
+            <button type="submit" class="search-submit" aria-label="Search" title="Search">
+              <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <circle cx="11" cy="11" r="8"></circle>
+                <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+              </svg>
+            </button>
+          </div>
+          <input type="hidden" name="check_keywords" value="yes" />
+          <input type="hidden" name="area" value="default" />
+        </form>
+      </div>
+    </aside>
+    <aside class="aside-types">
+      <h3>Types</h3>
+      <ul>
+        <li><a href="../../../types/book.html">book</a></li>
+      </ul>
+    </aside>
+  </div>
+  <footer>
+    <div class="footer-nav">
+      <ul>
+        <li><a href="../../concordance.html"  >Concordance</a></li>
+        <li><a href="../../glossary.html"  >Glossary</a></li>
+      </ul>
+    </div>
+    <hr />
+    <div role="contentinfo">
+      <p>
+        &copy; Copyright 1899 B. G. Teubner · 1902 Open Court · Digital Codex GEOMETOR.
+      </p>
+    </div>
+  </footer>
+
+  <script src="../../../_static/jquery.js?v=5d32c60e"></script>
+  <script src="../../../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+  <script src="../../../_static/documentation_options.js?v=59fadc99"></script>
+  <script src="../../../_static/doctools.js?v=fd6eb6e6"></script>
+  <script src="../../../_static/sphinx_highlight.js?v=6ffebe34"></script>
+  <script src="../../../_static/js/collection_controls.js?v=b6b5297a"></script>
+  <script src="../../../_static/js/geometor_interactive.js?v=b2892320"></script>
+  <script src="../../../_static/js/search_highlight.js"></script>
+
+</body>
+</html>

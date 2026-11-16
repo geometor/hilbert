@@ -1,0 +1,282 @@
+
+
+<!DOCTYPE html>
+<html lang="en" data-content_root="../../">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Chapter VI: Pascal’s Theorem — Foundations of Geometry • GEOMETOR</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <link rel="canonical" href="https://geometor.github.io/hilbert/grundlagen/chapter_06/" />
+  <meta name="description" content="Chapter VI brings the projective-algebraic hierarchy to its climax by isolating the exact axiomatic and algebraic meaning of Pascal’s (Pappus’s) Theorem when Congruence (`IV`) is omitted:" />
+  <meta property="og:site_name" content="GEOMETOR" />
+  <meta property="og:type" content="article" />
+  <meta property="og:title" content="Chapter VI: Pascal’s Theorem — Foundations of Geometry • GEOMETOR" />
+  <meta property="og:description" content="Chapter VI brings the projective-algebraic hierarchy to its climax by isolating the exact axiomatic and algebraic meaning of Pascal’s (Pappus’s) Theorem when Congruence (`IV`) is omitted:" />
+  <meta property="og:url" content="https://geometor.github.io/hilbert/grundlagen/chapter_06/" />
+  <meta property="og:image" content="https://geometor.github.io/hilbert/_static/social/grundlagen.png" />
+  <meta property="og:image:type" content="image/png" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta property="og:image:alt" content="David Hilbert — GEOMETOR" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Chapter VI: Pascal’s Theorem — Foundations of Geometry • GEOMETOR" />
+  <meta name="twitter:description" content="Chapter VI brings the projective-algebraic hierarchy to its climax by isolating the exact axiomatic and algebraic meaning of Pascal’s (Pappus’s) Theorem when Congruence (`IV`) is omitted:" />
+  <meta name="twitter:image" content="https://geometor.github.io/hilbert/_static/social/grundlagen.png" />
+  <meta name="twitter:image:alt" content="David Hilbert — GEOMETOR" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..700;1,400..700&family=Fira+Sans+Condensed:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600;1,700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" type="text/css" href="../../_static/pygments.css?v=ea5fcf70" />
+  <link rel="stylesheet" type="text/css" href="../../_static/css/styles.css?v=81e79cc0" />
+  <link rel="stylesheet" type="text/css" href="../../_static/graphviz.css?v=4ae1632d" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css" />
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js"></script>
+  <link rel="stylesheet" href="../../_static/css/print.css" type="text/css" media="print" />
+  <link rel="icon" href="../../_static/favicon.ico" />
+</head>
+
+<body class="is-book-page book-theme-classical-serif">
+  <header>
+    <div class="logo">
+      <a href="../../index.html" title="Home">
+        <img src="../../_static/logo.png" class="logo" alt="GEOMETOR hilbert"/>
+        <div class="org-repo">
+          <span class="org">GEOMETOR</span>
+          <span class="sep" aria-hidden="true">&bull;</span>
+          <span class="repo">hilbert</span>
+        </div>
+      </a>
+    </div>
+    <nav aria-label="Header">
+      <input type="checkbox" id="nav-Header-toggle" >
+      <label for="nav-Header-toggle" >Header</label>
+      <ul>
+        <li>
+          <a href="../index.html" class="is-active" aria-selected="true" >Foundations of Geometry</a>
+        </li>
+        <li>
+          <a href="../persons.html"  >People</a>
+        </li>
+        <li>
+          <a href="../bibliography.html"  >Bibliography</a>
+        </li>
+        <li>
+          <a href="../../about/index.html"  >About</a>
+        </li>
+        <li>
+          <a href="../../usage/index.html"  >Usage</a>
+        </li>
+        <li>
+          <a href="../../log/index.html"  >Log</a>
+        </li>
+        <li>
+          <a href="../../modules/index.html"  >Modules</a>
+        </li>
+      </ul>
+    </nav>
+    <div class="motto"></div>
+  </header>
+  <main class="book-main">
+    <article class="book-layout book-reading-pane" data-canonical-id="Chapter VI">
+      <header class="book-header">
+        <div class="book-header-bar">
+          <nav class="book-breadcrumbs" aria-label="Breadcrumb">
+            <a class="book-section-home-link" href="../index.html">Foundations of Geometry</a>
+            <span class="book-crumb-sep" aria-hidden="true">/</span>
+            <span class="book-crumb-current" aria-current="page">Chapter VI</span>
+          </nav>
+        </div>
+        <div class="book-header-nav">
+          <div class="book-nav-prev">
+            <a class="book-nav-btn" href="../chapter_05/sec_30/index.html" title="§ 30: Significance of Desargues’s Theorem">&larr; <span class="nav-label">Prev</span></a>
+          </div>
+          <div class="book-nav-center">
+          </div>
+          <div class="book-nav-next">
+            <a class="book-nav-btn" href="sec_31/index.html" title="§ 31: Two Theorems Concerning the Possibility of Proving Pascal’s Theorem"><span class="nav-label">Next</span> &rarr;</a>
+          </div>
+        </div>
+      </header>
+      <div class="content body book-content folio-book-page" role="main">
+        <section class="level-1" id="chapter-vi-pascal-s-theorem">
+        <span id="grundlagen-chapter-6-notes"></span><span id="grundlagen-chapter-6-summary"></span><span id="grundlagen-chapter-6-de"></span><span id="grundlagen-chapter-6-en"></span><span id="grundlagen-chapter-6"></span><h1>Chapter VI: Pascal’s Theorem<a class="headerlink" href="#chapter-vi-pascal-s-theorem" title="Link to this heading">¶</a></h1>
+        <p class="rubric"><em>Kapitel VI: Der Pascalsche Satz</em> — David Hilbert (1899 / 1902) — §§ 31–35</p>
+        <p>Chapter VI brings the projective-algebraic hierarchy to its climax by isolating the exact axiomatic and algebraic meaning of <a class="term-ref glossary-term" id="occ-term-pascalscher-satz-1" href="../glossary.html#term-pascalscher-satz" data-term="pascalscher-satz" title="Pascalscher Satz (Pappus&#x27;s Hexagon Theorem) (Pascal&#x27;s Theorem (Affine Pappus&#x27;s Hexagon Theorem)): Hilbert&#x27;s name (§ 14, Theorem 21; §§ 31–35) for the degenerate two-line case of Pascal&#x27;s conic hexagram—historically discovered by Pappus of Alexandria (Synagoge VII.138–139). If A, B, C and A&#x27;, B&#x27;, C&#x27; lie on two intersecting lines and CB&#x27; ∥ BC&#x27; and CA&#x27; ∥ AC&#x27;, then BA&#x27; ∥ AB&#x27;. Equivalent to commutativity of segment multiplication ab = ba.">Pascal's (Pappus's) Theorem</a> when <strong>Congruence (`IV`) is omitted</strong>:</p>
+        <ul>
+        <li><p><strong>§ 31 — Two Fundamental Theorems on Pappus/Pascal (Theorems 36–37)</strong>: Announces two complementary results in 3D space without Congruence:
+        1. <cite>Theorem 36</cite>: Pappus/Pascal <strong>is provable</strong> from <cite>I, II, III, V</cite> (i.e., with Archimedes’s Axiom, even without Congruence!).
+        2. <cite>Theorem 37</cite>: Pappus/Pascal <strong>is unprovable</strong> from <cite>I, II, III</cite> alone (when both Congruence <cite>IV</cite> and Archimedes <cite>V</cite> are dropped).</p></li>
+        <li><p><strong>§ 32 — Hilbert’s Commutativity Theorem for Archimedean Skew-Fields (Theorem 38)</strong>: Proves a landmark theorem of pure algebra: <strong>every Archimedean ordered division ring is necessarily commutative</strong>! Assuming $a &gt; 0, b &gt; 0$, and $ab - ba &gt; 0$, <a class="person-ref" id="occ-person-hilbert-1" href="../persons.html#person-hilbert" data-person="hilbert" title="David Hilbert (1862 – 1943) — German Mathematician &amp; Professor at Göttingen">Hilbert</a> traps $a$ and $b$ between consecutive multiples $md &lt; a &lt; (m+1)d$ and $nd &lt; b &lt; (n+1)d$ using Archimedes’s Axiom (<cite>17</cite>) and shows $ab - ba &lt; (m + n + 1)d^2 &lt; (a + b + 1)c = ab - ba$, an outright contradiction!</p></li>
+        <li><p><strong>§ 33 — Hilbert’s Non-Commutative Twist Laurent Skew-Field $\Omega(s, t)$ (Theorem 39)</strong>: Constructs the first explicit example in mathematics of an ordered non-Archimedean skew-field (<cite>Theorem 39</cite>): formal Laurent series $S = s^m T_0 + s^{m+1} T_1 + \cdots$ whose coefficients $T_k = r_0 t^n + r_1 t^{n+1} + \cdots$ are formal Laurent series in $t$ over $\mathbb{Q}$, governed by the non-commutative twist relation</p>
+        <p>$$ts = 2st,$$</p>
+        <p>and ordered lexicographically by the leading rational coefficient $r_0$ of $T_0$.</p>
+        </li>
+        <li><p><strong>§§ 34–35 — Non-Pascalian Geometry and Intersection Completeness</strong>: Building 3-space over $\Omega(s, t)$ via § 29 immediately proves <cite>Theorem 37</cite>, exhibiting a consistent 3D <a class="term-ref glossary-term" id="occ-term-nicht-pascalsche-geometrie-1" href="../glossary.html#term-nicht-pascalsche-geometrie" data-term="nicht-pascalsche-geometrie" title="Nicht-Pascalsche Geometrie (Non-Pascalian (Non-Pappian) Geometry): A 3D Desarguesian geometry satisfying Axioms I, II, III (without Congruence IV or Archimedes V) in which Pappus&#x27;s/Pascal&#x27;s Hexagon Theorem fails—constructed by Hilbert in §§ 32–33 (Theorem 38) over the non-commutative skew-field Ω(s, t) with ts = 2st.">Non-Pascalian Geometry</a> (which by <cite>Theorem 36</cite> is necessarily non-Archimedean). Conversely, § 35 proves that every planar incidence/intersection theorem holding under <cite>I–V</cite> reduces synthetically to a finite combination of Desargues’s and Pascal’s (Pappus’s) theorems without needing Congruence!</p></li>
+        </ul>
+        <section class="level-2" id="sections">
+        <h2>Sections<a class="headerlink" href="#sections" title="Link to this heading">¶</a></h2>
+            <section class="collection ">
+              <article class="excerpt">
+                <div class="content">
+                  <section>
+                    <h2><a href="sec_31/index.html">§ 31: Two Theorems Concerning the Possibility of Proving Pascal’s Theorem</a></h2>
+                      <p>As is well known, Desargues’s theorem (theorem 32) may be demonstrated by the aid of axioms I, II, III; that is to say, by the use, essentially, of the axioms of space. In § ! 23, we have shown that the demonstration of this theorem without the aid of the space axioms of group I and without the axioms of congruence (group IV) is impossible, even if we make use of the axiom of Archimedes.</p>
+                    <nav class="excerpt-tracks" aria-label="Tracks">
+                      <a class="excerpt-track-link" href="sec_31/index.html">English</a>
+                      <span class="excerpt-track-sep">&middot;</span>
+                      <a class="excerpt-track-link" href="sec_31/de.html">Deutsch</a>
+                      <span class="excerpt-track-sep">&middot;</span>
+                      <a class="excerpt-track-link" href="sec_31/summary.html">Summary</a>
+                      <span class="excerpt-track-sep">&middot;</span>
+                      <a class="excerpt-track-link" href="sec_31/notes.html">Notes</a>
+                    </nav>
+                  </section>
+                </div>
+              </article>
+              <article class="excerpt">
+                <div class="content">
+                  <section>
+                    <h2><a href="sec_32/index.html">§ 32: The Commutative Law of Multiplication for an Archimedean Number System</a></h2>
+                      <p>The demonstration of theorems 36 and 37 rests essentially upon certain mutual relations concerning the laws of operation and the fundamental propositions of arithmetic, a knowledge of which is of itself of interest. We will state the two following theorems.</p>
+                    <nav class="excerpt-tracks" aria-label="Tracks">
+                      <a class="excerpt-track-link" href="sec_32/index.html">English</a>
+                      <span class="excerpt-track-sep">&middot;</span>
+                      <a class="excerpt-track-link" href="sec_32/de.html">Deutsch</a>
+                      <span class="excerpt-track-sep">&middot;</span>
+                      <a class="excerpt-track-link" href="sec_32/summary.html">Summary</a>
+                      <span class="excerpt-track-sep">&middot;</span>
+                      <a class="excerpt-track-link" href="sec_32/notes.html">Notes</a>
+                    </nav>
+                  </section>
+                </div>
+              </article>
+              <article class="excerpt">
+                <div class="content">
+                  <section>
+                    <h2><a href="sec_33/index.html">§ 33: The Commutative Law of Multiplication for a Non-Archimedean Number System</a></h2>
+                      <p id="grundlagen-en-thm-39"><strong>Theorem 39.</strong> For a non-archimedean number system, the commutative law of multiplication is not a necessary consequence of the remaining laws of operation; that is to say, there exists a system of numbers possessing the properties 1–11, 13–16 mentioned in § ! 13, but for which the commutative law (12) of multiplication is not valid. A desarguesian number system, in the sense of § ! 28, is such a system.</p>
+                    <nav class="excerpt-tracks" aria-label="Tracks">
+                      <a class="excerpt-track-link" href="sec_33/index.html">English</a>
+                      <span class="excerpt-track-sep">&middot;</span>
+                      <a class="excerpt-track-link" href="sec_33/de.html">Deutsch</a>
+                      <span class="excerpt-track-sep">&middot;</span>
+                      <a class="excerpt-track-link" href="sec_33/summary.html">Summary</a>
+                      <span class="excerpt-track-sep">&middot;</span>
+                      <a class="excerpt-track-link" href="sec_33/notes.html">Notes</a>
+                    </nav>
+                  </section>
+                </div>
+              </article>
+              <article class="excerpt">
+                <div class="content">
+                  <section>
+                    <h2><a href="sec_34/index.html">§ 34: Proof of the Two Propositions Concerning Pascal’s Theorem (Non-Pascalian Geometry)</a></h2>
+                      <p>If, in a geometry of space, all of the axioms I, II, III are fulfilled, then Desargues’s theorem (theorem 32) is also valid, and, consequently, according to §§ 24–26, pp. 79–89, it is possible to introduce into this geometry an algebra of segments for which the rules 1–11, 13–16 of § ! 13 are all valid. If we assume now that the axiom (V) of Archimedes is valid for our geometry, then evidently Archimedes’s theorem (theorem 17 of § ! 13) also holds for our algebra of segments, and, consequently, by virtue of theorem 38, the commutative law of multiplication is valid. Since, however, the definition of the product of two segments, as introduced in § ! 24 (figure 42) and which is the definition here also under discussion, agrees with the definition in § ! 15 (figure 22), it follows from the construction made in § ! 15 that the commutative law of multiplication is here nothing else than Pascal’s theorem. Consequently, the validity of theorem 36 is established.</p>
+                    <nav class="excerpt-tracks" aria-label="Tracks">
+                      <a class="excerpt-track-link" href="sec_34/index.html">English</a>
+                      <span class="excerpt-track-sep">&middot;</span>
+                      <a class="excerpt-track-link" href="sec_34/de.html">Deutsch</a>
+                      <span class="excerpt-track-sep">&middot;</span>
+                      <a class="excerpt-track-link" href="sec_34/summary.html">Summary</a>
+                      <span class="excerpt-track-sep">&middot;</span>
+                      <a class="excerpt-track-link" href="sec_34/notes.html">Notes</a>
+                    </nav>
+                  </section>
+                </div>
+              </article>
+              <article class="excerpt">
+                <div class="content">
+                  <section>
+                    <h2><a href="sec_35/index.html">§ 35: The Demonstration, by Means of the Theorems of Pascal and Desargues, of Any Theorem Relating to Points of Intersection</a></h2>
+                      <p>Every proposition relating to points of intersection in a plane has necessarily The form: Select, first of all, an arbitrary system of points and straight lines satisfying respectively the condition that certain ones of these points are situated on certain ones of the straight lines. If, in some known manner, we construct the straight lines joining the given points and determine the points of intersection of the given lines, we shall obtain finally a definite system of three straight lines, of which our proposition asserts that they all pass through the same point.</p>
+                    <nav class="excerpt-tracks" aria-label="Tracks">
+                      <a class="excerpt-track-link" href="sec_35/index.html">English</a>
+                      <span class="excerpt-track-sep">&middot;</span>
+                      <a class="excerpt-track-link" href="sec_35/de.html">Deutsch</a>
+                      <span class="excerpt-track-sep">&middot;</span>
+                      <a class="excerpt-track-link" href="sec_35/summary.html">Summary</a>
+                      <span class="excerpt-track-sep">&middot;</span>
+                      <a class="excerpt-track-link" href="sec_35/notes.html">Notes</a>
+                    </nav>
+                  </section>
+                </div>
+              </article>
+            </section><div class="toctree-wrapper compound">
+        </div>
+        </section>
+        </section>
+
+      </div>
+      <footer class="book-footer">
+        <div class="book-footer-ornament">&#10086;</div>
+        <div class="book-footer-nav">
+          <div class="book-nav-prev">
+            <a class="book-nav-btn" href="../chapter_05/sec_30/index.html" title="§ 30: Significance of Desargues’s Theorem">&larr; <span class="nav-label">Prev</span></a>
+          </div>
+          <div class="book-nav-center">
+            <a class="book-toc-link" href="../index.html">Foundations of Geometry</a>
+          </div>
+          <div class="book-nav-next">
+            <a class="book-nav-btn" href="sec_31/index.html" title="§ 31: Two Theorems Concerning the Possibility of Proving Pascal’s Theorem"><span class="nav-label">Next</span> &rarr;</a>
+          </div>
+        </div>
+      </footer>
+    </article>
+  </main>
+  <div class="asides">
+    <aside class="aside-search">
+      <h3>Search</h3>
+      <div id="searchbox" role="search">
+        <form id="rtd-search-form" class="wy-form search-form" action="../../search.html" method="get">
+          <div class="search-field">
+            <input type="search" name="q" placeholder="Search docs..." aria-label="Search docs" autocomplete="off" />
+            <button type="submit" class="search-submit" aria-label="Search" title="Search">
+              <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <circle cx="11" cy="11" r="8"></circle>
+                <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+              </svg>
+            </button>
+          </div>
+          <input type="hidden" name="check_keywords" value="yes" />
+          <input type="hidden" name="area" value="default" />
+        </form>
+      </div>
+    </aside>
+    <aside class="aside-types">
+      <h3>Types</h3>
+      <ul>
+        <li><a href="../../types/book.html">book</a></li>
+      </ul>
+    </aside>
+  </div>
+  <footer>
+    <div class="footer-nav">
+      <ul>
+        <li><a href="../concordance.html"  >Concordance</a></li>
+        <li><a href="../glossary.html"  >Glossary</a></li>
+      </ul>
+    </div>
+    <hr />
+    <div role="contentinfo">
+      <p>
+        &copy; Copyright 1899 B. G. Teubner · 1902 Open Court · Digital Codex GEOMETOR.
+      </p>
+    </div>
+  </footer>
+
+  <script src="../../_static/jquery.js?v=5d32c60e"></script>
+  <script src="../../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+  <script src="../../_static/documentation_options.js?v=59fadc99"></script>
+  <script src="../../_static/doctools.js?v=fd6eb6e6"></script>
+  <script src="../../_static/sphinx_highlight.js?v=6ffebe34"></script>
+  <script src="../../_static/js/collection_controls.js?v=b6b5297a"></script>
+  <script src="../../_static/js/geometor_interactive.js?v=b2892320"></script>
+  <script src="../../_static/js/search_highlight.js"></script>
+
+</body>
+</html>

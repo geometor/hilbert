@@ -113,7 +113,7 @@ Module Contents
 
    .. py:method:: by_chapter(chapter_slug: str) -> list[ConcordanceEntry]
 
-      Return all concordance entries belonging to `chapter_slug` (e.g. `'chapter-1'`).
+      Return all concordance entries belonging to `chapter_slug` (e.g. `'chapter-1'` or `'chapter_01'`).
 
 
 

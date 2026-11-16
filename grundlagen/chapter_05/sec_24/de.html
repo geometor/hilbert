@@ -1,0 +1,218 @@
+
+
+<!DOCTYPE html>
+<html lang="en" data-content_root="../../../">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>§ 24: Einführung einer Streckenrechnung ohne Hülfe der Congruenzaxiome auf Grund des Desarguesschen Satzes — Foundations of Geometry • GEOMETOR</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <link rel="canonical" href="https://geometor.github.io/hilbert/grundlagen/chapter_05/sec_24/de.html" />
+  <meta name="description" content="Um die Bedeutung des Desarguesschen Satzes (Satz 32) vollständig zu erkennen, legen wir eine ebene Geometrie zu Grunde, in welcher die Axiome I 1 — 2, II — III, d. h. die sämtlichen ebenen…" />
+  <meta property="og:site_name" content="GEOMETOR" />
+  <meta property="og:type" content="article" />
+  <meta property="og:title" content="§ 24: Einführung einer Streckenrechnung ohne Hülfe der Congruenzaxiome auf Grund des Desarguesschen Satzes — Foundations of Geometry • GEOMETOR" />
+  <meta property="og:description" content="Um die Bedeutung des Desarguesschen Satzes (Satz 32) vollständig zu erkennen, legen wir eine ebene Geometrie zu Grunde, in welcher die Axiome I 1 — 2, II — III, d. h. die sämtlichen ebenen…" />
+  <meta property="og:url" content="https://geometor.github.io/hilbert/grundlagen/chapter_05/sec_24/de.html" />
+  <meta property="og:image" content="https://geometor.github.io/hilbert/_static/social/grundlagen.png" />
+  <meta property="og:image:type" content="image/png" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta property="og:image:alt" content="David Hilbert — GEOMETOR" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="§ 24: Einführung einer Streckenrechnung ohne Hülfe der Congruenzaxiome auf Grund des Desarguesschen Satzes — Foundations of Geometry • GEOMETOR" />
+  <meta name="twitter:description" content="Um die Bedeutung des Desarguesschen Satzes (Satz 32) vollständig zu erkennen, legen wir eine ebene Geometrie zu Grunde, in welcher die Axiome I 1 — 2, II — III, d. h. die sämtlichen ebenen…" />
+  <meta name="twitter:image" content="https://geometor.github.io/hilbert/_static/social/grundlagen.png" />
+  <meta name="twitter:image:alt" content="David Hilbert — GEOMETOR" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..700;1,400..700&family=Fira+Sans+Condensed:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600;1,700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" type="text/css" href="../../../_static/pygments.css?v=ea5fcf70" />
+  <link rel="stylesheet" type="text/css" href="../../../_static/css/styles.css?v=81e79cc0" />
+  <link rel="stylesheet" type="text/css" href="../../../_static/graphviz.css?v=4ae1632d" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css" />
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js"></script>
+  <link rel="stylesheet" href="../../../_static/css/print.css" type="text/css" media="print" />
+  <link rel="icon" href="../../../_static/favicon.ico" />
+</head>
+
+<body class="is-book-page book-theme-classical-serif" data-folio="55
+
+/home/runner/work/hilbert/hilbert/docsrc/grundlagen/chapter_05/sec_24/de.rst:5: (INFO/1) Enumerated list start value not ordinal-1: “S” (ordinal 19)">
+  <header>
+    <div class="logo">
+      <a href="../../../index.html" title="Home">
+        <img src="../../../_static/logo.png" class="logo" alt="GEOMETOR hilbert"/>
+        <div class="org-repo">
+          <span class="org">GEOMETOR</span>
+          <span class="sep" aria-hidden="true">&bull;</span>
+          <span class="repo">hilbert</span>
+        </div>
+      </a>
+    </div>
+    <nav aria-label="Header">
+      <input type="checkbox" id="nav-Header-toggle" >
+      <label for="nav-Header-toggle" >Header</label>
+      <ul>
+        <li>
+          <a href="../../index.html" class="is-active" aria-selected="true" >Foundations of Geometry</a>
+        </li>
+        <li>
+          <a href="../../persons.html"  >People</a>
+        </li>
+        <li>
+          <a href="../../bibliography.html"  >Bibliography</a>
+        </li>
+        <li>
+          <a href="../../../about/index.html"  >About</a>
+        </li>
+        <li>
+          <a href="../../../usage/index.html"  >Usage</a>
+        </li>
+        <li>
+          <a href="../../../log/index.html"  >Log</a>
+        </li>
+        <li>
+          <a href="../../../modules/index.html"  >Modules</a>
+        </li>
+      </ul>
+    </nav>
+    <div class="motto"></div>
+  </header>
+  <main class="book-main">
+    <article class="book-layout book-reading-pane" data-folio="55
+
+/home/runner/work/hilbert/hilbert/docsrc/grundlagen/chapter_05/sec_24/de.rst:5: (INFO/1) Enumerated list start value not ordinal-1: “S” (ordinal 19)" data-canonical-id="§ 24">
+      <header class="book-header">
+        <div class="book-header-bar">
+          <nav class="book-breadcrumbs" aria-label="Breadcrumb">
+            <a class="book-section-home-link" href="../../index.html">Foundations of Geometry</a>
+            <span class="book-crumb-sep" aria-hidden="true">/</span>
+            <a class="book-crumb-link" href="../index.html">Chapter V</a>
+            <span class="book-crumb-sep" aria-hidden="true">/</span>
+            <span class="book-crumb-current" aria-current="page">§ 24</span>
+          </nav>
+          <div class="book-provenance-badges">
+            <span class="book-badge folio-badge">Folio 55
+
+/home/runner/work/hilbert/hilbert/docsrc/grundlagen/chapter_05/sec_24/de.rst:5: (INFO/1) Enumerated list start value not ordinal-1: “S” (ordinal 19) | p. 55</span>
+          </div>
+        </div>
+        <div class="book-header-nav">
+          <div class="book-nav-prev">
+            <a class="book-nav-btn" href="../sec_23/de.html" title="§ 23: The Impossibility of Demonstrating Desargues’s Theorem for the Plane Without the Help of the Axioms of Congruence">&larr; <span class="nav-label">Prev</span></a>
+          </div>
+          <div class="book-nav-center">
+            <nav class="book-tracks-nav" aria-label="Document Tracks">
+              <a class="book-track-item" href="index.html">English</a>
+              <span class="book-track-sep">&middot;</span>
+              <strong class="book-track-item is-active" aria-current="page">Deutsch</strong>
+              <span class="book-track-sep">&middot;</span>
+              <a class="book-track-item" href="summary.html">Summary</a>
+              <span class="book-track-sep">&middot;</span>
+              <a class="book-track-item" href="notes.html">Notes</a>
+            </nav>
+          </div>
+          <div class="book-nav-next">
+            <a class="book-nav-btn" href="../sec_25/de.html" title="§ 25: The Commutative and the Associative Law of Addition for Our New Algebra of Segments"><span class="nav-label">Next</span> &rarr;</a>
+          </div>
+        </div>
+      </header>
+      <div class="content body book-content folio-book-page" role="main">
+        <span class="folio-milestone" id="folio-§ 24" data-folio="§ 24" data-page="55"><a class="folio-link" href="https://github.com/geometor/hilbert/blob/main/resources/grundlagen/sources/ia_grundlagendergeo00hilb_teubner_1899.txt#L2955" target="_blank" rel="noopener" title="View Folio § 24 (p. 55)">f. § 24 · p. 55</a></span>
+        <section class="level-1" id="einfuhrung-einer-streckenrechnung-ohne-hulfe-der-congruenzaxiome-auf-grund-des-desarguesschen-satzes">
+        <h1>§ 24: Einführung einer Streckenrechnung ohne Hülfe der Congruenzaxiome auf Grund des Desarguesschen Satzes<a class="headerlink" href="#einfuhrung-einer-streckenrechnung-ohne-hulfe-der-congruenzaxiome-auf-grund-des-desarguesschen-satzes" title="Link to this heading">¶</a></h1>
+        <p class="rubric">David Hilbert — <em>Grundlagen der Geometrie</em> (Festschrift, Leipzig 1899)</p>
+        <p>Um die Bedeutung des Desarguesschen Satzes (Satz 32) vollständig zu erkennen, legen wir eine ebene Geometrie zu Grunde, in welcher die Axiome I 1 — 2, II — III, d. h. die sämtlichen ebenen Axiome der ersten drei Axiomgruppen gültig sind, und führen in diese Geometrie unabhängig von den Congruenzaxiomen auf folgende Weise eine neue Streckenrechnung ein.</p>
+        <p>Wir nehmen in der Ebene zwei feste Geraden an, die sich in dem Punkte 0 schneiden mögen, und rechnen im Folgenden nur mit solchen Strecken, deren Anfangspunkt 0 ist und deren Endpunkte auf einer dieser beiden festen Geraden liegen. Auch</p>
+        <p>den Punkt 0 allein bezeichnen wir als Strecke und nennen ihn dann die Strecke 0, in Zeichen</p>
+        <p>$$OO = 0 \quad \text{oder} \quad 0 = OO.$$</p>
+        <p>Es seien E und E’ je ein bestimmter Punkt auf den festen Geraden durch 0 ; dann bezeichnen wir die beiden Strecken OE und OE’ als die Strecken 1, in Zeichen :</p>
+        <p>$$OE = OE' = 1 \quad \text{oder} \quad 1 = OE = OE'.$$</p>
+        <p>Die Gerade EE’ nennen wir kurz die Einheitsgerade. Sind ferner A und A’ Punkte auf den Geraden OE bez. OE’ und läuft die Verbindungsgerade AA! parallel zu EE’, so nennen wir die Strecken OA und OA’ einander gleich, in Zeichen:</p>
+        <p>$$OA = OA' \quad \text{oder} \quad OA' = OA.$$</p>
+        <p>Um zunächst die Summe der Strecken a = OA und b = OB zu definiren, construire man AA’ parallel zur Einheitsgeraden EE’ und ziehe sodann durch A’ eine Parallele zu OE und durch B eine Parallele zu OE’. Diese beiden Parallelen mögen sich in A” schneiden. Endlich ziehe man durch A” zur Einheitsgeraden EE’ eine Parallele; dieselbe treffe die festen Geraden OE und</p>
+        <p>$OE'$ in $C$ und $C'$: dann heisse $c = OC = OC'$ die <em>Summe</em> der Strecke $a = OA$ mit der Strecke $b = OB$, in Zeichen:</p>
+        <p>$$
+        c = a + b \quad \text{oder} \quad a + b = c.
+        $$</p>
+        <p>Um das Produkt einer Strecke a = OA in eine Strecke b = OB zu definiren, bedienen wir uns genau der in § 15 angegebenen Konstruktion, nur dass an Stelle der Schenkel des rechten Winkels hier die beiden festen Geraden OE und OE’ treten. Die Konstruktion ist demnach folgende. Man bestimme auf OE’ den Punkt A’, sodass AA’ parallel der Einheitsgeraden EE’ wird, verbinde E mit A’ und ziehe durch B eine Parallele zu EA’ ; trifft</p>
+        <p>diese Parallele die feste Gerade $OE'$ im Punkte $C'$, so heisst $c = OC'$ das <em>Produkt</em> der Strecke $a = OA$ in die Strecke $b = OB$, in Zeichen:</p>
+        <p>$$
+        c = ab \quad \text{oder} \quad ab = c.
+        $$</p>
+        </section>
+
+      </div>
+      <footer class="book-footer">
+        <div class="book-footer-ornament">&#10086;</div>
+        <div class="book-footer-nav">
+          <div class="book-nav-prev">
+            <a class="book-nav-btn" href="../sec_23/de.html" title="§ 23: The Impossibility of Demonstrating Desargues’s Theorem for the Plane Without the Help of the Axioms of Congruence">&larr; <span class="nav-label">Prev</span></a>
+          </div>
+          <div class="book-nav-center">
+            <a class="book-toc-link" href="../../index.html">Foundations of Geometry</a>
+          </div>
+          <div class="book-nav-next">
+            <a class="book-nav-btn" href="../sec_25/de.html" title="§ 25: The Commutative and the Associative Law of Addition for Our New Algebra of Segments"><span class="nav-label">Next</span> &rarr;</a>
+          </div>
+        </div>
+      </footer>
+    </article>
+  </main>
+  <div class="asides">
+    <aside class="aside-search">
+      <h3>Search</h3>
+      <div id="searchbox" role="search">
+        <form id="rtd-search-form" class="wy-form search-form" action="../../../search.html" method="get">
+          <div class="search-field">
+            <input type="search" name="q" placeholder="Search docs..." aria-label="Search docs" autocomplete="off" />
+            <button type="submit" class="search-submit" aria-label="Search" title="Search">
+              <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <circle cx="11" cy="11" r="8"></circle>
+                <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+              </svg>
+            </button>
+          </div>
+          <input type="hidden" name="check_keywords" value="yes" />
+          <input type="hidden" name="area" value="default" />
+        </form>
+      </div>
+    </aside>
+    <aside class="aside-types">
+      <h3>Types</h3>
+      <ul>
+        <li><a href="../../../types/book.html">book</a></li>
+      </ul>
+    </aside>
+  </div>
+  <footer>
+    <div class="footer-nav">
+      <ul>
+        <li><a href="../../concordance.html"  >Concordance</a></li>
+        <li><a href="../../glossary.html"  >Glossary</a></li>
+      </ul>
+    </div>
+    <hr />
+    <div role="contentinfo">
+      <p>
+        &copy; Copyright 1899 B. G. Teubner · 1902 Open Court · Digital Codex GEOMETOR.
+      </p>
+    </div>
+  </footer>
+
+  <script src="../../../_static/jquery.js?v=5d32c60e"></script>
+  <script src="../../../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+  <script src="../../../_static/documentation_options.js?v=59fadc99"></script>
+  <script src="../../../_static/doctools.js?v=fd6eb6e6"></script>
+  <script src="../../../_static/sphinx_highlight.js?v=6ffebe34"></script>
+  <script src="../../../_static/js/collection_controls.js?v=b6b5297a"></script>
+  <script src="../../../_static/js/geometor_interactive.js?v=b2892320"></script>
+  <script src="../../../_static/js/search_highlight.js"></script>
+
+</body>
+</html>

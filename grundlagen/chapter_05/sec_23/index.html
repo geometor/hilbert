@@ -1,0 +1,261 @@
+
+
+<!DOCTYPE html>
+<html lang="en" data-content_root="../../../">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>§ 23: The Impossibility of Demonstrating Desargues’s Theorem for the Plane Without the Help of the Axioms of Congruence — Foundations of Geometry • GEOMETOR</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <link rel="canonical" href="https://geometor.github.io/hilbert/grundlagen/chapter_05/sec_23/" />
+  <meta name="description" content="We shall now investigate the question whether or no in plane geometry Desargues’s theorem may be deduced without the assistance of the axioms of congruence. This leads us to the following result:" />
+  <meta property="og:site_name" content="GEOMETOR" />
+  <meta property="og:type" content="article" />
+  <meta property="og:title" content="§ 23: The Impossibility of Demonstrating Desargues’s Theorem for the Plane Without the Help of the Axioms of Congruence — Foundations of Geometry • GEOMETOR" />
+  <meta property="og:description" content="We shall now investigate the question whether or no in plane geometry Desargues’s theorem may be deduced without the assistance of the axioms of congruence. This leads us to the following result:" />
+  <meta property="og:url" content="https://geometor.github.io/hilbert/grundlagen/chapter_05/sec_23/" />
+  <meta property="og:image" content="https://geometor.github.io/hilbert/_static/social/grundlagen.png" />
+  <meta property="og:image:type" content="image/png" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta property="og:image:alt" content="David Hilbert — GEOMETOR" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="§ 23: The Impossibility of Demonstrating Desargues’s Theorem for the Plane Without the Help of the Axioms of Congruence — Foundations of Geometry • GEOMETOR" />
+  <meta name="twitter:description" content="We shall now investigate the question whether or no in plane geometry Desargues’s theorem may be deduced without the assistance of the axioms of congruence. This leads us to the following result:" />
+  <meta name="twitter:image" content="https://geometor.github.io/hilbert/_static/social/grundlagen.png" />
+  <meta name="twitter:image:alt" content="David Hilbert — GEOMETOR" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..700;1,400..700&family=Fira+Sans+Condensed:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600;1,700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" type="text/css" href="../../../_static/pygments.css?v=ea5fcf70" />
+  <link rel="stylesheet" type="text/css" href="../../../_static/css/styles.css?v=81e79cc0" />
+  <link rel="stylesheet" type="text/css" href="../../../_static/graphviz.css?v=4ae1632d" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css" />
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js"></script>
+  <link rel="stylesheet" href="../../../_static/css/print.css" type="text/css" media="print" />
+  <link rel="icon" href="../../../_static/favicon.ico" />
+</head>
+
+<body class="is-book-page book-theme-classical-serif" data-folio="74
+
+/home/runner/work/hilbert/hilbert/docsrc/grundlagen/chapter_05/sec_23/index.rst:5: (INFO/1) Enumerated list start value not ordinal-1: “p” (ordinal 16)">
+  <header>
+    <div class="logo">
+      <a href="../../../index.html" title="Home">
+        <img src="../../../_static/logo.png" class="logo" alt="GEOMETOR hilbert"/>
+        <div class="org-repo">
+          <span class="org">GEOMETOR</span>
+          <span class="sep" aria-hidden="true">&bull;</span>
+          <span class="repo">hilbert</span>
+        </div>
+      </a>
+    </div>
+    <nav aria-label="Header">
+      <input type="checkbox" id="nav-Header-toggle" >
+      <label for="nav-Header-toggle" >Header</label>
+      <ul>
+        <li>
+          <a href="../../index.html" class="is-active" aria-selected="true" >Foundations of Geometry</a>
+        </li>
+        <li>
+          <a href="../../persons.html"  >People</a>
+        </li>
+        <li>
+          <a href="../../bibliography.html"  >Bibliography</a>
+        </li>
+        <li>
+          <a href="../../../about/index.html"  >About</a>
+        </li>
+        <li>
+          <a href="../../../usage/index.html"  >Usage</a>
+        </li>
+        <li>
+          <a href="../../../log/index.html"  >Log</a>
+        </li>
+        <li>
+          <a href="../../../modules/index.html"  >Modules</a>
+        </li>
+      </ul>
+    </nav>
+    <div class="motto"></div>
+  </header>
+  <main class="book-main">
+    <article class="book-layout book-reading-pane" data-folio="74
+
+/home/runner/work/hilbert/hilbert/docsrc/grundlagen/chapter_05/sec_23/index.rst:5: (INFO/1) Enumerated list start value not ordinal-1: “p” (ordinal 16)" data-canonical-id="§ 23">
+      <header class="book-header">
+        <div class="book-header-bar">
+          <nav class="book-breadcrumbs" aria-label="Breadcrumb">
+            <a class="book-section-home-link" href="../../index.html">Foundations of Geometry</a>
+            <span class="book-crumb-sep" aria-hidden="true">/</span>
+            <a class="book-crumb-link" href="../index.html">Chapter V</a>
+            <span class="book-crumb-sep" aria-hidden="true">/</span>
+            <a class="book-crumb-link" href="de.html">§ 23</a>
+          </nav>
+          <div class="book-provenance-badges">
+            <span class="book-badge folio-badge">Folio 74
+
+/home/runner/work/hilbert/hilbert/docsrc/grundlagen/chapter_05/sec_23/index.rst:5: (INFO/1) Enumerated list start value not ordinal-1: “p” (ordinal 16) | p. 74</span>
+          </div>
+        </div>
+        <div class="book-header-nav">
+          <div class="book-nav-prev">
+            <a class="book-nav-btn" href="../sec_22/index.html" title="§ 22: Desargues’s Theorem and Its Demonstration for Plane Geometry by Aid of the Axioms of Congruence">&larr; <span class="nav-label">Prev</span></a>
+          </div>
+          <div class="book-nav-center">
+            <nav class="book-tracks-nav" aria-label="Document Tracks">
+              <strong class="book-track-item is-active" aria-current="page">English</strong>
+              <span class="book-track-sep">&middot;</span>
+              <a class="book-track-item" href="de.html">Deutsch</a>
+              <span class="book-track-sep">&middot;</span>
+              <a class="book-track-item" href="summary.html">Summary</a>
+              <span class="book-track-sep">&middot;</span>
+              <a class="book-track-item" href="notes.html">Notes</a>
+            </nav>
+          </div>
+          <div class="book-nav-next">
+            <a class="book-nav-btn" href="../sec_24/index.html" title="§ 24: Introduction of an Algebra of Segments Based Upon Desargues’s Theorem and Independent of the Axioms of Congruence"><span class="nav-label">Next</span> &rarr;</a>
+          </div>
+        </div>
+      </header>
+      <div class="content body book-content folio-book-page" role="main">
+        <span class="folio-milestone" id="folio-§ 23" data-folio="§ 23" data-page="74"><a class="folio-link" href="https://github.com/geometor/hilbert/blob/main/resources/grundlagen/sources/ia_grundlagendergeo00hilb_teubner_1899.txt#L2783" target="_blank" rel="noopener" title="View Folio § 23 (p. 74)">f. § 23 · p. 74</a></span>
+        <section class="level-1" id="the-impossibility-of-demonstrating-desargues-s-theorem-for-the-plane-without-the-help-of-the-axioms-of-congruence">
+        <h1>§ 23: The Impossibility of Demonstrating Desargues’s Theorem for the Plane Without the Help of the Axioms of Congruence<a class="headerlink" href="#the-impossibility-of-demonstrating-desargues-s-theorem-for-the-plane-without-the-help-of-the-axioms-of-congruence" title="Link to this heading">¶</a></h1>
+        <p class="rubric">David Hilbert — <em>The Foundations of Geometry</em> (Authorized Translation by E. J. Townsend, 1902)</p>
+        <p>We shall now investigate the question whether or no in plane geometry Desargues’s theorem may be deduced without the assistance of the axioms of congruence. This leads us to the following result:</p>
+        <p id="grundlagen-en-thm-33"><strong>Theorem 33.</strong> A plane geometry exists in which the axioms I 1–2, II–III, IV 1–5, V, that is to say, all linear and all plane axioms with the exception of axiom IV, 6 of congruence, are fulfilled, but in which the theorem of Desargues (theorem 32) is not valid. Desargues’s theorem is not, therefore, a consequence solely of the axioms mentioned; for, its demonstration necessitates either the space axioms or all of the axioms of congruence.</p>
+        <p><strong>Proof.</strong> Select in the ordinary plane geometry (the possibility of which has already been demonstrated in § 9, pp. 27–30) any two straight lines perpendicular to each other as the axes of $x$ and $y$. Construct about the origin $O$ of this system of co-ordinates an ellipse having the major and minor axes equal to 1 and $\frac{1}{2}$, respectively. Finally, let $F$ denote the point situated upon the positive $x$-axis at the distance $\frac{3}{2}$ from $O$. Consider all of the circles which cut the ellipse in four real points. These points may be either distinct or in any way coincident. Of all the points situated upon these circles, we shall attempt to determine the one which lies upon the $x$-axis farthest from the origin. For this purpose, let us begin with an arbitrary circle cutting the ellipse in four distinct points and intersecting the positive $x$-axis in the point $C$. Suppose this circle then turned about the point $C$ in such a manner that two or more of the four points of intersection with the ellipse finally coincide in a single point $A$, while the rest of them remain real. Increase now the resulting tangent circle in such a way that $A$ always remains a point of tangency with the ellipse. In this way we obtain a circle which is either tangent to the ellipse in also a second point $B$, or which has with the ellipse a four-point contact in $A$. Moreover, this circle cuts the positive $x$-axis in a point more remote than $C$. The desired farthest point will accordingly be found among those points of intersection of the positive $x$-axis by circles lying exterior to the ellipse and being doubly tangent to it. All such circles must lie, as we can easily see, symmetrically with respect to the $y$-axis. Let $a$, $b$ be the co-ordinates of any point on the ellipse. Then an easy calculation shows that the circle, which is symmetrical with respect to $y$-axis and tangent to the ellipse at this point, cuts off from the positive $x$-axis the segment</p>
+        <p>$$
+        x = \mid \sqrt{1 + 3b^2} \mid.
+        $$</p>
+        <p>The greatest possible value of this expression occurs for $b = \frac{1}{2}$ and, hence, is equal to $\frac{1}{2}\mid\sqrt{7}\mid$. Since the point on the $x$-axis which we have denoted by $F$ has for its abscissa the value $\frac{3}{2} &gt; \frac{1}{2} \mid\sqrt{7}\mid$, it follows that <em>among the circles cutting the ellipse four times there is certainly none which passes through the point $F$.</em></p>
+        <p>We will now construct a new plane geometry in the following manner. As points in this new geometry, let us take the points of the $(xy)$-plane. We will define a straight line of our new geometry in the following manner. Every straight line of the $(xy)$-plane which is either tangent to the fixed ellipse, or does not cut it at all, is taken unchanged as a straight line of the new geometry. However, when any straight line $g$ of the $(xy)$-plane cuts the ellipse, say in the points $P$ and $Q$, we will then define the corresponding</p>
+        <p>straight line of the new geometry as follows. Construct a circle passing through the points $P$ and $Q$ and the fixed point $F$. From what has just been said, this circle will have no other point in common with the ellipse. We will now take the broken line, consisting of the arc $PQ$ just mentioned and the two parts of the straight line $g$ extending outward indefinitely from the points $P$ and $Q$, as the required straight line in our new geometry. Let us suppose all of the broken lines constructed which correspond to straight lines of the $(xy)$-plane. We have then a system of broken lines which, considered as straight lines of our new geometry, evidently satisfy the axioms I, 1–2 and III. By a convention as to the actual arrangement of the points and the straight lines in our new geometry, we have also the axioms II fulfilled.</p>
+        <p>Moreover, we will call two segments $AB$ and $A'B'$ congruent in this new geometry, if the broken line extending between $A$ and $B$ has equal length, in the ordinary sense of the word, with the broken line extending from $A'$ to $B'$.</p>
+        <p>Finally, we need a convention concerning the congruence of angles. So long as neither of the vertices of the angles to be compared lies upon the ellipse, we call the two angles congruent to each other, if they are equal in the ordinary sense. In all other cases we make the following convention. Let $A, B, C$ be points which follow one another in this order upon a straight line of our new geometry, and let $A', B', C'$ be also points which lie in this order upon another straight line of our new geometry. Let $D$ be a point lying outside of the straight line $ABC$ and $D'$ be a point outside of the straight $A'B'C'$. We will now say that, in our new geometry, the angles between these straight lines fulfill the congruences</p>
+        <p>$$
+        \angle ABD \equiv \angle A'B'D'  \text{and}  \angle CBD \equiv \angle C'B'D'
+        $$</p>
+        <p>whenever the natural angles between the corresponding broken lines of the ordinary geometry fulfill the proportion</p>
+        <p>$$
+        \angle ABD: \angle CBD = \angle A'B'D' : \angle C'B'D'.
+        $$</p>
+        <p>These conventions render the axioms IV, 1–5 and V valid.</p>
+        <p>In order to see that Desargues’s theorem does not hold for our new geometry, let us consider the following three ordinary straight lines of the $(xy)$-plane; viz., the axis of $x$, the axis of $y$, and the straight line joining the two points of the ellipse $(\frac{3}{5},\frac{2}{5})$ and $(-\frac{3}{5},-\frac{2}{5})$. Since these three ordinary straight lines pass through the origin, we can easily construct two triangles so that their vertices shall lie respectively upon these three straight lines and their homologous sides shall be parallel and all three sides shall lie exterior to the ellipse. As we may see from figure 40, or show</p>
+        <p>by an easy calculation, the broken lines arising from the three straight lines in question do not intersect in a common point. Hence, it follows that Desargues’s theorem certainly does not hold for this particular plane geometry in which we have constructed the two triangles just considered.</p>
+        <p>This new geometry serves at the same time as an example of a plane geometry in which the axioms I, 1–2, II–III, IV, 1–5, V all hold, but which cannot be considered as a part of a geometry of space.</p>
+        <figure class="photon-picture photon-svg">
+            <svg class="euclid-graphic" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 475 218" width="475" height="218" data-graphic-id="fig_non_desarguesian_plane" data-proposition="S.23" data-svg-scope="s-4931f315">
+          <style>
+            svg[data-svg-scope="s-4931f315"] { font-family: 'Fira Sans Condensed', 'Fira Sans', sans-serif; font-style: normal; font-weight: 700 }
+            svg[data-svg-scope="s-4931f315"] .geom-line { stroke: var(--geom-fg); stroke-width: 1.8; stroke-linecap: round; stroke-linejoin: round; fill: none }
+            svg[data-svg-scope="s-4931f315"] .geom-bold { stroke: var(--geom-fg); stroke-width: 2.3; stroke-linecap: round; stroke-linejoin: round; fill: none }
+            svg[data-svg-scope="s-4931f315"] .geom-dashed { stroke: var(--geom-fg); stroke-width: 1.4; stroke-dasharray: 5, 3.5; stroke-linecap: round; stroke-linejoin: round; fill: none }
+            svg[data-svg-scope="s-4931f315"] .geom-accent-line { stroke: var(--geom-accent); stroke-width: 2.1; stroke-linecap: round; stroke-linejoin: round; fill: none }
+            svg[data-svg-scope="s-4931f315"] .geom-assert-line { stroke: var(--geom-assert); stroke-width: 2.2; stroke-dasharray: 6, 3; stroke-linecap: round; stroke-linejoin: round; fill: none }
+            svg[data-svg-scope="s-4931f315"] .geom-circle { stroke: var(--geom-fg); stroke-width: 1.6; fill: none }
+            svg[data-svg-scope="s-4931f315"] .geom-arc { stroke: var(--geom-accent); stroke-width: 1.9; stroke-linecap: round; fill: none }
+            svg[data-svg-scope="s-4931f315"] .geom-ang-arc { stroke: var(--geom-assert); stroke-width: 2.0; stroke-linecap: round; fill: none }
+            svg[data-svg-scope="s-4931f315"] .geom-polygon { fill: var(--geom-poly-fill); fill-opacity: 0.05; stroke: none }
+            svg[data-svg-scope="s-4931f315"] .geom-polygon-gnomon { fill: var(--geom-accent); fill-opacity: 0.14; stroke: none }
+            svg[data-svg-scope="s-4931f315"] .geom-point { fill: var(--geom-fg); stroke: var(--geom-point-stroke); stroke-width: 1.1 }
+            svg[data-svg-scope="s-4931f315"] .geom-point-accent { fill: var(--geom-accent); stroke: var(--geom-point-stroke); stroke-width: 1.1 }
+            svg[data-svg-scope="s-4931f315"] .geom-label { font-family: 'Fira Sans Condensed', 'Fira Sans', sans-serif; font-size: 14px; font-weight: 700; fill: var(--geom-fg); user-select: none }
+            svg[data-svg-scope="s-4931f315"] .geom-label-sm { font-family: 'Fira Sans Condensed', 'Fira Sans', sans-serif; font-size: 11.5px; font-weight: 700; fill: var(--geom-fg); opacity: 0.85; user-select: none }
+          </style>
+          <line x1="30.00" y1="112.00" x2="450.00" y2="112.00" class="geom-dashed" />
+          <line x1="225.00" y1="16.00" x2="225.00" y2="206.00" class="geom-dashed" />
+          <ellipse cx="225.00" cy="112.00" rx="135.00" ry="76.00" class="geom-circle" />
+          <line x1="25.62" y1="69.22" x2="110.51" y2="71.73" class="geom-bold" />
+          <line x1="346.34" y1="78.68" x2="431.23" y2="81.19" class="geom-bold" />
+          <line x1="110.51" y1="71.73" x2="346.34" y2="78.68" class="geom-dashed" />
+          <path d="M 110.51 71.73 A 175 175 0 0 0 346.34 78.68" class="geom-accent-line" />
+          <circle cx="322.20" cy="112.00" r="3.30" class="geom-point-accent" />
+          <text x="322.20" y="129.00" text-anchor="middle" class="geom-label">F</text>
+          <circle cx="110.51" cy="71.73" r="3.30" class="geom-point" />
+          <circle cx="346.34" cy="78.68" r="3.30" class="geom-point" />
+          <text x="98.51" y="63.73" text-anchor="middle" class="geom-label">P</text>
+          <text x="358.34" y="70.68" text-anchor="middle" class="geom-label">Q</text>
+          <text x="140.00" y="168.00" text-anchor="middle" class="geom-label-sm">Ellipse Boundary</text>
+          <text x="235.00" y="144.00" text-anchor="middle" class="geom-label-sm">Hilbert Arc</text>
+        </svg>
+        <figcaption>**Hilbert's 1899 Non-Desarguesian Plane via Ellipse Arc Refraction (§ 23).** Theorem 33: Euclidean lines cutting the ellipse are replaced inside the boundary by circular arcs through F, satisfying planar I 1–2, II, III, IV 1–5, V while violating Desargues.</figcaption>
+        </figure>
+        <div class="toctree-wrapper compound">
+        </div>
+        </section>
+
+      </div>
+      <footer class="book-footer">
+        <div class="book-footer-ornament">&#10086;</div>
+        <div class="book-footer-nav">
+          <div class="book-nav-prev">
+            <a class="book-nav-btn" href="../sec_22/index.html" title="§ 22: Desargues’s Theorem and Its Demonstration for Plane Geometry by Aid of the Axioms of Congruence">&larr; <span class="nav-label">Prev</span></a>
+          </div>
+          <div class="book-nav-center">
+            <a class="book-toc-link" href="../../index.html">Foundations of Geometry</a>
+          </div>
+          <div class="book-nav-next">
+            <a class="book-nav-btn" href="../sec_24/index.html" title="§ 24: Introduction of an Algebra of Segments Based Upon Desargues’s Theorem and Independent of the Axioms of Congruence"><span class="nav-label">Next</span> &rarr;</a>
+          </div>
+        </div>
+      </footer>
+    </article>
+  </main>
+  <div class="asides">
+    <aside class="aside-search">
+      <h3>Search</h3>
+      <div id="searchbox" role="search">
+        <form id="rtd-search-form" class="wy-form search-form" action="../../../search.html" method="get">
+          <div class="search-field">
+            <input type="search" name="q" placeholder="Search docs..." aria-label="Search docs" autocomplete="off" />
+            <button type="submit" class="search-submit" aria-label="Search" title="Search">
+              <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <circle cx="11" cy="11" r="8"></circle>
+                <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+              </svg>
+            </button>
+          </div>
+          <input type="hidden" name="check_keywords" value="yes" />
+          <input type="hidden" name="area" value="default" />
+        </form>
+      </div>
+    </aside>
+    <aside class="aside-types">
+      <h3>Types</h3>
+      <ul>
+        <li><a href="../../../types/book.html">book</a></li>
+      </ul>
+    </aside>
+  </div>
+  <footer>
+    <div class="footer-nav">
+      <ul>
+        <li><a href="../../concordance.html"  >Concordance</a></li>
+        <li><a href="../../glossary.html"  >Glossary</a></li>
+      </ul>
+    </div>
+    <hr />
+    <div role="contentinfo">
+      <p>
+        &copy; Copyright 1899 B. G. Teubner · 1902 Open Court · Digital Codex GEOMETOR.
+      </p>
+    </div>
+  </footer>
+
+  <script src="../../../_static/jquery.js?v=5d32c60e"></script>
+  <script src="../../../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+  <script src="../../../_static/documentation_options.js?v=59fadc99"></script>
+  <script src="../../../_static/doctools.js?v=fd6eb6e6"></script>
+  <script src="../../../_static/sphinx_highlight.js?v=6ffebe34"></script>
+  <script src="../../../_static/js/collection_controls.js?v=b6b5297a"></script>
+  <script src="../../../_static/js/geometor_interactive.js?v=b2892320"></script>
+  <script src="../../../_static/js/search_highlight.js"></script>
+
+</body>
+</html>

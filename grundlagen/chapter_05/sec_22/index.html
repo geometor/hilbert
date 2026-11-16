@@ -1,0 +1,266 @@
+
+
+<!DOCTYPE html>
+<html lang="en" data-content_root="../../../">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>§ 22: Desargues’s Theorem and Its Demonstration for Plane Geometry by Aid of the Axioms of Congruence — Foundations of Geometry • GEOMETOR</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <link rel="canonical" href="https://geometor.github.io/hilbert/grundlagen/chapter_05/sec_22/" />
+  <meta name="description" content="Of the axioms given in §§ 1–8, pp. 1–26, those of groups II–V are in part linear and in part plane axioms. Axioms 3–7 of group I are the only space axioms. In order to show clearly the…" />
+  <meta property="og:site_name" content="GEOMETOR" />
+  <meta property="og:type" content="article" />
+  <meta property="og:title" content="§ 22: Desargues’s Theorem and Its Demonstration for Plane Geometry by Aid of the Axioms of Congruence — Foundations of Geometry • GEOMETOR" />
+  <meta property="og:description" content="Of the axioms given in §§ 1–8, pp. 1–26, those of groups II–V are in part linear and in part plane axioms. Axioms 3–7 of group I are the only space axioms. In order to show clearly the…" />
+  <meta property="og:url" content="https://geometor.github.io/hilbert/grundlagen/chapter_05/sec_22/" />
+  <meta property="og:image" content="https://geometor.github.io/hilbert/_static/social/grundlagen.png" />
+  <meta property="og:image:type" content="image/png" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta property="og:image:alt" content="David Hilbert — GEOMETOR" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="§ 22: Desargues’s Theorem and Its Demonstration for Plane Geometry by Aid of the Axioms of Congruence — Foundations of Geometry • GEOMETOR" />
+  <meta name="twitter:description" content="Of the axioms given in §§ 1–8, pp. 1–26, those of groups II–V are in part linear and in part plane axioms. Axioms 3–7 of group I are the only space axioms. In order to show clearly the…" />
+  <meta name="twitter:image" content="https://geometor.github.io/hilbert/_static/social/grundlagen.png" />
+  <meta name="twitter:image:alt" content="David Hilbert — GEOMETOR" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..700;1,400..700&family=Fira+Sans+Condensed:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600;1,700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" type="text/css" href="../../../_static/pygments.css?v=ea5fcf70" />
+  <link rel="stylesheet" type="text/css" href="../../../_static/css/styles.css?v=81e79cc0" />
+  <link rel="stylesheet" type="text/css" href="../../../_static/graphviz.css?v=4ae1632d" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css" />
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js"></script>
+  <link rel="stylesheet" href="../../../_static/css/print.css" type="text/css" media="print" />
+  <link rel="icon" href="../../../_static/favicon.ico" />
+</head>
+
+<body class="is-book-page book-theme-classical-serif" data-folio="71
+
+/home/runner/work/hilbert/hilbert/docsrc/grundlagen/chapter_05/sec_22/index.rst:5: (INFO/1) Enumerated list start value not ordinal-1: “p” (ordinal 16)">
+  <header>
+    <div class="logo">
+      <a href="../../../index.html" title="Home">
+        <img src="../../../_static/logo.png" class="logo" alt="GEOMETOR hilbert"/>
+        <div class="org-repo">
+          <span class="org">GEOMETOR</span>
+          <span class="sep" aria-hidden="true">&bull;</span>
+          <span class="repo">hilbert</span>
+        </div>
+      </a>
+    </div>
+    <nav aria-label="Header">
+      <input type="checkbox" id="nav-Header-toggle" >
+      <label for="nav-Header-toggle" >Header</label>
+      <ul>
+        <li>
+          <a href="../../index.html" class="is-active" aria-selected="true" >Foundations of Geometry</a>
+        </li>
+        <li>
+          <a href="../../persons.html"  >People</a>
+        </li>
+        <li>
+          <a href="../../bibliography.html"  >Bibliography</a>
+        </li>
+        <li>
+          <a href="../../../about/index.html"  >About</a>
+        </li>
+        <li>
+          <a href="../../../usage/index.html"  >Usage</a>
+        </li>
+        <li>
+          <a href="../../../log/index.html"  >Log</a>
+        </li>
+        <li>
+          <a href="../../../modules/index.html"  >Modules</a>
+        </li>
+      </ul>
+    </nav>
+    <div class="motto"></div>
+  </header>
+  <main class="book-main">
+    <article class="book-layout book-reading-pane" data-folio="71
+
+/home/runner/work/hilbert/hilbert/docsrc/grundlagen/chapter_05/sec_22/index.rst:5: (INFO/1) Enumerated list start value not ordinal-1: “p” (ordinal 16)" data-canonical-id="§ 22">
+      <header class="book-header">
+        <div class="book-header-bar">
+          <nav class="book-breadcrumbs" aria-label="Breadcrumb">
+            <a class="book-section-home-link" href="../../index.html">Foundations of Geometry</a>
+            <span class="book-crumb-sep" aria-hidden="true">/</span>
+            <a class="book-crumb-link" href="../index.html">Chapter V</a>
+            <span class="book-crumb-sep" aria-hidden="true">/</span>
+            <a class="book-crumb-link" href="de.html">§ 22</a>
+          </nav>
+          <div class="book-provenance-badges">
+            <span class="book-badge folio-badge">Folio 71
+
+/home/runner/work/hilbert/hilbert/docsrc/grundlagen/chapter_05/sec_22/index.rst:5: (INFO/1) Enumerated list start value not ordinal-1: “p” (ordinal 16) | p. 71</span>
+          </div>
+        </div>
+        <div class="book-header-nav">
+          <div class="book-nav-prev">
+            <a class="book-nav-btn" href="../index.html" title="Chapter V: Desargues’s Theorem">&larr; <span class="nav-label">Prev</span></a>
+          </div>
+          <div class="book-nav-center">
+            <nav class="book-tracks-nav" aria-label="Document Tracks">
+              <strong class="book-track-item is-active" aria-current="page">English</strong>
+              <span class="book-track-sep">&middot;</span>
+              <a class="book-track-item" href="de.html">Deutsch</a>
+              <span class="book-track-sep">&middot;</span>
+              <a class="book-track-item" href="summary.html">Summary</a>
+              <span class="book-track-sep">&middot;</span>
+              <a class="book-track-item" href="notes.html">Notes</a>
+            </nav>
+          </div>
+          <div class="book-nav-next">
+            <a class="book-nav-btn" href="../sec_23/index.html" title="§ 23: The Impossibility of Demonstrating Desargues’s Theorem for the Plane Without the Help of the Axioms of Congruence"><span class="nav-label">Next</span> &rarr;</a>
+          </div>
+        </div>
+      </header>
+      <div class="content body book-content folio-book-page" role="main">
+        <span class="folio-milestone" id="folio-§ 22" data-folio="§ 22" data-page="71"><a class="folio-link" href="https://github.com/geometor/hilbert/blob/main/resources/grundlagen/sources/ia_grundlagendergeo00hilb_teubner_1899.txt#L2685" target="_blank" rel="noopener" title="View Folio § 22 (p. 71)">f. § 22 · p. 71</a></span>
+        <section class="level-1" id="desargues-s-theorem-and-its-demonstration-for-plane-geometry-by-aid-of-the-axioms-of-congruence">
+        <h1>§ 22: Desargues’s Theorem and Its Demonstration for Plane Geometry by Aid of the Axioms of Congruence<a class="headerlink" href="#desargues-s-theorem-and-its-demonstration-for-plane-geometry-by-aid-of-the-axioms-of-congruence" title="Link to this heading">¶</a></h1>
+        <p class="rubric">David Hilbert — <em>The Foundations of Geometry</em> (Authorized Translation by E. J. Townsend, 1902)</p>
+        <p>Of the axioms given in §§ 1–8, pp. 1–26, those of groups II–V are in part linear and in part plane axioms. Axioms 3–7 of group I are the only space axioms. In order to show clearly the significance of these axioms of space, let us assume a plane geometry and investigate, in general, the conditions for which this plane geometry may be regarded as a part of a geometry of space in which at least the axioms of groups I–III are all fulfilled.</p>
+        <p>Upon the basis of the axioms of groups I–III, it is well known that the so-called theorem of Desargues may be easily demonstrated. This theorem relates to points of intersection in a plane. Let us assume in particular that the straight line, upon which are situated the points of intersection of the homologous sides of the two triangles, is the straight line which we call the straight line at infinity. We will designate the theorem which arises in this case, together with its converse, as the theorem of Desargues. This theorem is as follows:</p>
+        <p id="grundlagen-en-thm-32"><strong>Theorem 32.</strong> (Desargues’s theorem.) When two triangles are so situated in a plane that their homologous sides are respectively parallel, then the lines joining the homologous vertices pass through one and the same point, or are parallel to one another.</p>
+        <p>Conversely, if two triangles are so situated in a plane that the straight lines joining the homologous vertices intersect in a common point, or are parallel to one another, and, furthermore, if two pairs of homologous sides are parallel to each other, then the third sides of the two triangles are also parallel to each other.</p>
+        <p>As we have already mentioned, theorem 32 is a consequence of the axioms I–III. Because of this fact, the validity of Desargues’s theorem in the plane is, in any case, a necessary condition that the geometry of this plane may be regarded as a part of a geometry of space in which the axioms of groups I–III are all fulfilled.</p>
+        <p>Let us assume, as in §§ 13–21, pp. 37–70, that we have a plane geometry in which the axioms I, 1–2 and II–IV all hold and, also, that we have introduced in this geometry an algebra of segments conforming to § 15.</p>
+        <p>Now, as has already been established in § 17, there may be made to correspond to each point in the plane a pair of segments $(x, y)$ and to each straight line a ratio of three segments $(u:v:w)$, so that the linear equation</p>
+        <p>$$
+        ux+vy+w=0
+        $$</p>
+        <p>expresses the condition that the point is situated upon the straight line. The system composed of all the segments in our geometry forms, according to § 17, a domain of numbers for which the properties (1–16), enumerated in § 13, are valid. We can, therefore, by means of this domain of numbers, construct a geometry of space in a manner similar to that already employed in § 9 or in § 12, where we made use of the systems of numbers $\Omega$ and $\Omega(t)$, respectively. For this purpose, we assume that a system of three segments $(x, y, z)$ shall represent a point, and that the ratio of four segments $(u:v:w:r)$ shall represent a plane, while a straight line is defined as the intersection of two planes. Hence, the linear equation</p>
+        <p>$$
+        ux+vy+wz+r = 0
+        $$</p>
+        <p>expresses the fact that the point $(x, y, z)$ lies in the plane $(u: v: w: r)$. Finally, we determine the arrangement of the points upon a straight line, or the points of a plane with respect to a straight line situated in this plane, or the arrangement of the points in space with respect to a plane, by means of inequalities in a manner similar to the method employed for the plane in § 9.</p>
+        <p>Since we obtain again the original plane geometry by putting $z=0$, we know that our plane geometry can be regarded as a part of geometry of space. Now, the validity of Desargues’s theorem is, according to the above considerations, a necessary condition for this result.  Hence, in the assumed plane geometry, it follows that Desargues’s theorem must also hold.</p>
+        <p>It will be seen that the result just stated may also be deduced without difficulty from theorem 23 in the theory of proportion.</p>
+        <figure class="photon-picture photon-svg">
+            <svg class="euclid-graphic" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 485 220" width="485" height="220" data-graphic-id="fig_desargues_configuration" data-proposition="S.22" data-svg-scope="s-10b49833">
+          <style>
+            svg[data-svg-scope="s-10b49833"] { font-family: 'Fira Sans Condensed', 'Fira Sans', sans-serif; font-style: normal; font-weight: 700 }
+            svg[data-svg-scope="s-10b49833"] .geom-line { stroke: var(--geom-fg); stroke-width: 1.8; stroke-linecap: round; stroke-linejoin: round; fill: none }
+            svg[data-svg-scope="s-10b49833"] .geom-bold { stroke: var(--geom-fg); stroke-width: 2.3; stroke-linecap: round; stroke-linejoin: round; fill: none }
+            svg[data-svg-scope="s-10b49833"] .geom-dashed { stroke: var(--geom-fg); stroke-width: 1.4; stroke-dasharray: 5, 3.5; stroke-linecap: round; stroke-linejoin: round; fill: none }
+            svg[data-svg-scope="s-10b49833"] .geom-accent-line { stroke: var(--geom-accent); stroke-width: 2.1; stroke-linecap: round; stroke-linejoin: round; fill: none }
+            svg[data-svg-scope="s-10b49833"] .geom-assert-line { stroke: var(--geom-assert); stroke-width: 2.2; stroke-dasharray: 6, 3; stroke-linecap: round; stroke-linejoin: round; fill: none }
+            svg[data-svg-scope="s-10b49833"] .geom-circle { stroke: var(--geom-fg); stroke-width: 1.6; fill: none }
+            svg[data-svg-scope="s-10b49833"] .geom-arc { stroke: var(--geom-accent); stroke-width: 1.9; stroke-linecap: round; fill: none }
+            svg[data-svg-scope="s-10b49833"] .geom-ang-arc { stroke: var(--geom-assert); stroke-width: 2.0; stroke-linecap: round; fill: none }
+            svg[data-svg-scope="s-10b49833"] .geom-polygon { fill: var(--geom-poly-fill); fill-opacity: 0.05; stroke: none }
+            svg[data-svg-scope="s-10b49833"] .geom-polygon-gnomon { fill: var(--geom-accent); fill-opacity: 0.14; stroke: none }
+            svg[data-svg-scope="s-10b49833"] .geom-point { fill: var(--geom-fg); stroke: var(--geom-point-stroke); stroke-width: 1.1 }
+            svg[data-svg-scope="s-10b49833"] .geom-point-accent { fill: var(--geom-accent); stroke: var(--geom-point-stroke); stroke-width: 1.1 }
+            svg[data-svg-scope="s-10b49833"] .geom-label { font-family: 'Fira Sans Condensed', 'Fira Sans', sans-serif; font-size: 14px; font-weight: 700; fill: var(--geom-fg); user-select: none }
+            svg[data-svg-scope="s-10b49833"] .geom-label-sm { font-family: 'Fira Sans Condensed', 'Fira Sans', sans-serif; font-size: 11.5px; font-weight: 700; fill: var(--geom-fg); opacity: 0.85; user-select: none }
+          </style>
+          <line x1="42.00" y1="112.00" x2="433.21" y2="-54.06" class="geom-line" />
+          <line x1="42.00" y1="112.00" x2="466.42" y2="134.24" class="geom-line" />
+          <line x1="42.00" y1="112.00" x2="430.26" y2="284.86" class="geom-line" />
+          <polygon points="175.47,55.34 236.73,122.21 188.17,177.08" class="geom-polygon" />
+          <polygon points="306.28,-0.18 427.57,132.21 331.41,240.85" class="geom-polygon-gnomon" />
+          <line x1="175.47" y1="55.34" x2="236.73" y2="122.21" class="geom-bold" />
+          <line x1="236.73" y1="122.21" x2="188.17" y2="177.08" class="geom-bold" />
+          <line x1="306.28" y1="-0.18" x2="427.57" y2="132.21" class="geom-bold" />
+          <line x1="427.57" y1="132.21" x2="331.41" y2="240.85" class="geom-bold" />
+          <line x1="175.47" y1="55.34" x2="188.17" y2="177.08" class="geom-assert-line" />
+          <line x1="306.28" y1="-0.18" x2="331.41" y2="240.85" class="geom-assert-line" />
+          <circle cx="42.00" cy="112.00" r="3.30" class="geom-point" />
+          <text x="28.00" y="117.00" text-anchor="middle" class="geom-label">O</text>
+          <circle cx="175.47" cy="55.34" r="3.30" class="geom-point" />
+          <text x="171.47" y="45.34" text-anchor="middle" class="geom-label">A</text>
+          <circle cx="236.73" cy="122.21" r="3.30" class="geom-point" />
+          <text x="242.73" y="113.21" text-anchor="middle" class="geom-label">B</text>
+          <circle cx="188.17" cy="177.08" r="3.30" class="geom-point" />
+          <text x="184.17" y="194.08" text-anchor="middle" class="geom-label">C</text>
+          <circle cx="306.28" cy="-0.18" r="3.30" class="geom-point" />
+          <text x="306.28" y="-10.18" text-anchor="middle" class="geom-label">A'</text>
+          <circle cx="427.57" cy="132.21" r="3.30" class="geom-point" />
+          <text x="437.57" y="124.21" text-anchor="middle" class="geom-label">B'</text>
+          <circle cx="331.41" cy="240.85" r="3.30" class="geom-point" />
+          <text x="333.41" y="258.85" text-anchor="middle" class="geom-label">C'</text>
+        </svg>
+        <figcaption>**Affine Desargues Configuration of Perspective Triangles (Theorem 32).** Theorem 32: triangles ABC and A'B'C' perspective from O with AB ∥ A'B' and BC ∥ B'C' satisfy AC ∥ A'C'.</figcaption>
+        </figure>
+        <div class="toctree-wrapper compound">
+        </div>
+        </section>
+
+      </div>
+      <footer class="book-footer">
+        <div class="book-footer-ornament">&#10086;</div>
+        <div class="book-footer-nav">
+          <div class="book-nav-prev">
+            <a class="book-nav-btn" href="../index.html" title="Chapter V: Desargues’s Theorem">&larr; <span class="nav-label">Prev</span></a>
+          </div>
+          <div class="book-nav-center">
+            <a class="book-toc-link" href="../../index.html">Foundations of Geometry</a>
+          </div>
+          <div class="book-nav-next">
+            <a class="book-nav-btn" href="../sec_23/index.html" title="§ 23: The Impossibility of Demonstrating Desargues’s Theorem for the Plane Without the Help of the Axioms of Congruence"><span class="nav-label">Next</span> &rarr;</a>
+          </div>
+        </div>
+      </footer>
+    </article>
+  </main>
+  <div class="asides">
+    <aside class="aside-search">
+      <h3>Search</h3>
+      <div id="searchbox" role="search">
+        <form id="rtd-search-form" class="wy-form search-form" action="../../../search.html" method="get">
+          <div class="search-field">
+            <input type="search" name="q" placeholder="Search docs..." aria-label="Search docs" autocomplete="off" />
+            <button type="submit" class="search-submit" aria-label="Search" title="Search">
+              <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <circle cx="11" cy="11" r="8"></circle>
+                <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+              </svg>
+            </button>
+          </div>
+          <input type="hidden" name="check_keywords" value="yes" />
+          <input type="hidden" name="area" value="default" />
+        </form>
+      </div>
+    </aside>
+    <aside class="aside-types">
+      <h3>Types</h3>
+      <ul>
+        <li><a href="../../../types/book.html">book</a></li>
+      </ul>
+    </aside>
+  </div>
+  <footer>
+    <div class="footer-nav">
+      <ul>
+        <li><a href="../../concordance.html"  >Concordance</a></li>
+        <li><a href="../../glossary.html"  >Glossary</a></li>
+      </ul>
+    </div>
+    <hr />
+    <div role="contentinfo">
+      <p>
+        &copy; Copyright 1899 B. G. Teubner · 1902 Open Court · Digital Codex GEOMETOR.
+      </p>
+    </div>
+  </footer>
+
+  <script src="../../../_static/jquery.js?v=5d32c60e"></script>
+  <script src="../../../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+  <script src="../../../_static/documentation_options.js?v=59fadc99"></script>
+  <script src="../../../_static/doctools.js?v=fd6eb6e6"></script>
+  <script src="../../../_static/sphinx_highlight.js?v=6ffebe34"></script>
+  <script src="../../../_static/js/collection_controls.js?v=b6b5297a"></script>
+  <script src="../../../_static/js/geometor_interactive.js?v=b2892320"></script>
+  <script src="../../../_static/js/search_highlight.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,270 @@
+
+
+<!DOCTYPE html>
+<html lang="en" data-content_root="../../../">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>§ 23: Die Nichtbeweisbarkeit des Desarguesschen Satzes in der Ebene ohne Hülfe der Congruenzaxiome — Foundations of Geometry • GEOMETOR</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <link rel="canonical" href="https://geometor.github.io/hilbert/grundlagen/chapter_05/sec_23/de.html" />
+  <meta name="description" content="Wir untersuchen nun die Frage, ob in der ebenen Geometrie auch ohne Hülfe der Congruenzaxiome der Desarguessche Satz bewiesen werden kann, und gelangen dabei zu folgendem Resultate :" />
+  <meta property="og:site_name" content="GEOMETOR" />
+  <meta property="og:type" content="article" />
+  <meta property="og:title" content="§ 23: Die Nichtbeweisbarkeit des Desarguesschen Satzes in der Ebene ohne Hülfe der Congruenzaxiome — Foundations of Geometry • GEOMETOR" />
+  <meta property="og:description" content="Wir untersuchen nun die Frage, ob in der ebenen Geometrie auch ohne Hülfe der Congruenzaxiome der Desarguessche Satz bewiesen werden kann, und gelangen dabei zu folgendem Resultate :" />
+  <meta property="og:url" content="https://geometor.github.io/hilbert/grundlagen/chapter_05/sec_23/de.html" />
+  <meta property="og:image" content="https://geometor.github.io/hilbert/_static/social/grundlagen.png" />
+  <meta property="og:image:type" content="image/png" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta property="og:image:alt" content="David Hilbert — GEOMETOR" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="§ 23: Die Nichtbeweisbarkeit des Desarguesschen Satzes in der Ebene ohne Hülfe der Congruenzaxiome — Foundations of Geometry • GEOMETOR" />
+  <meta name="twitter:description" content="Wir untersuchen nun die Frage, ob in der ebenen Geometrie auch ohne Hülfe der Congruenzaxiome der Desarguessche Satz bewiesen werden kann, und gelangen dabei zu folgendem Resultate :" />
+  <meta name="twitter:image" content="https://geometor.github.io/hilbert/_static/social/grundlagen.png" />
+  <meta name="twitter:image:alt" content="David Hilbert — GEOMETOR" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..700;1,400..700&family=Fira+Sans+Condensed:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600;1,700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" type="text/css" href="../../../_static/pygments.css?v=ea5fcf70" />
+  <link rel="stylesheet" type="text/css" href="../../../_static/css/styles.css?v=81e79cc0" />
+  <link rel="stylesheet" type="text/css" href="../../../_static/graphviz.css?v=4ae1632d" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css" />
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js"></script>
+  <link rel="stylesheet" href="../../../_static/css/print.css" type="text/css" media="print" />
+  <link rel="icon" href="../../../_static/favicon.ico" />
+</head>
+
+<body class="is-book-page book-theme-classical-serif" data-folio="51
+
+/home/runner/work/hilbert/hilbert/docsrc/grundlagen/chapter_05/sec_23/de.rst:5: (INFO/1) Enumerated list start value not ordinal-1: “S” (ordinal 19)">
+  <header>
+    <div class="logo">
+      <a href="../../../index.html" title="Home">
+        <img src="../../../_static/logo.png" class="logo" alt="GEOMETOR hilbert"/>
+        <div class="org-repo">
+          <span class="org">GEOMETOR</span>
+          <span class="sep" aria-hidden="true">&bull;</span>
+          <span class="repo">hilbert</span>
+        </div>
+      </a>
+    </div>
+    <nav aria-label="Header">
+      <input type="checkbox" id="nav-Header-toggle" >
+      <label for="nav-Header-toggle" >Header</label>
+      <ul>
+        <li>
+          <a href="../../index.html" class="is-active" aria-selected="true" >Foundations of Geometry</a>
+        </li>
+        <li>
+          <a href="../../persons.html"  >People</a>
+        </li>
+        <li>
+          <a href="../../bibliography.html"  >Bibliography</a>
+        </li>
+        <li>
+          <a href="../../../about/index.html"  >About</a>
+        </li>
+        <li>
+          <a href="../../../usage/index.html"  >Usage</a>
+        </li>
+        <li>
+          <a href="../../../log/index.html"  >Log</a>
+        </li>
+        <li>
+          <a href="../../../modules/index.html"  >Modules</a>
+        </li>
+      </ul>
+    </nav>
+    <div class="motto"></div>
+  </header>
+  <main class="book-main">
+    <article class="book-layout book-reading-pane" data-folio="51
+
+/home/runner/work/hilbert/hilbert/docsrc/grundlagen/chapter_05/sec_23/de.rst:5: (INFO/1) Enumerated list start value not ordinal-1: “S” (ordinal 19)" data-canonical-id="§ 23">
+      <header class="book-header">
+        <div class="book-header-bar">
+          <nav class="book-breadcrumbs" aria-label="Breadcrumb">
+            <a class="book-section-home-link" href="../../index.html">Foundations of Geometry</a>
+            <span class="book-crumb-sep" aria-hidden="true">/</span>
+            <a class="book-crumb-link" href="../index.html">Chapter V</a>
+            <span class="book-crumb-sep" aria-hidden="true">/</span>
+            <span class="book-crumb-current" aria-current="page">§ 23</span>
+          </nav>
+          <div class="book-provenance-badges">
+            <span class="book-badge folio-badge">Folio 51
+
+/home/runner/work/hilbert/hilbert/docsrc/grundlagen/chapter_05/sec_23/de.rst:5: (INFO/1) Enumerated list start value not ordinal-1: “S” (ordinal 19) | p. 51</span>
+          </div>
+        </div>
+        <div class="book-header-nav">
+          <div class="book-nav-prev">
+            <a class="book-nav-btn" href="../sec_22/de.html" title="§ 22: Desargues’s Theorem and Its Demonstration for Plane Geometry by Aid of the Axioms of Congruence">&larr; <span class="nav-label">Prev</span></a>
+          </div>
+          <div class="book-nav-center">
+            <nav class="book-tracks-nav" aria-label="Document Tracks">
+              <a class="book-track-item" href="index.html">English</a>
+              <span class="book-track-sep">&middot;</span>
+              <strong class="book-track-item is-active" aria-current="page">Deutsch</strong>
+              <span class="book-track-sep">&middot;</span>
+              <a class="book-track-item" href="summary.html">Summary</a>
+              <span class="book-track-sep">&middot;</span>
+              <a class="book-track-item" href="notes.html">Notes</a>
+            </nav>
+          </div>
+          <div class="book-nav-next">
+            <a class="book-nav-btn" href="../sec_24/de.html" title="§ 24: Introduction of an Algebra of Segments Based Upon Desargues’s Theorem and Independent of the Axioms of Congruence"><span class="nav-label">Next</span> &rarr;</a>
+          </div>
+        </div>
+      </header>
+      <div class="content body book-content folio-book-page" role="main">
+        <span class="folio-milestone" id="folio-§ 23" data-folio="§ 23" data-page="51"><a class="folio-link" href="https://github.com/geometor/hilbert/blob/main/resources/grundlagen/sources/ia_grundlagendergeo00hilb_teubner_1899.txt#L2783" target="_blank" rel="noopener" title="View Folio § 23 (p. 51)">f. § 23 · p. 51</a></span>
+        <section class="level-1" id="die-nichtbeweisbarkeit-des-desarguesschen-satzes-in-der-ebene-ohne-hulfe-der-congruenzaxiome">
+        <h1>§ 23: Die Nichtbeweisbarkeit des Desarguesschen Satzes in der Ebene ohne Hülfe der Congruenzaxiome<a class="headerlink" href="#die-nichtbeweisbarkeit-des-desarguesschen-satzes-in-der-ebene-ohne-hulfe-der-congruenzaxiome" title="Link to this heading">¶</a></h1>
+        <p class="rubric">David Hilbert — <em>Grundlagen der Geometrie</em> (Festschrift, Leipzig 1899)</p>
+        <p>Wir untersuchen nun die Frage, ob in der ebenen Geometrie auch ohne Hülfe der Congruenzaxiome der Desarguessche Satz bewiesen werden kann, und gelangen dabei zu folgendem Resultate :</p>
+        <p id="grundlagen-de-thm-33"><strong>Satz 33.</strong> Es giebt eine ebene Geometrie, in welcher die Axiome I 1–2, II–III, IV 1–5, V, d. h. sämtliche linearen und ebenen Axiome mit Ausnahme des Congruenzaxioms IV 6 erfüllt sind, während der Desarguessche Satz (Satz 32) nicht gilt. Der Desarguessche Satz kann mithin aus den genannten Axiomen allein nicht gefolgert werden: es bedarf zum Beweise desselben notwendig entweder der räumlichen Axiome oder der sämtlichen Congruenzaxiome.</p>
+        <p><strong>Beweis.</strong> Wir wählen in der gewöhnlichen ebenen Geometrie, deren Möglichkeit bereits im Kapitel II § 9 erkannt worden ist, irgend zwei zu einander senkrechte Gerade als Coordinatenaxen X, Y und denken uns um den Nullpunkt 0 dieses Coordinatensystems als Mittelpunkt eine Ellipse mit den Halbaxen $1$ und $\frac{1}{2}$ construirt; endlich bezeichnen wir mit $F$ den Punkt, welcher in der Entfernung $\frac{3}{2}$ von $O$ auf der positiven $X$-Axe liegt.</p>
+        <p>Wir fassen nun die Gesamtheit aller Kreise ins Auge, welche die Ellipse in vier reellen — getrennten oder beliebig zusammenfallenden — Punkten schneiden, und suchen unter allen auf diesen Kreisen gelegenen Punkten denjenigen Punkt zu bestimmen, der</p>
+        <p>auf der positiven X-Axe am weitesten vom Nullpunkt entfernt</p>
+        <p>ist. Zu dem Zwecke gehen wir von einem beliebigen Kreise aus,</p>
+        <p>der die Ellipse in vier Punkten schneidet und die positive X-Axe im Punkte C treffen möge. Diesen Kreis denken wir uns dann um den Punkt C derart gedreht, dass zwei von den vier Schnittpunkten oder mehr in einen einzigen Punkt A zusammenfallen, während die übrigen reell bleiben. Der so entstehende Berührungskreis werde alsdann vergrössert derart, dass stets der Punkt A Berührungspunkt mit der Ellipse bleibt ; hierdurch gelangen wir notwendig zu einem Kreise , der die Ellipse entweder noch in einem anderen Punkte $B$ berührt oder in $A$ mit der Ellipse eine vierpunktige Berührung aufweist und der überdies die positive X-Axe in einem entfernteren Punkte als C trifft. Der gesuchte entfernteste Punkt wird sich demnach unter denjenigen Punkten befinden, die von den doppeltberührenden ausserhalb der Ellipse</p>
+        <p>verlaufenden Kreisen auf der positiven X-Axe ausgeschnitten werden. Die doppeltberührenden ausserhalb der Ellipse verlauzur $Y$-Axe symmetrisch. Es seien $a, b$ die Coordinaten irgend eines Punktes der Ellipse: dann lehrt eine leichte Rechnung, dass der in diesem Punkte berührende zur $Y$-Axe symmetrische Kreis auf der positiven $X$-Axe die Strecke</p>
+        <p>$$
+        x = |\sqrt{1 + 3b^2}|
+        $$</p>
+        <p>abschneidet. Der grösstmögliche Wert dieses Ausdrucks tritt für $b = \frac{1}{2}$ ein und wird somit gleich $|\frac{1}{2}\sqrt{7}|$. Da der vorhin mit $F$ bezeichnete Punkt auf der $X$-Axe die Abscisse $\frac{3}{2} &gt; |\frac{1}{2}\sqrt{7}|$ aufweist, so folgt, <em>dass unter den die Ellipse viermal treffenden Kreisen sich gewiss keiner befindet, der durch den Punkt $F$ läuft</em>.</p>
+        <p>Nunmehr stellen wir uns eine neue ebene Geometrie in folgender Weise her. Als Punkte der neuen Geometrie nehmen wir die Punkte der $XY$-Ebene; als Gerade der neuen Geometrie nehmen wir diejenigen Geraden der $XY$-Ebene unverändert, welche die feste Ellipse berühren oder gar nicht treffen; ist dagegen $g$ eine Gerade der $XY$-Ebene, die die Ellipse in zwei Punkten $P$</p>
+        <p>und Q trifft, so construiren wir durch P, Q und den festen Punkt F einen Kreis; dieser Kreis hat, wie aus dem oben Bewiesenen hervorgeht, keinen weiteren Punkt mit der Ellipse gemein. Wir denken uns nun an Stelle des zwischen P und Q innerhalb der Ellipse gelegenen Stückes der Geraden g denjenigen Bogen des eben construirten Kreises gesetzt, der zwischen P und Q innerhalb der Ellipse verläuft. Den Linienzug, welcher aus den beiden</p>
+        <p>von P und Q ausgehenden unendlichen Stücken der Geraden g und dem eben construirten Kreisbogen PQ besteht , nehmen wir als Gerade der neu herzustellenden Geometrie. Denken wir uns für alle Geraden der $XY$-Ebene die entsprechenden Linienzüge construirt, so entsteht ein System von Linienzügen, welche, als</p>
+        <p>Gerade einer Geometrie aufgefasst , offenbar den Axiomen 1 1 — 2 und III genügen. Bei Festsetzung der natürlichen Anordnung für die Punkte und Geraden in unserer neuen Geometrie erkennen wir unmittelbar, dass auch die Axiome II gültig sind.</p>
+        <p>Ferner nennen wir zwei Strecken $AB$ und $A'B'$ in unserer neuen Geometrie congruent, wenn der zwischen A und B verlaufende Linienzug die gleiche natürliche Länge hat, wie der zwischen A’ und B’ verlaufende Linienzug.</p>
+        <p>Endlich bedürfen wir einer Festsetzung betreffs der Congruenz der Winkel. Sobald keiner von den Scheiteln der zu vergleichenden Winkel auf der Ellipse liegt, nennen wir zwei Winkel einander congruent, wenn sie im gewöhnlichen Sinne einander gleich sind. Im anderen Falle treffen wir folgende Festsetzung. Es</p>
+        <p>mögen die Punkte $A, B, C$ in dieser Reihenfolge und die Punkte $A', B', C'$ in dieser Reihenfolge je auf einer Geraden unserer neuen Geometrie liegen; $D$ sei ein Punkt ausserhalb der Geraden $ABC$ und $D'$ ein Punkt ausserhalb der Geraden $A'B'C'$: dann mögen für die Winkel zwischen diesen Geraden in unserer neuen Geometrie die Congruenzen</p>
+        <p>$$
+        \angle ABD \equiv \angle A'B'D' \quad \text{und} \quad \angle CBD \equiv \angle C'B'D'
+        $$</p>
+        <p>gelten, sobald für die natürlichen Winkel zwischen den entsprechenden Linienzügen in der gewöhnlichen Geometrie die Proportion</p>
+        <p>$$
+        \angle ABD : \angle CBD = \angle A'B'D' : \angle C'B'D'
+        $$</p>
+        <p>erfüllt ist. Bei diesen Festsetzungen sind auch die Axiome IV 1–5 und V gültig.</p>
+        <p>Um einzusehen, dass in unserer neu hergestellten Geometrie der Desarguessche Satz nicht gilt, betrachten wir folgende drei gewöhnliche gerade Linien in der $XY$-Ebene: die $X$-Axe, die $Y$-Axe und die Gerade, welche die beiden Ellipsenpunkte $x = \frac{3}{5}, y = \frac{2}{5}$ und $x = -\frac{3}{5}, y = -\frac{2}{5}$ mit einander verbindet. Da</p>
+        <p>laufen, so können wir leicht zwei solche Dreiecke angeben, deren</p>
+        <p>Ecken bez. auf jenen drei Geraden liegen, deren entsprechende Seiten paarweise einander parallel laufen und die sämtlich ausserhalb der Ellipse gelegen sind. Da die Linienzüge , welche aus den genannten drei geraden Linien entspringen , sich , wie Figur 38</p>
+        <p>zeigt und wie man leicht durch Rechnung bestätigt, nicht in</p>
+        <p>einem Punkte treffen, so folgt, dass der Desarguessche Satz in der neuen ebenen Geometrie für die beiden vorhin construirten Dreiecke gewiss nicht gilt.</p>
+        <p>Die von uns hergestellte ebene Geometrie dient zugleich als Beispiel einer ebenen Geometrie , in welcher die Axiome 1 1 — 2, II — III, IV 1 — 5, V gültig sind, und die sich dennoch nicht als Teil einer räumlichen Geometrie auffassen lässt.</p>
+        <figure class="photon-picture photon-svg">
+            <svg class="euclid-graphic" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 475 218" width="475" height="218" data-graphic-id="fig_non_desarguesian_plane" data-proposition="S.23" data-svg-scope="s-4931f315">
+          <style>
+            svg[data-svg-scope="s-4931f315"] { font-family: 'Fira Sans Condensed', 'Fira Sans', sans-serif; font-style: normal; font-weight: 700 }
+            svg[data-svg-scope="s-4931f315"] .geom-line { stroke: var(--geom-fg); stroke-width: 1.8; stroke-linecap: round; stroke-linejoin: round; fill: none }
+            svg[data-svg-scope="s-4931f315"] .geom-bold { stroke: var(--geom-fg); stroke-width: 2.3; stroke-linecap: round; stroke-linejoin: round; fill: none }
+            svg[data-svg-scope="s-4931f315"] .geom-dashed { stroke: var(--geom-fg); stroke-width: 1.4; stroke-dasharray: 5, 3.5; stroke-linecap: round; stroke-linejoin: round; fill: none }
+            svg[data-svg-scope="s-4931f315"] .geom-accent-line { stroke: var(--geom-accent); stroke-width: 2.1; stroke-linecap: round; stroke-linejoin: round; fill: none }
+            svg[data-svg-scope="s-4931f315"] .geom-assert-line { stroke: var(--geom-assert); stroke-width: 2.2; stroke-dasharray: 6, 3; stroke-linecap: round; stroke-linejoin: round; fill: none }
+            svg[data-svg-scope="s-4931f315"] .geom-circle { stroke: var(--geom-fg); stroke-width: 1.6; fill: none }
+            svg[data-svg-scope="s-4931f315"] .geom-arc { stroke: var(--geom-accent); stroke-width: 1.9; stroke-linecap: round; fill: none }
+            svg[data-svg-scope="s-4931f315"] .geom-ang-arc { stroke: var(--geom-assert); stroke-width: 2.0; stroke-linecap: round; fill: none }
+            svg[data-svg-scope="s-4931f315"] .geom-polygon { fill: var(--geom-poly-fill); fill-opacity: 0.05; stroke: none }
+            svg[data-svg-scope="s-4931f315"] .geom-polygon-gnomon { fill: var(--geom-accent); fill-opacity: 0.14; stroke: none }
+            svg[data-svg-scope="s-4931f315"] .geom-point { fill: var(--geom-fg); stroke: var(--geom-point-stroke); stroke-width: 1.1 }
+            svg[data-svg-scope="s-4931f315"] .geom-point-accent { fill: var(--geom-accent); stroke: var(--geom-point-stroke); stroke-width: 1.1 }
+            svg[data-svg-scope="s-4931f315"] .geom-label { font-family: 'Fira Sans Condensed', 'Fira Sans', sans-serif; font-size: 14px; font-weight: 700; fill: var(--geom-fg); user-select: none }
+            svg[data-svg-scope="s-4931f315"] .geom-label-sm { font-family: 'Fira Sans Condensed', 'Fira Sans', sans-serif; font-size: 11.5px; font-weight: 700; fill: var(--geom-fg); opacity: 0.85; user-select: none }
+          </style>
+          <line x1="30.00" y1="112.00" x2="450.00" y2="112.00" class="geom-dashed" />
+          <line x1="225.00" y1="16.00" x2="225.00" y2="206.00" class="geom-dashed" />
+          <ellipse cx="225.00" cy="112.00" rx="135.00" ry="76.00" class="geom-circle" />
+          <line x1="25.62" y1="69.22" x2="110.51" y2="71.73" class="geom-bold" />
+          <line x1="346.34" y1="78.68" x2="431.23" y2="81.19" class="geom-bold" />
+          <line x1="110.51" y1="71.73" x2="346.34" y2="78.68" class="geom-dashed" />
+          <path d="M 110.51 71.73 A 175 175 0 0 0 346.34 78.68" class="geom-accent-line" />
+          <circle cx="322.20" cy="112.00" r="3.30" class="geom-point-accent" />
+          <text x="322.20" y="129.00" text-anchor="middle" class="geom-label">F</text>
+          <circle cx="110.51" cy="71.73" r="3.30" class="geom-point" />
+          <circle cx="346.34" cy="78.68" r="3.30" class="geom-point" />
+          <text x="98.51" y="63.73" text-anchor="middle" class="geom-label">P</text>
+          <text x="358.34" y="70.68" text-anchor="middle" class="geom-label">Q</text>
+          <text x="140.00" y="168.00" text-anchor="middle" class="geom-label-sm">Ellipse Boundary</text>
+          <text x="235.00" y="144.00" text-anchor="middle" class="geom-label-sm">Hilbert Arc</text>
+        </svg>
+        <figcaption>**Hilbert's 1899 Non-Desarguesian Plane via Ellipse Arc Refraction (§ 23).** Theorem 33: Euclidean lines cutting the ellipse are replaced inside the boundary by circular arcs through F, satisfying planar I 1–2, II, III, IV 1–5, V while violating Desargues.</figcaption>
+        </figure>
+        </section>
+
+      </div>
+      <footer class="book-footer">
+        <div class="book-footer-ornament">&#10086;</div>
+        <div class="book-footer-nav">
+          <div class="book-nav-prev">
+            <a class="book-nav-btn" href="../sec_22/de.html" title="§ 22: Desargues’s Theorem and Its Demonstration for Plane Geometry by Aid of the Axioms of Congruence">&larr; <span class="nav-label">Prev</span></a>
+          </div>
+          <div class="book-nav-center">
+            <a class="book-toc-link" href="../../index.html">Foundations of Geometry</a>
+          </div>
+          <div class="book-nav-next">
+            <a class="book-nav-btn" href="../sec_24/de.html" title="§ 24: Introduction of an Algebra of Segments Based Upon Desargues’s Theorem and Independent of the Axioms of Congruence"><span class="nav-label">Next</span> &rarr;</a>
+          </div>
+        </div>
+      </footer>
+    </article>
+  </main>
+  <div class="asides">
+    <aside class="aside-search">
+      <h3>Search</h3>
+      <div id="searchbox" role="search">
+        <form id="rtd-search-form" class="wy-form search-form" action="../../../search.html" method="get">
+          <div class="search-field">
+            <input type="search" name="q" placeholder="Search docs..." aria-label="Search docs" autocomplete="off" />
+            <button type="submit" class="search-submit" aria-label="Search" title="Search">
+              <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <circle cx="11" cy="11" r="8"></circle>
+                <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+              </svg>
+            </button>
+          </div>
+          <input type="hidden" name="check_keywords" value="yes" />
+          <input type="hidden" name="area" value="default" />
+        </form>
+      </div>
+    </aside>
+    <aside class="aside-types">
+      <h3>Types</h3>
+      <ul>
+        <li><a href="../../../types/book.html">book</a></li>
+      </ul>
+    </aside>
+  </div>
+  <footer>
+    <div class="footer-nav">
+      <ul>
+        <li><a href="../../concordance.html"  >Concordance</a></li>
+        <li><a href="../../glossary.html"  >Glossary</a></li>
+      </ul>
+    </div>
+    <hr />
+    <div role="contentinfo">
+      <p>
+        &copy; Copyright 1899 B. G. Teubner · 1902 Open Court · Digital Codex GEOMETOR.
+      </p>
+    </div>
+  </footer>
+
+  <script src="../../../_static/jquery.js?v=5d32c60e"></script>
+  <script src="../../../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+  <script src="../../../_static/documentation_options.js?v=59fadc99"></script>
+  <script src="../../../_static/doctools.js?v=fd6eb6e6"></script>
+  <script src="../../../_static/sphinx_highlight.js?v=6ffebe34"></script>
+  <script src="../../../_static/js/collection_controls.js?v=b6b5297a"></script>
+  <script src="../../../_static/js/geometor_interactive.js?v=b2892320"></script>
+  <script src="../../../_static/js/search_highlight.js"></script>
+
+</body>
+</html>

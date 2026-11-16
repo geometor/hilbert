@@ -1,0 +1,268 @@
+
+
+<!DOCTYPE html>
+<html lang="en" data-content_root="../../../">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>§ 36: Die geometrischen Konstruktionen mittelst Lineals und Streckenübertragers — Foundations of Geometry • GEOMETOR</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <link rel="canonical" href="https://geometor.github.io/hilbert/grundlagen/chapter_07/sec_36/de.html" />
+  <meta name="description" content="Es sei eine räumliche Geometrie vorgelegt , in der die sämtlichen Axiome I— V gelten; wir fassen der Einfachheit wegen in diesem Kapitel eine ebene Geometrie ins Auge, die in dieser räumlichen…" />
+  <meta property="og:site_name" content="GEOMETOR" />
+  <meta property="og:type" content="article" />
+  <meta property="og:title" content="§ 36: Die geometrischen Konstruktionen mittelst Lineals und Streckenübertragers — Foundations of Geometry • GEOMETOR" />
+  <meta property="og:description" content="Es sei eine räumliche Geometrie vorgelegt , in der die sämtlichen Axiome I— V gelten; wir fassen der Einfachheit wegen in diesem Kapitel eine ebene Geometrie ins Auge, die in dieser räumlichen…" />
+  <meta property="og:url" content="https://geometor.github.io/hilbert/grundlagen/chapter_07/sec_36/de.html" />
+  <meta property="og:image" content="https://geometor.github.io/hilbert/_static/social/grundlagen.png" />
+  <meta property="og:image:type" content="image/png" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta property="og:image:alt" content="David Hilbert — GEOMETOR" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="§ 36: Die geometrischen Konstruktionen mittelst Lineals und Streckenübertragers — Foundations of Geometry • GEOMETOR" />
+  <meta name="twitter:description" content="Es sei eine räumliche Geometrie vorgelegt , in der die sämtlichen Axiome I— V gelten; wir fassen der Einfachheit wegen in diesem Kapitel eine ebene Geometrie ins Auge, die in dieser räumlichen…" />
+  <meta name="twitter:image" content="https://geometor.github.io/hilbert/_static/social/grundlagen.png" />
+  <meta name="twitter:image:alt" content="David Hilbert — GEOMETOR" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..700;1,400..700&family=Fira+Sans+Condensed:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600;1,700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" type="text/css" href="../../../_static/pygments.css?v=ea5fcf70" />
+  <link rel="stylesheet" type="text/css" href="../../../_static/css/styles.css?v=81e79cc0" />
+  <link rel="stylesheet" type="text/css" href="../../../_static/graphviz.css?v=4ae1632d" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css" />
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js"></script>
+  <link rel="stylesheet" href="../../../_static/css/print.css" type="text/css" media="print" />
+  <link rel="icon" href="../../../_static/favicon.ico" />
+</head>
+
+<body class="is-book-page book-theme-classical-serif" data-folio="78
+
+/home/runner/work/hilbert/hilbert/docsrc/grundlagen/chapter_07/sec_36/de.rst:5: (INFO/1) Enumerated list start value not ordinal-1: “S” (ordinal 19)">
+  <header>
+    <div class="logo">
+      <a href="../../../index.html" title="Home">
+        <img src="../../../_static/logo.png" class="logo" alt="GEOMETOR hilbert"/>
+        <div class="org-repo">
+          <span class="org">GEOMETOR</span>
+          <span class="sep" aria-hidden="true">&bull;</span>
+          <span class="repo">hilbert</span>
+        </div>
+      </a>
+    </div>
+    <nav aria-label="Header">
+      <input type="checkbox" id="nav-Header-toggle" >
+      <label for="nav-Header-toggle" >Header</label>
+      <ul>
+        <li>
+          <a href="../../index.html" class="is-active" aria-selected="true" >Foundations of Geometry</a>
+        </li>
+        <li>
+          <a href="../../persons.html"  >People</a>
+        </li>
+        <li>
+          <a href="../../bibliography.html"  >Bibliography</a>
+        </li>
+        <li>
+          <a href="../../../about/index.html"  >About</a>
+        </li>
+        <li>
+          <a href="../../../usage/index.html"  >Usage</a>
+        </li>
+        <li>
+          <a href="../../../log/index.html"  >Log</a>
+        </li>
+        <li>
+          <a href="../../../modules/index.html"  >Modules</a>
+        </li>
+      </ul>
+    </nav>
+    <div class="motto"></div>
+  </header>
+  <main class="book-main">
+    <article class="book-layout book-reading-pane" data-folio="78
+
+/home/runner/work/hilbert/hilbert/docsrc/grundlagen/chapter_07/sec_36/de.rst:5: (INFO/1) Enumerated list start value not ordinal-1: “S” (ordinal 19)" data-canonical-id="§ 36">
+      <header class="book-header">
+        <div class="book-header-bar">
+          <nav class="book-breadcrumbs" aria-label="Breadcrumb">
+            <a class="book-section-home-link" href="../../index.html">Foundations of Geometry</a>
+            <span class="book-crumb-sep" aria-hidden="true">/</span>
+            <a class="book-crumb-link" href="../index.html">Chapter VII</a>
+            <span class="book-crumb-sep" aria-hidden="true">/</span>
+            <span class="book-crumb-current" aria-current="page">§ 36</span>
+          </nav>
+          <div class="book-provenance-badges">
+            <span class="book-badge folio-badge">Folio 78
+
+/home/runner/work/hilbert/hilbert/docsrc/grundlagen/chapter_07/sec_36/de.rst:5: (INFO/1) Enumerated list start value not ordinal-1: “S” (ordinal 19) | p. 78</span>
+          </div>
+        </div>
+        <div class="book-header-nav">
+          <div class="book-nav-prev">
+            <a class="book-nav-btn" href="../index.html" title="Chapter VII: Geometrical Constructions Based Upon Axioms I–V">&larr; <span class="nav-label">Prev</span></a>
+          </div>
+          <div class="book-nav-center">
+            <nav class="book-tracks-nav" aria-label="Document Tracks">
+              <a class="book-track-item" href="index.html">English</a>
+              <span class="book-track-sep">&middot;</span>
+              <strong class="book-track-item is-active" aria-current="page">Deutsch</strong>
+              <span class="book-track-sep">&middot;</span>
+              <a class="book-track-item" href="summary.html">Summary</a>
+              <span class="book-track-sep">&middot;</span>
+              <a class="book-track-item" href="notes.html">Notes</a>
+            </nav>
+          </div>
+          <div class="book-nav-next">
+            <a class="book-nav-btn" href="../sec_37/de.html" title="§ 37: Analytical Representation of the Co-ordinates of Points Which Can Be So Constructed"><span class="nav-label">Next</span> &rarr;</a>
+          </div>
+        </div>
+      </header>
+      <div class="content body book-content folio-book-page" role="main">
+        <span class="folio-milestone" id="folio-§ 36" data-folio="§ 36" data-page="78"><a class="folio-link" href="https://github.com/geometor/hilbert/blob/main/resources/grundlagen/sources/ia_grundlagendergeo00hilb_teubner_1899.txt#L4117" target="_blank" rel="noopener" title="View Folio § 36 (p. 78)">f. § 36 · p. 78</a></span>
+        <section class="level-1" id="die-geometrischen-konstruktionen-mittelst-lineals-und-streckenubertragers">
+        <h1>§ 36: Die geometrischen Konstruktionen mittelst Lineals und Streckenübertragers<a class="headerlink" href="#die-geometrischen-konstruktionen-mittelst-lineals-und-streckenubertragers" title="Link to this heading">¶</a></h1>
+        <p class="rubric">David Hilbert — <em>Grundlagen der Geometrie</em> (Festschrift, Leipzig 1899)</p>
+        <p>Es sei eine räumliche Geometrie vorgelegt , in der die sämtlichen Axiome I— V gelten; wir fassen der Einfachheit wegen in diesem Kapitel eine ebene Geometrie ins Auge, die in dieser räumlichen Geometrie enthalten ist , und untersuchen dann die Frage, welche elementaren Konstruktionsaufgaben in einer solchen Geometrie notwendig ausführbar sind.</p>
+        <p>Auf Grund der Axiome I ist die Ausführung der folgenden Aufgabe stets möglich :</p>
+        <p><strong>Aufgabe 1.</strong> Zwei Punkte durch eine Gerade zu verbinden und den Schnittpunkt zweier Geraden zu finden , falls die Geraden nicht parallel sind.</p>
+        <p>Das Axiom III ermöglicht die Ausführung der folgenden Aufgabe :</p>
+        <p><strong>Aufgabe 2.</strong> Durch einen gegebenen Punkt zu einer Geraden eine Parallele zu ziehen.</p>
+        <p>Auf Grund der Congruenzaxiome IV ist das Abtragen von Strecken und Winkeln möglich, d. h. es lassen sich in der vorgelegten Geometrie folgende Aufgaben lösen:</p>
+        <p><strong>Aufgabe 3.</strong> Eine gegebene Strecke auf einer gegebenen Geraden von einem Punkte aus abzutragen.</p>
+        <p><strong>Aufgabe 4.</strong> Einen gegebenen Winkel an eine gegebene Gerade anzutragen oder eine Gerade zu konstruiren, die eine gegebene Gerade unter einem gegebenen Winkel schneidet.</p>
+        <p>Auf Grund der Axiome der Gruppen II und V werden keine neuen Aufgaben lösbar; wir sehen somit, dass unter ausschliesslicher Benutzung der Axiome I— V alle und nur diejenigen Konstruktionsaufgaben lösbar sind, die sich auf die eben genannten Aufgaben 1 — 4 zurückführen lassen.</p>
+        <p>Wir fügen den fundamentalen Aufgaben 1 — 4 noch die folgende hinzu:</p>
+        <p><strong>Aufgabe 5.</strong> Zu einer gegebenen Geraden eine Senkrechte zu ziehen.</p>
+        <p>Wir erkennen unmittelbar, dass diese Aufgabe 5 auf verschiedene Arten durch die Aufgaben 1—4 gelöst werden kann.</p>
+        <p>Zur Ausführung der Aufgabe 1 bedürfen wir des Lineals. Ein Instrument , welches zur Ausführung der Aufgabe 3 dient d. h. das Abtragen einer Strecke auf einer gegebenen Geraden ermöglicht , nennen wir einen Streckenübertrager. Wir wollen nunmehr zeigen, dass die Aufgaben 2, 4 und 5 auf die Lösung der Aufgaben 1 und 3 zurückgeführt werden können, und mithin die sämtlichen Aufgaben 1—5 lediglich mittelst Lineals und Streckenübertragers lösbar sind. Wir finden damit folgendes Resultat :</p>
+        <p id="grundlagen-de-thm-40"><strong>Satz 40.</strong> Diejenigen geometrischen Konstruktionsaufgaben , die unter ausschliesslicher Benutzung der Axiome I — V lösbar sind, lassen sich notwendig mittelst Lineals und Streckenübertragers ausführen.</p>
+        <p><strong>Beweis.</strong> Um die Aufgabe 2 auf die Aufgaben 1 und 3 zurückzuführen, verbinden wir den gegebenen Punkt P mit irgend einem Punkte A der gegebenen Geraden und verlängern PA über A hinaus um sich selbst bis C. Sodann verbinden wir C mit irgend einem andern Punkte B der gegebenen Geraden und verlängern CB über B hinaus um sich selbst bis Q ; die Gerade PQ ist die gesuchte Parallele.</p>
+        <p>Die Aufgabe 5 lösen wir auf folgende Weise. Es sei A ein beliebiger Punkt der gegebenen Geraden; dann tragen wir von A aus auf dieser Geraden nach beiden Seiten hin zwei gleiche Strecken AB und AG ab und bestimmen dann auf zwei beliebigen anderen</p>
+        <p>durch A gehenden Geraden die Punkte E und D, so dass auch die Strecken AD und AE den Strecken AB und AC gleich werden. Die Geraden BD und CE mögen sich in F, die Geraden BE und $CD$ in $H$ schneiden: dann ist $FH$ die gesuchte Senkrechte. In der That: die Winkel $\angle BDC$ und $\angle BEC$ sind als Winkel im Halbkreise über $BC$ Rechte und daher steht nach dem Satze vom</p>
+        <p>wandt, auch FH auf BC senkrecht.</p>
+        <p>Wir können nunmehr leicht auch die Aufgabe 4 allein mittelst Ziehens von Geraden und Abtragens von Strecken lösen; wir schlagen etwa folgendes Verfahren ein, welches nur das Ziehen von Parallelen und Fällen von Loten erfordert. Es sei $\beta$ der abzutragende Winkel und $A$ der Scheitel dieses Winkels. Wir ziehen die Gerade $l$ durch $A$ parallel zu der gegebenen Geraden, an welche der gegebene Winkel $\beta$ angetragen werden soll. Von einem beliebigen Punkte $B$ eines Schenkels von $\beta$ fällen wir Lote auf den anderen Schenkel des Winkels $\beta$ und auf $l$. Die Fusspunkte dieser Lote seien $D$ und $C$. Das Fällen von Loten geschieht vermöge der Aufgaben 2 und 5. Sodann fällen wir von $A$ eine Senkrechte auf $CD$, ihr Fusspunkt sei $E$. Nach dem in § 14 ausgeführten Beweise ist $\angle CAE \equiv \beta$; die Aufgabe 4 ist somit ebenfalls auf die Aufgaben 1 und 3 zurückgeführt und damit der Satz 40 vollständig bewiesen.</p>
+        <figure class="photon-picture photon-svg">
+            <svg class="euclid-graphic" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 460 198" width="460" height="198" data-graphic-id="fig_gauge_constructions" data-proposition="S.36" data-svg-scope="s-dce3f4fa">
+          <style>
+            svg[data-svg-scope="s-dce3f4fa"] { font-family: 'Fira Sans Condensed', 'Fira Sans', sans-serif; font-style: normal; font-weight: 700 }
+            svg[data-svg-scope="s-dce3f4fa"] .geom-line { stroke: var(--geom-fg); stroke-width: 1.8; stroke-linecap: round; stroke-linejoin: round; fill: none }
+            svg[data-svg-scope="s-dce3f4fa"] .geom-bold { stroke: var(--geom-fg); stroke-width: 2.3; stroke-linecap: round; stroke-linejoin: round; fill: none }
+            svg[data-svg-scope="s-dce3f4fa"] .geom-dashed { stroke: var(--geom-fg); stroke-width: 1.4; stroke-dasharray: 5, 3.5; stroke-linecap: round; stroke-linejoin: round; fill: none }
+            svg[data-svg-scope="s-dce3f4fa"] .geom-accent-line { stroke: var(--geom-accent); stroke-width: 2.1; stroke-linecap: round; stroke-linejoin: round; fill: none }
+            svg[data-svg-scope="s-dce3f4fa"] .geom-assert-line { stroke: var(--geom-assert); stroke-width: 2.2; stroke-dasharray: 6, 3; stroke-linecap: round; stroke-linejoin: round; fill: none }
+            svg[data-svg-scope="s-dce3f4fa"] .geom-circle { stroke: var(--geom-fg); stroke-width: 1.6; fill: none }
+            svg[data-svg-scope="s-dce3f4fa"] .geom-arc { stroke: var(--geom-accent); stroke-width: 1.9; stroke-linecap: round; fill: none }
+            svg[data-svg-scope="s-dce3f4fa"] .geom-ang-arc { stroke: var(--geom-assert); stroke-width: 2.0; stroke-linecap: round; fill: none }
+            svg[data-svg-scope="s-dce3f4fa"] .geom-polygon { fill: var(--geom-poly-fill); fill-opacity: 0.05; stroke: none }
+            svg[data-svg-scope="s-dce3f4fa"] .geom-polygon-gnomon { fill: var(--geom-accent); fill-opacity: 0.14; stroke: none }
+            svg[data-svg-scope="s-dce3f4fa"] .geom-point { fill: var(--geom-fg); stroke: var(--geom-point-stroke); stroke-width: 1.1 }
+            svg[data-svg-scope="s-dce3f4fa"] .geom-point-accent { fill: var(--geom-accent); stroke: var(--geom-point-stroke); stroke-width: 1.1 }
+            svg[data-svg-scope="s-dce3f4fa"] .geom-label { font-family: 'Fira Sans Condensed', 'Fira Sans', sans-serif; font-size: 14px; font-weight: 700; fill: var(--geom-fg); user-select: none }
+            svg[data-svg-scope="s-dce3f4fa"] .geom-label-sm { font-family: 'Fira Sans Condensed', 'Fira Sans', sans-serif; font-size: 11.5px; font-weight: 700; fill: var(--geom-fg); opacity: 0.85; user-select: none }
+          </style>
+          <path d="M 117.00 162.00 A 108.00 108.00 0 0 1 333.00 162.00" class="geom-dashed" />
+          <line x1="55.00" y1="162.00" x2="415.00" y2="162.00" class="geom-bold" />
+          <line x1="117.00" y1="162.00" x2="255.00" y2="26.00" class="geom-line" />
+          <line x1="333.00" y1="162.00" x2="255.00" y2="26.00" class="geom-line" />
+          <line x1="225.00" y1="162.00" x2="226.58" y2="54.01" class="geom-dashed" />
+          <line x1="225.00" y1="162.00" x2="279.54" y2="68.78" class="geom-dashed" />
+          <line x1="333.00" y1="162.00" x2="226.58" y2="54.01" class="geom-line" />
+          <line x1="117.00" y1="162.00" x2="279.54" y2="68.78" class="geom-line" />
+          <line x1="255.00" y1="26.00" x2="255.00" y2="162.00" class="geom-accent-line" />
+          <line x1="245.00" y1="162.00" x2="245.00" y2="152.00" class="geom-accent-line" />
+          <line x1="245.00" y1="152.00" x2="255.00" y2="152.00" class="geom-accent-line" />
+          <circle cx="225.00" cy="162.00" r="3.30" class="geom-point" />
+          <text x="225.00" y="179.00" text-anchor="middle" class="geom-label">O</text>
+          <circle cx="117.00" cy="162.00" r="3.30" class="geom-point" />
+          <text x="107.00" y="179.00" text-anchor="middle" class="geom-label">A</text>
+          <circle cx="333.00" cy="162.00" r="3.30" class="geom-point" />
+          <text x="343.00" y="179.00" text-anchor="middle" class="geom-label">B</text>
+          <circle cx="226.58" cy="54.01" r="3.30" class="geom-point" />
+          <text x="213.58" y="50.01" text-anchor="middle" class="geom-label">C</text>
+          <circle cx="279.54" cy="68.78" r="3.30" class="geom-point" />
+          <text x="292.54" y="64.78" text-anchor="middle" class="geom-label">D</text>
+          <circle cx="255.00" cy="26.00" r="3.30" class="geom-point" />
+          <text x="255.00" y="17.00" text-anchor="middle" class="geom-label">P</text>
+          <circle cx="255.00" cy="82.85" r="3.30" class="geom-point" />
+          <text x="268.00" y="85.85" text-anchor="middle" class="geom-label">H</text>
+          <circle cx="255.00" cy="162.00" r="3.30" class="geom-point" />
+          <text x="255.00" y="179.00" text-anchor="middle" class="geom-label">F</text>
+        </svg>
+        <figcaption>**Orthocenter Perpendicular Construction with Straightedge and Segment-Transferer (§ 36).** Dropping a perpendicular from P to line AB using only a straightedge and Streckenübertrager (Eichmass) via Thales's semicircle right angles at C and D and orthocenter H.</figcaption>
+        </figure>
+        </section>
+
+      </div>
+      <footer class="book-footer">
+        <div class="book-footer-ornament">&#10086;</div>
+        <div class="book-footer-nav">
+          <div class="book-nav-prev">
+            <a class="book-nav-btn" href="../index.html" title="Chapter VII: Geometrical Constructions Based Upon Axioms I–V">&larr; <span class="nav-label">Prev</span></a>
+          </div>
+          <div class="book-nav-center">
+            <a class="book-toc-link" href="../../index.html">Foundations of Geometry</a>
+          </div>
+          <div class="book-nav-next">
+            <a class="book-nav-btn" href="../sec_37/de.html" title="§ 37: Analytical Representation of the Co-ordinates of Points Which Can Be So Constructed"><span class="nav-label">Next</span> &rarr;</a>
+          </div>
+        </div>
+      </footer>
+    </article>
+  </main>
+  <div class="asides">
+    <aside class="aside-search">
+      <h3>Search</h3>
+      <div id="searchbox" role="search">
+        <form id="rtd-search-form" class="wy-form search-form" action="../../../search.html" method="get">
+          <div class="search-field">
+            <input type="search" name="q" placeholder="Search docs..." aria-label="Search docs" autocomplete="off" />
+            <button type="submit" class="search-submit" aria-label="Search" title="Search">
+              <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <circle cx="11" cy="11" r="8"></circle>
+                <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+              </svg>
+            </button>
+          </div>
+          <input type="hidden" name="check_keywords" value="yes" />
+          <input type="hidden" name="area" value="default" />
+        </form>
+      </div>
+    </aside>
+    <aside class="aside-types">
+      <h3>Types</h3>
+      <ul>
+        <li><a href="../../../types/book.html">book</a></li>
+      </ul>
+    </aside>
+  </div>
+  <footer>
+    <div class="footer-nav">
+      <ul>
+        <li><a href="../../concordance.html"  >Concordance</a></li>
+        <li><a href="../../glossary.html"  >Glossary</a></li>
+      </ul>
+    </div>
+    <hr />
+    <div role="contentinfo">
+      <p>
+        &copy; Copyright 1899 B. G. Teubner · 1902 Open Court · Digital Codex GEOMETOR.
+      </p>
+    </div>
+  </footer>
+
+  <script src="../../../_static/jquery.js?v=5d32c60e"></script>
+  <script src="../../../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+  <script src="../../../_static/documentation_options.js?v=59fadc99"></script>
+  <script src="../../../_static/doctools.js?v=fd6eb6e6"></script>
+  <script src="../../../_static/sphinx_highlight.js?v=6ffebe34"></script>
+  <script src="../../../_static/js/collection_controls.js?v=b6b5297a"></script>
+  <script src="../../../_static/js/geometor_interactive.js?v=b2892320"></script>
+  <script src="../../../_static/js/search_highlight.js"></script>
+
+</body>
+</html>
