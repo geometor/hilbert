@@ -77,7 +77,7 @@ def test_codex_four_track_file_tree_and_book_layout() -> None:
         ("index.rst", ".. _grundlagen-index:"),
         ("concordance.rst", ".. _concordance:"),
         ("bibliography.rst", ".. _bibliography:"),
-        ("persons.rst", ".. _persons:"),
+        ("people/index.rst", ".. _persons:"),
         ("glossary.rst", ".. _glossary:"),
     ]
     for fname, anchor in apparatus_pages:
@@ -234,7 +234,7 @@ def test_all_scholarly_roles_resolve_to_json_and_rst_anchors() -> None:
     """Every `:person:`, `:term:`, and `:cite:` role resolves to registry keys and RST anchors."""
     app = load_apparatus(REPO_ROOT)
     bib_rst = (GRUNDLAGEN_DIR / "bibliography.rst").read_text(encoding="utf-8")
-    per_rst = (GRUNDLAGEN_DIR / "persons.rst").read_text(encoding="utf-8")
+    per_rst = "\n".join(p.read_text(encoding="utf-8") for p in sorted((GRUNDLAGEN_DIR / "people").glob("*.rst")))
     glo_rst = (GRUNDLAGEN_DIR / "glossary.rst").read_text(encoding="utf-8")
 
     role_re = re.compile(r":(person|term|cite):`([^`]+)`")

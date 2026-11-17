@@ -12,8 +12,7 @@ David Hilbert
 
 The works of :person:`David Hilbert <hilbert>` (1862–1943) established the modern axiomatic foundations of geometry, reconstructing Euclidean and non-Euclidean space upon rigorous independence and consistency proofs. Within the interconnected `GEOMETOR <https://geometor.com/books/>`_ semantic digital archive, the *Grundlagen der Geometrie* is liberated from static print bounds—decomposed into addressable semantic units, calibrated vector diagrams, primary-source folio provenance, and cross-corpus citations speaking one shared geometric language.
 
-.. collection::
-   :type: book
+.. reference-directory::
    :sort: order
 
 .. toctree::
@@ -21,7 +20,7 @@ The works of :person:`David Hilbert <hilbert>` (1862–1943) established the mod
    :hidden:
 
    grundlagen/index
-   grundlagen/persons
+   grundlagen/people/index
    grundlagen/bibliography
    about/index
    usage/index

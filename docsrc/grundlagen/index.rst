@@ -74,7 +74,7 @@ Scholarly Apparatus
 
    concordance
    bibliography
-   persons
+   people/index
    glossary
 
 .. toctree::
