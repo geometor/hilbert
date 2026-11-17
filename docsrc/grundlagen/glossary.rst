@@ -1,6 +1,7 @@
-:layout: book
-:navigation: footer
+:navigation: header
+:order: 16
 :nav_title: Glossary
+:layout: book
 
 .. _glossary:
 

@@ -1,7 +1,7 @@
-:layout: book
 :navigation: header
-:order: 6
+:order: 12
 :nav_title: Bibliography
+:layout: book
 
 .. _bibliography:
 
