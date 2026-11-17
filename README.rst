@@ -18,7 +18,7 @@ Mission
 Books in This Archive
 ---------------------
 
-- **`Foundations of Geometry <https://geometor.github.io/hilbert/grundlagen/>`_** — Grundlagen der Geometrie (1899 / 1902) featuring Hilbert's five axiom groups (incidence, order, congruence, parallels, and continuity), calculus of segments, and non-Pascalian geometry.
+- `Foundations of Geometry <https://geometor.github.io/hilbert/grundlagen/>`_ — Grundlagen der Geometrie (1899 / 1902) featuring Hilbert's five axiom groups (incidence, order, congruence, parallels, and continuity), calculus of segments, and non-Pascalian geometry.
 
 Repository Contents
 -------------------
