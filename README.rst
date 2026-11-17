@@ -20,6 +20,19 @@ Books in This Archive
 
 - `Foundations of Geometry <https://geometor.github.io/hilbert/grundlagen/>`_ — Grundlagen der Geometrie (1899 / 1902) featuring Hilbert's five axiom groups (incidence, order, congruence, parallels, and continuity), calculus of segments, and non-Pascalian geometry.
 
+Python Package & Modules
+------------------------
+
+The ``geometor-hilbert`` Python package (``import geometor.hilbert``) provides the executable symbolic geometry, construction, and compilation modules powering this archive:
+
+- ``chapters_meta.py`` — Canonical structural metadata, figure placements, and scholarly Summary/Notes tracks.
+- ``compile_codex.py`` — Compile the complete 4-track Book Codex and scholarly apparatus for ``geometor-hilbert``.
+- ``concordance.py`` — Structured loader, query engine, and integrity validator for the Hilbert Codex apparatus.
+- ``parser_de.py`` — Diplomatic-critical RST parser for David Hilbert's 1899 Teubner Festschrift German edition.
+- ``parser_en.py`` — Verbatim LaTeX-to-RST parser for E. J. Townsend's 1902 English edition (Gutenberg #17384).
+
+See the `API Reference <https://geometor.github.io/hilbert/modules/>`_ for full module documentation.
+
 Repository Contents
 -------------------
 
