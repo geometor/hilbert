@@ -2,7 +2,7 @@
 :canonical_id: § 10 (Notes)
 :breadcrumb_title: Notes
 :order: 10
-:tracks: English: index | Deutsch: de | Summary: summary | Notes: notes
+:tracks: English: index | German: de | Summary: summary | Notes: notes
 
 .. _grundlagen-notes-s10:
 

@@ -3,7 +3,7 @@
 :breadcrumb_title: § 29
 :order: 29
 :folio: p. 97
-:tracks: English: index | Deutsch: de | Summary: summary | Notes: notes
+:tracks: English: index | German: de | Summary: summary | Notes: notes
 
 .. _grundlagen-en-s29:
 

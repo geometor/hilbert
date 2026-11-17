@@ -3,7 +3,7 @@
 :breadcrumb_title: § 11
 :order: 11
 :folio: p. 32
-:tracks: English: index | Deutsch: de | Summary: summary | Notes: notes
+:tracks: English: index | German: de | Summary: summary | Notes: notes
 
 .. _grundlagen-en-s11:
 

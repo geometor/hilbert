@@ -3,7 +3,7 @@
 :breadcrumb_title: § 5
 :order: 5
 :folio: p. 12
-:tracks: English: index | Deutsch: de | Summary: summary | Notes: notes
+:tracks: English: index | German: de | Summary: summary | Notes: notes
 
 .. _grundlagen-en-s5:
 

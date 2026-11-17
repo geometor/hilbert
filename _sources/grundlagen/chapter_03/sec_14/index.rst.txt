@@ -3,7 +3,7 @@
 :breadcrumb_title: § 14
 :order: 14
 :folio: p. 40
-:tracks: English: index | Deutsch: de | Summary: summary | Notes: notes
+:tracks: English: index | German: de | Summary: summary | Notes: notes
 
 .. _grundlagen-en-s14:
 

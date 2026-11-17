@@ -3,7 +3,7 @@
 :breadcrumb_title: § 2
 :order: 2
 :folio: p. 4
-:tracks: English: index | Deutsch: de | Summary: summary | Notes: notes
+:tracks: English: index | German: de | Summary: summary | Notes: notes
 
 .. _grundlagen-en-s2:
 

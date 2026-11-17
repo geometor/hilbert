@@ -3,7 +3,7 @@
 :breadcrumb_title: § 23
 :order: 23
 :folio: S. 51
-:tracks: English: index | Deutsch: de | Summary: summary | Notes: notes
+:tracks: English: index | German: de | Summary: summary | Notes: notes
 
 .. _grundlagen-de-s23:
 

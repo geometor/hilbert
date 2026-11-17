@@ -3,7 +3,7 @@
 :breadcrumb_title: § 34
 :order: 34
 :folio: S. 75
-:tracks: English: index | Deutsch: de | Summary: summary | Notes: notes
+:tracks: English: index | German: de | Summary: summary | Notes: notes
 
 .. _grundlagen-de-s34:
 

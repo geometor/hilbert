@@ -2,7 +2,7 @@
 :canonical_id: § 36 (Notes)
 :breadcrumb_title: Notes
 :order: 36
-:tracks: English: index | Deutsch: de | Summary: summary | Notes: notes
+:tracks: English: index | German: de | Summary: summary | Notes: notes
 
 .. _grundlagen-notes-s36:
 

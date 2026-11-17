@@ -2,7 +2,7 @@
 :canonical_id: § 15 (Summary)
 :breadcrumb_title: Summary
 :order: 15
-:tracks: English: index | Deutsch: de | Summary: summary | Notes: notes
+:tracks: English: index | German: de | Summary: summary | Notes: notes
 
 .. _grundlagen-summary-s15:
 

@@ -4,10 +4,12 @@
 :order: 1
 :nav_title: Foundations of Geometry
 :breadcrumb_title: Foundations of Geometry
+:title: Foundations of Geometry
 :book_title: Foundations of Geometry
 :book_subtitle: Grundlagen der Geometrie — David Hilbert (1899 / 1902)
 :author: David Hilbert
 :year: 1899
+:tracks: English: index | German: title-de
 :excerpt: David Hilbert's epoch-making axiomatic foundation of geometry, establishing the independence, consistency, and completeness of geometric axioms.
 
 .. _grundlagen-index:
@@ -23,11 +25,9 @@ Foundations of Geometry
    | **Authorized Translation:** :person:`Edgar Jerome Townsend <townsend>` (1902)
    | **First German Edition (1899):** *Festschrift zur Feier der Enthüllung des Gauss-Weber-Denkmals in Göttingen*, Erster Theil, B. G. Teubner, Leipzig, 1899.
    | **Authorized English Edition (1902):** Translated by *Edgar Jerome Townsend*, Ph.D., The Open Court Publishing Company, Chicago, 1902 (with Hilbert's 1900–1902 additions).
-   | **Digital Critical Codex:** Synchronized 4-track edition (*English · Deutsch · Summary · Notes*) curated within the GEOMETOR canon.
+   | **Digital Critical Codex:** Synchronized 4-track edition (*English · German · Summary · Notes*) curated within the GEOMETOR canon.
 
 .. epigraph::
-
-   „So fängt denn alle menschliche Erkenntnis mit Anschauungen an, geht von da zu Begriffen und endigt mit Ideen.“
 
    “All human knowledge begins with intuitions, thence passes to concepts and ends with ideas.”
 
@@ -76,3 +76,10 @@ Scholarly Apparatus
    bibliography
    persons
    glossary
+
+.. toctree::
+   :maxdepth: 1
+   :hidden:
+   :caption: Title Pages
+
+   title-de

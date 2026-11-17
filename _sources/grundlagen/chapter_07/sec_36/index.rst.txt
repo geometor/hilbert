@@ -3,7 +3,7 @@
 :breadcrumb_title: § 36
 :order: 36
 :folio: p. 115
-:tracks: English: index | Deutsch: de | Summary: summary | Notes: notes
+:tracks: English: index | German: de | Summary: summary | Notes: notes
 
 .. _grundlagen-en-s36:
 

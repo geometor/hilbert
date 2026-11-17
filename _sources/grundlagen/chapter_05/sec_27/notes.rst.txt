@@ -2,7 +2,7 @@
 :canonical_id: § 27 (Notes)
 :breadcrumb_title: Notes
 :order: 27
-:tracks: English: index | Deutsch: de | Summary: summary | Notes: notes
+:tracks: English: index | German: de | Summary: summary | Notes: notes
 
 .. _grundlagen-notes-s27:
 

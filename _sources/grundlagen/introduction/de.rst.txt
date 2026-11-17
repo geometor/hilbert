@@ -2,7 +2,7 @@
 :canonical_id: Einleitung
 :breadcrumb_title: Einleitung
 :order: 1
-:tracks: English: index | Deutsch: de | Summary: summary | Notes: notes
+:tracks: English: index | German: de | Summary: summary | Notes: notes
 
 
 .. _grundlagen-introduction-de:

@@ -3,7 +3,7 @@
 :breadcrumb_title: § 17
 :order: 17
 :folio: S. 37
-:tracks: English: index | Deutsch: de | Summary: summary | Notes: notes
+:tracks: English: index | German: de | Summary: summary | Notes: notes
 
 .. _grundlagen-de-s17:
 
