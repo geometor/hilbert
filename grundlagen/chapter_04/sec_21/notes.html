@@ -62,7 +62,7 @@
           <a href="../../index.html" class="is-active" aria-selected="true" >Foundations of Geometry</a>
         </li>
         <li>
-          <a href="../../persons.html"  >People</a>
+          <a href="../../people/index.html"  >People</a>
         </li>
         <li>
           <a href="../../bibliography.html"  >Bibliography</a>
@@ -118,7 +118,7 @@
             </nav>
           </div>
           <div class="book-nav-next">
-            <a class="book-nav-btn" href="../../bibliography.html" title="Bibliography"><span class="nav-label">Next</span> &rarr;</a>
+            <a class="book-nav-btn" href="../../people/index.html" title="People"><span class="nav-label">Next</span> &rarr;</a>
           </div>
         </div>
       </header>
@@ -130,7 +130,7 @@
         <h2>GEOMETOR Commentary &amp; Cross-Repository Notes<a class="headerlink" href="#geometor-commentary-cross-repository-notes" title="Link to this heading">¶</a></h2>
         <section class="level-3" id="heath-on-euclid-i-35-and-hilbert-s-edition-shift-flachengleich-zerlegungsgleich">
         <h3>1. Heath on Euclid <cite>I.35</cite> and Hilbert’s Edition Shift (<em>flächengleich</em> → <em>zerlegungsgleich</em>)<a class="headerlink" href="#heath-on-euclid-i-35-and-hilbert-s-edition-shift-flachengleich-zerlegungsgleich" title="Link to this heading">¶</a></h3>
-        <p>In <code class="docutils literal notranslate"><span class="pre">geometor/euclid</span></code> (<cite>volume_I/book_i/propositions/35/commentary.rst</cite>, folio <cite>0342</cite>, <a class="citation-ref" id="occ-cite-heath-1908-1" href="../../bibliography.html#cite-heath-1908" data-cite="heath:1908" title="Sir Thomas Little Heath — The Thirteen Books of Euclid&#x27;s Elements, Translated from the Text of Heiberg with Introduction and Commentary (Vol. I: pp. 200, 228–230, 242, 249–250, 328)">Heath 1908, Vol. I, p. 328</a>), <a class="person-ref" id="occ-person-heath-1" href="../../persons.html#person-heath" data-person="heath" title="Sir Thomas Little Heath (1861 – 1940) — British Historian of Ancient Greek Mathematics &amp; Translator of Euclid">T. L. Heath</a> devotes a special section to <a class="person-ref" id="occ-person-hilbert-1" href="../../persons.html#person-hilbert" data-person="hilbert" title="David Hilbert (1862 – 1943) — German Mathematician &amp; Professor at Göttingen">Hilbert</a>’s Chapter IV distinctions. Readers comparing the 1899 German <em>Festschrift</em>, <a class="person-ref" id="occ-person-townsend-1" href="../../persons.html#person-townsend" data-person="townsend" title="Edgar Jerome Townsend (1864 – 1955) — American Mathematician &amp; Authorized English Translator of Hilbert">Townsend</a>’s 1902 English, and <a class="person-ref" id="occ-person-heath-2" href="../../persons.html#person-heath" data-person="heath" title="Sir Thomas Little Heath (1861 – 1940) — British Historian of Ancient Greek Mathematics &amp; Translator of Euclid">Heath</a>’s 1908 commentary should note an essential terminological evolution:</p>
+        <p>In <code class="docutils literal notranslate"><span class="pre">geometor/euclid</span></code> (<cite>volume_I/book_i/propositions/35/commentary.rst</cite>, folio <cite>0342</cite>, <a class="citation-ref" id="occ-cite-heath-1908-1" href="../../bibliography.html#cite-heath-1908" data-cite="heath:1908" title="Sir Thomas Little Heath — The Thirteen Books of Euclid&#x27;s Elements, Translated from the Text of Heiberg with Introduction and Commentary (Vol. I: pp. 200, 228–230, 242, 249–250, 328)">Heath 1908, Vol. I, p. 328</a>), <a class="person-ref" id="occ-person-heath-1" href="../../people/heath.html#person-heath" data-person="heath" title="Sir Thomas Little Heath (1861 – 1940) — British Historian of Ancient Greek Mathematics &amp; Translator of Euclid">T. L. Heath</a> devotes a special section to <a class="person-ref" id="occ-person-hilbert-1" href="../../people/hilbert.html#person-hilbert" data-person="hilbert" title="David Hilbert (1862 – 1943) — German Mathematician &amp; Professor at Göttingen">Hilbert</a>’s Chapter IV distinctions. Readers comparing the 1899 German <em>Festschrift</em>, <a class="person-ref" id="occ-person-townsend-1" href="../../people/townsend.html#person-townsend" data-person="townsend" title="Edgar Jerome Townsend (1864 – 1955) — American Mathematician &amp; Authorized English Translator of Hilbert">Townsend</a>’s 1902 English, and <a class="person-ref" id="occ-person-heath-2" href="../../people/heath.html#person-heath" data-person="heath" title="Sir Thomas Little Heath (1861 – 1940) — British Historian of Ancient Greek Mathematics &amp; Translator of Euclid">Heath</a>’s 1908 commentary should note an essential terminological evolution:</p>
         <table class="docutils align-default" id="id1">
         <caption><span class="caption-text">Chapter IV Polygon Area Terminology Across Editions</span><a class="headerlink" href="#id1" title="Link to this table">¶</a></caption>
         <colgroup>
@@ -159,15 +159,15 @@
         </tr>
         </tbody>
         </table>
-        <p>Why does <cite>Euclid I.35</cite> (<em>“Parallelograms which are on the same base and in the same parallels are equal to one another”</em>) work without Archimedes’s Axiom only for <em>inhaltsgleich</em> and NOT for <em>flächengleich</em>? Look at <cite>fig_polygon_equivalence.svg</cite> (<cite>§ 19</cite>): when parallelogram $AB'C'D$ is sheared arbitrarily far to the right—say by the non-Archimedean distance $AF = t$ in $\Omega(t)$ while $AD = 1$—one can still <em>add</em> the single triangle $AED$ and <em>subtract</em> congruent trapezoids in <strong>one step</strong> (<em>inhaltsgleich</em>), whereas dissecting one triangle into congruent pieces to tile the sheared triangle would require $\ge t$ steps, which no finite integer $n$ can reach! With Archimedes’s Axiom restored, <a class="person-ref" id="occ-person-bolyai-farkas-1" href="../../persons.html#person-bolyai-farkas" data-person="bolyai-farkas" title="Farkas Bolyai (1775 – 1856) — Hungarian Mathematician &amp; Friend of Gauss">Farkas Bolyai</a> and Paul Gerwien (1833) proved that <em>inhaltsgleich</em> and <em>zerlegungsgleich</em> coincide in the plane.</p>
+        <p>Why does <cite>Euclid I.35</cite> (<em>“Parallelograms which are on the same base and in the same parallels are equal to one another”</em>) work without Archimedes’s Axiom only for <em>inhaltsgleich</em> and NOT for <em>flächengleich</em>? Look at <cite>fig_polygon_equivalence.svg</cite> (<cite>§ 19</cite>): when parallelogram $AB'C'D$ is sheared arbitrarily far to the right—say by the non-Archimedean distance $AF = t$ in $\Omega(t)$ while $AD = 1$—one can still <em>add</em> the single triangle $AED$ and <em>subtract</em> congruent trapezoids in <strong>one step</strong> (<em>inhaltsgleich</em>), whereas dissecting one triangle into congruent pieces to tile the sheared triangle would require $\ge t$ steps, which no finite integer $n$ can reach! With Archimedes’s Axiom restored, <a class="person-ref" id="occ-person-bolyai-farkas-1" href="../../people/bolyai-farkas.html#person-bolyai-farkas" data-person="bolyai-farkas" title="Farkas Bolyai (1775 – 1856) — Hungarian Mathematician &amp; Friend of Gauss">Farkas Bolyai</a> and Paul Gerwien (1833) proved that <em>inhaltsgleich</em> and <em>zerlegungsgleich</em> coincide in the plane.</p>
         </section>
         <section class="level-3" id="proving-euclid-s-common-notion-5-de-zolt-s-postulate-1921">
         <h3>2. Proving Euclid’s Common Notion 5 (<em>De Zolt’s Postulate</em>, <cite>§§ 19–21</cite>)<a class="headerlink" href="#proving-euclid-s-common-notion-5-de-zolt-s-postulate-1921" title="Link to this heading">¶</a></h3>
-        <p>In § 19, <a class="person-ref" id="occ-person-hilbert-2" href="../../persons.html#person-hilbert" data-person="hilbert" title="David Hilbert (1862 – 1943) — German Mathematician &amp; Professor at Göttingen">Hilbert</a> quotes <a class="person-ref" id="occ-person-euclid-1" href="../../persons.html#person-euclid" data-person="euclid" title="Euclid of Alexandria (fl. c. 300 BC) — Ancient Greek Geometer (Author of the Elements)">Euclid</a>’s Greek text of Common Notion 5 verbatim:</p>
+        <p>In § 19, <a class="person-ref" id="occ-person-hilbert-2" href="../../people/hilbert.html#person-hilbert" data-person="hilbert" title="David Hilbert (1862 – 1943) — German Mathematician &amp; Professor at Göttingen">Hilbert</a> quotes <a class="person-ref" id="occ-person-euclid-1" href="../../people/euclid.html#person-euclid" data-person="euclid" title="Euclid of Alexandria (fl. c. 300 BC) — Ancient Greek Geometer (Author of the Elements)">Euclid</a>’s Greek text of Common Notion 5 verbatim:</p>
         <blockquote>
         <div><p><em>„Καὶ τὸ ὅλον τοῦ μέρους μεῖζόν ἐστιν“</em> (<em>“And the whole is greater than the part”</em>)</p>
         </div></blockquote>
-        <p>pointing out that when Euclid invokes C.N. 5 in <cite>I.39</cite> to prove equal-area triangles on the same base have equal altitude (<cite>Theorem 28</cite>), it is <em>not</em> a purely logical truism—without a proof that polygonal area cannot remain unchanged when a piece is removed (<a class="person-ref" id="occ-person-de-zolt-1" href="../../persons.html#person-de-zolt" data-person="de-zolt" title="Antonio De Zolt (1847 – 1926) — Italian Mathematician">Antonio De Zolt</a>’s 1881 postulate, <a class="citation-ref" id="occ-cite-de-zolt-1881-1" href="../../bibliography.html#cite-de-zolt-1881" data-cite="de-zolt:1881" title="Antonio De Zolt — Principii della eguaglianza di poligoni (Milano)">De Zolt 1881</a>), <em>every</em> polygon could trivially be <em>inhaltsgleich</em> to every other! By constructing the segment-valued area functional $F(P) \in \Omega_{\text{seg}}$ in § 20 via Chapter III’s Pappus-based <em>Streckenrechnung</em> and proving triangulation invariance (<cite>Theorem 29</cite>), <a class="person-ref" id="occ-person-hilbert-3" href="../../persons.html#person-hilbert" data-person="hilbert" title="David Hilbert (1862 – 1943) — German Mathematician &amp; Professor at Göttingen">Hilbert</a> converts Euclid’s Common Notion 5 into a <strong>rigorous theorem (`Theorem 31`)</strong>!</p>
+        <p>pointing out that when Euclid invokes C.N. 5 in <cite>I.39</cite> to prove equal-area triangles on the same base have equal altitude (<cite>Theorem 28</cite>), it is <em>not</em> a purely logical truism—without a proof that polygonal area cannot remain unchanged when a piece is removed (<a class="person-ref" id="occ-person-de-zolt-1" href="../../people/de-zolt.html#person-de-zolt" data-person="de-zolt" title="Antonio De Zolt (1847 – 1926) — Italian Mathematician">Antonio De Zolt</a>’s 1881 postulate, <a class="citation-ref" id="occ-cite-de-zolt-1881-1" href="../../bibliography.html#cite-de-zolt-1881" data-cite="de-zolt:1881" title="Antonio De Zolt — Principii della eguaglianza di poligoni (Milano)">De Zolt 1881</a>), <em>every</em> polygon could trivially be <em>inhaltsgleich</em> to every other! By constructing the segment-valued area functional $F(P) \in \Omega_{\text{seg}}$ in § 20 via Chapter III’s Pappus-based <em>Streckenrechnung</em> and proving triangulation invariance (<cite>Theorem 29</cite>), <a class="person-ref" id="occ-person-hilbert-3" href="../../people/hilbert.html#person-hilbert" data-person="hilbert" title="David Hilbert (1862 – 1943) — German Mathematician &amp; Professor at Göttingen">Hilbert</a> converts Euclid’s Common Notion 5 into a <strong>rigorous theorem (`Theorem 31`)</strong>!</p>
         </section>
         </section>
         <section class="level-2" id="cross-repository-concordance-links">
@@ -192,7 +192,7 @@
             <a class="book-toc-link" href="../../index.html">Foundations of Geometry</a>
           </div>
           <div class="book-nav-next">
-            <a class="book-nav-btn" href="../../bibliography.html" title="Bibliography"><span class="nav-label">Next</span> &rarr;</a>
+            <a class="book-nav-btn" href="../../people/index.html" title="People"><span class="nav-label">Next</span> &rarr;</a>
           </div>
         </div>
       </footer>
@@ -222,6 +222,7 @@
       <ul>
         <li><a href="../../../types/book.html">book</a></li>
         <li><a href="../../../types/book_title.html">book_title</a></li>
+        <li><a href="../../../types/person.html">person</a></li>
       </ul>
     </aside>
   </div>
@@ -246,6 +247,7 @@
   <script src="../../../_static/doctools.js?v=fd6eb6e6"></script>
   <script src="../../../_static/sphinx_highlight.js?v=6ffebe34"></script>
   <script src="../../../_static/js/collection_controls.js?v=b6b5297a"></script>
+  <script src="../../../_static/js/collection_directory.js?v=f242906c"></script>
   <script src="../../../_static/js/geometor_interactive.js?v=b2892320"></script>
   <script src="../../../_static/js/search_highlight.js"></script>
 

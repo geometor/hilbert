@@ -47,4 +47,4 @@ Primary Textual Witnesses
 
 Digital Scriptorium Methodology
     * **Four-Track Synchronized Codex**: Readers can inspect each section across parallel tracks: Townsend 1902 English translation, Teubner 1899 German text, chapter synopses, and scholarly commentary.
-    * **Scholarly & Cross-Repository Apparatus**: For full bibliographical citations, see :doc:`/grundlagen/bibliography`; for biographical notes on figures cited throughout the treatise, see :doc:`/grundlagen/persons`; for mathematical and philological terminology, see :doc:`/grundlagen/glossary`; and for cross-treatise mapping with Euclid, Hoenen, and Pappus, see :ref:`concordance`.
+    * **Scholarly & Cross-Repository Apparatus**: For full bibliographical citations, see :doc:`/grundlagen/bibliography`; for biographical notes on figures cited throughout the treatise, see :doc:`/grundlagen/people/index`; for mathematical and philological terminology, see :doc:`/grundlagen/glossary`; and for cross-treatise mapping with Euclid, Hoenen, and Pappus, see :ref:`concordance`.
