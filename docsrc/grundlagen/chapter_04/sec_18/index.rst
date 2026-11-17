@@ -3,7 +3,7 @@
 :breadcrumb_title: § 18
 :order: 18
 :folio: p. 57
-:tracks: English: index | Deutsch: de | Summary: summary | Notes: notes
+:tracks: English: index | German: de | Summary: summary | Notes: notes
 
 .. _grundlagen-en-s18:
 

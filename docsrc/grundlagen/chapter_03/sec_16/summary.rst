@@ -2,7 +2,7 @@
 :canonical_id: § 16 (Summary)
 :breadcrumb_title: Summary
 :order: 16
-:tracks: English: index | Deutsch: de | Summary: summary | Notes: notes
+:tracks: English: index | German: de | Summary: summary | Notes: notes
 
 .. _grundlagen-summary-s16:
 

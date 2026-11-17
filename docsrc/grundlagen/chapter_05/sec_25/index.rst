@@ -3,7 +3,7 @@
 :breadcrumb_title: § 25
 :order: 25
 :folio: p. 82
-:tracks: English: index | Deutsch: de | Summary: summary | Notes: notes
+:tracks: English: index | German: de | Summary: summary | Notes: notes
 
 .. _grundlagen-en-s25:
 

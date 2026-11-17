@@ -3,7 +3,7 @@
 :breadcrumb_title: § 37
 :order: 37
 :folio: p. 119
-:tracks: English: index | Deutsch: de | Summary: summary | Notes: notes
+:tracks: English: index | German: de | Summary: summary | Notes: notes
 
 .. _grundlagen-en-s37:
 

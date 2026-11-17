@@ -3,7 +3,7 @@
 :breadcrumb_title: § 28
 :order: 28
 :folio: S. 66
-:tracks: English: index | Deutsch: de | Summary: summary | Notes: notes
+:tracks: English: index | German: de | Summary: summary | Notes: notes
 
 .. _grundlagen-de-s28:
 

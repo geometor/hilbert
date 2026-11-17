@@ -2,7 +2,7 @@
 :canonical_id: Schlusswort
 :breadcrumb_title: Schlusswort
 :order: 9
-:tracks: English: index | Deutsch: de | Summary: summary | Notes: notes
+:tracks: English: index | German: de | Summary: summary | Notes: notes
 
 
 .. _grundlagen-conclusion-de:

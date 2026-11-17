@@ -3,7 +3,7 @@
 :breadcrumb_title: § 38
 :order: 38
 :folio: S. 82
-:tracks: English: index | Deutsch: de | Summary: summary | Notes: notes
+:tracks: English: index | German: de | Summary: summary | Notes: notes
 
 .. _grundlagen-de-s38:
 

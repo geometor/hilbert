@@ -3,7 +3,7 @@
 :breadcrumb_title: § 19
 :order: 19
 :folio: S. 41
-:tracks: English: index | Deutsch: de | Summary: summary | Notes: notes
+:tracks: English: index | German: de | Summary: summary | Notes: notes
 
 .. _grundlagen-de-s19:
 

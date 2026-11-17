@@ -3,7 +3,7 @@
 :breadcrumb_title: § 5
 :order: 5
 :folio: S. 9
-:tracks: English: index | Deutsch: de | Summary: summary | Notes: notes
+:tracks: English: index | German: de | Summary: summary | Notes: notes
 
 .. _grundlagen-de-s5:
 

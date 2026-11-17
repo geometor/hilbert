@@ -2,7 +2,7 @@
 :canonical_id: § 26 (Notes)
 :breadcrumb_title: Notes
 :order: 26
-:tracks: English: index | Deutsch: de | Summary: summary | Notes: notes
+:tracks: English: index | German: de | Summary: summary | Notes: notes
 
 .. _grundlagen-notes-s26:
 

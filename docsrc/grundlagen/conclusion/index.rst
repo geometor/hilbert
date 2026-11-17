@@ -2,7 +2,7 @@
 :canonical_id: Conclusion
 :breadcrumb_title: Conclusion
 :order: 9
-:tracks: English: index | Deutsch: de | Summary: summary | Notes: notes
+:tracks: English: index | German: de | Summary: summary | Notes: notes
 
 
 .. _grundlagen-conclusion-en:

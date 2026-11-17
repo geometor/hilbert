@@ -3,7 +3,7 @@
 :breadcrumb_title: § 16
 :order: 16
 :folio: S. 35
-:tracks: English: index | Deutsch: de | Summary: summary | Notes: notes
+:tracks: English: index | German: de | Summary: summary | Notes: notes
 
 .. _grundlagen-de-s16:
 

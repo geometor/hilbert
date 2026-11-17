@@ -3,7 +3,7 @@
 :breadcrumb_title: § 33
 :order: 33
 :folio: p. 107
-:tracks: English: index | Deutsch: de | Summary: summary | Notes: notes
+:tracks: English: index | German: de | Summary: summary | Notes: notes
 
 .. _grundlagen-en-s33:
 

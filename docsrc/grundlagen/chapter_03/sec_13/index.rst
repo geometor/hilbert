@@ -3,7 +3,7 @@
 :breadcrumb_title: § 13
 :order: 13
 :folio: p. 37
-:tracks: English: index | Deutsch: de | Summary: summary | Notes: notes
+:tracks: English: index | German: de | Summary: summary | Notes: notes
 
 .. _grundlagen-en-s13:
 

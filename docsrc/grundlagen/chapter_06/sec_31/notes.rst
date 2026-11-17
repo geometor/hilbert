@@ -2,7 +2,7 @@
 :canonical_id: § 31 (Notes)
 :breadcrumb_title: Notes
 :order: 31
-:tracks: English: index | Deutsch: de | Summary: summary | Notes: notes
+:tracks: English: index | German: de | Summary: summary | Notes: notes
 
 .. _grundlagen-notes-s31:
 

@@ -3,6 +3,11 @@ GEOMETOR • hilbert
 
 **Visit the Online Archive:** https://geometor.github.io/hilbert/
 
+.. image:: docsrc/_static/figures/fig_betweenness_pasch.svg
+   :alt: GEOMETOR • hilbert featured geometric construction
+   :target: https://geometor.github.io/hilbert/
+   :align: center
+
 **David Hilbert • Grundlagen der Geometrie • semantic digital archive**
 
 Mission

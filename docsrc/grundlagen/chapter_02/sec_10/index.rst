@@ -3,7 +3,7 @@
 :breadcrumb_title: § 10
 :order: 10
 :folio: p. 30
-:tracks: English: index | Deutsch: de | Summary: summary | Notes: notes
+:tracks: English: index | German: de | Summary: summary | Notes: notes
 
 .. _grundlagen-en-s10:
 

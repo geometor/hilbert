@@ -2,7 +2,7 @@
 :canonical_id: § 6 (Notes)
 :breadcrumb_title: Notes
 :order: 6
-:tracks: English: index | Deutsch: de | Summary: summary | Notes: notes
+:tracks: English: index | German: de | Summary: summary | Notes: notes
 
 .. _grundlagen-notes-s6:
 

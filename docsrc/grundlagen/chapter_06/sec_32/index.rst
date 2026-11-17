@@ -3,7 +3,7 @@
 :breadcrumb_title: § 32
 :order: 32
 :folio: p. 105
-:tracks: English: index | Deutsch: de | Summary: summary | Notes: notes
+:tracks: English: index | German: de | Summary: summary | Notes: notes
 
 .. _grundlagen-en-s32:
 
