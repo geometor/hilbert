@@ -1,0 +1,38 @@
+{
+  "repository": "geometor/hilbert",
+  "rights_category": "public-domain",
+  "sources": [
+    {
+      "id": "hilbert-1899-ia",
+      "title": "Grundlagen der Geometrie (1899 Teubner Festschrift)",
+      "author": "David Hilbert",
+      "year": "1899",
+      "era": "Internet Archive",
+      "languages": [
+        "German"
+      ],
+      "site_url": "https://archive.org/details/grundlagendergeo00hilb",
+      "local_path": "resources/ia_grundlagendergeo00hilb_teubner_1899.txt",
+      "pages": null,
+      "publisher": "B. G. Teubner, Leipzig",
+      "rights": "Public Domain (1899)",
+      "excerpt": "1899 Teubner German first edition text via Internet Archive."
+    },
+    {
+      "id": "townsend-1902-pg17384",
+      "title": "The Foundations of Geometry (trans. E. J. Townsend, 1902)",
+      "author": "E. J. Townsend (trans.)",
+      "year": "1902",
+      "era": "Project Gutenberg",
+      "languages": [
+        "English"
+      ],
+      "site_url": "https://www.gutenberg.org/ebooks/17384",
+      "local_path": "resources/gutenberg_17384_townsend_1902.tex",
+      "pages": null,
+      "publisher": "Open Court Publishing / Project Gutenberg #17384",
+      "rights": "Public Domain (1902)",
+      "excerpt": "Townsend 1902 English translation LaTeX source via Project Gutenberg #17384."
+    }
+  ]
+}
