@@ -2,7 +2,7 @@
 :canonical_id: § 29
 :breadcrumb_title: § 29
 :order: 29
-:folio: S. 67
+:folio: § 29
 :tracks: English: index | German: de | Summary: summary | Notes: notes
 
 .. _grundlagen-de-s29:

@@ -2,7 +2,7 @@
 :canonical_id: § 28
 :breadcrumb_title: § 28
 :order: 28
-:folio: S. 66
+:folio: § 28
 :tracks: English: index | German: de | Summary: summary | Notes: notes
 
 .. _grundlagen-de-s28:

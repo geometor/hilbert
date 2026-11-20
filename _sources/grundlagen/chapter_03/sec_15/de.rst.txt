@@ -2,7 +2,7 @@
 :canonical_id: § 15
 :breadcrumb_title: § 15
 :order: 15
-:folio: S. 32
+:folio: § 15
 :tracks: English: index | German: de | Summary: summary | Notes: notes
 
 .. _grundlagen-de-s15:

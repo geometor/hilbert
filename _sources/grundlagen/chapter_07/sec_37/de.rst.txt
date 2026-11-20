@@ -2,7 +2,7 @@
 :canonical_id: § 37
 :breadcrumb_title: § 37
 :order: 37
-:folio: S. 80
+:folio: § 37
 :tracks: English: index | German: de | Summary: summary | Notes: notes
 
 .. _grundlagen-de-s37:

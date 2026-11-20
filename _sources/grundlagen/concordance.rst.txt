@@ -1,7 +1,7 @@
+:layout: book
 :navigation: header
 :order: 14
 :nav_title: Concordance
-:layout: book
 
 .. _concordance:
 

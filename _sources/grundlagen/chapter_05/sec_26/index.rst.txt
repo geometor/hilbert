@@ -2,7 +2,7 @@
 :canonical_id: § 26
 :breadcrumb_title: § 26
 :order: 26
-:folio: p. 84
+:folio: § 26
 :tracks: English: index | German: de | Summary: summary | Notes: notes
 
 .. _grundlagen-en-s26:

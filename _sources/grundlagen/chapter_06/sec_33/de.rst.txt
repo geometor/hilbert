@@ -2,7 +2,7 @@
 :canonical_id: § 33
 :breadcrumb_title: § 33
 :order: 33
-:folio: S. 73
+:folio: § 33
 :tracks: English: index | German: de | Summary: summary | Notes: notes
 
 .. _grundlagen-de-s33:

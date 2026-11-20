@@ -2,7 +2,7 @@
 :canonical_id: § 21
 :breadcrumb_title: § 21
 :order: 21
-:folio: p. 67
+:folio: § 21
 :tracks: English: index | German: de | Summary: summary | Notes: notes
 
 .. _grundlagen-en-s21:

@@ -2,7 +2,7 @@
 :canonical_id: § 38
 :breadcrumb_title: § 38
 :order: 38
-:folio: S. 82
+:folio: § 38
 :tracks: English: index | German: de | Summary: summary | Notes: notes
 
 .. _grundlagen-de-s38:

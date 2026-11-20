@@ -2,7 +2,7 @@
 :canonical_id: § 11
 :breadcrumb_title: § 11
 :order: 11
-:folio: p. 32
+:folio: § 11
 :tracks: English: index | German: de | Summary: summary | Notes: notes
 
 .. _grundlagen-en-s11:

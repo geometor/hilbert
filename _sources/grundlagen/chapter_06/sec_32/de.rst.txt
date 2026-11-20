@@ -2,7 +2,7 @@
 :canonical_id: § 32
 :breadcrumb_title: § 32
 :order: 32
-:folio: S. 72
+:folio: § 32
 :tracks: English: index | German: de | Summary: summary | Notes: notes
 
 .. _grundlagen-de-s32:

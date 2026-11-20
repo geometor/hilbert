@@ -2,7 +2,7 @@
 :canonical_id: § 22
 :breadcrumb_title: § 22
 :order: 22
-:folio: p. 71
+:folio: § 22
 :tracks: English: index | German: de | Summary: summary | Notes: notes
 
 .. _grundlagen-en-s22:

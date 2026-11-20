@@ -2,7 +2,7 @@
 :canonical_id: § 16
 :breadcrumb_title: § 16
 :order: 16
-:folio: p. 50
+:folio: § 16
 :tracks: English: index | German: de | Summary: summary | Notes: notes
 
 .. _grundlagen-en-s16:

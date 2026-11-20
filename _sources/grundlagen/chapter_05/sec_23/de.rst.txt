@@ -2,7 +2,7 @@
 :canonical_id: § 23
 :breadcrumb_title: § 23
 :order: 23
-:folio: S. 51
+:folio: § 23
 :tracks: English: index | German: de | Summary: summary | Notes: notes
 
 .. _grundlagen-de-s23:

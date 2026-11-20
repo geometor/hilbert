@@ -2,7 +2,7 @@
 :canonical_id: § 24
 :breadcrumb_title: § 24
 :order: 24
-:folio: S. 55
+:folio: § 24
 :tracks: English: index | German: de | Summary: summary | Notes: notes
 
 .. _grundlagen-de-s24:
