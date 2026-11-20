@@ -2,7 +2,7 @@
 :canonical_id: § 12
 :breadcrumb_title: § 12
 :order: 12
-:folio: p. 34
+:folio: § 12
 :tracks: English: index | German: de | Summary: summary | Notes: notes
 
 .. _grundlagen-en-s12:

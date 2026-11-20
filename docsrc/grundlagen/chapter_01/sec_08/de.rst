@@ -2,7 +2,7 @@
 :canonical_id: § 8
 :breadcrumb_title: § 8
 :order: 8
-:folio: S. 19
+:folio: § 8
 :tracks: English: index | German: de | Summary: summary | Notes: notes
 
 .. _grundlagen-de-s8:

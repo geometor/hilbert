@@ -2,7 +2,7 @@
 :canonical_id: § 39
 :breadcrumb_title: § 39
 :order: 39
-:folio: p. 126
+:folio: § 39
 :tracks: English: index | German: de | Summary: summary | Notes: notes
 
 .. _grundlagen-en-s39:

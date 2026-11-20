@@ -2,7 +2,7 @@
 :canonical_id: § 35
 :breadcrumb_title: § 35
 :order: 35
-:folio: S. 76
+:folio: § 35
 :tracks: English: index | German: de | Summary: summary | Notes: notes
 
 .. _grundlagen-de-s35:

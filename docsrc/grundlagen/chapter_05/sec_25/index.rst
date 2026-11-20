@@ -2,7 +2,7 @@
 :canonical_id: § 25
 :breadcrumb_title: § 25
 :order: 25
-:folio: p. 82
+:folio: § 25
 :tracks: English: index | German: de | Summary: summary | Notes: notes
 
 .. _grundlagen-en-s25:

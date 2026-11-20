@@ -2,7 +2,7 @@
 :canonical_id: § 13
 :breadcrumb_title: § 13
 :order: 13
-:folio: p. 37
+:folio: § 13
 :tracks: English: index | German: de | Summary: summary | Notes: notes
 
 .. _grundlagen-en-s13:

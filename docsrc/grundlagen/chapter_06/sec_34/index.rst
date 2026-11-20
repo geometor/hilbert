@@ -2,7 +2,7 @@
 :canonical_id: § 34
 :breadcrumb_title: § 34
 :order: 34
-:folio: p. 110
+:folio: § 34
 :tracks: English: index | German: de | Summary: summary | Notes: notes
 
 .. _grundlagen-en-s34:

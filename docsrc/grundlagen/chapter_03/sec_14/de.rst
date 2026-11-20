@@ -2,7 +2,7 @@
 :canonical_id: § 14
 :breadcrumb_title: § 14
 :order: 14
-:folio: S. 28
+:folio: § 14
 :tracks: English: index | German: de | Summary: summary | Notes: notes
 
 .. _grundlagen-de-s14:

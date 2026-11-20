@@ -2,7 +2,7 @@
 :canonical_id: § 30
 :breadcrumb_title: § 30
 :order: 30
-:folio: S. 70
+:folio: § 30
 :tracks: English: index | German: de | Summary: summary | Notes: notes
 
 .. _grundlagen-de-s30:

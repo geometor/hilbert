@@ -2,7 +2,7 @@
 :canonical_id: § 4
 :breadcrumb_title: § 4
 :order: 4
-:folio: p. 8
+:folio: § 4
 :tracks: English: index | German: de | Summary: summary | Notes: notes
 
 .. _grundlagen-en-s4:

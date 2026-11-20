@@ -38,6 +38,13 @@ autoapi_add_toctree_entry = False
 if "modules/api/geometor/hilbert/index.rst" not in exclude_patterns:  # noqa: F405
     exclude_patterns.append("modules/api/geometor/hilbert/index.rst")  # noqa: F405
 
+# Retain only locally cached intersphinx inventories so offline sandbox builds emit zero network warnings
+intersphinx_mapping = {
+    name: target
+    for name, target in intersphinx_mapping.items()  # noqa: F405
+    if isinstance(target, tuple) and len(target) == 2 and target[1] is not None
+}
+
 # Register offline-first local intersphinx inventories across the GEOMETOR historical canon
 for _sister_repo in ("euclid", "elements", "hoenen", "pappus"):
     _local_inv = (_WORKSPACE_ROOT / _sister_repo / "docs" / "objects.inv").resolve()

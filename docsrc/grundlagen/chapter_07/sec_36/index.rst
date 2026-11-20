@@ -2,7 +2,7 @@
 :canonical_id: § 36
 :breadcrumb_title: § 36
 :order: 36
-:folio: p. 115
+:folio: § 36
 :tracks: English: index | German: de | Summary: summary | Notes: notes
 
 .. _grundlagen-en-s36:

@@ -2,7 +2,7 @@
 :canonical_id: § 18
 :breadcrumb_title: § 18
 :order: 18
-:folio: S. 40
+:folio: § 18
 :tracks: English: index | German: de | Summary: summary | Notes: notes
 
 .. _grundlagen-de-s18:

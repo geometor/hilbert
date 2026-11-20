@@ -2,7 +2,7 @@
 :canonical_id: § 31
 :breadcrumb_title: § 31
 :order: 31
-:folio: S. 71
+:folio: § 31
 :tracks: English: index | German: de | Summary: summary | Notes: notes
 
 .. _grundlagen-de-s31:

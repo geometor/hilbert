@@ -2,7 +2,7 @@
 :canonical_id: § 7
 :breadcrumb_title: § 7
 :order: 7
-:folio: p. 16
+:folio: § 7
 :tracks: English: index | German: de | Summary: summary | Notes: notes
 
 .. _grundlagen-en-s7:

@@ -2,7 +2,7 @@
 :canonical_id: § 20
 :breadcrumb_title: § 20
 :order: 20
-:folio: S. 43
+:folio: § 20
 :tracks: English: index | German: de | Summary: summary | Notes: notes
 
 .. _grundlagen-de-s20:

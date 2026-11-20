@@ -2,7 +2,7 @@
 :canonical_id: § 10
 :breadcrumb_title: § 10
 :order: 10
-:folio: p. 30
+:folio: § 10
 :tracks: English: index | German: de | Summary: summary | Notes: notes
 
 .. _grundlagen-en-s10:

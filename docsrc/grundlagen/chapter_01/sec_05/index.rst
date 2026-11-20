@@ -2,7 +2,7 @@
 :canonical_id: § 5
 :breadcrumb_title: § 5
 :order: 5
-:folio: p. 12
+:folio: § 5
 :tracks: English: index | German: de | Summary: summary | Notes: notes
 
 .. _grundlagen-en-s5:

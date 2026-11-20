@@ -2,7 +2,7 @@
 :canonical_id: § 17
 :breadcrumb_title: § 17
 :order: 17
-:folio: p. 53
+:folio: § 17
 :tracks: English: index | German: de | Summary: summary | Notes: notes
 
 .. _grundlagen-en-s17:
