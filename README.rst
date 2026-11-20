@@ -1,13 +1,13 @@
+.. image:: docsrc/_static/logo.png
+   :alt: GEOMETOR • hilbert Medallion
+   :target: https://geometor.github.io/hilbert/
+   :width: 150px
+   :align: right
+
 GEOMETOR • hilbert
 ==================
 
 **Visit the Online Archive:** https://geometor.github.io/hilbert/
-
-.. image:: docsrc/_static/logo.png
-   :alt: GEOMETOR • hilbert Medallion
-   :target: https://geometor.github.io/hilbert/
-   :width: 180px
-   :align: center
 
 .. image:: docsrc/_static/figures/fig_betweenness_pasch.svg
    :alt: GEOMETOR • hilbert featured geometric construction
