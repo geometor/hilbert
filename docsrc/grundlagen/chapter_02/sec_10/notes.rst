@@ -17,24 +17,26 @@ GEOMETOR Commentary & Cross-Repository Notes
 1. Relative Consistency and the Arithmetic Foundation (`§ 9`)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Chapter II marks a watershed in mathematical logic: before 1899, consistency of non-Euclidean geometries (Beltrami, :person:`Klein <klein>`, :person:`Poincaré <poincare>`) was argued by modeling hyperbolic space *inside Euclidean geometry*. :person:`Hilbert <hilbert>` goes one level deeper in § 9 by modeling **Euclidean geometry itself** inside a countable algebraic subfield $\Omega \subset \mathbb{R}$:
+Chapter II marks a watershed in mathematical logic: before 1899, consistency of non-Euclidean geometries (Beltrami, :person:`Klein <klein>`, :person:`Poincaré <poincare>`) was argued by modeling hyperbolic space *inside Euclidean geometry*. :person:`Hilbert <hilbert>` goes one level deeper in § 9 by modeling **Euclidean geometry itself** inside a countable algebraic subfield :math:`\Omega \subset \mathbb{R}`:
 
-$$\Omega = \mathbb{Q}\text{-closure under } \omega \mapsto \sqrt{1 + \omega^2}.$$
+.. math::
+
+   \Omega = \mathbb{Q}\text{-closure under } \omega \mapsto \sqrt{1 + \omega^2}.
 
 Two profound consequences emerge for the GEOMETOR ecosystem:
 
-* **Exact Symbolic Algebra (`geometor/model` Resonance)**: Notice that :person:`Hilbert <hilbert>` does *not* need the uncountable Dedekind-Cantor real continuum $\mathbb{R}$ to satisfy Axioms `I–V` (prior to *Vollständigkeit*)! His minimal model $\Omega$ consists entirely of **exact symbolic algebraic radicals**—precisely the mathematical universe inhabited by `geometor/model` and SymPy!
-* **Hoenen's Epistemological Observation (`Caput I § 6, fn. 14` & `Caput V § 4`)**: By reducing geometric compatibility to *"the arithmetic of the domain $\Omega$"*, § 9 confirms :person:`Hoenen <hoenen>`'s diagnosis that *Grundlagen der Geometrie* relies on the prior consistency and intuitive intelligibility of arithmetic; pushing the Consistency Problem one step further to arithmetic itself launched **Hilbert's Second Problem (1900)**—and eventually collided with Kurt Gödel's Second Incompleteness Theorem (1931).
+* **Exact Symbolic Algebra (`geometor/model` Resonance)**: Notice that :person:`Hilbert <hilbert>` does *not* need the uncountable Dedekind-Cantor real continuum :math:`\mathbb{R}` to satisfy Axioms `I–V` (prior to *Vollständigkeit*)! His minimal model :math:`\Omega` consists entirely of **exact symbolic algebraic radicals**—precisely the mathematical universe inhabited by `geometor/model` and SymPy!
+* **Hoenen's Epistemological Observation (`Caput I § 6, fn. 14` & `Caput V § 4`)**: By reducing geometric compatibility to "*the arithmetic of the domain* :math:`\Omega`", § 9 confirms :person:`Hoenen <hoenen>`'s diagnosis that *Grundlagen der Geometrie* relies on the prior consistency and intuitive intelligibility of arithmetic; pushing the Consistency Problem one step further to arithmetic itself launched **Hilbert's Second Problem (1900)**—and eventually collided with Kurt Gödel's Second Incompleteness Theorem (1931).
 
 2. Why Axiom IV 6 Cannot Be Proved (`§ 11` & Euclid `I.4`)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Compare § 11 with :person:`Heath <heath>`'s commentary on `Euclid I.4` (Vol. I, pp. 249–250): for two thousand years geometers tried to *prove* SAS from linear segment equality and angle equality alone. :person:`Hilbert <hilbert>`'s § 11 model settles why every such attempt was doomed: the norm $\|(dx, dy, dz)\| = \sqrt{(dx + dy)^2 + dy^2 + dz^2}$ is a bona fide translation-invariant normed space (Minkowski/Banach norm whose unit ball in $z=0$ is the tilted ellipse $(x+y)^2 + y^2 = 1$), so segments add linearly along every line (`IV 3`) while Euclidean angle measure satisfies `IV 4–5`, yet rotation fails to preserve segment length! Hence without `IV 6`, linear congruence and angular congruence remain uncoupled.
+Compare § 11 with :person:`Heath <heath>`'s commentary on `Euclid I.4` (Vol. I, pp. 249–250): for two thousand years geometers tried to *prove* SAS from linear segment equality and angle equality alone. :person:`Hilbert <hilbert>`'s § 11 model settles why every such attempt was doomed: the norm :math:`\|(dx, dy, dz)\| = \sqrt{(dx + dy)^2 + dy^2 + dz^2}` is a bona fide translation-invariant normed space (Minkowski/Banach norm whose unit ball in :math:`z=0` is the tilted ellipse :math:`(x+y)^2 + y^2 = 1`), so segments add linearly along every line (`IV 3`) while Euclidean angle measure satisfies `IV 4–5`, yet rotation fails to preserve segment length! Hence without `IV 6`, linear congruence and angular congruence remain uncoupled.
 
-3. Hilbert's Algebraic Non-Archimedean Field $\Omega(t)$ (`§ 12`)
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+3. Hilbert's Algebraic Non-Archimedean Field :math:`\Omega(t)` (`§ 12`)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Where :person:`Giuseppe Veronese <veronese>` (:cite:`Veronese 1891/1894 <veronese:1894>`) required hundreds of pages of intricate synthetic intuition to build a non-Archimedean continuum, :person:`Hilbert <hilbert>` constructs $\Omega(t)$ in two pages by letting $t$ be an indeterminate larger than every integer $n \in \mathbb{N}$, so $1/t$ acts as an exact algebraic **infinitesimal**. In Chapter IV (`§ 19`), this very field $\Omega(t)$ will separate *inhaltsgleich* from *flächengleich* triangles!
+Where :person:`Giuseppe Veronese <veronese>` (:cite:`Veronese 1891/1894 <veronese:1894>`) required hundreds of pages of intricate synthetic intuition to build a non-Archimedean continuum, :person:`Hilbert <hilbert>` constructs :math:`\Omega(t)` in two pages by letting :math:`t` be an indeterminate larger than every integer :math:`n \in \mathbb{N}`, so :math:`1/t` acts as an exact algebraic **infinitesimal**. In Chapter IV (`§ 19`), this very field :math:`\Omega(t)` will separate *inhaltsgleich* from *flächengleich* triangles!
 
 Cross-Repository Concordance Links
 ----------------------------------

@@ -21,7 +21,7 @@ Die im Kapitel III erörterte Lehre von den Proportionen und die daselbst eingef
 
 Da nach den Entwickelungen im Kapitel III die Lehre von den Proportionen wesentlich auf dem Pascalschen Satze (Satz 21) beruht, so gilt dies auch für die Lehre von den Flächeninhalten; diese Begründung der Lehre von den Flächeninhalten erscheint mir als eine der merkwürdigsten Anwendungen des Pascalschen Satzes in der Elementargeometrie.
 
-**Erklärung.** Verbindet man zwei Punkte eines Polygons $P$ durch irgend einen Streckenzug, der ganz im Inneren des Polygons verläuft, so entstehen zwei neue Polygone $P_1$ und $P_2$, deren innere Punkte alle im Inneren von $P$ liegen; wir sagen: $P$ *zerfällt* in $P_1$ und $P_2$, oder $P_1$ und $P_2$ *setzen* $P$ *zusammen*.
+**Erklärung.** Verbindet man zwei Punkte eines Polygons :math:`P` durch irgend einen Streckenzug, der ganz im Inneren des Polygons verläuft, so entstehen zwei neue Polygone :math:`P_1` und :math:`P_2`, deren innere Punkte alle im Inneren von :math:`P` liegen; wir sagen: :math:`P` *zerfällt* in :math:`P_1` und :math:`P_2`, oder :math:`P_1` und :math:`P_2` *setzen* :math:`P` *zusammen*.
 
 **Definition.** Zwei Polygone heissen flächengleich, wenn sie in eine endliche Anzahl von Dreiecken zerlegt werden können, die paarweise einander congruent sind.
 
@@ -33,9 +33,9 @@ Ferner gelten folgende Sätze :
 
 .. _grundlagen-de-thm-24:
 
-**Satz 24.** Sind zwei Polygone $P_1$ und $P_2$ mit einem dritten Polygon $P_3$ flächengleich, so sind sie auch unter einander flächengleich. Sind zwei Polygone mit einem dritten inhaltsgleich, so sind sie unter einander inhaltsgleich.
+**Satz 24.** Sind zwei Polygone :math:`P_1` und :math:`P_2` mit einem dritten Polygon :math:`P_3` flächengleich, so sind sie auch unter einander flächengleich. Sind zwei Polygone mit einem dritten inhaltsgleich, so sind sie unter einander inhaltsgleich.
 
-**Beweis.** Nach Voraussetzung lässt sich sowohl für $P_1$ als auch für $P_2$ eine Zerlegung in Dreiecke angeben, so dass einer jeden dieser beiden Zerlegungen je eine Zerlegung des Polygons $P_3$ in congruente Dreiecke entspricht. Indem wir diese Zerlegungen von $P_3$ gleichzeitig in Betracht ziehen, wird im Allgemeinen jedes Dreieck der einen Zerlegung durch Strecken, welche der anderen Zerlegung angehören, in Polygone zerlegt. Wir fügen nun noch so viele Strecken hinzu, dass jedes dieser Polygone selbst wieder in Dreiecke zerfällt und bringen dann die zwei entsprechenden Zerlegungen in Dreiecke in $P_1$ und in $P_2$ an; dann zerfallen offenbar diese beiden Polygone $P_1$ und $P_2$ in gleich viele paarweise einander congruente Dreiecke und sind somit nach der Definition einander flächengleich.
+**Beweis.** Nach Voraussetzung lässt sich sowohl für :math:`P_1` als auch für :math:`P_2` eine Zerlegung in Dreiecke angeben, so dass einer jeden dieser beiden Zerlegungen je eine Zerlegung des Polygons :math:`P_3` in congruente Dreiecke entspricht. Indem wir diese Zerlegungen von :math:`P_3` gleichzeitig in Betracht ziehen, wird im Allgemeinen jedes Dreieck der einen Zerlegung durch Strecken, welche der anderen Zerlegung angehören, in Polygone zerlegt. Wir fügen nun noch so viele Strecken hinzu, dass jedes dieser Polygone selbst wieder in Dreiecke zerfällt und bringen dann die zwei entsprechenden Zerlegungen in Dreiecke in :math:`P_1` und in :math:`P_2` an; dann zerfallen offenbar diese beiden Polygone :math:`P_1` und :math:`P_2` in gleich viele paarweise einander congruente Dreiecke und sind somit nach der Definition einander flächengleich.
 
 Der Beweis der zweiten Aussage des Satzes 24 ergiebt sich nunmehr ohne Schwierigkeit.
 

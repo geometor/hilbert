@@ -84,7 +84,6 @@ Reference & Project
       * :doc:`Using This Edition <usage/index>` — Track switching and navigation guide
       * :doc:`Log <log/index>` & :doc:`Modules <modules/index>` — Development notes and Python codex API
 
-
 .. toctree::
    :maxdepth: 2
    :hidden:

@@ -15,9 +15,9 @@
 
 .. rubric:: David Hilbert — *The Foundations of Geometry* (Authorized Translation by E. J. Townsend, 1902)
 
-As is well known, Desargues's theorem (theorem 32) may be demonstrated by the aid of axioms I, II, III; that is to say, by the use, essentially, of the axioms of space. In § \! 23, we have shown that the demonstration of this theorem without the aid of the space axioms of group I and without the axioms of congruence (group IV) is impossible, even if we make use of the axiom of Archimedes.
+As is well known, Desargues's theorem (theorem 32) may be demonstrated by the aid of axioms I, II, III; that is to say, by the use, essentially, of the axioms of space. In § 23, we have shown that the demonstration of this theorem without the aid of the space axioms of group I and without the axioms of congruence (group IV) is impossible, even if we make use of the axiom of Archimedes.
 
-Upon the basis of axioms I, 1–2, II, III, IV and, hence, by the exclusion of the axioms of space but with the assistance, essentially, of the axioms of congruence, we have, in § \! 14, deduced Pascal's theorem and, consequently, according to § \! 22, also Desargues's theorem. The question arises as to whether Pascal's theorem can be demonstrated without the assistance of the axioms of congruence. Our investigation will show that in this respect Pascal's theorem is very different from Desargues's theorem; for, in the demonstration of Pascal's theorem, the admission or exclusion of the axiom of Archimedes is of decided influence. We may combine the essential results of our investigation in the two following theorems.
+Upon the basis of axioms I, 1–2, II, III, IV and, hence, by the exclusion of the axioms of space but with the assistance, essentially, of the axioms of congruence, we have, in § 14, deduced Pascal's theorem and, consequently, according to § 22, also Desargues's theorem. The question arises as to whether Pascal's theorem can be demonstrated without the assistance of the axioms of congruence. Our investigation will show that in this respect Pascal's theorem is very different from Desargues's theorem; for, in the demonstration of Pascal's theorem, the admission or exclusion of the axiom of Archimedes is of decided influence. We may combine the essential results of our investigation in the two following theorems.
 
 .. _grundlagen-en-thm-36:
 

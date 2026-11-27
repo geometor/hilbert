@@ -23,19 +23,19 @@ Statt „bestimmen“ werden wir auch andere Wendungen
 
 brauchen, z. B. A „liegt auf“ a, A „ist ein Punkt von“ a, a „geht durch“ A „und durch“ B, a „verbindet“ A „und“ oder „mit“ B u. s. w. Wenn A auf a und ausserdem auf einer anderen Geraden b liegt , so gebrauchen wir auch die Wendung : „die Geraden“ a „und“ b „haben den Punkt A gemein“ u. s. w.
 
-**I 2.** Irgend zwei von einander verschiedene Punkte einer Geraden bestimmen diese Gerade, d. h. wenn $AB = a$ und $AC = a$, und $B \neq C$, so ist auch $BC = a$.
+**I 2.** Irgend zwei von einander verschiedene Punkte einer Geraden bestimmen diese Gerade, d. h. wenn :math:`AB = a` und :math:`AC = a`, und :math:`B \neq C`, so ist auch :math:`BC = a`.
 
-**I 3.** Drei nicht auf ein und derselben Geraden liegende Punkte $A, B, C$ bestimmen stets eine Ebene $\alpha$; wir setzen $ABC = \alpha$.
+**I 3.** Drei nicht auf ein und derselben Geraden liegende Punkte :math:`A, B, C` bestimmen stets eine Ebene :math:`\alpha`; wir setzen :math:`ABC = \alpha`.
 
-Wir gebrauchen auch die Wendungen: $A, B, C$ „liegen in“ $\alpha$; $A, B, C$ „sind Punkte von“ $\alpha$ u. s. w.
+Wir gebrauchen auch die Wendungen: :math:`A, B, C` „liegen in“ :math:`\alpha`; :math:`A, B, C` „sind Punkte von“ :math:`\alpha` u. s. w.
 
-**I 4.** Irgend drei Punkte $A, B, C$ einer Ebene $\alpha$, die nicht auf ein und derselben Geraden liegen, bestimmen diese Ebene $\alpha$.
+**I 4.** Irgend drei Punkte :math:`A, B, C` einer Ebene :math:`\alpha`, die nicht auf ein und derselben Geraden liegen, bestimmen diese Ebene :math:`\alpha`.
 
-**I 5.** Wenn zwei Punkte $A, B$ einer Geraden $a$ in einer Ebene $\alpha$ liegen, so liegt jeder Punkt von $a$ in $\alpha$.
+**I 5.** Wenn zwei Punkte :math:`A, B` einer Geraden :math:`a` in einer Ebene :math:`\alpha` liegen, so liegt jeder Punkt von :math:`a` in :math:`\alpha`.
 
-In diesem Falle sagen wir: die Gerade $a$ liegt in der Ebene $\alpha$ u. s. w.
+In diesem Falle sagen wir: die Gerade :math:`a` liegt in der Ebene :math:`\alpha` u. s. w.
 
-**I 6.** Wenn zwei Ebenen $\alpha, \beta$ einen Punkt $A$ gemein haben, so haben sie wenigstens noch einen weiteren Punkt $B$ gemein.
+**I 6.** Wenn zwei Ebenen :math:`\alpha, \beta` einen Punkt :math:`A` gemein haben, so haben sie wenigstens noch einen weiteren Punkt :math:`B` gemein.
 
 **I 7.** Auf jeder Geraden giebt es wenigstens zwei Punkte, in jeder Ebene wenigstens drei nicht auf einer Geraden gelegene Punkte und im Raum giebt es wenigstens vier nicht in einer Ebene gelegene Punkte.
 

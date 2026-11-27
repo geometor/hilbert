@@ -4,7 +4,6 @@
 :order: 9
 :tracks: English: index | German: de | Summary: summary | Notes: notes
 
-
 .. _grundlagen-conclusion-notes:
 
 Conclusion & Appendix on Transformation Groups — Notes
@@ -25,18 +24,18 @@ GEOMETOR Commentary & Cross-Repository Notes
 
 :person:`Hilbert <hilbert>`'s *Schlusswort* (*Conclusion*) articulates two enduring pillars of modern mathematical philosophy:
 
-1. **Epistemological Value of Impossibility Proofs**: Just as Abel proved the quintic unsolvable by radicals and Lindemann proved $\pi$ transcendental (settling circle-squaring), Chapters II, IV, V, VI, and VII prove the **impossibility** of deducing Parallels (`§ 10`), SAS (`§ 11`), Archimedes (`§ 12`), polygon equidecomposability without Archimedes (`§ 19`), planar Desargues without space or congruence (`§ 23`), Pappus/Pascal without congruence or Archimedes (`§ 34`), and general compass constructions from segment transfer (`§ 37`).
-2. **Purity of Method (:term:`Reinheit der Methode <reinheit-der-methode>`)**: Rather than leaving "purity" as a vague aesthetic preference (e.g., forbidding 3D space or continuity in planar proofs), *Grundlagen der Geometrie* converts purity into an exact scientific question: *what is the minimal subset of axioms required by the truth of a proposition?*
+1. **Epistemological Value of Impossibility Proofs**: Just as Abel proved the quintic unsolvable by radicals and Lindemann proved :math:`\pi` transcendental (settling circle-squaring), Chapters II, IV, V, VI, and VII prove the **impossibility** of deducing Parallels (`§ 10`), SAS (`§ 11`), Archimedes (`§ 12`), polygon equidecomposability without Archimedes (`§ 19`), planar Desargues without space or congruence (`§ 23`), Pappus/Pascal without congruence or Archimedes (`§ 34`), and general compass constructions from segment transfer (`§ 37`).
+2. **Purity of Method** (:term:`Reinheit der Methode <reinheit-der-methode>`): Rather than leaving "purity" as a vague aesthetic preference (e.g., forbidding 3D space or continuity in planar proofs), *Grundlagen der Geometrie* converts purity into an exact scientific question: *what is the minimal subset of axioms required by the truth of a proposition?*
 
 2. Max Dehn's 1900 Breakthroughs: Non-Legendrian Geometry & Hilbert's 3rd Problem
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Between the June 1899 German *Festschrift* and :person:`Townsend <townsend>`'s 1902 English translation, :person:`Hilbert <hilbert>`'s student :person:`Max Dehn <dehn>` completed two celebrated investigations summarized in the English Conclusion:
 
-* **The $3 \times 3$ Angle-Sum / Parallel Table (:cite:`Dehn 1900 <dehn:1900:legendre>`)**: Classical Legendre theorems state (1) triangle angle-sum $\le 2R$, and (2) if angle-sum $= 2R$, Euclid's Parallel Postulate holds. :person:`Dehn <dehn>` showed using Hilbert's non-Archimedean geometry (`§ 12`) that *without Archimedes's Axiom*:
-  - **Semi-Euclidean Geometry** exists: angle-sum $= 2R$ everywhere, yet infinitely many parallels pass through a point (differing by infinitesimal angles)!
-  - **Non-Legendrian Geometry** exists: angle-sum $> 2R$, yet infinitely many lines through a point fail to meet a given line (located at infinite non-Archimedean distance)!
-* **Polyhedral Volume & Hilbert's Third Problem (:cite:`Dehn 1900 <dehn:1900>`)**: Extending Chapter IV from 2D polygons to 3D polyhedra, :person:`Hilbert <hilbert>` posed as his **Third Paris Problem (1900)** whether two tetrahedra of equal base and altitude are always *zerlegungsgleich* or *ergänzungsgleich* (*inhaltsgleich*). Within months, :person:`Dehn <dehn>` proved the answer is **NO** (introducing the tensor-product *Dehn invariant* $\sum \ell_i \otimes \theta_i \in \mathbb{R} \otimes_{\mathbb{Q}} (\mathbb{R}/\pi\mathbb{Q})$, showing a regular tetrahedron is neither equidecomposable nor equicomplementable with a cube of equal volume!).
+* **The** :math:`3 \times 3` **Angle-Sum / Parallel Table** (:cite:`Dehn 1900 <dehn:1900:legendre>`): Classical Legendre theorems state (1) triangle angle-sum :math:`\le 2R`, and (2) if angle-sum :math:`= 2R`, Euclid's Parallel Postulate holds. :person:`Dehn <dehn>` showed using Hilbert's non-Archimedean geometry (`§ 12`) that *without Archimedes's Axiom*:
+  - **Semi-Euclidean Geometry** exists: angle-sum :math:`= 2R` everywhere, yet infinitely many parallels pass through a point (differing by infinitesimal angles)!
+  - **Non-Legendrian Geometry** exists: angle-sum :math:`> 2R`, yet infinitely many lines through a point fail to meet a given line (located at infinite non-Archimedean distance)!
+* **Polyhedral Volume & Hilbert's Third Problem** (:cite:`Dehn 1900 <dehn:1900>`): Extending Chapter IV from 2D polygons to 3D polyhedra, :person:`Hilbert <hilbert>` posed as his **Third Paris Problem (1900)** whether two tetrahedra of equal base and altitude are always *zerlegungsgleich* or *ergänzungsgleich* (*inhaltsgleich*). Within months, :person:`Dehn <dehn>` proved the answer is **NO** (introducing the tensor-product *Dehn invariant* :math:`\sum \ell_i \otimes \theta_i \in \mathbb{R} \otimes_{\mathbb{Q}} (\mathbb{R}/\pi\mathbb{Q})`, showing a regular tetrahedron is neither equidecomposable nor equicomplementable with a cube of equal volume!).
 
 3. Townsend's 1902 Appendix and Hilbert's Fifth Problem
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

@@ -20,4 +20,4 @@ Parallel Reading Tracks
 Section Overview
 ----------------
 
-* **§ 15 — Geometric Calculus of Segments (*Streckenrechnung*)**: Defines segment addition $c = a + b$ by collinear juxtaposition and segment multiplication $c = ab$ on perpendicular rays from $O$ via a fixed unit segment $1$ and parallel lines. Crucially, `Theorem 21` (:term:`Pascalscher Satz <pascalscher-satz>`) immediately yields **commutativity** $ab = ba$ and **associativity** $a(bc) = (ab)c$, while congruent right triangles establish **distributivity** $a(b + c) = ab + ac$.
+* **§ 15 — Geometric Calculus of Segments** (*Streckenrechnung*): Defines segment addition :math:`c = a + b` by collinear juxtaposition and segment multiplication :math:`c = ab` on perpendicular rays from :math:`O` via a fixed unit segment :math:`1` and parallel lines. Crucially, `Theorem 21` (:term:`Pascalscher Satz <pascalscher-satz>`) immediately yields **commutativity** :math:`ab = ba` and **associativity** :math:`a(bc) = (ab)c`, while congruent right triangles establish **distributivity** :math:`a(b + c) = ab + ac`.

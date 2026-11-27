@@ -20,4 +20,4 @@ Parallel Reading Tracks
 Section Overview
 ----------------
 
-* **§ 20 — Measure of Area (*Flächenmass*, Theorem 29)**: Defines the area measure $F(\Delta) = \tfrac{1}{2} a h_a = \tfrac{1}{2} b h_b$ in the segment field via `Theorem 22`, proves invariance of $F(\Delta)$ under arbitrary simplicial subdivision by reducing any triangulation to chains of transversal splits (`Theorem 29`), and deduces that *inhaltsgleich* polygons have equal area measure—immediately proving `Theorem 28`.
+* **§ 20 — Measure of Area** (*Flächenmass*, **Theorem 29**): Defines the area measure :math:`F(\Delta) = \tfrac{1}{2} a h_a = \tfrac{1}{2} b h_b` in the segment field via `Theorem 22`, proves invariance of :math:`F(\Delta)` under arbitrary simplicial subdivision by reducing any triangulation to chains of transversal splits (`Theorem 29`), and deduces that *inhaltsgleich* polygons have equal area measure—immediately proving `Theorem 28`.

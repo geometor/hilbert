@@ -19,27 +19,27 @@ Wir untersuchen jetzt, welche von den in §13 aufgestellten Rechnungsgesetzen f�
 
 Vor Allem wollen wir beweisen, dass für die in § 24 definirte Addition der Strecken das commutative Gesetz
 
-$$
-a + b = b + a
-$$
+.. math::
+
+   a + b = b + a
 
 gilt. Es sei
 
-$$
-a = OA = OA', \quad b = OB = OB',
-$$
+.. math::
+
+   a = OA = OA', \quad b = OB = OB',
 
 wobei unserer Festsetzung entsprechend AA! und BB' der Einheitsgeraden parallel sind. Nun construiren wir die Punkte A" und B", indem wir A'A" sowie B'B" parallel OA und ferner AB" und BA" parallel OA' ziehen; wie man sofort sieht, sagt dann unsere Behauptung aus, dass die Verbindungslinie A"B" parallel mit AA' läuft. Die Richtigkeit dieser Behauptung erkennen wir auf Grund des Desarguesschen Satzes (Satz 32) wie folgt.
 
-Wir bezeichnen den Schnittpunkt von $AB''$ und $A'A''$ mit $F$ und den Schnittpunkt von $BA''$ und $B'B''$ mit $D$; dann sind in den Dreiecken $AA'F$ und $BB'D$ die entsprechenden Seiten einander parallel. Mittelst des Desarguesschen Satzes schliessen wir hieraus, dass die drei Punkte $O, F, D$ in einer Geraden liegen. In Folge dieses Umstandes liegen die beiden Dreiecke $OAA'$ und $DB''A''$ derart, dass die Verbindungslinien entsprechender Ecken durch den nämlichen Punkt $F$ laufen und da überdies zwei Paare entsprechender Seiten, nämlich $OA$ und $DB''$ sowie $OA'$ und $DA''$ einander parallel sind, so laufen nach der zweiten Aussage des Desarguesschen Satzes (Satz 32) auch die dritten Seiten $AA'$ und $B''A''$ einander parallel.
+Wir bezeichnen den Schnittpunkt von :math:`AB''` und :math:`A'A''` mit :math:`F` und den Schnittpunkt von :math:`BA''` und :math:`B'B''` mit :math:`D`; dann sind in den Dreiecken :math:`AA'F` und :math:`BB'D` die entsprechenden Seiten einander parallel. Mittelst des Desarguesschen Satzes schliessen wir hieraus, dass die drei Punkte :math:`O, F, D` in einer Geraden liegen. In Folge dieses Umstandes liegen die beiden Dreiecke :math:`OAA'` und :math:`DB''A''` derart, dass die Verbindungslinien entsprechender Ecken durch den nämlichen Punkt :math:`F` laufen und da überdies zwei Paare entsprechender Seiten, nämlich :math:`OA` und :math:`DB''` sowie :math:`OA'` und :math:`DA''` einander parallel sind, so laufen nach der zweiten Aussage des Desarguesschen Satzes (Satz 32) auch die dritten Seiten :math:`AA'` und :math:`B''A''` einander parallel.
 
 Zum Beweise des associativen Gesetzes der Addition
 
-$$
-a + (b + c) = (a + b) + c
-$$
+.. math::
 
-dient die Figur 42. Mit Berücksichtigung des eben bewiesenen commutativen Gesetzes der Addition spricht sich die obige Behauptung, wie man sieht, darin aus, dass die Gerade $A''B''$ parallel
+   a + (b + c) = (a + b) + c
+
+dient die Figur 42. Mit Berücksichtigung des eben bewiesenen commutativen Gesetzes der Addition spricht sich die obige Behauptung, wie man sieht, darin aus, dass die Gerade :math:`A''B''` parallel
 
 der Einheitsgeraden verlaufen muss. Die Richtigkeit dieser Behauptung ist offenbar, da der schraffirte Teil der Figur 42 mit der Figur 41 genau übereinstimmt.
 

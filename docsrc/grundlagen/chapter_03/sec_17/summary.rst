@@ -20,4 +20,4 @@ Parallel Reading Tracks
 Section Overview
 ----------------
 
-* **§ 17 — Linear Equations of Lines and Planes**: Extends positive segments to signed segments ($+, 0, -$) forming an ordered commutative field, establishes rectangular coordinates $(x, y)$, proves every straight line has a linear equation $bx - ay - bc = 0$, and shows how adjoining Archimedes (`V`) embeds the coordinate domain into $\mathbb{R}^3$.
+* **§ 17 — Linear Equations of Lines and Planes**: Extends positive segments to signed segments (:math:`+, 0, -`) forming an ordered commutative field, establishes rectangular coordinates :math:`(x, y)`, proves every straight line has a linear equation :math:`bx - ay - bc = 0`, and shows how adjoining Archimedes (`V`) embeds the coordinate domain into :math:`\mathbb{R}^3`.

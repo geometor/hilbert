@@ -198,31 +198,73 @@ def test_calibrated_svg_figures_and_picture_directives() -> None:
         assert referenced == EXPECTED_FIGURES
 
 
-def test_no_residual_latex_or_embedded_python_and_balanced_math() -> None:
-    """Generated codex RST files have zero raw LaTeX artifacts, balanced `$`, and no `.py` blocks."""
+def _check_balanced_braces(expr: str) -> bool:
+    """Return True iff curly braces `{...}` are balanced in a TeX math expression."""
+    depth = 0
+    i = 0
+    while i < len(expr):
+        if expr[i] == "\\" and i + 1 < len(expr):
+            i += 2
+            continue
+        if expr[i] == "{":
+            depth += 1
+        elif expr[i] == "}":
+            depth -= 1
+            if depth < 0:
+                return False
+        i += 1
+    return depth == 0
+
+
+def test_no_residual_latex_or_embedded_python_and_valid_rst_math() -> None:
+    """Codex RST files use valid Sphinx `:math:` / `.. math::`, zero raw `$`, and zero residual TeX."""
     forbidden_latex = re.compile(
         r"\\(?:begin\{(?:itemize|center|tabular|flushright|scshape|small)\}|"
-        r"emph\{|textit\{|textbf\{|scshape\b|pageref\{|footnote\{|rfa\{)"
+        r"emph\{|textit\{|textbf\{|scshape\b|pageref\{|footnote\{|rfa\{|S\b|[!,])"
     )
+    inline_math_re = re.compile(r":math:`([^`]+)`")
+    display_math_re = re.compile(
+        r"(?m)^([ \t]*)\.\. math::\s*\n\n((?:\1[ \t]+[^\n]*\n|\n)+)"
+    )
+
+    inline_count = 0
+    display_count = 0
 
     for rst_path in sorted(GRUNDLAGEN_DIR.rglob("*.rst")):
         txt = rst_path.read_text(encoding="utf-8")
         assert "@@" not in txt, f"Unresolved placeholder in {rst_path}"
         assert ".. code-block:: python" not in txt, f"Embedded python block in {rst_path}"
         assert ".. literalinclude::" not in txt, f"Embedded literalinclude in {rst_path}"
+        assert "$" not in txt, f"Raw dollar math delimiter found in {rst_path}"
 
-        # Strip $$...$$ and $...$ math before scanning for raw TeX structural commands
-        no_math = re.sub(r"\$\$.*?\$\$", "DISPLAYMATH", txt, flags=re.DOTALL)
-        for lineno, line in enumerate(no_math.splitlines(), 1):
-            dollars = [m.start() for m in re.finditer(r"(?<!\\)\$", line)]
-            assert len(dollars) % 2 == 0, (
-                f"Unbalanced inline $ at {rst_path.name}:{lineno}: {line}"
+        # Validate every `.. math::` directive block
+        for m in display_math_re.finditer(txt):
+            body = m.group(2).strip()
+            assert body, f"Empty .. math:: block in {rst_path}"
+            assert _check_balanced_braces(body), (
+                f"Unbalanced braces in .. math:: in {rst_path}: {body[:80]!r}"
             )
-            prose_only = re.sub(r"(?<!\\)\$.*?(?<!\\)\$", "INLINEMATH", line)
+            display_count += 1
+
+        # Strip `.. math::` blocks and `:math:` roles before checking prose for residual LaTeX
+        no_disp = display_math_re.sub("DISPLAYMATH\n", txt)
+        for lineno, line in enumerate(no_disp.splitlines(), 1):
+            for im in inline_math_re.finditer(line):
+                expr = im.group(1)
+                assert expr.strip(), f"Empty :math: role at {rst_path.name}:{lineno}"
+                assert _check_balanced_braces(expr), (
+                    f"Unbalanced braces in :math: at {rst_path.name}:{lineno}: {expr!r}"
+                )
+                inline_count += 1
+
+            prose_only = inline_math_re.sub("INLINEMATH", line)
             match = forbidden_latex.search(prose_only)
             assert match is None, (
                 f"Residual LaTeX {match.group(0)!r} in {rst_path.name}:{lineno}"
             )
+
+    assert inline_count >= 4000, f"Expected >= 4000 :math: roles, found {inline_count}"
+    assert display_count >= 350, f"Expected >= 350 .. math:: blocks, found {display_count}"
 
 
 def _extract_role_target(body: str) -> str:

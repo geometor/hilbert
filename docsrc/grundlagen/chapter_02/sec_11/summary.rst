@@ -20,4 +20,4 @@ Parallel Reading Tracks
 Section Overview
 ----------------
 
-* **§ 11 — Independence of Congruence Axiom IV 6 (SAS)**: Retains ordinary points, lines, planes, and angles, but redefines segment length between $(x_1, y_1, z_1)$ and $(x_2, y_2, z_2)$ by the anisotropic norm
+* **§ 11 — Independence of Congruence Axiom IV 6 (SAS)**: Retains ordinary points, lines, planes, and angles, but redefines segment length between :math:`(x_1, y_1, z_1)` and :math:`(x_2, y_2, z_2)` by the anisotropic norm

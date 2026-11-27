@@ -21,17 +21,17 @@ Was zunächst die einzelnen Axiome der Gruppen I, II und IV betrifft, so ist der
 
 Die Axiome der Gruppen I und II liegen bei unserer Darstellung den übrigen Axiomen zu Grunde, so dass es sich nur noch darum handelt, für jede der Gruppen III, IV und V die Unabhängigkeit von den übrigen nachzuweisen.
 
-Die e r s t e r e Aussage des Parallelenaxioms kann aus den Axiomen der Gruppen I, II, IV bewiesen werden. Um dies einzusehen, verbinden wir den gegebenen Punkt A mit einem beliebigen Punkte B der Geraden a. Es sei ferner C irgend ein anderer Punkt der Geraden $a$; dann tragen wir $\angle ABC$ an $AB$ im Punkte $A$ nach derjenigen Seite in der nämlichen Ebene $\alpha$ an, auf der nicht der Punkt $C$ liegt. Die so erhaltene Gerade durch $A$ trifft die Gerade $a$ nicht. In der That, schnitte sie $a$ im Punkte $D$ und nehmen wir etwa an, dass $B$ zwischen $C$ und $D$ liege, so könnten wir auf $a$ einen Punkt $D'$ finden, so dass $B$ zwischen $D$ und $D'$ liegt und überdies
+Die e r s t e r e Aussage des Parallelenaxioms kann aus den Axiomen der Gruppen I, II, IV bewiesen werden. Um dies einzusehen, verbinden wir den gegebenen Punkt A mit einem beliebigen Punkte B der Geraden a. Es sei ferner C irgend ein anderer Punkt der Geraden :math:`a`; dann tragen wir :math:`\angle ABC` an :math:`AB` im Punkte :math:`A` nach derjenigen Seite in der nämlichen Ebene :math:`\alpha` an, auf der nicht der Punkt :math:`C` liegt. Die so erhaltene Gerade durch :math:`A` trifft die Gerade :math:`a` nicht. In der That, schnitte sie :math:`a` im Punkte :math:`D` und nehmen wir etwa an, dass :math:`B` zwischen :math:`C` und :math:`D` liege, so könnten wir auf :math:`a` einen Punkt :math:`D'` finden, so dass :math:`B` zwischen :math:`D` und :math:`D'` liegt und überdies
 
-$$
-AD \equiv BD'
-$$
+.. math::
 
-ausfiele. Wegen der Congruenz der Dreiecke $ABD$ und $BAD'$ würde die Congruenz
+   AD \equiv BD'
 
-$$
-\angle ABD \equiv \angle BAD'
-$$
+ausfiele. Wegen der Congruenz der Dreiecke :math:`ABD` und :math:`BAD'` würde die Congruenz
+
+.. math::
+
+   \angle ABD \equiv \angle BAD'
 
 folgen und da die Winkel ABD' und ABD Nebenwinkel sind, so müssten sich dann mit Rücksicht auf Satz 12 auch die Winkel BAD und BAD' als Nebenwinkel erweisen; dies ist aber wegen Satz 1 nicht der Fall.
 

@@ -19,17 +19,17 @@ Die Axiome dieser Gruppe [#fn1]_ definiren den Begriff „zwischen“ und ermög
 
 **Erklärung.** Die Punkte einer Geraden stehen in gewissen Beziehungen zu einander, zu deren Beschreibung uns insbesondere das Wort „ziuischen“ dient.
 
-**II 1.** Wenn $A, B, C$ Punkte einer Geraden sind, und $B$ zwischen $A$ und $C$ liegt, so liegt $B$ auch zwischen $C$ und $A$.
+**II 1.** Wenn :math:`A, B, C` Punkte einer Geraden sind, und :math:`B` zwischen :math:`A` und :math:`C` liegt, so liegt :math:`B` auch zwischen :math:`C` und :math:`A`.
 
-**II 2.** Wenn $A$ und $C$ zwei Punkte einer Geraden sind, so giebt es stets wenigstens einen Punkt $B$, der zwischen $A$ und $C$ liegt und wenigstens einen Punkt $D$, so dass $C$ zwischen $A$ und $D$ liegt.
+**II 2.** Wenn :math:`A` und :math:`C` zwei Punkte einer Geraden sind, so giebt es stets wenigstens einen Punkt :math:`B`, der zwischen :math:`A` und :math:`C` liegt und wenigstens einen Punkt :math:`D`, so dass :math:`C` zwischen :math:`A` und :math:`D` liegt.
 
 **II 3.** Unter irgend drei Punkten einer Geraden giebt es stets einen und nur einen, der zwischen den beiden andern liegt.
 
-**II 4.** Irgend vier Punkte $A, B, C, D$ einer Geraden können stets so angeordnet werden, dass $B$ zwischen $A$ und $C$ und auch zwischen $A$ und $D$ und ferner $C$ zwischen $A$ und $D$ und auch zwischen $B$ und $D$ liegt.
+**II 4.** Irgend vier Punkte :math:`A, B, C, D` einer Geraden können stets so angeordnet werden, dass :math:`B` zwischen :math:`A` und :math:`C` und auch zwischen :math:`A` und :math:`D` und ferner :math:`C` zwischen :math:`A` und :math:`D` und auch zwischen :math:`B` und :math:`D` liegt.
 
 **Definition.** Das System zweier Punkte A und B, die auf einer Geraden a liegen, nennen wir eine Strecke und bezeichnen dieselbe mit AB oder BA. Die Punkte zwischen A und B heissen Punkte der Strecke AB oder auch innerhalb der Strecke AB gelegen ; alle übrigen Punkte der Geraden a heissen ausserhalb der Strecke AB gelegen. Die Punkte A, B heissen Endpunkte der Strecke AB.
 
-**II 5.** Es seien A, B, C drei nicht in gerader Linie gelegene Punkte und a eine Gerade in der Ebene ABC, die keinen der Punkte A, B, C trifft: wenn dann die Gerade a durch einen Punkt innerhalb der Strecke AB geht, so geht sie stets entweder durch einen Punkt der Strecke BC oder durch einen Punkt der Strecke $AC$.
+**II 5.** Es seien A, B, C drei nicht in gerader Linie gelegene Punkte und a eine Gerade in der Ebene ABC, die keinen der Punkte A, B, C trifft: wenn dann die Gerade a durch einen Punkt innerhalb der Strecke AB geht, so geht sie stets entweder durch einen Punkt der Strecke BC oder durch einen Punkt der Strecke :math:`AC`.
 
 Die Axiome II 1 — 4 enthalten nur Aussagen über die Punkte
 
