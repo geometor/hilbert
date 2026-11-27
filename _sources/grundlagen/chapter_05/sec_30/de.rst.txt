@@ -31,7 +31,6 @@ Die gefundenen Resultate setzen uns auch in den Stand zu erkennen , dass jede r�
 
 unter einer Geometrie von beliebig vielen Dimensionen eine Gesamtheit von Punkten, Geraden, Ebenen und noch weiteren linearen Elementen zu verstehen , für welche die entsprechenden Axiome der Verknüpfung und Anordnung sowie das Parallelenaxiom erfüllt sind.
 
-
 ----
 
 .. rubric:: Fussnoten

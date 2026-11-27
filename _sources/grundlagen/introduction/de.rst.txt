@@ -4,7 +4,6 @@
 :order: 1
 :tracks: English: index | German: de | Summary: summary | Notes: notes
 
-
 .. _grundlagen-introduction-de:
 
 Epigraph & Einleitung

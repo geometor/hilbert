@@ -21,19 +21,19 @@ First of all, so far as the particular axioms of groups I, II, and IV are concer
 
 According to our presentation, the axioms of groups I and II form the basis of the remaining axioms. It is sufficient, therefore, to show that each of the groups II, IV, and V is independent of the others.
 
-The first statement of the axiom of parallels can be demonstrated by aid of the axioms of groups I, II, and IV. In order to do this, join the given point $A$ with any arbitrary point $B$ of the straight line $a$. Let $C$ be any other point of the given straight line. At the point $A$ on $AB$, construct the angle $ABC$ so that it shall lie in the same plane $\alpha$ as the point $C$, but upon the opposite side of $AB$ from it. The straight line thus obtained through $A$ does not meet the give straight line $\alpha$; for, if it should cut it, say in the point $D$, and if we suppose $B$ to be situated between $C$ and $D$, we could then find on $\alpha$ a point $D'$ so situated that $B$ would lie between $D$ and $D'$, and, moreover, so that we should have
+The first statement of the axiom of parallels can be demonstrated by aid of the axioms of groups I, II, and IV. In order to do this, join the given point :math:`A` with any arbitrary point :math:`B` of the straight line :math:`a`. Let :math:`C` be any other point of the given straight line. At the point :math:`A` on :math:`AB`, construct the angle :math:`ABC` so that it shall lie in the same plane :math:`\alpha` as the point :math:`C`, but upon the opposite side of :math:`AB` from it. The straight line thus obtained through :math:`A` does not meet the give straight line :math:`\alpha`; for, if it should cut it, say in the point :math:`D`, and if we suppose :math:`B` to be situated between :math:`C` and :math:`D`, we could then find on :math:`\alpha` a point :math:`D'` so situated that :math:`B` would lie between :math:`D` and :math:`D'`, and, moreover, so that we should have
 
-$$
-AD \equiv BD'
-$$
+.. math::
 
-Because of the congruence of the two triangles $ABD$ and $BAD'$, we have also
+   AD \equiv BD'
 
-$$
-\angle ABD \equiv \angle BAD',
-$$
+Because of the congruence of the two triangles :math:`ABD` and :math:`BAD'`, we have also
 
-and since the angles $ABD'$ and $ABD$ are supplementary, it follows from theorem 12 that the angles $BAD$ and $BAD'$ are also supplementary. This, however, cannot be true, as, by theorem 1, two straight lines cannot intersect in more than one point, which would be the case if $BAD$ and $BAD'$ were supplementary.
+.. math::
+
+   \angle ABD \equiv \angle BAD',
+
+and since the angles :math:`ABD'` and :math:`ABD` are supplementary, it follows from theorem 12 that the angles :math:`BAD` and :math:`BAD'` are also supplementary. This, however, cannot be true, as, by theorem 1, two straight lines cannot intersect in more than one point, which would be the case if :math:`BAD` and :math:`BAD'` were supplementary.
 
 The second statement of the axiom of parallels is independent of all the other axioms. This may be most easily shown in the following well known manner. As the individual elements of a geometry of space, select the points, straight lines, and planes of the ordinary geometry as constructed in § 9, and regard these elements as restricted in extent to the interior of a fixed sphere. Then, define the congruences of this geometry by aid of such linear transformations of the ordinary geometry as transform the fixed sphere into itself. By suitable conventions, we can make this “*non-euclidean geometry*” obey all of the axioms of our system except the axiom of Euclid (group III). Since the possibility of the ordinary geometry has already been established, that of the non-euclidean geometry is now an immediate consequence of the above considerations.
 

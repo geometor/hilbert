@@ -19,27 +19,29 @@ Wir sehen unmittelbar ein, dass für unsere neue in § 24 begründete Streckenre
 
 Ferner haben wir in § 25 und § 26 mit Hülfe des Desarguesschen Satzes erkannt, dass für diese Streckenrechnung die Rechnungsgesetze 7 — 11 in §13 gültig sind; es bestehen somit sämtliche Sätze der Verknüpfung, abgesehen vom commutativen Gesetze der Multiplikation.
 
-Um endlich eine Anordnung der Strecken zu ermöglichen, treffen wir folgende Festsetzung. Es seien A, B irgend zwei verschiedene Punkte der Geraden OE; dann bringen wir gemäss Axiom II 4 die vier Punkte 0, E, A, B in eine Reihenfolge. Ist dies auf eine der folgenden sechs Arten $$
-ABOE, \quad AOBE, \quad AOEB, \quad OABE, \quad OAEB, \quad OEAB
-$$
+Um endlich eine Anordnung der Strecken zu ermöglichen, treffen wir folgende Festsetzung. Es seien A, B irgend zwei verschiedene Punkte der Geraden OE; dann bringen wir gemäss Axiom II 4 die vier Punkte 0, E, A, B in eine Reihenfolge. Ist dies auf eine der folgenden sechs Arten
 
-möglich, so nennen wir die Strecke $a = OA$ *kleiner* als die Strecke $b = OB$, in Zeichen:
+.. math::
 
-$$
-a < b.
-$$
+   ABOE, \quad AOBE, \quad AOEB, \quad OABE, \quad OAEB, \quad OEAB
+
+möglich, so nennen wir die Strecke :math:`a = OA` *kleiner* als die Strecke :math:`b = OB`, in Zeichen:
+
+.. math::
+
+   a < b.
 
 Findet dagegen eine der sechs Reihenfolgen
 
-$$
-BAOE, \quad BOAE, \quad BOEA, \quad OBAE, \quad OBEA, \quad OEBA
-$$
+.. math::
 
-statt, so nennen wir die Strecke $a = OA$ *grösser* als die Strecke $b = OB$, in Zeichen
+   BAOE, \quad BOAE, \quad BOEA, \quad OBAE, \quad OBEA, \quad OEBA
 
-$$
-a > b.
-$$
+statt, so nennen wir die Strecke :math:`a = OA` *grösser* als die Strecke :math:`b = OB`, in Zeichen
+
+.. math::
+
+   a > b.
 
 Diese Festsetzung bleibt auch in Kraft , wenn A oder B mit 0 oder E zusammenfallen, nur dass dann die zusammenfallenden Punkte als ein einziger Punkt anzusehen sind und somit lediglich die Anordnung dreier Punkte in Frage kommt.
 

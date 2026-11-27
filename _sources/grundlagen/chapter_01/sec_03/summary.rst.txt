@@ -20,4 +20,4 @@ Parallel Reading Tracks
 Section Overview
 ----------------
 
-* **§ 4 — Consequences of Order (Theorems 3–7)**: Proves unlimited linear density (`Theorem 3`), total ordering of any finite collinear point set $A, B, C, D, E, \ldots, K$ (`Theorem 4`), planar half-plane separation (`Theorem 5`), :term:`half-rays <halbstrahl>`, :person:`Camille Jordan <jordan>`'s polygonal separation theorem (`Theorem 6`), and spatial half-space separation (`Theorem 7`) without needing any spatial order axiom.
+* **§ 4 — Consequences of Order (Theorems 3–7)**: Proves unlimited linear density (`Theorem 3`), total ordering of any finite collinear point set :math:`A, B, C, D, E, \ldots, K` (`Theorem 4`), planar half-plane separation (`Theorem 5`), :term:`half-rays <halbstrahl>`, :person:`Camille Jordan <jordan>`'s polygonal separation theorem (`Theorem 6`), and spatial half-space separation (`Theorem 7`) without needing any spatial order axiom.

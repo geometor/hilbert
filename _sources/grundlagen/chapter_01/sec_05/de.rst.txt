@@ -17,9 +17,9 @@
 
 Die Einführung dieses Axioms vereinfacht die Grundlagen und erleichtert den Aufbau der Geometrie in erheblichem Masse; wir sprechen dasselbe wie folgt aus:
 
-**III.** In einer Ebene $\alpha$ lässt sich durch einen Punkt $A$ ausserhalb einer Geraden $a$ stets eine und nur eine Gerade ziehen, welche jene Gerade $a$ nicht schneidet; dieselbe heisst die Parallele zu $a$ durch den Punkt $A$.
+**III.** In einer Ebene :math:`\alpha` lässt sich durch einen Punkt :math:`A` ausserhalb einer Geraden :math:`a` stets eine und nur eine Gerade ziehen, welche jene Gerade :math:`a` nicht schneidet; dieselbe heisst die Parallele zu :math:`a` durch den Punkt :math:`A`.
 
-Diese Fassung des Parallelenaxioms enthält zwei Aussagen; nach der ersteren giebt es in der Ebene $\alpha$ durch $A$ stets eine Gerade, die $a$ nicht trifft, und zweitens wird ausgesprochen,
+Diese Fassung des Parallelenaxioms enthält zwei Aussagen; nach der ersteren giebt es in der Ebene :math:`\alpha` durch :math:`A` stets eine Gerade, die :math:`a` nicht trifft, und zweitens wird ausgesprochen,
 
 dass keine andere solche Gerade möglich ist.
 

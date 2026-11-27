@@ -19,17 +19,17 @@ GEOMETOR Commentary & Cross-Repository Notes
 
 Why can Desargues's Theorem (`Theorem 32`) be proved in three lines in 3D projective/affine space using only incidence axioms (`I 1–7, II, III`), yet **cannot be proved at all** in 2D planar incidence-order-parallel geometry (`I 1–2, II, III, V`)?
 
-* **In 3-Space**: Given two perspective triangles in plane $\alpha$, one lifts the perspective rays into a triangular pyramid in 3-space so corresponding sides lie in two planes $\beta, \gamma$; the intersection line $\beta \cap \gamma$ (guaranteed by spatial Axiom `I 6`!) meets $\alpha$ in the Desargues axis (or parallel direction).
-* **In the Plane Alone (`§ 23`, `Theorem 33`)**: Without a third spatial dimension (`I 3–7`) or planar triangle congruence (`IV 6`), :person:`Hilbert <hilbert>`'s refracted ellipse model bends straight lines locally inside $x^2 + 4y^2 = 1$ along circular arcs through $F(\tfrac{3}{2}, 0)$, destroying perspective concurrency while preserving all planar incidence, order, parallel, and continuity axioms! *(Historical note: in 1902 Forest Ray Moulton simplified Hilbert's ellipse construction to refracted broken lines across the $X$-axis—the "Moulton plane"—after Hilbert's 1899 breakthrough showed such planes exist.)*
-* **Elimination of Spatial Axioms (`§ 30`, `Theorem 35`)**: As :person:`Hilbert <hilbert>` summarizes memorably in § 30, Desargues's Theorem is *"the result of the elimination of the space axioms"* for planar geometry, and simultaneously unlocks embedding into projective/affine spaces of **arbitrary dimension $n$**!
+* **In 3-Space**: Given two perspective triangles in plane :math:`\alpha`, one lifts the perspective rays into a triangular pyramid in 3-space so corresponding sides lie in two planes :math:`\beta, \gamma`; the intersection line :math:`\beta \cap \gamma` (guaranteed by spatial Axiom `I 6`!) meets :math:`\alpha` in the Desargues axis (or parallel direction).
+* **In the Plane Alone (`§ 23`, `Theorem 33`)**: Without a third spatial dimension (`I 3–7`) or planar triangle congruence (`IV 6`), :person:`Hilbert <hilbert>`'s refracted ellipse model bends straight lines locally inside :math:`x^2 + 4y^2 = 1` along circular arcs through :math:`F(\tfrac{3}{2}, 0)`, destroying perspective concurrency while preserving all planar incidence, order, parallel, and continuity axioms! (*Historical note: in 1902 Forest Ray Moulton simplified Hilbert's ellipse construction to refracted broken lines across the* :math:`X`-*axis—the "Moulton plane"—after Hilbert's 1899 breakthrough showed such planes exist*.)
+* **Elimination of Spatial Axioms (`§ 30`, `Theorem 35`)**: As :person:`Hilbert <hilbert>` summarizes memorably in § 30, Desargues's Theorem is *"the result of the elimination of the space axioms"* for planar geometry, and simultaneously unlocks embedding into projective/affine spaces of **arbitrary dimension** :math:`n`!
 
 2. Non-Commutative Geometry Before Quantum Mechanics (`§§ 24–29`)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Notice the astonishing modernity of §§ 24–29: twenty-six years before Heisenberg, Born, and Jordan introduced non-commutative matrix mechanics in Göttingen (1925), :person:`Hilbert <hilbert>` constructs coordinate geometry over a **non-commutative division ring** (*skew-field*, :term:`Desarguessches Zahlensystem <desarguessches-zahlensystem>`). In `Theorem 34` (`§ 27`), left-multiplication vs. right-multiplication becomes geometrically decisive:
 
-* $ax + by + c = 0$ (coefficients on the **left**) defines a straight line;
-* $xa + yb + c = 0$ (coefficients on the **right**) in general **does not** define a straight line unless multiplication commutes—i.e., unless Pappus's/Pascal's Theorem holds!
+* :math:`ax + by + c = 0` (coefficients on the **left**) defines a straight line;
+* :math:`xa + yb + c = 0` (coefficients on the **right**) in general **does not** define a straight line unless multiplication commutes—i.e., unless Pappus's/Pascal's Theorem holds!
 
 Cross-Repository Concordance Links
 ----------------------------------

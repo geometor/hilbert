@@ -23,33 +23,33 @@ Um diese Umkehrung zu beweisen , betrachten wir zunächst zwei Dreiecke ABC und 
 
 die Formeln
 
-$$
-F(ABC) = \frac{1}{2} AB \cdot AC, \quad F(AB'C') = \frac{1}{2} AB' \cdot AC'
-$$
+.. math::
+
+   F(ABC) = \frac{1}{2} AB \cdot AC, \quad F(AB'C') = \frac{1}{2} AB' \cdot AC'
 
 aus. Nehmen wir an, dass diese beiden Flächenmasse einander gleich sind, so folgt:
 
-$$
-AB \cdot AC = AB' \cdot AC' \quad \text{oder} \quad AB : AB' = AC' : AC
-$$
+.. math::
 
-und hieraus ergiebt sich nach Satz 23, dass die beiden Geraden $BC$ und $B'C'$ einander parallel sind und sodann erweisen sich nach Satz 27 die beiden Dreiecke $BC'B'$ und $BC'C$ als inhaltsgleich. Durch Hinzufügen des Dreiecks $ABC'$ folgt, dass die beiden Dreiecke $ABC$ und $AB'C'$ einander inhaltsgleich sind. Wir haben damit erkannt, dass zwei rechtwinklige Dreiecke mit gleichem Flächenmass auch stets einander inhaltsgleich sind.
+   AB \cdot AC = AB' \cdot AC' \quad \text{oder} \quad AB : AB' = AC' : AC
 
-Nehmen wir jetzt ein beliebiges Dreieck mit der Grundlinie $g$ und der Höhe $h$, so ist dasselbe nach Satz 27 inhaltsgleich einem rechtwinkligen Dreieck mit den beiden Katheten $g$ und $h$; und da das ursprüngliche Dreieck offenbar dasselbe Flächenmass wie das rechtwinklige Dreieck besitzt, so folgt, dass in der letzten Betrachtung die Einschränkung auf rechtwinklige Dreiecke nicht nötig war; damit haben wir erkannt, *dass zwei beliebige Dreiecke mit gleichem Flächenmass auch stets einander inhaltsgleich sind*.
+und hieraus ergiebt sich nach Satz 23, dass die beiden Geraden :math:`BC` und :math:`B'C'` einander parallel sind und sodann erweisen sich nach Satz 27 die beiden Dreiecke :math:`BC'B'` und :math:`BC'C` als inhaltsgleich. Durch Hinzufügen des Dreiecks :math:`ABC'` folgt, dass die beiden Dreiecke :math:`ABC` und :math:`AB'C'` einander inhaltsgleich sind. Wir haben damit erkannt, dass zwei rechtwinklige Dreiecke mit gleichem Flächenmass auch stets einander inhaltsgleich sind.
 
-Es sei nunmehr ein beliebiges Polygon $P$ mit dem Flächenmass $g$ vorgelegt; $P$ zerfalle in $n$ Dreiecke mit den Flächenmassen bez. $g_1, g_2, \dots, g_n$; dann ist
+Nehmen wir jetzt ein beliebiges Dreieck mit der Grundlinie :math:`g` und der Höhe :math:`h`, so ist dasselbe nach Satz 27 inhaltsgleich einem rechtwinkligen Dreieck mit den beiden Katheten :math:`g` und :math:`h`; und da das ursprüngliche Dreieck offenbar dasselbe Flächenmass wie das rechtwinklige Dreieck besitzt, so folgt, dass in der letzten Betrachtung die Einschränkung auf rechtwinklige Dreiecke nicht nötig war; damit haben wir erkannt, *dass zwei beliebige Dreiecke mit gleichem Flächenmass auch stets einander inhaltsgleich sind*.
 
-$$
-g = g_1 + g_2 + \dots + g_n.
-$$
+Es sei nunmehr ein beliebiges Polygon :math:`P` mit dem Flächenmass :math:`g` vorgelegt; :math:`P` zerfalle in :math:`n` Dreiecke mit den Flächenmassen bez. :math:`g_1, g_2, \dots, g_n`; dann ist
 
-Wir construiren nun ein Dreieck $ABC$ mit der Grundlinie $AB = g$ und der Höhe $h = 1$ und markiren auf der Grundlinie die Punkte $A_1, A_2, \dots, A_{n-1}$, sodass
+.. math::
 
-$$
-g_1 = AA_1, \quad g_2 = A_1A_2, \; \dots, \; g_{n-1} = A_{n-2}A_{n-1}, \quad g_n = A_{n-1}B
-$$
+   g = g_1 + g_2 + \dots + g_n.
 
-ausfällt. Da die Dreiecke innerhalb des Polygons $P$ bez. die gleichen Flächenmasse besitzen, wie die Dreiecke $AA_1C, A_1A_2C, \dots, A_{n-2}A_{n-1}C, A_{n-1}BC$, so sind sie nach dem vorhin Bewiesenen diesen auch inhaltsgleich; folglich ist das Polygon $P$ einem Dreiecke mit der Grundlinie $g$ und der Höhe $h = 1$ inhaltsgleich. Hieraus folgt mit Hülfe von Satz 24, dass zwei Polygone mit gleichem Flächenmass einander stets inhaltsgleich sind.
+Wir construiren nun ein Dreieck :math:`ABC` mit der Grundlinie :math:`AB = g` und der Höhe :math:`h = 1` und markiren auf der Grundlinie die Punkte :math:`A_1, A_2, \dots, A_{n-1}`, sodass
+
+.. math::
+
+   g_1 = AA_1, \quad g_2 = A_1A_2, \; \dots, \; g_{n-1} = A_{n-2}A_{n-1}, \quad g_n = A_{n-1}B
+
+ausfällt. Da die Dreiecke innerhalb des Polygons :math:`P` bez. die gleichen Flächenmasse besitzen, wie die Dreiecke :math:`AA_1C, A_1A_2C, \dots, A_{n-2}A_{n-1}C, A_{n-1}BC`, so sind sie nach dem vorhin Bewiesenen diesen auch inhaltsgleich; folglich ist das Polygon :math:`P` einem Dreiecke mit der Grundlinie :math:`g` und der Höhe :math:`h = 1` inhaltsgleich. Hieraus folgt mit Hülfe von Satz 24, dass zwei Polygone mit gleichem Flächenmass einander stets inhaltsgleich sind.
 
 Die beiden in diesem und dem vorigen Paragraph gefundenen Thatsachen fassen wir in den folgenden Satz zusammen:
 
@@ -78,7 +78,6 @@ Kapitel V. Der Dcsarguesscke Satz. § 22. 49
 dass ein Polygon, welches ganz im Inneren eines anderen Polygons liegt, stets inhaltskleiner als dieses sein muss.
 
 Hiermit haben wir die wesentlichen Sätze der Lehre von den Flächeninhalten begründet.
-
 
 ----
 

@@ -4,7 +4,6 @@
 :order: 1
 :tracks: English: index | German: de | Summary: summary | Notes: notes
 
-
 .. _grundlagen-introduction-notes:
 
 Preface & Introduction — Notes
@@ -36,7 +35,7 @@ In :cite:`*De Noetica Geometriae* <hoenen:1954>` (`Caput I §§ 5–6` and `Capu
 
 1. **Aristotle and Euclid** (:cite:`*Posterior Analytics* <aristotle:anal-post>`): Science (:term:`episteme <phantasma>`) requires *demonstration* from *true, necessary, and intelligible* first principles grasped by intellectual insight (*nous*) through formal abstraction from the imaginative diagram (:term:`phantasma <phantasma>`).
 2. **Freudenthal's Semi-Axiomatics** (:cite:`Freudenthal 1957 <freudenthal:1957>`): A prior "pre-geometry" (*la doctrine préalable* / noetics) establishes a complete set of intuitively true axioms at the outset, after which deduction must proceed blindly without further appeal to the diagram.
-3. **Hilbert's Strict Formal Axiomatics**: Within the deductive calculus, geometric words function purely as uninterpreted placeholders; the sole internal criterion is logical non-contradiction. Yet, as :person:`Hoenen <hoenen>` demonstrates from Chapter II (`§ 9`), :person:`Hilbert <hilbert>` establishes non-contradiction only by mapping geometry back onto intuitive real/algebraic arithmetic ($\Omega$), proving that formal axiomatics cannot be self-grounding without pre-axiomatic intellectual intuition!
+3. **Hilbert's Strict Formal Axiomatics**: Within the deductive calculus, geometric words function purely as uninterpreted placeholders; the sole internal criterion is logical non-contradiction. Yet, as :person:`Hoenen <hoenen>` demonstrates from Chapter II (`§ 9`), :person:`Hilbert <hilbert>` establishes non-contradiction only by mapping geometry back onto intuitive real/algebraic arithmetic (:math:`\Omega`), proving that formal axiomatics cannot be self-grounding without pre-axiomatic intellectual intuition!
 
 3. Archival & Textual Note on the 1899 and 1902 Sources
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

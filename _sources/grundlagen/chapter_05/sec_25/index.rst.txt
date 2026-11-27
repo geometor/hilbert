@@ -19,28 +19,28 @@ In this section, we shall investigate the laws of operation, as enumerated in §
 
 First of all, we shall show that, for the addition of segments as defined in § 24, the commutative law
 
-$$
-a+ b = b+a
-$$
+.. math::
+
+   a+ b = b+a
 
 holds. Let
 
-$$
-\begin{aligned}
- &\; a = OA = OA' \;  \\
- &\; b = OB = OB' \; 
-\end{aligned}
-$$
+.. math::
 
-Hence, $AA'$ and $BB'$ are, according to our convention, parallel to the unit-line. Construct the points $A''$ and $B''$ by drawing $A'A''$ and $B'B''$ parallel to $OA$ and also $AB''$ and $BA'$ parallel to $OA$. We see at once that the line $A''B''$ is parallel to $AA'$ as the commutative law requires. We shall show the validity of this statement by the aid of Desargues's theorem in the following manner. Denote the point of intersection of $AB''$ and $A'A''$ by $F$ and that of $BA''$ and $B'B''$ by $D$. Then, in the triangles $AA'F$ and $BB'D$, the homologous sides are parallel to each other. By Desargues's theorem, it follows that the three points $O$, $F$, $D$ lie in a straight line. In consequence of this condition, the two triangles $OAA'$ and $DB''A''$ lie in such a way that the lines joining the corresponding vertices pass through the same point $F$, and since the homologous sides $OA$ and $DB''$, as also $OA'$ and $DA''$, are parallel to each other, then, according to the second part of Desargues's theorem (theorem 32), the third sides $AA'$ and $B''A''$ are parallel to each other.
+   \begin{aligned}
+   &\; a = OA = OA' \; \\
+   &\; b = OB = OB' \;
+   \end{aligned}
+
+Hence, :math:`AA'` and :math:`BB'` are, according to our convention, parallel to the unit-line. Construct the points :math:`A''` and :math:`B''` by drawing :math:`A'A''` and :math:`B'B''` parallel to :math:`OA` and also :math:`AB''` and :math:`BA'` parallel to :math:`OA`. We see at once that the line :math:`A''B''` is parallel to :math:`AA'` as the commutative law requires. We shall show the validity of this statement by the aid of Desargues's theorem in the following manner. Denote the point of intersection of :math:`AB''` and :math:`A'A''` by :math:`F` and that of :math:`BA''` and :math:`B'B''` by :math:`D`. Then, in the triangles :math:`AA'F` and :math:`BB'D`, the homologous sides are parallel to each other. By Desargues's theorem, it follows that the three points :math:`O`, :math:`F`, :math:`D` lie in a straight line. In consequence of this condition, the two triangles :math:`OAA'` and :math:`DB''A''` lie in such a way that the lines joining the corresponding vertices pass through the same point :math:`F`, and since the homologous sides :math:`OA` and :math:`DB''`, as also :math:`OA'` and :math:`DA''`, are parallel to each other, then, according to the second part of Desargues's theorem (theorem 32), the third sides :math:`AA'` and :math:`B''A''` are parallel to each other.
 
 To prove the associative law of addition
 
-$$
-a+(b+c)=(a+b)+c,
-$$
+.. math::
 
-we shall make use of figure 44. In consequence of the commutative law of addition just demonstrated, the above formula states that the straight line $A''B''$ must be parallel to the unit-line.
+   a+(b+c)=(a+b)+c,
+
+we shall make use of figure 44. In consequence of the commutative law of addition just demonstrated, the above formula states that the straight line :math:`A''B''` must be parallel to the unit-line.
 
 The validity of this statement is evident, since the shaded part of figure 44 corresponds exactly with figure 43.
 

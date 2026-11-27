@@ -33,17 +33,17 @@ Wie bereits erwähnt, ist der Satz 32 eine Folge der Axiome I — III; dieser Th
 
 Wir nehmen nun wie in den Kapiteln III und IV eine ebene Geometrie an, in welcher die Axiome I 1 — 2 und II — IV gelten, und denken uns in derselben nach § 15 eine Streckenrechnung eingeführt: dann lässt sich, wie in § 17 dargelegt worden ist, jedem Punkte der Ebene ein Paar von Strecken (x, y) und jeder Geraden ein Verhältnis von drei Strecken (u : v : w) zuordnen derart, dass die lineare Gleichung
 
-$$
-ux + vy + w = 0
-$$
+.. math::
 
-die Bedingung für die vereinigte Lage von Punkt und Gerade darstellt. Das System aller Strecken in unserer Geometrie bildet nach § 17 einen Zahlenbereich, für welchen die in § 13 aufgezählten Eigenschaften 1–16 bestehen, und wir können daher mittelst dieses Zahlenbereiches, ähnlich wie es in § 9 oder § 12 mittelst des Zahlensystems $\Omega$ bez. $\Omega(t)$ geschehen ist, eine räumliche Geometrie construiren: wir setzen zu dem Zwecke fest, dass ein System von drei Strecken $(x, y, z)$ einen Punkt, die Verhältnisse von vier Strecken $(u : v : w : r)$ eine Ebene darstellen möge, während die Geraden als Schnitte zweier Ebenen definirt sind; dabei drückt die lineare Gleichung
+   ux + vy + w = 0
 
-$$
-ux + vy + wz + r = 0
-$$
+die Bedingung für die vereinigte Lage von Punkt und Gerade darstellt. Das System aller Strecken in unserer Geometrie bildet nach § 17 einen Zahlenbereich, für welchen die in § 13 aufgezählten Eigenschaften 1–16 bestehen, und wir können daher mittelst dieses Zahlenbereiches, ähnlich wie es in § 9 oder § 12 mittelst des Zahlensystems :math:`\Omega` bez. :math:`\Omega(t)` geschehen ist, eine räumliche Geometrie construiren: wir setzen zu dem Zwecke fest, dass ein System von drei Strecken :math:`(x, y, z)` einen Punkt, die Verhältnisse von vier Strecken :math:`(u : v : w : r)` eine Ebene darstellen möge, während die Geraden als Schnitte zweier Ebenen definirt sind; dabei drückt die lineare Gleichung
 
-aus, dass der Punkt $(x, y, z)$ auf der Ebene $(u : v : w : r)$ liegt.
+.. math::
+
+   ux + vy + wz + r = 0
+
+aus, dass der Punkt :math:`(x, y, z)` auf der Ebene :math:`(u : v : w : r)` liegt.
 
 der Punkte einer Ebene in Bezug auf eine Gerade in ihr oder endlich die Anordnung der Punkte in Bezug auf eine Ebene im Raume anbetrifft, so wird diese in analoger Weise durch Ungleichungen zwischen Strecken bestimmt, wie dies in § 9 für die Ebene geschehen ist.
 

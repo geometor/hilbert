@@ -20,4 +20,4 @@ Parallel Reading Tracks
 Section Overview
 ----------------
 
-* **§ 10 — Independence of the Parallel Axiom III**: Proves first that existence of parallels follows from `I, II, IV` alone (via alternate angles, `Euclid I.27`), and then restricts the $\Omega$-space of § 9 to the interior of a fixed sphere equipped with projective Cayley–:person:`Klein <klein>` collineations preserving the sphere, yielding a consistent :person:`Bolyai <bolyai>`–:person:`Lobachevsky <lobachevsky>` hyperbolic geometry in which `I, II, IV, V` hold while `III` fails.
+* **§ 10 — Independence of the Parallel Axiom III**: Proves first that existence of parallels follows from `I, II, IV` alone (via alternate angles, `Euclid I.27`), and then restricts the :math:`\Omega`-space of § 9 to the interior of a fixed sphere equipped with projective Cayley–:person:`Klein <klein>` collineations preserving the sphere, yielding a consistent :person:`Bolyai <bolyai>`–:person:`Lobachevsky <lobachevsky>` hyperbolic geometry in which `I, II, IV, V` hold while `III` fails.

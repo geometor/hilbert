@@ -17,23 +17,23 @@
 
 The axioms of this group establish a connection between the concepts indicated above; namely, points, straight lines, and planes. These axioms are as follows:
 
-**I, 1.** *Two distinct points $A$ and $B$ always completely determine a straight line $a$. We write $AB = a$ or $BA = a$*.
+**I, 1.** *Two distinct points* :math:`A` *and* :math:`B` *always completely determine a straight line* :math:`a`. *We write* :math:`AB = a` *or* :math:`BA = a`.
 
-Instead of “determine,” we may also employ other forms of expression; for example, we may say $A$ “lies upon” $a$, $A$ “is a point of” $a$, $a$ “goes through” $A$ “and through” $B$, $a$ “joins” $A$ “and” or “with” $B$, etc. If $A$ lies upon $a$ and at the same time upon another straight line $b$, we make use also of the expression: “The straight lines” $a$ “and” $b$ “have the point $A$ in common,” etc.
+Instead of “determine,” we may also employ other forms of expression; for example, we may say :math:`A` “lies upon” :math:`a`, :math:`A` “is a point of” :math:`a`, :math:`a` “goes through” :math:`A` “and through” :math:`B`, :math:`a` “joins” :math:`A` “and” or “with” :math:`B`, etc. If :math:`A` lies upon :math:`a` and at the same time upon another straight line :math:`b`, we make use also of the expression: “The straight lines” :math:`a` “and” :math:`b` “have the point :math:`A` in common,” etc.
 
-**I, 2.** *Any two distinct points of a straight line completely determine that line; that is, if $AB = a$ and $AC=a$, where $B \neq C$, then is also $BC=a$*.
+**I, 2.** *Any two distinct points of a straight line completely determine that line; that is, if* :math:`AB = a` *and* :math:`AC=a`, *where* :math:`B \neq C`, *then is also* :math:`BC=a`.
 
-**I, 3.** *Three points $A$, $B$, $C$ not situated in the same straight line always completely determine a plane $\alpha$. We write $ABC=\alpha$*.
+**I, 3.** *Three points* :math:`A`, :math:`B`, :math:`C` *not situated in the same straight line always completely determine a plane* :math:`\alpha`. *We write* :math:`ABC=\alpha`.
 
-We employ also the expressions: $A$, $B$, $C$, “lie in” $\alpha$; $A$, $B$, $C$ “are points of” $\alpha$, etc.
+We employ also the expressions: :math:`A`, :math:`B`, :math:`C`, “lie in” :math:`\alpha`; :math:`A`, :math:`B`, :math:`C` “are points of” :math:`\alpha`, etc.
 
-**I, 4.** *Any three points $A$, $B$, $C$ of a plane $\alpha$, which do not lie in the same straight line, completely determine that plane*.
+**I, 4.** *Any three points* :math:`A`, :math:`B`, :math:`C` *of a plane* :math:`\alpha`, *which do not lie in the same straight line, completely determine that plane*.
 
-**I, 5.** *If two points $A$, $B$ of a straight line $a$ lie in a plane $\alpha$, then every point of $a$ lies in $a$*.
+**I, 5.** *If two points* :math:`A`, :math:`B` *of a straight line* :math:`a` *lie in a plane* :math:`\alpha`, *then every point of* :math:`a` *lies in* :math:`a`.
 
-In this case we say: “The straight line a lies in the plane $\alpha$,” etc.
+In this case we say: “The straight line :math:`a` lies in the plane :math:`\alpha`,” etc.
 
-**I, 6.** *If two planes $\alpha$, $\beta$ have a point $A$ in common, then they have at least a second point $B$ in common.*
+**I, 6.** *If two planes* :math:`\alpha`, :math:`\beta` *have a point* :math:`A` *in common, then they have at least a second point* :math:`B` *in common*.
 
 **I, 7.** *Upon every straight line there exist at least two points, in every plane at least three points not lying in the same straight line, and in space there exist at least four points not lying in a plane.*
 

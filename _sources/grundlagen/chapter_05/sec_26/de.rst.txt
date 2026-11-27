@@ -17,166 +17,166 @@
 
 Bei unseren Annahmen gilt auch für die Multiplikation der Strecken das associative Gesetz:
 
-$$
-a(bc) = (ab)c.
-$$
+.. math::
 
-Es seien auf der ersteren der beiden festen Geraden durch $O$ die Strecken
+   a(bc) = (ab)c.
 
-$$
-1 = OA, \quad b = OC, \quad c = OA'
-$$
+Es seien auf der ersteren der beiden festen Geraden durch :math:`O` die Strecken
+
+.. math::
+
+   1 = OA, \quad b = OC, \quad c = OA'
 
 und auf der anderen Geraden die Strecken
 
-$$
-a = OG \quad \text{und} \quad b = OB
-$$
+.. math::
+
+   a = OG \quad \text{und} \quad b = OB
 
 gegeben. Um gemäss der Vorschrift in § 24 der Reihe nach die Strecken
 
-$$
-bc = OB' \; \text{und} \; bc = OC', \quad ab = OD, \quad (ab)c = OD'
-$$
+.. math::
 
-zu construiren, ziehen wir $A'B'$ parallel $AB$, $B'C'$ parallel $BC$, $CD$ parallel $AG$ sowie $A'D'$ parallel $AD$; wie wir sofort erkennen, läuft dann unsere Behauptung darauf hinaus, dass auch $CD$ parallel $C'D'$ sein muss. Bezeichnen wir nun den Schnittpunkt der Geraden $AD$ und $BC$ mit $F$ und den Schnittpunkt der Geraden $A'D'$ und $B'C'$ mit $F'$, so sind in den Dreiecken $ABF$ und $A'B'F'$ die entsprechenden Seiten einander parallel; nach dem Desarguesschen Satze liegen daher die drei Punkte $O, F, F'$ auf einer Geraden. Wegen dieses Umstandes können wir die zweite Aussage des Desarguesschen Satzes auf die beiden Dreiecke $CDF$ und $C'D'F'$ anwenden und erkennen hieraus, dass in der That $CD$ parallel $C'D'$ ist.
+   bc = OB' \; \text{und} \quad bc = OC', \quad ab = OD, \quad (ab)c = OD'
+
+zu construiren, ziehen wir :math:`A'B'` parallel :math:`AB`, :math:`B'C'` parallel :math:`BC`, :math:`CD` parallel :math:`AG` sowie :math:`A'D'` parallel :math:`AD`; wie wir sofort erkennen, läuft dann unsere Behauptung darauf hinaus, dass auch :math:`CD` parallel :math:`C'D'` sein muss. Bezeichnen wir nun den Schnittpunkt der Geraden :math:`AD` und :math:`BC` mit :math:`F` und den Schnittpunkt der Geraden :math:`A'D'` und :math:`B'C'` mit :math:`F'`, so sind in den Dreiecken :math:`ABF` und :math:`A'B'F'` die entsprechenden Seiten einander parallel; nach dem Desarguesschen Satze liegen daher die drei Punkte :math:`O, F, F'` auf einer Geraden. Wegen dieses Umstandes können wir die zweite Aussage des Desarguesschen Satzes auf die beiden Dreiecke :math:`CDF` und :math:`C'D'F'` anwenden und erkennen hieraus, dass in der That :math:`CD` parallel :math:`C'D'` ist.
 
 Wir beweisen endlich in unserer Streckenrechnung auf Grund des Desarguesschen Satzes die beiden distributiven Gesetze:
 
-$$
-a(b + c) = ab + ac \quad \text{und} \quad (a + b)c = ac + bc.
-$$
+.. math::
+
+   a(b + c) = ab + ac \quad \text{und} \quad (a + b)c = ac + bc.
 
 Zum Beweise des ersteren Gesetzes dient die Figur 44 [#fn1]_. In derselben ist
 
-$$
-b = OA', \quad c = OC', \quad ab = OB', \quad ab = OA'', \quad ac = OC'' \; \text{u. s. f.}
-$$
+.. math::
+
+   b = OA', \quad c = OC', \quad ab = OB', \quad ab = OA'', \quad ac = OC'' \; \text{u. s. f.}
 
 und es läuft
 
-| $B''D_2$ parallel $C''D_1$ parallel zur festen Geraden $OA'$,
-| $B'D_1$ parallel $C'D_2$ parallel zur festen Geraden $OA''$;
+| :math:`B''D_2` parallel :math:`C''D_1` parallel zur festen Geraden :math:`OA'`,
+| :math:`B'D_1` parallel :math:`C'D_2` parallel zur festen Geraden :math:`OA''`;
 
-ferner ist $A'A''$ parallel $C'C''$ und
+ferner ist :math:`A'A''` parallel :math:`C'C''` und
 
-$$
-A'B'' \; \text{parallel} \; B'A'' \; \text{parallel} \; F'D_2 \; \text{parallel} \; F''D_1.
-$$
+.. math::
+
+   A'B'' \; \text{parallel} \; B'A'' \; \text{parallel} \; F'D_2 \; \text{parallel} \; F''D_1.
 
 Die Behauptung läuft darauf hinaus, dass dann auch
 
-$$
-F'F'' \; \text{parallel} \; A'A'' \; \text{und} \; C'C''
-$$
+.. math::
+
+   F'F'' \; \text{parallel} \; A'A'' \; \text{und} \quad C'C''
 
 sein muss.
 
 Wir construiren folgende Hülfslinien:
 
-| $F''J$ parallel der festen Geraden $OA'$,
-| $F'J$ parallel der festen Geraden $OA''$;
+| :math:`F''J` parallel der festen Geraden :math:`OA'`,
+| :math:`F'J` parallel der festen Geraden :math:`OA''`;
 
-die Schnittpunkte der Geraden $C''D_1$ und $C'D_2$, $C''D_1$ und $F'J$, $C'D_2$ und $F''J$ heissen $G, H_1, H_2$; endlich erhalten wir noch die weiteren in der Figur 44 punktirten Hülfslinien durch Verbindung bereits construirter Punkte.
+die Schnittpunkte der Geraden :math:`C''D_1` und :math:`C'D_2`, :math:`C''D_1` und :math:`F'J`, :math:`C'D_2` und :math:`F''J` heissen :math:`G, H_1, H_2`; endlich erhalten wir noch die weiteren in der Figur 44 punktirten Hülfslinien durch Verbindung bereits construirter Punkte.
 
-In den beiden Dreiecken $A'B''C''$ und $F'D_2G$ laufen die Verbindungsgeraden entsprechender Ecken einander parallel; nach der zweiten Aussage des Desarguesschen Satzes folgt daher, dass
+In den beiden Dreiecken :math:`A'B''C''` und :math:`F'D_2G` laufen die Verbindungsgeraden entsprechender Ecken einander parallel; nach der zweiten Aussage des Desarguesschen Satzes folgt daher, dass
 
-$$
-A'C'' \; \text{parallel} \; F'G
-$$
+.. math::
 
-sein muss. In den beiden Dreiecken $A'C''F''$ und $F'GH_2$ laufen ebenfalls die Verbindungsgeraden entsprechender Ecken einander parallel; wegen der vorhin gefundenen Thatsache folgt nach der zweiten Aussage des Desarguesschen Satzes, dass
+   A'C'' \; \text{parallel} \; F'G
 
-$$
-A'F'' \; \text{parallel} \; F'H_2
-$$
+sein muss. In den beiden Dreiecken :math:`A'C''F''` und :math:`F'GH_2` laufen ebenfalls die Verbindungsgeraden entsprechender Ecken einander parallel; wegen der vorhin gefundenen Thatsache folgt nach der zweiten Aussage des Desarguesschen Satzes, dass
 
-sein muss. Da somit in den beiden wagerecht schraffirten Dreiecken $OA'F''$ und $JH_2F'$ die entsprechenden Seiten parallel sind, so lehrt der Desarguessche Satz, dass die drei Verbindungsgeraden
+.. math::
 
-$$
-OJ, \quad A'H_2, \quad F''F'
-$$
+   A'F'' \; \text{parallel} \; F'H_2
 
-sich in einem und demselben Punkte, etwa in $P$, treffen.
+sein muss. Da somit in den beiden wagerecht schraffirten Dreiecken :math:`OA'F''` und :math:`JH_2F'` die entsprechenden Seiten parallel sind, so lehrt der Desarguessche Satz, dass die drei Verbindungsgeraden
+
+.. math::
+
+   OJ, \quad A'H_2, \quad F''F'
+
+sich in einem und demselben Punkte, etwa in :math:`P`, treffen.
 
 Auf dieselbe Weise finden wir, dass auch
 
-$$
-A''F' \; \text{parallel} \; F''H_1
-$$
+.. math::
 
-sein muss und da somit in den beiden schräg schraffierten Dreiecken $OA''F'$ und $JH_1F''$ die entsprechenden Seiten parallel laufen, so treffen sich dem Desarguesschen Satze zufolge die drei Verbindungsgeraden
+   A''F' \; \text{parallel} \; F''H_1
 
-$$
-OJ, \quad A''H_1, \quad F'F''
-$$
+sein muss und da somit in den beiden schräg schraffierten Dreiecken :math:`OA''F'` und :math:`JH_1F''` die entsprechenden Seiten parallel laufen, so treffen sich dem Desarguesschen Satze zufolge die drei Verbindungsgeraden
 
-ebenfalls in einem Punkte — dem Punkte $P$.
+.. math::
 
-Nunmehr laufen für die Dreiecke $OA'A''$ und $JH_2H_1$ die Verbindungsgeraden entsprechender Ecken durch den nämlichen Punkt $P$, und mithin folgt, dass
+   OJ, \quad A''H_1, \quad F'F''
 
-$$
-H_1H_2 \; \text{parallel} \; A'A''
-$$
+ebenfalls in einem Punkte — dem Punkte :math:`P`.
+
+Nunmehr laufen für die Dreiecke :math:`OA'A''` und :math:`JH_2H_1` die Verbindungsgeraden entsprechender Ecken durch den nämlichen Punkt :math:`P`, und mithin folgt, dass
+
+.. math::
+
+   H_1H_2 \; \text{parallel} \; A'A''
 
 sein muss; mithin ist auch
 
-$$
-H_1H_2 \; \text{parallel} \; C'C''.
-$$
+.. math::
 
-Endlich betrachten wir die Figur $F''H_2C'C''H_1F'F''$. Da in derselben
+   H_1H_2 \; \text{parallel} \; C'C''.
 
-| $F''H_2$ parallel $C'F'$ parallel $C''H_1$,
-| $H_2C'$ parallel $F''C''$ parallel $H_1F'$,
-| $C'C''$ parallel $H_1H_2$
+Endlich betrachten wir die Figur :math:`F''H_2C'C''H_1F'F''`. Da in derselben
+
+| :math:`F''H_2` parallel :math:`C'F'` parallel :math:`C''H_1`,
+| :math:`H_2C'` parallel :math:`F''C''` parallel :math:`H_1F'`,
+| :math:`C'C''` parallel :math:`H_1H_2`
 
 ausfällt, so erkennen wir hierin die Figur 41 wieder, die wir in § 25 zum Beweise für das commutative Gesetz der Addition benutzt haben. Die entsprechenden Schlüsse wie dort zeigen dann, dass
 
-$$
-F'F'' \; \text{parallel} \; H_1H_2
-$$
+.. math::
+
+   F'F'' \; \text{parallel} \; H_1H_2
 
 sein muss und da mithin auch
 
-$$
-F'F'' \; \text{parallel} \; A'A''
-$$
+.. math::
+
+   F'F'' \; \text{parallel} \; A'A''
 
 ausfällt, so ist der Beweis unserer Behauptung vollständig erbracht.
 
 Zum Beweise der zweiten Formel des distributiven Gesetzes dient die völlig verschiedene Figur 45. In derselben ist
 
-$$
-1 = OD, \quad a = OA, \quad a = OB, \quad b = OG, \quad c = OD',
-$$
+.. math::
 
-$$
-ac = OA', \quad ac = OB', \quad bc = OG' \; \text{u. s. f.}
-$$
+   1 = OD, \quad a = OA, \quad a = OB, \quad b = OG, \quad c = OD',
+
+.. math::
+
+   ac = OA', \quad ac = OB', \quad bc = OG' \; \text{u. s. f.}
 
 und es läuft
 
-| $GH$ parallel $G'H'$ parallel zur festen Geraden $OA$,
-| $AH$ parallel $A'H'$ parallel zur festen Geraden $OB$
+| :math:`GH` parallel :math:`G'H'` parallel zur festen Geraden :math:`OA`,
+| :math:`AH` parallel :math:`A'H'` parallel zur festen Geraden :math:`OB`
 
 und ferner
 
-| $AB$ parallel $A'B'$,
-| $BD$ parallel $B'D'$,
-| $DG$ parallel $D'G'$,
-| $HJ$ parallel $H'J'$.
+| :math:`AB` parallel :math:`A'B'`,
+| :math:`BD` parallel :math:`B'D'`,
+| :math:`DG` parallel :math:`D'G'`,
+| :math:`HJ` parallel :math:`H'J'`.
 
 Die Behauptung läuft darauf hinaus, dass dann auch
 
-$$
-DJ \; \text{parallel} \; D'J'
-$$
+.. math::
+
+   DJ \; \text{parallel} \; D'J'
 
 sein muss.
 
-Wir bezeichnen die Punkte, in denen $BD$ und $GD$ die Gerade $AH$ treffen, bez. mit $C$ und $F$ und ferner die Punkte, in denen $B'D'$ und $G'D'$ die Gerade $A'H'$ treffen, bez. mit $C'$ und $F'$; endlich ziehen wir noch die in der Figur 45 punktirten Hülfslinien $FJ$ und $F'J'$.
+Wir bezeichnen die Punkte, in denen :math:`BD` und :math:`GD` die Gerade :math:`AH` treffen, bez. mit :math:`C` und :math:`F` und ferner die Punkte, in denen :math:`B'D'` und :math:`G'D'` die Gerade :math:`A'H'` treffen, bez. mit :math:`C'` und :math:`F'`; endlich ziehen wir noch die in der Figur 45 punktirten Hülfslinien :math:`FJ` und :math:`F'J'`.
 
-In den Dreiecken $ABC$ und $A'B'C'$ laufen die entsprechenden Seiten parallel; mithin liegen nach dem Desarguesschen Satze die drei Punkte $O, C, C'$ auf einer Geraden. Ebenso folgt dann aus der Betrachtung der Dreiecke $CDF$ und $C'D'F'$, dass $O, F, F'$ auf einer Geraden liegen, und die Betrachtung der Dreiecke $FGH$ und $F'G'H'$ lehrt, dass $O, H, H'$ Punkte einer Geraden sind. Nun laufen in den Dreiecken $FHJ$ und $F'H'J'$ die Verbindungsgeraden entsprechender Ecken durch den nämlichen Punkt $O$, und mithin sind zufolge der zweiten Aussage des Desarguesschen Satzes die Geraden $FJ$ und $F'J'$ einander parallel. Endlich zeigt dann die Betrachtung der Dreiecke $DFJ$ und $D'F'J'$, dass die Geraden $DJ$ und $D'J'$ einander parallel sind, und damit ist der Beweis unserer Behauptung vollständig erbracht.
+In den Dreiecken :math:`ABC` und :math:`A'B'C'` laufen die entsprechenden Seiten parallel; mithin liegen nach dem Desarguesschen Satze die drei Punkte :math:`O, C, C'` auf einer Geraden. Ebenso folgt dann aus der Betrachtung der Dreiecke :math:`CDF` und :math:`C'D'F'`, dass :math:`O, F, F'` auf einer Geraden liegen, und die Betrachtung der Dreiecke :math:`FGH` und :math:`F'G'H'` lehrt, dass :math:`O, H, H'` Punkte einer Geraden sind. Nun laufen in den Dreiecken :math:`FHJ` und :math:`F'H'J'` die Verbindungsgeraden entsprechender Ecken durch den nämlichen Punkt :math:`O`, und mithin sind zufolge der zweiten Aussage des Desarguesschen Satzes die Geraden :math:`FJ` und :math:`F'J'` einander parallel. Endlich zeigt dann die Betrachtung der Dreiecke :math:`DFJ` und :math:`D'F'J'`, dass die Geraden :math:`DJ` und :math:`D'J'` einander parallel sind, und damit ist der Beweis unserer Behauptung vollständig erbracht.
 
 .. [#fn1] Die Figuren 44, 45 und 47 hat Herr Dr. von Schaper entworfen und auch die zugehörigen Beweise ausgeführt.

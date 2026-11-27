@@ -29,21 +29,21 @@ As we have already mentioned, theorem 32 is a consequence of the axioms I–III.
 
 Let us assume, as in §§ 13–21, pp. 37–70, that we have a plane geometry in which the axioms I, 1–2 and II–IV all hold and, also, that we have introduced in this geometry an algebra of segments conforming to § 15.
 
-Now, as has already been established in § 17, there may be made to correspond to each point in the plane a pair of segments $(x, y)$ and to each straight line a ratio of three segments $(u:v:w)$, so that the linear equation
+Now, as has already been established in § 17, there may be made to correspond to each point in the plane a pair of segments :math:`(x, y)` and to each straight line a ratio of three segments :math:`(u:v:w)`, so that the linear equation
 
-$$
-ux+vy+w=0
-$$
+.. math::
 
-expresses the condition that the point is situated upon the straight line. The system composed of all the segments in our geometry forms, according to § 17, a domain of numbers for which the properties (1–16), enumerated in § 13, are valid. We can, therefore, by means of this domain of numbers, construct a geometry of space in a manner similar to that already employed in § 9 or in § 12, where we made use of the systems of numbers $\Omega$ and $\Omega(t)$, respectively. For this purpose, we assume that a system of three segments $(x, y, z)$ shall represent a point, and that the ratio of four segments $(u:v:w:r)$ shall represent a plane, while a straight line is defined as the intersection of two planes. Hence, the linear equation
+   ux+vy+w=0
 
-$$
-ux+vy+wz+r = 0
-$$
+expresses the condition that the point is situated upon the straight line. The system composed of all the segments in our geometry forms, according to § 17, a domain of numbers for which the properties (1–16), enumerated in § 13, are valid. We can, therefore, by means of this domain of numbers, construct a geometry of space in a manner similar to that already employed in § 9 or in § 12, where we made use of the systems of numbers :math:`\Omega` and :math:`\Omega(t)`, respectively. For this purpose, we assume that a system of three segments :math:`(x, y, z)` shall represent a point, and that the ratio of four segments :math:`(u:v:w:r)` shall represent a plane, while a straight line is defined as the intersection of two planes. Hence, the linear equation
 
-expresses the fact that the point $(x, y, z)$ lies in the plane $(u: v: w: r)$. Finally, we determine the arrangement of the points upon a straight line, or the points of a plane with respect to a straight line situated in this plane, or the arrangement of the points in space with respect to a plane, by means of inequalities in a manner similar to the method employed for the plane in § 9.
+.. math::
 
-Since we obtain again the original plane geometry by putting $z=0$, we know that our plane geometry can be regarded as a part of geometry of space. Now, the validity of Desargues's theorem is, according to the above considerations, a necessary condition for this result.  Hence, in the assumed plane geometry, it follows that Desargues's theorem must also hold.
+   ux+vy+wz+r = 0
+
+expresses the fact that the point :math:`(x, y, z)` lies in the plane :math:`(u: v: w: r)`. Finally, we determine the arrangement of the points upon a straight line, or the points of a plane with respect to a straight line situated in this plane, or the arrangement of the points in space with respect to a plane, by means of inequalities in a manner similar to the method employed for the plane in § 9.
+
+Since we obtain again the original plane geometry by putting :math:`z=0`, we know that our plane geometry can be regarded as a part of geometry of space. Now, the validity of Desargues's theorem is, according to the above considerations, a necessary condition for this result.  Hence, in the assumed plane geometry, it follows that Desargues's theorem must also hold.
 
 It will be seen that the result just stated may also be deduced without difficulty from theorem 23 in the theory of proportion.
 

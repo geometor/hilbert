@@ -17,31 +17,31 @@
 
 We see immediately that, for the new algebra of segments established in Section 24, theorems 1–6 of Section 13 are fulfilled. Moreover, by aid of Desargues's theorem, we have already shown in Sections 25 and 26 that the laws 7–11 of operation, as given in Section 13, are all valid in this algebra of segments. With the single exception of the commutative law of multiplication, therefore, all of the theorems of connection hold.
 
-Finally, in order to make possible an order of magnitude of these segments, we make the following convention. Let $A$ and $B$ be any two distinct points of the straight line $OE$. Suppose then that the four points $O$, $E$, $A$, $B$ stand, in conformity with axiom II, 4, in a certain sequence. If this sequence is one of the following six possible ones, viz.:
+Finally, in order to make possible an order of magnitude of these segments, we make the following convention. Let :math:`A` and :math:`B` be any two distinct points of the straight line :math:`OE`. Suppose then that the four points :math:`O`, :math:`E`, :math:`A`, :math:`B` stand, in conformity with axiom II, 4, in a certain sequence. If this sequence is one of the following six possible ones, viz.:
 
-$$
-ABOE, AOBE, AOEB, OABE, OAEB, OEAB,
-$$
+.. math::
 
-then we will call the segment $a = OA$ *smaller* than the segment $b = OB$ and indicate the same by writing
+   ABOE, AOBE, AOEB, OABE, OAEB, OEAB,
 
-$$
-a < b.
-$$
+then we will call the segment :math:`a = OA` *smaller* than the segment :math:`b = OB` and indicate the same by writing
+
+.. math::
+
+   a < b.
 
 On the other hand, if the sequence is one of the six following ones, viz.:
 
-$$
-BAOE, BOAE, BOEA, OBAE, OBEA, OEBA,
-$$
+.. math::
 
-then we will call the segment $a = OA$ greater than the segment $b = OB$, and we write accordingly
+   BAOE, BOAE, BOEA, OBAE, OBEA, OEBA,
 
-$$
-a > b.
-$$
+then we will call the segment :math:`a = OA` greater than the segment :math:`b = OB`, and we write accordingly
 
-This convention remains in force whenever $A$ or $B$ coincides with $O$ or $E$, only then the coinciding points are to be regarded as a single point, and, consequently, we have only to consider the order of three points.
+.. math::
+
+   a > b.
+
+This convention remains in force whenever :math:`A` or :math:`B` coincides with :math:`O` or :math:`E`, only then the coinciding points are to be regarded as a single point, and, consequently, we have only to consider the order of three points.
 
 Upon the basis of the axioms of group II, we can easily show also that, in our algebra of segments, the laws 13–16 of operation given in Section 13 are fulfilled. Consequently, the totality of all the different segments forms a complex number system for which the laws 1–11, 13–16 of Section 13 hold; that is to say, all of the usual laws of operation except the commutative law of multiplication and the theorem of Archimedes. We will call such a system, briefly, a *desarguesian number system.*
 
