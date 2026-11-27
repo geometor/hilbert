@@ -11,12 +11,6 @@
 
 .. rubric:: Structural & Mathematical Overview — *§ 28: Der Inbegriff der Strecken aufgefasst als complexes Zahlensystem*
 
-Parallel Reading Tracks
------------------------
-
-* **English (1902 Townsend)**: :ref:`§ 28 (p. 95) <grundlagen-en-s28>`
-* **Deutsch (1899 Teubner)**: :ref:`§ 28 (S. 66) <grundlagen-de-s28>`
-
 Section Overview
 ----------------
 

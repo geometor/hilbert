@@ -11,12 +11,6 @@
 
 .. rubric:: Structural & Mathematical Overview — *§ 20: Das Flächenmass von Dreiecken und Polygonen*
 
-Parallel Reading Tracks
------------------------
-
-* **English (1902 Townsend)**: :ref:`§ 20 (p. 63) <grundlagen-en-s20>`
-* **Deutsch (1899 Teubner)**: :ref:`§ 20 (S. 43) <grundlagen-de-s20>`
-
 Section Overview
 ----------------
 

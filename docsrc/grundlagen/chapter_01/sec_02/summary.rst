@@ -11,12 +11,6 @@
 
 .. rubric:: Structural & Mathematical Overview — *§ 2: Die Axiomgruppe I: Axiome der Verknüpfung*
 
-Parallel Reading Tracks
------------------------
-
-* **English (1902 Townsend)**: :ref:`§ 2 (p. 4) <grundlagen-en-s2>`
-* **Deutsch (1899 Teubner)**: :ref:`§ 2 (S. 5) <grundlagen-de-s2>`
-
 Section Overview
 ----------------
 

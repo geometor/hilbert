@@ -11,12 +11,6 @@
 
 .. rubric:: Structural & Mathematical Overview — *§ 27: Die Gleichung der Geraden auf Grund der neuen Streckenrechnung*
 
-Parallel Reading Tracks
------------------------
-
-* **English (1902 Townsend)**: :ref:`§ 27 (p. 90) <grundlagen-en-s27>`
-* **Deutsch (1899 Teubner)**: :ref:`§ 27 (S. 63) <grundlagen-de-s27>`
-
 Section Overview
 ----------------
 

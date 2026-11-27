@@ -11,12 +11,6 @@
 
 .. rubric:: Structural & Mathematical Overview — *§ 37: Analytische Darstellung der Coordinaten konstruirbarer Punkte*
 
-Parallel Reading Tracks
------------------------
-
-* **English (1902 Townsend)**: :ref:`§ 37 (p. 119) <grundlagen-en-s37>`
-* **Deutsch (1899 Teubner)**: :ref:`§ 37 (S. 80) <grundlagen-de-s37>`
-
 Section Overview
 ----------------
 

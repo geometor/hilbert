@@ -11,12 +11,6 @@
 
 .. rubric:: Structural & Mathematical Overview — *§ 7: Folgerungen aus den Axiomen der Congruenz*
 
-Parallel Reading Tracks
------------------------
-
-* **English (1902 Townsend)**: :ref:`§ 7 (p. 16) <grundlagen-en-s7>`
-* **Deutsch (1899 Teubner)**: :ref:`§ 7 (S. 12) <grundlagen-de-s7>`
-
 Section Overview
 ----------------
 

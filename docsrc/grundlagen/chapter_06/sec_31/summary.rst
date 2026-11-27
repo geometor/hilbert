@@ -11,12 +11,6 @@
 
 .. rubric:: Structural & Mathematical Overview — *§ 31: Zwei Sätze über die Beweisbarkeit des Pascalschen Satzes*
 
-Parallel Reading Tracks
------------------------
-
-* **English (1902 Townsend)**: :ref:`§ 31 (p. 103) <grundlagen-en-s31>`
-* **Deutsch (1899 Teubner)**: :ref:`§ 31 (S. 71) <grundlagen-de-s31>`
-
 Section Overview
 ----------------
 

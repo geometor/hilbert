@@ -11,12 +11,6 @@
 
 .. rubric:: Structural & Mathematical Overview — *§ 3: Die Axiomgruppe II: Axiome der Anordnung*
 
-Parallel Reading Tracks
------------------------
-
-* **English (1902 Townsend)**: :ref:`§ 3 (p. 6) <grundlagen-en-s3>`
-* **Deutsch (1899 Teubner)**: :ref:`§ 3 (S. 6) <grundlagen-de-s3>`
-
 Section Overview
 ----------------
 

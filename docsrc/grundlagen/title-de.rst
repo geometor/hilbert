@@ -22,7 +22,7 @@ Grundlagen der Geometrie
 
    | **Verfasser:** :person:`David Hilbert <hilbert>` (1862–1943)
    | **Erstausgabe (1899):** *Festschrift zur Feier der Enthüllung des Gauss-Weber-Denkmals in Göttingen*, Erster Theil, B. G. Teubner, Leipzig, 1899.
-   | **Digitaler Kritischer Kodex:** Synchronisierte 4-Spur-Ausgabe (*German · English · Summary · Notes*) im GEOMETOR-Kanon.
+   | **Digitaler Kritischer Kodex:** Synchronisierte 4-Spur-Ausgabe (*English · German · Summary · Notes*) im GEOMETOR-Kanon.
 
 .. epigraph::
 

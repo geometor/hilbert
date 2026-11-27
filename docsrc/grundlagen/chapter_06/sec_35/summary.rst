@@ -11,12 +11,6 @@
 
 .. rubric:: Structural & Mathematical Overview — *§ 35: Beweis eines beliebigen Schnittpunktsatzes mittelst des Desarguesschen und des Pascalschen Satzes*
 
-Parallel Reading Tracks
------------------------
-
-* **English (1902 Townsend)**: :ref:`§ 35 (p. 112) <grundlagen-en-s35>`
-* **Deutsch (1899 Teubner)**: :ref:`§ 35 (S. 76) <grundlagen-de-s35>`
-
 Section Overview
 ----------------
 

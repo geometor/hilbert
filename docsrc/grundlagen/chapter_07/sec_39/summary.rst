@@ -11,12 +11,6 @@
 
 .. rubric:: Structural & Mathematical Overview — *§ 39: Kriterium für die Ausführbarkeit geometrischer Konstruktionen mittelst Lineals und Streckenübertragers*
 
-Parallel Reading Tracks
------------------------
-
-* **English (1902 Townsend)**: :ref:`§ 39 (p. 126) <grundlagen-en-s39>`
-* **Deutsch (1899 Teubner)**: :ref:`§ 39 (S. 85) <grundlagen-de-s39>`
-
 Section Overview
 ----------------
 

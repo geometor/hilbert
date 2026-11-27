@@ -11,12 +11,6 @@
 
 .. rubric:: Structural & Mathematical Overview — *§ 36: Die geometrischen Konstruktionen mittelst Lineals und Streckenübertragers*
 
-Parallel Reading Tracks
------------------------
-
-* **English (1902 Townsend)**: :ref:`§ 36 (p. 115) <grundlagen-en-s36>`
-* **Deutsch (1899 Teubner)**: :ref:`§ 36 (S. 78) <grundlagen-de-s36>`
-
 Section Overview
 ----------------
 

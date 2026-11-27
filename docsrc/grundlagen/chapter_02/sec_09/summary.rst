@@ -11,12 +11,6 @@
 
 .. rubric:: Structural & Mathematical Overview — *§ 9: Die Widerspruchslosigkeit der Axiome*
 
-Parallel Reading Tracks
------------------------
-
-* **English (1902 Townsend)**: :ref:`§ 9 (p. 27) <grundlagen-en-s9>`
-* **Deutsch (1899 Teubner)**: :ref:`§ 9 (S. 19) <grundlagen-de-s9>`
-
 Section Overview
 ----------------
 

@@ -11,12 +11,6 @@
 
 .. rubric:: Structural & Mathematical Overview — *§ 1: Die Elemente der Geometrie und die fünf Axiomgruppen*
 
-Parallel Reading Tracks
------------------------
-
-* **English (1902 Townsend)**: :ref:`§ 1 (p. 3) <grundlagen-en-s1>`
-* **Deutsch (1899 Teubner)**: :ref:`§ 1 (S. 4) <grundlagen-de-s1>`
-
 Section Overview
 ----------------
 

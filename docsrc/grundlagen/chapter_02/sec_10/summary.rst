@@ -11,12 +11,6 @@
 
 .. rubric:: Structural & Mathematical Overview — *§ 10: Die Unabhängigkeit des Parallelenaxioms (Nicht-Euklidische Geometrie)*
 
-Parallel Reading Tracks
------------------------
-
-* **English (1902 Townsend)**: :ref:`§ 10 (p. 30) <grundlagen-en-s10>`
-* **Deutsch (1899 Teubner)**: :ref:`§ 10 (S. 21) <grundlagen-de-s10>`
-
 Section Overview
 ----------------
 
