@@ -11,12 +11,6 @@
 
 .. rubric:: Structural & Mathematical Overview — *§ 16: Die Proportionen und die Aehnlichkeitssätze*
 
-Parallel Reading Tracks
------------------------
-
-* **English (1902 Townsend)**: :ref:`§ 16 (p. 50) <grundlagen-en-s16>`
-* **Deutsch (1899 Teubner)**: :ref:`§ 16 (S. 35) <grundlagen-de-s16>`
-
 Section Overview
 ----------------
 

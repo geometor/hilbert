@@ -11,12 +11,6 @@
 
 .. rubric:: Structural & Mathematical Overview — *§ 26: Das associative Gesetz der Multiplikation und die beiden distributiven Gesetze in der neuen Streckenrechnung*
 
-Parallel Reading Tracks
------------------------
-
-* **English (1902 Townsend)**: :ref:`§ 26 (p. 84) <grundlagen-en-s26>`
-* **Deutsch (1899 Teubner)**: :ref:`§ 26 (S. 59) <grundlagen-de-s26>`
-
 Section Overview
 ----------------
 

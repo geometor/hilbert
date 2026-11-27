@@ -11,12 +11,6 @@
 
 .. rubric:: Structural & Mathematical Overview — *§ 34: Beweis der beiden Sätze über den Pascalschen Satz (Nicht-Pascalsche Geometrie)*
 
-Parallel Reading Tracks
------------------------
-
-* **English (1902 Townsend)**: :ref:`§ 34 (p. 110) <grundlagen-en-s34>`
-* **Deutsch (1899 Teubner)**: :ref:`§ 34 (S. 75) <grundlagen-de-s34>`
-
 Section Overview
 ----------------
 

@@ -11,12 +11,6 @@
 
 .. rubric:: Structural & Mathematical Overview — *§ 17: Die Gleichungen der Geraden und Ebenen*
 
-Parallel Reading Tracks
------------------------
-
-* **English (1902 Townsend)**: :ref:`§ 17 (p. 53) <grundlagen-en-s17>`
-* **Deutsch (1899 Teubner)**: :ref:`§ 17 (S. 37) <grundlagen-de-s17>`
-
 Section Overview
 ----------------
 

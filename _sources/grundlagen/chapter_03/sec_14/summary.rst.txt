@@ -11,12 +11,6 @@
 
 .. rubric:: Structural & Mathematical Overview — *§ 14: Beweis des Pascalschen Satzes*
 
-Parallel Reading Tracks
------------------------
-
-* **English (1902 Townsend)**: :ref:`§ 14 (p. 40) <grundlagen-en-s14>`
-* **Deutsch (1899 Teubner)**: :ref:`§ 14 (S. 28) <grundlagen-de-s14>`
-
 Section Overview
 ----------------
 

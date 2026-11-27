@@ -11,12 +11,6 @@
 
 .. rubric:: Structural & Mathematical Overview — *§ 30: Die Bedeutung des Desarguesschen Satzes*
 
-Parallel Reading Tracks
------------------------
-
-* **English (1902 Townsend)**: :ref:`§ 30 (p. 101) <grundlagen-en-s30>`
-* **Deutsch (1899 Teubner)**: :ref:`§ 30 (S. 70) <grundlagen-de-s30>`
-
 Section Overview
 ----------------
 

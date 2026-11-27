@@ -11,12 +11,6 @@
 
 .. rubric:: Structural & Mathematical Overview — *§ 25: Das commutative und associative Gesetz der Addition in der neuen Streckenrechnung*
 
-Parallel Reading Tracks
------------------------
-
-* **English (1902 Townsend)**: :ref:`§ 25 (p. 82) <grundlagen-en-s25>`
-* **Deutsch (1899 Teubner)**: :ref:`§ 25 (S. 57) <grundlagen-de-s25>`
-
 Section Overview
 ----------------
 

@@ -11,12 +11,6 @@
 
 .. rubric:: Structural & Mathematical Overview — *§ 12: Die Unabhängigkeit des Stetigkeitsaxioms V (Nicht-Archimedische Geometrie)*
 
-Parallel Reading Tracks
------------------------
-
-* **English (1902 Townsend)**: :ref:`§ 12 (p. 34) <grundlagen-en-s12>`
-* **Deutsch (1899 Teubner)**: :ref:`§ 12 (S. 24) <grundlagen-de-s12>`
-
 Section Overview
 ----------------
 

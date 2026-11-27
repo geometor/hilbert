@@ -46,5 +46,5 @@ Cross-Repository Concordance Links
 
 * **§ 2** (:ref:`concordance-sec-02-connection`): Establishes the planar (I 1–2) and spatial (I 3–7) incidence axioms and proves intersection uniqueness and existence of non-collinear triples (Theorems 1–2).
   - :external+euclid:doc:`Euclid — Post. 1, Post. 2, C.N. 9, XI.1–3 <heath/volume_I/book_i/postulates/index>`: Formalizes both existence (I 1: Postulate 1) and uniqueness (I 2: Common Notion 9, two lines do not enclose a space) of the straight line through two points, together with planar and 3D incidence (XI.1–3) and dimensional lower bounds (I 6–7).
-  - :external+hoenen:doc:`Hoenen — Caput IV § 1–2 <de_noetica_geometriae/caput-4/caput-4-en>`: Investigates how the unique determination of a straight line by two points is grasped by intuitive formal abstraction prior to axiomatic postulation.
+  - :external+hoenen:doc:`Hoenen — Caput IV § 1–2 <de_noetica_geometriae/caput-4/index>`: Investigates how the unique determination of a straight line by two points is grasped by intuitive formal abstraction prior to axiomatic postulation.
   - :external+pappus:doc:`Pappus — Projective Incidence Foundation <index>`: Planar incidence I 1–2 and spatial plane-intersection I 3–6 provide the projective incidence skeleton upon which spatial Desargues (§ 22) rests.

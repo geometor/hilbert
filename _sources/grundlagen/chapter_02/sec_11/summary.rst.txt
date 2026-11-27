@@ -11,12 +11,6 @@
 
 .. rubric:: Structural & Mathematical Overview — *§ 11: Die Unabhängigkeit der Congruenzaxiome*
 
-Parallel Reading Tracks
------------------------
-
-* **English (1902 Townsend)**: :ref:`§ 11 (p. 32) <grundlagen-en-s11>`
-* **Deutsch (1899 Teubner)**: :ref:`§ 11 (S. 23) <grundlagen-de-s11>`
-
 Section Overview
 ----------------
 

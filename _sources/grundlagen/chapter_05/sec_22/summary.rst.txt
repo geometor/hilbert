@@ -11,12 +11,6 @@
 
 .. rubric:: Structural & Mathematical Overview — *§ 22: Der Desarguessche Satz und der Beweis desselben in der Ebene mit Hülfe der Congruenzaxiome*
 
-Parallel Reading Tracks
------------------------
-
-* **English (1902 Townsend)**: :ref:`§ 22 (p. 71) <grundlagen-en-s22>`
-* **Deutsch (1899 Teubner)**: :ref:`§ 22 (S. 49) <grundlagen-de-s22>`
-
 Section Overview
 ----------------
 

@@ -11,12 +11,6 @@
 
 .. rubric:: Structural & Mathematical Overview — *§ 29: Aufbau einer räumlichen Geometrie mit Hülfe eines Desarguesschen Zahlensystems*
 
-Parallel Reading Tracks
------------------------
-
-* **English (1902 Townsend)**: :ref:`§ 29 (p. 97) <grundlagen-en-s29>`
-* **Deutsch (1899 Teubner)**: :ref:`§ 29 (S. 67) <grundlagen-de-s29>`
-
 Section Overview
 ----------------
 

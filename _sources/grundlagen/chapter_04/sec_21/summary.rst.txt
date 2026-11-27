@@ -11,12 +11,6 @@
 
 .. rubric:: Structural & Mathematical Overview — *§ 21: Die Inhaltsgleichheit und das Flächenmass*
 
-Parallel Reading Tracks
------------------------
-
-* **English (1902 Townsend)**: :ref:`§ 21 (p. 67) <grundlagen-en-s21>`
-* **Deutsch (1899 Teubner)**: :ref:`§ 21 (S. 46) <grundlagen-de-s21>`
-
 Section Overview
 ----------------
 

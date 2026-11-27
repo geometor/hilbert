@@ -11,12 +11,6 @@
 
 .. rubric:: Structural & Mathematical Overview — *§ 33: Das commutative Gesetz der Multiplikation im Nicht-Archimedischen Zahlensystem*
 
-Parallel Reading Tracks
------------------------
-
-* **English (1902 Townsend)**: :ref:`§ 33 (p. 107) <grundlagen-en-s33>`
-* **Deutsch (1899 Teubner)**: :ref:`§ 33 (S. 73) <grundlagen-de-s33>`
-
 Section Overview
 ----------------
 

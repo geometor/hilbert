@@ -11,12 +11,6 @@
 
 .. rubric:: Structural & Mathematical Overview — *§ 23: Die Nichtbeweisbarkeit des Desarguesschen Satzes in der Ebene ohne Hülfe der Congruenzaxiome*
 
-Parallel Reading Tracks
------------------------
-
-* **English (1902 Townsend)**: :ref:`§ 23 (p. 74) <grundlagen-en-s23>`
-* **Deutsch (1899 Teubner)**: :ref:`§ 23 (S. 51) <grundlagen-de-s23>`
-
 Section Overview
 ----------------
 

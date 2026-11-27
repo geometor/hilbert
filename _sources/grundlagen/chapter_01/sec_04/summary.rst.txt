@@ -11,12 +11,6 @@
 
 .. rubric:: Structural & Mathematical Overview — *§ 4: Folgerungen aus den Axiomen der Verknüpfung und der Anordnung*
 
-Parallel Reading Tracks
------------------------
-
-* **English (1902 Townsend)**: :ref:`§ 4 (p. 8) <grundlagen-en-s4>`
-* **Deutsch (1899 Teubner)**: :ref:`§ 4 (S. 7) <grundlagen-de-s4>`
-
 Section Overview
 ----------------
 

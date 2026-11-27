@@ -11,12 +11,6 @@
 
 .. rubric:: Structural & Mathematical Overview — *§ 19: Parallelogramme und Dreiecke mit gleicher Grundlinie und Höhe*
 
-Parallel Reading Tracks
------------------------
-
-* **English (1902 Townsend)**: :ref:`§ 19 (p. 60) <grundlagen-en-s19>`
-* **Deutsch (1899 Teubner)**: :ref:`§ 19 (S. 41) <grundlagen-de-s19>`
-
 Section Overview
 ----------------
 

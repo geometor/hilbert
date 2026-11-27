@@ -11,12 +11,6 @@
 
 .. rubric:: Structural & Mathematical Overview — *§ 18: Die Flächengleichheit und Inhaltsgleichheit von Polygonen*
 
-Parallel Reading Tracks
------------------------
-
-* **English (1902 Townsend)**: :ref:`§ 18 (p. 57) <grundlagen-en-s18>`
-* **Deutsch (1899 Teubner)**: :ref:`§ 18 (S. 40) <grundlagen-de-s18>`
-
 Section Overview
 ----------------
 

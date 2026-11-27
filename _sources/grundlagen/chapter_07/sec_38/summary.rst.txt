@@ -11,12 +11,6 @@
 
 .. rubric:: Structural & Mathematical Overview — *§ 38: Die Darstellung algebraischer Zahlen und ganzer rationaler Funktionen als Summe von Quadraten*
 
-Parallel Reading Tracks
------------------------
-
-* **English (1902 Townsend)**: :ref:`§ 38 (p. 122) <grundlagen-en-s38>`
-* **Deutsch (1899 Teubner)**: :ref:`§ 38 (S. 82) <grundlagen-de-s38>`
-
 Section Overview
 ----------------
 

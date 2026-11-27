@@ -11,12 +11,6 @@
 
 .. rubric:: Structural & Mathematical Overview — *§ 13: Complexe Zahlensysteme*
 
-Parallel Reading Tracks
------------------------
-
-* **English (1902 Townsend)**: :ref:`§ 13 (p. 37) <grundlagen-en-s13>`
-* **Deutsch (1899 Teubner)**: :ref:`§ 13 (S. 26) <grundlagen-de-s13>`
-
 Section Overview
 ----------------
 

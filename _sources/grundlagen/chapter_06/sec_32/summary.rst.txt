@@ -11,12 +11,6 @@
 
 .. rubric:: Structural & Mathematical Overview — *§ 32: Das commutative Gesetz der Multiplikation im Archimedischen Zahlensystem*
 
-Parallel Reading Tracks
------------------------
-
-* **English (1902 Townsend)**: :ref:`§ 32 (p. 105) <grundlagen-en-s32>`
-* **Deutsch (1899 Teubner)**: :ref:`§ 32 (S. 72) <grundlagen-de-s32>`
-
 Section Overview
 ----------------
 

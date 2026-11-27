@@ -11,12 +11,6 @@
 
 .. rubric:: Structural & Mathematical Overview — *§ 15: Die Streckenrechnung auf Grund des Pascalschen Satzes*
 
-Parallel Reading Tracks
------------------------
-
-* **English (1902 Townsend)**: :ref:`§ 15 (p. 46) <grundlagen-en-s15>`
-* **Deutsch (1899 Teubner)**: :ref:`§ 15 (S. 32) <grundlagen-de-s15>`
-
 Section Overview
 ----------------
 

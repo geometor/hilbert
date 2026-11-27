@@ -11,12 +11,6 @@
 
 .. rubric:: Structural & Mathematical Overview — *§ 5: Die Axiomgruppe III: Axiom der Parallelen (Euklidisches Axiom)*
 
-Parallel Reading Tracks
------------------------
-
-* **English (1902 Townsend)**: :ref:`§ 5 (p. 12) <grundlagen-en-s5>`
-* **Deutsch (1899 Teubner)**: :ref:`§ 5 (S. 9) <grundlagen-de-s5>`
-
 Section Overview
 ----------------
 

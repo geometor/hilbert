@@ -11,12 +11,6 @@
 
 .. rubric:: Structural & Mathematical Overview — *§ 24: Einführung einer Streckenrechnung ohne Hülfe der Congruenzaxiome auf Grund des Desarguesschen Satzes*
 
-Parallel Reading Tracks
------------------------
-
-* **English (1902 Townsend)**: :ref:`§ 24 (p. 79) <grundlagen-en-s24>`
-* **Deutsch (1899 Teubner)**: :ref:`§ 24 (S. 55) <grundlagen-de-s24>`
-
 Section Overview
 ----------------
 
